@@ -8,9 +8,12 @@ order = ['index.html','49ers.html','warriors.html','giants.html','bayarea.html',
 roots = [f for f in glob.glob('*.html') if f not in EXCLUDE]
 roots = sorted(roots, key=lambda f: (order.index(f) if f in order else 999, f))
 arts = sorted(glob.glob('articles/*.html'))
+daily = sorted(glob.glob('daily/*.html'))
 urls = []
 for f in roots:
     urls.append(BASE if f == 'index.html' else BASE + f)
+for f in daily:
+    urls.append(BASE + f.replace(os.sep, '/'))
 for f in arts:
     urls.append(BASE + f.replace(os.sep, '/'))
 xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

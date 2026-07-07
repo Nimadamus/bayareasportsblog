@@ -245,6 +245,35 @@ img[src*="chase-center"]{object-position:50% 45%!important}
 .rel-grid a h4{font-size:14px;margin-top:6px;line-height:1.32}
 @media(max-width:700px){.rel-grid{grid-template-columns:1fr}}
 
+/* --- Daily CTA (homepage) --- */
+.daily-cta{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  background:linear-gradient(120deg,var(--accent),#8e0f18);border:1px solid var(--line);border-radius:16px;padding:24px 28px}
+.daily-cta .dcta-txt{max-width:70ch}
+.daily-cta .tag{background:rgba(0,0,0,.35)}
+.daily-cta h2{font-size:24px;letter-spacing:-.4px;margin:4px 0 6px;color:#fff}
+.daily-cta p{color:#ffe3e5;font-size:15px}
+.daily-cta .dcta-go{background:#fff;color:var(--accent);font-weight:800;font-size:15px;padding:12px 20px;border-radius:10px;white-space:nowrap;flex:none}
+.daily-cta:hover .dcta-go{background:#111;color:#fff}
+
+/* --- Daily digest --- */
+.dgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.dcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.dc-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.dc-head h3{font-size:19px;letter-spacing:-.3px}
+.dc-head .rec{font-size:13px;font-weight:800;color:var(--accent2);background:var(--surface2);border:1px solid var(--line);padding:3px 9px;border-radius:999px;white-space:nowrap}
+.dline{font-size:15px;color:#dfe3ea;margin-bottom:8px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.dline.off{color:var(--muted);font-style:italic}
+.wl{font-size:11px;font-weight:900;color:#fff;border-radius:5px;padding:2px 7px;flex:none}
+.wl.win{background:#1f9d55}.wl.loss{background:#c0392b}
+.nx{font-size:10px;font-weight:900;letter-spacing:.5px;color:#fff;background:var(--accent);border-radius:5px;padding:2px 7px;flex:none}
+.dc-news{margin-top:12px}
+.dnews{list-style:none;margin-top:6px}
+.dnews li{position:relative;padding:7px 0 7px 16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.dnews li:before{content:"\203A";position:absolute;left:0;top:7px;color:var(--accent2);font-weight:900}
+.dindex .mini{padding:0}
+.dindex .m-body{padding:16px}
+@media(max-width:760px){.dgrid{grid-template-columns:1fr}}
+
 /* --- Article rich components --- */
 .fact-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0}
 .fact-tiles .ft{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}
