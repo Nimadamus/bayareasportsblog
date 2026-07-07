@@ -89,11 +89,58 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 .foot-grid a:hover{color:#fff}
 .foot-bottom{border-top:1px solid var(--line);padding:18px 0;color:var(--muted);font-size:13px;text-align:center}
 
+/* --- Redesign additions --- */
+.hero{padding:28px 0 6px}
+.feature{min-height:460px}
+.feature h2{font-size:34px}
+.eyebrow{display:flex;align-items:center;gap:10px;margin:6px 0 18px}
+.eyebrow .bar{width:34px;height:4px;border-radius:3px;background:var(--accent)}
+.eyebrow span{font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted)}
+
+/* Latest rail (right of hero) */
+.rail{display:flex;flex-direction:column;gap:12px}
+.rail-head{font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--accent2);margin-bottom:2px}
+.rail-item{display:grid;grid-template-columns:96px 1fr;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.15s}
+.rail-item:hover{border-color:var(--accent)}
+.rail-item .rthumb{position:relative;background:var(--surface2);overflow:hidden}
+.rail-item .rthumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.rail-item .rbody{padding:12px 12px 12px 0;display:flex;flex-direction:column;justify-content:center;gap:5px}
+.rail-item .k{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--accent2)}
+.rail-item h4{font-size:14px;line-height:1.3}
+
+/* Card images */
+.card .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:.3s}
+.card:hover .thumb img{transform:scale(1.05)}
+
+/* Category band with imagery */
+.cat-band{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cat-tile{position:relative;border-radius:14px;overflow:hidden;min-height:180px;border:1px solid var(--line);display:flex;align-items:flex-end}
+.cat-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:.3s}
+.cat-tile:hover img{transform:scale(1.06)}
+.cat-tile .ov{position:relative;width:100%;padding:18px;background:linear-gradient(to top,rgba(8,9,12,.92),rgba(8,9,12,.15));display:flex;align-items:center;justify-content:space-between}
+.cat-tile .ov h3{font-size:20px;letter-spacing:-.3px}
+.cat-tile .ov .go{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:800;flex:none}
+
+/* Wide feature row */
+.hsplit{display:grid;grid-template-columns:1.3fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.hsplit .pic{position:relative;min-height:260px;background:var(--surface2)}
+.hsplit .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hsplit .txt{padding:30px}
+.hsplit .txt h2{font-size:26px;letter-spacing:-.5px;margin:10px 0 10px}
+.hsplit .txt p{color:var(--muted);margin-bottom:14px}
+.readmore{display:inline-block;font-weight:800;font-size:14px;color:var(--accent2)}
+
 @media(max-width:900px){
   .hero-grid{grid-template-columns:1fr}
   .grid{grid-template-columns:repeat(2,1fr)}
   .teams{grid-template-columns:repeat(2,1fr)}
+  .cat-band{grid-template-columns:repeat(2,1fr)}
   .foot-grid{grid-template-columns:1fr 1fr}
+  .hsplit{grid-template-columns:1fr}
+  .feature h2{font-size:26px}
+}
+@media(max-width:640px){
+  .cat-band{grid-template-columns:1fr}
 }
 @media(max-width:640px){
   .nav-toggle{display:block}

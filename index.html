@@ -13,7 +13,7 @@
   <div class="wrap hdr-top">
     <a class="brand" href="index.html">
       <span class="mark">BA</span>
-      <span class="name">Bay Area <span>Sports Blog</span><small>49ers · Warriors · Giants · A's · Sharks</small></span>
+      <span class="name">Bay Area <span>Sports Blog</span><small>49ers &middot; Warriors &middot; Giants &middot; A's &middot; Sharks</small></span>
     </a>
     <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('nav.main').classList.toggle('open')">&#9776;</button>
     <nav class="main">
@@ -35,75 +35,101 @@
 </header>
 
 <main>
+  <!-- HERO: single featured story + browse rail -->
   <section class="hero">
-    <div class="wrap hero-grid">
-      <a class="feature" href="articles/brandon-aiyuk-antonio-brown-49ers.html">
-        <img src="assets/aiyuk.svg" alt="The Aiyuk spiral, a 49ers success story turned strange">
-        <div class="body">
-          <span class="tag">Featured &middot; 49ers</span>
-          <h2>Brandon Aiyuk Has Gone Full Antonio Brown, and It's Hard to Watch</h2>
-          <p>Aiyuk once looked like one of the 49ers' cleanest success stories. Since the Super Bowl loss to Kansas City, the story has turned into something much stranger.</p>
+    <div class="wrap">
+      <div class="eyebrow"><span class="bar"></span><span>Top Story</span></div>
+      <div class="hero-grid">
+        <a class="feature" href="articles/brandon-aiyuk-antonio-brown-49ers.html">
+          <img src="assets/img/hero-football.jpg" alt="A football running back cutting upfield with the ball">
+          <div class="body">
+            <span class="tag">49ers Column</span>
+            <h2>Brandon Aiyuk Has Gone Full Antonio Brown, and It's Hard to Watch</h2>
+            <p>Aiyuk once looked like one of the 49ers' cleanest success stories. Since the Super Bowl loss to Kansas City, the story has turned into something much stranger.</p>
+          </div>
+        </a>
+        <div class="rail">
+          <div class="rail-head">Browse Sections</div>
+          <a class="rail-item" href="49ers.html">
+            <div class="rthumb"><img src="assets/img/football-49ers.jpg" alt="Football action"></div>
+            <div class="rbody"><div class="k">49ers</div><h4>Niners analysis and Sunday storylines</h4></div>
+          </a>
+          <a class="rail-item" href="warriors.html">
+            <div class="rthumb"><img src="assets/img/basketball-warriors.jpg" alt="Basketball player with the ball"></div>
+            <div class="rbody"><div class="k">Warriors</div><h4>Dubs takes from Chase Center</h4></div>
+          </a>
+          <a class="rail-item" href="giants.html">
+            <div class="rthumb"><img src="assets/img/baseball-giants.jpg" alt="Baseball at the plate"></div>
+            <div class="rbody"><div class="k">Giants</div><h4>Oracle Park series notes and lineup watch</h4></div>
+          </a>
+          <a class="rail-item" href="sharks.html">
+            <div class="rthumb"><img src="assets/img/hockey-sharks.jpg" alt="Ice hockey action"></div>
+            <div class="rbody"><div class="k">Sharks</div><h4>San Jose hockey news and analysis</h4></div>
+          </a>
         </div>
-      </a>
-      <div class="side-list">
-        <a class="side-item" href="articles/brandon-aiyuk-antonio-brown-49ers.html"><div class="k">49ers Column</div><h3>The Aiyuk spiral: a success story turned strange</h3></a>
-        <a class="side-item" href="49ers.html"><div class="k">49ers</div><h3>Niners coverage, analysis, and Sunday storylines</h3></a>
-        <a class="side-item" href="betting.html"><div class="k">Betting</div><h3>Bay Area betting angles and value spots</h3></a>
       </div>
     </div>
   </section>
 
+  <!-- LATEST STORIES -->
   <section class="section">
     <div class="wrap">
-      <div class="section-head"><h2>Latest Articles</h2><a href="articles/welcome-to-bay-area-sports-blog.html">View all</a></div>
+      <div class="section-head"><h2>Latest Stories</h2></div>
       <div class="grid">
-        <a class="card" href="articles/brandon-aiyuk-antonio-brown-49ers.html">
-          <div class="thumb"><img src="assets/aiyuk.svg" alt="The Aiyuk spiral editorial graphic" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><span>49ers</span></div>
+        <a class="card" href="articles/warriors-out-of-easy-answers.html">
+          <div class="thumb"><img src="assets/img/basketball-warriors.jpg" alt="Basketball player holding the ball in an arena"><span>Warriors</span></div>
           <div class="c-body">
-            <div class="meta">49ers &middot; Column</div>
-            <h3>Brandon Aiyuk Has Gone Full Antonio Brown, and It's Hard to Watch</h3>
-            <p>Aiyuk was one of the 49ers' cleanest success stories. Since the Super Bowl loss to Kansas City, it turned into something much stranger.</p>
+            <div class="meta">Warriors &middot; Column</div>
+            <h3>The Warriors Are Out of Easy Answers, and That's the Whole Story</h3>
+            <p>The dynasty bought Golden State years of benefit of the doubt. That grace period is finally over.</p>
+          </div>
+        </a>
+        <a class="card" href="articles/giants-oracle-park-still-waiting.html">
+          <div class="thumb"><img src="assets/img/baseball-giants.jpg" alt="Baseball player batting during a game"><span>Giants</span></div>
+          <div class="c-body">
+            <div class="meta">Giants &middot; Column</div>
+            <h3>The Giants Keep Promising October. Oracle Park Is Still Waiting.</h3>
+            <p>San Francisco keeps building teams that are fine. Fine does not fill the ballpark in September.</p>
           </div>
         </a>
         <a class="card" href="articles/welcome-to-bay-area-sports-blog.html">
-          <div class="thumb"><span>Bay Area Sports</span></div>
+          <div class="thumb"><img src="assets/img/baseball-athletics.jpg" alt="Baseball game action"><span>Bay Area Sports</span></div>
           <div class="c-body">
             <div class="meta">Bay Area Sports</div>
             <h3>Welcome to Bay Area Sports Blog</h3>
-            <p>Covering the 49ers, Warriors, Giants, A's, Sharks, Stanford, Cal, betting, and fan reactions across Bay Area sports.</p>
+            <p>Covering the 49ers, Warriors, Giants, A's, Sharks, Stanford, Cal, betting, and fan reactions across the Bay.</p>
           </div>
         </a>
-        <a class="card" href="49ers.html">
-          <div class="thumb"><span>49ers</span></div>
-          <div class="c-body"><div class="meta">49ers</div><h3>Niners section</h3><p>Analysis, opinion, and game coverage for San Francisco's NFL team.</p></div>
-        </a>
       </div>
     </div>
   </section>
 
+  <!-- EXPLORE BY TEAM -->
   <section class="section">
     <div class="wrap">
-      <div class="section-head"><h2>Teams &amp; Sections</h2></div>
-      <div class="teams">
-        <a class="team-chip" href="49ers.html"><span class="dot" style="background:#aa0000"></span>49ers</a>
-        <a class="team-chip" href="warriors.html"><span class="dot" style="background:#1d428a"></span>Warriors</a>
-        <a class="team-chip" href="giants.html"><span class="dot" style="background:#fd5a1e"></span>Giants</a>
-        <a class="team-chip" href="athletics.html"><span class="dot" style="background:#003831"></span>A's</a>
-        <a class="team-chip" href="sharks.html"><span class="dot" style="background:#006d75"></span>Sharks</a>
-        <a class="team-chip" href="stanford.html"><span class="dot" style="background:#8c1515"></span>Stanford</a>
-        <a class="team-chip" href="cal.html"><span class="dot" style="background:#003262"></span>Cal</a>
-        <a class="team-chip" href="betting.html"><span class="dot" style="background:#f5a623"></span>Betting</a>
+      <div class="section-head"><h2>Explore by Team</h2></div>
+      <div class="cat-band">
+        <a class="cat-tile" href="49ers.html"><img src="assets/img/football-49ers.jpg" alt="Football"><div class="ov"><h3>49ers</h3><span class="go">&rarr;</span></div></a>
+        <a class="cat-tile" href="warriors.html"><img src="assets/img/basketball-warriors.jpg" alt="Basketball"><div class="ov"><h3>Warriors</h3><span class="go">&rarr;</span></div></a>
+        <a class="cat-tile" href="giants.html"><img src="assets/img/baseball-giants.jpg" alt="Baseball"><div class="ov"><h3>Giants</h3><span class="go">&rarr;</span></div></a>
+        <a class="cat-tile" href="athletics.html"><img src="assets/img/baseball-athletics.jpg" alt="Baseball"><div class="ov"><h3>A's</h3><span class="go">&rarr;</span></div></a>
+        <a class="cat-tile" href="sharks.html"><img src="assets/img/hockey-sharks.jpg" alt="Ice hockey"><div class="ov"><h3>Sharks</h3><span class="go">&rarr;</span></div></a>
+        <a class="cat-tile" href="betting.html"><img src="assets/img/football-betting.jpg" alt="Football stadium"><div class="ov"><h3>Betting</h3><span class="go">&rarr;</span></div></a>
       </div>
     </div>
   </section>
 
+  <!-- SPOTLIGHT / ABOUT SPLIT -->
   <section class="section">
     <div class="wrap">
-      <div class="section-head"><h2>Trending Topics</h2></div>
-      <div class="grid">
-        <a class="card" href="49ers.html"><div class="c-body"><div class="meta">49ers</div><h3>Niners Sunday storylines</h3><p>What to watch for the Niners this week.</p></div></a>
-        <a class="card" href="giants.html"><div class="c-body"><div class="meta">Giants</div><h3>Giants at Oracle Park</h3><p>Series notes and lineup watch for SF baseball.</p></div></a>
-        <a class="card" href="betting.html"><div class="c-body"><div class="meta">Betting</div><h3>Bay Area value spots</h3><p>Where the numbers point this week.</p></div></a>
+      <div class="hsplit">
+        <div class="pic"><img src="assets/img/football-betting.jpg" alt="A packed football stadium under the lights"></div>
+        <div class="txt">
+          <span class="tag">The Blog</span>
+          <h2>Bay Area sports, told like a fan actually watches</h2>
+          <p>Opinion, analysis, and fan reactions across the 49ers, Warriors, Giants, A's, Sharks, Stanford, Cal, and the betting angles that matter. No corporate voice, no filler, just the Bay Area sports conversation.</p>
+          <a class="readmore" href="about.html">About Bay Area Sports Blog &rarr;</a>
+        </div>
       </div>
     </div>
   </section>
