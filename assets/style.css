@@ -143,6 +143,39 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
   .cat-band{grid-template-columns:1fr}
 }
 
+/* --- Blog layout (lead + post list) --- */
+.lead{display:grid;grid-template-columns:1.35fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.lead .lead-media{position:relative;min-height:360px;background:var(--surface2)}
+.lead .lead-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.lead .lead-body{padding:36px;display:flex;flex-direction:column;justify-content:center}
+.lead .lead-body h2{font-size:32px;line-height:1.15;letter-spacing:-.6px;margin:12px 0}
+.lead .lead-body p{color:var(--muted);font-size:16px;margin-bottom:16px;max-width:52ch}
+
+.postlist{display:flex;flex-direction:column;gap:20px}
+.post{display:grid;grid-template-columns:320px 1fr;gap:24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.15s}
+.post:hover{border-color:var(--accent);transform:translateY(-2px)}
+.post .post-media{position:relative;background:var(--surface2);min-height:210px}
+.post .post-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.post .post-body{padding:24px 26px 24px 0;display:flex;flex-direction:column;justify-content:center}
+.post .post-cat{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--accent2);margin-bottom:9px}
+.post h3{font-size:22px;line-height:1.25;letter-spacing:-.4px;margin-bottom:10px}
+.post p{color:var(--muted);font-size:15px;margin-bottom:12px}
+.post .rd{font-weight:800;font-size:13px;color:var(--accent2)}
+
+.team-nav{display:flex;flex-wrap:wrap;gap:10px}
+.team-nav a{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:700;font-size:14px;transition:.15s}
+.team-nav a:hover{border-color:var(--accent);background:var(--surface2)}
+.team-nav a .dot{width:11px;height:11px;border-radius:50%}
+
+@media(max-width:720px){
+  .lead{grid-template-columns:1fr}
+  .lead .lead-media{min-height:220px}
+  .lead .lead-body{padding:24px}
+  .post{grid-template-columns:1fr}
+  .post .post-media{min-height:0;aspect-ratio:16/9}
+  .post .post-body{padding:0 22px 22px}
+}
+
 /* --- Article rich components --- */
 .fact-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0}
 .fact-tiles .ft{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}
