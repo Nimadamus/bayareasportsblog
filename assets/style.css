@@ -5,6 +5,8 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
+html,body{overflow-x:hidden}
+h1,h2,h3,h4,p{overflow-wrap:break-word}
 body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
@@ -146,7 +148,7 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 /* --- Blog layout (lead + post list) --- */
 .lead{display:grid;grid-template-columns:1.35fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 .lead .lead-media{position:relative;min-height:360px;background:var(--surface2)}
-.lead .lead-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.lead .lead-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
 .lead .lead-body{padding:36px;display:flex;flex-direction:column;justify-content:center}
 .lead .lead-body h2{font-size:32px;line-height:1.15;letter-spacing:-.6px;margin:12px 0}
 .lead .lead-body p{color:var(--muted);font-size:16px;margin-bottom:16px;max-width:52ch}
@@ -155,7 +157,7 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 .post{display:grid;grid-template-columns:320px 1fr;gap:24px;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.15s}
 .post:hover{border-color:var(--accent);transform:translateY(-2px)}
 .post .post-media{position:relative;background:var(--surface2);min-height:210px}
-.post .post-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.post .post-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
 .post .post-body{padding:24px 26px 24px 0;display:flex;flex-direction:column;justify-content:center}
 .post .post-cat{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--accent2);margin-bottom:9px}
 .post h3{font-size:22px;line-height:1.25;letter-spacing:-.4px;margin-bottom:10px}
@@ -173,7 +175,9 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
   .lead .lead-body{padding:24px}
   .post{grid-template-columns:1fr}
   .post .post-media{min-height:0;aspect-ratio:16/9}
-  .post .post-body{padding:0 22px 22px}
+  .post .post-body{padding:18px 22px 22px}
+  .lead .lead-body h2{font-size:26px}
+  .post h3{font-size:20px}
 }
 
 /* --- Article rich components --- */
