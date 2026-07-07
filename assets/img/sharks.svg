@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Sharks section graphic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#03211f"/>
+      <stop offset="60%" stop-color="#064a4a"/>
+      <stop offset="100%" stop-color="#0b0d11"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#009aa6"/>
+      <stop offset="1" stop-color="#dfe3e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- diagonal accent field -->
+  <polygon points="760,0 1200,0 1200,675 560,675" fill="#009aa6" fill-opacity="0.10"/>
+  <!-- motion lines -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="3">
+    <line x1="620" y1="70" x2="1200" y2="70"/>
+    <line x1="660" y1="150" x2="1200" y2="150"/>
+    <line x1="700" y1="230" x2="1200" y2="230"/>
+  </g>
+  <!-- big translucent watermark (number or monogram) -->
+  <text x="1150" y="560" text-anchor="end" font-family="Arial Black, Arial, sans-serif" font-size="440" font-weight="900" fill="url(#acc)" fill-opacity="0.16">SJ</text>
+  <!-- accent underline -->
+  <rect x="90" y="150" width="86" height="12" rx="6" fill="#009aa6"/>
+  <!-- team wordmark -->
+  <text x="88" y="250" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#dfe3e6">SAN JOSE</text>
+  <text x="84" y="360" font-family="Arial Black, Arial, sans-serif" font-size="104" font-weight="900" fill="#ffffff" letter-spacing="-2">SHARKS</text>
+  <!-- subject -->
+  <text x="90" y="430" font-family="Arial, sans-serif" font-size="30" fill="#d7dbe3">NHL news and analysis</text>
+  <!-- footer tag -->
+  <text x="90" y="600" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3" fill="#009aa6">BAY AREA SPORTS BLOG &#183; SHARKS</text>
+</svg>
