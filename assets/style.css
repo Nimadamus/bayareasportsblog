@@ -163,7 +163,8 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 .post .post-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
 .post .post-body{padding:24px 26px 24px 0;display:flex;flex-direction:column;justify-content:center}
 .post .post-cat{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--accent2);margin-bottom:9px}
-.post h3{font-size:22px;line-height:1.25;letter-spacing:-.4px;margin-bottom:10px}
+.post h3{font-size:22px;line-height:1.25;letter-spacing:-.4px;margin-bottom:10px;transition:color .18s}
+.post:hover h3{color:#fff}
 .post p{color:var(--muted);font-size:15px;margin-bottom:12px}
 .post .rd{font-weight:800;font-size:13px;color:var(--accent2)}
 
@@ -183,20 +184,20 @@ img[src*="purdy"]{object-position:50% 16%!important}
 img[src*="vitello"]{object-position:50% 32%!important}
 img[src*="oracle-park"]{object-position:50% 55%!important}
 img[src*="chase-center"]{object-position:50% 45%!important}
-img[src*="bonds"]{object-position:50% 50%!important}
-img[src*="kent"]{object-position:50% 50%!important}
-img[src*="mays"]{object-position:50% 50%!important}
-img[src*="marichal"]{object-position:50% 50%!important}
-img[src*="perry"]{object-position:50% 50%!important}
-img[src*="cepeda"]{object-position:50% 50%!important}
-img[src*="bochy"]{object-position:50% 50%!important}
-img[src*="romo"]{object-position:50% 50%!important}
-img[src*="affeldt"]{object-position:50% 50%!important}
-img[src*="lopez"]{object-position:50% 50%!important}
-img[src*="casilla"]{object-position:50% 50%!important}
-img[src*="durant"]{object-position:50% 50%!important}
-img[src*="green"]{object-position:50% 50%!important}
-img[src*="curry2016"]{object-position:50% 50%!important}
+img[src*="bonds"]{object-position:50% 28%!important}
+img[src*="kent"]{object-position:50% 20%!important}
+img[src*="mays"]{object-position:50% 30%!important}
+img[src*="marichal"]{object-position:50% 28%!important}
+img[src*="perry"]{object-position:50% 30%!important}
+img[src*="cepeda"]{object-position:50% 28%!important}
+img[src*="bochy"]{object-position:50% 26%!important}
+img[src*="romo"]{object-position:50% 38%!important}
+img[src*="affeldt"]{object-position:50% 34%!important}
+img[src*="lopez"]{object-position:50% 34%!important}
+img[src*="casilla"]{object-position:50% 26%!important}
+img[src*="durant"]{object-position:50% 24%!important}
+img[src*="green"]{object-position:50% 28%!important}
+img[src*="curry2016"]{object-position:50% 24%!important}
 
 .team-nav{display:flex;flex-wrap:wrap;gap:10px}
 .team-nav a{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:700;font-size:14px;transition:.15s}
@@ -221,13 +222,16 @@ img[src*="curry2016"]{object-position:50% 50%!important}
 .th a{color:var(--muted);font-size:13px;font-weight:700}
 .th a:hover{color:var(--accent2)}
 .mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.mini{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.15s;display:flex;flex-direction:column}
-.mini:hover{border-color:var(--accent);transform:translateY(-2px)}
-.mini .m-media{position:relative;aspect-ratio:16/9;background:var(--surface2);overflow:hidden}
-.mini .m-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.mini .m-body{padding:14px}
+.mini{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:border-color .18s,transform .18s,box-shadow .18s;display:flex;flex-direction:column}
+.mini:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.35)}
+/* Reusable card media: fixed 16:9, cover crop, smooth zoom on hover */
+.card-media,.mini .m-media{position:relative;aspect-ratio:16/9;background:var(--surface2);overflow:hidden}
+.card-media img,.mini .m-media img,.post .post-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.mini:hover .m-media img,.post:hover .post-media img{transform:scale(1.06)}
+.mini .m-body{padding:14px 15px 16px;display:flex;flex-direction:column;flex:1}
 .mini .m-cat{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:var(--accent2);margin-bottom:6px}
-.mini h3{font-size:16px;line-height:1.3}
+.mini h3{font-size:16px;line-height:1.3;font-weight:800;letter-spacing:-.2px;transition:color .18s}
+.mini:hover h3{color:#fff}
 @media(max-width:900px){.mini-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.mini-grid{grid-template-columns:1fr}}
 
