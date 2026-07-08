@@ -180,12 +180,12 @@ img[src*="purdy"]{object-position:50% 16%!important}
 img[src*="vitello"]{object-position:50% 32%!important}
 img[src*="oracle-park"]{object-position:50% 55%!important}
 img[src*="chase-center"]{object-position:50% 45%!important}
-img[src*="bonds"]{object-position:50% 22%!important}
-img[src*="kent"]{object-position:50% 18%!important}
-img[src*="mays"]{object-position:50% 20%!important}
-img[src*="marichal"]{object-position:50% 22%!important}
-img[src*="perry"]{object-position:50% 20%!important}
-img[src*="cepeda"]{object-position:50% 20%!important}
+img[src*="bonds"]{object-position:50% 50%!important}
+img[src*="kent"]{object-position:50% 50%!important}
+img[src*="mays"]{object-position:50% 50%!important}
+img[src*="marichal"]{object-position:50% 50%!important}
+img[src*="perry"]{object-position:50% 50%!important}
+img[src*="cepeda"]{object-position:50% 50%!important}
 
 .team-nav{display:flex;flex-wrap:wrap;gap:10px}
 .team-nav a{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:700;font-size:14px;transition:.15s}
