@@ -186,6 +186,14 @@ img[src*="mays"]{object-position:50% 50%!important}
 img[src*="marichal"]{object-position:50% 50%!important}
 img[src*="perry"]{object-position:50% 50%!important}
 img[src*="cepeda"]{object-position:50% 50%!important}
+img[src*="bochy"]{object-position:50% 50%!important}
+img[src*="romo"]{object-position:50% 50%!important}
+img[src*="affeldt"]{object-position:50% 50%!important}
+img[src*="lopez"]{object-position:50% 50%!important}
+img[src*="casilla"]{object-position:50% 50%!important}
+img[src*="durant"]{object-position:50% 50%!important}
+img[src*="green"]{object-position:50% 50%!important}
+img[src*="curry2016"]{object-position:50% 50%!important}
 
 .team-nav{display:flex;flex-wrap:wrap;gap:10px}
 .team-nav a{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:700;font-size:14px;transition:.15s}
