@@ -340,30 +340,22 @@ img[src*="curry2016"]{object-position:50% 24%!important}
   .foot-grid{grid-template-columns:1fr}
 }
 
-/* Bay Area championship photos as fixed page background (replaces plain black) */
+/* Subtle, non-distracting page background (was an overpowering 4-photo montage) */
 body::before{
   content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
-  background-color:#0f1115;
+  background-color:#0c0e12;
   background-image:
-    linear-gradient(180deg,rgba(15,17,21,.60),rgba(15,17,21,.78)),
-    url('img/players/bumgarner.jpg'),
-    url('img/players/curry.jpg'),
-    url('img/players/montana-49ers.jpg'),
-    url('img/players/rice-49ers.jpg');
-  background-repeat:no-repeat;
-  background-position:center,left center,center center,80% center,right center;
-  background-size:cover,33.34% 100%,33.34% 100%,16.67% 100%,16.67% 100%;
-}
-@media(max-width:840px){
-  body::before{
-    background-position:center,center 0%,center 33%,center 66%,center 100%;
-    background-size:cover,100% 25.6%,100% 25.6%,100% 25.6%,100% 25.6%;
-  }
+    radial-gradient(1100px 620px at 50% -8%,rgba(225,29,42,.10),transparent 60%),
+    radial-gradient(900px 600px at 100% 120%,rgba(29,66,138,.10),transparent 60%);
 }
 
 /* ===== Editorial magazine layout (homepage) ===== */
-main{max-width:1120px;margin:22px auto;background:rgba(13,15,19,.90);border:1px solid var(--line);border-radius:18px;padding:6px 0 26px;box-shadow:0 24px 70px rgba(0,0,0,.45);backdrop-filter:blur(4px)}
-@media(max-width:1160px){main{margin:0;border-radius:0;border-left:0;border-right:0}}
+main{max-width:1200px;margin:22px auto;background:rgba(14,16,20,.92);border:1px solid var(--line);border-radius:18px;padding:6px 34px 30px;box-shadow:0 24px 70px rgba(0,0,0,.40)}
+main>.section:first-child,main>section:first-child{padding-top:8px}
+@media(max-width:1240px){main{margin:0;border-radius:0;border-left:0;border-right:0}}
+@media(max-width:640px){main{padding:6px 16px 24px}}
+/* let inner wraps go full width of the padded container */
+main .wrap{max-width:none;padding:0}
 
 .ed-lead{display:block;padding:24px 0 6px}
 .ed-lead .ph{width:100%;height:430px;border-radius:14px;overflow:hidden;margin-bottom:18px;border:1px solid var(--line);background:#000}
@@ -398,3 +390,63 @@ main{max-width:1120px;margin:22px auto;background:rgba(13,15,19,.90);border:1px 
 .ed-mini h4{font-size:16.5px;line-height:1.24;margin-top:3px;font-weight:700;transition:.15s}
 .ed-mini:hover h4{color:var(--accent2)}
 .ed-mini .num{color:var(--accent2);font-weight:800;margin-right:8px}
+
+/* ===== Home hero band ===== */
+.home-hero{padding:30px 0 8px}
+.home-hero .hh-inner{display:flex;flex-direction:column;gap:12px;align-items:flex-start;padding:26px 0 20px;border-bottom:2px solid var(--accent)}
+.home-hero .hh-kick{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--accent2)}
+.home-hero h1{font-size:40px;line-height:1.05;letter-spacing:-1.2px;font-weight:900}
+.home-hero h1 span{color:var(--accent)}
+.home-hero p{color:var(--muted);font-size:17px;max-width:66ch}
+.home-hero .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.home-hero .chips a{font-size:12.5px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:8px 14px;transition:.15s}
+.home-hero .chips a:hover{border-color:var(--accent);color:#fff}
+@media(max-width:640px){.home-hero h1{font-size:30px}}
+
+/* ===== Category tag (on cards / lead) ===== */
+.catpill{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#fff;padding:4px 9px;border-radius:6px;background:var(--accent)}
+.catpill.t-49ers{background:#aa0000}
+.catpill.t-warriors{background:#1d428a}
+.catpill.t-giants{background:#b4530f}
+.catpill.t-athletics{background:#0b6b3a}
+.catpill.t-sharks{background:#046b74}
+.catpill.t-history{background:#8a6d1a}
+.catpill.t-opinion,.catpill.t-columns{background:#6d28d9}
+.catpill.t-latest{background:#e11d2a}
+
+/* ===== Team-section header with accent ===== */
+.sec-lbl{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:6px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+.sec-lbl .sl-left{display:flex;align-items:center;gap:11px;min-width:0}
+.sec-lbl .sl-dot{width:12px;height:12px;border-radius:3px;flex:none}
+.sec-lbl h2{font-size:15px;letter-spacing:1.6px;text-transform:uppercase;font-weight:900}
+.sec-lbl a{color:var(--muted);font-size:12.5px;font-weight:800;white-space:nowrap}
+.sec-lbl a:hover{color:var(--accent2)}
+
+/* ===== Timeline page ===== */
+.tl-hero{padding:46px 0 10px}
+.tl-hero .tag{margin-bottom:14px}
+.tl-hero h1{font-size:38px;letter-spacing:-1px;font-weight:900}
+.tl-hero p{color:var(--muted);margin-top:10px;max-width:74ch;font-size:16px}
+.era-nav{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 4px}
+.era-nav a{font-size:12.5px;font-weight:800;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:8px 14px;transition:.15s}
+.era-nav a:hover{border-color:var(--accent);color:#fff}
+
+.era{margin:34px 0 8px;scroll-margin-top:80px}
+.era-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-left:5px solid var(--accent);padding-left:14px;margin-bottom:18px}
+.era-head .yr{font-size:26px;font-weight:900;letter-spacing:-.5px;color:#fff}
+.era-head h2{font-size:20px;letter-spacing:-.3px}
+.era-head .sub{color:var(--muted);font-size:14px;flex-basis:100%;margin-top:2px}
+
+.era-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:.18s}
+a.tcard:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.tcard .tc-media{position:relative;aspect-ratio:16/10;background:var(--surface2);overflow:hidden}
+.tcard .tc-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+a.tcard:hover .tc-media img{transform:scale(1.06)}
+.tcard .tc-media .yrtag{position:absolute;left:12px;top:12px;background:rgba(0,0,0,.72);border:1px solid rgba(255,255,255,.18);color:#fff;font-size:12px;font-weight:900;letter-spacing:.5px;padding:5px 10px;border-radius:7px}
+.tcard .tc-body{padding:16px 17px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.tcard .tc-team{font-size:10.5px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--accent2)}
+.tcard h3{font-size:18px;line-height:1.25;letter-spacing:-.3px;font-weight:800}
+.tcard p{color:var(--muted);font-size:14px;line-height:1.5}
+@media(max-width:900px){.era-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.era-grid{grid-template-columns:1fr}}
