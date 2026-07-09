@@ -1,5 +1,5 @@
 :root{
-  --bg:#0f1115; --surface:#171a21; --surface2:#1e222b; --line:#2a2f3a;
+  --bg:#0f1115; --surface:rgba(23,26,33,.72); --surface2:rgba(30,34,43,.78); --line:#2a2f3a;
   --text:#e8eaed; --muted:#9aa3b2; --accent:#e11d2a; --accent2:#f5a623;
   --max:1200px; --radius:12px;
 }
@@ -348,14 +348,15 @@ body::before{
     linear-gradient(180deg,rgba(15,17,21,.60),rgba(15,17,21,.78)),
     url('img/players/bumgarner.jpg'),
     url('img/players/curry.jpg'),
-    url('img/players/montana.jpg');
+    url('img/players/montana-49ers.jpg'),
+    url('img/players/rice-49ers.jpg');
   background-repeat:no-repeat;
-  background-position:center,left center,center center,right center;
-  background-size:cover,33.34% 100%,33.34% 100%,33.34% 100%;
+  background-position:center,left center,center center,80% center,right center;
+  background-size:cover,33.34% 100%,33.34% 100%,16.67% 100%,16.67% 100%;
 }
 @media(max-width:840px){
   body::before{
-    background-position:center,center 12%,center 50%,center 88%;
-    background-size:cover,100% 34%,100% 34%,100% 34%;
+    background-position:center,center 0%,center 33%,center 66%,center 100%;
+    background-size:cover,100% 25.6%,100% 25.6%,100% 25.6%,100% 25.6%;
   }
 }
