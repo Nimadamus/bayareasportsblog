@@ -450,3 +450,127 @@ a.tcard:hover .tc-media img{transform:scale(1.06)}
 .tcard p{color:var(--muted);font-size:14px;line-height:1.5}
 @media(max-width:900px){.era-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.era-grid{grid-template-columns:1fr}}
+
+/* ============================================================
+   SECTION IDENTITY SYSTEM — each block reads differently
+   ============================================================ */
+
+/* Shared magazine section heading (kicker + rule) */
+.mag-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:0 0 18px}
+.mag-head .mh-l{min-width:0}
+.mag-head .mh-kick{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--accent2);margin-bottom:5px}
+.mag-head h2{font-size:26px;letter-spacing:-.6px;font-weight:900;line-height:1.05}
+.mag-head .mh-sub{color:var(--muted);font-size:14px;margin-top:6px;max-width:60ch}
+.mag-head .mh-all{white-space:nowrap;font-size:12.5px;font-weight:800;color:var(--text);background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:9px 15px;transition:.15s;flex:none}
+.mag-head .mh-all:hover{border-color:var(--accent);color:#fff}
+@media(max-width:600px){.mag-head h2{font-size:22px}.mag-head .mh-sub{display:none}}
+
+/* Zone wrappers so adjacent sections don't blur together */
+.zone{padding:34px 0;border-top:1px solid var(--line)}
+.zone.plain{border-top:0}
+.zone.dark{background:linear-gradient(180deg,rgba(6,7,10,.55),rgba(6,7,10,.2));margin:0 -34px;padding:38px 34px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+@media(max-width:640px){.zone.dark{margin:0 -16px;padding:30px 16px}}
+
+/* ---- LATEST: 3-up clean article cards ---- */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ncard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.18s}
+.ncard:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.ncard .n-media{position:relative;aspect-ratio:16/9;background:var(--surface2);overflow:hidden}
+.ncard .n-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.ncard:hover .n-media img{transform:scale(1.06)}
+.ncard .n-body{padding:15px 16px 18px;display:flex;flex-direction:column;gap:9px;flex:1}
+.ncard h3{font-size:17px;line-height:1.28;letter-spacing:-.3px;font-weight:800}
+.ncard p{color:var(--muted);font-size:13.5px;line-height:1.5;flex:1}
+@media(max-width:900px){.news-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.news-grid{grid-template-columns:1fr}}
+
+/* ---- TEAM RAIL: colored spine per team ---- */
+.teamrail{--tc:#e11d2a;display:grid;grid-template-columns:200px 1fr;gap:24px;padding:20px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--tc);border-radius:14px;margin-bottom:18px}
+.teamrail .tr-id{display:flex;flex-direction:column;justify-content:center;gap:8px}
+.teamrail .tr-badge{width:46px;height:46px;border-radius:11px;background:var(--tc);display:grid;place-items:center;font-weight:900;color:#fff;font-size:18px;letter-spacing:-.5px}
+.teamrail .tr-id h2{font-size:22px;letter-spacing:-.5px;font-weight:900}
+.teamrail .tr-id a{font-size:12.5px;font-weight:800;color:var(--tc)}
+.teamrail .tr-id a:hover{filter:brightness(1.25)}
+.teamrail .tr-posts{display:flex;flex-direction:column}
+.tr-post{display:grid;grid-template-columns:1fr 84px;gap:16px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.tr-post:last-child{border-bottom:0}
+.tr-post .trp-cat{font-size:10px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:var(--tc)}
+.tr-post h4{font-size:15.5px;line-height:1.3;margin-top:3px;font-weight:700;transition:.15s}
+.tr-post:hover h4{color:#fff}
+.tr-post .trp-thumb{width:84px;height:60px;border-radius:8px;overflow:hidden;border:1px solid var(--line);background:var(--surface2)}
+.tr-post .trp-thumb img{width:100%;height:100%;object-fit:cover}
+@media(max-width:640px){.teamrail{grid-template-columns:1fr;gap:14px}.tr-post{grid-template-columns:1fr 70px}.tr-post .trp-thumb{width:70px;height:50px}}
+
+/* ---- DYNASTY: gold banner cards, championship feel ---- */
+.dyn-wrap{--gold:#f5c451}
+.dyn-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.dyn-card{position:relative;display:grid;grid-template-columns:150px 1fr;background:linear-gradient(135deg,#15130c,#0c0d10);border:1px solid #3a3117;border-radius:14px;overflow:hidden;transition:.18s}
+a.dyn-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.dyn-card .dc-media{position:relative;background:var(--surface2);overflow:hidden}
+.dyn-card .dc-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.9)}
+.dyn-card .dc-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(12,13,16,.85))}
+.dyn-card .dc-body{padding:18px 20px;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.dyn-card .dc-era{font-size:11px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--gold)}
+.dyn-card h3{font-size:20px;line-height:1.15;letter-spacing:-.4px;font-weight:900;color:#fff}
+.dyn-card p{color:#b7b09a;font-size:13.5px;line-height:1.5}
+.dyn-card .rings{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.dyn-card .ring{font-size:10.5px;font-weight:900;color:#0c0d10;background:var(--gold);border-radius:5px;padding:3px 8px;letter-spacing:.5px}
+@media(max-width:820px){.dyn-grid{grid-template-columns:1fr}}
+@media(max-width:460px){.dyn-card{grid-template-columns:1fr}.dyn-card .dc-media{aspect-ratio:16/9}.dyn-card .dc-media::after{background:linear-gradient(180deg,transparent,rgba(12,13,16,.9))}}
+
+/* ---- HISTORY / ARCHIVE: desaturated, aged ---- */
+.arch-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.arch-card{display:flex;flex-direction:column;background:#111214;border:1px solid #2b2622;border-radius:12px;overflow:hidden;transition:.18s}
+.arch-card:hover{border-color:#8a6d1a;transform:translateY(-3px)}
+.arch-card .ar-media{position:relative;aspect-ratio:4/3;background:var(--surface2);overflow:hidden}
+.arch-card .ar-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.55) sepia(.28) contrast(1.02);transition:.4s}
+.arch-card:hover .ar-media img{filter:none}
+.arch-card .ar-media .stamp{position:absolute;left:10px;top:10px;font-size:9.5px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase;color:#f0e2b8;background:rgba(20,16,8,.8);border:1px solid #8a6d1a;padding:4px 8px;border-radius:5px}
+.arch-card .ar-body{padding:13px 14px 16px;flex:1;display:flex;flex-direction:column;gap:6px}
+.arch-card .ar-team{font-size:10px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#c9a84a}
+.arch-card h3{font-size:15px;line-height:1.28;font-weight:800;letter-spacing:-.2px}
+@media(max-width:900px){.arch-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.arch-grid{grid-template-columns:1fr}}
+
+/* ---- TIMELINE PREVIEW: horizontal scroll ---- */
+.tl-strip{display:grid;grid-auto-flow:column;grid-auto-columns:230px;gap:16px;overflow-x:auto;padding:4px 4px 14px;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.tl-strip::-webkit-scrollbar{height:8px}
+.tl-strip::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+.tl-node{scroll-snap-align:start;position:relative;border-radius:12px;overflow:hidden;min-height:210px;border:1px solid var(--line);display:flex;align-items:flex-end;background:#000}
+.tl-node img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.72;transition:.4s}
+.tl-node:hover img{opacity:.85;transform:scale(1.05)}
+.tl-node .tn-ov{position:relative;width:100%;padding:14px;background:linear-gradient(to top,rgba(6,7,10,.95),rgba(6,7,10,.1))}
+.tl-node .tn-yr{font-size:12px;font-weight:900;letter-spacing:1px;color:var(--accent2)}
+.tl-node .tn-team{font-size:10px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#cdd2db;margin-top:2px}
+.tl-node h3{font-size:15px;line-height:1.25;font-weight:800;margin-top:5px;color:#fff}
+.tl-scrollhint{font-size:11px;color:var(--muted);margin-top:4px;letter-spacing:.3px}
+
+/* ---- OPINION: series tags ---- */
+.op-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.op-card{display:block;background:linear-gradient(160deg,#1a1024,#0f0b16);border:1px solid #33265a;border-radius:12px;padding:18px;transition:.15s}
+.op-card:hover{border-color:#8b5cf6;transform:translateY(-2px)}
+.op-card .op-series{display:inline-block;font-size:10px;font-weight:900;letter-spacing:.6px;text-transform:uppercase;color:#fff;background:#6d28d9;padding:3px 8px;border-radius:5px;margin-bottom:10px}
+.op-card h3{font-size:16px;line-height:1.28;font-weight:800;letter-spacing:-.2px}
+.op-card p{color:var(--muted);font-size:13px;margin-top:6px}
+@media(max-width:820px){.op-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.op-grid{grid-template-columns:1fr}}
+
+/* ---- FEATURED / EDITOR'S PICKS ---- */
+.pick-panel{background:linear-gradient(135deg,rgba(225,29,42,.10),rgba(245,166,35,.06));border:1px solid var(--line);border-radius:16px;padding:24px 26px}
+.pick-list{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 34px}
+.pick-list a{display:flex;gap:14px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--line)}
+.pick-list a .pn{font-size:22px;font-weight:900;color:var(--accent2);min-width:30px;flex:none;line-height:1}
+.pick-list a .pt{font-weight:700;font-size:15.5px;line-height:1.3}
+.pick-list a:hover .pt{color:#fff}
+@media(max-width:700px){.pick-list{grid-template-columns:1fr;gap:0}}
+
+/* Team page hero accent + dynasty/history page hero */
+.page-hero[data-team]{border-left:6px solid var(--th,#e11d2a);padding-left:20px}
+.hub-hero{position:relative;padding:52px 0 30px;border-bottom:1px solid var(--line);overflow:hidden}
+.hub-hero::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.16;background-size:cover;background-position:center}
+.hub-hero.dyn::before{background-image:linear-gradient(90deg,#0c0d10,transparent),url('img/players/montana-49ers.jpg')}
+.hub-hero.arch::before{background-image:linear-gradient(90deg,#0c0d10,transparent),url('img/players/bonds.jpg');filter:grayscale(.5) sepia(.3)}
+.hub-hero .tag{margin-bottom:14px}
+.hub-hero h1{font-size:40px;letter-spacing:-1px;font-weight:900;line-height:1.03}
+.hub-hero p{color:var(--muted);margin-top:10px;max-width:74ch;font-size:16px}
+@media(max-width:600px){.hub-hero h1{font-size:30px}}
