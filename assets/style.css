@@ -177,10 +177,10 @@ img[src*="thompson"]{object-position:50% 15%!important}
 img[src*="posey"]{object-position:50% 12%!important}
 img[src*="rice"]{object-position:50% 26%!important}
 img[src*="rooker"]{object-position:50% 18%!important}
-img[src*="celebrini"]{object-position:50% 20%!important}
+img[src*="celebrini"]{object-position:50% 26%!important}
 img[src*="bumgarner"]{object-position:50% 18%!important}
 img[src*="young"]{object-position:50% 22%!important}
-img[src*="purdy"]{object-position:50% 16%!important}
+img[src*="purdy"]{object-position:50% 22%!important}
 img[src*="vitello"]{object-position:50% 32%!important}
 img[src*="oracle-park"]{object-position:50% 55%!important}
 img[src*="chase-center"]{object-position:50% 45%!important}
@@ -198,6 +198,11 @@ img[src*="casilla"]{object-position:50% 26%!important}
 img[src*="durant"]{object-position:50% 24%!important}
 img[src*="green"]{object-position:50% 28%!important}
 img[src*="curry2016"]{object-position:50% 24%!important}
+/* newer card subjects — placed after generic rules so more specific paths win by order */
+img[src*="logan-webb"]{object-position:50% 18%!important}
+img[src*="mckinstry"]{object-position:50% 15%!important}
+img[src*="heliot-ramos"]{object-position:50% 20%!important}
+img[src*="soderstrom"]{object-position:60% 42%!important}
 
 .team-nav{display:flex;flex-wrap:wrap;gap:10px}
 .team-nav a{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:700;font-size:14px;transition:.15s}
