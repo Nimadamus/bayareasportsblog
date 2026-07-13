@@ -285,5 +285,12 @@
   "mode": "graphic",
   "team": "giants",
   "alt": "Giants editorial graphic: the 1993 pennant race and its final day"
+ },
+ "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
+  "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
+  "sha256": "a49a64e647c2fc00b6c903e0a39b6f2c022ae3c1a19ceab8226bab47e8bcf372",
+  "mode": "graphic",
+  "team": "giants",
+  "alt": "Giants editorial graphic: 41-55 at the All-Star break under Tony Vitello"
  }
 }

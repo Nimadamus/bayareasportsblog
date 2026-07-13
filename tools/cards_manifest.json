@@ -1,43 +1,290 @@
 {
- "articles/jerry-rice-predicts-49ers-super-bowl-2026-drought-over.html": {"mode":"graphic","team":"49ers","name":"Jerry Rice's Call","sub":"The Hall of Famer says 2026 is the year the drought ends","alt":"49ers editorial graphic: Jerry Rice predicts a 2026 Super Bowl"},
- "articles/giants-casey-schmitt-all-star-breakout-season-2026.html": {"mode":"photo","team":"giants","src":"assets/img/players/casey-schmitt-giants.jpg","alt":"Casey Schmitt of the San Francisco Giants during his 2026 breakout season"},
- "articles/giants-4-2-rockies-tyler-mahle-first-win-casey-schmitt-homer-july-11.html": {"mode":"graphic","team":"giants","name":"Tyler Mahle","sub":"First Giants win, backed by a three-run Schmitt homer","alt":"Giants editorial graphic: Tyler Mahle earns his first win, 4-2 over the Rockies"},
- "articles/athletics-1-0-loss-white-sox-eighth-straight-coming-back-to-earth-july-11.html": {"mode":"graphic","team":"athletics","name":"Eighth Straight","sub":"The A's fall 1-0 again as the slide keeps going","alt":"Athletics editorial graphic: eighth straight loss, 1-0 to the White Sox"},
- "articles/49ers-shanahan-best-team-if-healthy-super-bowl-2026.html": {"mode":"photo","team":"49ers","src":"assets/img/players/purdy.jpg","alt":"Brock Purdy of the San Francisco 49ers"},
- "articles/giants-3-1-rockies-erik-miller-bullpen-holds-series-win-july-12.html": {"mode":"graphic","team":"giants","name":"Erik Miller","sub":"Slams the door in a 3-1 series win over the Rockies","alt":"Giants editorial graphic: Erik Miller closes out a 3-1 win over the Rockies"},
- "articles/athletics-nine-straight-white-sox-9-1-tailspin-i-called-it-july-12.html": {"mode":"graphic","team":"athletics","name":"Nine Straight","sub":"The mirage ends in a 9-1 White Sox rout","alt":"Athletics editorial graphic: nine straight losses in a 9-1 rout"},
- "articles/giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.html": {"mode":"graphic","team":"giants","name":"Bullpen Meltdown","sub":"Kilian and the pen give away a 4-3 game to the Rockies","alt":"Giants editorial graphic: bullpen meltdown in a 4-3 loss to the Rockies"},
- "articles/giants-devers-awake-home-run-rockies-july-10.html": {"mode":"graphic","team":"giants","name":"Rafael Devers","sub":"Looks wide awake again in the middle of the Giants order","alt":"Giants editorial graphic: Rafael Devers homers against the Rockies"},
- "articles/giants-whisenhunt-gem-rockies-8-2-july-9.html": {"mode":"graphic","team":"giants","name":"Carson Whisenhunt","sub":"A gem in an 8-2 win, the Giants might have something","alt":"Giants editorial graphic: Carson Whisenhunt shines in an 8-2 win"},
- "articles/athletics-tigers-sweep-valdez-july-9.html": {"mode":"graphic","team":"athletics","name":"Swept in Detroit","sub":"Six straight now after a 4-1 loss to the Tigers","alt":"Athletics editorial graphic: swept by the Tigers, six straight losses"},
- "articles/giants-no-hit-cease-webb-grand-slam-july-8.html": {"mode":"photo","team":"giants","src":"assets/img/players/giants-heliot-ramos-blue-jays-nohitter.png","alt":"Heliot Ramos of the San Francisco Giants"},
- "articles/athletics-tigers-melton-shellacking-july-8.html": {"mode":"graphic","team":"athletics","name":"Beer-League Baseball","sub":"A rookie named Melton carves the A's up","alt":"Athletics editorial graphic: the A's shelled by a rookie named Melton"},
- "articles/sharks-rebuild-has-a-pulse-celebrini.html": {"mode":"photo","team":"sharks","src":"assets/img/players/celebrini.jpg","alt":"Macklin Celebrini of the San Jose Sharks"},
- "articles/49ers-still-paying-for-vegas.html": {"mode":"graphic","team":"49ers","name":"Still Paying For Vegas","sub":"The 49ers are living with the cost of the Super Bowl loss","alt":"49ers editorial graphic: still paying for the Las Vegas Super Bowl loss"},
- "articles/tony-vitello-hire-giants-mistake.html": {"mode":"photo","team":"giants","src":"assets/img/players/vitello.png","alt":"Tony Vitello, San Francisco Giants manager"},
- "articles/warriors-out-of-easy-answers.html": {"mode":"graphic","team":"warriors","name":"Out of Easy Answers","sub":"The hardest questions of the Curry era arrive at once","alt":"Warriors editorial graphic: out of easy answers in the Curry era"},
- "articles/warriors-championship-history.html": {"mode":"graphic","team":"warriors","name":"Championship History","sub":"From Rick Barry's 1975 sweep to four Curry-era titles","alt":"Warriors editorial graphic: championship history from Rick Barry to the Splash Brothers"},
- "articles/49ers-dynasty-team-of-the-decade.html": {"mode":"graphic","team":"49ers","name":"The Dynasty","sub":"Five Super Bowls, from Joe Montana to Steve Young","alt":"49ers editorial graphic: the dynasty that won five Super Bowls"},
- "articles/warriors-73-9-best-record-ever-added-durant.html": {"mode":"graphic","team":"warriors","name":"73 and 9","sub":"The best regular season ever, then they added Durant","alt":"Warriors editorial graphic: the 73-9 season, then Kevin Durant"},
- "articles/flashback-klay-37-point-quarter.html": {"mode":"graphic","team":"warriors","name":"Klay's 37","sub":"The night Klay Thompson scored 37 in a single quarter","alt":"Warriors editorial graphic: Klay Thompson's 37-point quarter"},
- "articles/barry-bonds-giants-home-run-king.html": {"mode":"graphic","team":"giants","name":"Barry Bonds","sub":"The loudest bat San Francisco ever saw","alt":"Giants editorial graphic: Barry Bonds, the home run king"},
- "articles/giants-dynasty-even-year-magic.html": {"mode":"graphic","team":"giants","name":"Even-Year Magic","sub":"Three World Series titles in five seasons","alt":"Giants editorial graphic: even-year World Series magic"},
- "articles/bay-area-sports-history.html": {"mode":"graphic","team":"bay","name":"Bay Area History","sub":"49ers, Giants, Warriors, A's and Sharks, all in one place","alt":"Bay Area Sports editorial graphic: the region's championship history"},
- "articles/jeff-kent-giants-mvp-second-baseman.html": {"mode":"graphic","team":"giants","name":"Jeff Kent","sub":"The MVP second baseman who mashed by the Bay","alt":"Giants editorial graphic: Jeff Kent, MVP second baseman"},
- "articles/athletics-sacramento-bay-area-villains.html": {"mode":"graphic","team":"athletics","name":"Sacramento Now","sub":"The A's play in Sacramento, and that's the whole ugly story","alt":"Athletics editorial graphic: the A's playing in Sacramento"},
- "articles/athletics-white-sox-preview-jacob-lopez-july-10.html": {"mode":"graphic","team":"athletics","name":"Lopez on the Hill","sub":"A's send Jacob Lopez out to face the White Sox","alt":"Athletics editorial graphic: Jacob Lopez starts against the White Sox"},
- "articles/lebron-curry-warriors-legacy-what-it-means.html": {"mode":"graphic","team":"warriors","name":"Curry vs LeBron","sub":"What the rivalry means for the Warriors' legacy","alt":"Warriors editorial graphic: the Curry and LeBron rivalry and legacy"},
- "articles/brandon-aiyuk-antonio-brown-49ers.html": {"mode":"photo","team":"49ers","src":"assets/img/players/aiyuk.jpg","alt":"Brandon Aiyuk of the San Francisco 49ers"},
- "articles/flashback-bumgarner-2014-world-series.html": {"mode":"graphic","team":"giants","name":"Bumgarner 2014","sub":"He owned the World Series and never blinked","alt":"Giants editorial graphic: Madison Bumgarner's 2014 World Series"},
- "articles/flashback-the-catch-1982.html": {"mode":"graphic","team":"49ers","name":"The Catch","sub":"Montana to Clark, and a dynasty was born in 1982","alt":"49ers editorial graphic: The Catch, Montana to Dwight Clark"},
- "articles/giants-oracle-park-still-waiting.html": {"mode":"graphic","team":"giants","name":"Oracle Waits","sub":"The Giants keep promising October, the park is still waiting","alt":"Giants editorial graphic: Oracle Park still waiting for October"},
- "articles/tony-vitello-not-ready-cant-talk-down-quote.html": {"mode":"graphic","team":"giants","name":"Vitello's Words","sub":"He told us himself he was not ready to manage in the majors","alt":"Giants editorial graphic: Tony Vitello's own words on being unready"},
- "articles/nfl-blackballed-colin-kaepernick-kneeling-anthem.html": {"mode":"graphic","team":"49ers","name":"Kaepernick","sub":"Blackballed for kneeling, and never signed again","alt":"49ers editorial graphic: Colin Kaepernick blackballed after kneeling"},
- "articles/giants-rockies-preview-robbie-ray-bryce-eldridge-july-10.html": {"mode":"graphic","team":"giants","name":"Ray and Eldridge","sub":"Giants send Robbie Ray out to face the Rockies","alt":"Giants editorial graphic: Robbie Ray starts against the Rockies"},
- "articles/montana-young-49ers-quarterback-controversy.html": {"mode":"graphic","team":"49ers","name":"Montana or Young","sub":"The quarterback controversy that split a dynasty","alt":"49ers editorial graphic: the Joe Montana and Steve Young controversy"},
- "articles/giants-season-over-build-around-eldridge-posey-bullpen.html": {"mode":"graphic","team":"giants","name":"Build the Core","sub":"The season is over, time to build around the young bats","alt":"Giants editorial graphic: build around Bryce Eldridge and the core"},
- "articles/giants-pitching-woke-up-blue-jays-worst-offense.html": {"mode":"graphic","team":"giants","name":"Pitching Woke Up","sub":"Giants arms carved up the worst offense in baseball","alt":"Giants editorial graphic: the Giants pitching staff dominates"},
- "articles/bruce-bochy-bullpen-wizardry-core-four.html": {"mode":"graphic","team":"giants","name":"Bochy's Wizardry","sub":"The bullpen magic behind three World Series titles","alt":"Giants editorial graphic: Bruce Bochy's bullpen wizardry"},
- "articles/welcome-to-bay-area-sports-blog.html": {"mode":"graphic","team":"bay","name":"Welcome","sub":"Every Bay Area team, one blog, all passion","alt":"Bay Area Sports editorial graphic: welcome to the blog"},
- "articles/giants-1993-pennant-race-salomon-torres-final-day.html": {"mode":"graphic","team":"giants","name":"1993 Pennant Race","sub":"103 wins, and it came down to the final day","alt":"Giants editorial graphic: the 1993 pennant race and its final day"}
+  "articles/jerry-rice-predicts-49ers-super-bowl-2026-drought-over.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "Jerry Rice's Call",
+    "sub": "The Hall of Famer says 2026 is the year the drought ends",
+    "alt": "49ers editorial graphic: Jerry Rice predicts a 2026 Super Bowl"
+  },
+  "articles/giants-casey-schmitt-all-star-breakout-season-2026.html": {
+    "mode": "photo",
+    "team": "giants",
+    "src": "assets/img/players/casey-schmitt-giants.jpg",
+    "alt": "Casey Schmitt of the San Francisco Giants during his 2026 breakout season"
+  },
+  "articles/giants-4-2-rockies-tyler-mahle-first-win-casey-schmitt-homer-july-11.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Tyler Mahle",
+    "sub": "First Giants win, backed by a three-run Schmitt homer",
+    "alt": "Giants editorial graphic: Tyler Mahle earns his first win, 4-2 over the Rockies"
+  },
+  "articles/athletics-1-0-loss-white-sox-eighth-straight-coming-back-to-earth-july-11.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Eighth Straight",
+    "sub": "The A's fall 1-0 again as the slide keeps going",
+    "alt": "Athletics editorial graphic: eighth straight loss, 1-0 to the White Sox"
+  },
+  "articles/49ers-shanahan-best-team-if-healthy-super-bowl-2026.html": {
+    "mode": "photo",
+    "team": "49ers",
+    "src": "assets/img/players/purdy.jpg",
+    "alt": "Brock Purdy of the San Francisco 49ers"
+  },
+  "articles/giants-3-1-rockies-erik-miller-bullpen-holds-series-win-july-12.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Erik Miller",
+    "sub": "Slams the door in a 3-1 series win over the Rockies",
+    "alt": "Giants editorial graphic: Erik Miller closes out a 3-1 win over the Rockies"
+  },
+  "articles/athletics-nine-straight-white-sox-9-1-tailspin-i-called-it-july-12.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Nine Straight",
+    "sub": "The mirage ends in a 9-1 White Sox rout",
+    "alt": "Athletics editorial graphic: nine straight losses in a 9-1 rout"
+  },
+  "articles/giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Bullpen Meltdown",
+    "sub": "Kilian and the pen give away a 4-3 game to the Rockies",
+    "alt": "Giants editorial graphic: bullpen meltdown in a 4-3 loss to the Rockies"
+  },
+  "articles/giants-devers-awake-home-run-rockies-july-10.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Rafael Devers",
+    "sub": "Looks wide awake again in the middle of the Giants order",
+    "alt": "Giants editorial graphic: Rafael Devers homers against the Rockies"
+  },
+  "articles/giants-whisenhunt-gem-rockies-8-2-july-9.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Carson Whisenhunt",
+    "sub": "A gem in an 8-2 win, the Giants might have something",
+    "alt": "Giants editorial graphic: Carson Whisenhunt shines in an 8-2 win"
+  },
+  "articles/athletics-tigers-sweep-valdez-july-9.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Swept in Detroit",
+    "sub": "Six straight now after a 4-1 loss to the Tigers",
+    "alt": "Athletics editorial graphic: swept by the Tigers, six straight losses"
+  },
+  "articles/giants-no-hit-cease-webb-grand-slam-july-8.html": {
+    "mode": "photo",
+    "team": "giants",
+    "src": "assets/img/players/giants-heliot-ramos-blue-jays-nohitter.png",
+    "alt": "Heliot Ramos of the San Francisco Giants"
+  },
+  "articles/athletics-tigers-melton-shellacking-july-8.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Beer-League Baseball",
+    "sub": "A rookie named Melton carves the A's up",
+    "alt": "Athletics editorial graphic: the A's shelled by a rookie named Melton"
+  },
+  "articles/sharks-rebuild-has-a-pulse-celebrini.html": {
+    "mode": "photo",
+    "team": "sharks",
+    "src": "assets/img/players/celebrini.jpg",
+    "alt": "Macklin Celebrini of the San Jose Sharks"
+  },
+  "articles/49ers-still-paying-for-vegas.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "Still Paying For Vegas",
+    "sub": "The 49ers are living with the cost of the Super Bowl loss",
+    "alt": "49ers editorial graphic: still paying for the Las Vegas Super Bowl loss"
+  },
+  "articles/tony-vitello-hire-giants-mistake.html": {
+    "mode": "photo",
+    "team": "giants",
+    "src": "assets/img/players/vitello.png",
+    "alt": "Tony Vitello, San Francisco Giants manager"
+  },
+  "articles/warriors-out-of-easy-answers.html": {
+    "mode": "graphic",
+    "team": "warriors",
+    "name": "Out of Easy Answers",
+    "sub": "The hardest questions of the Curry era arrive at once",
+    "alt": "Warriors editorial graphic: out of easy answers in the Curry era"
+  },
+  "articles/warriors-championship-history.html": {
+    "mode": "graphic",
+    "team": "warriors",
+    "name": "Championship History",
+    "sub": "From Rick Barry's 1975 sweep to four Curry-era titles",
+    "alt": "Warriors editorial graphic: championship history from Rick Barry to the Splash Brothers"
+  },
+  "articles/49ers-dynasty-team-of-the-decade.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "The Dynasty",
+    "sub": "Five Super Bowls, from Joe Montana to Steve Young",
+    "alt": "49ers editorial graphic: the dynasty that won five Super Bowls"
+  },
+  "articles/warriors-73-9-best-record-ever-added-durant.html": {
+    "mode": "graphic",
+    "team": "warriors",
+    "name": "73 and 9",
+    "sub": "The best regular season ever, then they added Durant",
+    "alt": "Warriors editorial graphic: the 73-9 season, then Kevin Durant"
+  },
+  "articles/flashback-klay-37-point-quarter.html": {
+    "mode": "graphic",
+    "team": "warriors",
+    "name": "Klay's 37",
+    "sub": "The night Klay Thompson scored 37 in a single quarter",
+    "alt": "Warriors editorial graphic: Klay Thompson's 37-point quarter"
+  },
+  "articles/barry-bonds-giants-home-run-king.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Barry Bonds",
+    "sub": "The loudest bat San Francisco ever saw",
+    "alt": "Giants editorial graphic: Barry Bonds, the home run king"
+  },
+  "articles/giants-dynasty-even-year-magic.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Even-Year Magic",
+    "sub": "Three World Series titles in five seasons",
+    "alt": "Giants editorial graphic: even-year World Series magic"
+  },
+  "articles/bay-area-sports-history.html": {
+    "mode": "graphic",
+    "team": "bay",
+    "name": "Bay Area History",
+    "sub": "49ers, Giants, Warriors, A's and Sharks, all in one place",
+    "alt": "Bay Area Sports editorial graphic: the region's championship history"
+  },
+  "articles/jeff-kent-giants-mvp-second-baseman.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Jeff Kent",
+    "sub": "The MVP second baseman who mashed by the Bay",
+    "alt": "Giants editorial graphic: Jeff Kent, MVP second baseman"
+  },
+  "articles/athletics-sacramento-bay-area-villains.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Sacramento Now",
+    "sub": "The A's play in Sacramento, and that's the whole ugly story",
+    "alt": "Athletics editorial graphic: the A's playing in Sacramento"
+  },
+  "articles/athletics-white-sox-preview-jacob-lopez-july-10.html": {
+    "mode": "graphic",
+    "team": "athletics",
+    "name": "Lopez on the Hill",
+    "sub": "A's send Jacob Lopez out to face the White Sox",
+    "alt": "Athletics editorial graphic: Jacob Lopez starts against the White Sox"
+  },
+  "articles/lebron-curry-warriors-legacy-what-it-means.html": {
+    "mode": "graphic",
+    "team": "warriors",
+    "name": "Curry vs LeBron",
+    "sub": "What the rivalry means for the Warriors' legacy",
+    "alt": "Warriors editorial graphic: the Curry and LeBron rivalry and legacy"
+  },
+  "articles/brandon-aiyuk-antonio-brown-49ers.html": {
+    "mode": "photo",
+    "team": "49ers",
+    "src": "assets/img/players/aiyuk.jpg",
+    "alt": "Brandon Aiyuk of the San Francisco 49ers"
+  },
+  "articles/flashback-bumgarner-2014-world-series.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Bumgarner 2014",
+    "sub": "He owned the World Series and never blinked",
+    "alt": "Giants editorial graphic: Madison Bumgarner's 2014 World Series"
+  },
+  "articles/flashback-the-catch-1982.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "The Catch",
+    "sub": "Montana to Clark, and a dynasty was born in 1982",
+    "alt": "49ers editorial graphic: The Catch, Montana to Dwight Clark"
+  },
+  "articles/giants-oracle-park-still-waiting.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Oracle Waits",
+    "sub": "The Giants keep promising October, the park is still waiting",
+    "alt": "Giants editorial graphic: Oracle Park still waiting for October"
+  },
+  "articles/tony-vitello-not-ready-cant-talk-down-quote.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Vitello's Words",
+    "sub": "He told us himself he was not ready to manage in the majors",
+    "alt": "Giants editorial graphic: Tony Vitello's own words on being unready"
+  },
+  "articles/nfl-blackballed-colin-kaepernick-kneeling-anthem.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "Kaepernick",
+    "sub": "Blackballed for kneeling, and never signed again",
+    "alt": "49ers editorial graphic: Colin Kaepernick blackballed after kneeling"
+  },
+  "articles/giants-rockies-preview-robbie-ray-bryce-eldridge-july-10.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Ray and Eldridge",
+    "sub": "Giants send Robbie Ray out to face the Rockies",
+    "alt": "Giants editorial graphic: Robbie Ray starts against the Rockies"
+  },
+  "articles/montana-young-49ers-quarterback-controversy.html": {
+    "mode": "graphic",
+    "team": "49ers",
+    "name": "Montana or Young",
+    "sub": "The quarterback controversy that split a dynasty",
+    "alt": "49ers editorial graphic: the Joe Montana and Steve Young controversy"
+  },
+  "articles/giants-season-over-build-around-eldridge-posey-bullpen.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Build the Core",
+    "sub": "The season is over, time to build around the young bats",
+    "alt": "Giants editorial graphic: build around Bryce Eldridge and the core"
+  },
+  "articles/giants-pitching-woke-up-blue-jays-worst-offense.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Pitching Woke Up",
+    "sub": "Giants arms carved up the worst offense in baseball",
+    "alt": "Giants editorial graphic: the Giants pitching staff dominates"
+  },
+  "articles/bruce-bochy-bullpen-wizardry-core-four.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "Bochy's Wizardry",
+    "sub": "The bullpen magic behind three World Series titles",
+    "alt": "Giants editorial graphic: Bruce Bochy's bullpen wizardry"
+  },
+  "articles/welcome-to-bay-area-sports-blog.html": {
+    "mode": "graphic",
+    "team": "bay",
+    "name": "Welcome",
+    "sub": "Every Bay Area team, one blog, all passion",
+    "alt": "Bay Area Sports editorial graphic: welcome to the blog"
+  },
+  "articles/giants-1993-pennant-race-salomon-torres-final-day.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "1993 Pennant Race",
+    "sub": "103 wins, and it came down to the final day",
+    "alt": "Giants editorial graphic: the 1993 pennant race and its final day"
+  },
+  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
+    "mode": "graphic",
+    "team": "giants",
+    "name": "All-Star Break Report",
+    "sub": "41-55, fourth in the NL West, and a rookie manager still learning the job",
+    "alt": "Giants editorial graphic: 41-55 at the All-Star break under Tony Vitello"
+  }
 }
