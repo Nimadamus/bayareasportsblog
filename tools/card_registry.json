@@ -292,5 +292,12 @@
   "mode": "graphic",
   "team": "giants",
   "alt": "Giants editorial graphic: 41-55 at the All-Star break under Tony Vitello"
+ },
+ "articles/athletics-first-half-breakdown-mirage-collapse-all-star-break-2026.html": {
+  "card": "assets/img/cards/athletics-first-half-breakdown-mirage-collapse-all-star-break-2026.jpg",
+  "sha256": "2bf3e77c7aed987f9098b27d60343d5e55d2c688c6fa8d2ec8cf9adf6193e4f3",
+  "mode": "graphic",
+  "team": "athletics",
+  "alt": "Athletics editorial graphic: 41-55 at the All-Star break, the mirage collapse"
  }
 }
