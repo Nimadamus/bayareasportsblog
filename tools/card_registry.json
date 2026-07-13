@@ -299,5 +299,12 @@
   "mode": "graphic",
   "team": "athletics",
   "alt": "Athletics editorial graphic: 41-55 at the All-Star break, the mirage collapse"
+ },
+ "articles/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html": {
+  "card": "assets/img/cards/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.jpg",
+  "sha256": "2ca428e4f191d51a4fc2790e332b8b1e2b6afaf6ca6d4ac97bb6770d3eefe301",
+  "mode": "graphic",
+  "team": "raiders",
+  "alt": "Raiders editorial graphic: 2026 season preview under Klint Kubiak"
  }
 }

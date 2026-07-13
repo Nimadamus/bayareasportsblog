@@ -418,6 +418,7 @@ main .wrap{max-width:none;padding:0}
 .catpill.t-history{background:#8a6d1a}
 .catpill.t-opinion,.catpill.t-columns{background:#6d28d9}
 .catpill.t-latest{background:#e11d2a}
+.catpill.t-raiders{background:#111;color:#c9ced1}
 
 /* ===== Team-section header with accent ===== */
 .sec-lbl{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:6px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--line)}
