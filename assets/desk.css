@@ -115,6 +115,23 @@ body{
 .tk-i s{text-decoration:none;color:var(--dim);margin:0 8px}
 .tk-i.up b{color:var(--as)} .tk-i.dn b{color:#e8746f}
 
+/* ---------------------------------------------------- section hero */
+.sec-hero{--th:var(--bay);position:relative;overflow:hidden;
+  padding:46px 0 34px;border-bottom:2px solid var(--rule2)}
+.sec-hero:before{content:"";position:absolute;inset:0;opacity:.20;pointer-events:none;
+  background:radial-gradient(760px 280px at 8% 135%, var(--th), transparent 68%)}
+.sec-hero:after{content:"";position:absolute;left:0;bottom:-2px;width:200px;height:4px;background:var(--th)}
+.sec-hero .wrap{position:relative}
+.sec-hero .sh-k{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;
+  color:var(--th);font-weight:800;margin-bottom:10px}
+.sec-hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.04em;line-height:.88;font-size:clamp(38px,6.4vw,78px)}
+.sec-hero p{margin-top:14px;color:var(--muted);max-width:62ch;font-size:15px}
+.sec-hero .hero-mono{position:absolute;right:-14px;top:50%;transform:translateY(-50%);
+  font-family:var(--display);font-weight:900;font-size:170px;line-height:1;
+  color:var(--th);opacity:.10;letter-spacing:-.06em;pointer-events:none}
+@media(max-width:760px){.sec-hero .hero-mono{font-size:96px;opacity:.08}}
+
 /* ---------------------------------------------------- section furniture */
 .zone{padding:56px 0}
 .zone.tight{padding:34px 0}
