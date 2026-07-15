@@ -25,6 +25,11 @@
 
   --max:1280px;
   --gut:24px;
+  /* Total rendered height of .teamnav, which .jump sticks directly below.
+     .teamnav .wrap is pinned to --navrow so this stays exact instead of drifting
+     with font metrics: --navh = --navrow + the 1px bottom border. */
+  --navrow:52px;
+  --navh:53px;
 
   --display:"Arial Black","Helvetica Neue",Impact,system-ui,sans-serif;
   --body:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -32,7 +37,10 @@
 
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-html,body{overflow-x:hidden}
+/* `overflow-x:hidden` here would compute overflow-y to `auto`, making <body> a scroll
+   container -- which silently stops position:sticky from ever pinning .teamnav/.jump.
+   `clip` gives the same safety net without creating one. */
+html,body{overflow-x:clip}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 h1,h2,h3,h4,p{overflow-wrap:break-word}
@@ -81,9 +89,11 @@ body{
 /* ---------------------------------------------------- team nav */
 .teamnav{position:sticky;top:0;z-index:60;background:rgba(11,12,16,.93);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
-.teamnav .wrap{display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:none}
+.teamnav .wrap{display:flex;align-items:stretch;gap:0;overflow-x:auto;scrollbar-width:none;
+  height:var(--navrow)}
 .teamnav .wrap::-webkit-scrollbar{display:none}
-.teamnav a{position:relative;padding:14px 18px;font-size:12.5px;font-weight:800;
+.teamnav a{position:relative;display:flex;align-items:center;padding:0 18px;
+  font-size:12.5px;font-weight:800;
   letter-spacing:.13em;text-transform:uppercase;color:var(--muted);white-space:nowrap;
   border-bottom:3px solid transparent;transition:color .16s,border-color .16s,background .16s}
 .teamnav a:hover{color:#fff;background:rgba(255,255,255,.04)}
@@ -272,6 +282,191 @@ body{
   font-weight:900;display:block;margin-bottom:6px}
 .vlt h4{font-size:15.5px;font-weight:800;line-height:1.22;letter-spacing:-.01em}
 
+/* ============================================================
+   JUMP NAV - shared by Dynasties + Timeline.
+   Sticks directly under .teamnav, so its offset must track that
+   bar's real height (--navh). Verified against the rendered box.
+   ============================================================ */
+.jump{position:sticky;top:var(--navh);z-index:55;background:rgba(11,12,16,.94);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+.jump .wrap{display:flex;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none;
+  padding-top:10px;padding-bottom:10px}
+.jump .wrap::-webkit-scrollbar{display:none}
+.jump .jl{flex:none;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--dim);font-weight:800;margin-right:6px}
+.jump a{flex:none;padding:7px 13px;border:1px solid var(--rule2);color:var(--muted);
+  font-size:11.5px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+  white-space:nowrap;transition:.16s}
+.jump a:hover{border-color:var(--sf);color:#fff;background:rgba(253,90,30,.12)}
+/* Jump targets must clear BOTH stuck bars (teamnav + jump), or the heading you
+   jumped to lands underneath them. --navh + the jump bar's own height + air. */
+.stop,.dynasty{scroll-margin-top:calc(var(--navh) + 52px + 18px)}
+
+/* ============================================================
+   RECORD CARD - shared by Dynasties + Timeline.
+   Year tag in the corner, team rail on the body. A plain <div>
+   (no article to link to) renders inert rather than faking a link.
+   ============================================================ */
+.rcard{--th:var(--bay);position:relative;display:flex;flex-direction:column;
+  border:1px solid var(--rule);background:rgba(17,19,27,.82);overflow:hidden;
+  transition:border-color .18s,transform .18s}
+a.rcard:hover{border-color:var(--th);transform:translateY(-3px)}
+.rcard .rc-img{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.rcard .rc-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+a.rcard:hover .rc-img img{transform:scale(1.06)}
+.rcard .yrtag{position:absolute;top:10px;right:10px;z-index:2;background:var(--th);color:#fff;
+  font-family:var(--display);font-size:11.5px;font-weight:900;letter-spacing:.08em;
+  padding:5px 9px}
+.rcard[data-c=gs] .yrtag,.rcard[data-c=lv] .yrtag{color:#141414}
+.rcard .rc-b{padding:15px 16px 18px;border-top:3px solid var(--th);flex:1;
+  display:flex;flex-direction:column;gap:8px}
+.rcard .rc-team{font-size:10px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--th)}
+.rcard h3{font-size:16.5px;font-weight:800;line-height:1.26;letter-spacing:-.012em}
+.rcard p{font-size:13px;color:var(--muted);line-height:1.5}
+.rcard[data-c=sf]{--th:var(--sf)} .rcard[data-c=niners]{--th:var(--niners)}
+.rcard[data-c=gs]{--th:var(--gs)} .rcard[data-c=as]{--th:var(--as)}
+.rcard[data-c=sj]{--th:var(--sj)} .rcard[data-c=lv]{--th:var(--lv)}
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+
+/* ============================================================
+   HISTORY - "The Vault": numbered chapters + museum plates
+   ============================================================ */
+.vault-hero{position:relative;overflow:hidden;padding:58px 0 44px;
+  border-bottom:2px solid var(--rule2)}
+.vault-hero:before{content:"";position:absolute;inset:0;opacity:.5;pointer-events:none;
+  background:
+    radial-gradient(620px 260px at 82% 10%, rgba(255,199,44,.14), transparent 66%),
+    radial-gradient(700px 300px at 6% 120%, rgba(253,90,30,.16), transparent 68%)}
+.vault-hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+  background:linear-gradient(90deg,var(--gs),var(--sf) 46%,var(--niners) 78%,transparent)}
+.vault-hero .wrap{position:relative}
+.vault-hero .vh-k{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gs);font-weight:800;margin-bottom:12px}
+.vault-hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.042em;line-height:.86;font-size:clamp(38px,7vw,86px);max-width:15ch}
+.vault-hero .vh-lede{margin-top:18px;max-width:70ch;font-size:16px;color:#c3cad8;line-height:1.65}
+.vault-hero .vh-lede a{color:var(--gs);border-bottom:1px solid rgba(255,199,44,.42);font-weight:700}
+.vault-hero .vh-lede a:hover{color:#fff;border-color:#fff}
+.vault-hero .vh-stats{display:flex;gap:0;margin-top:26px;flex-wrap:wrap;
+  border-top:1px solid var(--rule);padding-top:20px}
+.vh-stat{padding-right:34px;margin-right:34px;border-right:1px solid var(--rule)}
+.vh-stat:last-child{border-right:0;padding-right:0;margin-right:0}
+.vh-stat b{display:block;font-family:var(--display);font-weight:900;font-size:30px;
+  line-height:1;letter-spacing:-.03em;color:#fff}
+.vh-stat span{display:block;margin-top:6px;font-size:10.5px;letter-spacing:.17em;
+  text-transform:uppercase;color:var(--dim);font-weight:800}
+
+.chapter{padding:52px 0}
+.chapter + .chapter{border-top:1px solid var(--rule)}
+.ch-head{display:grid;grid-template-columns:auto 1fr auto;gap:22px;align-items:center;
+  margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid var(--rule2)}
+.ch-num{font-family:var(--display);font-weight:900;font-size:58px;line-height:.76;
+  color:transparent;-webkit-text-stroke:2px var(--rule2)}
+.ch-head h2{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.032em;line-height:.94;font-size:clamp(24px,3.2vw,38px)}
+.ch-head .ch-k{font-size:10.5px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--sf);font-weight:800;margin-bottom:7px}
+.ch-head .ch-sub{margin-top:7px;font-size:13.5px;color:var(--muted)}
+.ch-head .sh-all{align-self:end}
+
+/* .plates is 3-up; .plates.four is 4-up. Chapters carry different counts (6 vs 4),
+   and the wrong grid leaves a single orphan plate stranded on its own row. */
+.plates{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.plates.four{grid-template-columns:repeat(4,1fr)}
+.plate{--th:var(--sf);display:flex;flex-direction:column;border:1px solid var(--rule);
+  background:var(--paper);overflow:hidden;transition:border-color .18s,transform .18s}
+a.plate:hover{border-color:var(--th);transform:translateY(-3px)}
+.plate .pl-img{position:relative;aspect-ratio:4/3;overflow:hidden;background:#000}
+.plate .pl-img img{width:100%;height:100%;object-fit:cover;filter:saturate(.72) contrast(1.02);
+  transition:filter .45s,transform .6s cubic-bezier(.2,.7,.2,1)}
+a.plate:hover .pl-img img{filter:saturate(1) contrast(1);transform:scale(1.05)}
+.plate .stamp{position:absolute;top:0;left:0;z-index:2;background:rgba(6,7,10,.82);
+  border-right:1px solid var(--th);border-bottom:1px solid var(--th);
+  color:#fff;font-size:10px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;
+  padding:6px 10px}
+/* museum label: a hairline rule, the era, then the title */
+.plate .pl-b{padding:15px 16px 18px;border-top:3px solid var(--th);display:flex;
+  flex-direction:column;gap:7px;flex:1}
+.plate .pl-yr{font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--th)}
+.plate h3{font-size:16px;font-weight:800;line-height:1.28;letter-spacing:-.012em}
+.plate[data-c=sf]{--th:var(--sf)} .plate[data-c=niners]{--th:var(--niners)}
+.plate[data-c=gs]{--th:var(--gs)} .plate[data-c=as]{--th:var(--as)}
+.plate[data-c=sj]{--th:var(--sj)} .plate[data-c=house]{--th:var(--bay)}
+
+/* ============================================================
+   DYNASTIES - banner sections, one per era
+   ============================================================ */
+.dyn-hero{position:relative;overflow:hidden;padding:58px 0 40px;border-bottom:2px solid var(--rule2)}
+.dyn-hero:before{content:"";position:absolute;inset:0;opacity:.42;pointer-events:none;
+  background:
+    radial-gradient(560px 240px at 12% 118%, rgba(201,48,44,.5), transparent 64%),
+    radial-gradient(560px 240px at 42% 118%, rgba(29,66,138,.5), transparent 64%),
+    radial-gradient(560px 240px at 70% 118%, rgba(253,90,30,.42), transparent 64%),
+    radial-gradient(560px 240px at 95% 118%, rgba(30,158,106,.42), transparent 64%)}
+.dyn-hero .wrap{position:relative}
+.dyn-hero .dh-k{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gs);font-weight:800;margin-bottom:12px}
+.dyn-hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.042em;line-height:.86;font-size:clamp(38px,7vw,88px)}
+.dyn-hero p{margin-top:16px;max-width:72ch;font-size:16px;color:#c3cad8;line-height:1.65}
+.dyn-tro{display:flex;gap:0;margin-top:26px;flex-wrap:wrap;border-top:1px solid var(--rule);padding-top:20px}
+
+.dynasty{position:relative;overflow:hidden;padding:56px 0;border-bottom:1px solid var(--rule)}
+.dynasty:before{content:"";position:absolute;inset:0;opacity:.13;pointer-events:none;
+  background:linear-gradient(105deg,var(--th) -20%,transparent 58%)}
+.dynasty:after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--th)}
+.dynasty .wrap{position:relative}
+.dyn-top{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;margin-bottom:22px}
+.dyn-yr{font-family:var(--display);font-weight:900;line-height:.8;letter-spacing:-.05em;
+  font-size:clamp(30px,4.4vw,58px);color:transparent;-webkit-text-stroke:2px var(--th);
+  white-space:nowrap}
+.dynasty h2{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.036em;line-height:.92;font-size:clamp(28px,4.2vw,54px)}
+.dyn-sub{margin-top:12px;max-width:74ch;color:#c3cad8;font-size:15px;line-height:1.62}
+.rings{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.ring{border:1px solid var(--th);color:var(--th);background:rgba(255,255,255,.035);
+  padding:7px 13px;font-size:10.5px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.dynasty[data-c=niners]{--th:var(--niners)} .dynasty[data-c=gs]{--th:var(--gs)}
+.dynasty[data-c=sf]{--th:var(--sf)} .dynasty[data-c=as]{--th:var(--as)}
+
+/* ============================================================
+   TIMELINE - a real chronological spine
+   ============================================================ */
+.tl-hero{position:relative;overflow:hidden;padding:56px 0 40px;border-bottom:2px solid var(--rule2)}
+.tl-hero:before{content:"";position:absolute;inset:0;opacity:.4;pointer-events:none;
+  background:radial-gradient(760px 300px at 70% 120%, rgba(29,66,138,.5), transparent 66%),
+             radial-gradient(560px 240px at 8% 110%, rgba(253,90,30,.34), transparent 64%)}
+.tl-hero .wrap{position:relative}
+.tl-hero .th-k{font-size:10.5px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--sf);font-weight:800;margin-bottom:12px}
+.tl-hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.042em;line-height:.86;font-size:clamp(36px,6.6vw,84px);max-width:16ch}
+.tl-hero p{margin-top:16px;max-width:72ch;font-size:16px;color:#c3cad8;line-height:1.65}
+
+.tl{position:relative;padding:52px 0 10px}
+.stop{--th:var(--bay);position:relative;display:grid;grid-template-columns:132px 1fr;
+  column-gap:34px;padding-bottom:56px}
+/* spine segment: sits in the middle of the 34px gutter (132 + 17 = 149) */
+.stop:before{content:"";position:absolute;left:148px;top:16px;bottom:0;width:2px;
+  background:var(--rule)}
+.stop:last-child:before{background:linear-gradient(180deg,var(--rule),transparent)}
+.stop .dot{position:absolute;left:141px;top:8px;width:16px;height:16px;border-radius:50%;
+  background:var(--th);z-index:2;
+  box-shadow:0 0 0 4px var(--ink),0 0 0 6px rgba(255,255,255,.14),0 0 22px 2px var(--th)}
+.stop .st-yr{text-align:right;font-family:var(--display);font-weight:900;font-size:16px;
+  letter-spacing:.01em;color:var(--th);padding-top:6px;line-height:1.25}
+.stop .st-yr small{display:block;font-family:var(--body);font-size:10px;font-weight:800;
+  letter-spacing:.16em;color:var(--dim);margin-top:6px}
+.stop h2{font-family:var(--display);font-weight:900;text-transform:uppercase;
+  letter-spacing:-.032em;line-height:.94;font-size:clamp(24px,3.2vw,38px)}
+.stop .st-sub{margin-top:11px;margin-bottom:20px;max-width:76ch;color:var(--muted);
+  font-size:14.5px;line-height:1.6}
+.stop[data-c=niners]{--th:var(--niners)} .stop[data-c=gs]{--th:var(--gs)}
+.stop[data-c=sf]{--th:var(--sf)} .stop[data-c=as]{--th:var(--as)}
+.stop[data-c=sj]{--th:var(--sj)} .stop[data-c=house]{--th:var(--bay)}
+
 /* ---------------------------------------------------- footer */
 .desk-foot{border-top:2px solid var(--rule2);background:rgba(8,9,12,.75);margin-top:20px}
 .df-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px;padding:44px 0 34px}
@@ -292,8 +487,31 @@ body{
   .hubs{grid-template-columns:repeat(3,1fr)}
   .vault .v-grid{grid-template-columns:repeat(2,1fr)}
   .df-top{grid-template-columns:1fr 1fr}
+  .plates,.plates.four{grid-template-columns:repeat(2,1fr)}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:860px){
+  /* the year rail costs more than it gives once the column is this narrow:
+     drop the spine to the left edge and put the year above the heading */
+  .stop{grid-template-columns:1fr;column-gap:0;padding-left:38px;padding-bottom:44px}
+  .stop:before{left:7px;top:14px}
+  .stop .dot{left:0;top:6px;width:14px;height:14px}
+  .stop .st-yr{text-align:left;padding-top:0;margin-bottom:10px;font-size:14px}
+  .stop .st-yr small{display:inline;margin-left:10px}
+  .dyn-top{grid-template-columns:1fr;gap:10px}
+  .ch-head{grid-template-columns:auto 1fr;gap:16px}
+  .ch-head .sh-all{grid-column:2;justify-self:start;margin-top:4px}
 }
 @media(max-width:760px){
+  .plates,.plates.four{grid-template-columns:1fr 1fr;gap:14px}
+  .rgrid{grid-template-columns:1fr;gap:16px}
+  .chapter{padding:36px 0}
+  .dynasty{padding:38px 0}
+  .tl{padding-top:34px}
+  .vault-hero,.dyn-hero,.tl-hero{padding:38px 0 30px}
+  .vh-stat{padding-right:20px;margin-right:20px;margin-bottom:12px}
+  .vh-stat b{font-size:24px}
+  .jump .jl{display:none}
   :root{--gut:16px}
   .zone{padding:38px 0}
   .mag{grid-template-columns:repeat(2,1fr)}
@@ -314,6 +532,8 @@ body{
   .vault .v-grid{grid-template-columns:1fr}
   .hubs{grid-template-columns:1fr}
   .hub{min-height:150px}
+  .plates,.plates.four{grid-template-columns:1fr}
+  .ch-num{font-size:40px}
 }
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
