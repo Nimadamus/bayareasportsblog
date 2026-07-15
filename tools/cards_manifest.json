@@ -10,7 +10,9 @@
     "mode": "photo",
     "team": "giants",
     "src": "assets/img/players/casey-schmitt-giants.jpg",
-    "alt": "Casey Schmitt of the San Francisco Giants during his 2026 breakout season"
+    "alt": "Casey Schmitt of the San Francisco Giants during his 2026 breakout season",
+    "name": "Casey Schmitt",
+    "sub": "An All-Star breakout the roster machinery missed"
   },
   "articles/giants-4-2-rockies-tyler-mahle-first-win-casey-schmitt-homer-july-11.html": {
     "mode": "graphic",
@@ -30,7 +32,9 @@
     "mode": "photo",
     "team": "49ers",
     "src": "assets/img/players/purdy.jpg",
-    "alt": "Brock Purdy of the San Francisco 49ers"
+    "alt": "Brock Purdy of the San Francisco 49ers",
+    "name": "Brock Purdy",
+    "sub": "The best team Kyle Shanahan has ever had, if it stays healthy"
   },
   "articles/giants-3-1-rockies-erik-miller-bullpen-holds-series-win-july-12.html": {
     "mode": "graphic",
@@ -78,7 +82,9 @@
     "mode": "photo",
     "team": "giants",
     "src": "assets/img/players/giants-heliot-ramos-blue-jays-nohitter.png",
-    "alt": "Heliot Ramos of the San Francisco Giants"
+    "alt": "Heliot Ramos of the San Francisco Giants",
+    "name": "Heliot Ramos",
+    "sub": "No-hit by Cease, and Webb gave up the grand slam"
   },
   "articles/athletics-tigers-melton-shellacking-july-8.html": {
     "mode": "graphic",
@@ -91,7 +97,9 @@
     "mode": "photo",
     "team": "sharks",
     "src": "assets/img/players/celebrini.jpg",
-    "alt": "Macklin Celebrini of the San Jose Sharks"
+    "alt": "Macklin Celebrini of the San Jose Sharks",
+    "name": "Macklin Celebrini",
+    "sub": "The rebuild finally has a pulse"
   },
   "articles/49ers-still-paying-for-vegas.html": {
     "mode": "graphic",
@@ -104,7 +112,9 @@
     "mode": "photo",
     "team": "giants",
     "src": "assets/img/players/vitello.png",
-    "alt": "Tony Vitello, San Francisco Giants manager"
+    "alt": "Tony Vitello, San Francisco Giants manager",
+    "name": "Tony Vitello",
+    "sub": "I did not like the hire, and I still do not"
   },
   "articles/warriors-out-of-easy-answers.html": {
     "mode": "graphic",
@@ -194,7 +204,9 @@
     "mode": "photo",
     "team": "49ers",
     "src": "assets/img/players/aiyuk.jpg",
-    "alt": "Brandon Aiyuk of the San Francisco 49ers"
+    "alt": "Brandon Aiyuk of the San Francisco 49ers",
+    "name": "Brandon Aiyuk",
+    "sub": "Gone full Antonio Brown, and it is hard to watch"
   },
   "articles/flashback-bumgarner-2014-world-series.html": {
     "mode": "graphic",
@@ -300,5 +312,12 @@
     "name": "Reset in the Desert",
     "sub": "Kubiak, Cousins, and No. 1 pick Mendoza try to fix a 3-14 mess",
     "alt": "Raiders editorial graphic: 2026 season preview under Klint Kubiak"
+  },
+  "articles/giants-athletics-all-star-game-2026-arraez-langeliers-webb.html": {
+    "mode": "graphic",
+    "team": "bay",
+    "name": "AL 4, NL 0",
+    "sub": "Langeliers reached twice, Arraez got one swing, Webb never threw",
+    "alt": "Bay Area editorial graphic: AL 4, NL 0 at the 2026 All-Star Game with Langeliers, Arraez and Webb"
   }
 }

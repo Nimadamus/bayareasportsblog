@@ -9,8 +9,7 @@ Output cards -> assets/img/cards/<article-slug>.jpg  (one unique file per articl
 """
 import os, re, json, glob, hashlib, sys
 sys.path.insert(0, os.path.dirname(__file__))
-from focal_crop import crop_card
-import cardgen
+import artgen
 import imagehash
 from PIL import Image
 _built_hashes=[]   # phash of every card built this run (variety guard)
@@ -25,15 +24,15 @@ def slug_of(href): return os.path.splitext(os.path.basename(href))[0]
 def build_one(href, spec):
     slug=slug_of(href); dst=os.path.join(CARDS, slug+'.jpg')
     if spec['mode']=='photo':
-        src=os.path.join(ROOT, spec['src'])
-        crop_card(src, dst)
+        artgen.photo_card(os.path.join(ROOT, spec['src']), spec['team'],
+                          spec['name'], spec.get('sub',''), dst, seed=slug)
         try: _built_hashes.append(imagehash.phash(Image.open(dst)))
         except Exception: pass
     else:
         # variety guard: re-seed with a salt until perceptually distinct from all built cards
         for salt in range(60):
-            cardgen.make(spec['team'], spec['name'], spec.get('sub',''), dst,
-                         seed=slug if salt==0 else slug+'#'+str(salt))
+            artgen.art_card(spec['team'], spec['name'], spec.get('sub',''), dst,
+                            seed=slug if salt==0 else slug+'#'+str(salt))
             ph=imagehash.phash(Image.open(dst))
             if all((ph-h)>=8 for h in _built_hashes):
                 _built_hashes.append(ph); break

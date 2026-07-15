@@ -27,9 +27,15 @@ cards=[]  # (page, href, src, alt)
 seen=set()
 for pg in pages:
     html=open(os.path.join(ROOT,pg),encoding='utf-8').read()
-    for m in re.finditer(r'<a\b[^>]*href="((?:\.\./)?(?:articles/)?[^"]+\.html)"[^>]*>.*?<img src="([^"]+)"[^>]*alt="([^"]*)"', html, re.S):
-        href,src,alt=m.group(1),m.group(2),m.group(3)
+    # Scan anchor-bounded blocks: an <img> only counts as an article's card if it sits
+    # INSIDE that anchor. Anchors with no image (text tiles, list items) are skipped
+    # rather than silently adopting the next anchor's image.
+    for a in re.finditer(r'<a\b[^>]*\bhref="((?:\.\./)?(?:articles/)?[^"]+\.html)"[^>]*>(.*?)</a>', html, re.S):
+        href, block = a.group(1), a.group(2)
         if 'articles/' not in href: continue
+        im=re.search(r'<img\s+src="([^"]+)"[^>]*\salt="([^"]*)"', block, re.S)
+        if not im: continue
+        src,alt=im.group(1),im.group(2)
         k=(pg,href,src)
         if k in seen: continue
         seen.add(k); cards.append((pg,href,src,alt))
