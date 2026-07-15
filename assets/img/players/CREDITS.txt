@@ -6,7 +6,7 @@ Brandon_Aiyuk_2020_(cropped).jpg
   Source: https://commons.wikimedia.org/wiki/File:Brandon_Aiyuk_2020_(cropped).jpg
 
 Stephen_Curry,_Olympic_Games_2024_(cropped).jpg
-  Author: Clément Bardot
+  Author: Clï¿½ment Bardot
   License: CC BY-SA 4.0
   Source: https://commons.wikimedia.org/wiki/File:Stephen_Curry,_Olympic_Games_2024_(cropped).jpg
 
@@ -51,3 +51,4 @@ Draymond Green 2016 photo, CC BY 2.0
 Stephen Curry dribbling 2016 photo, CC BY-SA 2.0
 Casey Schmitt photo by Johnmaxmena2, CC BY-SA 4.0
 Tyler Soderstrom photo by Jeffrey Hyde, CC BY-SA 2.0
+Shea Langeliers photo by Adam Moss (East Amherst, New York), CC BY-SA 2.0
