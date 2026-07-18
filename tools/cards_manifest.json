@@ -319,5 +319,13 @@
     "name": "AL 4, NL 0",
     "sub": "Langeliers reached twice, Arraez got one swing, Webb never threw",
     "alt": "Bay Area editorial graphic: AL 4, NL 0 at the 2026 All-Star Game with Langeliers, Arraez and Webb"
+  },
+  "articles/giants-adames-grand-slam-mariners-7-0-second-half-july-17.html": {
+    "mode": "photo",
+    "src": "assets/img/players/adames-giants-grand-slam-mariners.jpg",
+    "name": "Willy Adames",
+    "sub": "Seventh career grand slam blanks Seattle 7-0",
+    "team": "giants",
+    "alt": "Willy Adames of the Giants after his seventh career grand slam in the 7-0 win over the Mariners"
   }
 }

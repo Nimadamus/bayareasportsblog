@@ -313,5 +313,12 @@
   "mode": "graphic",
   "team": "bay",
   "alt": "Bay Area editorial graphic: AL 4, NL 0 at the 2026 All-Star Game with Langeliers, Arraez and Webb"
+ },
+ "articles/giants-adames-grand-slam-mariners-7-0-second-half-july-17.html": {
+  "card": "assets/img/cards/giants-adames-grand-slam-mariners-7-0-second-half-july-17.jpg",
+  "sha256": "36c4ce33ac6c71913285891a3c869139ac44be849c213ce141c871105905ad94",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Willy Adames of the Giants after his seventh career grand slam in the 7-0 win over the Mariners"
  }
 }
