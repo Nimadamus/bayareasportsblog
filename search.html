@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Search | Bay Area Sports Blog | 49ers, Warriors, Giants, A's, Sharks</title>
+<meta name="description" content="Search every column, recap, and history piece on Bay Area Sports Blog: 49ers, Warriors, Giants, A's, Sharks, Stanford, Cal, and decades of Bay Area sports.">
+<link rel="canonical" href="https://bayareasportsblog.com/search.html">
+<link rel="stylesheet" href="assets/desk.css">
+</head>
+<body>
+<div class="desk-top">
+  <div class="wrap">
+    <div><b class="dt-live">Saturday, July 18, 2026</b> &middot; San Francisco</div>
+    <div class="dt-r">
+      <a href="blog.html">Latest</a>
+      <a href="columns.html">Columns</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="search.html">Search</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="mh-rule">
+      <em>Est. by a fan, not a network</em>
+      <span></span>
+      <em>No wire copy. No neutrality.</em>
+    </div>
+    <a class="wordmark" href="index.html">Bay Area<br><i>Sports Blog</i></a>
+  </div>
+</header>
+
+<nav class="teamnav">
+  <div class="wrap">
+        <a data-t="house" href="index.html">Home</a>
+        <a data-t="niners" href="49ers.html">49ers</a>
+        <a data-t="gs" href="warriors.html">Warriors</a>
+        <a data-t="sf" href="giants.html">Giants</a>
+        <a data-t="as" href="athletics.html">A's</a>
+        <a data-t="sj" href="sharks.html">Sharks</a>
+        <a data-t="lv" href="bayarea.html">Bay Area</a>
+        <span class="nv-sp"></span>
+        <a data-t="house" href="history.html">History</a>
+        <a data-t="house" href="dynasties.html">Dynasties</a>
+        <a data-t="house" href="timeline.html">Timeline</a>
+        <a data-t="house" href="blog.html">Blog</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <div class="search-hero">
+      <div class="sh-k">Find a story</div>
+      <h1>Search the Archive</h1>
+      <p>Every column, recap, rant, and history piece we have published. Type a player, a team, a year, or a grudge.</p>
+      <div class="search-box">
+        <input id="q" type="search" placeholder="Try: Webb, bullpen, Celebrini, The Catch, 73-9, Vitello..." autocomplete="off" autofocus>
+        <span class="sb-k">Search</span>
+      </div>
+    </div>
+    <div class="sr-list" id="results">
+      <div class="sr-empty">Loading the archive...</div>
+    </div>
+  </div>
+</main>
+
+<footer class="desk-foot">
+  <div class="wrap">
+    <div class="df-bot">
+      <div>&copy; 2026 Bay Area Sports Blog. All rights reserved.</div>
+      <div><a href="index.html">Home</a> &middot; <a href="blog.html">Blog</a> &middot; <a href="about.html">About</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var live=document.querySelector('.dt-live');
+  if(live){live.textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});}
+
+  var box=document.getElementById('q'), out=document.getElementById('results'), data=[];
+
+  function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+
+  function render(items,label){
+    if(!items.length){out.innerHTML='<div class="sr-empty">Nothing matched. Try a shorter word, a last name, or a team.</div>';return;}
+    var h='';
+    if(label){h+='<div class="sr-empty" style="padding:14px 18px">'+label+'</div>';}
+    items.forEach(function(a){
+      h+='<a class="sr-item" href="'+esc(a.u)+'">'
+        +'<span class="sr-k">'+esc(a.k)+(a.dt?' &middot; '+esc(a.dt):'')+'</span>'
+        +'<h4>'+esc(a.t)+'</h4>'
+        +'<p>'+esc(a.d)+'</p></a>';
+    });
+    out.innerHTML=h;
+  }
+
+  function search(){
+    var q=box.value.trim().toLowerCase();
+    if(!q){render(data.slice(0,12),'Newest stories &mdash; start typing to search '+data.length+' articles');return;}
+    var terms=q.split(/\s+/);
+    var scored=data.map(function(a){
+      var hay=(a.t+' '+a.d+' '+a.k+' '+a.u).toLowerCase(), s=0;
+      terms.forEach(function(t){
+        if(!hay.includes(t)){s=-1e9;return;}
+        s+=(a.t.toLowerCase().includes(t)?3:1);
+      });
+      return [s,a];
+    }).filter(function(x){return x[0]>0;});
+    scored.sort(function(x,y){return y[0]-x[0]||(y[1].dt||'').localeCompare(x[1].dt||'');});
+    render(scored.map(function(x){return x[1];}),null);
+  }
+
+  fetch('assets/search-index.json').then(function(r){return r.json();}).then(function(j){
+    data=j;search();
+  }).catch(function(){out.innerHTML='<div class="sr-empty">Could not load the archive index. <a href="blog.html" style="color:var(--orange)">Browse all stories instead</a>.</div>';});
+
+  box.addEventListener('input',search);
+})();
+</script>
+
+</body>
+</html>

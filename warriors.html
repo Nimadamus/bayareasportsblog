@@ -8,11 +8,12 @@
 </head><body>
 <div class="desk-top">
   <div class="wrap">
-    <div><b>Tuesday, July 14, 2026</b> &middot; San Francisco</div>
+    <div><b class="dt-live">Saturday, July 18, 2026</b> &middot; San Francisco</div>
     <div class="dt-r">
       <a href="blog.html">Latest</a>
       <a href="columns.html">Columns</a>
       <a href="timeline.html">Timeline</a>
+      <a href="search.html">Search</a>
       <a href="about.html">About</a>
     </div>
   </div>
@@ -129,4 +130,11 @@
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  var el=document.querySelector('.dt-live');
+  if(el){el.textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'});}
+})();
+</script>
 </body></html>
