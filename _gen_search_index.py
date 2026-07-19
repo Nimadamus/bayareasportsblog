@@ -8,7 +8,12 @@ OUT = os.path.join(ROOT, 'assets', 'search-index.json')
 
 def field(pattern, html):
     m = re.search(pattern, html, re.S | re.I)
-    return re.sub(r'\s+', ' ', m.group(1)).strip() if m else ''
+    if not m:
+        return ''
+    s = re.sub(r'\s+', ' ', m.group(1)).strip()
+    for ent, ch in (('&middot;', '·'), ('&amp;', '&'), ('&#39;', "'"), ('&quot;', '"')):
+        s = s.replace(ent, ch)
+    return s
 
 items = []
 adir = os.path.join(ROOT, 'articles')
