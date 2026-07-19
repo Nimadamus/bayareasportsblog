@@ -61,11 +61,13 @@ body{
   font:16px/1.62 var(--body);
   -webkit-font-smoothing:antialiased;
   background-image:
-    radial-gradient(1200px 700px at 78% -12%, rgba(233,200,130,.09), transparent 60%),
-    radial-gradient(1000px 620px at 2% 4%, rgba(255,82,51,.075), transparent 58%),
-    radial-gradient(900px 900px at 50% 118%, rgba(127,214,194,.06), transparent 60%),
+    linear-gradient(180deg, rgba(7,16,15,.6) 0%, rgba(7,16,15,.8) 46%, rgba(7,16,15,.93) 100%),
+    url("img/gg-night-bg.jpg"),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
-  background-attachment:fixed,fixed,fixed,fixed;
+  background-repeat:no-repeat,no-repeat,repeat;
+  background-position:0 0,center top,0 0;
+  background-size:auto,cover,auto;
+  background-attachment:fixed,fixed,fixed;
 }
 
 .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
@@ -84,11 +86,6 @@ body{
 
 .masthead{position:relative;border-bottom:none;overflow:hidden;
   background:linear-gradient(180deg,rgba(10,21,20,.5),transparent 70%)}
-/* the bridge */
-.masthead{background-image:
-  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 420'%3E%3Cg stroke='%23ff5233' fill='none' stroke-width='6' stroke-opacity='.8'%3E%3Cpath d='M-40 150 Q 230 330 455 68 Q 800 345 1145 68 Q 1370 330 1640 150'/%3E%3Cpath d='M440 68 V336 M470 68 V336 M1130 68 V336 M1160 68 V336' stroke-width='9'/%3E%3Cpath d='M432 120 H478 M432 190 H478 M432 260 H478 M1122 120 H1168 M1122 190 H1168 M1122 260 H1168' stroke-width='7'/%3E%3Cpath d='M540 148 V336 M620 208 V336 M700 252 V336 M800 268 V336 M900 252 V336 M980 208 V336 M1060 148 V336' stroke-width='2.5'/%3E%3Cpath d='M-40 336 H1640' stroke-width='10'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right -120px top 14px;background-size:min(880px,60vw) auto;
-  background-blend-mode:normal}
 .masthead:before{content:"";position:absolute;inset:-40px -10%;pointer-events:none;z-index:1;
   background:
     radial-gradient(46% 34% at 22% 66%, rgba(242,239,230,.085), transparent 70%),
@@ -598,7 +595,6 @@ a.plate:hover .pl-img img{filter:grayscale(0) sepia(0) saturate(1) contrast(1);t
   .quote .qm{font-size:70px}
   .df-top{grid-template-columns:1fr;gap:24px}
   .desk-top .dt-r{display:none}
-  .masthead{background-image:none}
 }
 @media(max-width:460px){
   .mag{grid-template-columns:1fr}
@@ -612,6 +608,11 @@ a.plate:hover .pl-img img{filter:grayscale(0) sepia(0) saturate(1) contrast(1);t
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
 }
+
+/* per-image focal points for cover crops */
+img[src*="kubiak-cousins-mendoza-jeanty"]{object-position:50% 22%}
+img[src*="jerry-rice-predicts"]{object-position:50% 18%}
+img[src*="celebrini"]{object-position:50% 30%}
 
 /* ============================================================
    SCOREBOARD — "Last Night in the Bay" (ticket-stub deco)
