@@ -327,5 +327,19 @@
   "mode": "photo",
   "team": "athletics",
   "alt": "Shea Langeliers of the Athletics after a home run in the 23-4 loss to the Nationals"
+ },
+ "articles/giants-swept-momentum-mariners-6-3-robbie-ray-eldridge-july-19.html": {
+  "card": "assets/img/cards/giants-swept-momentum-mariners-6-3-robbie-ray-eldridge-july-19.jpg",
+  "sha256": "311a4f25236ad562f67df2725fb6f2609782d66b451e9654f3970855f99c7762",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Luis Arraez of the San Francisco Giants, who doubled home a run in the 6-3 loss to the Mariners"
+ },
+ "articles/athletics-nationals-5-2-risp-failure-lopez-series-loss-july-19.html": {
+  "card": "assets/img/cards/athletics-nationals-5-2-risp-failure-lopez-series-loss-july-19.jpg",
+  "sha256": "1e75cb74b3689e51d817f8c89f1910b93c2aacb5c5074d47e19965ce75be8751",
+  "mode": "photo",
+  "team": "athletics",
+  "alt": "Tyler Soderstrom of the Athletics, who drove in a run in the 5-2 loss to the Nationals"
  }
 }
