@@ -351,5 +351,21 @@
   "sub": "Eleven hits, two runs, series lost 5-2",
   "team": "athletics",
   "alt": "Tyler Soderstrom of the Athletics, who drove in a run in the 5-2 loss to the Nationals"
+ },
+ "articles/giants-royals-3-2-mahle-two-runs-fourth-straight-july-21.html": {
+  "mode": "photo",
+  "src": "assets/img/players/robbie-ray-giants.jpg",
+  "name": "Royals 3, Giants 2",
+  "sub": "Five hits, fourth straight loss, 42-59",
+  "team": "giants",
+  "alt": "Robbie Ray of the San Francisco Giants"
+ },
+ "articles/athletics-diamondbacks-6-5-10th-jacob-wilson-homer-blown-july-21.html": {
+  "mode": "photo",
+  "src": "assets/img/players/athletics-tyler-soderstrom-tigers.jpg",
+  "name": "Tyler Soderstrom",
+  "sub": "A hit and a run in the 6-5 loss in ten innings",
+  "team": "athletics",
+  "alt": "Tyler Soderstrom of the Athletics, who reached and scored in the 6-5 loss to the Diamondbacks"
  }
 }

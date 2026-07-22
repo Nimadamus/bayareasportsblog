@@ -341,5 +341,19 @@
   "mode": "photo",
   "team": "athletics",
   "alt": "Tyler Soderstrom of the Athletics, who drove in a run in the 5-2 loss to the Nationals"
+ },
+ "articles/giants-royals-3-2-mahle-two-runs-fourth-straight-july-21.html": {
+  "card": "assets/img/cards/giants-royals-3-2-mahle-two-runs-fourth-straight-july-21.jpg",
+  "sha256": "7226276e70e00df69c72cb757938a2dfcc14ed4e41c5dc3b0c87dcb5bb0e8892",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Robbie Ray of the San Francisco Giants"
+ },
+ "articles/athletics-diamondbacks-6-5-10th-jacob-wilson-homer-blown-july-21.html": {
+  "card": "assets/img/cards/athletics-diamondbacks-6-5-10th-jacob-wilson-homer-blown-july-21.jpg",
+  "sha256": "8c62daf2cabca6f77fdef79779528a3ecd0c2681bee52cc32c4d8623eb2d512e",
+  "mode": "photo",
+  "team": "athletics",
+  "alt": "Tyler Soderstrom of the Athletics, who reached and scored in the 6-5 loss to the Diamondbacks"
  }
 }
