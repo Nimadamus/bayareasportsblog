@@ -367,5 +367,21 @@
   "sub": "A hit and a run in the 6-5 loss in ten innings",
   "team": "athletics",
   "alt": "Tyler Soderstrom of the Athletics, who reached and scored in the 6-5 loss to the Diamondbacks"
+ },
+ "articles/giants-royals-5-4-swept-roupp-schmitt-july-22.html": {
+  "mode": "photo",
+  "src": "assets/img/players/rafael-devers-giants.jpg",
+  "name": "Rafael Devers",
+  "sub": "A double in a 5-4 sweep-clinching loss",
+  "team": "giants",
+  "alt": "Rafael Devers of the San Francisco Giants, who doubled in the 5-4 loss to the Royals"
+ },
+ "articles/athletics-diamondbacks-15-5-seven-run-fifth-july-22.html": {
+  "mode": "photo",
+  "src": "assets/img/players/langeliers-athletics.jpg",
+  "name": "Shea Langeliers",
+  "sub": "Two hits in a 15-5 rout in Arizona",
+  "team": "athletics",
+  "alt": "Shea Langeliers of the Athletics, who had two hits in the 15-5 loss to the Diamondbacks"
  }
 }
