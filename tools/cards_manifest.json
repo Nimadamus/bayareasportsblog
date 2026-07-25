@@ -383,5 +383,21 @@
   "sub": "Two hits in a 15-5 rout in Arizona",
   "team": "athletics",
   "alt": "Shea Langeliers of the Athletics, who had two hits in the 15-5 loss to the Diamondbacks"
+ },
+ "articles/giants-angels-7-6-10th-devers-walkoff-july-25.html": {
+  "mode": "photo",
+  "src": "assets/img/players/arraez-giants-card.jpg",
+  "name": "Luis Arraez",
+  "sub": "A 3-for-5 day in a 7-6 win over the Angels in ten",
+  "team": "giants",
+  "alt": "Luis Arraez of the San Francisco Giants, who went 3-for-5 in the 7-6 win over the Angels"
+ },
+ "articles/athletics-twins-2-0-lopez-bullpen-shutout-july-25.html": {
+  "mode": "photo",
+  "src": "assets/img/players/lopez.jpg",
+  "name": "Jacob Lopez",
+  "sub": "Five scoreless innings in a 2-0 shutout of the Twins",
+  "team": "athletics",
+  "alt": "Jacob Lopez of the Athletics, who struck out four over five scoreless innings in the 2-0 win over the Twins"
  }
 }
