@@ -23,7 +23,10 @@ def _faces(gray):
         out.append((W-x-w,y,w,h))
     return out
 
-def crop_card(src, dst, W=1200, H=675):
+def crop_card(src, dst, W=1200, H=675, jitter=(0.0, 0.0, 1.0)):
+    """jitter=(dx_frac, dy_frac, zoom) nudges the crop box for variety-guard retries.
+    dx_frac/dy_frac shift the box center by that fraction of the box size; zoom<1
+    tightens the box slightly. Defaults reproduce the original deterministic crop."""
     im = Image.open(src).convert('RGB')
     iw,ih = im.size
     arr = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
@@ -50,10 +53,13 @@ def crop_card(src, dst, W=1200, H=675):
         if ch < need_h:
             ch = need_h; cw = ch*target
             if cw> iw: cw=iw; ch=cw/target
+    dxf, dyf, zoom = jitter
+    cw *= zoom; ch *= zoom
+    cx += cw*dxf; cy += ch*dyf
     left = cx - cw/2.0
     # vertical: put face comfortably in upper third; top margin above head = ~0.9*fh
     if face:
-        top = fy - fh*0.9
+        top = fy - fh*0.9 + ch*dyf
     else:
         top = cy - ch*0.42
     left = max(0, min(left, iw-cw))

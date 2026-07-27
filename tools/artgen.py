@@ -388,13 +388,13 @@ def art_card(team, name, sub, out, seed=None, type_on=False):
     return out
 
 
-def photo_card(src, team, name, sub, out, seed=None, type_on=False):
+def photo_card(src, team, name, sub, out, seed=None, type_on=False, jitter=(0.0, 0.0, 1.0)):
     """Real photo -> focal crop -> team duotone wash. See art_card for type_on."""
     from focal_crop import crop_card
     cfg = TEAMS.get(team, TEAMS['bay'])
     rng = R(seed if seed is not None else src)
     tmp = out + '.crop.jpg'
-    crop_card(src, tmp, W, H)
+    crop_card(src, tmp, W, H, jitter=jitter)
     ph = Image.open(tmp).convert('RGB')
     os.remove(tmp)
 

@@ -1,10 +1,10 @@
 {
  "articles/jerry-rice-predicts-49ers-super-bowl-2026-drought-over.html": {
   "card": "assets/img/cards/jerry-rice-predicts-49ers-super-bowl-2026-drought-over.jpg",
-  "sha256": "e5bc116f0c54c731fb9a33762d0edbc7b1ddb4aa723b4b04c1d40bf534e389d9",
-  "mode": "graphic",
+  "sha256": "5ffa5a7bf8244dbe9d73fd740b82370844a2d3b01e7db0134c012ad3da57d1b9",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: Jerry Rice predicts a 2026 Super Bowl"
+  "alt": "Jerry Rice of the San Francisco 49ers"
  },
  "articles/giants-casey-schmitt-all-star-breakout-season-2026.html": {
   "card": "assets/img/cards/giants-casey-schmitt-all-star-breakout-season-2026.jpg",
@@ -15,17 +15,17 @@
  },
  "articles/giants-4-2-rockies-tyler-mahle-first-win-casey-schmitt-homer-july-11.html": {
   "card": "assets/img/cards/giants-4-2-rockies-tyler-mahle-first-win-casey-schmitt-homer-july-11.jpg",
-  "sha256": "e347cffc0945d5073e2118f871967c3751528bb2ac575700ebbb01db1bade1a9",
-  "mode": "graphic",
+  "sha256": "d845cbfc210d11361fdc870d3a15741c87e8377363ff7ad537d9792002d4cf16",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Tyler Mahle earns his first win, 4-2 over the Rockies"
+  "alt": "Casey Schmitt of the San Francisco Giants, who hit the go-ahead homer"
  },
  "articles/athletics-1-0-loss-white-sox-eighth-straight-coming-back-to-earth-july-11.html": {
   "card": "assets/img/cards/athletics-1-0-loss-white-sox-eighth-straight-coming-back-to-earth-july-11.jpg",
-  "sha256": "959ed3d31eb3b3afaa3d7b51e4b4d4be590a67411598ff9c9e5aede721671b10",
-  "mode": "graphic",
+  "sha256": "a635fe6c2514886f2308cac5c9b369873f68bc3c2afab587af309db87ebaeeaa",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: eighth straight loss, 1-0 to the White Sox"
+  "alt": "Tyler Soderstrom of the Athletics"
  },
  "articles/49ers-shanahan-best-team-if-healthy-super-bowl-2026.html": {
   "card": "assets/img/cards/49ers-shanahan-best-team-if-healthy-super-bowl-2026.jpg",
@@ -36,45 +36,45 @@
  },
  "articles/giants-3-1-rockies-erik-miller-bullpen-holds-series-win-july-12.html": {
   "card": "assets/img/cards/giants-3-1-rockies-erik-miller-bullpen-holds-series-win-july-12.jpg",
-  "sha256": "765aade248bd1a7bc7fc530f467ee8a8fddacde73cd3e1111272f14d36705c5b",
-  "mode": "graphic",
+  "sha256": "106a6620d21e0b92cd15a8b241c7d4ab0571c1324b04b8b4c75e89df33db3ac4",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Erik Miller closes out a 3-1 win over the Rockies"
+  "alt": "Willy Adames of the San Francisco Giants at the plate at Oracle Park"
  },
  "articles/athletics-nine-straight-white-sox-9-1-tailspin-i-called-it-july-12.html": {
   "card": "assets/img/cards/athletics-nine-straight-white-sox-9-1-tailspin-i-called-it-july-12.jpg",
-  "sha256": "eb0c00fe6b17afb23f5079185f94882816b3c87c8997e3b6f6885980f958b566",
-  "mode": "graphic",
+  "sha256": "ccb4f2c53bd91ea1c1501b5b6dd794e4498a0dea2a8e8ae1d804394423ea3874",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: nine straight losses in a 9-1 rout"
+  "alt": "Brent Rooker of the Athletics at the plate"
  },
  "articles/giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.html": {
   "card": "assets/img/cards/giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.jpg",
-  "sha256": "de0b6701d2b6adf93b2d76397f611a0828a6d62c51e4baf0d81584250562864a",
-  "mode": "graphic",
+  "sha256": "2bd64eba58a56dd2719161a8fc0a5a805243eb11354c2dfc82f7e99353714db9",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: bullpen meltdown in a 4-3 loss to the Rockies"
+  "alt": "Caleb Kilian, the Giants reliever who took the loss against the Rockies"
  },
  "articles/giants-devers-awake-home-run-rockies-july-10.html": {
   "card": "assets/img/cards/giants-devers-awake-home-run-rockies-july-10.jpg",
-  "sha256": "2cdcbc5fdafc114e0d67a2288ce4899349f56fafcb425eca243280e0ab2f3d26",
-  "mode": "graphic",
+  "sha256": "97ca4e8447184df4bd8bcd46d234a39fea352a46a3f8e00ea99953a2e72edc24",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Rafael Devers homers against the Rockies"
+  "alt": "Rafael Devers of the San Francisco Giants following through on a home run swing"
  },
  "articles/giants-whisenhunt-gem-rockies-8-2-july-9.html": {
   "card": "assets/img/cards/giants-whisenhunt-gem-rockies-8-2-july-9.jpg",
-  "sha256": "1bac0d5ebc5a2b392e064f48e72f93f86e3c1c18672108c0b80f401948123c1c",
-  "mode": "graphic",
+  "sha256": "d4587206493f7f215c3fccb6e4b8fd13d0c8d795aba1ea7ac1e3dc3ba965413a",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Carson Whisenhunt shines in an 8-2 win"
+  "alt": "Oracle Park, where Carson Whisenhunt threw his gem in an 8-2 win over Colorado"
  },
  "articles/athletics-tigers-sweep-valdez-july-9.html": {
   "card": "assets/img/cards/athletics-tigers-sweep-valdez-july-9.jpg",
-  "sha256": "a28a736b9c82118b4e82ec98fc870b96921eebad0465f835af3d5e1c4bfdbd73",
-  "mode": "graphic",
+  "sha256": "b270edc4c76178d8405a96b5e92ef258d5823909c74b7bd70f68025600214c11",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: swept by the Tigers, six straight losses"
+  "alt": "Zach McKinstry of the Detroit Tigers"
  },
  "articles/giants-no-hit-cease-webb-grand-slam-july-8.html": {
   "card": "assets/img/cards/giants-no-hit-cease-webb-grand-slam-july-8.jpg",
@@ -85,10 +85,10 @@
  },
  "articles/athletics-tigers-melton-shellacking-july-8.html": {
   "card": "assets/img/cards/athletics-tigers-melton-shellacking-july-8.jpg",
-  "sha256": "145e8c1d68be9385adcc515cbb6bf8d5563d201a0442d449d8234eace0969387",
-  "mode": "graphic",
+  "sha256": "44ad88b91189ea5841bf7a692f538d34b778a402ec025b7079137b8b74ef3f88",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: the A's shelled by a rookie named Melton"
+  "alt": "Tyler Soderstrom of the Athletics against the Tigers"
  },
  "articles/sharks-rebuild-has-a-pulse-celebrini.html": {
   "card": "assets/img/cards/sharks-rebuild-has-a-pulse-celebrini.jpg",
@@ -99,10 +99,10 @@
  },
  "articles/49ers-still-paying-for-vegas.html": {
   "card": "assets/img/cards/49ers-still-paying-for-vegas.jpg",
-  "sha256": "5fbafd480edc6875528e229a19d3eaeecf91b721a8dae3793bdaba933ab2467f",
-  "mode": "graphic",
+  "sha256": "0e1071c104ba18246e7b33baf668d4d0529b80e38ebaa1afddd36ad8692df1a8",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: still paying for the Las Vegas Super Bowl loss"
+  "alt": "Brock Purdy of the San Francisco 49ers"
  },
  "articles/tony-vitello-hire-giants-mistake.html": {
   "card": "assets/img/cards/tony-vitello-hire-giants-mistake.jpg",
@@ -113,87 +113,87 @@
  },
  "articles/warriors-out-of-easy-answers.html": {
   "card": "assets/img/cards/warriors-out-of-easy-answers.jpg",
-  "sha256": "72627bbb3012259c9e2dc5dde160eb19a152e3f228c46efd066c9df9b57f27cc",
-  "mode": "graphic",
+  "sha256": "0fafc69ee8e038b6b2f56ac8970a7af924762a1530e3a360bcca1879d6e65cf9",
+  "mode": "photo",
   "team": "warriors",
-  "alt": "Warriors editorial graphic: out of easy answers in the Curry era"
+  "alt": "Stephen Curry of the Golden State Warriors on the court"
  },
  "articles/warriors-championship-history.html": {
   "card": "assets/img/cards/warriors-championship-history.jpg",
-  "sha256": "50cafc023bb82220ae3521aeed08d027b8c2343f25458677ea40e2b6aa13dfb8",
-  "mode": "graphic",
+  "sha256": "ae9c266cf56076021fcf2ef6273a56d7d2da4cbeed8aab69ad375b20d275ee02",
+  "mode": "photo",
   "team": "warriors",
-  "alt": "Warriors editorial graphic: championship history from Rick Barry to the Splash Brothers"
+  "alt": "Stephen Curry, the face of the modern Warriors dynasty"
  },
  "articles/49ers-dynasty-team-of-the-decade.html": {
   "card": "assets/img/cards/49ers-dynasty-team-of-the-decade.jpg",
-  "sha256": "d3eaa10eb8755998b9fe748941ff72718e3e16a7518c514e3c943c5243b90eaa",
-  "mode": "graphic",
+  "sha256": "77418b114f018bdbdbc6c46a95e30f735e31b1c6d9b328f92a159dbb4e031f4a",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: the dynasty that won five Super Bowls"
+  "alt": "Joe Montana of the San Francisco 49ers dynasty"
  },
  "articles/warriors-73-9-best-record-ever-added-durant.html": {
   "card": "assets/img/cards/warriors-73-9-best-record-ever-added-durant.jpg",
-  "sha256": "f92497b0ecd1694ec0decdfec08fd488ca5dc9a00fee537947322253c977b460",
-  "mode": "graphic",
+  "sha256": "86fa0b5a21481c3671107e5addaa93918265325fe69c4569fd7c8ba7b25e3c87",
+  "mode": "photo",
   "team": "warriors",
-  "alt": "Warriors editorial graphic: the 73-9 season, then Kevin Durant"
+  "alt": "Stephen Curry during the 73-9 season"
  },
  "articles/flashback-klay-37-point-quarter.html": {
   "card": "assets/img/cards/flashback-klay-37-point-quarter.jpg",
-  "sha256": "e0473e4d4dd943c0f787c6a2839049d286aaa5577a2f6e8562c3f57e3ece95ed",
-  "mode": "graphic",
+  "sha256": "3c4d2488c8e4e08cba5fc5c7829f9bce2179ee290daeafa4df02eadea59f8694",
+  "mode": "photo",
   "team": "warriors",
-  "alt": "Warriors editorial graphic: Klay Thompson's 37-point quarter"
+  "alt": "Klay Thompson of the Golden State Warriors"
  },
  "articles/barry-bonds-giants-home-run-king.html": {
   "card": "assets/img/cards/barry-bonds-giants-home-run-king.jpg",
-  "sha256": "af7556837cfd3345687a76cedcc632c02e26b89bb0e3a68380291961e8a60022",
-  "mode": "graphic",
+  "sha256": "5452a74741f93ecaeedd0922a230ebfeff29c997da655c9db127e7a76950161e",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Barry Bonds, the home run king"
+  "alt": "Barry Bonds of the San Francisco Giants"
  },
  "articles/giants-dynasty-even-year-magic.html": {
   "card": "assets/img/cards/giants-dynasty-even-year-magic.jpg",
-  "sha256": "92eb15467d981d5ab16f98be19daf1a842741c54e90e06abaff7419cf369baaa",
-  "mode": "graphic",
+  "sha256": "c08b166b0e88fb65184ce11355ab4a8d11f3001bd3e2f8ae5f97c87296e2ee14",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: even-year World Series magic"
+  "alt": "Buster Posey of the San Francisco Giants"
  },
  "articles/bay-area-sports-history.html": {
   "card": "assets/img/cards/bay-area-sports-history.jpg",
-  "sha256": "7902547a8a3f7b17761a167dd5177d4446c378f5dced2f9ee775c5d82714b909",
-  "mode": "graphic",
+  "sha256": "335e110105fe75728c0875cb0a64063085345eefe067a504ef44d9d4ab85bed7",
+  "mode": "photo",
   "team": "bay",
-  "alt": "Bay Area Sports editorial graphic: the region's championship history"
+  "alt": "Jerry Rice, a defining figure in Bay Area sports history"
  },
  "articles/jeff-kent-giants-mvp-second-baseman.html": {
   "card": "assets/img/cards/jeff-kent-giants-mvp-second-baseman.jpg",
-  "sha256": "97f98998ccdbb7d4f7a5f6057337404fa09dc4816ae3c958559b15414c6939a5",
-  "mode": "graphic",
+  "sha256": "bbf8d71ad4469168778fb44d951869fa64fbbc4dfdbaa4a0e8a288e44095fe78",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Jeff Kent, MVP second baseman"
+  "alt": "Jeff Kent preparing to bat for the San Francisco Giants"
  },
  "articles/athletics-sacramento-bay-area-villains.html": {
   "card": "assets/img/cards/athletics-sacramento-bay-area-villains.jpg",
-  "sha256": "45515cef46bcedc636bb8198021746e37ed1d035684321503a8b3a945f7082d1",
-  "mode": "graphic",
+  "sha256": "0423fa76982d01bb16435e43a7988ef9563e68b1de81476c13de6a0df6709f40",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: the A's playing in Sacramento"
+  "alt": "Aerial view of Sutter Health Park in West Sacramento, home of the A's"
  },
  "articles/athletics-white-sox-preview-jacob-lopez-july-10.html": {
   "card": "assets/img/cards/athletics-white-sox-preview-jacob-lopez-july-10.jpg",
-  "sha256": "a2e84cf06e8b6225c6d2c37d0bf0d2e9a9506cc4e9084b50007ae9423716ba02",
-  "mode": "graphic",
+  "sha256": "4bb81545828198c7cfd583b55ec4f147ad0a39822245058541da602d67ae7567",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: Jacob Lopez starts against the White Sox"
+  "alt": "Brent Rooker of the Athletics, the middle-of-the-order bat carrying a stalled A's offense into Chicago"
  },
  "articles/lebron-curry-warriors-legacy-what-it-means.html": {
   "card": "assets/img/cards/lebron-curry-warriors-legacy-what-it-means.jpg",
-  "sha256": "128a782cee794dfb017434861aa1b556385abfcb4aea7587e4c4946ac6b29b26",
-  "mode": "graphic",
+  "sha256": "d95b4e2305cf59a85076f52126dbf6ab3b0faa4e27d04193a1135979801bd3bb",
+  "mode": "photo",
   "team": "warriors",
-  "alt": "Warriors editorial graphic: the Curry and LeBron rivalry and legacy"
+  "alt": "LeBron James, who has informed the Lakers he intends to play elsewhere"
  },
  "articles/brandon-aiyuk-antonio-brown-49ers.html": {
   "card": "assets/img/cards/brandon-aiyuk-antonio-brown-49ers.jpg",
@@ -204,126 +204,126 @@
  },
  "articles/flashback-bumgarner-2014-world-series.html": {
   "card": "assets/img/cards/flashback-bumgarner-2014-world-series.jpg",
-  "sha256": "4787c149fd342b8474c6c466f94f281c461352bc1e2448cf4030d2070cf9f4c6",
-  "mode": "graphic",
+  "sha256": "ee6614b58c19a3a8bf4ec519c16ba75fc49836373f80c0bd7686b66918392bc4",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Madison Bumgarner's 2014 World Series"
+  "alt": "Madison Bumgarner of the San Francisco Giants"
  },
  "articles/flashback-the-catch-1982.html": {
   "card": "assets/img/cards/flashback-the-catch-1982.jpg",
-  "sha256": "40bd037faac39a03c46c0b6021cab5eaef9bfb76cf1d28ef5989837c74790f42",
-  "mode": "graphic",
+  "sha256": "8403038674ed1b0cc974e656af73413a5b3eb25c56edc4e087dba5a92df4d002",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: The Catch, Montana to Dwight Clark"
+  "alt": "Joe Montana, who threw The Catch to Dwight Clark"
  },
  "articles/giants-oracle-park-still-waiting.html": {
   "card": "assets/img/cards/giants-oracle-park-still-waiting.jpg",
-  "sha256": "ad5adb7db6734335a6d541cdf1e5c30e6127bd5522035cd53ec698dc134ae835",
-  "mode": "graphic",
+  "sha256": "bab0c4c0d73c00244457d771d00b10cb02655df583240ff59e533dba97bb082d",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Oracle Park still waiting for October"
+  "alt": "Logan Webb of the San Francisco Giants"
  },
  "articles/tony-vitello-not-ready-cant-talk-down-quote.html": {
   "card": "assets/img/cards/tony-vitello-not-ready-cant-talk-down-quote.jpg",
-  "sha256": "4e3ff33600e8f4e0dafd4c7f0a7817eedd5ca8f012ba8e3de5297f7177776c2f",
-  "mode": "graphic",
+  "sha256": "f43bad37658106148698c456ea1922d00fd1f57083f7072f18980955ecef7ce2",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Tony Vitello's own words on being unready"
+  "alt": "Tony Vitello"
  },
  "articles/nfl-blackballed-colin-kaepernick-kneeling-anthem.html": {
   "card": "assets/img/cards/nfl-blackballed-colin-kaepernick-kneeling-anthem.jpg",
-  "sha256": "c7c452030fc5b8fd1822d9598102f9f492ccfe7a1575a382048e48d8cb69c9b3",
-  "mode": "graphic",
+  "sha256": "d1994e46f8c536675f4dc508744bca542af08a629e676dc10f653d3a45550054",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: Colin Kaepernick blackballed after kneeling"
+  "alt": "Colin Kaepernick of the San Francisco 49ers"
  },
  "articles/giants-rockies-preview-robbie-ray-bryce-eldridge-july-10.html": {
   "card": "assets/img/cards/giants-rockies-preview-robbie-ray-bryce-eldridge-july-10.jpg",
-  "sha256": "0cda49f3fff479d6261261644d2a744c280b09753c5666611e43215d61626081",
-  "mode": "graphic",
+  "sha256": "e635fb15e9b08dcf2ed4a3e335c2a3e2dec6f1f4142f7721f9143de0c9404769",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Robbie Ray starts against the Rockies"
+  "alt": "Robbie Ray, the Giants' starter previewed in this matchup"
  },
  "articles/montana-young-49ers-quarterback-controversy.html": {
   "card": "assets/img/cards/montana-young-49ers-quarterback-controversy.jpg",
-  "sha256": "93af147d126612672ae6c947f47a8045fac366b7f09470105f62079fb2662061",
-  "mode": "graphic",
+  "sha256": "534ad35802ae9700d42d22e015c8f1e25dcbbd508a808ac7afaeb3d596beef9e",
+  "mode": "photo",
   "team": "49ers",
-  "alt": "49ers editorial graphic: the Joe Montana and Steve Young controversy"
+  "alt": "Joe Montana of the San Francisco 49ers"
  },
  "articles/giants-season-over-build-around-eldridge-posey-bullpen.html": {
   "card": "assets/img/cards/giants-season-over-build-around-eldridge-posey-bullpen.jpg",
-  "sha256": "9bf93ce7a7c6794083c4c12c30b58c9a6f80d49d87abcbe1ac13fd7786df3c58",
-  "mode": "graphic",
+  "sha256": "0b0b9d985efd3f7d8d852de497a6f1b3fe28282ec1ab84ebf3b3cefb919b22c1",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: build around Bryce Eldridge and the core"
+  "alt": "Buster Posey of the San Francisco Giants"
  },
  "articles/giants-pitching-woke-up-blue-jays-worst-offense.html": {
   "card": "assets/img/cards/giants-pitching-woke-up-blue-jays-worst-offense.jpg",
-  "sha256": "07c170824f0a906ae1b67213b9adc69f94a2fc52a4a41cea48cfee66dcb0c9c5",
-  "mode": "graphic",
+  "sha256": "832fa62a4f7a98ac20346091f6ec460b23533d12cd670c5d21528955941c0050",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: the Giants pitching staff dominates"
+  "alt": "Oracle Park, home of the San Francisco Giants"
  },
  "articles/bruce-bochy-bullpen-wizardry-core-four.html": {
   "card": "assets/img/cards/bruce-bochy-bullpen-wizardry-core-four.jpg",
-  "sha256": "09b52b42c4b752e57a8c405c91245ad0d4c6163f1f4f7173147792cc9b66e60f",
-  "mode": "graphic",
+  "sha256": "a27cd8862500a6083d9724580fb66df04970d10107dd463515bffc0fbafe91fb",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: Bruce Bochy's bullpen wizardry"
+  "alt": "Bruce Bochy of the San Francisco Giants"
  },
  "articles/welcome-to-bay-area-sports-blog.html": {
   "card": "assets/img/cards/welcome-to-bay-area-sports-blog.jpg",
-  "sha256": "2beede3984b2b76a31fdf8107559cb76e1e4077828311eb904d9b35c2e9cf8fb",
-  "mode": "graphic",
+  "sha256": "5fdd44993ff649b41a18778262d266ca3e71e034c8fbf680ec3ca901bbdb591c",
+  "mode": "photo",
   "team": "bay",
-  "alt": "Bay Area Sports editorial graphic: welcome to the blog"
+  "alt": "Oracle Park, home of the San Francisco Giants, along the Bay Area waterfront"
  },
  "articles/giants-1993-pennant-race-salomon-torres-final-day.html": {
   "card": "assets/img/cards/giants-1993-pennant-race-salomon-torres-final-day.jpg",
-  "sha256": "d099f740b168c2fce5e56c6b639997e736c42d6fa9a93f083a852d5900c78109",
-  "mode": "graphic",
+  "sha256": "c4ce5cda12469af249a10c2d8eeee44f3a9f46f5917b679eb1775eb6ddc82467",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: the 1993 pennant race and its final day"
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
   "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
-  "sha256": "7ab18c473075be69068bedaac7cf4ee495b72918ed6e33054f055982933fd4bf",
-  "mode": "graphic",
+  "sha256": "681184e1a8a7d1d09a59b8dd407e6ebb5ab42e80fd96fc80ecf15c06dd83de64",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Giants editorial graphic: 41-55 at the All-Star break under Tony Vitello"
+  "alt": "Tony Vitello"
  },
  "articles/athletics-first-half-breakdown-mirage-collapse-all-star-break-2026.html": {
   "card": "assets/img/cards/athletics-first-half-breakdown-mirage-collapse-all-star-break-2026.jpg",
-  "sha256": "3bd2d8a3e15ddb54b3c44e1254c135d5701ef0610609b90cb6f5b046d3bba9bb",
-  "mode": "graphic",
+  "sha256": "d6b871868fc66d11d136dc6c46a5f335c95252cb5f19882a79946d1ccef57601",
+  "mode": "photo",
   "team": "athletics",
-  "alt": "Athletics editorial graphic: 41-55 at the All-Star break, the mirage collapse"
+  "alt": "Brent Rooker of the Athletics at the plate"
  },
  "articles/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html": {
   "card": "assets/img/cards/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.jpg",
-  "sha256": "d61efd3b46ba60c44209be0ed297bc59affd835d61c8c6d2b62760dd3d2f2dcd",
-  "mode": "graphic",
+  "sha256": "a3303c63d8a087795332b572a806862018534e746743d3926352b9a5625461dd",
+  "mode": "photo",
   "team": "raiders",
-  "alt": "Raiders editorial graphic: 2026 season preview under Klint Kubiak"
+  "alt": "Ashton Jeanty, the Raiders' rookie running back"
  },
  "articles/giants-athletics-all-star-game-2026-arraez-langeliers-webb.html": {
   "card": "assets/img/cards/giants-athletics-all-star-game-2026-arraez-langeliers-webb.jpg",
-  "sha256": "aa02870d97e8c0b1487aaf42ac924f8190d1857ae31141d463d923bceda2dd10",
-  "mode": "graphic",
+  "sha256": "012d9918aa21a25a5d1870f1d2baa2b10fe82f247b1dddf2070ef19db0ff0de7",
+  "mode": "photo",
   "team": "bay",
-  "alt": "Bay Area editorial graphic: AL 4, NL 0 at the 2026 All-Star Game with Langeliers, Arraez and Webb"
+  "alt": "Shea Langeliers of the Athletics, who reached base twice for the AL in the 2026 All-Star Game"
  },
  "articles/giants-adames-grand-slam-mariners-7-0-second-half-july-17.html": {
   "card": "assets/img/cards/giants-adames-grand-slam-mariners-7-0-second-half-july-17.jpg",
-  "sha256": "36c4ce33ac6c71913285891a3c869139ac44be849c213ce141c871105905ad94",
+  "sha256": "b689011ee15873f20e96737402413b0a0e639a8d4090e8c349a6ca330ce39c6c",
   "mode": "photo",
   "team": "giants",
   "alt": "Willy Adames of the Giants after his seventh career grand slam in the 7-0 win over the Mariners"
  },
  "articles/athletics-nationals-23-4-blowout-gage-jump-second-half-july-17.html": {
   "card": "assets/img/cards/athletics-nationals-23-4-blowout-gage-jump-second-half-july-17.jpg",
-  "sha256": "2f165e7fc55c04fef3814083d6c1cb49711005f5576561fbdb3bc270a444434b",
+  "sha256": "cc22a37ae411087bd7747fa4e86be53399283842f269e4695d8d3cf1b26065fb",
   "mode": "photo",
   "team": "athletics",
   "alt": "Shea Langeliers of the Athletics after a home run in the 23-4 loss to the Nationals"
@@ -337,35 +337,35 @@
  },
  "articles/athletics-nationals-5-2-risp-failure-lopez-series-loss-july-19.html": {
   "card": "assets/img/cards/athletics-nationals-5-2-risp-failure-lopez-series-loss-july-19.jpg",
-  "sha256": "1e75cb74b3689e51d817f8c89f1910b93c2aacb5c5074d47e19965ce75be8751",
+  "sha256": "86ac8acfbc46e052da7fe0166d4a10bb759b8f028da6dd37c59267f3c10c08ef",
   "mode": "photo",
   "team": "athletics",
   "alt": "Tyler Soderstrom of the Athletics, who drove in a run in the 5-2 loss to the Nationals"
  },
  "articles/giants-royals-3-2-mahle-two-runs-fourth-straight-july-21.html": {
   "card": "assets/img/cards/giants-royals-3-2-mahle-two-runs-fourth-straight-july-21.jpg",
-  "sha256": "7226276e70e00df69c72cb757938a2dfcc14ed4e41c5dc3b0c87dcb5bb0e8892",
+  "sha256": "f7fb7109b2be794555a1b6503c40d59fef4b168ae47d3c7f40c041ec52e11c06",
   "mode": "photo",
   "team": "giants",
   "alt": "Robbie Ray of the San Francisco Giants"
  },
  "articles/athletics-diamondbacks-6-5-10th-jacob-wilson-homer-blown-july-21.html": {
   "card": "assets/img/cards/athletics-diamondbacks-6-5-10th-jacob-wilson-homer-blown-july-21.jpg",
-  "sha256": "8c62daf2cabca6f77fdef79779528a3ecd0c2681bee52cc32c4d8623eb2d512e",
+  "sha256": "cc093c3626ece894a7de1348d66ca72f82ae7a85f7930215697efc759452f7d3",
   "mode": "photo",
   "team": "athletics",
   "alt": "Tyler Soderstrom of the Athletics, who reached and scored in the 6-5 loss to the Diamondbacks"
  },
  "articles/giants-royals-5-4-swept-roupp-schmitt-july-22.html": {
   "card": "assets/img/cards/giants-royals-5-4-swept-roupp-schmitt-july-22.jpg",
-  "sha256": "ef35f449dc77a1000af1de7356410af92df875041d7d0e9df349acc7614e5530",
+  "sha256": "b77265b99dd1491b77c2fa48d0ba6b5dab3288c0f152bb42ce2347f22289d7b8",
   "mode": "photo",
   "team": "giants",
   "alt": "Rafael Devers of the San Francisco Giants, who doubled in the 5-4 loss to the Royals"
  },
  "articles/athletics-diamondbacks-15-5-seven-run-fifth-july-22.html": {
   "card": "assets/img/cards/athletics-diamondbacks-15-5-seven-run-fifth-july-22.jpg",
-  "sha256": "766c2f7e9c364dc0ec431d4635da292926beacd338d9c03f4c0f5d3e21885cce",
+  "sha256": "043358258227bbfdf14d06e15ac6751579306a121698ec57a9e5e34c103c757f",
   "mode": "photo",
   "team": "athletics",
   "alt": "Shea Langeliers of the Athletics, who had two hits in the 15-5 loss to the Diamondbacks"
@@ -400,7 +400,7 @@
  },
  "articles/warriors-front-office-failures-curry-exit-not-preposterous.html": {
   "card": "assets/img/cards/warriors-front-office-failures-curry-exit-not-preposterous.jpg",
-  "sha256": "3717a4b2ec456ca6877258021781b5dbcb348bf104a3d086206cf08a0f6bb60c",
+  "sha256": "2cf21c378557295711d7e479933906c8af573572cf4ab763244cdccb1f9eeb6b",
   "mode": "photo",
   "team": "warriors",
   "alt": "Stephen Curry of the Golden State Warriors"

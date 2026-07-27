@@ -10,6 +10,7 @@ Output cards -> assets/img/cards/<article-slug>.jpg  (one unique file per articl
 import os, re, json, glob, hashlib, sys
 sys.path.insert(0, os.path.dirname(__file__))
 import artgen
+from artgen import R
 import imagehash
 from PIL import Image
 _built_hashes=[]   # phash of every card built this run (variety guard)
@@ -24,10 +25,20 @@ def slug_of(href): return os.path.splitext(os.path.basename(href))[0]
 def build_one(href, spec):
     slug=slug_of(href); dst=os.path.join(CARDS, slug+'.jpg')
     if spec['mode']=='photo':
-        artgen.photo_card(os.path.join(ROOT, spec['src']), spec['team'],
-                          spec['name'], spec.get('sub',''), dst, seed=slug)
-        try: _built_hashes.append(imagehash.phash(Image.open(dst)))
-        except Exception: pass
+        # variety guard: nudge the focal crop with a seeded jitter until perceptually
+        # distinct from every card built so far (same source photo reused across
+        # articles would otherwise produce near-identical thumbnails)
+        rng=R(slug)
+        ph=None
+        for salt in range(40):
+            jitter=(0.0,0.0,1.0) if salt==0 else (rng.f(-0.16,0.16), rng.f(-0.16,0.16), rng.f(0.86,1.0))
+            artgen.photo_card(os.path.join(ROOT, spec['src']), spec['team'],
+                              spec['name'], spec.get('sub',''), dst, seed=slug+('' if salt==0 else '#'+str(salt)),
+                              jitter=jitter)
+            ph=imagehash.phash(Image.open(dst))
+            if all((ph-h)>=6 for h in _built_hashes):
+                break
+        _built_hashes.append(ph)
     else:
         # variety guard: re-seed with a salt until perceptually distinct from all built cards
         for salt in range(60):
@@ -63,7 +74,18 @@ def rel(page, cardpath):
     # cardpath is repo-root-relative; pages in /articles need ../
     return ('../'+cardpath) if os.path.dirname(page).endswith('articles') else cardpath
 
+def _seed_orphan_hashes():
+    # cards on disk that the manifest doesn't manage (never rebuilt) still count
+    # toward the site-wide variety guard, otherwise a freshly-built card can
+    # duplicate a static one thumb_gate.py will still catch.
+    known=set(slug_of(k) for k in MAN)
+    for f in glob.glob(os.path.join(CARDS,'*.jpg')):
+        if os.path.splitext(os.path.basename(f))[0] not in known:
+            try: _built_hashes.append(imagehash.phash(Image.open(f)))
+            except Exception: pass
+
 def main():
+    _seed_orphan_hashes()
     reg={}
     total=0; pages_touched=set()
     for href,spec in MAN.items():
