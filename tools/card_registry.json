@@ -383,5 +383,19 @@
   "mode": "photo",
   "team": "athletics",
   "alt": "Jacob Lopez of the Athletics, who struck out four over five scoreless innings in the 2-0 win over the Twins"
+ },
+ "articles/giants-angels-4-3-trout-sweep-avoided-july-26.html": {
+  "card": "assets/img/cards/giants-angels-4-3-trout-sweep-avoided-july-26.jpg",
+  "sha256": "3f8b5596d450b71af3017abb34c803acc68f10e194161db7cf66e88259983b84",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Mike Trout of the Los Angeles Angels, who went 4-for-4 in the 4-3 win over the Giants"
+ },
+ "articles/athletics-twins-11-8-kurtz-homer-springs-injury-july-26.html": {
+  "card": "assets/img/cards/athletics-twins-11-8-kurtz-homer-springs-injury-july-26.jpg",
+  "sha256": "3aa764da365ba8edbc2bd598dac049069b41eb59c762a380c5c52e33949a0362",
+  "mode": "photo",
+  "team": "athletics",
+  "alt": "Nick Kurtz of the Athletics, who hit a three-run homer in the 11-8 loss to the Twins"
  }
 }
