@@ -404,5 +404,19 @@
   "mode": "photo",
   "team": "warriors",
   "alt": "Stephen Curry of the Golden State Warriors"
+ },
+ "articles/athletics-redsox-4-3-serven-homer-white-four-hits-july-28.html": {
+  "card": "assets/img/cards/athletics-redsox-4-3-serven-homer-white-four-hits-july-28.jpg",
+  "sha256": "868e49cd1dd855105bf7fb368d2a81b823c9110693a1055852fd7fd871e8f25f",
+  "mode": "photo",
+  "team": "athletics",
+  "alt": "Brian Serven of the Athletics, whose two-run homer in the seventh inning broke open the 4-3 win over the Red Sox"
+ },
+ "articles/giants-brewers-8-2-roupp-early-exit-eldridge-homer-july-28.html": {
+  "card": "assets/img/cards/giants-brewers-8-2-roupp-early-exit-eldridge-homer-july-28.jpg",
+  "sha256": "3fb51cfb0e1b1202f1486510646abf1b92c6129648fcd69fe8baafcd638a3732",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Oracle Park in San Francisco, home of the Giants, the site of an 8-2 loss to the Brewers"
  }
 }

@@ -324,7 +324,7 @@
   "team": "giants",
   "name": "1993 Pennant Race",
   "sub": "103 wins, and it came down to the final day",
-  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race",
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race",
   "src": "assets/img/players/salomon-torres-real.jpg"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
@@ -462,5 +462,21 @@
   "sub": "Front office failures put an unthinkable exit on the table",
   "team": "warriors",
   "alt": "Stephen Curry of the Golden State Warriors"
+ },
+ "articles/athletics-redsox-4-3-serven-homer-white-four-hits-july-28.html": {
+  "mode": "photo",
+  "src": "assets/img/players/brian-serven-athletics.jpg",
+  "name": "Brian Serven",
+  "sub": "Two-run homer breaks open a 4-3 win over the Red Sox",
+  "team": "athletics",
+  "alt": "Brian Serven of the Athletics, whose two-run homer in the seventh inning broke open the 4-3 win over the Red Sox"
+ },
+ "articles/giants-brewers-8-2-roupp-early-exit-eldridge-homer-july-28.html": {
+  "mode": "photo",
+  "src": "assets/img/players/oracle-park-real.jpg",
+  "name": "Giants 2, Brewers 8",
+  "sub": "Roupp knocked out early, Eldridge homer the lone bright spot",
+  "team": "giants",
+  "alt": "Oracle Park in San Francisco, home of the Giants, the site of an 8-2 loss to the Brewers"
  }
 }
