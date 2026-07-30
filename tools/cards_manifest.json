@@ -478,5 +478,21 @@
   "sub": "Roupp knocked out early, Eldridge homer the lone bright spot",
   "team": "giants",
   "alt": "Oracle Park in San Francisco, home of the Giants, the site of an 8-2 loss to the Brewers"
+ },
+ "articles/giants-brewers-16-3-susac-two-homers-seven-run-sixth-july-29.html": {
+  "mode": "photo",
+  "team": "giants",
+  "src": "assets/img/players/giants-heliot-ramos-blue-jays-nohitter.png",
+  "name": "Daniel Susac's Day",
+  "sub": "Two first-career homers in a 16-3 rout of the MLB-best Brewers",
+  "alt": "Heliot Ramos of the San Francisco Giants, who went 4-for-5 with three RBIs in the 16-3 rout of the Brewers"
+ },
+ "articles/athletics-redsox-4-2-10th-monasterio-homer-heim-butler-july-29.html": {
+  "mode": "photo",
+  "team": "athletics",
+  "src": "assets/img/players/lopez.jpg",
+  "name": "Jacob Lopez",
+  "sub": "Eight strikeouts wasted in a 4-2 ten-inning loss to Boston",
+  "alt": "Jacob Lopez of the Athletics, who struck out eight over 5.1 innings in the 4-2 extra-inning loss to the Red Sox"
  }
 }
