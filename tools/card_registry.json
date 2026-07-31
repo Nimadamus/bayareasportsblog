@@ -439,5 +439,19 @@
   "mode": "photo",
   "team": "49ers",
   "alt": "Kyle Shanahan, head coach of the San Francisco 49ers"
+ },
+ "articles/giants-heating-up-best-baseball-of-the-season-july-30.html": {
+  "card": "assets/img/cards/giants-heating-up-best-baseball-of-the-season-july-30.jpg",
+  "sha256": "126f9341f33b6c7c629fe94a3c3fac923abf4da2ae0254d5abf90a0622cfd012",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Rafael Devers of the San Francisco Giants, whose walk-off single on July 25 kicked off the best five-game stretch of the team's season"
+ },
+ "articles/athletics-free-fall-continues-fourth-place-trade-deadline-july-30.html": {
+  "card": "assets/img/cards/athletics-free-fall-continues-fourth-place-trade-deadline-july-30.jpg",
+  "sha256": "f3d06b363750a5f3e67653c786b33fcaa7644a70d0a4a578af1e1cae887e1ddc",
+  "mode": "photo",
+  "team": "athletics",
+  "alt": "Brent Rooker of the Athletics at the plate"
  }
 }

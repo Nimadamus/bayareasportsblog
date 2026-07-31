@@ -502,5 +502,21 @@
   "name": "Kyle Shanahan",
   "sub": "Recovering from the July 14 car accident",
   "alt": "Kyle Shanahan, head coach of the San Francisco 49ers"
+ },
+ "articles/giants-heating-up-best-baseball-of-the-season-july-30.html": {
+  "mode": "photo",
+  "team": "giants",
+  "src": "assets/img/players/rafael-devers-giants.jpg",
+  "name": "Giants Heating Up",
+  "sub": "3-2 in their last five, with two wins over the MLB-best Brewers",
+  "alt": "Rafael Devers of the San Francisco Giants, whose walk-off single on July 25 kicked off the best five-game stretch of the team's season"
+ },
+ "articles/athletics-free-fall-continues-fourth-place-trade-deadline-july-30.html": {
+  "mode": "photo",
+  "team": "athletics",
+  "src": "assets/img/players/rooker.jpg",
+  "name": "A's Free Fall",
+  "sub": "4-8 since the nine-game skid, 45-63 and fourth place",
+  "alt": "Brent Rooker of the Athletics at the plate"
  }
 }
