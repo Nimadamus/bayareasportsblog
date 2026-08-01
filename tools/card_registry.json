@@ -1,4 +1,18 @@
 {
+ "articles/49ers-kyle-shanahan-recovery-update-training-camp-2026.html": {
+  "card": "assets/img/cards/49ers-kyle-shanahan-recovery-update-training-camp-2026.jpg",
+  "sha256": "13dd117f4ad4533a89990cf0c64106d9cb67578d6c9cb8a60fa11cae89411709",
+  "mode": "photo",
+  "team": "49ers",
+  "alt": "Kyle Shanahan, head coach of the San Francisco 49ers"
+ },
+ "articles/49ers-dezhaun-stribling-training-camp-starter-2026.html": {
+  "card": "assets/img/cards/49ers-dezhaun-stribling-training-camp-starter-2026.jpg",
+  "sha256": "6fabd293f2c2b1d310a5d81978d1b435e08d36356556baca2e81bcc5e0ecbfaf",
+  "mode": "photo",
+  "team": "49ers",
+  "alt": "Levi's Stadium, home of the San Francisco 49ers"
+ },
  "articles/49ers-deebo-samuel-returns-one-year-7-million-2026.html": {
   "card": "assets/img/cards/49ers-deebo-samuel-returns-one-year-7-million-2026.jpg",
   "sha256": "8a18b7a8bc0567639fe99d9d4918970de8ff61980b22b1f037fa945b23ca929a",
@@ -449,7 +463,7 @@
  },
  "articles/49ers-kyle-shanahan-car-accident-injuries-recovery-2026.html": {
   "card": "assets/img/cards/49ers-kyle-shanahan-car-accident-injuries-recovery-2026.jpg",
-  "sha256": "7592c6002b015f1fd6a4280c998797b3a230669050d143b9097f3338c27f86e7",
+  "sha256": "d2756232a43d879005fcfae0dd1c19c6a35c8249257b8ca47d735509eed7bb76",
   "mode": "photo",
   "team": "49ers",
   "alt": "Kyle Shanahan, head coach of the San Francisco 49ers"
