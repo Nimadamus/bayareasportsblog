@@ -558,5 +558,35 @@
   "name": "A's Free Fall",
   "sub": "4-8 since the nine-game skid, 45-63 and fourth place",
   "alt": "Brent Rooker of the Athletics at the plate"
+ },
+ "articles/giants-padres-7-0-shutout-whisenhunt-two-hits-july-31.html": {
+  "mode": "graphic",
+  "team": "giants",
+  "name": "Two Hits",
+  "sub": "Padres 7, Giants 0 — Whisenhunt gone in the fourth",
+  "alt": "Bay Area Sports Blog graphic: Padres 7, Giants 0, July 31, 2026"
+ },
+ "articles/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.html": {
+  "mode": "graphic",
+  "team": "giants",
+  "name": "Lost It in the Ninth",
+  "sub": "Padres 6, Giants 5 — Basabe's four RBIs wasted",
+  "alt": "Bay Area Sports Blog graphic: Padres 6, Giants 5, August 1, 2026"
+ },
+ "articles/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html": {
+  "mode": "photo",
+  "team": "giants",
+  "src": "assets/img/players/_crops/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.jpg",
+  "name": "Heliot Ramos",
+  "sub": "On the block with the deadline Monday",
+  "alt": "Heliot Ramos of the San Francisco Giants, whom the club has told other teams it is willing to trade before the August 3 deadline"
+ },
+ "articles/giants-tony-vitello-clueless-lineups-eldridge-leadoff.html": {
+  "mode": "photo",
+  "team": "giants",
+  "src": "assets/img/players/_crops/giants-tony-vitello-clueless-lineups-eldridge-leadoff.jpg",
+  "name": "Tony Vitello",
+  "sub": "60 lineups in 77 games, and now Eldridge leads off",
+  "alt": "Tony Vitello, manager of the San Francisco Giants, whose constantly changing lineup cards have become the story of the 2026 season"
  }
 }
