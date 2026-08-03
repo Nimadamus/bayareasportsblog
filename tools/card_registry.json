@@ -319,7 +319,7 @@
   "sha256": "c4ce5cda12469af249a10c2d8eeee44f3a9f46f5917b679eb1775eb6ddc82467",
   "mode": "photo",
   "team": "giants",
-  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race"
+  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
   "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
@@ -516,5 +516,19 @@
   "mode": "photo",
   "team": "giants",
   "alt": "Tony Vitello, manager of the San Francisco Giants, whose constantly changing lineup cards have become the story of the 2026 season"
+ },
+ "articles/giants-padres-5-4-swept-roupp-devers-august-2.html": {
+  "card": "assets/img/cards/giants-padres-5-4-swept-roupp-devers-august-2.jpg",
+  "sha256": "68cbe0d3af2c42453e1327968f167faa23ed6c7024c417fdce811ef3f53c526f",
+  "mode": "graphic",
+  "team": "giants",
+  "alt": "Bay Area Sports Blog graphic: Padres 5, Giants 4, August 2, 2026"
+ },
+ "articles/athletics-tigers-11-0-swept-gage-jump-august-2.html": {
+  "card": "assets/img/cards/athletics-tigers-11-0-swept-gage-jump-august-2.jpg",
+  "sha256": "b8733de62a33af699b55587297220e603f97c5312386af109019e5c4a3f05f2b",
+  "mode": "graphic",
+  "team": "athletics",
+  "alt": "Bay Area Sports Blog graphic: Tigers 11, Athletics 0, August 2, 2026"
  }
 }
