@@ -588,5 +588,13 @@
   "name": "Tony Vitello",
   "sub": "60 lineups in 77 games, and now Eldridge leads off",
   "alt": "Tony Vitello, manager of the San Francisco Giants, whose constantly changing lineup cards have become the story of the 2026 season"
+ },
+ "articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html": {
+  "mode": "photo",
+  "team": "giants",
+  "src": "assets/img/players/_crops/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.jpg",
+  "name": "Heliot Ramos",
+  "sub": "Traded to the Yankees on deadline day",
+  "alt": "Heliot Ramos of the San Francisco Giants, traded to the New York Yankees at the 2026 trade deadline for Henry Lalane and Kaeden Kent"
  }
 }

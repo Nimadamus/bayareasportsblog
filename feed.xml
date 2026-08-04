@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 04 Aug 2026 04:09:39 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 08:35:44 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Heliot Ramos Is a Yankee: The Rest of the Selloff We Have Not Talked About</title>
+    <link>https://bayareasportsblog.com/articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html</guid>
+    <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants Column</category>
+    <description>Buster Posey traded Heliot Ramos to the Yankees, Erik Miller to the Red Sox for Marcelo Mayer, and Tyler Mahle to the Braves. Five trades, eight new names, and the homegrown kid we developed is hitting in the Bronx now.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-heliot-ramos-yankees-mayer-mahle-august-4.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>It Is August and the 49ers Are Already Hurt. Again.</title>
     <link>https://bayareasportsblog.com/articles/49ers-injuries-again-training-camp-august-2026.html</link>
@@ -358,15 +367,6 @@
     <category>A&#39;s Column</category>
     <description>One night after a 23-4 humiliation, JT Ginn carried a no-hitter into the seventh and Wilson, Soderstrom and Cortes homered as the A&#39;s buried Washington 15-1.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-15-1-nationals-ginn-gem-streak-snapped-july-18.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants Blow 3-0 Lead to Mariners, Lose 4-3 in 10 Innings</title>
-    <link>https://bayareasportsblog.com/articles/giants-blown-lead-mariners-cole-young-webb-4-3-july-18.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-blown-lead-mariners-cole-young-webb-4-3-july-18.html</guid>
-    <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-    <category>Giants October Watch</category>
-    <description>The Giants led Seattle 3-0 behind Logan Webb, then Cole Young&#39;s three-run homer and a Julio Rodriguez walk-off sac fly buried them 4-3 in ten innings.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-blown-lead-mariners-cole-young-webb-4-3-july-18.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

@@ -319,7 +319,7 @@
   "sha256": "c4ce5cda12469af249a10c2d8eeee44f3a9f46f5917b679eb1775eb6ddc82467",
   "mode": "photo",
   "team": "giants",
-  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race"
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
   "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
@@ -491,44 +491,37 @@
  },
  "articles/giants-padres-7-0-shutout-whisenhunt-two-hits-july-31.html": {
   "card": "assets/img/cards/giants-padres-7-0-shutout-whisenhunt-two-hits-july-31.jpg",
-  "sha256": "92692323339272f3cb64c7f81fee0bdc2aed19d4a1752a7a5252d450ad2cf827",
+  "sha256": "532033768a686f1e3963ded31c6dd5e26d187d61d2aab1c4ae738b55a7099965",
   "mode": "graphic",
   "team": "giants",
   "alt": "Bay Area Sports Blog graphic: Padres 7, Giants 0, July 31, 2026"
  },
  "articles/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.html": {
   "card": "assets/img/cards/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.jpg",
-  "sha256": "0a17f61eced15d97b2aa382b5c5dd43298407224049848fb4c5a4f8aea90cd2f",
+  "sha256": "dcc0dcb4a578acdaa9cd8ec09702fa7f8c4eb706a0d4bb0322d004555d173cbc",
   "mode": "graphic",
   "team": "giants",
   "alt": "Bay Area Sports Blog graphic: Padres 6, Giants 5, August 1, 2026"
  },
  "articles/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html": {
   "card": "assets/img/cards/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.jpg",
-  "sha256": "48fb1ee1b906b10b5c6ed69244c6cf658e30b81247632aaac52aefcb39ac5053",
+  "sha256": "90a2ead3d4bf4544f7cfe46dddd57c4370e2bbf043422b4aeddf567a752a57a1",
   "mode": "photo",
   "team": "giants",
   "alt": "Heliot Ramos of the San Francisco Giants, whom the club has told other teams it is willing to trade before the August 3 deadline"
  },
  "articles/giants-tony-vitello-clueless-lineups-eldridge-leadoff.html": {
   "card": "assets/img/cards/giants-tony-vitello-clueless-lineups-eldridge-leadoff.jpg",
-  "sha256": "45b488c20ff7da1011fa0ed4bd83b7463b6a5004d054cd2007a8a7383149f51b",
+  "sha256": "c87cc90f62eab3e45420ea07452e4b3b23f09e1ef16c0d218be46c8ce015dd49",
   "mode": "photo",
   "team": "giants",
   "alt": "Tony Vitello, manager of the San Francisco Giants, whose constantly changing lineup cards have become the story of the 2026 season"
  },
- "articles/giants-padres-5-4-swept-roupp-devers-august-2.html": {
-  "card": "assets/img/cards/giants-padres-5-4-swept-roupp-devers-august-2.jpg",
-  "sha256": "68cbe0d3af2c42453e1327968f167faa23ed6c7024c417fdce811ef3f53c526f",
-  "mode": "graphic",
+ "articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html": {
+  "card": "assets/img/cards/giants-heliot-ramos-yankees-mayer-mahle-august-4.jpg",
+  "sha256": "02764f0f2f92ba3a7c205b6f2711b2bbada8e2ee7811510076e57d3baba5e7d2",
+  "mode": "photo",
   "team": "giants",
-  "alt": "Bay Area Sports Blog graphic: Padres 5, Giants 4, August 2, 2026"
- },
- "articles/athletics-tigers-11-0-swept-gage-jump-august-2.html": {
-  "card": "assets/img/cards/athletics-tigers-11-0-swept-gage-jump-august-2.jpg",
-  "sha256": "b8733de62a33af699b55587297220e603f97c5312386af109019e5c4a3f05f2b",
-  "mode": "graphic",
-  "team": "athletics",
-  "alt": "Bay Area Sports Blog graphic: Tigers 11, Athletics 0, August 2, 2026"
+  "alt": "Heliot Ramos of the San Francisco Giants, traded to the New York Yankees at the 2026 trade deadline for Henry Lalane and Kaeden Kent"
  }
 }
