@@ -530,5 +530,12 @@
   "mode": "graphic",
   "team": "49ers",
   "alt": "Bay Area Sports Blog graphic: Raheem Morris, San Francisco 49ers defensive coordinator, 2026 training camp"
+ },
+ "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html": {
+  "card": "assets/img/cards/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.jpg",
+  "sha256": "887deb05e7049667effbf680516b75bafaa34e2c4da7aed6cc3debe81388968c",
+  "mode": "photo",
+  "team": "49ers",
+  "alt": "Brock Purdy, quarterback of the San Francisco 49ers, sharp at 2026 training camp"
  }
 }
