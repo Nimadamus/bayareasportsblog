@@ -523,5 +523,12 @@
   "mode": "photo",
   "team": "giants",
   "alt": "Heliot Ramos of the San Francisco Giants, traded to the New York Yankees at the 2026 trade deadline for Henry Lalane and Kaeden Kent"
+ },
+ "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html": {
+  "card": "assets/img/cards/49ers-raheem-morris-players-love-him-just-play-football-2026.jpg",
+  "sha256": "7a43d8d03a0617eec9c6ae6a5e3402d84e939d27b0310c44df2fddc6c0dfed0e",
+  "mode": "graphic",
+  "team": "49ers",
+  "alt": "Bay Area Sports Blog graphic: Raheem Morris, San Francisco 49ers defensive coordinator, 2026 training camp"
  }
 }

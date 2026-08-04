@@ -9,7 +9,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/49ers.html</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-dynasty-team-of-the-decade.jpg</image:loc></image:image>
@@ -146,6 +146,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-raheem-morris-players-love-him-just-play-football-2026.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html</loc>
