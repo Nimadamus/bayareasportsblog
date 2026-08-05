@@ -364,7 +364,7 @@
   "team": "giants",
   "name": "1993 Pennant Race",
   "sub": "103 wins, and it came down to the final day",
-  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race",
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race",
   "src": "assets/img/players/salomon-torres-real.jpg"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
@@ -563,14 +563,14 @@
   "mode": "graphic",
   "team": "giants",
   "name": "Two Hits",
-  "sub": "Padres 7, Giants 0 — Whisenhunt gone in the fourth",
+  "sub": "Padres 7, Giants 0 \u2014 Whisenhunt gone in the fourth",
   "alt": "Bay Area Sports Blog graphic: Padres 7, Giants 0, July 31, 2026"
  },
  "articles/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.html": {
   "mode": "graphic",
   "team": "giants",
   "name": "Lost It in the Ninth",
-  "sub": "Padres 6, Giants 5 — Basabe's four RBIs wasted",
+  "sub": "Padres 6, Giants 5 \u2014 Basabe's four RBIs wasted",
   "alt": "Bay Area Sports Blog graphic: Padres 6, Giants 5, August 1, 2026"
  },
  "articles/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html": {
@@ -611,5 +611,12 @@
   "name": "Brock Purdy",
   "sub": "A dime over two defenders to Demarcus Robinson",
   "alt": "Brock Purdy, quarterback of the San Francisco 49ers, sharp at 2026 training camp"
+ },
+ "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html": {
+  "mode": "graphic",
+  "team": "49ers",
+  "name": "KhaDarel Hodge",
+  "sub": "Pro Bowl gunner, 31, and a receiver room in pieces",
+  "alt": "Bay Area Sports Blog graphic: KhaDarel Hodge, veteran wide receiver signed by the San Francisco 49ers, August 2026"
  }
 }
