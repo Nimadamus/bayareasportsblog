@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 06 Aug 2026 07:48:31 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 06 Aug 2026 07:57:28 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Giants Got Marcelo Mayer for a Reliever Who Walks Everybody. Explain That One, Boston.</title>
+    <link>https://bayareasportsblog.com/articles/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html</guid>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants Column</category>
+    <description>The Red Sox traded Marcelo Mayer — the fourth overall pick in 2021 and recently one of the best prospects in baseball — to the Giants for Erik Miller, a 28-year-old lefty reliever who has walked nearly 16 percent of the hitters he has faced. On paper this is a robbery.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The 49ers Signed KhaDarel Hodge, and That Tells You Everything About This Receiver Room</title>
     <link>https://bayareasportsblog.com/articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html</link>
@@ -358,15 +367,6 @@
     <category>A&#39;s Column</category>
     <description>Jacob Lopez struck out four over five scoreless innings and four A&#39;s relievers finished the job, as Lawrence Butler and Tyler Soderstrom each drove in a run in a 2-0 shutout of the Twins in Minneapolis.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-twins-2-0-lopez-bullpen-shutout-july-25.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants 7, Angels 6 (F/10): Devers Does It Twice, and the Bullpen Nearly Ruins It Again</title>
-    <link>https://bayareasportsblog.com/articles/giants-angels-7-6-10th-devers-walkoff-july-25.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-angels-7-6-10th-devers-walkoff-july-25.html</guid>
-    <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-    <category>Giants Column</category>
-    <description>Rafael Devers hit a two-run homer in the first and the walk-off single in the tenth, Casey Schmitt added a three-run shot, and the Giants survived a blown two-run lead to beat the Angels 7-6 and move to 43-60.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-angels-7-6-10th-devers-walkoff-july-25.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

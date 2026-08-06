@@ -572,5 +572,12 @@
   "mode": "graphic",
   "team": "49ers",
   "alt": "Bay Area Sports Blog graphic: Brock Purdy sharp in San Francisco 49ers training camp as the injury list grows, August 2026"
+ },
+ "articles/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html": {
+  "card": "assets/img/cards/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.jpg",
+  "sha256": "d4e78c5ac5cc7681b5b08c43a1ee048bb9604f2c6f83c9e01a61a6456067288e",
+  "mode": "graphic",
+  "team": "giants",
+  "alt": "Bay Area Sports Blog graphic: Marcelo Mayer traded from the Boston Red Sox to the San Francisco Giants for Erik Miller, August 2026"
  }
 }
