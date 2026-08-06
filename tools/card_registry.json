@@ -551,5 +551,26 @@
   "mode": "graphic",
   "team": "49ers",
   "alt": "Bay Area Sports Blog graphic: San Francisco 49ers August 2026 signings, Ogbo Okoronkwo, Trenton Irwin, Josiah Deguara and KhaDarel Hodge"
+ },
+ "articles/giants-rangers-6-0-shutout-whisenhunt-19-under-august-5.html": {
+  "card": "assets/img/cards/giants-rangers-6-0-shutout-whisenhunt-19-under-august-5.jpg",
+  "sha256": "04bc0f3f94ec6bc03cc5b5ffea0fe096c1e675fa0c0bc992002e7f26451a6db4",
+  "mode": "graphic",
+  "team": "giants",
+  "alt": "Bay Area Sports Blog graphic: Rangers 6, Giants 0, August 5, 2026"
+ },
+ "articles/athletics-reds-3-2-jacob-lopez-pulled-seventh-straight-august-5.html": {
+  "card": "assets/img/cards/athletics-reds-3-2-jacob-lopez-pulled-seventh-straight-august-5.jpg",
+  "sha256": "6b9eca4b26d200322400080319183f822fb1c2a5bc6086dd3949668128b44f81",
+  "mode": "graphic",
+  "team": "athletics",
+  "alt": "Bay Area Sports Blog graphic: Reds 3, Athletics 2, August 5, 2026"
+ },
+ "articles/49ers-purdy-sharp-camp-injuries-mounting-twenty-out-august-5.html": {
+  "card": "assets/img/cards/49ers-purdy-sharp-camp-injuries-mounting-twenty-out-august-5.jpg",
+  "sha256": "8510f22a017ec34fe9226479a611fa5564fcf92e3c33dcc614bf7bedab0ad110",
+  "mode": "graphic",
+  "team": "49ers",
+  "alt": "Bay Area Sports Blog graphic: Brock Purdy sharp in San Francisco 49ers training camp as the injury list grows, August 2026"
  }
 }
