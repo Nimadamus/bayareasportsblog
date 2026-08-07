@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 06 Aug 2026 07:57:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 07 Aug 2026 09:01:10 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>They Finally Gave Brock Purdy a Fight. He Won It Going Away.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.html</guid>
+    <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers Column</category>
+    <description>The most competitive practice of 49ers camp yet — offense and defense trading haymakers on 87 Day — and Brock Purdy went 12-of-17 on 32 team snaps and ran the whole thing. Raheem Morris is calling him the Layer King.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The Giants Got Marcelo Mayer for a Reliever Who Walks Everybody. Explain That One, Boston.</title>
     <link>https://bayareasportsblog.com/articles/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html</link>
@@ -358,15 +367,6 @@
     <category>Giants Column</category>
     <description>Mike Trout went 4-for-4, Jorge Soler and Jo Adell homered, and the Angels held off a two-run ninth from Luis Arraez to beat the Giants 4-3 at Oracle Park, avoiding the sweep. Giants fall to 44-61.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-angels-4-3-trout-sweep-avoided-july-26.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>A&#39;s 2, Twins 0: Jacob Lopez Deals, Four Relievers Slam the Door</title>
-    <link>https://bayareasportsblog.com/articles/athletics-twins-2-0-lopez-bullpen-shutout-july-25.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-twins-2-0-lopez-bullpen-shutout-july-25.html</guid>
-    <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s Column</category>
-    <description>Jacob Lopez struck out four over five scoreless innings and four A&#39;s relievers finished the job, as Lawrence Butler and Tyler Soderstrom each drove in a run in a 2-0 shutout of the Twins in Minneapolis.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-twins-2-0-lopez-bullpen-shutout-july-25.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
