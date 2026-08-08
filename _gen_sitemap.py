@@ -2,8 +2,16 @@ import glob, os, re, sys, datetime
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 BASE = "https://bayareasportsblog.com/"
 # search.html is the site-search UI, not a destination page: it stays indexable
-# (nothing here is ever noindexed) but it does not belong in a submitted sitemap
-EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html'}
+# (nothing here is ever noindexed) but it does not belong in a submitted sitemap.
+#
+# cal / stanford / betting are TEMPORARILY unlisted, 2026-08-08. All three are live at
+# their canonical URLs, still linked from the sitewide footer, and NOT noindexed - they
+# simply have zero articles, so submitting them at priority 0.8 asserts something the
+# site cannot back yet. Put cal and stanford back the week the first college piece runs
+# (season starts late August). betting stays out: decided 2026-08-08 that the betting
+# desk lives on TMR and BetLegend, not here.
+EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html',
+           'cal.html', 'stanford.html', 'betting.html'}
 order = ['index.html','nfl.html','mlb.html','nba.html','nhl.html',
          '49ers.html','warriors.html','giants.html','bayarea.html',
          'history.html','flashbacks.html','columns.html','athletics.html','sharks.html',

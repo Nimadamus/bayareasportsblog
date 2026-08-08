@@ -26,7 +26,10 @@ import os, re, sys, glob, json, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE = "https://bayareasportsblog.com/"
-EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html'}
+# kept in step with _gen_sitemap.py - pages that are live and indexable but deliberately
+# not submitted. cal/stanford/betting are a temporary exclusion pending content.
+EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html',
+           'cal.html', 'stanford.html', 'betting.html'}
 TODAY = datetime.date(2026, 8, 8)
 
 LOC = re.compile(r'<loc>([^<]+)</loc>')
