@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-2026-roster-depth-chart.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The 2026 49ers Roster and Depth Chart, Position by Position</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-2026-schedule-season-hub.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The 2026 49ers Schedule, Week by Week</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-2026-season-preview-roster-schedule-questions.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The 2026 49ers: Roster, Schedule, and the Questions That Decide It</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html</loc>
     <news:news>
       <news:publication>
@@ -35,6 +68,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-rams-melbourne-nfl-first-game-australia.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The NFL Is Opening the 49ers Season in Melbourne. Really.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/andrew-luck-stanford-general-manager-experiment.html</loc>
     <news:news>
       <news:publication>
@@ -65,6 +109,17 @@
       </news:publication>
       <news:publication_date>2026-08-08</news:publication_date>
       <news:title>The Big Game: The Oldest Rivalry on the West Coast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/brock-purdy-career-passer-rating-where-he-ranks.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Where Brock Purdy Actually Ranks, and What He Can Still Reach</news:title>
     </news:news>
   </url>
   <url>
