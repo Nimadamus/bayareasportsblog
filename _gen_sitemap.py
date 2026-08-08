@@ -2,7 +2,8 @@ import glob, os, re, sys, datetime
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 BASE = "https://bayareasportsblog.com/"
 EXCLUDE = {'404.html', 'google6f74b54ecd988601.html'}
-order = ['index.html','49ers.html','warriors.html','giants.html','bayarea.html',
+order = ['index.html','nfl.html','mlb.html','nba.html','nhl.html',
+         '49ers.html','warriors.html','giants.html','bayarea.html',
          'history.html','flashbacks.html','columns.html','athletics.html','sharks.html',
          'stanford.html','cal.html','betting.html','about.html','contact.html']
 DAILY = {'index.html','blog.html','giants.html','49ers.html','warriors.html',
