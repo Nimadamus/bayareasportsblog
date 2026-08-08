@@ -1,0 +1,9 @@
+{
+ "failures": [],
+ "notes": [
+  "sitemap urls: 130",
+  "news urls: 6",
+  "indexable pages on disk: 130",
+  "excluded by design: 404.html, google6f74b54ecd988601.html, search.html"
+ ]
+}

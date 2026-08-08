@@ -1,7 +1,9 @@
 import glob, os, re, sys, datetime
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 BASE = "https://bayareasportsblog.com/"
-EXCLUDE = {'404.html', 'google6f74b54ecd988601.html'}
+# search.html is the site-search UI, not a destination page: it stays indexable
+# (nothing here is ever noindexed) but it does not belong in a submitted sitemap
+EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html'}
 order = ['index.html','nfl.html','mlb.html','nba.html','nhl.html',
          '49ers.html','warriors.html','giants.html','bayarea.html',
          'history.html','flashbacks.html','columns.html','athletics.html','sharks.html',

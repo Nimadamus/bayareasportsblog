@@ -169,13 +169,6 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/search.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/timeline.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
