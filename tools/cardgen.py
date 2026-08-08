@@ -24,6 +24,8 @@ TEAMS={
  'athletics':('#03201a','#0a4130','#1e9e6a','#f0c23a','ATHLETICS','A'),
  'sharks':   ('#021d1c','#064a4a','#00a3b0','#d7eaea','SAN JOSE SHARKS','SJ'),
  'raiders':  ('#050505','#1a1a1a','#a5acaf','#e8ebec','LAS VEGAS RAIDERS','LV'),
+ 'cal':      ('#00131f','#003262','#fdb515','#cfe3f5','CAL GOLDEN BEARS','CAL'),
+ 'stanford': ('#1a0505','#5c0d0d','#8c1515','#f0cfcf','STANFORD CARDINAL','STAN'),
  'bay':      ('#12151d','#2a1030','#e11d2a','#f5a623','BAY AREA SPORTS','BA'),
 }
 def hx(h): h=h.lstrip('#'); return tuple(int(h[i:i+2],16) for i in (0,2,4))

@@ -35,6 +35,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/andrew-luck-stanford-general-manager-experiment.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Andrew Luck Is Running a Football Program. It Is Working.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html</loc>
     <news:news>
       <news:publication>
@@ -43,6 +54,50 @@
       </news:publication>
       <news:publication_date>2026-08-07</news:publication_date>
       <news:title>Red Sox 13, A's 1: Fourteen Strikeouts and Loss Number Nine</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/big-game-cal-stanford-rivalry-history.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The Big Game: The Oldest Rivalry on the West Coast</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/cal-2026-schedule-game-by-game-acc.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Cal's 2026 Schedule, Game by Game: Where the Season Turns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/cal-2026-season-preview-lupoi-sagapolutele.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Tosh Lupoi Comes Home, and Cal Might Actually Be Dangerous</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/cal-stanford-acc-realignment-what-changed.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Cal and Stanford Play in the ACC Now. Here Is What That Cost.</news:title>
     </news:news>
   </url>
   <url>
@@ -65,6 +120,39 @@
       </news:publication>
       <news:publication_date>2026-08-07</news:publication_date>
       <news:title>Giants 5, Tigers 2: Devers Hits His 24th, Quietly</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/stanford-2026-season-preview-pritchard-luck-warren.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Stanford Hands the Program to Tavita Pritchard</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/stanford-axe-trophy-history.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The Stanford Axe and Its Long Criminal History</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/stanford-hawaii-week-zero-opener-preview.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Stanford Opens in Week 0 Against Hawaii. That Is a Gift.</news:title>
     </news:news>
   </url>
 </urlset>
