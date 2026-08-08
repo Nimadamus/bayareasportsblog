@@ -364,7 +364,7 @@
   "team": "giants",
   "name": "1993 Pennant Race",
   "sub": "103 wins, and it came down to the final day",
-  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race",
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race",
   "src": "assets/img/players/salomon-torres-real.jpg"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
@@ -563,14 +563,14 @@
   "mode": "graphic",
   "team": "giants",
   "name": "Two Hits",
-  "sub": "Padres 7, Giants 0 — Whisenhunt gone in the fourth",
+  "sub": "Padres 7, Giants 0 \u2014 Whisenhunt gone in the fourth",
   "alt": "Bay Area Sports Blog graphic: Padres 7, Giants 0, July 31, 2026"
  },
  "articles/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.html": {
   "mode": "graphic",
   "team": "giants",
   "name": "Lost It in the Ninth",
-  "sub": "Padres 6, Giants 5 — Basabe's four RBIs wasted",
+  "sub": "Padres 6, Giants 5 \u2014 Basabe's four RBIs wasted",
   "alt": "Bay Area Sports Blog graphic: Padres 6, Giants 5, August 1, 2026"
  },
  "articles/giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html": {
@@ -623,7 +623,7 @@
   "mode": "graphic",
   "team": "49ers",
   "name": "The August Signing Spree",
-  "sub": "Okoronkwo, Irwin, Deguara, Hodge — four in a week",
+  "sub": "Okoronkwo, Irwin, Deguara, Hodge \u2014 four in a week",
   "alt": "Bay Area Sports Blog graphic: San Francisco 49ers August 2026 signings, Ogbo Okoronkwo, Trenton Irwin, Josiah Deguara and KhaDarel Hodge"
  },
  "articles/giants-rangers-6-0-shutout-whisenhunt-19-under-august-5.html": {
@@ -637,7 +637,7 @@
   "mode": "graphic",
   "team": "athletics",
   "name": "Reds 3, A's 2",
-  "sub": "Lopez struck out nine and got pulled — seventh straight loss",
+  "sub": "Lopez struck out nine and got pulled \u2014 seventh straight loss",
   "alt": "Bay Area Sports Blog graphic: Reds 3, Athletics 2, August 5, 2026"
  },
  "articles/49ers-purdy-sharp-camp-injuries-mounting-twenty-out-august-5.html": {
@@ -667,5 +667,19 @@
   "name": "Brock Purdy",
   "sub": "104.0 career rating, 147 attempts from the all-time record",
   "alt": "Bay Area Sports Blog graphic: Brock Purdy on pace for the highest career passer rating in NFL history, August 2026"
+ },
+ "articles/giants-tigers-5-2-devers-24th-homer-adames-august-7.html": {
+  "mode": "graphic",
+  "team": "giants",
+  "name": "Giants 5, Tigers 2",
+  "sub": "Devers' 24th homer \u2014 the quiet season nobody mentions",
+  "alt": "Bay Area Sports Blog graphic: Giants 5, Tigers 2, Rafael Devers 24th home run, August 7, 2026"
+ },
+ "articles/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html": {
+  "mode": "graphic",
+  "team": "athletics",
+  "name": "Red Sox 13, A's 1",
+  "sub": "14 strikeouts, two hits, ninth straight loss",
+  "alt": "Bay Area Sports Blog graphic: Red Sox 13, Athletics 1, August 7, 2026"
  }
 }

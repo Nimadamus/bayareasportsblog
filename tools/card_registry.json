@@ -593,5 +593,19 @@
   "mode": "graphic",
   "team": "49ers",
   "alt": "Bay Area Sports Blog graphic: Brock Purdy on pace for the highest career passer rating in NFL history, August 2026"
+ },
+ "articles/giants-tigers-5-2-devers-24th-homer-adames-august-7.html": {
+  "card": "assets/img/cards/giants-tigers-5-2-devers-24th-homer-adames-august-7.jpg",
+  "sha256": "7b40d735b5899ed80bda0163231fc6600023f47903a0a41f5e50b2e9f9182ef6",
+  "mode": "graphic",
+  "team": "giants",
+  "alt": "Bay Area Sports Blog graphic: Giants 5, Tigers 2, Rafael Devers 24th home run, August 7, 2026"
+ },
+ "articles/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html": {
+  "card": "assets/img/cards/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.jpg",
+  "sha256": "6a3de336c3c013f332eea5c0a20fd1a2d41bcebe9c4602b9cdf8d4a42a2f59c4",
+  "mode": "graphic",
+  "team": "athletics",
+  "alt": "Bay Area Sports Blog graphic: Red Sox 13, Athletics 1, August 7, 2026"
  }
 }
