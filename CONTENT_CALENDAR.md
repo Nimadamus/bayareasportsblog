@@ -4,7 +4,7 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-08**
+**Last updated: 2026-08-08** (Warriors + Giants clusters built)
 
 ---
 
@@ -20,6 +20,9 @@ publish.
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
+| **Giants** | foundation built (4 pieces) | rest of the 2026 season, to early Oct | recaps + rebuild-page updates | ongoing | news | update the rebuild page on every roster move |
+| Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
+| Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
 | Warriors | — | training camp, late Sep | camp storylines, Butler knee status | late Sep | news | weekly once season starts |
 | Warriors | — | opening night, late Oct | season opener preview + reaction | late Oct | news | weekly |
 
@@ -35,6 +38,10 @@ publish.
 | `warriors-2026-27-season-outlook` | Warriors | at camp, and again at the quarter mark |
 | `stephen-curry-career-records-three-pointers` | Warriors | when the three-point total moves meaningfully |
 | `warriors-roster-construction-cap-sheet-2026-27` | Warriors | at the trade deadline |
+| `giants-2026-where-the-rebuild-actually-stands` | Giants | every roster move, and at the end of the season |
+| `giants-2026-roster-depth-chart` | Giants | on roster moves and call-ups |
+| `giants-2026-season-hub-results-coverage` | Giants | after each game — add the recap link |
+| `oracle-park-mccovey-cove-splash-hits-guide` | Giants | rarely — evergreen, check park factors each offseason |
 | `big-game-cal-stanford-rivalry-history` | Cal/Stanford | after each Big Game — add the result |
 | `stanford-axe-trophy-history` | Cal/Stanford | after each Big Game |
 | `cal-2026-schedule-game-by-game-acc` | Cal | as results come in |
@@ -46,10 +53,10 @@ national competition is.
 
 | Rank | Cluster | Why now | Timing | Existing authority |
 |---|---|---|---|---|
-| **1** | **Giants** | Largest archive on the site (39 articles, most inbound links), season runs to Oct, and the rebuild-around-Eldridge story has a natural offseason arc. Needs the same furniture: roster page, Eldridge evergreen, season-in-review. | Sep–Oct, then offseason | **strongest on the site** |
-| **2** | **Athletics** | 22 articles and the single most distinctive angle we own — a franchise playing major-league games in a Triple-A park while waiting on Las Vegas. National outlets cover it as a business story; nobody covers it as a fan grievance. Genuine backlink potential. | Sep, then the Vegas timeline | strong |
-| **3** | **Bay Area history / evergreen** | `bay-area-sports-history` already has the most inbound links of any article. The Dynasties and Timeline pages exist but are thin on supporting articles. Pure evergreen, no season dependency, best link-earning category. | any time — filler between seasons | high inbound, low article count |
-| **4** | **Sharks** | One article. NHL season starts October. Celebrini is a real national story. But the archive is so thin that this is a build-from-zero, and the audience is the smallest of the five. | Oct | weakest |
+| ~~1~~ | ~~Giants~~ | **BUILT 2026-08-08.** 4 pages: rebuild state, depth chart, season hub, Oracle Park evergreen. | — | — |
+| **1** | **Athletics** | 22 articles and the single most distinctive angle we own — a franchise playing major-league games in a Triple-A park while waiting on Las Vegas. National outlets cover it as a business story; nobody covers it as a fan grievance. Genuine backlink potential. | Sep, then the Vegas timeline | strong |
+| **2** | **Bay Area history / evergreen** | `bay-area-sports-history` already has the most inbound links of any article. The Dynasties and Timeline pages exist but are thin on supporting articles. Pure evergreen, no season dependency, best link-earning category. | any time — filler between seasons | high inbound, low article count |
+| **3** | **Sharks** | One article. NHL season starts October. Celebrini is a real national story. But the archive is so thin that this is a build-from-zero, and the audience is the smallest of the five. | Oct | weakest |
 
 ## Rules that apply to every cluster
 
