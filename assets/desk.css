@@ -7,8 +7,6 @@
    Markup unchanged from v3 — this is a pure restyle.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700;1,9..144,900&family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@500;600;700&display=swap');
-
 :root{
   --ink:#07100f;          /* bay at night */
   --ink2:#0a1514;
