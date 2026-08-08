@@ -18,3 +18,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://bayareasportsblog.com/sitemap.xml
+Sitemap: https://bayareasportsblog.com/news-sitemap.xml
