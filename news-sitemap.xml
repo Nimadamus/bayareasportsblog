@@ -210,4 +210,48 @@
       <news:title>Stanford Opens in Week 0 Against Hawaii. That Is a Gift.</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/stephen-curry-career-records-three-pointers.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Stephen Curry by the Numbers: The Records He Already Owns</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The 2026-27 Warriors Roster and Depth Chart</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-season-outlook.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The 2026-27 Warriors: What This Roster Actually Is</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-roster-construction-cap-sheet-2026-27.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>What $147 Million Actually Bought the Warriors</news:title>
+    </news:news>
+  </url>
 </urlset>
