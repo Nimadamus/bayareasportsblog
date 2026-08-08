@@ -121,27 +121,6 @@ def face_css(rows):
     return '\n'.join(out) + '\n'
 
 
-# The faces the masthead and nav paint with on every page. Self-hosting moved
-# first paint about a second earlier, which meant the browser started painting
-# in Georgia/Arial before these arrived and then swapped - visible as a jump in
-# CLS. Preloading exactly these four gets them in flight with the stylesheet.
-PRELOAD = [
-    'fraunces-900-normal-latin.woff2',      # "Bay Area" in the wordmark
-    'fraunces-900-italic-latin.woff2',      # "Sports Blog" in the wordmark
-    'archivo-400-normal-latin.woff2',       # body copy
-    'archivo-narrow-700-normal-latin.woff2',  # nav, kickers, labels
-]
-PRELOAD_MARK = '<!-- fonts: preload the faces the masthead paints with -->'
-
-
-def preload_block(prefix):
-    out = [PRELOAD_MARK]
-    for f in PRELOAD:
-        out.append('<link rel="preload" as="font" type="font/woff2" '
-                   'href="%sassets/fonts/%s" crossorigin>' % (prefix, f))
-    return '\n'.join(out) + '\n'
-
-
 def pages():
     return ([os.path.basename(f) for f in sorted(glob.glob(os.path.join(ROOT, '*.html')))]
             + ['articles/' + os.path.basename(f)
@@ -184,23 +163,17 @@ def main():
         if not check:
             wr(c, block + s0)
 
-    n_html, n_pre = 0, 0
-    do_preload = '--preload' in sys.argv
+    n_html = 0
     for pg in pages():
         s0 = rd(pg)
         s = HEAD_BLOCK_RE.sub('', s0)
         if s != s0:
             n_html += 1
-        if do_preload and PRELOAD_MARK not in s:
-            m = re.search(r'<link rel="stylesheet" href="([^"]*)assets/[^"]*\.css">', s)
-            if m:
-                s = s[:m.start()] + preload_block(m.group(1)) + s[m.start():]
-                n_pre += 1
-        if s != s0 and not check:
-            wr(pg, s)
+            if not check:
+                wr(pg, s)
 
-    print('%s  css files %d, pages stripped %d, preloads added %d, faces %d'
-          % ('CHECK' if check else 'APPLIED', n_css, n_html, n_pre, len(rows)))
+    print('%s  css files %d, pages stripped %d, faces %d'
+          % ('CHECK' if check else 'APPLIED', n_css, n_html, len(rows)))
 
 
 if __name__ == '__main__':
