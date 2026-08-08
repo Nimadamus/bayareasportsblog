@@ -25,6 +25,59 @@ HUB = {'Cal': ('cal.html', 'Cal'), 'Stanford': ('stanford.html', 'Stanford')}
 A = lambda href, text: '<a href="%s">%s</a>' % (href, text)
 
 
+# --------------------------------------------------------------------------- tables
+
+GAME_INFO = """<div class="reftable">
+<table>
+<caption>Stanford vs Hawaii &mdash; Week 0, 2026</caption>
+<tbody>
+<tr><th>Date</th><td>Saturday 29 August 2026</td></tr>
+<tr><th>Kickoff</th><td class="num">4:00 p.m. PT</td></tr>
+<tr><th>Venue</th><td>Stanford Stadium, Stanford, California</td></tr>
+<tr><th>Television</th><td>ACC Network</td></tr>
+<tr><th>Occasion</th><td>Pacific Islander heritage celebration; Cardinal Kids Day</td></tr>
+<tr><th>Last meeting</th><td>Hawaii 23, Stanford 20 &mdash; Week 0, 23 August 2025, in Honolulu, on a field goal as time expired</td></tr>
+<tr><th>Series note</th><td>Third season-opener between the two in four years; first meeting of the current series at Stanford Stadium</td></tr>
+<tr><th>2025 records</th><td>Stanford 4-8 (3-5 ACC) &middot; Hawaii 9-4, Hawaii Bowl champions</td></tr>
+</tbody>
+</table>
+</div>"""
+
+KEYS = """<div class="reftable">
+<table>
+<caption>Four things that decide it</caption>
+<thead><tr><th>Key</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td>Davis Warren&rsquo;s knee</td><td>A sixth-year transfer coming off an injury, in a new offence, on a stage. Whether he steps into throws under pressure is the first honest read on Stanford&rsquo;s ceiling.</td></tr>
+<tr><td>Containing Micah Alejado</td><td>3,100-plus yards and 24 touchdowns last season, two of them in this fixture. A first-year defensive staff has one game of tape on itself and none on its own communication.</td></tr>
+<tr><td>The first quarter</td><td>Stanford led 10-0 early last year and lost. New staffs are often sharp on script and lost afterwards; how the second and third drives look matters more than how the first one does.</td></tr>
+<tr><td>Finishing</td><td>Hawaii won this game on the final play in 2025 and won nine games doing that kind of thing. Late-game execution is the specific thing Stanford has not had.</td></tr>
+</tbody>
+</table>
+</div>"""
+
+SCHEDULE_TABLE = """<div class="reftable">
+<table>
+<caption>Stanford&rsquo;s 2026 schedule</caption>
+<thead><tr><th>Date</th><th>Opponent</th><th>Site</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td class="num">Sat 29 Aug</td><td>Hawaii</td><td>Home</td><td>Week 0; rematch of a 23-20 loss</td></tr>
+<tr><td class="num">Fri 4 Sep</td><td>Miami (FL)</td><td>Home</td><td>Six days later; hardest home game</td></tr>
+<tr><td class="num">Sat 19 Sep</td><td>Duke</td><td>Away</td><td>After a two-week gap</td></tr>
+<tr><td class="num">Sat 26 Sep</td><td>Georgia Tech</td><td>Home</td><td>Winnable</td></tr>
+<tr><td class="num">Sat 3 Oct</td><td>Wake Forest</td><td>Away</td><td>Winnable</td></tr>
+<tr><td class="num">Sat 10 Oct</td><td>Notre Dame</td><td>Away</td><td>The marquee game</td></tr>
+<tr><td class="num">Sat 17 Oct</td><td>Elon</td><td>Home</td><td>The only breather</td></tr>
+<tr><td class="num">Fri 23 Oct</td><td>NC State</td><td>Home</td><td>Bowl-math game</td></tr>
+<tr><td class="num">Sat 31 Oct</td><td>Louisville</td><td>Away</td><td>Ranked opponent</td></tr>
+<tr><td class="num">Sat 14 Nov</td><td>Virginia Tech</td><td>Away</td><td>Bowl-math game</td></tr>
+<tr><td class="num">Sat 21 Nov</td><td>California</td><td>Away</td><td><b>The Big Game, 129th meeting, Berkeley</b></td></tr>
+<tr><td class="num">Sat 28 Nov</td><td>SMU</td><td>Home</td><td>A hard Week 13 finish</td></tr>
+</tbody>
+</table>
+</div>"""
+
+
 ARTICLES = [
 # ------------------------------------------------------------------ 1. Stanford preview
 dict(slug='stanford-2026-season-preview-pritchard-luck-warren',
@@ -200,10 +253,16 @@ dict(slug='big-game-cal-stanford-rivalry-history',
       "What they play for is the {axe}, which has its own criminal history. Since 1933 it "
       "has gone to the winner of the Big Game, and it sits in the winning school's "
       "trophy case for a year with the scores of past meetings mounted beside it.",
-      "The overall ledger favours the farm. Through the 2025 meeting, the schools had "
-      "played 127 times, with Stanford leading the series 65-51-11. That is a lot of "
+      "The overall ledger favours the farm. Through the 128th meeting in November 2025, "
+      "Stanford leads the series 66-51-11. That is a lot of "
       "November afternoons, a lot of stolen trophies, and a lot of people who will not "
       "let it go.",
+      "<b>Who has it right now.</b> Stanford. The 128th Big Game, on 22 November 2025, "
+      "went to the Cardinal 31-10 - two fumble returns for touchdowns, thirteen Cal "
+      "penalties, and the end of a four-year run in which Berkeley kept the trophy. It "
+      "was Stanford's first Big Game win since the 2020 season and its first at home "
+      "since 2017. Cal goes into the 129th meeting trying to take it straight back, at "
+      "home.",
       "What keeps it alive is that it was never really about football rankings. These "
       "are two universities eleven miles apart across a bay, one public and one private, "
       "one that takes forty thousand undergraduates and one that takes a fraction of "
@@ -415,9 +474,15 @@ dict(slug='stanford-axe-trophy-history',
       "The Axe works because of the century of bad behaviour behind it, not in spite of "
       "it. A trophy is only as good as the trouble people were willing to get into over "
       "it.",
-      "The 2026 edition is on 21 November in Berkeley. Whichever side leaves with it, "
-      "somebody is going to write about a lateral from 1982 within about ten minutes of "
-      "the final whistle. Our {calhub} and {stanhub} coverage runs all season.",
+      "<b>Where it is sitting today.</b> Palo Alto. Stanford won the 128th {biggame} "
+      "31-10 in November 2025 and took the Axe back for the first time since the 2020 "
+      "season, ending four straight years of it living in Berkeley. The plaque now "
+      "carries that 31-10 alongside everything else, which is the part that stings: Cal "
+      "has to look at it for a year before getting a chance to take it back.",
+      "The 2026 edition - the 129th meeting - is on 21 November in Berkeley. Whichever "
+      "side leaves with it, somebody is going to write about a lateral from 1982 within "
+      "about ten minutes of the final whistle. Our {calhub} and {stanhub} coverage runs "
+      "all season.",
      ],
      links={'biggame': ('big-game-cal-stanford-rivalry-history.html', 'Big Game'),
             'calhub': ('../cal.html', 'Cal'),
@@ -492,61 +557,213 @@ dict(slug='cal-2026-schedule-game-by-game-acc',
 # ------------------------------------------------------------------ 8. Stanford opener
 dict(slug='stanford-hawaii-week-zero-opener-preview',
      section='Stanford', tag='Stanford Preview', hub='Stanford',
-     title='Stanford Opens in Week 0 Against Hawaii. That Is a Gift.',
-     h1="Stanford Opens in Week 0 Against Hawaii, and Getting the Country to Itself Is the Whole Point",
-     dek="One game, one Saturday, and nothing else on the schedule to compete with it. "
-         "For a programme that needs people to look again, the calendar just did it a "
-         "favour.",
-     desc="Stanford hosts Hawaii on 29 August in Week 0, the first meeting between them "
-          "at Stanford Stadium, and a new staff gets the country's attention to itself.",
+     title='Stanford vs Hawaii, Week 0: Preview, Keys and What to Watch',
+     h1="Stanford vs Hawaii, Week 0: The Rematch Nobody at Stanford Wanted This Early",
+     dek="Hawaii won this game last August on a walk-off field goal, then went 9-4 and won "
+         "a bowl. They bring back the Mountain West's preseason offensive player of the "
+         "year. This is not a tune-up, and Stanford has Miami six days later.",
+     desc="Stanford vs Hawaii preview for Week 0 on 29 August: kickoff time, the 2025 "
+          "rematch, the quarterback situations, the keys, and what each team has to prove.",
      date='2026-08-08',
-     card=('stanford', 'Week 0', 'Hawaii at Stanford Stadium, 29 August, and nothing else on'),
+     card=('stanford', 'Week 0', 'Hawaii at Stanford Stadium, 29 August, 4pm PT'),
      body=[
-      "Week 0 is college football's strange little preview weekend: a handful of games "
-      "on a Saturday when the sport has not officially started, watched by everyone "
-      "because there is nothing else on. Stanford is in it, hosting Hawaii on 29 August, "
-      "the first time the two have played at Stanford Stadium.",
-      "For a programme in {pritchard}'s position, that is not a scheduling quirk, it is "
-      "an opportunity. A new head coach's first game normally disappears into a "
-      "twelve-game Saturday where nobody outside the fan base notices. This one has the "
-      "country's attention by default. Play well and the narrative for the whole season "
-      "gets set by people who were only watching because their team was not on.",
-      "What to actually watch: whether {warren} looks like a quarterback who trusts his "
-      "knee. Everything about Stanford's floor this year runs through whether the "
-      "veteran transfer can stand in and throw it on time, and you learn more about that "
-      "in one live drive than in a month of training camp reports.",
-      "The second thing is tempo and structure - whether this offense looks like it was "
-      "designed by somebody who spent three years watching NFL staffs operate, or "
-      "whether it looks like the last few years on The Farm. That is a first-quarter "
-      "tell, and it will say more about the {luck} hire than any win-loss record in "
-      "August.",
-      "Hawaii is also a genuinely awkward opponent for a Week 0 game, which is worth "
-      "saying before anyone treats this as a scrimmage. They play a style that punishes "
-      "a defence still working out its communication, they have nothing to lose on the "
-      "mainland, and Week 0 exists partly because Hawaii's schedule allows it - this is "
-      "familiar territory for them and brand new for a Stanford staff coaching its first "
-      "game together.",
-      "The third thing to watch is the crowd, and that is not a soft point. Stanford "
-      "Stadium in recent years has been a difficult place to feel anything, and a new "
-      "coaching staff's first home game in a national television window is exactly the "
-      "sort of occasion that either starts to rebuild that or confirms the problem. "
-      "Attendance on 29 August tells you something real about whether the Bay Area has "
-      "checked back in.",
-      "A win here does not fix a decade. But it changes the first sentence of every "
-      "story written about this programme for the next month, and after the last few "
-      "years, controlling the first sentence is worth something.",
-      "Hawaii will be a live opponent, not a tune-up, and a bad afternoon here would be "
-      "genuinely damaging to a programme that needs early proof. But the calendar handed "
-      "Stanford a stage. We will have the reaction the same weekend, and the rest is on "
-      "the {hub}.",
+      "Stanford opens the {pritchard} era on 29 August against a team that beat them on "
+      "the last play of this same fixture a year ago. Week 0 gets sold as a soft landing "
+      "with the country watching. Look at the opponent for ten seconds and it stops "
+      "looking soft.",
+
+      GAME_INFO,
+
+      "<b>Start with what happened last August, because it frames everything.</b> These "
+      "two opened the 2025 season against each other in Honolulu and Hawaii won 23-20 on "
+      "a 38-yard field goal as time expired. Stanford led 10-0 in the first quarter, "
+      "including a defensive touchdown, and lost anyway. It was Hawaii's first win over "
+      "Stanford after four straight defeats in the series, and their first win over a "
+      "Power Four opponent since 2019. Micah Alejado threw two touchdown passes in what "
+      "was only his second career start.",
+
+      "<b>That quarterback is back, and he is now a problem.</b> Alejado threw for more "
+      "than 3,100 yards with 24 touchdowns and nine interceptions in 2025 and arrives as "
+      "the Mountain West preseason offensive player of the year. Hawaii finished 9-4 and "
+      "won the Hawaii Bowl. They averaged roughly 394 yards and 29 points a game, almost "
+      "all of it through the air, and they return Pofele Ashlock, who caught a team-high "
+      "76 passes for 829 yards. Sixteen FBS transfers came in on top of that. This is a "
+      "team in year five under Timmy Chang that has stopped being a plucky story and "
+      "started being a good football team.",
+
+      "<b>Now Stanford.</b> The Cardinal went 4-8 last season, 3-5 in the ACC, under "
+      "Frank Reich on an interim basis. Four wins does not sound like progress and "
+      "actually was: it was the programme's best since 2020 and the first time since 2015 "
+      "that Stanford won more games than the year before. It ended with the 128th Big "
+      "Game, a 31-10 win in which the Cardinal took back {axe} for the first time since "
+      "2020. So the last thing this roster did was win a rivalry game by three "
+      "touchdowns, and the first thing it has to do is beat a team that already beat it.",
+
+      "<b>The new staff.</b> Tavita Pritchard was hired on 28 November 2025 after three "
+      "seasons coaching quarterbacks for the Washington Commanders. Terry Heffernan runs "
+      "the offence and Kris Richard runs the defence, both in their first season on The "
+      "Farm. That is three people who have never called a game together, in their first "
+      "game together, against an opponent with a returning starting quarterback and "
+      "continuity everywhere. The advantage of a Week 0 stage cuts both ways.",
+
+      "<b>Stanford's biggest question: the quarterback.</b> Davis Warren arrives from "
+      "Michigan for a sixth college season and is the expected starter, with Dylan Rizk "
+      "behind him and Charlie Mirer third. Warren is coming off a knee injury. Everything "
+      "about Stanford's floor this season runs through whether he can stand in the pocket "
+      "and throw on time without thinking about the knee, and you learn more about that "
+      "on one live third down than in a month of camp reports. Nobody outside the "
+      "building knows the answer yet, and anyone claiming otherwise is guessing.",
+
+      "<b>Stanford's second question: does the offence look designed?</b> Pritchard and "
+      "Heffernan are installing something from scratch. The tell is not the scoreboard, "
+      "it is the first quarter - motion, spacing, whether the answers arrive before the "
+      "problems do. If it looks like an NFL staff's work, that is the clearest early "
+      "evidence anyone will get about whether the {luck} experiment is producing "
+      "anything. If it looks like the last few years, that is evidence too.",
+
+      "<b>Hawaii's questions are smaller but real.</b> They lost Landon Sims to expired "
+      "eligibility, so Cam Barfield steps up as the lead back and the run game has to be "
+      "re-established. Sixteen new FBS transfers is a lot of new faces to integrate for a "
+      "team whose whole edge is continuity. And they are travelling to the mainland for a "
+      "4 p.m. Pacific kickoff to play a Power Four opponent in its own stadium - the "
+      "reverse of last year's arrangement, and the one situation this programme has "
+      "historically found hardest.",
+
+      "<b>The keys, honestly framed.</b> Nobody knows how this goes. What we can say is "
+      "which four things will decide it.",
+
+      KEYS,
+
+      "<b>The schedule implication that nobody is talking about.</b> Stanford plays Miami "
+      "at home on 4 September - six days after this game. Week 0 is usually a gift "
+      "because it buys an extra bye; here it buys a short week into the hardest home game "
+      "on the schedule. Lose to Hawaii and the season opens 0-2 with the Cardinal being "
+      "written off before September is a week old. Win, and a 1-0 team gets a free swing "
+      "at a ranked opponent with the whole country still paying attention. The full "
+      "twelve games are on {sched}.",
+
+      "<b>What a win would actually be worth.</b> Not a fixed decade - one game does not "
+      "do that. But Week 0 has eight games on it and no competition, a new head coach's "
+      "first result gets quoted for a month, and this programme has spent years being "
+      "something people had opinions about rather than watched. Controlling the first "
+      "sentence of the season is worth more to Stanford right now than it would be to "
+      "almost anyone else.",
+
+      "<b>And the crowd, which is not a soft point.</b> Stanford Stadium has been a "
+      "difficult place to feel anything for a while. A first home game under a new staff, "
+      "in a national window, with a Pacific Islander heritage celebration and Cardinal "
+      "Kids Day attached to it, is exactly the sort of occasion that either starts "
+      "rebuilding that or confirms the problem. The announced attendance on 29 August is "
+      "a real data point about whether the Bay Area has checked back in.",
+
+      "<b>What we are not doing.</b> Predicting a score. Hawaii won this fixture last "
+      "year, returns the better quarterback and has continuity; Stanford has home field, "
+      "more talent on paper and a staff nobody has scouted. Both of those are true and "
+      "neither settles it. We will have the reaction after the game is played, not "
+      "before.",
+
+      "The full season is in {preview}, the twelve games are on {sched}, and the rest is "
+      "on the {hub}.",
      ],
      links={'pritchard': ('stanford-2026-season-preview-pritchard-luck-warren.html', 'Tavita Pritchard'),
-            'warren': ('stanford-2026-season-preview-pritchard-luck-warren.html', 'Davis Warren'),
+            'axe': ('stanford-axe-trophy-history.html', 'the Axe'),
             'luck': ('andrew-luck-stanford-general-manager-experiment.html', 'Andrew Luck'),
+            'sched': ('stanford-2026-schedule-game-by-game-acc.html',
+                      "the Stanford schedule page"),
+            'preview': ('stanford-2026-season-preview-pritchard-luck-warren.html',
+                        'our season preview'),
             'hub': ('../stanford.html', 'Stanford hub')},
-     related=[('stanford-2026-season-preview-pritchard-luck-warren.html', 'Stanford Preview', 'Stanford Hands the Keys to Tavita Pritchard'),
-              ('andrew-luck-stanford-general-manager-experiment.html', 'Stanford', 'Andrew Luck Is Running a Football Program'),
-              ('cal-2026-season-preview-lupoi-sagapolutele.html', 'Cal Preview', 'Tosh Lupoi Comes Home to Berkeley')]),
+     related=[('stanford-2026-schedule-game-by-game-acc.html', 'Stanford', "Stanford's 2026 Schedule, Game by Game"),
+              ('stanford-2026-season-preview-pritchard-luck-warren.html', 'Stanford Preview', 'Stanford Hands the Keys to Tavita Pritchard'),
+              ('andrew-luck-stanford-general-manager-experiment.html', 'Stanford', 'Andrew Luck Is Running a Football Program')]),
+
+# -------------------------------------------------------------- 9. Stanford schedule
+dict(slug='stanford-2026-schedule-game-by-game-acc',
+     section='Stanford', tag='Stanford', hub='Stanford',
+     title="Stanford's 2026 Schedule, Game by Game: Where the Season Turns",
+     h1="Stanford's 2026 Schedule, Game by Game, and the Three Stretches That Decide It",
+     dek="Hawaii in Week 0, Miami six days later, Notre Dame in October and the Big Game "
+         "in Berkeley to finish. Twelve games, and a bowl bid that lives or dies in a "
+         "four-week window nobody is looking at yet.",
+     desc="Every game on Stanford's 2026 schedule, from the Week 0 Hawaii opener to the "
+          "Big Game at Cal, and the stretch where a bowl bid is actually won or lost.",
+     date='2026-08-08',
+     card=('stanford', "Stanford's Schedule", 'Hawaii in Week 0, Miami in Week 1, Cal to finish'),
+     body=[
+      "A schedule is a shape, not a list. Here is the shape of Tavita Pritchard's first "
+      "season, and the specific weeks where it becomes a bowl team or another 4-8.",
+
+      SCHEDULE_TABLE,
+
+      "<b>The opening is brutal and almost nobody has said so.</b> Week 0 against Hawaii "
+      "on 29 August, then Miami at home on 4 September - six days later. Week 0 normally "
+      "buys a team an extra week of preparation somewhere. This one buys a short week "
+      "into the hardest home game on the card, against a team Stanford has no business "
+      "beating on paper, in a first-year staff's second game. {opener} is the full "
+      "preview of the first of those, and it is a live opponent: Hawaii won this fixture "
+      "last August and went 9-4.",
+
+      "<b>Then the schedule exhales.</b> After Miami there is no game until Duke on the "
+      "road on 19 September - a two-week gap that is the single most valuable thing on "
+      "this calendar for a staff installing new systems on both sides of the ball. "
+      "Whatever this team looks like in September, it should look different by the end of "
+      "that break. Duke away, Georgia Tech at home on the 26th, Wake Forest away on 3 "
+      "October: that is the three-game stretch where a bowl bid is actually built.",
+
+      "<b>October is the month that decides the season.</b> Notre Dame on the road on the "
+      "10th is the marquee game and the one nobody expects Stanford to win. Elon at home "
+      "on the 17th is the only genuine breather on the schedule. NC State at home on the "
+      "23rd and Louisville away on the 31st bracket it. Take Georgia Tech, Wake Forest "
+      "and NC State - three winnable ACC games, two of them at home - and this team is at "
+      "four or five wins with a month to play. Split them and it is another November "
+      "spent playing for pride.",
+
+      "<b>November is short and it finishes in Berkeley.</b> Virginia Tech away on the "
+      "14th, then {biggame} at Cal on the 21st, then SMU at home on the 28th. Two things "
+      "about that. First, the emotional peak of the season arrives with a game still to "
+      "play, and teams that win the Big Game have a long history of no-showing the "
+      "following Saturday. Second, SMU is a genuinely good team to have to beat in Week "
+      "13, which means a Stanford side sitting on five wins in late November has one of "
+      "the least forgiving paths to a sixth that anyone will face.",
+
+      "<b>What the ACC handed them, and what it did not.</b> Miami, Notre Dame, Louisville "
+      "and SMU on one twelve-game card is not a soft draw - that is four opponents who "
+      "expect to be ranked. Compare it with {calsched}, where Cal misses Miami, "
+      "Louisville and Florida State entirely. Two Bay Area schools in the same conference "
+      "in the same season got very different assignments, and Stanford got the harder one. "
+      "{realign} explains how a Palo Alto team ended up playing in Winston-Salem and "
+      "Louisville at all.",
+
+      "<b>The travel, which is the part that does not show up in a projection.</b> Duke, "
+      "Wake Forest, Notre Dame, Louisville and Virginia Tech are all road games in the "
+      "eastern half of the country, and four of them fall in a seven-week span. This is "
+      "the cost of realignment stated plainly: a team of students flying three time zones "
+      "repeatedly during the academic term, and a coaching staff trying to build habits "
+      "in a season that keeps interrupting itself.",
+
+      "<b>The honest projection.</b> Six wins is the line worth watching, because six is "
+      "a bowl and a bowl in year one would be a genuine result for a programme coming off "
+      "4-8. To get there Stanford probably needs to beat Hawaii, take Elon, and win three "
+      "of the Georgia Tech / Wake Forest / NC State / Virginia Tech group. That is not a "
+      "fantasy and it is not comfortable either, which is roughly where this programme "
+      "deserves to be projected right now.",
+
+      "<b>How this page gets used.</b> It gets updated as results come in, so it becomes "
+      "the record of the season rather than a preseason artefact. The opener is "
+      "{opener}, the roster and staff are in {preview}, and the rest is on the {hub}.",
+     ],
+     links={'opener': ('stanford-hawaii-week-zero-opener-preview.html',
+                       'our Hawaii preview'),
+            'biggame': ('big-game-cal-stanford-rivalry-history.html', 'the Big Game'),
+            'calsched': ('cal-2026-schedule-game-by-game-acc.html', "Cal's schedule"),
+            'realign': ('cal-stanford-acc-realignment-what-changed.html',
+                        'The realignment explainer'),
+            'preview': ('stanford-2026-season-preview-pritchard-luck-warren.html',
+                        'the season preview'),
+            'hub': ('../stanford.html', 'Stanford hub')},
+     related=[('stanford-hawaii-week-zero-opener-preview.html', 'Stanford Preview', 'Stanford vs Hawaii, Week 0: Preview and Keys'),
+              ('stanford-2026-season-preview-pritchard-luck-warren.html', 'Stanford Preview', 'Stanford Hands the Keys to Tavita Pritchard'),
+              ('cal-2026-schedule-game-by-game-acc.html', 'Cal', "Cal's 2026 Schedule, Game by Game")]),
 ]
 
 

@@ -18,7 +18,8 @@ foundation.)
 | 49ers | — | Week 2, Miami at Levi's | reaction + preview | 14–20 Sep | news | weekly |
 | 49ers | — | **~game five** | Purdy passes 1,500 attempts, qualifies for the career passer-rating record | day of | **update the Purdy page** | biggest single traffic event of the season |
 | 49ers | — | Mexico City vs Minnesota | game week coverage | TBD | news | weekly |
-| **Cal / Stanford** | foundation built (8 pieces) | **Stanford vs Hawaii, 29 Aug** (Week 0) | Stanford opener reaction | 29–30 Aug | news | — |
+| **Cal / Stanford** | **opener mini-cluster built** — preview expanded 536w→1,255w, Stanford schedule page added | **Stanford vs Hawaii, 29 Aug, 4pm PT, ACC Network** | **PREVIEW IS LIVE.** Reaction after the final whistle only — follow `COLLEGE_GAMEDAY_WORKFLOW.md` | 29–30 Aug | news | — |
+| Cal / Stanford | — | **Miami at Stanford, 4 Sep** | preview; six-day turnaround, start early | 2–3 Sep | news | — |
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
@@ -63,6 +64,8 @@ foundation.)
 | `big-game-cal-stanford-rivalry-history` | Cal/Stanford | after each Big Game — add the result |
 | `stanford-axe-trophy-history` | Cal/Stanford | after each Big Game |
 | `cal-2026-schedule-game-by-game-acc` | Cal | as results come in |
+| `stanford-2026-schedule-game-by-game-acc` | Stanford | **as results come in — this is the season's record; never let it fall behind** |
+| `stanford-hawaii-week-zero-opener-preview` | Stanford | add a link to the reaction after 29 Aug; do NOT rewrite it into a recap |
 | `bay-area-championships-complete-list-by-team` | Bay Area history | **after every Bay Area title or Final appearance** — update both tables and the running total (currently 21) |
 | `bay-area-franchise-relocations-teams-that-left` | Bay Area history | on any relocation news; **Athletics 2028 Las Vegas move is already in the table as scheduled and must be changed to completed when it happens** |
 | `oakland-coliseum-history-what-happens-to-it-now` | Bay Area history | **on AASEG / Oakland Acquisition Co. sale and redevelopment milestones** — this page tracks a live 30-year project |
@@ -131,6 +134,21 @@ reference. Watch for duplicate intent with `bay-area-sports-history`, `dynasties
 and `timeline.html` — those are columns and chronologies; anything new must be a
 reference.
 
+## Where the next gains come from
+
+The technical foundation is done and frozen. Growth now comes from timely coverage,
+topical authority, internal-link compounding, evergreen refreshes and backlink
+opportunities — **not** from more schema or audit passes. Do not re-run the audit suite
+looking for work; run it as a gate after publishing.
+
+Standing evergreen-refresh triggers (real events, not manufactured pages):
+- **Big Game, 21 Nov** — refresh `big-game-cal-stanford-rivalry-history` and
+  `stanford-axe-trophy-history` with the result and the new series record. Currently
+  Stanford leads 66-51-11 and holds the Axe after winning the 128th 31-10.
+- **Purdy, ~game five in October** — the single biggest traffic event of the season.
+- **Las Vegas construction milestones** — the A's timeline page.
+- **Oak View Group arena sale** — the Oracle Arena page.
+
 ## Repo documentation
 
 `docs/` holds what used to live on the Desktop and was lost. Write future reports there,
@@ -139,3 +157,6 @@ not to the Desktop.
 - `docs/CLOUDFLARE_ROLLOUT_PLAN.md` — CDN migration, **not started, needs Nima's go**
 - `docs/SEO_BASELINE_FROZEN.md` — technical-SEO baseline + how to re-verify
 - `docs/INTERNAL_LINK_AND_HUB_REPORT.md` — link-graph record and the GSC checklist
+- `NFL_WEEKLY_WORKFLOW.md` — the recurring 49ers season loop
+- `COLLEGE_GAMEDAY_WORKFLOW.md` — the Cal/Stanford loop and the **postgame gate** for
+  29 August
