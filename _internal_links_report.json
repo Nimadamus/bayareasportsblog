@@ -1,0 +1,174 @@
+{
+ "links_added": 20,
+ "source_articles_touched": 18,
+ "targets_gaining_links": 15,
+ "starved_targets_fixed": 14,
+ "unique_phrase_vocabulary": 261,
+ "caps": {
+  "max_out": 3,
+  "max_in": 4
+ },
+ "applied": true,
+ "links": [
+  {
+   "from": "articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html",
+   "to": "articles/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.html",
+   "anchor": "The day before",
+   "phrase": "the day before",
+   "kind": "chrono",
+   "starved_target": true
+  },
+  {
+   "from": "articles/athletics-redsox-4-3-serven-homer-white-four-hits-july-28.html",
+   "to": "articles/athletics-redsox-4-2-rafaela-slam-soderstrom-heim-homers-july-27.html",
+   "anchor": "the series opener",
+   "phrase": "the series opener",
+   "kind": "chrono-opener",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-blown-lead-mariners-cole-young-webb-4-3-july-18.html",
+   "to": "articles/giants-adames-grand-slam-mariners-7-0-second-half-july-17.html",
+   "anchor": "yesterday",
+   "phrase": "yesterday",
+   "kind": "chrono",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-padres-6-5-basabe-ninth-inning-collapse-august-1.html",
+   "to": "articles/giants-padres-7-0-shutout-whisenhunt-two-hits-july-31.html",
+   "anchor": "the night before",
+   "phrase": "the night before",
+   "kind": "chrono",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-purdy-sharp-camp-injuries-mounting-twenty-out-august-5.html",
+   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "anchor": "Demarcus Robinson",
+   "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.html",
+   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "anchor": "KhaDarel Hodge",
+   "phrase": "khadarel hodge",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-deebo-samuel-returns-one-year-7-million-2026.html",
+   "to": "articles/49ers-kyle-shanahan-recovery-update-training-camp-2026.html",
+   "anchor": "Kyle Shanahan",
+   "phrase": "kyle shanahan",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-dezhaun-stribling-training-camp-starter-2026.html",
+   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
+   "anchor": "Ricky Pearsall",
+   "phrase": "ricky pearsall",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-1993-pennant-race-braves-103-wins-wild-card.html",
+   "to": "articles/giants-1993-pennant-race-salomon-torres-final-day.html",
+   "anchor": "Salomon Torres",
+   "phrase": "salomon torres",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-padres-7-0-shutout-whisenhunt-two-hits-july-31.html",
+   "to": "articles/giants-heating-up-best-baseball-of-the-season-july-30.html",
+   "anchor": "playing their best baseball",
+   "phrase": "playing their best baseball",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-heliot-ramos-yankees-mayer-mahle-august-4.html",
+   "to": "articles/giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html",
+   "anchor": "Marcelo Mayer",
+   "phrase": "marcelo mayer",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-season-over-build-around-eldridge-posey-bullpen.html",
+   "to": "articles/giants-rockies-preview-robbie-ray-bryce-eldridge-july-10.html",
+   "anchor": "Bryce Eldridge is the reason",
+   "phrase": "bryce eldridge is the reason",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.html",
+   "to": "articles/giants-tony-vitello-clueless-lineups-eldridge-leadoff.html",
+   "anchor": "Tony Vitello has no idea",
+   "phrase": "tony vitello has no idea",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html",
+   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "anchor": "Demarcus Robinson",
+   "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-purdy-sharp-camp-injuries-mounting-twenty-out-august-5.html",
+   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "anchor": "KhaDarel Hodge",
+   "phrase": "khadarel hodge",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-greenlaw-mccaffrey-pads-day-one-favorite-player-2026.html",
+   "to": "articles/49ers-kyle-shanahan-recovery-update-training-camp-2026.html",
+   "anchor": "Kyle Shanahan",
+   "phrase": "kyle shanahan",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-injuries-again-training-camp-august-2026.html",
+   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
+   "anchor": "Ricky Pearsall",
+   "phrase": "ricky pearsall",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-heating-up-best-baseball-of-the-season-july-30.html",
+   "to": "articles/giants-season-over-build-around-eldridge-posey-bullpen.html",
+   "anchor": "around Bryce Eldridge",
+   "phrase": "around bryce eldridge",
+   "kind": "phrase",
+   "starved_target": false
+  }
+ ]
+}
