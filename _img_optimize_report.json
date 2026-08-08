@@ -1,0 +1,10 @@
+{
+ "mode": "check",
+ "quality": 92,
+ "max_edge": 1800,
+ "files_scanned": 162,
+ "files_changed": 0,
+ "bytes_before": 38502937,
+ "bytes_after": 38502937,
+ "changes": []
+}
