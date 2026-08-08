@@ -266,6 +266,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/macklin-celebrini-sharks-records-contract.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Macklin Celebrini: The Records, the Contract, Where He Ranks</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/oakland-athletics-legacy-what-the-bay-area-lost.html</loc>
     <news:news>
       <news:publication>
@@ -296,6 +307,39 @@
       </news:publication>
       <news:publication_date>2026-08-08</news:publication_date>
       <news:title>Oracle Park and McCovey Cove: How the Ballpark Actually Plays</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/san-jose-sharks-history-no-stanley-cup.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>Thirty-Five Years, One Final, No Cup: The Sharks History</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sharks-2026-27-roster-depth-chart.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The Sharks Roster and Depth Chart for 2026-27</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sharks-2026-27-schedule-season-hub.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08</news:publication_date>
+      <news:title>The Sharks 2026-27 Schedule and Season Hub</news:title>
     </news:news>
   </url>
   <url>

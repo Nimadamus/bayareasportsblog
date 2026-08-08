@@ -4,8 +4,9 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-08** (Bay Area history / evergreen cluster built — 4 new pages,
-2 thin flashbacks expanded)
+**Last updated: 2026-08-08** (Bay Area history cluster built — 4 pages + 2 flashbacks
+expanded; **Sharks cluster built from zero** — 4 pages. All seven clusters now have a
+foundation.)
 
 ---
 
@@ -33,6 +34,11 @@ publish.
 | Warriors | — | training camp, late Sep | camp storylines, Butler knee status | late Sep | news | weekly once season starts |
 | Warriors | — | opening night, late Oct | season opener preview + reaction | late Oct | news | weekly |
 | **Bay Area history** | foundation built (4 pages + 2 expansions) | no season dependency | Oracle Arena / Roaracle evergreen; Bay Area sports Mount Rushmore | any time | evergreen | see permanent pages below |
+| **Sharks** | foundation built (4 pages) | **opening night, 1 Oct — Florida at SAP Center** | opening night preview + reaction | 30 Sep – 2 Oct | news | weekly in season |
+| Sharks | — | **six-game eastern trip, 15–24 Oct** | trip check-in; Eklund's return game at Ottawa is 22 Oct | late Oct | news | — |
+| Sharks | — | American Thanksgiving | is the second line real? first honest verdict | late Nov | news | update the depth chart |
+| Sharks | — | trade deadline | first time on the buying side since 2019 if they are in it | Mar 2027 | news | update the depth chart |
+| Sharks | — | **final game, 10 Apr 2027, Anaheim at home** | season review — does the seven-year playoff drought end? | Apr 2027 | news→permanent | — |
 
 ## Permanent pages — update, never duplicate
 
@@ -63,6 +69,10 @@ publish.
 | `candlestick-park-history-wind-the-catch-demolition` | Bay Area history | on Candlestick Point construction milestones (Five Point groundbreaking, first homes ~2030) |
 | `flashback-the-catch-1982` | Bay Area history | rarely — expanded 2026-08-08 from 402w |
 | `flashback-klay-37-point-quarter` | Bay Area history | if the 37-point quarter or the 14-three game record is broken |
+| `sharks-2026-27-schedule-season-hub` | Sharks | **after each game — add the recap link**; this is the season's spine |
+| `sharks-2026-27-roster-depth-chart` | Sharks | on roster moves, call-ups, injuries, and when the rookies stick or get sent down |
+| `macklin-celebrini-sharks-records-contract` | Sharks | when the franchise record moves, on any contract change, and at the end of each season |
+| `san-jose-sharks-history-no-stanley-cup` | Sharks | rarely — evergreen; update the seasons table each spring |
 
 ## Next clusters, ranked by real opportunity
 
@@ -74,8 +84,9 @@ national competition is.
 | ~~1~~ | ~~Giants~~ | **BUILT 2026-08-08.** 4 pages: rebuild state, depth chart, season hub, Oracle Park evergreen. | — | — |
 | ~~1~~ | ~~Athletics~~ | **BUILT 2026-08-08.** 4 pages: Sutter Health Park, relocation timeline, depth chart, Oakland legacy. | — | — |
 | ~~1~~ | ~~Bay Area history / evergreen~~ | **BUILT 2026-08-08.** 4 reference pages: championship ledger, Oakland Coliseum, franchise relocations, Candlestick Park. Plus `flashback-the-catch-1982` and `flashback-klay-37-point-quarter` expanded from 402w/392w rather than writing competing pages. | — | — |
-| **1** | **Sharks** | One article on the whole site. NHL season starts October, Celebrini is a real national story, and the site currently has nothing to rank with. Build-from-zero, smallest audience — but it is now the only cluster with no foundation at all. | Sep–Oct, before puck drop | weakest |
-| **2** | **In-season coverage** | Whichever cluster has live events. Stanford's opener on 29 Aug is the first date on the calendar. | from 29 Aug | strong |
+| ~~1~~ | ~~Sharks~~ | **BUILT 2026-08-08 from one article.** 4 pages: schedule/season hub, depth chart, Celebrini records and contract, franchise history. | — | — |
+| **1** | **In-season coverage** | Every cluster now has a foundation, so the highest-value work is live events on the calendar above. Stanford's opener on 29 Aug is the first date, then Cal on 5 Sep, 49ers on 10 Sep, Sharks on 1 Oct. | from 29 Aug | strong |
+| **2** | **Remaining evergreen gaps** | Oracle Arena / Roaracle (the last unwritten venue), a Bay Area Mount Rushmore reference, Logan Webb and Kittle player evergreens, a Giants franchise-records page. Filler between live events. | any time | high |
 
 ## Rules that apply to every cluster
 
@@ -98,7 +109,7 @@ national competition is.
 - Warriors schedule hub — waiting on the NBA schedule release
 - Weekly 49ers previews/reactions — waiting on games
 - Cal/Stanford game reactions — waiting on games
-- Sharks anything — needs a decision on whether to invest in the smallest audience
+- Sharks game coverage — waiting on puck drop, 1 Oct
 - `betting.html` — permanently out of the sitemap; that content lives on TMR/BetLegend
 
 ## Bay Area history — what the archive already owns, do NOT rebuild
