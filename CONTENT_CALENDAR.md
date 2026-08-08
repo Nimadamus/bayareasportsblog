@@ -4,7 +4,8 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-08** (Warriors, Giants + Athletics clusters built)
+**Last updated: 2026-08-08** (Bay Area history / evergreen cluster built — 4 new pages,
+2 thin flashbacks expanded)
 
 ---
 
@@ -31,6 +32,7 @@ publish.
 | Athletics | — | **Opening Day 2028, Las Vegas** | the end of the Bay Area era — plan a package | spring 2028 | news + evergreen refresh | the biggest scheduled story this site owns |
 | Warriors | — | training camp, late Sep | camp storylines, Butler knee status | late Sep | news | weekly once season starts |
 | Warriors | — | opening night, late Oct | season opener preview + reaction | late Oct | news | weekly |
+| **Bay Area history** | foundation built (4 pages + 2 expansions) | no season dependency | Oracle Arena / Roaracle evergreen; Bay Area sports Mount Rushmore | any time | evergreen | see permanent pages below |
 
 ## Permanent pages — update, never duplicate
 
@@ -55,6 +57,12 @@ publish.
 | `big-game-cal-stanford-rivalry-history` | Cal/Stanford | after each Big Game — add the result |
 | `stanford-axe-trophy-history` | Cal/Stanford | after each Big Game |
 | `cal-2026-schedule-game-by-game-acc` | Cal | as results come in |
+| `bay-area-championships-complete-list-by-team` | Bay Area history | **after every Bay Area title or Final appearance** — update both tables and the running total (currently 21) |
+| `bay-area-franchise-relocations-teams-that-left` | Bay Area history | on any relocation news; **Athletics 2028 Las Vegas move is already in the table as scheduled and must be changed to completed when it happens** |
+| `oakland-coliseum-history-what-happens-to-it-now` | Bay Area history | **on AASEG / Oakland Acquisition Co. sale and redevelopment milestones** — this page tracks a live 30-year project |
+| `candlestick-park-history-wind-the-catch-demolition` | Bay Area history | on Candlestick Point construction milestones (Five Point groundbreaking, first homes ~2030) |
+| `flashback-the-catch-1982` | Bay Area history | rarely — expanded 2026-08-08 from 402w |
+| `flashback-klay-37-point-quarter` | Bay Area history | if the 37-point quarter or the 14-three game record is broken |
 
 ## Next clusters, ranked by real opportunity
 
@@ -65,8 +73,9 @@ national competition is.
 |---|---|---|---|---|
 | ~~1~~ | ~~Giants~~ | **BUILT 2026-08-08.** 4 pages: rebuild state, depth chart, season hub, Oracle Park evergreen. | — | — |
 | ~~1~~ | ~~Athletics~~ | **BUILT 2026-08-08.** 4 pages: Sutter Health Park, relocation timeline, depth chart, Oakland legacy. | — | — |
-| **1** | **Bay Area history / evergreen** | `bay-area-sports-history` already has the most inbound links of any article. The Dynasties and Timeline pages exist but are thin on supporting articles. Pure evergreen, no season dependency, best link-earning category. | any time — filler between seasons | high inbound, low article count |
-| **2** | **Sharks** | One article. NHL season starts October. Celebrini is a real national story. But the archive is so thin that this is a build-from-zero, and the audience is the smallest of the five. | Oct | weakest |
+| ~~1~~ | ~~Bay Area history / evergreen~~ | **BUILT 2026-08-08.** 4 reference pages: championship ledger, Oakland Coliseum, franchise relocations, Candlestick Park. Plus `flashback-the-catch-1982` and `flashback-klay-37-point-quarter` expanded from 402w/392w rather than writing competing pages. | — | — |
+| **1** | **Sharks** | One article on the whole site. NHL season starts October, Celebrini is a real national story, and the site currently has nothing to rank with. Build-from-zero, smallest audience — but it is now the only cluster with no foundation at all. | Sep–Oct, before puck drop | weakest |
+| **2** | **In-season coverage** | Whichever cluster has live events. Stanford's opener on 29 Aug is the first date on the calendar. | from 29 Aug | strong |
 
 ## Rules that apply to every cluster
 
@@ -75,9 +84,14 @@ national competition is.
 3. **Every article links up to its hub** and to at least one permanent page.
 4. **No thin pages.** Under ~500 words means it should have been an update.
 5. **Cards from `tools/cardgen.py`** — team palette, no stock photos, no likenesses.
-6. **All four gates pass before commit:** `tools/thumb_gate.py --site`,
-   `_meta_template.py --gate`, `_sitemap_audit.py`, `_seo_audit.py`.
+6. **All gates pass before commit:** `tools/thumb_gate.py --site`,
+   `tools/card_derivatives.py --check`, `_meta_template.py --gate`, `_sitemap_audit.py`,
+   `_seo_audit.py`.
 7. **The news sitemap only holds 48 hours.** Cadence is the whole game in season.
+8. **Reference pages, not more columns.** The archive already owns the arguments. New
+   evergreen work earns links by answering questions with tables and dates.
+9. **Research before writing.** Never invent a score, date, contract or statistic; never
+   write a game reaction before the game.
 
 ## Known gaps, deliberately unfilled
 
@@ -86,3 +100,27 @@ national competition is.
 - Cal/Stanford game reactions — waiting on games
 - Sharks anything — needs a decision on whether to invest in the smallest audience
 - `betting.html` — permanently out of the sitemap; that content lives on TMR/BetLegend
+
+## Bay Area history — what the archive already owns, do NOT rebuild
+
+All four dynasty eras (49ers 80s, Warriors 2010s, Giants even-year, A's 70s inside the
+villains/legacy pages), The Catch, Bumgarner 2014, Klay's 37, Bonds, Kent, Bochy's
+bullpens, Montana–Young, the 1993 pennant race (twice), the Big Game, the Axe, Oracle
+Park, Sutter Health Park, the A's relocation, the Coliseum, Candlestick, the championship
+ledger and the regional relocation pattern.
+
+Remaining genuine gaps in this cluster, in order: an Oracle Arena / Roaracle evergreen
+(the last unwritten venue — `history.html` still points two plate links at
+`timeline.html#venues` for it), and a Bay Area Mount Rushmore / greatest-athletes
+reference. Watch for duplicate intent with `bay-area-sports-history`, `dynasties.html`
+and `timeline.html` — those are columns and chronologies; anything new must be a
+reference.
+
+## Repo documentation
+
+`docs/` holds what used to live on the Desktop and was lost. Write future reports there,
+not to the Desktop.
+
+- `docs/CLOUDFLARE_ROLLOUT_PLAN.md` — CDN migration, **not started, needs Nima's go**
+- `docs/SEO_BASELINE_FROZEN.md` — technical-SEO baseline + how to re-verify
+- `docs/INTERNAL_LINK_AND_HUB_REPORT.md` — link-graph record and the GSC checklist

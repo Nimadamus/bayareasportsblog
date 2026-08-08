@@ -88,6 +88,18 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 .figrow.orig img{height:340px;object-fit:contain;background:var(--surface2)}
 @media(max-width:640px){.article img.hero-photo{height:340px}.figrow.orig img{height:300px}}
 
+/* Reference tables (championship ledger, relocation ledger) */
+.reftable{width:100%;overflow-x:auto;margin:0 0 26px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.reftable table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.5;min-width:520px}
+.reftable caption{caption-side:top;text-align:left;padding:14px 16px 10px;font-family:var(--cond);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent2);font-weight:700}
+.reftable th,.reftable td{padding:10px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.reftable thead th{font-family:var(--cond);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;background:var(--surface2);white-space:nowrap}
+.reftable tbody tr:last-child td{border-bottom:0}
+.reftable tbody tr:hover td{background:rgba(233,200,130,.05)}
+.reftable td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.reftable tfoot td{font-weight:700;background:var(--surface2);border-top:2px solid var(--line)}
+@media(max-width:640px){.reftable table{font-size:14px}.reftable th,.reftable td{padding:9px 12px}}
+
 /* Page hero (category/about/contact) */
 .page-hero{padding:44px 0 8px;border-bottom:1px solid var(--line)}
 .page-hero .tag{margin-bottom:14px}

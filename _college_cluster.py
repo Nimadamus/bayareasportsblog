@@ -554,13 +554,19 @@ def esc(s):
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
 
 
+BLOCK = re.compile(r'^\s*<(table|div|ul|ol|h2|h3|figure|section)\b', re.I)
+
+
 def render_body(paras, links):
+    """Wrap each body item in <p>, except items that are already block-level markup
+    (reference tables, lists). A <table> inside a <p> is invalid HTML."""
     out = []
     for p in paras:
         def sub(m):
             href, text = links[m.group(1)]
             return A(href, text)
-        out.append('  <p>%s</p>' % re.sub(r'\{(\w+)\}', sub, p))
+        html = re.sub(r'\{(\w+)\}', sub, p)
+        out.append('  ' + html.strip() if BLOCK.match(html) else '  <p>%s</p>' % html)
     return '\n\n'.join(out)
 
 

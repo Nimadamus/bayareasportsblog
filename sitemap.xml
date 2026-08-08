@@ -232,6 +232,20 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-oakland-sacramento-las-vegas-timeline.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/bay-area-championships-complete-list-by-team.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-championships-complete-list-by-team.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/bay-area-franchise-relocations-teams-that-left.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-franchise-relocations-teams-that-left.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/big-game-cal-stanford-rivalry-history.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -267,6 +281,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/cal-stanford-acc-realignment-what-changed.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/candlestick-park-history-wind-the-catch-demolition.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/candlestick-park-history-wind-the-catch-demolition.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-2026-roster-depth-chart.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -293,6 +314,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/oakland-athletics-legacy-what-the-bay-area-lost.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/oakland-coliseum-history-what-happens-to-it-now.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/oakland-coliseum-history-what-happens-to-it-now.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/oracle-park-mccovey-cove-splash-hits-guide.html</loc>
