@@ -96,6 +96,19 @@ MOVES_TABLE = """<div class="reftable">
 </table>
 </div>"""
 
+ARENA_NAMES = """<div class="reftable">
+<table>
+<caption>One building, four names</caption>
+<thead><tr><th>Years</th><th>Name</th><th>What it was</th></tr></thead>
+<tbody>
+<tr><td class="num">1966&ndash;1996</td><td>Oakland&ndash;Alameda County Coliseum Arena</td><td>The round building next to the stadium</td></tr>
+<tr><td class="num">1997&ndash;2005</td><td>The Arena in Oakland</td><td>Reopened after a rebuild of more than $121 million</td></tr>
+<tr><td class="num">2006&ndash;2019</td><td>Oracle Arena</td><td>Roaracle; three championships</td></tr>
+<tr><td class="num">2019&ndash;</td><td>Oakland Arena</td><td>A concert building with no team</td></tr>
+</tbody>
+</table>
+</div>"""
+
 NEARMISS_TABLE = """<div class="reftable">
 <table>
 <caption>Moves that were agreed, filed or announced and did not happen</caption>
@@ -248,7 +261,7 @@ dict(slug='oakland-coliseum-history-what-happens-to-it-now',
       "outfield. It was not a beautiful building. It was a genuinely well-sited one.",
 
       "<b>Who played in it.</b> The Raiders from 1966 to 1981 and again from 1995 to "
-      "2019. The Athletics from 1968 to 2024. The Warriors were next door at the arena "
+      "2019. The Athletics from 1968 to 2024. The Warriors were next door at {arena} "
       "from 1971 until they crossed the bay in 2019. For a stretch in the seventies and "
       "eighties this parking lot held three professional franchises, and it is the place "
       "where more than half of everything on the {ledger} was won.",
@@ -319,6 +332,8 @@ dict(slug='oakland-coliseum-history-what-happens-to-it-now',
      ],
      links={'ledger': ('bay-area-championships-complete-list-by-team.html',
                        'Bay Area championship ledger'),
+            'arena': ('oracle-arena-roaracle-history-oakland-warriors.html',
+                      'the arena'),
             'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
                          'relocation timeline'),
             'legacy': ('oakland-athletics-legacy-what-the-bay-area-lost.html',
@@ -571,6 +586,120 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
      related=[('flashback-the-catch-1982.html', 'Flashback', 'The Catch, 1982'),
               ('49ers-dynasty-team-of-the-decade.html', '49ers', 'The Team of the Decade'),
               ('oakland-coliseum-history-what-happens-to-it-now.html', 'Bay Area History', 'The Oakland Coliseum')]),
+
+# ------------------------------------------------------------------ 5. Oracle Arena
+dict(slug='oracle-arena-roaracle-history-oakland-warriors',
+     section='Bay Area Sports', tag='Bay Area History', hub='Bay Area Sports',
+     title='Oracle Arena: How Roaracle Became the Loudest Building in the NBA',
+     h1="Oracle Arena: How a 1966 Concrete Drum Became Roaracle, and What Is In It Now",
+     dek="Opened in 1966, the oldest arena in the league by the end, 19,596 seats, three "
+         "championships, and a farewell that nobody in Oakland asked for. The building "
+         "the Warriors left.",
+     desc="Oracle Arena explained: the 1966 opening, the Roaracle years, three Warriors "
+          "titles, the last game in June 2019, and what the building is used for now.",
+     date='2026-08-08',
+     card=('warriors', 'Roaracle', 'Nineteen thousand five hundred and ninety-six seats'),
+     body=[
+      "The Warriors won three championships in this building and then left it, and the "
+      "official story is that they needed a modern arena. The true story is that they "
+      "needed a more expensive one. Either way the building is still standing, still "
+      "full most weekends, and nobody has written down what it actually was.",
+
+      "<b>What it is.</b> A round concrete arena that opened on 9 November 1966, on the "
+      "same 120-acre site as the {coliseum} and connected to it by a walkway over the "
+      "car park. The two buildings were conceived together as one civic project, which is "
+      "why the arena has spent its whole life being described as the thing next to the "
+      "stadium. Capacity 19,596. By the time the Warriors left it was the oldest arena in "
+      "the National Basketball Association.",
+
+      ARENA_NAMES,
+
+      "<b>The Warriors moved in for 1971-72</b> - the season the club stopped being the "
+      "San Francisco Warriors and became Golden State, which is covered properly on the "
+      "{moves} page. They stayed until 2019. The farewell campaign called it 47 seasons "
+      "and nobody in Oakland was in the mood to argue about the arithmetic.",
+
+      "<b>The 1975 title, and the best piece of trivia this region owns.</b> The Warriors "
+      "swept Washington for the championship in 1975 - and two of their home games in that "
+      "Finals were not played here at all. The arena was booked. For the Ice Follies. A "
+      "team on its way to a sweep of the NBA Finals had to move across the bay to the Cow "
+      "Palace because the ice show had the room. That is a complete summary of how this "
+      "franchise was regarded before Stephen Curry.",
+
+      "<b>Then two decades of being terrible in a loud building.</b> Between 1975 and 2015 "
+      "the Warriors made the playoffs rarely and won one series that anybody outside the "
+      "East Bay remembers. What the building had in that period was the crowd. Sellouts "
+      "through genuinely bad seasons, a season-ticket base that renewed out of stubbornness "
+      "rather than hope, and a noise level that visiting teams complained about while the "
+      "home side was losing sixty games. That is where the name came from. Roaracle was "
+      "earned during the losing, not during the parade years, and people forget that "
+      "because it is inconvenient.",
+
+      "<b>The rebuild that saved it.</b> The arena was gutted and rebuilt starting in 1996 "
+      "at a cost of more than $121 million, reopening for the autumn of 1997 with the "
+      "seating bowl, concourses and suites it kept until the end. Public money again, and "
+      "again for a tenant that would eventually leave - the same pattern as Mount Davis "
+      "next door, on a smaller scale and with a longer payoff.",
+
+      "<b>And then it became the loudest building in American basketball.</b> Three "
+      "championships in four years: 2015, 2017, 2018. The {record73} season in between. "
+      "The night {klay} scored 37 points in a single quarter without missing a shot. A "
+      "generation of people in the East Bay for whom this concrete drum is simply where "
+      "the best team any of us will ever see played its home games. Five of the "
+      "{ledger} were won by a team based in this arena.",
+
+      "<b>The last night.</b> 13 June 2019, Game 6 of the NBA Finals. Toronto won 114-110 "
+      "and took the title on this floor. Klay Thompson tore his ACL in the third quarter, "
+      "was helped off, came back out of the tunnel to shoot two free throws, made both, "
+      "and left again. The building's final act was a championship being handed to "
+      "somebody else and its most beloved player being carried out of it. Nobody in "
+      "Oakland has ever needed a metaphor explained to them since.",
+
+      "<b>Then they moved.</b> Chase Center opened in San Francisco for 2019-20 - a better "
+      "arena, more revenue, more expensive seats, and forty minutes and a bridge toll away "
+      "from the people who filled the old one through the losing years. It is on the "
+      "{moves} page as an internal move, which is technically correct and misses the "
+      "point entirely.",
+
+      "<b>What is in it now, which is the part nobody expects.</b> It is called Oakland "
+      "Arena again and it is a working concert venue with a full calendar - major touring "
+      "acts across pop, hip-hop, country and Latin music have played it through 2026. A "
+      "building written off as obsolete for professional basketball turns out to be a "
+      "perfectly good 19,000-seat room when somebody wants to sell 19,000 tickets.",
+
+      "<b>Its future is a separate negotiation from the stadium's.</b> The Coliseum land "
+      "is going to the group redeveloping the 112 acres; the arena has drawn its own "
+      "prospective buyer in the Oak View Group, the venue company co-founded by the music "
+      "executive Irving Azoff, at a price reported north of $100 million. That has not "
+      "closed, and the city and county remain responsible for running the place in the "
+      "meantime. The {coliseum} page tracks the larger deal.",
+
+      "<b>What it was worth.</b> The Warriors are a better business in San Francisco and "
+      "nobody at that club will ever say publicly that the move cost them anything. But "
+      "the atmosphere they spent forty years building was not portable, because it was "
+      "not made of architecture - it was made of people who could afford to come. "
+      "{warriorsdyn} is the record of what was won here. This page is the room it "
+      "happened in.",
+
+      "More: the {coliseum} next door, {candlestick} across the bay, and the {hub}.",
+     ],
+     links={'coliseum': ('oakland-coliseum-history-what-happens-to-it-now.html',
+                         'Oakland Coliseum'),
+            'moves': ('bay-area-franchise-relocations-teams-that-left.html',
+                      'franchise moves'),
+            'record73': ('warriors-73-9-best-record-ever-added-durant.html',
+                         '73-9'),
+            'klay': ('flashback-klay-37-point-quarter.html', 'Klay Thompson'),
+            'ledger': ('bay-area-championships-complete-list-by-team.html',
+                       "region's twenty-one championships"),
+            'warriorsdyn': ('warriors-championship-history.html',
+                            "The Warriors' championship history"),
+            'candlestick': ('candlestick-park-history-wind-the-catch-demolition.html',
+                            'Candlestick'),
+            'hub': ('../history.html', 'history section')},
+     related=[('oakland-coliseum-history-what-happens-to-it-now.html', 'Bay Area History', 'The Oakland Coliseum: What Happens to It Now'),
+              ('warriors-championship-history.html', 'Warriors', "The Warriors' Championship History"),
+              ('bay-area-championships-complete-list-by-team.html', 'Bay Area History', 'Every Bay Area Championship')]),
 ]
 
 

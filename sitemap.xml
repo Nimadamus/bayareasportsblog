@@ -330,6 +330,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/oakland-coliseum-history-what-happens-to-it-now.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/oracle-arena-roaracle-history-oakland-warriors.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/oracle-arena-roaracle-history-oakland-warriors.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/oracle-park-mccovey-cove-splash-hits-guide.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -838,7 +845,7 @@
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/vitello.png</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html</loc>

@@ -8,16 +8,16 @@ phase is content growth. These numbers exist so that a regression is detectable.
 
 ---
 
-## Baseline (all four gates, 2026-08-08, after the Bay Area history cluster)
+## Baseline (all gates, 2026-08-08, after the history + Sharks clusters and the social-meta cleanup)
 
 | Metric | Value |
 |---|---|
-| pages | 159 |
-| articles | 132 |
+| pages | 164 |
+| articles | 137 |
 | hubs | 27 |
-| indexable | 159 |
-| sitemap URLs | 158 |
-| news sitemap URLs | 35 (rolling 48h) |
+| indexable | 164 |
+| sitemap URLs | 163 |
+| news sitemap URLs | 40 (rolling 48h) |
 | orphans | 0 |
 | near-orphans (≤2 inbound) | 0 |
 | broken internal links | 0 |
@@ -30,10 +30,20 @@ phase is content growth. These numbers exist so that a regression is detectable.
 | noindexed pages | 0 |
 | images: no alt / weak alt / no dims / lazy-first | 0 / 0 / 0 / 0 |
 | titles >70ch / desc <70ch / desc >165ch | 0 / 0 / 0 |
-| meta gate | 159/159, 0 violations |
-| thumbnail gate | 405/405 |
-| card derivative gate | 132 cards, 0 incomplete |
+| meta gate | 164/164, 0 violations |
+| thumbnail gate | 407/407 |
+| card derivative gate | 137 cards, 0 incomplete |
+| social meta gate | 165 pages, 0 needing fixes, 0 problems |
 | sitemap audit | 0 failures |
+
+**Duplicate social tags, fixed 2026-08-08.** Fifty pages carried two social blocks in
+`<head>`: the early one held the page's real card, the later template-generated one was
+filled with the generic `welcome-to-bay-area-sports-blog.jpg`. Two `og:image` tags with
+different values means the image a crawler picks is undefined - Facebook takes the first,
+several others take the last - so sharing an article could surface the generic site card.
+Fifteen pages had the same on `twitter:image`; thirty-five had exactly one
+`twitter:image` and it was the generic card. `tools/social_meta_gate.py` fixed all fifty
+and now gates against regression.
 
 **Live Core Web Vitals** (Lighthouse 12 desktop medians, last measured pre-cluster):
 LCP 2.6 s, FCP 1.9 s, CLS 0.022, TBT 0. Homepage transfer ~496 KiB.
@@ -56,11 +66,12 @@ python _gen_search_index.py
 python _gen_feed.py
 
 # the gates - ALL must pass before commit
-python tools/thumb_gate.py --site        # card images, exits 2 on fail
-python tools/card_derivatives.py --check # 400/600/800 jpg+webp + full webp, exits 2
-python _meta_template.py --gate          # metadata standard, exits 2 on fail
-python _sitemap_audit.py                 # sitemap validity, exits 2 on fail
-python _seo_audit.py                     # full crawl + link graph
+python tools/thumb_gate.py --site         # card images, exits 2 on fail
+python tools/card_derivatives.py --check  # 400/600/800 jpg+webp + full webp, exits 2
+python tools/social_meta_gate.py --check  # one og:image per page, exits 2 on fail
+python _meta_template.py --gate           # metadata standard, exits 2 on fail
+python _sitemap_audit.py                  # sitemap validity, exits 2 on fail
+python _seo_audit.py                      # full crawl + link graph
 ```
 
 `python tools/card_derivatives.py` (no flag) fills any gap it finds. This used to be an

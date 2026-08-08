@@ -73,6 +73,7 @@ foundation.)
 | `sharks-2026-27-roster-depth-chart` | Sharks | on roster moves, call-ups, injuries, and when the rookies stick or get sent down |
 | `macklin-celebrini-sharks-records-contract` | Sharks | when the franchise record moves, on any contract change, and at the end of each season |
 | `san-jose-sharks-history-no-stanley-cup` | Sharks | rarely — evergreen; update the seasons table each spring |
+| `oracle-arena-roaracle-history-oakland-warriors` | Bay Area history | **if the Oak View Group arena sale closes**, and on any change of use for the building |
 
 ## Next clusters, ranked by real opportunity
 
@@ -96,8 +97,8 @@ national competition is.
 4. **No thin pages.** Under ~500 words means it should have been an update.
 5. **Cards from `tools/cardgen.py`** — team palette, no stock photos, no likenesses.
 6. **All gates pass before commit:** `tools/thumb_gate.py --site`,
-   `tools/card_derivatives.py --check`, `_meta_template.py --gate`, `_sitemap_audit.py`,
-   `_seo_audit.py`.
+   `tools/card_derivatives.py --check`, `tools/social_meta_gate.py --check`,
+   `_meta_template.py --gate`, `_sitemap_audit.py`, `_seo_audit.py`.
 7. **The news sitemap only holds 48 hours.** Cadence is the whole game in season.
 8. **Reference pages, not more columns.** The archive already owns the arguments. New
    evergreen work earns links by answering questions with tables and dates.
@@ -120,9 +121,12 @@ bullpens, Montana–Young, the 1993 pennant race (twice), the Big Game, the Axe,
 Park, Sutter Health Park, the A's relocation, the Coliseum, Candlestick, the championship
 ledger and the regional relocation pattern.
 
-Remaining genuine gaps in this cluster, in order: an Oracle Arena / Roaracle evergreen
-(the last unwritten venue — `history.html` still points two plate links at
-`timeline.html#venues` for it), and a Bay Area Mount Rushmore / greatest-athletes
+**Oracle Arena is now written** (`oracle-arena-roaracle-history-oakland-warriors`), which
+closes the venue set: Candlestick, the Coliseum, Oracle Arena, Oracle Park and Sutter
+Health Park all have real destinations. The `timeline.html#venues` cards used to be
+dead ends and now link to those articles.
+
+Remaining genuine gap in this cluster: a Bay Area Mount Rushmore / greatest-athletes
 reference. Watch for duplicate intent with `bay-area-sports-history`, `dynasties.html`
 and `timeline.html` — those are columns and chronologies; anything new must be a
 reference.
