@@ -30,7 +30,7 @@ BASE = "https://bayareasportsblog.com/"
 # not submitted. betting has no content and no plan for any.
 EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html',
            'betting.html'}
-TODAY = datetime.date(2026, 8, 8)
+TODAY = datetime.date.today()
 
 LOC = re.compile(r'<loc>([^<]+)</loc>')
 IMGLOC = re.compile(r'<image:loc>([^<]+)</image:loc>')

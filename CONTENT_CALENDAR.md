@@ -14,7 +14,8 @@ foundation.)
 
 | Cluster | Status | Next event / date | Next article opportunity | Publish window | Type | Next refresh |
 |---|---|---|---|---|---|---|
-| **49ers** | foundation built (5 pieces) | **Week 1, 10 Sep** — at Rams, Melbourne | Week 1 preview | 8–9 Sep | news | weekly, in season |
+| **49ers** | camp reaction published 9 Aug (defense wins Saturday; Shanahan coaching the opener) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
+| 49ers | — | **Week 1, 10 Sep** — at Rams, Melbourne | Week 1 preview | 8–9 Sep | news | weekly, in season |
 | 49ers | — | Week 2, Miami at Levi's | reaction + preview | 14–20 Sep | news | weekly |
 | 49ers | — | **~game five** | Purdy passes 1,500 attempts, qualifies for the career passer-rating record | day of | **update the Purdy page** | biggest single traffic event of the season |
 | 49ers | — | Mexico City vs Minnesota | game week coverage | TBD | news | weekly |

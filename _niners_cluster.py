@@ -360,12 +360,93 @@ dict(slug='49ers-rams-melbourne-nfl-first-game-australia',
      related=[('49ers-2026-schedule-season-hub.html', '49ers', 'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview', 'The 2026 49ers, Position by Position'),
               ('49ers-still-paying-for-vegas.html', '49ers', 'The 49ers Are Still Paying For Vegas')]),
+
+# ------------------------------------------- 6. camp reaction, Saturday 8 August 2026
+dict(slug='49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener',
+     section='49ers', tag='49ers', hub='49ers',
+     title='The Defense Won Saturday. Shanahan Coaches Thursday.',
+     h1="The 49ers Defense Won Saturday, and Shanahan Is Coaching the Preseason Opener",
+     dek="The defense got the better of Brock Purdy on Saturday, Kyle Shanahan watched it "
+         "happen from behind a pair of sunglasses, and he is the one running the sideline "
+         "when Tennessee comes to Levi's on Thursday.",
+     desc="The 49ers defense got the better of Brock Purdy on Saturday, and Kyle Shanahan "
+          "will be coaching the sideline himself in the preseason opener against Tennessee.",
+     date='2026-08-09',
+     card=('49ers', 'Camp: The Defense Answers', 'Purdy had a hard Saturday, and Shanahan is coaching Thursday'),
+     body=[
+      "The defense won Saturday. Not a series, not a red zone period that somebody spins "
+      "into a headline afterward - the day. Brock Purdy did not have it, and the group on "
+      "the other side of the ball is the reason why, and after the last few Augusts around "
+      "here that sentence is worth typing slowly.",
+      "Understand why this fan base is allergic to camp takes. Every August somebody on "
+      "defense makes a play, three hundred people report it as a breakthrough, and then "
+      "the season starts and the same unit gets run at for two hundred yards on the "
+      "ground by a team that told everybody exactly what it was going to do. We have been "
+      "burned by the August version of this defense enough times to know that one good "
+      "Saturday is not a season. Fine. Noted.",
+      "It still matters, and here is the honest reason. Practice is a closed system. There "
+      "is exactly one quarterback in this building who knows the offense the way the man "
+      "who designed it knows it, and beating him is the hardest thing the defense gets to "
+      "do all week. When {purdy} is off, it is usually because somebody made him off. "
+      "Coverage held long enough that the read went to the second and third option. "
+      "Pressure showed up before the timing did. That is what a defense winning a day "
+      "actually looks like, and it does not happen by accident against this offense.",
+      "The other half of it is the part nobody should skip past. Purdy having a rough "
+      "Saturday in the second week of August is not a crisis, it is Tuesday. He is not "
+      "playing Tennessee for anything on Thursday, he is not playing the Rams for "
+      "anything until September, and the quarterback who spent three years turning "
+      "seventh-round into a passer-rating argument is allowed to throw a bad ball in "
+      "shorts. Anyone building a panic column off it in August is doing the thing this "
+      "site exists to complain about.",
+      "Then there is Shanahan, standing there in sunglasses, watching his own offense get "
+      "handled and giving away nothing, which is the most Shanahan detail imaginable. The "
+      "sunglasses are half the man's public personality at this point. You cannot read "
+      "him. You never could. He has watched his offense get shut down in far more "
+      "expensive settings than a Saturday practice and worn the same expression.",
+      "The news underneath the sunglasses is the part with a date attached. He is "
+      "coaching the preseason opener. Kyle Shanahan, on the sideline, running the game "
+      "against Tennessee at Levi's on Thursday night. Preseason openers are usually "
+      "where a head coach delegates, stands with his arms folded, and lets the staff run "
+      "the thing while he watches the roster fight for the last eight spots. Not this "
+      "one.",
+      "You can read that two ways and both are probably a little true. The generous read "
+      "is that there is enough new on this roster - and the {depth} has the full picture "
+      "of how much - that he wants his hands on the operation from the first snap rather "
+      "than the first week of September. The less generous read is that August has been "
+      "August around here, {injuries} is not the sentence you want attached to the "
+      "second week of camp, and a coach who has been through what this coach has been "
+      "through does not hand the wheel to anybody in a year that has to go right.",
+      "Either way, Thursday is now worth actually watching, which is not something you "
+      "get to say about most preseason openers. The head coach is running it. The defense "
+      "just spent Saturday proving it can win a day against the best quarterback it will "
+      "see in practice all year. Those two facts arriving in the same week is the first "
+      "genuinely encouraging thing this camp has produced.",
+      "Keep the expectations where they belong. The season starts in Melbourne on 10 "
+      "September and nothing that happens in a Levi's preseason game changes the shape of "
+      "it. The rest of the year is laid out in the {sched}, the structural read is in the "
+      "{preview}, and everything else lives on the {hub}. But for one Saturday in August, "
+      "the defense was the story for the right reason, and the head coach is treating "
+      "Thursday like it counts. Take it.",
+     ],
+     links={'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html', 'Purdy'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
+            'injuries': ('49ers-injuries-again-training-camp-august-2026.html', 'the injury list'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'season schedule hub'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html', '49ers',
+               'Purdy Was Sharp in Camp, and the Dime to Robinson Was the Proof'),
+              ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster, Position by Position'),
+              ('49ers-2026-schedule-season-hub.html', '49ers', 'The 2026 49ers Schedule, Week by Week')]),
 ]
 
 
 def main():
     check = '--check' in sys.argv
+    only = next((x.split('=', 1)[1] for x in sys.argv if x.startswith('--only=')), None)
     for a in ARTICLES:
+        if only and a['slug'] != only:
+            continue
         p = os.path.join(ROOT, 'articles', a['slug'] + '.html')
         card = os.path.join(CC.CARDS, a['slug'] + '.jpg')
         words = sum(len(re.sub(r'<[^>]+>', ' ', x).split()) for x in a['body'])
