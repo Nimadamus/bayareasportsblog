@@ -56,7 +56,8 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
       "the whole point of the exercise.",
       "<b>The manager question.</b> Unresolved and getting louder. We did not like "
       "{vitello} when it was announced and nothing about the lineup decisions since has "
-      "changed that. The honest counter-argument is that a rookie manager handed a "
+      "changed that, and on 8 August {roupp} in front of everybody without consequence. "
+      "The honest counter-argument is that a rookie manager handed a "
       "selling roster is being judged on an impossible assignment. Both things can be "
       "true, and 2027 is when the excuse expires.",
       "<b>The bullpen.</b> Still the thing that decided more games than any other single "
@@ -89,6 +90,8 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
                          'Bryce Eldridge'),
             'schmitt': ('giants-casey-schmitt-all-star-breakout-season-2026.html', 'Casey Schmitt'),
             'vitello': ('tony-vitello-hire-giants-mistake.html', 'the Vitello hire'),
+            'roupp': ('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html',
+                      'a pitcher waved him off his own mound'),
             'park': ('oracle-park-mccovey-cove-splash-hits-guide.html', 'Oracle Park'),
             'depth': ('giants-2026-roster-depth-chart.html', 'depth chart page'),
             'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
@@ -196,7 +199,9 @@ dict(slug='giants-2026-season-hub-results-coverage',
       "half, and a rookie manager learning on the job in public.",
       "<b>August: the selloff.</b> Three days in San Diego where they got swept, and then "
       "the deadline. {deadline} was the argument beforehand; {rebuild} is where things "
-      "actually stand now.",
+      "actually stand now. And then the eight-nothing loss to Detroit on 8 August, where "
+      "{roupp} in front of a full ballpark - the clearest picture yet of where this "
+      "clubhouse stands on its manager.",
       "<b>What is still worth watching.</b> Devers has been quietly excellent. "
       "{eldridge} is the reason to keep the television on. And there is the ordinary, "
       "stubborn pleasure of watching a bad team occasionally beat a good one, which is "
@@ -237,6 +242,8 @@ dict(slug='giants-2026-season-hub-results-coverage',
                           'The first-half breakdown'),
             'deadline': ('giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html',
                          'The deadline column'),
+            'roupp': ('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html',
+                      'Landen Roupp waved Tony Vitello off the mound'),
             'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
                         'the state of the rebuild'),
             'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
@@ -304,12 +311,109 @@ dict(slug='oracle-park-mccovey-cove-splash-hits-guide',
      related=[('giants-oracle-park-still-waiting.html', 'Giants', 'The Giants Keep Promising October'),
               ('barry-bonds-giants-home-run-king.html', 'Giants History', 'Barry Bonds: The Loudest Bat San Francisco Ever Saw'),
               ('giants-dynasty-even-year-magic.html', 'Giants History', 'Even-Year Magic: The Giants Dynasty')]),
+
+# ------------------------------------------- 5. Roupp shows up Vitello, Sat 8 August 2026
+dict(slug='giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Roupp Showed Up Vitello, and That Is the Whole Season',
+     h1="Landen Roupp Showed Up Tony Vitello on the Mound, and That One Moment Explains "
+        "This Entire Giants Season",
+     dek="A pitcher with a 4.22 ERA glared at his manager, shook his head and waved him "
+         "back toward the dugout in front of everybody. Nobody in that ballpark was "
+         "surprised, and that is the problem.",
+     desc="Landen Roupp glared at Tony Vitello and waved him off in the Giants' 8-0 loss "
+          "to Detroit. It says everything about a manager this clubhouse has stopped "
+          "playing for.",
+     date='2026-08-09',
+     card=('giants', 'Nobody Respects Him', 'Roupp waved off his own manager, and the season made sense'),
+     body=[
+      "Eight to nothing. At home. To Detroit. On a Saturday afternoon at the most "
+      "beautiful ballpark in America, in front of people who paid actual money, and the "
+      "only thing anybody is going to remember from it is a pitcher with a 4.22 ERA "
+      "standing on the mound telling his manager to go away.",
+      "If you missed it: Landen Roupp walks three men in a row in the sixth. Three. In a "
+      "row. Tony Vitello comes out to get him, which is not a controversial decision, it "
+      "is the only decision, and Roupp gives him a look. Shakes his head. Starts scraping "
+      "the dirt off his cleats like a man being asked to leave a bar. Then puts his hands "
+      "up at his chest and waves his own manager back toward the dugout. Stay there. I "
+      "have got it.",
+      "He did not have it. He had walked three straight guys.",
+      "And here is where this fan base is supposed to get mad at the pitcher, and honestly "
+      "I am not. I would rather have a guy who hates coming out of the game than another "
+      "polite arm handing over the ball with a shrug. \"As a competitor I kinda wanna try "
+      "to clean up my own mess,\" is what Roupp said afterward, and fine, good, be a "
+      "competitor. Logan Webb has been a competitor here for years and has somehow "
+      "managed it without ever waving a manager off in public, but fine.",
+      "The part that actually matters is what happened next, which is nothing. Vitello "
+      "got to a microphone and said Roupp is the \"exact kind of guy you want to coach.\" "
+      "That is it. That is the response. Your pitcher publicly told you to stay in the "
+      "dugout in front of a sellout crowd and a television camera and your answer is a "
+      "compliment.",
+      "You want to know why nobody on this team plays like it matters? That is why. There "
+      "is no cost to anything. There is no line. Bruce Bochy would have handled that in "
+      "about four seconds and none of us would have ever heard about it, because the "
+      "players knew exactly where the line was and none of them wanted to find out what "
+      "was on the other side of it. This man does not have a line. He has a personality "
+      "and a smile and a set of quotes, and a roster that has clearly worked out that the "
+      "quotes are all there is.",
+      "That is the thing that got exposed on Saturday, and it is bigger than one pitcher "
+      "having a moment. Players do not do that to a manager they are playing for. They do "
+      "it to a manager they have already stopped hearing. You can talk yourself into a "
+      "rookie manager learning on the job right up until the day one of your own guys "
+      "waves you off the mound and the rest of the dugout does not so much as move.",
+      "And it is not as if he has earned the benefit of the doubt with the actual job. The "
+      "lineups have been indefensible all year. He hit {leadoff}, which is a thing a man "
+      "does when he has confused being unpredictable with being smart. He {benched} in a "
+      "one-run game against Texas and then had to use him off the bench anyway to tie it, "
+      "which is the single most Vitello sequence of the season - wrong on the decision, "
+      "bailed out by the kid, still lost the game. Every week it is a new batting order, "
+      "new positions, guys hitting in spots that make no sense for the roster or the "
+      "ballpark, and no visible idea underneath any of it.",
+      "Add the ejections. Add {bullpen}, which he has burned through all season with no "
+      "apparent plan for who pitches when. Add a clubhouse that just watched a "
+      "twenty-something starter show him up on national television and pay absolutely no "
+      "price for it. That is not a rebuild problem. That is not Buster Posey's fault, and "
+      "believe me, there is plenty on that list that is. That is a manager problem.",
+      "We said this was a mistake when it {hire}. We said it again when the lineups "
+      "started arriving. It has been a bad year for being right about this team and this "
+      "is one more.",
+      "So here is where it lands. This season is gone, it has been gone since July, the "
+      "veterans are on other teams and the only reason left to watch is to find out which "
+      "young players are real - and we cannot even get a clean answer to that, because "
+      "they are being used by a man who changes his mind every night. {rebuild} spells out "
+      "what 2027 has to look like. Step one is not a free agent. Step one is deciding "
+      "whether the person filling out the lineup card is somebody this roster will "
+      "actually run through a wall for, because Saturday was the answer to that question "
+      "and the answer was no.",
+      "Eight to nothing, and the story was the manager getting waved off his own mound. "
+      "The rest of the year is in the {season}, and everything else we have written about "
+      "this mess is on the {hub}.",
+     ],
+     links={'leadoff': ('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html',
+                        'Bryce Eldridge leadoff'),
+            'benched': ('giants-rangers-5-4-walkoff-eldridge-bench-vitello-august-4.html',
+                        'sat Eldridge'),
+            'bullpen': ('giants-bullpen-meltdown-kilian-rockies-4-3-vitello-posey-july-10.html',
+                        'the bullpen'),
+            'hire': ('tony-vitello-hire-giants-mistake.html', 'was announced'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'Our rebuild page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html', 'Giants',
+               'Tony Vitello Has No Idea What He Is Doing With This Lineup'),
+              ('tony-vitello-hire-giants-mistake.html', 'Giants', 'The Vitello Hire Was a Mistake'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands')]),
 ]
 
 
 def main():
     check = '--check' in sys.argv
+    only = next((x.split('=', 1)[1] for x in sys.argv if x.startswith('--only=')), None)
     for a in ARTICLES:
+        if only and a['slug'] != only:
+            continue
         p = os.path.join(ROOT, 'articles', a['slug'] + '.html')
         card = os.path.join(CC.CARDS, a['slug'] + '.jpg')
         words = sum(len(re.sub(r'<[^>]+>', ' ', x).split()) for x in a['body'])

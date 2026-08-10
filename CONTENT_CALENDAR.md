@@ -24,7 +24,7 @@ foundation.)
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
-| **Giants** | foundation built (4 pieces) | rest of the 2026 season, to early Oct | recaps + rebuild-page updates | ongoing | news | update the rebuild page on every roster move |
+| **Giants** | Roupp/Vitello column published 9 Aug (pitcher waved the manager off the mound, 8-0 loss to Detroit) — the manager case is now three pieces: hire, lineups, respect | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
 | Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
 | Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
 | **Athletics** | foundation built (4 pieces) | rest of the 2026 season | recaps + roster updates | ongoing | news | — |

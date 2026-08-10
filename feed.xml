@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 09 Aug 2026 10:09:23 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 03:11:24 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The Defense Won Saturday. Shanahan Coaches Thursday.</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The 49ers defense got the better of Brock Purdy on Saturday, and Kyle Shanahan will be coaching the sideline himself in the preseason opener against Tennessee.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Roupp Showed Up Vitello, and That Is the Whole Season</title>
+    <link>https://bayareasportsblog.com/articles/giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Landen Roupp glared at Tony Vitello and waved him off in the Giants&#39; 8-0 loss to Detroit. It says everything about a manager this clubhouse has stopped playing for.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>The 2026 49ers Roster and Depth Chart, Position by Position</title>
@@ -358,15 +367,6 @@
     <category>A&#39;s Column</category>
     <description>Payton Tolle struck out 14 Athletics over six innings and Boston piled on 15 hits in a 13-1 rout at Fenway Park on August 7, 2026.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants 5, Tigers 2: Devers Hits His 24th, Quietly</title>
-    <link>https://bayareasportsblog.com/articles/giants-tigers-5-2-devers-24th-homer-adames-august-7.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-tigers-5-2-devers-24th-homer-adames-august-7.html</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants Column</category>
-    <description>Rafael Devers homered in the first inning at Oracle Park on August 7, 2026 — his 24th of the season.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tigers-5-2-devers-24th-homer-adames-august-7.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
