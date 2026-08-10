@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 10 Aug 2026 12:40:15 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 15:36:54 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>A&#39;s 4, Red Sox 3: A Series Win, Their First Since Mid-June</title>
@@ -16,6 +16,15 @@
     <category>Athletics</category>
     <description>Max Muncy&#39;s ninth-inning double off Aroldis Chapman beat Boston 4-3 and gave the Athletics their first series win since mid-June, plus McNeil&#39;s 1,000th hit.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Don Nelson Dies at 86: Nellie Ball, Run TMC and What He Gave Us</title>
+    <link>https://bayareasportsblog.com/articles/don-nelson-dies-86-warriors-nellie-ball-run-tmc-curry.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/don-nelson-dies-86-warriors-nellie-ball-run-tmc-curry.html</guid>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Don Nelson died 9 August 2026 at 86. The coach who invented the point forward, built Run TMC, coached We Believe and handed the ball to a rookie Stephen Curry.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/don-nelson-dies-86-warriors-nellie-ball-run-tmc-curry.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Tigers 3, Giants 1 (F/10): We Wasted Eight Innings of Logan Webb</title>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>A look at the 2026-27 Warriors cap sheet: what Curry, Butler and Green cost, and why the rest of the roster is minimum contracts and draft picks.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-roster-construction-cap-sheet-2026-27.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Brock Purdy Is 147 Passes From the Best Passer Rating Ever</title>
-    <link>https://bayareasportsblog.com/articles/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers Column</category>
-    <description>Brock Purdy&#39;s career passer rating is 104.0. The all-time record is Aaron Rodgers at 102.2.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

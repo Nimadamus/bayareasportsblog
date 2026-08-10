@@ -4,8 +4,9 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-10** (Sunday MLB recaps published: Giants 3-1 loss in ten to
-Detroit with Webb wasted, A's 4-3 at Fenway for their first series win since mid-June.)
+**Last updated: 2026-08-10** (Don Nelson obituary published — died 9 Aug at 86. Sunday
+MLB recaps published: Giants 3-1 loss in ten to Detroit with Webb wasted, A's 4-3 at
+Fenway for their first series win since mid-June.)
 
 ---
 
@@ -22,7 +23,7 @@ Detroit with Webb wasted, A's 4-3 at Fenway for their first series win since mid
 | Cal / Stanford | — | **Miami at Stanford, 4 Sep** | preview; six-day turnaround, start early | 2–3 Sep | news | — |
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
-| **Warriors** | foundation built (4 pieces) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
+| **Warriors** | foundation built (4 pieces) + **Don Nelson obituary published 10 Aug** (died 9 Aug, 86; Run TMC, We Believe, Curry's rookie year) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
 | **Giants** | Webb recap published 10 Aug (8 IP, 0 ER, lost 3-1 in ten to Detroit, 49-69); Roupp/Vitello column 9 Aug — the manager case is now three pieces: hire, lineups, respect | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
 | Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
 | Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
