@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 10 Aug 2026 03:11:24 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 10 Aug 2026 12:40:15 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>A&#39;s 4, Red Sox 3: A Series Win, Their First Since Mid-June</title>
+    <link>https://bayareasportsblog.com/articles/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html</guid>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Max Muncy&#39;s ninth-inning double off Aroldis Chapman beat Boston 4-3 and gave the Athletics their first series win since mid-June, plus McNeil&#39;s 1,000th hit.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Tigers 3, Giants 1 (F/10): We Wasted Eight Innings of Logan Webb</title>
+    <link>https://bayareasportsblog.com/articles/giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html</guid>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Logan Webb threw eight innings and allowed no earned runs, and the Giants still lost 3-1 in ten to Detroit. Seven hits, seven left on, twenty games under.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The Defense Won Saturday. Shanahan Coaches Thursday.</title>
     <link>https://bayareasportsblog.com/articles/49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html</link>
@@ -349,24 +367,6 @@
     <category>49ers Column</category>
     <description>Brock Purdy&#39;s career passer rating is 104.0. The all-time record is Aaron Rodgers at 102.2.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Purdy Is Throwing 70-Yard Touchdowns to Guys Nobody Knows</title>
-    <link>https://bayareasportsblog.com/articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers Column</category>
-    <description>Two 70-yard touchdown passes in a practice, a deep score to a receiver who signed less than 24 hours earlier, and 24-of-28 across two days.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Red Sox 13, A&#39;s 1: Fourteen Strikeouts and Loss Number Nine</title>
-    <link>https://bayareasportsblog.com/articles/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html</guid>
-    <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s Column</category>
-    <description>Payton Tolle struck out 14 Athletics over six innings and Boston piled on 15 hits in a 13-1 rout at Fenway Park on August 7, 2026.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

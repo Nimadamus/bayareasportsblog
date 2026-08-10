@@ -4,9 +4,8 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-08** (Bay Area history cluster built — 4 pages + 2 flashbacks
-expanded; **Sharks cluster built from zero** — 4 pages. All seven clusters now have a
-foundation.)
+**Last updated: 2026-08-10** (Sunday MLB recaps published: Giants 3-1 loss in ten to
+Detroit with Webb wasted, A's 4-3 at Fenway for their first series win since mid-June.)
 
 ---
 
@@ -24,10 +23,10 @@ foundation.)
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
-| **Giants** | Roupp/Vitello column published 9 Aug (pitcher waved the manager off the mound, 8-0 loss to Detroit) — the manager case is now three pieces: hire, lineups, respect | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
+| **Giants** | Webb recap published 10 Aug (8 IP, 0 ER, lost 3-1 in ten to Detroit, 49-69); Roupp/Vitello column 9 Aug — the manager case is now three pieces: hire, lineups, respect | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
 | Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
 | Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
-| **Athletics** | foundation built (4 pieces) | rest of the 2026 season | recaps + roster updates | ongoing | news | — |
+| **Athletics** | 4-3 win at Fenway recapped 10 Aug — first series win since mid-June, Wilson's 111-game errorless SS record, McNeil's 1,000th hit (47-71) | rest of the 2026 season | recaps + roster updates | ongoing | news | — |
 | Athletics | — | **end of season, early Oct** | season review, second West Sacramento year in the books | Oct | news | — |
 | Athletics | — | **Las Vegas construction milestones** | update the timeline page — roof trusses, bowl completion, any schedule slip | as announced | **update the timeline page** | check quarterly |
 | Athletics | — | offseason, Nov–Feb | payroll decisions, who gets traded before 2028 | as they happen | news | — |

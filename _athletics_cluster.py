@@ -192,7 +192,9 @@ dict(slug='athletics-2026-roster-depth-chart',
       "For a team whose starters have generally competed, the back end has been the "
       "difference between a bad season and an embarrassing one.",
       "<b>Infield.</b> Jacob Wilson at shortstop has been a genuine bright spot, "
-      "including a homer that stole a game back in the ninth. Nick Kurtz started an "
+      "including a homer that stole a game back in the ninth, and on 9 August he {wilson} "
+      "- 111 consecutive errorless games at the position, past Mike Bordick's 110 from "
+      "2002. Nick Kurtz started an "
       "All-Star Game. Tyler Soderstrom keeps showing up in the box score for the right "
       "reasons. Brian Serven and Tommy White have both had days worth remembering.",
       "<b>Outfield and DH.</b> Brent Rooker remains the bat that can change a game with "
@@ -218,6 +220,8 @@ dict(slug='athletics-2026-roster-depth-chart',
      ],
      links={'lopez': ('athletics-reds-3-2-jacob-lopez-pulled-seventh-straight-august-5.html',
                       'Jacob Lopez'),
+            'wilson': ('athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html',
+                       'set a major league record for shortstops'),
             'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
                        'Sutter Health Park'),
             'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html', 'timeline'),
@@ -291,12 +295,99 @@ dict(slug='oakland-athletics-legacy-what-the-bay-area-lost',
      related=[('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains', "The A's Play in Sacramento Now"),
               ('athletics-oakland-sacramento-las-vegas-timeline.html', 'Athletics', 'Oakland to Sacramento to Las Vegas'),
               ('bay-area-sports-history.html', 'Bay Area Sports', 'Why the Bay Area Is One of the Greatest Sports Regions')]),
+
+# ------------------------------------- 5. A's 4-3 at Fenway, Sun 9 August 2026
+dict(slug='athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9',
+     section='Athletics', tag='Athletics', hub='Athletics',
+     title="A's 4, Red Sox 3: A Series Win, Their First Since Mid-June",
+     h1="Athletics 4, Red Sox 3: Max Muncy Took Aroldis Chapman Off the Monster and the "
+        "A's Finally Won a Series Again",
+     dek="Down one in the ninth at Fenway, they beat the closer, McNeil got his thousandth "
+         "hit, and Jacob Wilson set a major league record nobody in the Bay Area will hear "
+         "about.",
+     desc="Max Muncy's ninth-inning double off Aroldis Chapman beat Boston 4-3 and gave the "
+          "Athletics their first series win since mid-June, plus McNeil's 1,000th hit.",
+     date='2026-08-10',
+     card=('athletics', 'Series Win', 'Muncy off Chapman at Fenway, first series since June'),
+     body=[
+      "The Athletics won a series. An actual series. Two out of three at Fenway Park, "
+      "finished off on Sunday with a ninth-inning double off the Green Monster against "
+      "Aroldis Chapman, and it is the first series this franchise has won since the middle "
+      "of June.",
+      "Read that again. Mid-June. And the last one came against Colorado in Las Vegas, at "
+      "their own Triple-A affiliate's ballpark, which is either a punchline or a business "
+      "plan depending on how charitable you are feeling about the people who run this "
+      "team.",
+      "Here is how Sunday actually went. They scratched runs in the first and the fourth "
+      "and had a two-nothing lead in Boston, which for this ballclub is the equivalent of "
+      "getting up three touchdowns. The Red Sox tied it in the fifth and then went ahead, "
+      "and every single person who has watched an inning of this season knew exactly how "
+      "the rest of it was going to go, because that is what the last two months have been. "
+      "They lost {ninth} to this same Boston team on Friday. Nine in a row before that. "
+      "A tailspin that stopped being funny around the middle of July.",
+      "And then they did not fold. Jonah Heim doubles home the tying run with two out in "
+      "the eighth. Elvis Alvarado gets three outs. And in the ninth, with Chapman on the "
+      "mound - Chapman, who is still throwing gas at thirty-eight and still terrifying - "
+      "Max Muncy lines one off the Monster and Oakland, Sacramento, whatever we are "
+      "calling them, has the lead. Hogan Harris pitches the ninth for his eleventh save. "
+      "Four to three. Series won.",
+      "Two other things happened in that game that deserve better than they are going to "
+      "get. Jeff McNeil singled in the eighth for the thousandth hit of his career, which "
+      "is a genuine milestone for a genuinely good hitter who is finishing his career in "
+      "the strangest circumstance in the sport. And Jacob Wilson played his hundred and "
+      "eleventh consecutive game at shortstop without an error, which is a major league "
+      "record for the position - he passed Mike Bordick's hundred and ten from 2002.",
+      "A major league record. Set by a young shortstop who plays his home games in a "
+      "fourteen-thousand-seat minor league yard in West Sacramento in front of nine "
+      "thousand people, for a franchise that ran away from the seventh-largest market in "
+      "America. That is what this move actually costs, and it does not show up in a "
+      "relocation press release. Wilson does something no shortstop in the history of "
+      "baseball has done and there is no home crowd to stand up for it, no radio call "
+      "anybody around here heard, no bar in Oakland going nuts. He did it in Boston, on a "
+      "Sunday, in front of thirty-six thousand people who do not care about him.",
+      "Forty-seven and seventy-one. That is the record after the win, and it is not going "
+      "anywhere good. But this is the part I am not going to be cynical about, because I "
+      "grew up in this region and I am not capable of being fully cynical about green and "
+      "gold: there are real major league players in that clubhouse. Wilson is a real "
+      "shortstop. Muncy took a good closer deep into the ninth and beat him. McNeil has a "
+      "thousand hits. Heim came through with two out. That roster is not the problem and "
+      "has never been the problem, and {legacy} is the whole argument.",
+      "The problem is that they are two summers away from a dome on the Las Vegas Strip "
+      "and every one of these afternoons is happening in a holding pattern. A series win "
+      "in August in a lost season is supposed to mean something small and warm - your team "
+      "took two of three in a hard place to play. Instead it is a thing that happened in a "
+      "city they left, on the way to a city they were never from, in a season being played "
+      "in a third city entirely.",
+      "Take the win anyway. They beat Chapman at Fenway. The dates on the move are in the "
+      "{timeline}, the ballpark they are stuck in until 2028 is in {sutter}, who is "
+      "actually playing is on the {depth}, and the anger lives in {villains}. The rest is "
+      "on the {hub}.",
+     ],
+     links={'ninth': ('athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html',
+                      'thirteen-one'),
+            'legacy': ('oakland-athletics-legacy-what-the-bay-area-lost.html',
+                       'what the Bay Area lost'),
+            'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
+                         'relocation timeline'),
+            'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
+                       'Sutter Health Park'),
+            'depth': ('athletics-2026-roster-depth-chart.html', 'depth chart'),
+            'villains': ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains'),
+            'hub': ('../athletics.html', "A's hub")},
+     related=[('athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html',
+               'Athletics', "Red Sox 13, A's 1: Ninth Straight"),
+              ('athletics-2026-roster-depth-chart.html', 'Athletics', "The A's Roster and Depth Chart"),
+              ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains',
+               "The A's Play in Sacramento Now")]),
 ]
 
 
 def main():
     check = '--check' in sys.argv
+    only = next((x.split('=', 1)[1] for x in sys.argv if x.startswith('--only=')), None)
     for a in ARTICLES:
+        if only and a['slug'] != only:
+            continue
         p = os.path.join(ROOT, 'articles', a['slug'] + '.html')
         card = os.path.join(CC.CARDS, a['slug'] + '.jpg')
         words = sum(len(re.sub(r'<[^>]+>', ' ', x).split()) for x in a['body'])

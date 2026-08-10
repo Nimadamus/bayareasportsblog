@@ -201,7 +201,8 @@ dict(slug='giants-2026-season-hub-results-coverage',
       "the deadline. {deadline} was the argument beforehand; {rebuild} is where things "
       "actually stand now. And then the eight-nothing loss to Detroit on 8 August, where "
       "{roupp} in front of a full ballpark - the clearest picture yet of where this "
-      "clubhouse stands on its manager.",
+      "clubhouse stands on its manager. The day after that, {webb} and lost anyway in ten "
+      "innings, which is the other half of the same problem.",
       "<b>What is still worth watching.</b> Devers has been quietly excellent. "
       "{eldridge} is the reason to keep the television on. And there is the ordinary, "
       "stubborn pleasure of watching a bad team occasionally beat a good one, which is "
@@ -244,6 +245,8 @@ dict(slug='giants-2026-season-hub-results-coverage',
                          'The deadline column'),
             'roupp': ('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html',
                       'Landen Roupp waved Tony Vitello off the mound'),
+            'webb': ('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html',
+                     'Logan Webb threw eight innings without an earned run'),
             'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
                         'the state of the rebuild'),
             'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
@@ -403,6 +406,98 @@ dict(slug='giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8',
      related=[('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html', 'Giants',
                'Tony Vitello Has No Idea What He Is Doing With This Lineup'),
               ('tony-vitello-hire-giants-mistake.html', 'Giants', 'The Vitello Hire Was a Mistake'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands')]),
+
+# --------------------------------------- 6. Tigers 3-1 in ten, Sun 9 August 2026
+dict(slug='giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Tigers 3, Giants 1 (F/10): We Wasted Eight Innings of Logan Webb',
+     h1="Tigers 3, Giants 1 in Ten Innings: Logan Webb Gave Us Eight Innings of Nothing "
+        "and This Team Could Not Find Him Two Runs",
+     dek="Eight innings. Four hits. No earned runs. One walk. And the Giants lost it in "
+         "the tenth anyway, because of course they did.",
+     desc="Logan Webb threw eight innings and allowed no earned runs, and the Giants still "
+          "lost 3-1 in ten to Detroit. Seven hits, seven left on, twenty games under.",
+     date='2026-08-10',
+     card=('giants', 'Wasted', 'Webb went eight and got one run of support'),
+     body=[
+      "Eight innings. Four hits. One walk. Not a single earned run. Logan Webb went out "
+      "there on a Sunday at Oracle Park and gave this organisation the best afternoon any "
+      "pitcher has given it in weeks, and the San Francisco Giants handed him one run and "
+      "then lost the game in extra innings. Three to one. Series lost. Twenty games under "
+      "five hundred.",
+      "I want to be clear about what I watched, because the box score does not do it "
+      "justice. Webb had nothing to work with and knew it. Detroit's kid Troy Melton was "
+      "throwing a 1.46 ERA at our lineup and our lineup was doing exactly what it has done "
+      "all summer, which is take strike one and jog back to the dugout. Six scoreless "
+      "innings from Melton. Four hits off him. And Webb just kept matching it, inning "
+      "after inning, with a defence behind him that let the only run of his afternoon score "
+      "on a ground ball double play in the sixth. Unearned. Of course it was unearned. He "
+      "was not even allowed to lose it honestly.",
+      "Then the seventh, and for about twenty minutes this felt like a baseball game. "
+      "Basabe gets on, Drew Gilbert hits an infield single - an <i>infield single</i>, "
+      "which is the most 2026 Giants way imaginable to score a run - and it is one-all. "
+      "That is our offence. Seven hits, one run, seven men left on base, and the run we "
+      "did score never left the dirt.",
+      "And Webb keeps going. Seventh, fine. Eighth, fine. He finishes the eighth having "
+      "given up four hits all day and this team still has not scored him a second run. "
+      "Somebody tell me what he is supposed to do. Pitch the tenth as well? Hit? Because "
+      "at this point that is the only thing left he has not been asked to do for this "
+      "franchise.",
+      "Then the tenth, and you knew. Every single person in that ballpark knew. Sam "
+      "Hentges comes in, gets one out, and Detroit puts a pinch-hitter up who lines a "
+      "single to right to score Greene, and then a fielder's choice makes it three-one and "
+      "we are all just sitting there watching Kenley Jansen and Tyler Holton strike out the "
+      "side to close it. Six outs, six strikeouts between them, and our half of the tenth "
+      "was over before the beer line moved.",
+      "Thirty-two thousand people paid to be there. Two hours and forty-six minutes. And "
+      "the takeaway is that Logan Webb, one of the best twenty pitchers in this sport, is "
+      "burning the prime of his career on a team that cannot score him two runs on a "
+      "Sunday afternoon in August.",
+      "That is the part that actually makes me angry, and it is not really about this "
+      "game. Webb has been here through all of it. He was here for the ninety-eight-win "
+      "team that never got to do anything about it. He was here for every winter where "
+      "this front office told us they were in on somebody and then were not. He was here "
+      "for the {deadline}, and he is still here now, throwing eight-inning shutout ball for "
+      "a forty-nine and sixty-nine ballclub with a rookie manager and a lineup full of "
+      "auditions. Ask yourself honestly how many more of these he has in him before "
+      "somebody in that building has to have a very uncomfortable conversation about "
+      "whether this is fair to him.",
+      "And yes, {vitello} is involved here, because he is involved in everything now. I am "
+      "not going to pretend that a different manager scores four runs off Troy Melton. He "
+      "does not. But this is the third game in about a week where the story is that the "
+      "Giants got a good start and could not put a rally together, and the man writing the "
+      "lineup card has spent the entire season telling us that the batting order is the one "
+      "thing he has real opinions about. On Saturday he got {roupp}. On Sunday he got eight "
+      "shutout innings from his ace and turned it into a loss. Both of those are his week.",
+      "The small consolations, because there were two. Rafael Devers had two more hits and "
+      "is still, quietly, the most productive bat on this roster, which we {devers} last "
+      "week and nobody outside this fan base has noticed. And Gilbert had two of the seven "
+      "hits, which for a kid getting his run in a lost August is worth writing down.",
+      "But that is what this is now. Two hits from a kid we are evaluating and an ace "
+      "getting wasted. Detroit takes the series two to one and goes home. We are forty-nine "
+      "and sixty-nine, twenty under, and there are still seven weeks of this left.",
+      "Eight innings, no earned runs, and a loss. Put that on the tombstone of the 2026 "
+      "season. The rest of the year is in the {season}, where the roster actually stands is "
+      "in {rebuild}, and everything else is on the {hub}.",
+     ],
+     links={'deadline': ('giants-trade-deadline-monday-posey-sell-ramos-arraez-ray.html',
+                         'selloff at the deadline'),
+            'vitello': ('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html',
+                        'Tony Vitello'),
+            'roupp': ('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html',
+                      'waved off his own mound in an eight-nothing loss'),
+            'devers': ('giants-tigers-5-2-devers-24th-homer-adames-august-7.html',
+                       'wrote about'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'the rebuild page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html', 'Giants',
+               'Roupp Showed Up Vitello, and That Is the Whole Season'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
                'Where the Giants Rebuild Actually Stands')]),
 ]
