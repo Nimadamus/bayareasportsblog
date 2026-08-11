@@ -438,6 +438,111 @@ dict(slug='49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener',
                'Purdy Was Sharp in Camp, and the Dime to Robinson Was the Proof'),
               ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster, Position by Position'),
               ('49ers-2026-schedule-season-hub.html', '49ers', 'The 2026 49ers Schedule, Week by Week')]),
+
+# ------------------------------------------- 7. RB room + Bosa + Kittle, Monday 10 August 2026
+dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle',
+     section='49ers', tag='49ers', hub='49ers',
+     title='Four Running Backs Down, Bosa Sore, and Kittle Running. Again.',
+     h1="The 49ers Are Down Four Running Backs, Bosa Is Sore, and the Only Good News Is George Kittle",
+     dek="Christian McCaffrey sat out Monday with tightness, the three backs behind him are "
+         "already hurt, the team spent the day auditioning strangers, and Nick Bosa has not "
+         "been in pads in a week. Then Kittle went out and ran.",
+     desc="McCaffrey out with tightness, the three backs behind him hurt, tryouts for "
+          "Nyheim Miller-Hines and Zamir White, Bosa sore, and Kittle running again.",
+     date='2026-08-10',
+     card=('49ers', 'The RB Room Is Gone', 'McCaffrey sore, three backs hurt, and tryouts on a Monday'),
+     body=[
+      "It is 10 August. The season is a month away. And on Monday the San Francisco 49ers "
+      "held a limited practice without the four running backs that any of us would have "
+      "named as the four running backs on this roster. Not one of them. All four.",
+      "Christian McCaffrey did not practice. The word out of the building is "
+      "<b>tightness</b>, which the coaching staff delivered with the standard shrug - a "
+      "little sore, he is doing fine, we are managing him as we go. And look, I have been "
+      "doing this long enough to know that tightness in the second week of August is "
+      "usually nothing. Teams sit players in August for hangnails. If the name on the "
+      "jersey were anybody else I would not have typed a word about it.",
+      "But it is not anybody else. It is Christian McCaffrey, and this fan base has been "
+      "conditioned like a lab animal. We have watched an entire season of this man "
+      "evaporate over something that started as a calf and became an Achilles and became a "
+      "year. We have heard <i>managing his workload</i> before. So no, the word tightness "
+      "does not scare me. The name attached to it does, and if you tell me you feel "
+      "differently I do not believe you.",
+      "Now the rest of the room, because this is the part that is genuinely absurd. "
+      "<b>Kaelon Black</b>, the rookie, has been off to the side for a while with an "
+      "adductor - groin, in the language people actually use. <b>Jordan James</b> is out "
+      "with broken ribs, cracked in late July when Fred Warner went to punch the ball out "
+      "in practice, which is the single most 49ers sentence of this entire camp. Our own "
+      "All-Pro linebacker broke our own running back. And <b>Isaac Guerendo</b> has been "
+      "gone since before camp opened with a torn pectoral.",
+      "Four deep. Gone. So the 49ers did what a team does when it looks up and finds the "
+      "position group empty: they went shopping on a Monday. Tryouts for <b>Nyheim "
+      "Miller-Hines</b> and <b>Zamir White</b>, plus a visit with <b>Blake Watson</b>, an "
+      "undrafted kid out of Memphis who ran a 4.39 and jumped 41 and a half inches at his "
+      "pro day. That is not a panic move and I am not going to pretend it is. It is wear "
+      "and tear insurance - bodies to take carries so the ones you care about do not have "
+      "to. Every team does it. It is just that most teams are not doing it because their "
+      "entire depth chart is in the training room in the second week of August.",
+      "Credit where it is owed: <b>Patrick Taylor Jr</b> and <b>Sincere McCormick</b> have "
+      "been eating in this camp, <b>Khalil Herbert</b> has been getting real work, and "
+      "{deebo} took snaps at running back on Monday because of course he did. That is the "
+      "one thing this organisation is genuinely good at - finding a functional body and "
+      "handing it the ball. It does not make me feel better about September.",
+      "<b>Here is the one that actually worries me, and it is not a running back.</b> Nick "
+      "Bosa has not been in pads. He has not been going through individual work. Three "
+      "straight open sessions now, and what the team is calling it is <i>soreness</i>. "
+      "General soreness. That is the entire explanation. Ask for specifics and you get the "
+      "same word again.",
+      "Soreness in a knee that had its ACL reconstructed after Week 3 of last season. I am "
+      "not going to sit here and manufacture an emergency out of a word - Bosa was never "
+      "playing a preseason snap anyway, Warner is not playing one either, and I would be "
+      "stunned if Dre Greenlaw sees the field on Thursday. None of these guys need August. "
+      "But <i>hasn't been padded up, hasn't done individual</i> is a different sentence "
+      "from <i>we are being careful</i>, and this organisation has a long and well "
+      "documented history of the second sentence quietly becoming the first one in "
+      "October. Put it in the back of your mind. Do not set off the alarm yet. Just leave "
+      "your hand near it.",
+      "And then, finally, something good. Genuinely good.",
+      "<b>George Kittle was out on the practice field before practice and he looked like "
+      "George Kittle.</b> Running. Running hard. Making cuts - real ones, not the "
+      "tentative jogging-in-a-straight-line stuff you see from a guy protecting a leg. "
+      "This is a man who tore his Achilles in the playoff win over the Eagles and had it "
+      "surgically repaired shortly after, and four months later he is out there moving "
+      "like the injury is a story somebody told him about.",
+      "Nobody in the building is going to say the words out loud yet, and they have the "
+      "GPS data that says whatever it says about his top speed and how hard he is cutting. "
+      "But watching it? I would not rule out Week 1. I am not promising Week 1. I am "
+      "saying that if you had asked me in February whether Kittle would be on the field in "
+      "Melbourne against the Rams on 10 September, I would have laughed and started "
+      "thinking about October. Now I am not laughing. A lot depends on the next four "
+      "weeks, and {melbourne} is a brutal place to make your season debut - fourteen "
+      "thousand miles, a date line, a divisional opponent - but he is trending toward it, "
+      "and after the Monday we just had I am taking every scrap of good news I can get.",
+      "That is the state of this thing a month out. The best running back in football is "
+      "sore, the three behind him are broken, strangers are auditioning at Levi's on a "
+      "Monday afternoon, the best defensive player on the roster has not put pads on in a "
+      "week, and the one unambiguously encouraging development is a tight end coming back "
+      "from a ruptured Achilles. That is not a camp. That is a triage tent. And we have "
+      "{injuries} on this site so many Augusts running that the file practically writes "
+      "itself now.",
+      "Thursday is the preseason opener against Tennessee, {shanahan} is coaching it "
+      "himself, and you will see approximately none of the players discussed above. The "
+      "roster picture is on the {depth}, the rest of the year is in the {sched}, the "
+      "structural read is in the {preview}, and everything else lives on the {hub}. "
+      "Thirty-one days. Somebody get this team a running back.",
+     ],
+     links={'deebo': ('49ers-deebo-samuel-returns-one-year-7-million-2026.html', 'Deebo Samuel'),
+            'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'Melbourne'),
+            'injuries': ('49ers-injuries-again-training-camp-august-2026.html', 'written this column'),
+            'shanahan': ('49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html',
+                         'Kyle Shanahan'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'season schedule hub'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-injuries-again-training-camp-august-2026.html', '49ers', 'It Is August and the 49ers Are Already Hurt'),
+              ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster and Depth Chart'),
+              ('49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html', '49ers',
+               'The Defense Won Saturday. Shanahan Coaches Thursday.')]),
 ]
 
 

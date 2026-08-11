@@ -4,7 +4,9 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-10** (Don Nelson obituary published — died 9 Aug at 86. Sunday
+**Last updated: 2026-08-10** (49ers running-back-room column published — McCaffrey out
+Monday with tightness and the three backs behind him hurt, plus Bosa's soreness and
+Kittle's Achilles progress. Don Nelson obituary published — died 9 Aug at 86. Sunday
 MLB recaps published: Giants 3-1 loss in ten to Detroit with Webb wasted, A's 4-3 at
 Fenway for their first series win since mid-June.)
 
@@ -14,7 +16,7 @@ Fenway for their first series win since mid-June.)
 
 | Cluster | Status | Next event / date | Next article opportunity | Publish window | Type | Next refresh |
 |---|---|---|---|---|---|---|
-| **49ers** | camp reaction published 9 Aug (defense wins Saturday; Shanahan coaching the opener) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
+| **49ers** | RB-room/Bosa/Kittle column published 10 Aug (McCaffrey tightness, Black adductor, James ribs, Guerendo pec, Miller-Hines/White tryouts, Watson visit, Bosa general soreness — no pads in three sessions, Kittle running and cutting) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
 | 49ers | — | **Week 1, 10 Sep** — at Rams, Melbourne | Week 1 preview | 8–9 Sep | news | weekly, in season |
 | 49ers | — | Week 2, Miami at Levi's | reaction + preview | 14–20 Sep | news | weekly |
 | 49ers | — | **~game five** | Purdy passes 1,500 attempts, qualifies for the career passer-rating record | day of | **update the Purdy page** | biggest single traffic event of the season |

@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 10 Aug 2026 15:36:54 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 11 Aug 2026 02:11:22 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Four Running Backs Down, Bosa Sore, and Kittle Running. Again.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html</guid>
+    <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>McCaffrey out with tightness, the three backs behind him hurt, tryouts for Nyheim Miller-Hines and Zamir White, Bosa sore, and Kittle running again.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>A&#39;s 4, Red Sox 3: A Series Win, Their First Since Mid-June</title>
     <link>https://bayareasportsblog.com/articles/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>What the 2026-27 Warriors realistically are: the Curry-Butler-Green core, the injury questions, the cap reality, and the range of outcomes for the season.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-season-outlook.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>What $147 Million Actually Bought the Warriors</title>
-    <link>https://bayareasportsblog.com/articles/warriors-roster-construction-cap-sheet-2026-27.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-roster-construction-cap-sheet-2026-27.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>A look at the 2026-27 Warriors cap sheet: what Curry, Butler and Green cost, and why the rest of the roster is minimum contracts and draft picks.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-roster-construction-cap-sheet-2026-27.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
