@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 11 Aug 2026 02:11:22 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 15:12:59 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Rays 12, A&#39;s 4: Six Home Runs, Two of Them From a .216 Hitter</title>
+    <link>https://bayareasportsblog.com/articles/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html</guid>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Tampa Bay hit six home runs in a 12-4 win at Sutter Health Park and Nick Martinez threw a complete game. The A&#39;s fall to 47-73 and lose another series.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait</title>
+    <link>https://bayareasportsblog.com/articles/giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html</guid>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Carson Whisenhunt outpitched Hunter Brown in a 4-1 win at Oracle Park. Eldridge homered, Cavanaugh and Koss drove in runs, and the Giants got to fifty wins.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Four Running Backs Down, Bosa Sore, and Kittle Running. Again.</title>
     <link>https://bayareasportsblog.com/articles/49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html</link>
@@ -349,24 +367,6 @@
     <category>Athletics</category>
     <description>Sutter Health Park by the numbers: capacity 14,014, the dimensions, the wind, and why it produces the second-highest home run rate in Major League Baseball.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sutter-health-park-mlb-guide-dimensions-capacity.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The 2026-27 Warriors Roster and Depth Chart</title>
-    <link>https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>A position-by-position look at the 2026-27 Warriors: projected starters, the bench, the injury picture, and where this roster is genuinely thin.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The 2026-27 Warriors: What This Roster Actually Is</title>
-    <link>https://bayareasportsblog.com/articles/warriors-2026-27-season-outlook.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-2026-27-season-outlook.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>What the 2026-27 Warriors realistically are: the Curry-Butler-Green core, the injury questions, the cap reality, and the range of outcomes for the season.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-season-outlook.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

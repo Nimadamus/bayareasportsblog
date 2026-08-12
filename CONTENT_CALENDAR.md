@@ -4,11 +4,10 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-10** (49ers running-back-room column published — McCaffrey out
-Monday with tightness and the three backs behind him hurt, plus Bosa's soreness and
-Kittle's Achilles progress. Don Nelson obituary published — died 9 Aug at 86. Sunday
-MLB recaps published: Giants 3-1 loss in ten to Detroit with Webb wasted, A's 4-3 at
-Fenway for their first series win since mid-June.)
+**Last updated: 2026-08-12** (Tuesday MLB recaps published for the 11 Aug games: Giants
+4-1 over Houston behind Carson Whisenhunt's best start, A's 12-4 to Tampa Bay with six
+home runs allowed. Earlier on 10 Aug: 49ers running-back-room column, Don Nelson
+obituary, and the Sunday MLB pair.)
 
 ---
 
@@ -26,10 +25,10 @@ Fenway for their first series win since mid-June.)
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) + **Don Nelson obituary published 10 Aug** (died 9 Aug, 86; Run TMC, We Believe, Curry's rookie year) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
-| **Giants** | Webb recap published 10 Aug (8 IP, 0 ER, lost 3-1 in ten to Detroit, 49-69); Roupp/Vitello column 9 Aug — the manager case is now three pieces: hire, lineups, respect | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
+| **Giants** | 4-1 win over Houston recapped 12 Aug — Whisenhunt 5.2 IP 1 ER over Hunter Brown, Eldridge's 12th, win number fifty (50-70); Webb recap 10 Aug; Roupp/Vitello column 9 Aug | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
 | Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
 | Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
-| **Athletics** | 4-3 win at Fenway recapped 10 Aug — first series win since mid-June, Wilson's 111-game errorless SS record, McNeil's 1,000th hit (47-71) | rest of the 2026 season | recaps + roster updates | ongoing | news | — |
+| **Athletics** | 12-4 loss to Tampa Bay recapped 12 Aug — six homers allowed, Walls' two, Martinez complete game, Wilson's errorless streak at 113 (47-73); Fenway series win 10 Aug | rest of the 2026 season | recaps + roster updates | ongoing | news | — |
 | Athletics | — | **end of season, early Oct** | season review, second West Sacramento year in the books | Oct | news | — |
 | Athletics | — | **Las Vegas construction milestones** | update the timeline page — roof trusses, bowl completion, any schedule slip | as announced | **update the timeline page** | check quarterly |
 | Athletics | — | offseason, Nov–Feb | payroll decisions, who gets traded before 2028 | as they happen | news | — |

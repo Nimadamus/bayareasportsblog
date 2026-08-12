@@ -22,6 +22,37 @@ import _college_cluster as CC
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
+N = lambda v: '<td class="num">%s</td>' % v
+LINEHEAD = ('<thead><tr><th>Team</th>' + ''.join('<th class="num">%d</th>' % i
+                                                 for i in range(1, 10))
+            + '<th class="num">R</th><th class="num">H</th><th class="num">E</th></tr></thead>')
+LINE = lambda team, innings, r, h, e: ('<tr><td>%s</td>%s<td class="num"><b>%s</b></td>'
+                                       '<td class="num">%s</td><td class="num">%s</td></tr>'
+                                       % (team, ''.join(N(x) for x in innings), r, h, e))
+
+RAYS_AS_LINE = ('<div class="reftable">\n<table>\n<caption>Tampa Bay Rays at Athletics '
+                '&mdash; Tuesday 11 August 2026, Sutter Health Park, 8,154</caption>\n'
+                + LINEHEAD + '\n<tbody>\n'
+                + LINE('Tampa Bay', [2, 0, 1, 3, 0, 1, 2, 3, 0], 12, 11, 0) + '\n'
+                + LINE('<b>Athletics</b>', [0, 0, 0, 2, 0, 0, 0, 0, 2], 4, 8, 1)
+                + '\n</tbody>\n</table>\n</div>')
+
+RAYS_AS_HOMERS = """<div class="reftable">
+<table>
+<caption>Every home run hit at Sutter Health Park on 11 August 2026</caption>
+<thead><tr><th>Inning</th><th>Batter</th><th>Off</th><th class="num">On</th><th class="num">No.</th></tr></thead>
+<tbody>
+<tr><td>1st</td><td>Junior Caminero, TB</td><td>Mason Barnett</td><td class="num">1</td><td class="num">35</td></tr>
+<tr><td>4th</td><td>Taylor Walls, TB</td><td>Mason Barnett</td><td class="num">1</td><td class="num">1</td></tr>
+<tr><td>4th</td><td>Yandy D&iacute;az, TB</td><td>Mason Barnett</td><td class="num">0</td><td class="num">17</td></tr>
+<tr><td>4th</td><td><b>Lawrence Butler, ATH</b></td><td>Nick Martinez</td><td class="num">1</td><td class="num">8</td></tr>
+<tr><td>6th</td><td>Taylor Walls, TB</td><td>Brady Basso</td><td class="num">0</td><td class="num">2</td></tr>
+<tr><td>7th</td><td>Victor Mesa Jr., TB</td><td>Elvis Alvarado</td><td class="num">1</td><td class="num">10</td></tr>
+<tr><td>8th</td><td>Carson Williams, TB</td><td>Yunior Tur</td><td class="num">2</td><td class="num">1</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ARTICLES = [
 # ------------------------------------------------------- 1. Sutter Health Park evergreen
 dict(slug='sutter-health-park-mlb-guide-dimensions-capacity',
@@ -194,7 +225,7 @@ dict(slug='athletics-2026-roster-depth-chart',
       "<b>Infield.</b> Jacob Wilson at shortstop has been a genuine bright spot, "
       "including a homer that stole a game back in the ninth, and on 9 August he {wilson} "
       "- 111 consecutive errorless games at the position, past Mike Bordick's 110 from "
-      "2002. Nick Kurtz started an "
+      "2002. By {streak} the streak was at 113. Nick Kurtz started an "
       "All-Star Game. Tyler Soderstrom keeps showing up in the box score for the right "
       "reasons. Brian Serven and Tommy White have both had days worth remembering.",
       "<b>Outfield and DH.</b> Brent Rooker remains the bat that can change a game with "
@@ -222,6 +253,8 @@ dict(slug='athletics-2026-roster-depth-chart',
                       'Jacob Lopez'),
             'wilson': ('athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html',
                        'set a major league record for shortstops'),
+            'streak': ('athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html',
+                       'the twelve-four loss to Tampa Bay on 11 August'),
             'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
                        'Sutter Health Park'),
             'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html', 'timeline'),
@@ -379,6 +412,134 @@ dict(slug='athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9',
               ('athletics-2026-roster-depth-chart.html', 'Athletics', "The A's Roster and Depth Chart"),
               ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains',
                "The A's Play in Sacramento Now")]),
+
+# ------------------------------------- 6. Rays 12-4, Tue 11 August 2026, West Sacramento
+dict(slug='athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11',
+     section='Athletics', tag='Athletics', hub='Athletics',
+     title="Rays 12, A's 4: Six Home Runs, Two of Them From a .216 Hitter",
+     h1="Rays 12, Athletics 4: Six Home Runs Left the Yard, Taylor Walls Hit Two of Them, "
+        "and Nick Martinez Went the Distance in Front of Eight Thousand People",
+     dek="Twenty-two runs allowed in two nights, a complete game thrown against them by a "
+         "man who did not walk anybody, and a series lost before the series was over.",
+     desc="Tampa Bay hit six home runs in a 12-4 win at Sutter Health Park and Nick "
+          "Martinez threw a complete game. The A's fall to 47-73 and lose another series.",
+     date='2026-08-12',
+     card=('athletics', 'Six Homers', 'Tampa Bay hit six out of a Triple-A yard in West Sacramento'),
+     body=[
+      "Six home runs. Six. In a ballpark the Athletics do not own, in a city the Athletics "
+      "are not from, in front of eight thousand one hundred and fifty-four people on an "
+      "eighty-six degree Tuesday night. Tampa Bay beat them twelve to four, the series is "
+      "already gone with a game still to play, and this is now twenty-two runs allowed in two "
+      "nights against a team that has won eight straight and does not appear likely to stop.",
+
+      '<figure style="margin:0 0 30px;text-align:center">'
+      '<picture><source type="image/webp" srcset="../assets/img/players/sutter-health-park-real-400w.webp 400w, '
+      '../assets/img/players/sutter-health-park-real-600w.webp 600w, '
+      '../assets/img/players/sutter-health-park-real-800w.webp 800w, '
+      '../assets/img/players/sutter-health-park-real.webp 1800w" sizes="(max-width: 820px) 92vw, 760px">'
+      '<img src="../assets/img/players/sutter-health-park-real.jpg" '
+      'alt="Sutter Health Park in West Sacramento, where the Rays beat the Athletics 12-4 on 11 August 2026" '
+      'style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;'
+      'background:var(--surface);border-radius:12px;border:1px solid var(--line)" width="1200" height="675" '
+      'decoding="async" fetchpriority="high" '
+      'srcset="../assets/img/players/sutter-health-park-real-400w.jpg 400w, '
+      '../assets/img/players/sutter-health-park-real-600w.jpg 600w, '
+      '../assets/img/players/sutter-health-park-real-800w.jpg 800w, '
+      '../assets/img/players/sutter-health-park-real.jpg 1800w" '
+      'sizes="(max-width: 820px) 92vw, 760px"></picture>'
+      '<figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">'
+      'Sutter Health Park, capacity around fourteen thousand, eight thousand of them filled. '
+      'Six baseballs left it on Tuesday and only one belonged to the home team.</figcaption></figure>',
+
+      RAYS_AS_LINE,
+
+      "<b>How fast it was over.</b> One out into the bottom of nothing, Yandy D&iacute;az "
+      "singles, Junior Caminero hits his thirty-fifth homer of the season, and it is two-nil "
+      "before anybody has found their seat. That is the fifth time in about three weeks that "
+      "this team has trailed before it batted. Mason Barnett got four innings and gave up six "
+      "runs on five hits, three of which went over the fence, and he walked three and struck "
+      "out nobody. Not one strikeout in sixty-seven pitches. His ERA is 6.16 and the shape of "
+      "his night is the shape of the whole rotation since the {tolle} at Fenway: the ball is "
+      "up, the ball is hard, and the ball keeps landing in the seats.",
+
+      "<b>Taylor Walls.</b> Here is the detail that tells you everything about where this "
+      "pitching staff is. Taylor Walls is a good defensive shortstop who came into Tuesday "
+      "hitting .216 with no home runs on the season. None. Zero, in a hundred-odd at-bats. He "
+      "hit two of them on Tuesday, one off Barnett in the fourth and one off Brady Basso in the "
+      "sixth. Eight total bases from a man who had not hit a ball out all year. When a "
+      ".216 hitter with nothing in the power column doubles his career damage against your "
+      "staff in one evening, that is not variance. That is what a broken pitching staff looks "
+      "like from the other dugout.",
+
+      "Then Victor Mesa Jr. hit a two-run shot off Elvis Alvarado in the seventh, and Carson "
+      "Williams &mdash; a rookie hitting .108, with no career home runs to his name &mdash; hit "
+      "a three-run one off Yunior Tur in the eighth to make it twelve-two. Tur's ERA is now "
+      "32.79. I am not going to type anything unkind about a young reliever getting his first "
+      "look, but somebody in that organisation should be honest about the fact that they are "
+      "running out of arms and the calendar says August.",
+
+      RAYS_AS_HOMERS,
+
+      "<b>Nick Martinez went nine.</b> A hundred and one pitches, eight hits, four runs, five "
+      "strikeouts, and not a single walk. Not one. He was still out there in the ninth with a "
+      "twelve-four lead because Tampa Bay had no reason to touch a bullpen that did not need "
+      "using, and because this lineup gave him no reason to worry. Complete games have gone "
+      "nearly extinct in this sport and one just got thrown at the Athletics in a minor league "
+      "park by a thirty-five-year-old who used to be a swingman. That is the kind of thing that "
+      "happens to teams like this in seasons like this.",
+
+      "<b>What was actually good, because there were three things.</b> Lawrence Butler got hold "
+      "of a Martinez pitch in the fourth with Jacob Wilson aboard and hit it to centre for his "
+      "eighth home run, and Butler has been buried in a .206 season all year, so take it. "
+      "Carlos Cortes doubled home two in the ninth &mdash; his thirteenth double &mdash; which "
+      "is the sort of at-bat a lot of players stop taking in a twelve-two game in August in "
+      "front of eight thousand people. And Jacob Wilson had a hit, made every play, and "
+      "extended his errorless streak at shortstop to a hundred and thirteen consecutive games. "
+      "A hundred and thirteen. He {record} at a hundred and eleven on Sunday in Boston and he "
+      "has not been charged with one since.",
+
+      "That streak is the single best thing happening in this organisation and almost nobody "
+      "in this region has watched a minute of it. It is being set in a fourteen-thousand-seat "
+      "Triple-A yard forty minutes up the causeway from a stadium site in Oakland that "
+      "ownership walked away from, for a team on its way to {timeline}. The best defensive "
+      "season any shortstop has ever put together at this position, and there is no crowd for "
+      "it, no local broadcast anybody in the Town is watching, no bar going up when he ranges "
+      "into the hole. {legacy} is the whole argument and Jacob Wilson is now Exhibit A for it.",
+
+      "<b>The rest of it.</b> Eight hits, one for three with runners in scoring position, two "
+      "double plays grounded into. Henry Bolte made an error and also threw a runner out at "
+      "second, which is the most 2026 Athletics sentence I can construct. Jonah Heim went "
+      "nought for four. Two hours and twenty-five minutes, which is at least merciful.",
+
+      "Forty-seven and seventy-three. Thirteen and a half games out of a division nobody in "
+      "green and gold is thinking about. They won a series in Boston three days ago and it felt "
+      "like a small warm thing, and then they came home &mdash; home &mdash; and got outscored "
+      "twenty-two to ten in two nights by the best team in the American League East. That is "
+      "the season. That has been the season since the middle of June.",
+
+      "There is a game on Wednesday to avoid the sweep. Who is actually available to play it is "
+      "on the {depth}, the ballpark they are stuck in until 2028 is in {sutter}, and the anger "
+      "about all of it lives in {villains}. The rest is on the {hub}.",
+     ],
+     links={'tolle': ('athletics-redsox-13-1-tolle-14-strikeouts-ninth-straight-august-7.html',
+                      'thirteen-one loss'),
+            'record': ('athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html',
+                       'passed Mike Bordick&rsquo;s major league record'),
+            'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
+                         'a dome on the Las Vegas Strip in 2028'),
+            'legacy': ('oakland-athletics-legacy-what-the-bay-area-lost.html',
+                       'What the Bay Area lost'),
+            'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
+                       'Sutter Health Park'),
+            'depth': ('athletics-2026-roster-depth-chart.html', 'depth chart'),
+            'villains': ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains'),
+            'hub': ('../athletics.html', "A's hub")},
+     related=[('athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html',
+               'Athletics', "A's 4, Red Sox 3: Their First Series Win Since June"),
+              ('athletics-2026-roster-depth-chart.html', 'Athletics',
+               "The A's Roster and Depth Chart"),
+              ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
+               'Sutter Health Park: MLB in a Triple-A Yard')]),
 ]
 
 

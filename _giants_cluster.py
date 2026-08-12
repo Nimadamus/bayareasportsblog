@@ -23,6 +23,38 @@ import _college_cluster as CC
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
+N = lambda v: '<td class="num">%s</td>' % v
+LINE = lambda team, innings, r, h, e: ('<tr><td>%s</td>%s<td class="num"><b>%s</b></td>'
+                                       '<td class="num">%s</td><td class="num">%s</td></tr>'
+                                       % (team, ''.join(N(x) for x in innings), r, h, e))
+LINEHEAD = ('<thead><tr><th>Team</th>' + ''.join('<th class="num">%d</th>' % i
+                                                 for i in range(1, 10))
+            + '<th class="num">R</th><th class="num">H</th><th class="num">E</th></tr></thead>')
+
+GIANTS_ASTROS_LINE = ('<div class="reftable">\n<table>\n<caption>Houston Astros at San '
+                      'Francisco Giants &mdash; Tuesday 11 August 2026, Oracle Park, '
+                      '30,093</caption>\n' + LINEHEAD + '\n<tbody>\n'
+                      + LINE('Houston', [0, 1, 0, 0, 0, 0, 0, 0, 0], 1, 5, 2) + '\n'
+                      + LINE('<b>San Francisco</b>', [0, 1, 0, 1, 1, 1, 0, 0, 'X'], 4, 9, 0)
+                      + '\n</tbody>\n</table>\n</div>')
+
+GIANTS_ASTROS_BOX = """<div class="reftable">
+<table>
+<caption>Pitching &mdash; Astros at Giants, 11 August 2026</caption>
+<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th><th class="num">P</th></tr></thead>
+<tbody>
+<tr><td>Hunter Brown, HOU (L)</td><td class="num">5.0</td><td class="num">5</td><td class="num">3</td><td class="num">3</td><td class="num">3</td><td class="num">4</td><td class="num">89</td></tr>
+<tr><td>Enyel De Los Santos, HOU</td><td class="num">0.2</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">11</td></tr>
+<tr><td>Bennett Sousa, HOU</td><td class="num">1.1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td class="num">19</td></tr>
+<tr><td>AJ Blubaugh, HOU</td><td class="num">1.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">18</td></tr>
+<tr><td><b>Carson Whisenhunt, SF (W)</b></td><td class="num">5.2</td><td class="num">4</td><td class="num">1</td><td class="num">1</td><td class="num">3</td><td class="num">2</td><td class="num">96</td></tr>
+<tr><td>Carson Seymour, SF</td><td class="num">2.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">30</td></tr>
+<tr><td>Reiver Sanmartin, SF</td><td class="num">0.1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5</td></tr>
+<tr><td>JT Brubaker, SF (S)</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ARTICLES = [
 # --------------------------------------------------------- 1. Where the rebuild stands
 dict(slug='giants-2026-where-the-rebuild-actually-stands',
@@ -202,7 +234,9 @@ dict(slug='giants-2026-season-hub-results-coverage',
       "actually stand now. And then the eight-nothing loss to Detroit on 8 August, where "
       "{roupp} in front of a full ballpark - the clearest picture yet of where this "
       "clubhouse stands on its manager. The day after that, {webb} and lost anyway in ten "
-      "innings, which is the other half of the same problem.",
+      "innings, which is the other half of the same problem. Then on 11 August, {astros} "
+      "for win number fifty, which is the first genuinely encouraging night since the "
+      "deadline.",
       "<b>What is still worth watching.</b> Devers has been quietly excellent. "
       "{eldridge} is the reason to keep the television on. And there is the ordinary, "
       "stubborn pleasure of watching a bad team occasionally beat a good one, which is "
@@ -247,6 +281,8 @@ dict(slug='giants-2026-season-hub-results-coverage',
                       'Landen Roupp waved Tony Vitello off the mound'),
             'webb': ('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html',
                      'Logan Webb threw eight innings without an earned run'),
+            'astros': ('giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html',
+                       'Carson Whisenhunt outpitched Hunter Brown in a four-one win'),
             'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
                         'the state of the rebuild'),
             'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
@@ -496,6 +532,135 @@ dict(slug='giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9',
             'hub': ('../giants.html', 'Giants hub')},
      related=[('giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8.html', 'Giants',
                'Roupp Showed Up Vitello, and That Is the Whole Season'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands')]),
+
+# ------------------------------------- 7. Giants 4-1 over Houston, Tue 11 August 2026
+dict(slug='giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait',
+     h1="Giants 4, Astros 1: Carson Whisenhunt Outpitched Hunter Brown, Bryce Eldridge Hit "
+        "Number Twelve, and For One Night This Looked Like a Baseball Team",
+     dek="Five and two-thirds of one-run ball from the kid, four unanswered runs off a "
+         "Houston ace, and the fiftieth win of a season nobody enjoyed getting to.",
+     desc="Carson Whisenhunt outpitched Hunter Brown in a 4-1 win at Oracle Park. Eldridge "
+          "homered, Cavanaugh and Koss drove in runs, and the Giants got to fifty wins.",
+     date='2026-08-12',
+     card=('giants', 'Whisenhunt', 'The kid beat Hunter Brown and the Giants got to fifty'),
+     body=[
+      "I have spent most of this summer writing about what is wrong with the San Francisco "
+      "Giants, so let me be a fair witness for one night. On Tuesday at Oracle Park they took "
+      "a first-place team, handed the ball to a twenty-five-year-old left-hander carrying a "
+      "six-run ERA, and beat Houston four to one. Four unanswered runs. Nine hits. No errors. "
+      "A bullpen that got ten outs and did not let a single runner past first base. Start to "
+      "finish it was the cleanest nine innings this team has played in a month.",
+
+      '<figure style="margin:0 0 30px;text-align:center">'
+      '<picture><source type="image/webp" srcset="../assets/img/players/oracle-park-real-400w.webp 400w, '
+      '../assets/img/players/oracle-park-real-800w.webp 800w, ../assets/img/players/oracle-park-real.webp 1200w" '
+      'sizes="(max-width: 820px) 92vw, 760px">'
+      '<img src="../assets/img/players/oracle-park-real.jpg" '
+      'alt="Oracle Park in San Francisco, where the Giants beat the Astros 4-1 on 11 August 2026" '
+      'style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;'
+      'background:var(--surface);border-radius:12px;border:1px solid var(--line)" width="1200" height="675" '
+      'decoding="async" fetchpriority="high" '
+      'srcset="../assets/img/players/oracle-park-real-400w.jpg 400w, '
+      '../assets/img/players/oracle-park-real-800w.jpg 800w, '
+      '../assets/img/players/oracle-park-real.jpg 1200w" sizes="(max-width: 820px) 92vw, 760px"></picture>'
+      '<figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">'
+      'Thirty thousand and ninety-three on a sixty-two degree Tuesday night, wind blowing out to '
+      'centre field. They saw the best start of Carson Whisenhunt&rsquo;s career.</figcaption></figure>',
+
+      GIANTS_ASTROS_LINE,
+
+      "<b>The start.</b> Carson Whisenhunt went five and two-thirds, gave up four hits and one "
+      "run, walked three, struck out two and threw ninety-six pitches. On paper that is an "
+      "ordinary Tuesday. In the context of his season it is the best night he has had in the "
+      "major leagues. Go back through the six starts. He threw seven shutout innings at San "
+      "Diego on the last day of July and looked like a rotation piece, then {shutout} five days "
+      "later and looked like a Triple-A arm getting found out. Nineteen earned runs in "
+      "twenty-eight innings. Eighteen walks. A 6.11 ERA that is not lying about anything.",
+
+      "What was different on Tuesday is that he pitched backwards when he had to. The three "
+      "walks were not fun and the sixth got away from him a little, but he never handed Houston "
+      "the one big swing, and this is a Houston lineup with Yordan Alvarez hitting .322 and "
+      "Isaac Paredes and Christian Walker behind him. The Astros went nought for four with "
+      "runners in scoring position and left nine men on. Their entire evening was an Alvarez "
+      "sacrifice fly in the second inning. That is the whole Houston night.",
+
+      "<b>How we scored, which is the part I did not see coming.</b> Rafael Devers walked twice, "
+      "because that is what Devers does now, and came around in the second on a Drew Gilbert "
+      "line single to left. One-all. In the fourth, Drew Cavanaugh &mdash; the rookie catcher, "
+      "twenty-eight games in, hitting .242 &mdash; singled Gilbert home and then stole the first "
+      "base of his major league life. In the fifth, Bryce Eldridge got a pitch from Hunter Brown "
+      "and hit it to dead centre for number twelve. In the sixth, Christian Koss, who walked in "
+      "hitting .167, ripped a double into left to score Cavanaugh and then jogged into third "
+      "when Jeremy Pe&ntilde;a threw the ball away for the second time in the game. Four to one, "
+      "and it never felt close after that.",
+
+      "Read that list of names again. Gilbert, Cavanaugh, Eldridge, Koss. Not one of them was on "
+      "this roster two years ago and two of them were not on it in April. That is supposed to be "
+      "the entire point of a season like 2026, and Tuesday is the first night in weeks where it "
+      "looked like a point instead of an excuse. {eldridge} is a twelve-homer, .775-OPS first "
+      "baseman at an age when most players are still riding buses in Double-A, and he did that "
+      "to one of the ten best starters in the American League.",
+
+      "<b>Hunter Brown, for what it is worth.</b> Five innings, five hits, three earned, three "
+      "walks, eighty-nine pitches to get fifteen outs. He came in at 3.68 and he was not sharp, "
+      "but the Giants also made him work, which they have not done to good pitching since about "
+      "the middle of July. Willy Adames had two hits including his twenty-fifth double and a "
+      "stolen base. Osleivis Basabe had two more. Nine hits out of a lineup that has been "
+      "getting six.",
+
+      "The one thing that has not changed is the thing that has cost this club about eleven "
+      "wins: two for thirteen with runners in scoring position and eight men left on base. In a "
+      "different game that is a loss and we have all watched roughly thirty of those. Victor "
+      "Bericoto struck out three times and grounded into a double play. Jung Hoo Lee went nought "
+      "for four and stranded four. There is still a lot of bad baseball buried inside a "
+      "four-one win.",
+
+      "<b>The bullpen, and I do not say this often.</b> Carson Seymour got seven outs and struck "
+      "out two. Reiver Sanmartin got the last one of the eighth. JT Brubaker threw seven pitches "
+      "in the ninth for the save. Ten outs, nobody past first base, and not one arm had to warm "
+      "up twice. After the summer this bullpen has had &mdash; after the eighth innings in San "
+      "Diego, after {webb} &mdash; that deserves to be written down somewhere.",
+
+      GIANTS_ASTROS_BOX,
+
+      "So they are fifty and seventy. Win number fifty took a hundred and twenty games and it is "
+      "not going to be a headline anywhere outside this page, which is precisely why it is on "
+      "this page. Houston took Monday six-three. We took Tuesday. Wednesday is the rubber game "
+      "against a first-place team we have no business splitting with, let alone beating, and if "
+      "{vitello} manages to take that one he is going to get a paragraph out of me that is not a "
+      "complaint. I am prepared to write it. I have the paragraph ready.",
+
+      "One last thing about Whisenhunt, because I think it matters more than the final score "
+      "does. This organisation spent two months trading away everything that was not bolted to "
+      "the floor and then asked a fan base to be patient with whatever was left. Patience is a "
+      "great deal easier when the kid you were told to be patient about goes out on a Tuesday in "
+      "August and outpitches Hunter Brown. That is the whole ask. Do that eight or nine more "
+      "times between now and the end of September and the winter gets a lot less miserable "
+      "around here.",
+
+      "Every result and what is left of the schedule is in the {season}, where this roster "
+      "honestly stands is in {rebuild}, and the rest of it lives on the {hub}.",
+     ],
+     links={'shutout': ('giants-rangers-6-0-shutout-whisenhunt-19-under-august-5.html',
+                        'Texas knocked him around in a six-nothing shutout loss'),
+            'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
+                         'Bryce Eldridge'),
+            'vitello': ('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html',
+                        'Tony Vitello'),
+            'webb': ('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html',
+                     'after the tenth inning against Detroit on Sunday'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'the rebuild page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html', 'Giants',
+               'Tigers 3, Giants 1: Eight Innings of Webb, Wasted'),
               ('giants-2026-season-hub-results-coverage.html', 'Giants',
                'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
