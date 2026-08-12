@@ -4,7 +4,9 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-12** (Tuesday MLB recaps published for the 11 Aug games: Giants
+**Last updated: 2026-08-12** (49ers roster-churn column published 12 Aug: Bergen,
+Bouwmeester and K.J. Henry waived, Apple/Thomas/White signed, Waitman is the punter. Also
+Tuesday MLB recaps published for the 11 Aug games: Giants
 4-1 over Houston behind Carson Whisenhunt's best start, A's 12-4 to Tampa Bay with six
 home runs allowed. Earlier on 10 Aug: 49ers running-back-room column, Don Nelson
 obituary, and the Sunday MLB pair.)
@@ -15,7 +17,7 @@ obituary, and the Sunday MLB pair.)
 
 | Cluster | Status | Next event / date | Next article opportunity | Publish window | Type | Next refresh |
 |---|---|---|---|---|---|---|
-| **49ers** | RB-room/Bosa/Kittle column published 10 Aug (McCaffrey tightness, Black adductor, James ribs, Guerendo pec, Miller-Hines/White tryouts, Watson visit, Bosa general soreness — no pads in three sessions, Kittle running and cutting) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
+| **49ers** | Roster churn column published 12 Aug (Bergen waived a second time, Bouwmeester waived, Henry waived/injured after the Tennessee joint practice, Apple/Thomas/White signed to one-year deals, Waitman wins the punter job). RB-room/Bosa/Kittle column published 10 Aug (McCaffrey tightness, Black adductor, James ribs, Guerendo pec, Miller-Hines/White tryouts, Watson visit, Bosa general soreness — no pads in three sessions, Kittle running and cutting) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
 | 49ers | — | **Week 1, 10 Sep** — at Rams, Melbourne | Week 1 preview | 8–9 Sep | news | weekly, in season |
 | 49ers | — | Week 2, Miami at Levi's | reaction + preview | 14–20 Sep | news | weekly |
 | 49ers | — | **~game five** | Purdy passes 1,500 attempts, qualifies for the career passer-rating record | day of | **update the Purdy page** | biggest single traffic event of the season |

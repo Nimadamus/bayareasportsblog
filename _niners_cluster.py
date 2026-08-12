@@ -529,6 +529,9 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "roster picture is on the {depth}, the rest of the year is in the {sched}, the "
       "structural read is in the {preview}, and everything else lives on the {hub}. "
       "Thirty-one days. Somebody get this team a running back.",
+      "<b>Update, 12 August:</b> they got one. Zamir White signed a one-year deal two days "
+      "after that tryout, and to clear the room for him and two other veterans the 49ers "
+      "{churn}.",
      ],
      links={'deebo': ('49ers-deebo-samuel-returns-one-year-7-million-2026.html', 'Deebo Samuel'),
             'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'Melbourne'),
@@ -538,11 +541,112 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
             'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
             'sched': ('49ers-2026-schedule-season-hub.html', 'season schedule hub'),
             'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'churn': ('49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html',
+                      'waived Junior Bergen, Jack Bouwmeester and K.J. Henry'),
             'hub': ('../49ers.html', '49ers hub')},
      related=[('49ers-injuries-again-training-camp-august-2026.html', '49ers', 'It Is August and the 49ers Are Already Hurt'),
               ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster and Depth Chart'),
               ('49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html', '49ers',
                'The Defense Won Saturday. Shanahan Coaches Thursday.')]),
+
+# ------------------------------------------------- 7. 12 Aug roster churn: Bergen waived
+dict(slug='49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman',
+     section='49ers', tag='49ers', hub='49ers',
+     title='The 49ers Waived Junior Bergen Again, and Kept the Punter',
+     h1="The 49ers Waived Junior Bergen Again, Cut the Punter Competition, and Kept the "
+        "Left-Footed Veteran",
+     dek="Three names off the 90 on the eve of the preseason opener - Bergen, Bouwmeester "
+         "and K.J. Henry - and three one-year deals in their place. Nobody got created "
+         "space. Everybody got swapped.",
+     desc="The 49ers waived Junior Bergen and Jack Bouwmeester and put K.J. Henry on "
+          "waived/injured, then signed Eli Apple, Xavier Thomas and Zamir White.",
+     date='2026-08-12',
+     card=('49ers', 'Roster Churn', 'Bergen, Bouwmeester and Henry out, three one-year deals in'),
+     body=[
+      "One position battle in Santa Clara is officially over, and I want to be honest "
+      "about how much I care: the 49ers have a punter, his name is <b>Corliss Waitman</b>, "
+      "and the reason he has the job is that the other guy is gone. That is the whole "
+      "competition. That is how punter competitions end. Somebody gets waived on a Tuesday "
+      "in August and the survivor keeps his locker.",
+      "The 49ers waived punter <b>Jack Bouwmeester</b>, who had been in the building since "
+      "18 July, which is not even a full month of employment. They waived wide receiver "
+      "and return specialist <b>Junior Bergen</b>. And they put defensive lineman "
+      "<b>K.J. Henry</b> on waived/injured after he came out of the joint work with "
+      "Tennessee on Tuesday with something wrong. Three names off the ninety, the day "
+      "before the preseason opener.",
+      "<b>Start with Bergen, because that one actually stings a little.</b> He was the "
+      "final pick of the 2025 draft class, seventh round, 252nd overall out of Montana, "
+      "and Shanahan said out loud at the time that the plan was to use him as a return "
+      "specialist rather than a receiver. He got a four-year deal worth about $4.3 "
+      "million, which in NFL money means the team owed him nothing and could walk away "
+      "whenever it wanted. Then he got waived at final cuts a year ago, came back on the "
+      "practice squad, signed a reserve/future contract on 20 January, and spent this "
+      "entire offseason trying to prove he belonged.",
+      "And now he is waived again. Same kid, same result, twelve months apart. I have "
+      "watched this franchise draft return men, love them in April, describe them as "
+      "weapons in July and cut them in August for as long as I can remember, and I still "
+      "do not understand why the return job here is treated like a rotating door instead "
+      "of a roster spot. Somebody is going to claim him and he is going to take a kick "
+      "back seventy yards against us in November. Write it down.",
+      "<b>Bouwmeester never had a chance and everyone knew it.</b> You do not sign a "
+      "veteran punter and then hand the job to the guy you brought in three weeks ago "
+      "unless he is dramatically better, and he was not, because Waitman is a real NFL "
+      "punter with a real NFL body of work. He punted 65 times for Pittsburgh in 2024 at "
+      "46.4 a kick with a long of 71. He punted 62 times in 2025 at 45.5 with a long of "
+      "67. That is two full seasons of a team that hates giving up field position handing "
+      "him the ball and living with the result.",
+      "He is also left-footed, and if you have never thought about why that matters, it "
+      "matters. A left-footed punter puts the opposite spin on the ball, so the returner "
+      "is reading a flight path he does not see ten times a year, and coverage units that "
+      "practice against it every day get a small, free edge. It is not a difference maker. "
+      "It is a thumb on the scale. This team has spent the last two Augusts collecting "
+      "thumbs on scales because the actual difference makers keep ending up in the "
+      "training room.",
+      "<b>Henry is the one nobody will write about and the one that tells you the most.</b> "
+      "He signed on 29 July. He lasted two weeks. He got hurt in a joint practice against "
+      "the Titans and the team processed him as waived/injured before the ball was even "
+      "kicked off on Thursday. That is not cruelty, that is the business - waived/injured "
+      "means he reverts to injured reserve if he clears, and the roster spot opens now "
+      "instead of in September. But it is the fourth or fifth time this camp that a body "
+      "we brought in to survive August did not survive August.",
+      "Because here is the part that made me laugh out loud, and not the good kind. Those "
+      "three spots did not stay open for a single afternoon. The same day, the 49ers "
+      "signed cornerback <b>Eli Apple</b> - who they had waived themselves on 2 August, "
+      "so we cut him and re-signed him inside of two weeks - defensive lineman "
+      "<b>Xavier Thomas</b>, and running back <b>Zamir White</b>, the former Raiders "
+      "fourth-rounder who was in here for a tryout on Monday. All three on one-year deals. "
+      "Three out, three in, ninety men, nothing gained.",
+      "White is the one with a purpose, and you already know why if you read {rbroom}. "
+      "When your top four backs are hurt or being managed you go get somebody who has "
+      "carried the ball in a real game, and White has. He is not the answer. He is a body "
+      "with 227 pounds on it who can take twelve carries on Thursday so that the guys we "
+      "actually need in Melbourne do not have to.",
+      "That is what this roster is right now. A churn machine. Sign a guy, watch him get "
+      "hurt, waive him, sign the next guy, and pray that the ones whose names are on the "
+      "jerseys people bought are standing upright on 10 September. The {sched} says the "
+      "season starts in Australia in twenty-nine days. The {depth} says what we have. The "
+      "{preview} says what it is supposed to look like. And on Thursday night {shanahan} "
+      "is going to coach a preseason game at Levi's in which almost none of the players "
+      "who matter will appear, which is exactly how it should be, and which will still "
+      "not stop me from watching every snap of it. The rest of the coverage is on the "
+      "{hub}.",
+      "We have a punter. It is Corliss Waitman. He kicks with his left foot. In the year "
+      "we are supposed to be a Super Bowl team, that is the settled question. Everything "
+      "else is a tryout.",
+     ],
+     links={'rbroom': ('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html',
+                       'what happened to the running back room on Monday'),
+            'shanahan': ('49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html',
+                         'Kyle Shanahan'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html', '49ers',
+               'The 49ers Are Down Four Running Backs, Bosa Is Sore, and the Only Good News Is George Kittle'),
+              ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster and Depth Chart'),
+              ('49ers-injuries-again-training-camp-august-2026.html', '49ers',
+               'It Is August and the 49ers Are Already Hurt')]),
 ]
 
 

@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 12 Aug 2026 15:12:59 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 12 Aug 2026 23:00:21 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The 49ers Waived Junior Bergen Again, and Kept the Punter</title>
+    <link>https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</guid>
+    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers waived Junior Bergen and Jack Bouwmeester and put K.J. Henry on waived/injured, then signed Eli Apple, Xavier Thomas and Zamir White.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Rays 12, A&#39;s 4: Six Home Runs, Two of Them From a .216 Hitter</title>
     <link>https://bayareasportsblog.com/articles/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Stephen Curry&#39;s career records: 4,248 three-pointers, the night he passed Ray Allen, the first player to 4,000, and how far ahead of the field he actually is.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/stephen-curry-career-records-three-pointers.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Sutter Health Park: What It Is Like When MLB Plays in a Triple-A Yard</title>
-    <link>https://bayareasportsblog.com/articles/sutter-health-park-mlb-guide-dimensions-capacity.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/sutter-health-park-mlb-guide-dimensions-capacity.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Sutter Health Park by the numbers: capacity 14,014, the dimensions, the wind, and why it produces the second-highest home run rate in Major League Baseball.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/sutter-health-park-mlb-guide-dimensions-capacity.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

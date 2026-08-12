@@ -9,7 +9,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nfl.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.jpg</image:loc></image:image>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/49ers.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-dynasty-team-of-the-decade.jpg</image:loc></image:image>
@@ -181,6 +181,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html</loc>
