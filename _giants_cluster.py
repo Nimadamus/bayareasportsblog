@@ -55,6 +55,33 @@ GIANTS_ASTROS_BOX = """<div class="reftable">
 </table>
 </div>"""
 
+ASTROS_RUBBER_LINE = ('<div class="reftable">\n<table>\n<caption>Houston Astros at San '
+                      'Francisco Giants &mdash; Wednesday 12 August 2026, Oracle Park, '
+                      '28,101</caption>\n' + LINEHEAD + '\n<tbody>\n'
+                      + LINE('Houston', [0, 0, 0, 0, 0, 0, 1, 1, 0], 2, 4, 0) + '\n'
+                      + LINE('<b>San Francisco</b>', [1, 0, 0, 0, 0, 0, 0, 0, 0], 1, 5, 1)
+                      + '\n</tbody>\n</table>\n</div>')
+
+ASTROS_RUBBER_BOX = """<div class="reftable">
+<table>
+<caption>Pitching &mdash; Astros at Giants, 12 August 2026</caption>
+<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th><th class="num">P</th></tr></thead>
+<tbody>
+<tr><td>Bryan King, HOU</td><td class="num">0.2</td><td class="num">0</td><td class="num">1</td><td class="num">1</td><td class="num">2</td><td class="num">1</td><td class="num">19</td></tr>
+<tr><td>Enyel De Los Santos, HOU</td><td class="num">0.1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">0</td><td class="num">9</td></tr>
+<tr><td>Tatsuya Imai, HOU</td><td class="num">3.0</td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">3</td><td class="num">55</td></tr>
+<tr><td>AJ Blubaugh, HOU</td><td class="num">1.2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">18</td></tr>
+<tr><td>Steven Okert, HOU</td><td class="num">1.1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17</td></tr>
+<tr><td>Bryan Abreu, HOU</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">12</td></tr>
+<tr><td>Josh Hader, HOU</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8</td></tr>
+<tr><td><b>Adrian Houser, SF</b></td><td class="num">6.0</td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">5</td><td class="num">73</td></tr>
+<tr><td>Sam Hentges, SF</td><td class="num">0.1</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12</td></tr>
+<tr><td>Keaton Winn, SF</td><td class="num">1.2</td><td class="num">1</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">16</td></tr>
+<tr><td>Reiver Sanmartin, SF</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">15</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ARTICLES = [
 # --------------------------------------------------------- 1. Where the rebuild stands
 dict(slug='giants-2026-where-the-rebuild-actually-stands',
@@ -661,6 +688,151 @@ dict(slug='giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11',
             'hub': ('../giants.html', 'Giants hub')},
      related=[('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html', 'Giants',
                'Tigers 3, Giants 1: Eight Innings of Webb, Wasted'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands')]),
+
+# --------------------------------------------------------- recap: 12 August, rubber game
+dict(slug='giants-astros-2-1-adames-back-spasms-bericoto-error-houser-august-12',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Astros 2, Giants 1: Six Shutout Innings, One Drop, One Bad Back',
+     h1="Astros 2, Giants 1: Adrian Houser Threw Six Shutout Innings, a Rookie Dropped a "
+        "Fly Ball, and Willy Adames Walked Off Holding His Back",
+     dek="One run in the first inning and nothing for eight after it, a three-base error "
+         "in the seventh that tied it, and our shortstop arguing with his manager about "
+         "coming out of a game nobody will remember.",
+     desc="Astros 2, Giants 1 at Oracle Park: Adrian Houser's six shutout innings wasted, "
+          "a Bericoto error tied it, and Willy Adames left with back spasms.",
+     date='2026-08-12',
+     card=('giants', 'Adames', 'Houser was perfect, the defence was not, and the back went'),
+     body=[
+      "{whisenhunt}, and I sat down and wrote something nice about this team &mdash; an "
+      "actual, unforced compliment, in August, in a fifty-win season. Twenty-four hours "
+      "later the San Francisco Giants went out on Wednesday afternoon and lost the rubber "
+      "game to Houston two to one in the most 2026 way available to them. One run. Five hits. A dropped fly "
+      "ball. And Willy Adames walking off the field in the eighth inning with his hand on "
+      "his lower back, arguing with the manager the whole way. I should have known better. "
+      "Every time I say something kind about this club it charges me interest the next day.",
+
+      '<figure style="margin:0 0 30px;text-align:center">'
+      '<picture><source type="image/webp" srcset="../assets/img/players/oracle-park-real-400w.webp 400w, '
+      '../assets/img/players/oracle-park-real-800w.webp 800w, ../assets/img/players/oracle-park-real.webp 1200w" '
+      'sizes="(max-width: 820px) 92vw, 760px">'
+      '<img src="../assets/img/players/oracle-park-real.jpg" '
+      'alt="Oracle Park in San Francisco, where the Giants lost 2-1 to the Astros on 12 August 2026" '
+      'style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;'
+      'background:var(--surface);border-radius:12px;border:1px solid var(--line)" width="1200" height="675" '
+      'decoding="async" fetchpriority="high" '
+      'srcset="../assets/img/players/oracle-park-real-400w.jpg 400w, '
+      '../assets/img/players/oracle-park-real-800w.jpg 800w, '
+      '../assets/img/players/oracle-park-real.jpg 1200w" sizes="(max-width: 820px) 92vw, 760px"></picture>'
+      '<figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">'
+      'Twenty-eight thousand, one hundred and one people came to a Wednesday afternoon '
+      'rubber game and got exactly one Giants run for the trouble.</figcaption></figure>',
+
+      ASTROS_RUBBER_LINE,
+
+      "<b>Start with the part that should have been the story.</b> Adrian Houser had not "
+      "started a major league game since June. On Wednesday he went six innings, gave up two "
+      "hits, walked one, struck out five and did the whole thing on seventy-three pitches. "
+      "Seventy-three. Fifty of them strikes. Against a first-place lineup with Yordan Alvarez "
+      "in it. He was in and out of the dugout so fast the grounds crew barely had time to "
+      "rake. That is a professional pitcher taking a bad team's afternoon and making it look "
+      "organised, and if this club had scored him two runs it would have been the easiest win "
+      "of the month.",
+
+      "They scored him one, in the first inning, before most of the ballpark had sat down. "
+      "Adames singled the rally into being and came around on a Victor Bericoto single to "
+      "left. One-nothing. That was the offence. That was all of it. Houston then ran seven "
+      "pitchers at us &mdash; a bullpen game, on the road, in a rubber match &mdash; and we "
+      "put up eight consecutive zeroes against a parade of arms that included a guy in his "
+      "first big-league season and a middle-innings bulk man nobody outside Houston can pick "
+      "out of a line-up. Tatsuya Imai came in and threw three shutout innings on fifty-five "
+      "pitches. Steven Okert, Bryan Abreu and Josh Hader closed it out by retiring nine of "
+      "the last ten. Five hits total. Two of them by Christian Koss, who is hitting .186.",
+
+      "<b>Now the seventh, because that is where it actually went.</b> Houser's day was done "
+      "at seventy-three pitches, which I have opinions about, and Sam Hentges came in and "
+      "gave up a single to Alvarez. Fine. Isaac Paredes grounded to short and Adames flipped "
+      "it to second for the out &mdash; and that is the flip, right there, that is the moment "
+      "his back went. Then Daulton Varsho hit a fly ball to left field. A routine fly ball to "
+      "left field. Bericoto dropped it. Not a dive, not the sun, not the wind off McCovey "
+      "Cove. He dropped it, and by the time it was over Paredes was standing on third and "
+      "Varsho was on second on a single error. Nelson Vel&aacute;zquez pinch-hit a sacrifice "
+      "fly to centre and the game was tied. Houser's line stays clean, which is the cruellest "
+      "part of the box score: six shutout innings and the game got taken from him by a "
+      "twenty-three-year-old who could not squeeze a can of corn.",
+
+      "I am not going to bury the kid. Bericoto is a rookie left fielder who is hitting .273 "
+      "with a .500 slugging percentage and who drove in the only run we scored. He is exactly "
+      "the sort of player this whole miserable summer is supposed to be about. But this is "
+      "the thing nobody wants to say out loud about a rebuild: you spend the year watching "
+      "young players learn how to play the outfield in the major leagues, at Oracle Park, in "
+      "front of paying customers, and some afternoons the tuition bill arrives in the seventh "
+      "inning of a one-run game.",
+
+      "<b>The eighth was almost worse because nobody made a mistake.</b> Keaton Winn threw a "
+      "pitch to Taylor Trammell, Trammell tripled to right, Nick Allen hit a sacrifice fly to "
+      "left, two to one, done. Three pitches, one run, no defensive alibi. Then Abreu struck "
+      "out the side's worth of our hitters in the bottom half and Hader needed eight pitches "
+      "in the ninth. Andrew Knizner fouled out, Koss flied out, Jung Hoo Lee grounded out to "
+      "second to end it. Lee, by the way, went nought for five and saw twenty-three pitches "
+      "doing it.",
+
+      ASTROS_RUBBER_BOX,
+
+      "<b>And then Adames.</b> He came out after the seventh, Koss slid over to short, Buddy "
+      "Kennedy went to third, and the man who signed the biggest free-agent contract in the "
+      "history of this franchise spent the rest of the afternoon in the clubhouse with back "
+      "spasms. Tony Vitello said afterwards that he had to fight him tooth and nail to get "
+      "him out of the game. Read that again. It is 12 August, the Giants are twenty-one games "
+      "under .500, and Willy Adames is arguing with his manager about staying in a game that "
+      "means nothing to anybody, with a back that has been bothering him on and off since "
+      "June. He is hitting .224. He has been hitting .224 all summer while people around here "
+      "have been unkind about him. He also singled, walked, scored our only run and refused "
+      "to come out. I have watched players on better Giants teams give less of a damn than "
+      "that.",
+
+      "The word is that it is not an injured-list situation and that he will sit Friday night "
+      "against Colorado. I hope that is true, and I hope somebody in that building has the "
+      "sense to give him more than one day, because there is precisely nothing left to play "
+      "for and a shortstop with a chronic back is a problem you take into 2027 if you are "
+      "stupid about it in August. Sit him a week. Nobody is catching anybody.",
+
+      "So the series goes to Houston, two games to one. Fifty and seventy-one. That is the "
+      "record, and the schedule says there are still forty-one of these to sit through. The "
+      "one genuinely useful thing to come out of Wednesday is Houser, and the plan, as I "
+      "understand it, is to leave him in the rotation the rest of the way and find out "
+      "whether he is worth a contract for next year. Good. That is the correct use of "
+      "September for a team in this position, and it is the same argument I have been making "
+      "on {rebuild} for a month: every remaining start belongs to somebody you are trying to "
+      "learn something about.",
+
+      "What I cannot make peace with is the shape of it. Six shutout innings from a "
+      "thirty-three-year-old on a one-year look, a rookie drops a fly ball, the shortstop "
+      "hurts himself making a routine flip, and a team that scored four the night before "
+      "manages one. There is no villain in this one. {vitello} did not lose it &mdash; he ran "
+      "his starter six clean innings and got the ball to the right arms. Nobody sulked. They "
+      "just are not good enough, and the honest, tiring truth about a season like this one is "
+      "that most of the losses look exactly like Wednesday: quiet, forgettable, over by four "
+      "o'clock, and one small piece of somebody's body a little more broken than it was at "
+      "noon.",
+
+      "Colorado comes in on Friday and we get to do it again. Every result is in the "
+      "{season}, where this roster actually stands is in {rebuild}, and the rest of it lives "
+      "on the {hub}.",
+     ],
+     links={'whisenhunt': ('giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html',
+                           'Carson Whisenhunt beat Hunter Brown on Tuesday night'),
+            'vitello': ('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html',
+                        'Tony Vitello'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'the rebuild page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html', 'Giants',
+               'Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait'),
               ('giants-2026-season-hub-results-coverage.html', 'Giants',
                'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',

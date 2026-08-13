@@ -4,7 +4,9 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-12** (49ers roster-churn column published 12 Aug: Bergen,
+**Last updated: 2026-08-12** (Giants recap of the 12 Aug rubber game published same day:
+Astros 2-1, Adrian Houser's six shutout innings wasted on a Bericoto error, Adames out
+with back spasms. Earlier the same day: 49ers roster-churn column published 12 Aug: Bergen,
 Bouwmeester and K.J. Henry waived, Apple/Thomas/White signed, Waitman is the punter. Also
 Tuesday MLB recaps published for the 11 Aug games: Giants
 4-1 over Houston behind Carson Whisenhunt's best start, A's 12-4 to Tampa Bay with six
@@ -27,7 +29,7 @@ obituary, and the Sunday MLB pair.)
 | Cal / Stanford | — | **Cal vs UCLA, 5 Sep** | Cal opener reaction | 5–6 Sep | news | — |
 | Cal / Stanford | — | **Big Game, 21 Nov, Berkeley** | Big Game week package | 17–21 Nov | news + refresh evergreen | refresh the Big Game and Axe pages that week |
 | **Warriors** | foundation built (4 pieces) + **Don Nelson obituary published 10 Aug** (died 9 Aug, 86; Run TMC, We Believe, Curry's rookie year) | NBA 2026-27 schedule release | **schedule / season hub** | on release | news→permanent | the one missing permanent page |
-| **Giants** | 4-1 win over Houston recapped 12 Aug — Whisenhunt 5.2 IP 1 ER over Hunter Brown, Eldridge's 12th, win number fifty (50-70); Webb recap 10 Aug; Roupp/Vitello column 9 Aug | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
+| **Giants** | 2-1 rubber-game loss to Houston recapped 12 Aug — Houser 6 IP 0 R on 73 pitches in his first start since June, Bericoto three-base error tied it in the 7th, Trammell triple + Allen sac fly in the 8th, Adames left with back spasms (no IL expected, sits Friday), 50-71; 4-1 win over Houston recapped 12 Aug — Whisenhunt 5.2 IP 1 ER over Hunter Brown, Eldridge's 12th, win number fifty (50-70); Webb recap 10 Aug; Roupp/Vitello column 9 Aug | rest of the 2026 season, to early Oct | recaps + rebuild-page updates; the manager decision is the running story | ongoing | news | update the rebuild page on every roster move |
 | Giants | — | end of season, early Oct | season-in-review, 2027 offseason preview | Oct | news→permanent | — |
 | Giants | — | offseason, Nov–Feb | manager decision, rotation signings, Eldridge spring watch | as they happen | news | — |
 | **Athletics** | 12-4 loss to Tampa Bay recapped 12 Aug — six homers allowed, Walls' two, Martinez complete game, Wilson's errorless streak at 113 (47-73); Fenway series win 10 Aug | rest of the 2026 season | recaps + roster updates | ongoing | news | — |
