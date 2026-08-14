@@ -268,6 +268,103 @@ dict(slug='warriors-roster-construction-cap-sheet-2026-27',
      related=[('warriors-2026-27-roster-depth-chart.html', 'Warriors', 'The 2026-27 Warriors Roster and Depth Chart'),
               ('warriors-front-office-failures-curry-exit-not-preposterous.html', 'Warriors', 'The Front Office Keeps Failing Steph Curry'),
               ('warriors-2026-27-season-outlook.html', 'Warriors', 'The 2026-27 Warriors: What This Roster Actually Is')]),
+
+# ------------------------------------------- 5. development failure column, 14 August
+dict(slug='warriors-clinging-to-past-cannot-develop-young-players',
+     section='Warriors', tag='Warriors', hub='Warriors',
+     title='The Warriors Cling to the Past Because They Cannot Build a Future',
+     h1="The Warriors Are Clinging to the Past Because They Cannot Develop a Young Player to Save the Franchise",
+     dek="Wiseman, the two timelines, Poole, Kuminga, Moody. A decade of draft capital "
+         "went into that list, and the plan for 2026-27 is still a 38-year-old point "
+         "guard and whichever veterans would take the minimum. That is not loyalty. "
+         "That is a franchise that cannot grow its own.",
+     desc="Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep "
+          "buying old veterans - because this franchise cannot develop young players.",
+     date='2026-08-14',
+     card=('warriors', 'Clinging to the Past', 'A franchise that cannot grow its own'),
+     body=[
+      "Look at the projected starting five for the 2026-27 Golden State Warriors and "
+      "tell me what you see. Stephen Curry, thirty-eight. Draymond Green, deep in his "
+      "thirties. Kristaps Porzingis, bought. Al Horford, forty, waiting behind him, "
+      "bought. Jimmy Butler, the second-highest-paid player on the roster, bought, and "
+      "currently not even in the lineup projection because of his knee. This is not a "
+      "basketball team. This is a museum with a payroll, and the reason it is a museum "
+      "is the thing nobody at that practice facility wants to say into a microphone: "
+      "this franchise cannot develop a young player to save its life, and it has been "
+      "proving it for six years straight.",
+      "Run the list, because the list is damning. James Wiseman, second overall pick, "
+      "the highest pick this franchise had held in a generation, handed to a "
+      "win-now locker room with no development plan, no G-League runway, no patience, "
+      "and shipped out as a salary line. The famous \"two timelines\" - remember that? "
+      "The front office stood at a podium and told us they could contend with Curry "
+      "and build the next era at the same time, and what we got was neither: the "
+      "young timeline never developed and the old timeline paid the luxury tax for "
+      "the privilege of watching it not develop. Jordan Poole got his development "
+      "year, got paid, got punched, got traded. {kuminga} is the definitive document "
+      "of how this coaching staff handles a young player who is not ready-made for "
+      "the system - a season-long negotiation that developed nobody and satisfied "
+      "no one. And Moses Moody, the quiet one on the list, spent years earning trust "
+      "in eight-minute increments, finally got a real contract, and is now hurt. "
+      "That is five first-round investments. The return is one rotation player and "
+      "four cautionary tales.",
+      "And here is the thing about a franchise that cannot grow its own: it has to "
+      "buy everything, and it has to buy old, because old is the only thing the "
+      "market sells to a team with no cap room and no patience. That is not a "
+      "strategy. That is a habit wearing a strategy's clothes. The {cap} shows where "
+      "it leads - roughly $147 million tied up in three players on the wrong side of "
+      "their peaks, minimum contracts and hope behind them. Porzingis and Horford "
+      "and Butler are not a future. They are a very expensive way of postponing the "
+      "question the front office has failed to answer since 2020: who is the next "
+      "Warrior? Not the next veteran in a Warriors jersey. The next Warrior.",
+      "The bitter joke is that the two young players actually starting this year - "
+      "Brandin Podziemski and Gui Santos - are not starting because the development "
+      "machine worked. They are starting because the cap sheet forced it. Santos at "
+      "$4.6 million starts for a team paying two men a combined $119 million, and "
+      "the {depth} says the quiet part plainly: that tells you where the pressure "
+      "landed, not where the plan succeeded. Podziemski grew into a real player "
+      "mostly by refusing not to. When your development success stories are the "
+      "guys who developed in spite of you, you do not have a development program. "
+      "You have survivors.",
+      "Meanwhile the rookie, Yaxel Lendeborg, walks into the exact machine that "
+      "chewed up everyone before him: a win-now roster, a coach who trusts veterans "
+      "the way the rest of us trust gravity, and minutes that have to be earned "
+      "from men making eight figures who are not going to hand them over. Why would "
+      "his story end differently? Nothing about the machine has changed. The people "
+      "running it have not changed. The only thing that changes is the name on the "
+      "cautionary tale.",
+      "And the reason this all keeps working - the reason the building sells out and "
+      "the questions stay soft - is the past. The banners do the talking. {curry} is "
+      "still out there being the only reason to watch, and every night he cooks for "
+      "a quarter, the whole operation gets to point at him instead of at the six "
+      "years of failed drafts behind him. The dynasty bought this front office a "
+      "decade of benefit of the doubt, and as {easyanswers} argued, that grace "
+      "period is over. Clinging to Curry is not a plan. It is an anesthetic. It "
+      "works right up until the moment he stops playing, and then this franchise "
+      "wakes up in the recovery room with no young core, no cap room, no draft "
+      "capital, and a two-decade rebuild staring back at it.",
+      "I say all of this as somebody who will watch every game, because that is the "
+      "curse of it. The past they are clinging to is my past too. I was there for "
+      "the parades. But the parade route does not run through 2027, and somebody in "
+      "that building needs to act like they know it. Develop somebody. Anybody. "
+      "Prove the machine can produce one more Warrior before the last real one "
+      "walks off the floor. The {frontoffice} argument is no longer about whether "
+      "they have failed Curry. It is about whether they are capable of anything "
+      "else. The rest of the coverage is on the {hub}.",
+     ],
+     links={'kuminga': ('warriors-kerr-kuminga-role-handling.html', 'The Kuminga saga'),
+            'cap': ('warriors-roster-construction-cap-sheet-2026-27.html', 'cap sheet'),
+            'depth': ('warriors-2026-27-roster-depth-chart.html', 'depth chart'),
+            'curry': ('stephen-curry-career-records-three-pointers.html', 'Curry'),
+            'easyanswers': ('warriors-out-of-easy-answers.html', 'our column on the end of the era'),
+            'frontoffice': ('warriors-front-office-failures-curry-exit-not-preposterous.html',
+                            'front office'),
+            'hub': ('../warriors.html', 'Warriors hub')},
+     related=[('warriors-out-of-easy-answers.html', 'Warriors',
+               "The Warriors Are Out of Easy Answers, and That's the Whole Story"),
+              ('warriors-kerr-kuminga-role-handling.html', 'Warriors',
+               'How Steve Kerr Actually Handled Jonathan Kuminga'),
+              ('warriors-front-office-failures-curry-exit-not-preposterous.html', 'Warriors',
+               'The Front Office Keeps Failing Steph Curry')]),
 ]
 
 
