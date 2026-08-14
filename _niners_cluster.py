@@ -747,6 +747,99 @@ dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
                "De'Zhaun Stribling Is Forcing His Way Into the Starting Lineup"),
               ('49ers-2026-schedule-season-hub.html', '49ers',
                'The 2026 49ers Schedule, Week by Week')]),
+
+# ------------------------------------------- 8. Shanahan ring-or-bust column, 14 August
+dict(slug='kyle-shanahan-needs-to-win-the-ring-this-year-2026',
+     section='49ers', tag='49ers', hub='49ers',
+     title='Kyle Shanahan Needs to Win the Ring This Year. Say It Out Loud.',
+     h1="Kyle Shanahan Needs to Win the Ring This Year, and Everybody in the Building Knows It",
+     dek="Year ten. Two Super Bowls lost, both to the same team, one of them in a city "
+         "this fan base still cannot say without wincing. The roster is built, the "
+         "quarterback is peaking, and the excuse supply has finally run out.",
+     desc="Year ten of Kyle Shanahan, two Super Bowl losses, a peaking Brock Purdy and a "
+          "loaded roster: why 2026 is the season the ring becomes the whole job.",
+     date='2026-08-14',
+     card=('49ers', 'Ring or Bust', 'Year ten. Two lost Super Bowls. No excuses left.'),
+     body=[
+      "There is a sentence this fan base keeps swallowing every August, and I am done "
+      "swallowing it, so here it is in plain English: Kyle Shanahan needs to win the "
+      "ring this year. Not \"compete.\" Not \"be in the mix.\" Not another January of "
+      "house-money football that ends with somebody else's confetti. The ring. This "
+      "year. Say it out loud, because pretending the standard is anything lower is how "
+      "a decade slips past you.",
+      "Because that is what this is now - a decade. This is year ten of the Shanahan "
+      "era. Ten years of the prettiest offense in football, ten years of coaching-tree "
+      "worship, ten years of every broadcast telling us we are watching a genius. And "
+      "the trophy case from those ten years holds two NFC championships and zero "
+      "Lombardis. Two Super Bowls reached, two Super Bowls lost, both to the same "
+      "franchise, and the second one in a city whose name we do not say around here - "
+      "{vegas} covers what that night did to us, and I am still not over it, and "
+      "neither is he. A blown fourth-quarter lead in Miami and an overtime dagger in "
+      "the desert. That is the resume. Brilliant, beloved, and empty-handed.",
+      "And before anybody starts typing: I know. Nobody schemes a wider-open receiver. "
+      "Half the head coaches in this league ran his offense or worked down the hall "
+      "from it. The man can call a game. That is precisely why the standard is what it "
+      "is. You do not get graded on a curve for being the smartest coach in the "
+      "building for ten years. At some point the genius has to cash. Andy Reid heard "
+      "this exact conversation for two decades - brilliant, innovative, cannot win the "
+      "big one - and then he won it, and now nobody remembers the conversation. That "
+      "door swings both ways, and Shanahan is standing in it.",
+      "Now look at what he has been handed in 2026, because this is the part that "
+      "removes the last excuse. {purdy} is playing the best football of his life and "
+      "is five games from owning the career passer rating record outright. The "
+      "receiver room got rebuilt into something absurd - Mike Evans, Christian Kirk, "
+      "Deebo home on a one-year deal, and a rookie in Stribling who has looked like "
+      "the best player on the field since camp opened. Kittle is still Kittle. "
+      "McCaffrey, when vertical, is still the most dangerous player in the sport. "
+      "Raheem Morris has the defense playing for him, Greenlaw is back, and the front "
+      "office spent all of August signing bodies the moment anything cracked. The "
+      "{preview} lays it out position by position, and the honest read is simple: "
+      "there is no roster in the NFC with fewer holes. \"Best team if healthy\" is not "
+      "my phrase. It is everybody's phrase. It has been everybody's phrase for three "
+      "years, and it has bought exactly nothing.",
+      "Yes, there are real obstacles, and I am not pretending otherwise. The man is "
+      "coaching through recovery from a car accident that was worse than the first "
+      "reports let on, which is a genuinely hard thing that nobody should wave away. "
+      "{injuries} is already longer than anyone wants in August, and the running back "
+      "room spent a week held together with tryout guys. The league, in its wisdom, "
+      "decided our season should open at the Melbourne Cricket Ground, seventeen time "
+      "zones from home, with Miami waiting on a short week after. None of that is "
+      "fake. All of it is survivable, and every contender has a version of it. The "
+      "teams that win rings are the ones that stop itemizing their obstacles.",
+      "Here is the uncomfortable arithmetic underneath all of it. Windows do not "
+      "announce when they close. McCaffrey and Kittle are on the back side of their "
+      "primes. Deebo is here for one year. Evans is here for the twilight. The cheap "
+      "years of the quarterback are gone, which means this is the last version of "
+      "this roster that can be this deep. In 2027 something gives - it always does. "
+      "Whatever this team is going to be under Kyle Shanahan, it is going to be it "
+      "now. There is no version of this era where year twelve is the good part.",
+      "And understand what is actually at stake for him, because it is bigger than a "
+      "season. This is the franchise of Walsh and Montana and Young and Rice, five "
+      "Lombardis in the lobby, and the standard here was set by men who finished the "
+      "job. Win it, and Shanahan walks into that room and the decade of near-misses "
+      "becomes the story of persistence - the Reid arc, the redemption everybody "
+      "writes gladly. Lose again with this roster, and the conversation stops being "
+      "\"when does Kyle win one\" and becomes \"does Kyle ever win one,\" and that "
+      "second conversation has an expiration date on it in every building in this "
+      "league, no matter whose name is on the play sheet.",
+      "So no more house money. No more moral victories, no more prettiest-loss-in-"
+      "football, no more January exits explained away by a hamstring. The {sched} "
+      "starts in Melbourne in four weeks and ends, if it ends right, in February with "
+      "a sixth trophy in the lobby. That is the season. That is the whole season. "
+      "Ring or bust, and for the first time in ten years, saying it out loud is not "
+      "pressure. It is just the truth. The rest of the coverage is on the {hub}.",
+     ],
+     links={'vegas': ('49ers-still-paying-for-vegas.html', 'the Super Bowl this team is still paying for'),
+            'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html', 'Brock Purdy'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'injuries': ('49ers-injuries-again-training-camp-august-2026.html', 'The injury list'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-still-paying-for-vegas.html', '49ers', 'The 49ers Are Still Paying For Vegas'),
+              ('49ers-shanahan-best-team-if-healthy-super-bowl-2026.html', '49ers',
+               'Shanahan Says This Is His Best Team If Healthy'),
+              ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
+               'The 2026 49ers, Position by Position')]),
 ]
 
 

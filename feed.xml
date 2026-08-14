@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 14 Aug 2026 13:19:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 13:33:19 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>Preseason week one recap: Shanahan sat every 49ers starter in a 19-13 loss, Rourke and Stribling impressed, and the Raiders lost 27-14 at home.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Kyle Shanahan Needs to Win the Ring This Year. Say It Out Loud.</title>
+    <link>https://bayareasportsblog.com/articles/kyle-shanahan-needs-to-win-the-ring-this-year-2026.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/kyle-shanahan-needs-to-win-the-ring-this-year-2026.html</guid>
+    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Year ten of Kyle Shanahan, two Super Bowl losses, a peaking Brock Purdy and a loaded roster: why 2026 is the season the ring becomes the whole job.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/kyle-shanahan-needs-to-win-the-ring-this-year-2026.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>The 49ers Waived Junior Bergen Again, and Kept the Punter</title>
@@ -358,15 +367,6 @@
     <category>Stanford Preview</category>
     <description>Tavita Pritchard takes over on The Farm in year two of the Andrew Luck era, with Michigan transfer Davis Warren at quarterback and a Week 0 opener.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/stanford-2026-season-preview-pritchard-luck-warren.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Stanford Axe and Its Long Criminal History</title>
-    <link>https://bayareasportsblog.com/articles/stanford-axe-trophy-history.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/stanford-axe-trophy-history.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Big Game</category>
-    <description>The Stanford Axe began as a yell leader&#39;s prop in 1899, was stolen repeatedly by both schools, and has gone to the Big Game winner since 1933.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/stanford-axe-trophy-history.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
