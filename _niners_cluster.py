@@ -647,6 +647,106 @@ dict(slug='49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman',
               ('49ers-2026-roster-depth-chart.html', '49ers', 'The 2026 49ers Roster and Depth Chart'),
               ('49ers-injuries-again-training-camp-august-2026.html', '49ers',
                'It Is August and the 49ers Are Already Hurt')]),
+
+# ------------------------------------------- 7. preseason wk1 recap, Thursday 13 August
+dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
+     section='49ers', tag='49ers', hub='49ers',
+     title='The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.',
+     h1="The 49ers Sat the Whole Team and Lost to Tennessee, the Raiders Played Their Starters and Got Beat at Home, and Only One of Those Is Fine",
+     dek="Preseason week one: Shanahan dressed nobody you have heard of and lost 19-13, "
+         "Kurtis Rourke and De'Zhaun Stribling made the night watchable anyway, and in "
+         "the desert the Raiders played Cousins and the No. 1 pick and still got run out "
+         "of their own building.",
+     desc="Preseason week one recap: Shanahan sat every 49ers starter in a 19-13 loss, "
+          "Rourke and Stribling impressed, and the Raiders lost 27-14 at home.",
+     date='2026-08-14',
+     card=('49ers', 'Preseason, Week One', 'We sat everybody. Vegas played everybody. Everybody lost.'),
+     body=[
+      "Preseason football is back, which means it is time for the annual exercise where "
+      "we all watch a game that does not count, played by guys fighting for the bottom "
+      "of the roster, and pretend we can be normal about it. The 49ers lost 19-13 to "
+      "Tennessee on Thursday night at Levi's, and I want to be very clear about how "
+      "little the scoreboard matters, because Kyle Shanahan sat everybody. Not \"rested "
+      "a few veterans.\" Everybody. No Purdy, no Kittle, no McCaffrey, no Bosa, no "
+      "Warner. If a name on the back of a jersey has ever been on a jersey anybody "
+      "bought, that man was in a hoodie on the sideline.",
+      "And thank God for that. Have you seen {injuries}? This roster is being held "
+      "together with athletic tape and one-year deals. Twenty guys have missed practice "
+      "at various points this month, the running back room got {rbroom}, and the season "
+      "opens on the other side of the planet in four weeks. The absolute last thing I "
+      "needed on a Thursday in August was Christian McCaffrey taking a live tackle in a "
+      "game that means nothing. Tennessee played their starters. Their first-team "
+      "offense marched 95 yards on our third string for a touchdown on the opening "
+      "drive, Tony Pollard walked in, and I felt nothing. That is what a preseason "
+      "opener between a team playing its guys and a team hiding its guys looks like, "
+      "and Shanahan hiding his guys is the correct call every single time.",
+      "Now the part I actually enjoyed, because there was one. Kurtis Rourke was "
+      "legitimately good. The kid went 12-of-14 for 101 yards, led the touchdown drive "
+      "that Patrick Taylor Jr. finished from a yard out, and looked calm doing it - and "
+      "then left with a rib injury, because this is the 49ers and nobody is allowed to "
+      "have a clean night, not even the third quarterback in a game that does not "
+      "count. 12-of-14. In his first real audition. If the ribs are fine, that is the "
+      "most interesting quarterback development of the summer that does not involve the "
+      "starter chasing a passer-rating record.",
+      "And {stribling} keeps doing it. Seven catches, 63 yards, and the play of the "
+      "night for our side - a 32-yard catch on third-and-five when the drive was about "
+      "to die. Everything we have been yelling about since camp opened showed up under "
+      "actual stadium lights: the hands, the routes, the fact that he is simply open "
+      "all the time. The camp hype train has left the station and I am driving it. "
+      "Jordan Watkins quietly went 6-for-59 on ten targets too, which means the two "
+      "youngest receivers on the field were the two best 49ers on the field, and given "
+      "what this receiver room has been through this summer, that is not a small thing.",
+      "The rest of the night was preseason mush, and honest mush at that. We moved the "
+      "ball - 322 yards, 22 first downs - and finished nothing, going 9-of-19 on third "
+      "down and settling for Eddy Pineiro field goals from 41 and 52. Adrian Martinez "
+      "was fine in relief, 16-of-30 for 159, more mobile than accurate. The defense "
+      "spent the second half living in Will Levis's backfield, with Tatum Bethune and "
+      "our new friend Ogbo Okoronkwo both getting home for sacks. Backups losing to "
+      "backups by six while the actual team watches in street clothes is the best "
+      "possible version of a preseason loss. Moving on.",
+      "Meanwhile, in the desert, the franchise that abandoned Oakland had itself a "
+      "night. The Raiders played their starters - actually played them, Kirk Cousins "
+      "and the No. 1 overall pick and all - in Klint Kubiak's head coaching debut, at "
+      "home, in front of their own fans, and lost 27-14 to the Arizona Cardinals. They "
+      "scored 14 points in the first half and then got blanked after halftime in their "
+      "own building. I need everyone in the Bay to sit with that for a second. We sat "
+      "our entire team and lost by six. They played Cousins, who went 5-of-6 with a "
+      "touchdown to Michael Mayer, they played Fernando Mendoza, who went 10-of-16 for "
+      "96 and hit Jack Bech for a score, they got a 53-yard stiff-arm highlight run "
+      "from rookie Mike Washington Jr., and they still could not hold serve at home "
+      "against the Cardinals. That is the most Raiders result imaginable: the "
+      "highlights go viral, the scoreboard says you lost by 13.",
+      "And look, Mendoza is going to be fine, which is the depressing part for them - "
+      "the kid looked more comfortable than anything they ran out there last season, "
+      "and it did not matter, because the team around the quarterback is still the "
+      "team around the quarterback. Some franchises sit their stars in August because "
+      "the season has real stakes. Some franchises play their stars in August because "
+      "August is the season. I will let you decide which one just moved to Las Vegas. "
+      "This is, after all, {vegas} we swore we would never forgive.",
+      "So the ledger after week one of fake football: a loss that cost us nothing, a "
+      "rib X-ray that better come back clean, two young receivers who look like actual "
+      "players, and a rival that keeps finding new rock bottoms with a better roster "
+      "than they deserve. The {sched} says Melbourne is in four weeks. The {preview} "
+      "says what this team is supposed to be. Nothing that happened Thursday changed "
+      "either one, which is exactly what you want from a preseason opener. The rest of "
+      "the coverage is on the {hub}.",
+     ],
+     links={'stribling': ('49ers-dezhaun-stribling-training-camp-starter-2026.html',
+                          "De'Zhaun Stribling"),
+            'injuries': ('49ers-injuries-again-training-camp-august-2026.html',
+                         'the injury list'),
+            'rbroom': ('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html',
+                       'gutted in a single Monday'),
+            'vegas': ('49ers-still-paying-for-vegas.html', 'the city'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html', '49ers',
+               'The 49ers Waived Junior Bergen Again, and Kept the Left-Footed Punter'),
+              ('49ers-dezhaun-stribling-training-camp-starter-2026.html', '49ers',
+               "De'Zhaun Stribling Is Forcing His Way Into the Starting Lineup"),
+              ('49ers-2026-schedule-season-hub.html', '49ers',
+               'The 2026 49ers Schedule, Week by Week')]),
 ]
 
 

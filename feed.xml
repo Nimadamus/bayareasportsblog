@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 13 Aug 2026 05:51:50 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 13:19:48 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</guid>
+    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Preseason week one recap: Shanahan sat every 49ers starter in a 19-13 loss, Rourke and Stribling impressed, and the Raiders lost 27-14 at home.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The 49ers Waived Junior Bergen Again, and Kept the Punter</title>
     <link>https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</link>
@@ -358,15 +367,6 @@
     <category>Big Game</category>
     <description>The Stanford Axe began as a yell leader&#39;s prop in 1899, was stolen repeatedly by both schools, and has gone to the Big Game winner since 1933.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/stanford-axe-trophy-history.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Stanford vs Hawaii, Week 0: Preview, Keys and What to Watch</title>
-    <link>https://bayareasportsblog.com/articles/stanford-hawaii-week-zero-opener-preview.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/stanford-hawaii-week-zero-opener-preview.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Stanford Preview</category>
-    <description>Stanford vs Hawaii preview for Week 0 on 29 August: kickoff time, the 2025 rematch, the quarterback situations, the keys, and what each team has to prove.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/stanford-hawaii-week-zero-opener-preview.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

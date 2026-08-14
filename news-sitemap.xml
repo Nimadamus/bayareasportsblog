@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html</loc>
+    <loc>https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Four Running Backs Down, Bosa Sore, and Kittle Running. Again.</news:title>
+      <news:publication_date>2026-08-14</news:publication_date>
+      <news:title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</news:title>
     </news:news>
   </url>
   <url>
@@ -35,28 +35,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>A's 4, Red Sox 3: A Series Win, Their First Since Mid-June</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/don-nelson-dies-86-warriors-nellie-ball-run-tmc-curry.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Don Nelson Dies at 86: Nellie Ball, Run TMC and What He Gave Us</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/giants-astros-2-1-adames-back-spasms-bericoto-error-houser-august-12.html</loc>
     <news:news>
       <news:publication>
@@ -64,7 +42,7 @@
         <news:language>en</news:language>
       </news:publication>
       <news:publication_date>2026-08-12</news:publication_date>
-      <news:title>Astros 2, Giants 1: Six Shutout Innings, One Dropped Fly Ball, One Bad Back</news:title>
+      <news:title>Astros 2, Giants 1: Six Shutout Innings, One Drop, One Bad Back</news:title>
     </news:news>
   </url>
   <url>
@@ -76,17 +54,6 @@
       </news:publication>
       <news:publication_date>2026-08-12</news:publication_date>
       <news:title>Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-10</news:publication_date>
-      <news:title>Tigers 3, Giants 1 (F/10): We Wasted Eight Innings of Logan Webb</news:title>
     </news:news>
   </url>
 </urlset>
