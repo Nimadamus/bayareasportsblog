@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15</news:publication_date>
+      <news:title>They Called De'Zhaun Stribling a Reach. Nobody Is Laughing Now</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</loc>
     <news:news>
       <news:publication>
@@ -10,50 +21,6 @@
       </news:publication>
       <news:publication_date>2026-08-14</news:publication_date>
       <news:title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12</news:publication_date>
-      <news:title>The 49ers Waived Junior Bergen Again, and Kept the Punter</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12</news:publication_date>
-      <news:title>Rays 12, A's 4: Six Home Runs, Two of Them From a .216 Hitter</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-astros-2-1-adames-back-spasms-bericoto-error-houser-august-12.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12</news:publication_date>
-      <news:title>Astros 2, Giants 1: Six Shutout Innings, One Drop, One Bad Back</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12</news:publication_date>
-      <news:title>Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait</news:title>
     </news:news>
   </url>
   <url>

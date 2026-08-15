@@ -840,6 +840,93 @@ dict(slug='kyle-shanahan-needs-to-win-the-ring-this-year-2026',
                'Shanahan Says This Is His Best Team If Healthy'),
               ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
                'The 2026 49ers, Position by Position')]),
+
+# --------------------------------------------------------- 7. Stribling reach take
+dict(slug='49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026',
+     section='49ers', tag='49ers Column', hub='49ers',
+     title="They Called De'Zhaun Stribling a Reach. Nobody Is Laughing Now",
+     h1="Everybody Laughed at the 49ers for Taking De'Zhaun Stribling. It Is the 49ers Doing the Laughing Now",
+     dek="Draft night was a pile-on. The grades were bad, the takes were worse, and the "
+         "same people who called this a reach have spent all summer watching the kid "
+         "torch our own defence and then do it again under stadium lights.",
+     desc="Draft night said the 49ers reached for De'Zhaun Stribling. One camp and one "
+          "preseason game later, that take has aged like milk.",
+     date='2026-08-15',
+     card=('49ers', 'Who Is Laughing Now', "They called Stribling a reach. He has been the best rookie in camp"),
+     body=[
+      "I want everybody who dunked on this pick to sit still for a minute, because I have "
+      "been waiting all summer for this and I am not going to be gracious about it. "
+      "Draft night, the second the 49ers turned the card in for De'Zhaun Stribling, the "
+      "whole internet went off. Reach. Panic pick. Value left on the board. Grades in the "
+      "C range from people who had never watched a full game of his and were reading off "
+      "a board somebody else made. I sat there getting texts from friends who root for "
+      "other teams, all of them some version of \"lol.\" Fine. Great. Hope you enjoyed it.",
+      "Because here is where we are in the middle of August. That kid has been the single "
+      "best story of this training camp, and it has not been close. {camp} was not a "
+      "one-day flash and it never turned into one. He strung good day onto good day onto "
+      "good day against a secondary that is not exactly a JV squad, and by the second week "
+      "the reps he was winning stopped getting the rookie qualifier attached to them. "
+      "{chem} with Brock Purdy showed up early and then just kept deepening, which is the "
+      "part that actually matters, because quarterbacks do not throw back-shoulder balls "
+      "to guys they are not sure about.",
+      "And then the lights came on and he did it in a real stadium in front of real "
+      "people. {recap}: seven catches, 63 yards, and a 32-yard grab on third-and-five with "
+      "the drive dying. That is not a padded stat line against fourth-stringers in garbage "
+      "time. That is a receiver being the reason a possession stayed alive. Seven targets, "
+      "seven answers. The hands, the routes, the fact that he is somehow always open - all "
+      "the stuff we had been yelling about for three weeks travelled straight from the "
+      "practice field to an actual game without losing anything on the way.",
+      "So what exactly was the reach? Explain it to me. Because from where I am sitting "
+      "the \"reach\" is a 22-year-old who came into a receiver room stacked with veterans, "
+      "took reps from people making real money, and is now the most likely candidate on "
+      "this roster to be a Week 1 starter. Rooms do not hand out jobs out of politeness. "
+      "He is not getting these looks because the depth chart is empty - it is the opposite. "
+      "Mike Evans is in the building. Christian Kirk is here. {pearsall} took the receiver "
+      "room's worst news of the summer and the room did not collapse, and a big reason it "
+      "did not collapse is standing there in a rookie jersey catching everything thrown "
+      "near him.",
+      "I know exactly why the take existed, by the way. The draft-industrial complex is "
+      "built on consensus boards, and consensus boards are built on other people's "
+      "consensus boards, and the second a team picks a guy fifteen spots before the "
+      "internet agreed he should go, the algorithm spits out \"reach\" whether the player "
+      "is good or not. Nobody grading picks that night was grading the player. They were "
+      "grading how closely the 49ers agreed with a spreadsheet. That is not analysis. That "
+      "is a group project where everybody copied the same homework.",
+      "And look, I am the last person who hands this front office free credit. I have "
+      "spent years watching this organisation find creative new ways to make me insane, "
+      "and I will be first in line the next time they whiff. But this one they got right, "
+      "and they got it right by trusting their own eyes instead of the board everybody "
+      "else was reading off. That deserves to be said out loud, especially in a summer "
+      "where {injuries} has been the running theme and good news has been rationed.",
+      "The only thing left to do now is the part that scares me, which is the part where "
+      "we ask him to do it in games that count. Preseason is preseason. Camp is camp. "
+      "September is a different animal, the schedule opens on the other side of the "
+      "planet, and this league has humbled a hundred August legends. I am not putting him "
+      "in Canton. I am saying the argument has flipped completely: it is no longer \"can "
+      "he make the roster,\" it is \"how do you possibly keep him off the field.\" That is "
+      "a full 180 from where the national conversation had him in April.",
+      "So enjoy the quiet, everybody. The grades are still up on the internet with a C "
+      "next to them, and the guy those grades were about is the best rookie receiver I "
+      "have watched in this uniform in years. Reach. Sure. Keep laughing. The rest of our "
+      "coverage is on the {hub}.",
+     ],
+     links={'camp': ('49ers-dezhaun-stribling-training-camp-starter-2026.html',
+                     'What he did in camp'),
+            'chem': ('49ers-purdy-stribling-chemistry-loaded-roster-2026.html',
+                     'The chemistry'),
+            'recap': ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html',
+                      'In the preseason opener against Tennessee'),
+            'pearsall': ('49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html',
+                         'Losing Ricky Pearsall for the season'),
+            'injuries': ('49ers-injuries-again-training-camp-august-2026.html',
+                         'the injury list'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-dezhaun-stribling-training-camp-starter-2026.html', '49ers Column',
+               "De'Zhaun Stribling Is Making a Starting Job Look Inevitable"),
+              ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html', '49ers Column',
+               'The 49ers Sat Everybody and Lost by Six'),
+              ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
+               'The 2026 49ers, Position by Position')]),
 ]
 
 
