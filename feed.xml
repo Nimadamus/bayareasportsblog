@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 15 Aug 2026 09:12:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 14:09:25 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>They Called De&#39;Zhaun Stribling a Reach. Nobody Is Laughing Now</title>
@@ -16,6 +16,15 @@
     <category>49ers Column</category>
     <description>Draft night said the 49ers reached for De&#39;Zhaun Stribling. One camp and one preseason game later, that take has aged like milk.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The 49ers Finally Have the Mix Right, and the Drafts Are Why</title>
+    <link>https://bayareasportsblog.com/articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html</guid>
+    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers Column</category>
+    <description>A veteran core in its prime, smart short-term signings, and draft picks who actually play. The 49ers roster balance is the best it has been in years.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-veteran-young-core-mix-recent-drafts-better-2026.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</title>
@@ -358,15 +367,6 @@
     <category>Sharks</category>
     <description>The San Jose Sharks 2026-27 roster and depth chart: projected forward lines, defence pairs, goaltending, and every move made in the 2026 offseason.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-2026-27-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Sharks 2026-27 Schedule and Season Hub</title>
-    <link>https://bayareasportsblog.com/articles/sharks-2026-27-schedule-season-hub.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-2026-27-schedule-season-hub.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Sharks</category>
-    <description>The San Jose Sharks 2026-27 season hub: schedule, opening night, the storylines that decide the year, and links to our coverage as it publishes.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-2026-27-schedule-season-hub.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

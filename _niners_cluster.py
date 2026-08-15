@@ -927,6 +927,95 @@ dict(slug='49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026',
                'The 49ers Sat Everybody and Lost by Six'),
               ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
                'The 2026 49ers, Position by Position')]),
+
+# --------------------------------------------- 8. Veteran/young mix, drafts trending up
+dict(slug='49ers-veteran-young-core-mix-recent-drafts-better-2026',
+     section='49ers', tag='49ers Column', hub='49ers',
+     title='The 49ers Finally Have the Mix Right, and the Drafts Are Why',
+     h1='The 49ers Finally Have the Right Mix of Veterans and Kids, and the Last Few Drafts Are the Reason',
+     dek="A Hall of Fame core in its prime, veterans on short deals who know exactly what "
+         "they are here for, and a young group that is finally producing instead of "
+         "developing. It has been a long time since all three were true at once.",
+     desc="A veteran core in its prime, smart short-term signings, and draft picks who "
+          "actually play. The 49ers roster balance is the best it has been in years.",
+     date='2026-08-15',
+     card=('49ers', 'Veterans and Kids', 'The roster balance is the best it has been in years'),
+     body=[
+      "I have spent enough years yelling about this roster to have earned the right to say "
+      "something nice about it, so here it is. For the first time in a while, the 49ers "
+      "are not a team with a great top and nothing underneath, and they are not a team "
+      "full of projects waiting to become something. They are both halves at once, and the "
+      "reason is the part of this operation I have historically been hardest on: the "
+      "drafting. It got better. Genuinely better. I am as surprised as anybody.",
+      "Start with the veterans, because that is the part that has always been here. Trent "
+      "Williams is still Trent Williams. George Kittle is still the most reliable thing in "
+      "the building and will end up in Canton. Fred Warner and Dre Greenlaw are both back "
+      "from the injuries that gutted this defence for two years, and if those two play a "
+      "full season the whole thing works. Nick Bosa is Nick Bosa. Christian McCaffrey, "
+      "when healthy, changes what the offense even is. That is a genuine championship "
+      "spine, and it is in its prime right now, not three years from now.",
+      "Then look at how they filled in around it, because this is the smartest the front "
+      "office has looked in a while. Mike Evans as a proven X. Christian Kirk on a one-year "
+      "deal. Deebo Samuel back on a short-money contract. Ogbo Okoronkwo, KhaDarel Hodge, "
+      "Demarcus Robinson, all veterans, all on deals that expire before they become "
+      "regrets. That is the whole trick with veteran signings and this team used to be "
+      "terrible at it: get the production without buying the decline years. Nobody in that "
+      "group is going to be an albatross on the cap sheet in 2029.",
+      "And now the part that actually changed. The young players are not projects anymore, "
+      "they are contributors. {stribling} is the loudest example - a rookie the entire "
+      "internet mocked on draft night who has been the best story of camp and then went out "
+      "and caught seven balls in the preseason opener. But he is not alone, and that is the "
+      "point. Jordan Watkins quietly went 6-for-59 on ten targets in that same game. "
+      "{rourke} went 12-of-14 in his first real audition at quarterback. Carver Willis is "
+      "getting real offensive line reps as a rookie. That is four young players producing "
+      "in one August, which is four more than some of the classes around here produced in "
+      "three years.",
+      "Because let us be honest about what this used to look like. There was a long stretch "
+      "where a 49ers draft class meant one guy who might start in year three, one special "
+      "teamer, and four names you would be Googling in 2027 to remember who they were. "
+      "{bergen} was the last pick of the 2025 draft and got waived twice trying to stick. "
+      "That is normal - seventh-rounders are lottery tickets and nobody is owed anything. "
+      "But the middle rounds used to be a wasteland too, and a team paying Purdy, Williams, "
+      "Kittle, Bosa and Warner cannot afford a wasteland in the middle rounds. That is the "
+      "math that decides whether a contending window is three years or eight.",
+      "The thing that makes me believe this is not a fluke is what happened when the worst "
+      "news of the summer hit. {pearsall} was the first-round pick who was finally supposed "
+      "to be the answer at receiver, and he is gone for the year after PCL surgery. Losing "
+      "a first-round receiver would have flattened the 2023 or 2024 version of this "
+      "offense. This one shrugged and reloaded, because the room behind him was actually "
+      "stocked - veterans who have done it and kids who are doing it. Depth is not a thing "
+      "you notice until you need it, and this team needed it in July and had it.",
+      "I am not going to pretend the roster is finished, because {depth} makes it very "
+      "clear where it is not. There is no plan behind Brock Purdy that anybody wants to "
+      "execute. The offensive line drops off a cliff after the starters. The secondary is "
+      "asking a lot of players who have not held up over seventeen games. Those are real "
+      "problems and one bad Sunday turns any of them into the story of the season. Nobody "
+      "should read this as a coronation.",
+      "But the shape is right, and the shape is what I have been complaining about for "
+      "years. You want your stars in their prime, your veterans on short money, and your "
+      "young guys pushing the veterans for snaps instead of holding a clipboard. All three "
+      "of those are true right now. Whether that turns into anything in February is a "
+      "different question and one this franchise has answered badly twice. {preview} lays "
+      "out what has to go right. The rest of our coverage is on the {hub}.",
+     ],
+     links={'stribling': ('49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html',
+                          "De'Zhaun Stribling"),
+            'rourke': ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html',
+                       'Kurtis Rourke'),
+            'bergen': ('49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html',
+                       'Junior Bergen'),
+            'pearsall': ('49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html',
+                         'Ricky Pearsall'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'the depth chart'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html',
+                        'The season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html', '49ers Column',
+               "They Called Stribling a Reach. Nobody Is Laughing Now"),
+              ('49ers-2026-roster-depth-chart.html', '49ers',
+               'The 2026 49ers Roster and Depth Chart, Position by Position'),
+              ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
+               'The 2026 49ers, Position by Position')]),
 ]
 
 
