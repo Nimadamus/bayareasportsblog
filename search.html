@@ -122,7 +122,7 @@
 
   function search(){
     var q=box.value.trim().toLowerCase();
-    if(!q){render(data.slice(0,12),'Newest stories &mdash; start typing to search '+data.length+' articles');return;}
+    if(!q){render(data.slice(0,12),'Newest stories, start typing to search '+data.length+' articles');return;}
     var terms=q.split(/\s+/);
     var scored=data.map(function(a){
       var hay=(a.t+' '+a.d+' '+a.k+' '+a.u).toLowerCase(), s=0;

@@ -27,6 +27,10 @@ SELF = os.path.basename(__file__)
 
 DASH = '[—–−]'
 H = '[ \t]'
+
+# html entities render as real dashes on the page, so they are the same problem wearing a
+# disguise. Normalised to a literal dash first, then handled by the rules below.
+ENTITY = re.compile(r'&mdash;|&ndash;|&#8212;|&#8211;|&#x2013;|&#x2014;', re.I)
 MONTHS = (r'Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|January|February|March'
           r'|April|June|July|August|September|October|November|December')
 
@@ -70,6 +74,7 @@ SEAM_TAIL = re.compile(r'(?<=\S)' + H + r'+(?:' + DASH + r'|-)' + H + r'*\Z')
 
 
 def dedash(text, seams=False):
+    text = ENTITY.sub('—', text)
     if seams:
         text = SEAM_TAIL.sub(', ', text)
     if not HAS_DASH.search(text):

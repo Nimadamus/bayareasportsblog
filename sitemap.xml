@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bayareasportsblog.com/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -58,14 +58,14 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/bayarea.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/history.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-sports-history.jpg</image:loc></image:image>
@@ -93,14 +93,14 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/sharks.html</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sharks-rebuild-has-a-pulse-celebrini.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/stanford.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -128,28 +128,28 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/blog.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/corrections.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/dynasties.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/editorial-standards.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -163,7 +163,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/timeline.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -188,6 +188,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</loc>

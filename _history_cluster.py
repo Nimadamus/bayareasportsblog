@@ -31,16 +31,16 @@ TITLE_TABLE = """<div class="reftable">
 <caption>Bay Area major-league championships, by franchise</caption>
 <thead><tr><th>Franchise</th><th>League</th><th>Bay Area era</th><th>Titles</th><th>Years</th></tr></thead>
 <tbody>
-<tr><td>San Francisco 49ers</td><td>NFL</td><td class="num">1946&ndash;</td><td class="num">5</td><td class="num">1981, 1984, 1988, 1989, 1994</td></tr>
-<tr><td>Golden State Warriors</td><td>NBA</td><td class="num">1962&ndash;</td><td class="num">5</td><td class="num">1975, 2015, 2017, 2018, 2022</td></tr>
-<tr><td>Oakland Athletics</td><td>MLB</td><td class="num">1968&ndash;2024</td><td class="num">4</td><td class="num">1972, 1973, 1974, 1989</td></tr>
-<tr><td>San Francisco Giants</td><td>MLB</td><td class="num">1958&ndash;</td><td class="num">3</td><td class="num">2010, 2012, 2014</td></tr>
-<tr><td>Oakland Raiders</td><td>NFL</td><td class="num">1960&ndash;81, 1995&ndash;2019</td><td class="num">2</td><td class="num">1976, 1980</td></tr>
-<tr><td>San Jose Earthquakes</td><td>MLS</td><td class="num">1996&ndash;2005, 2008&ndash;</td><td class="num">2</td><td class="num">2001, 2003</td></tr>
-<tr><td>San Jose Sharks</td><td>NHL</td><td class="num">1991&ndash;</td><td class="num">0</td><td>&mdash;</td></tr>
-<tr><td>Golden State Valkyries</td><td>WNBA</td><td class="num">2025&ndash;</td><td class="num">0</td><td>&mdash;</td></tr>
+<tr><td>San Francisco 49ers</td><td>NFL</td><td class="num">1946, </td><td class="num">5</td><td class="num">1981, 1984, 1988, 1989, 1994</td></tr>
+<tr><td>Golden State Warriors</td><td>NBA</td><td class="num">1962, </td><td class="num">5</td><td class="num">1975, 2015, 2017, 2018, 2022</td></tr>
+<tr><td>Oakland Athletics</td><td>MLB</td><td class="num">1968-2024</td><td class="num">4</td><td class="num">1972, 1973, 1974, 1989</td></tr>
+<tr><td>San Francisco Giants</td><td>MLB</td><td class="num">1958, </td><td class="num">3</td><td class="num">2010, 2012, 2014</td></tr>
+<tr><td>Oakland Raiders</td><td>NFL</td><td class="num">1960-81, 1995-2019</td><td class="num">2</td><td class="num">1976, 1980</td></tr>
+<tr><td>San Jose Earthquakes</td><td>MLS</td><td class="num">1996-2005, 2008, </td><td class="num">2</td><td class="num">2001, 2003</td></tr>
+<tr><td>San Jose Sharks</td><td>NHL</td><td class="num">1991, </td><td class="num">0</td><td>, </td></tr>
+<tr><td>Golden State Valkyries</td><td>WNBA</td><td class="num">2025, </td><td class="num">0</td><td>, </td></tr>
 </tbody>
-<tfoot><tr><td colspan="3">Total, Bay Area era</td><td class="num">21</td><td>&mdash;</td></tr></tfoot>
+<tfoot><tr><td colspan="3">Total, Bay Area era</td><td class="num">21</td><td>, </td></tr></tfoot>
 </table>
 </div>"""
 
@@ -62,7 +62,7 @@ DECADE_TABLE = """<div class="reftable">
 
 ELSEWHERE_TABLE = """<div class="reftable">
 <table>
-<caption>Titles these franchises won somewhere else &mdash; not Bay Area championships</caption>
+<caption>Titles these franchises won somewhere else, not Bay Area championships</caption>
 <thead><tr><th>Franchise</th><th>Won as</th><th>Titles</th><th>Years</th></tr></thead>
 <tbody>
 <tr><td>Giants</td><td>New York Giants</td><td class="num">5</td><td class="num">1905, 1921, 1922, 1933, 1954</td></tr>
@@ -70,7 +70,7 @@ ELSEWHERE_TABLE = """<div class="reftable">
 <tr><td>Warriors</td><td>Philadelphia Warriors</td><td class="num">2</td><td class="num">1947, 1956</td></tr>
 <tr><td>Raiders</td><td>Los Angeles Raiders</td><td class="num">1</td><td class="num">1983</td></tr>
 </tbody>
-<tfoot><tr><td colspan="2">Total won elsewhere</td><td class="num">13</td><td>&mdash;</td></tr></tfoot>
+<tfoot><tr><td colspan="2">Total won elsewhere</td><td class="num">13</td><td>, </td></tr></tfoot>
 </table>
 </div>"""
 
@@ -101,10 +101,10 @@ ARENA_NAMES = """<div class="reftable">
 <caption>One building, four names</caption>
 <thead><tr><th>Years</th><th>Name</th><th>What it was</th></tr></thead>
 <tbody>
-<tr><td class="num">1966&ndash;1996</td><td>Oakland&ndash;Alameda County Coliseum Arena</td><td>The round building next to the stadium</td></tr>
-<tr><td class="num">1997&ndash;2005</td><td>The Arena in Oakland</td><td>Reopened after a rebuild of more than $121 million</td></tr>
-<tr><td class="num">2006&ndash;2019</td><td>Oracle Arena</td><td>Roaracle; three championships</td></tr>
-<tr><td class="num">2019&ndash;</td><td>Oakland Arena</td><td>A concert building with no team</td></tr>
+<tr><td class="num">1966-1996</td><td>Oakland, Alameda County Coliseum Arena</td><td>The round building next to the stadium</td></tr>
+<tr><td class="num">1997-2005</td><td>The Arena in Oakland</td><td>Reopened after a rebuild of more than $121 million</td></tr>
+<tr><td class="num">2006-2019</td><td>Oracle Arena</td><td>Roaracle; three championships</td></tr>
+<tr><td class="num">2019, </td><td>Oakland Arena</td><td>A concert building with no team</td></tr>
 </tbody>
 </table>
 </div>"""
@@ -116,9 +116,9 @@ NEARMISS_TABLE = """<div class="reftable">
 <tbody>
 <tr><td class="num">1976</td><td>Giants</td><td>Toronto</td><td>A city injunction bought time; Bob Lurie bought the club and kept it</td></tr>
 <tr><td class="num">1992</td><td>Giants</td><td>St. Petersburg, Florida</td><td>National League owners voted the sale down; a local group bought in</td></tr>
-<tr><td class="num">2006&ndash;09</td><td>Athletics</td><td>Fremont</td><td>The Cisco Field plan collapsed under local opposition</td></tr>
-<tr><td class="num">2009&ndash;15</td><td>Athletics</td><td>San Jose</td><td>The Giants would not give up territorial rights; the courts backed baseball</td></tr>
-<tr><td class="num">2018&ndash;23</td><td>Athletics</td><td>Howard Terminal, Oakland</td><td>Never financed or approved; the franchise chose Las Vegas instead</td></tr>
+<tr><td class="num">2006-09</td><td>Athletics</td><td>Fremont</td><td>The Cisco Field plan collapsed under local opposition</td></tr>
+<tr><td class="num">2009-15</td><td>Athletics</td><td>San Jose</td><td>The Giants would not give up territorial rights; the courts backed baseball</td></tr>
+<tr><td class="num">2018-23</td><td>Athletics</td><td>Howard Terminal, Oakland</td><td>Never financed or approved; the franchise chose Las Vegas instead</td></tr>
 </tbody>
 </table>
 </div>"""

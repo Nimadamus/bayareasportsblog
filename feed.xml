@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 16 Aug 2026 23:18:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 23:30:53 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The 49ers play Harbaugh&#39;s Chargers at SoFi on Thursday night, and George Kittle says his Achilles recovery is hitting every marker with Week 1 in reach.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Rockies 13, Giants 7: Devers Hit His 25th and It Did Not Matter</title>
+    <link>https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</guid>
+    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Rockies 13, Giants 7 at Oracle Park: Rafael Devers homered for his 25th, the Giants led into the sixth, and the bullpen gave up seven unanswered to Colorado.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>They Called De&#39;Zhaun Stribling a Reach. Nobody Is Laughing Now</title>
@@ -358,15 +367,6 @@
     <category>Bay Area History</category>
     <description>Oracle Arena explained: the 1966 opening, the Roaracle years, three Warriors titles, the last game in June 2019, and what the building is used for now.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/oracle-arena-roaracle-history-oakland-warriors.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Oracle Park and McCovey Cove: How the Ballpark Actually Plays</title>
-    <link>https://bayareasportsblog.com/articles/oracle-park-mccovey-cove-splash-hits-guide.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/oracle-park-mccovey-cove-splash-hits-guide.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants History</category>
-    <description>How Oracle Park actually plays: the dimensions, the wind, McCovey Cove, splash hits, and why it suppresses home runs more than almost any park in baseball.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/oracle-park-mccovey-cove-splash-hits-guide.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

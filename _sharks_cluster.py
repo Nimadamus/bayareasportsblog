@@ -54,7 +54,7 @@ DEFENCE = """<div class="reftable">
 
 SCORING = """<div class="reftable">
 <table>
-<caption>2025-26 scoring leaders &mdash; the baseline this roster is trying to beat</caption>
+<caption>2025-26 scoring leaders, the baseline this roster is trying to beat</caption>
 <thead><tr><th>Player</th><th>GP</th><th>G</th><th>A</th><th>Pts</th><th>Status</th></tr></thead>
 <tbody>
 <tr><td>Macklin Celebrini</td><td class="num">82</td><td class="num">45</td><td class="num">70</td><td class="num">115</td><td>Signed long-term</td></tr>
@@ -69,11 +69,11 @@ SCORING = """<div class="reftable">
 
 GOALIES = """<div class="reftable">
 <table>
-<caption>2025-26 goaltending &mdash; the number that decides this season</caption>
+<caption>2025-26 goaltending, the number that decides this season</caption>
 <thead><tr><th>Goaltender</th><th>GP</th><th>Record</th><th>GAA</th><th>SV%</th></tr></thead>
 <tbody>
-<tr><td>Yaroslav Askarov</td><td class="num">47</td><td class="num">21&ndash;20&ndash;4</td><td class="num">3.63</td><td class="num">.884</td></tr>
-<tr><td>Alex Nedeljkovic</td><td class="num">40</td><td class="num">18&ndash;14&ndash;4</td><td class="num">2.87</td><td class="num">.896</td></tr>
+<tr><td>Yaroslav Askarov</td><td class="num">47</td><td class="num">21-20-4</td><td class="num">3.63</td><td class="num">.884</td></tr>
+<tr><td>Alex Nedeljkovic</td><td class="num">40</td><td class="num">18-14-4</td><td class="num">2.87</td><td class="num">.896</td></tr>
 </tbody>
 </table>
 </div>"""
@@ -130,13 +130,13 @@ SEASONS = """<div class="reftable">
 <tr><td class="num">1991-92</td><td>Expansion season, played at the Cow Palace in Daly City</td></tr>
 <tr><td class="num">1992-93</td><td>One of the worst records in NHL history</td></tr>
 <tr><td class="num">1993-94</td><td>First playoff berth, and a first-round upset of the heavily favoured Red Wings</td></tr>
-<tr><td class="num">2008-09</td><td>Presidents&rsquo; Trophy for the league&rsquo;s best record &mdash; out in the first round</td></tr>
+<tr><td class="num">2008-09</td><td>Presidents&rsquo; Trophy for the league&rsquo;s best record, out in the first round</td></tr>
 <tr><td class="num">2009-10</td><td>Western Conference Final</td></tr>
 <tr><td class="num">2010-11</td><td>Western Conference Final again</td></tr>
-<tr><td class="num">2015-16</td><td><b>Stanley Cup Final</b> &mdash; lost to Pittsburgh in six</td></tr>
+<tr><td class="num">2015-16</td><td><b>Stanley Cup Final</b>, lost to Pittsburgh in six</td></tr>
 <tr><td class="num">2018-19</td><td>Western Conference Final; the Game 7 comeback against Vegas</td></tr>
 <tr><td class="num">2019-2025</td><td>Six straight years out of the playoffs, ending in back-to-back last-place finishes</td></tr>
-<tr><td class="num">2025-26</td><td>39-35-8, 86 points &mdash; a 34-point jump, still no playoffs</td></tr>
+<tr><td class="num">2025-26</td><td>39-35-8, 86 points, a 34-point jump, still no playoffs</td></tr>
 </tbody>
 </table>
 </div>"""

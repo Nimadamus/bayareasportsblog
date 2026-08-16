@@ -9,10 +9,13 @@ import os, re, sys
 SKIP_DIRS = {'.git', '__pycache__', 'assets', '_probe', 'node_modules'}
 EXTS = ('.html', '.py', '.md')
 SPACED = re.compile(r'(?<=\S) - (?=\S)')
+# entities render as dashes on the page, so they count
+ENTITY = re.compile(r'&mdash;|&ndash;|&#8212;|&#8211;|&#x2013;|&#x2014;', re.I)
 
 
 def counts(text):
-    return text.count('—'), text.count('–'), len(SPACED.findall(text))
+    return (text.count('—') + text.count('−') + len(ENTITY.findall(text)),
+            text.count('–'), len(SPACED.findall(text)))
 
 
 def main():

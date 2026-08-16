@@ -31,7 +31,7 @@ LINE = lambda team, innings, r, h, e: ('<tr><td>%s</td>%s<td class="num"><b>%s</
                                        % (team, ''.join(N(x) for x in innings), r, h, e))
 
 RAYS_AS_LINE = ('<div class="reftable">\n<table>\n<caption>Tampa Bay Rays at Athletics '
-                '&mdash; Tuesday 11 August 2026, Sutter Health Park, 8,154</caption>\n'
+                ' Tuesday 11 August 2026, Sutter Health Park, 8,154</caption>\n'
                 + LINEHEAD + '\n<tbody>\n'
                 + LINE('Tampa Bay', [2, 0, 1, 3, 0, 1, 2, 3, 0], 12, 11, 0) + '\n'
                 + LINE('<b>Athletics</b>', [0, 0, 0, 2, 0, 0, 0, 0, 2], 4, 8, 1)
@@ -472,7 +472,7 @@ dict(slug='athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11',
       "like from the other dugout.",
 
       "Then Victor Mesa Jr. hit a two-run shot off Elvis Alvarado in the seventh, and Carson "
-      "Williams &mdash; a rookie hitting .108, with no career home runs to his name &mdash; hit "
+      "Williams, a rookie hitting .108, with no career home runs to his name, hit "
       "a three-run one off Yunior Tur in the eighth to make it twelve-two. Tur's ERA is now "
       "32.79. I am not going to type anything unkind about a young reliever getting his first "
       "look, but somebody in that organisation should be honest about the fact that they are "
@@ -491,7 +491,7 @@ dict(slug='athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11',
       "<b>What was actually good, because there were three things.</b> Lawrence Butler got hold "
       "of a Martinez pitch in the fourth with Jacob Wilson aboard and hit it to centre for his "
       "eighth home run, and Butler has been buried in a .206 season all year, so take it. "
-      "Carlos Cortes doubled home two in the ninth &mdash; his thirteenth double &mdash; which "
+      "Carlos Cortes doubled home two in the ninth, his thirteenth double, which "
       "is the sort of at-bat a lot of players stop taking in a twelve-two game in August in "
       "front of eight thousand people. And Jacob Wilson had a hit, made every play, and "
       "extended his errorless streak at shortstop to a hundred and thirteen consecutive games. "
@@ -513,7 +513,7 @@ dict(slug='athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11',
 
       "Forty-seven and seventy-three. Thirteen and a half games out of a division nobody in "
       "green and gold is thinking about. They won a series in Boston three days ago and it felt "
-      "like a small warm thing, and then they came home &mdash; home &mdash; and got outscored "
+      "like a small warm thing, and then they came home, home, and got outscored "
       "twenty-two to ten in two nights by the best team in the American League East. That is "
       "the season. That has been the season since the middle of June.",
 
