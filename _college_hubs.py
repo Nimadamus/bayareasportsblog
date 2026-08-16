@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_college_hubs.py - turn cal.html and stanford.html into real section fronts.
+"""_college_hubs.py: turn cal.html and stanford.html into real section fronts.
 
 Both were a heading, fifty words and no way to reach anything. Each now answers the four
 questions a section front has to answer above the fold:
@@ -117,7 +117,7 @@ def wr(p, s):
         fh.write(s)
     b = open(full, 'rb').read()
     if b'\x00' in b or b.count(b'\xef\xbf\xbd'):
-        raise SystemExit('corruption writing %s - ABORT' % p)
+        raise SystemExit('corruption writing %s, ABORT' % p)
 
 
 def build(page, intro, latest, nxt):

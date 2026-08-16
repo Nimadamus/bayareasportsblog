@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 16 Aug 2026 02:10:09 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 23:18:51 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself</title>
+    <link>https://bayareasportsblog.com/articles/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html</guid>
+    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers play Harbaugh&#39;s Chargers at SoFi on Thursday night, and George Kittle says his Achilles recovery is hitting every marker with Week 1 in reach.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>They Called De&#39;Zhaun Stribling a Reach. Nobody Is Laughing Now</title>
     <link>https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</link>
@@ -59,7 +68,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-clinging-to-past-cannot-develop-young-players.html</guid>
     <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     <category>Warriors</category>
-    <description>Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep buying old veterans - because this franchise cannot develop young players.</description>
+    <description>Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep buying old veterans, because this franchise cannot develop young players.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-clinging-to-past-cannot-develop-young-players.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -358,15 +367,6 @@
     <category>Giants History</category>
     <description>How Oracle Park actually plays: the dimensions, the wind, McCovey Cove, splash hits, and why it suppresses home runs more than almost any park in baseball.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/oracle-park-mccovey-cove-splash-hits-guide.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Thirty-Five Years, One Final, No Cup: The Sharks History</title>
-    <link>https://bayareasportsblog.com/articles/san-jose-sharks-history-no-stanley-cup.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/san-jose-sharks-history-no-stanley-cup.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Bay Area History</category>
-    <description>The San Jose Sharks franchise history: the 1991 expansion, the 2016 Stanley Cup Final, the 2019 Game 7 comeback, and why they have never won a Cup.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/san-jose-sharks-history-no-stanley-cup.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

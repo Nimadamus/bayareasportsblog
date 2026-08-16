@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_niners_cluster.py - the 49ers 2026 season content system.
+"""_niners_cluster.py: the 49ers 2026 season content system.
 
 Five pieces that are deliberately different from the 24 that already exist. The archive
 is full of training-camp columns; what it has never had is the permanent furniture a
@@ -56,7 +56,7 @@ dict(slug='brock-purdy-career-passer-rating-where-he-ranks',
       "healthy and to keep playing behind a functioning line, which has not always been "
       "available.",
       "What is not realistically reachable, and it is worth saying plainly. He is not "
-      "catching the career volume records - the yardage and touchdown leaderboards belong "
+      "catching the career volume records, the yardage and touchdown leaderboards belong "
       "to quarterbacks who played twenty years and threw six hundred times a season, and "
       "Purdy started late enough that the arithmetic does not work. Anyone framing his "
       "career as a chase for those numbers is selling something.",
@@ -102,7 +102,7 @@ dict(slug='49ers-2026-season-preview-roster-schedule-questions',
       "Every 49ers preview written this month says the same thing: if they are healthy, "
       "they are a problem. That is true, and it is also useless, because this team has "
       "not been healthy in any season anyone can remember. So here is the version that "
-      "tries to be useful - what is actually on the roster, and what has to break right.",
+      "tries to be useful, what is actually on the roster, and what has to break right.",
       "<b>The offense.</b> It runs through {purdy}, who is playing the best football of "
       "his career and is a handful of attempts from owning the career passer rating "
       "record. Around him, the receiver room has been rebuilt twice in one summer: Mike "
@@ -125,8 +125,8 @@ dict(slug='49ers-2026-season-preview-roster-schedule-questions',
       "the Melbourne Cricket Ground on 10 September, the first regular season game the "
       "NFL has ever played in Melbourne, and {melbourne} covers what that actually costs "
       "a team in Week 1. Miami comes to Levi's in Week 2, Washington on a Monday night "
-      "in Week 6, and there is a home game against Minnesota that is not at home at all "
-      "- it is in Mexico City. Five prime-time games. The cross-divisional draw is the "
+      "in Week 6, and there is a home game against Minnesota that is not at home at all, "
+      "it is in Mexico City. Five prime-time games. The cross-divisional draw is the "
       "NFC East and the AFC West, plus three third-place matchups from a third-place "
       "finish last year.",
       "<b>Question one: does the receiver room hold?</b> Two veterans learning a new "
@@ -250,8 +250,12 @@ dict(slug='49ers-2026-schedule-season-hub',
       "season reads in order rather than as a pile of separate columns.",
       "<b>The shape of it.</b> The 49ers drew the NFC East and the AFC West in "
       "cross-divisional play, plus three matchups against fellow third-place finishers "
-      "from the NFC North, AFC East and NFC South - the consequence of finishing third "
+      "from the NFC North, AFC East and NFC South, the consequence of finishing third "
       "in the NFC West last season. Five prime-time games, two of them at Levi's.",
+      "<b>Before any of it: the preseason closes at the Chargers.</b> Thursday 20 August "
+      "at SoFi, seven o'clock Pacific, against Jim Harbaugh, with a joint practice down "
+      "in El Segundo two days earlier. It counts for nothing and {harbaugh} explains why "
+      "a lot of us will watch every snap of it anyway.",
       "<b>Week 1, 10 September: at the Rams, in Melbourne.</b> The NFL's first regular "
       "season game in Melbourne, at the Cricket Ground, kicking off at 5:35pm Pacific on "
       "a Thursday. A divisional road game on the other side of the planet to start the "
@@ -269,11 +273,11 @@ dict(slug='49ers-2026-schedule-season-hub',
       "<b>What to watch across the year.</b> The record chase is the story that travels: "
       "{purdy} needs a handful of attempts to qualify for the career passer rating "
       "record, which puts it somewhere around the fifth game. Beyond that it is the "
-      "familiar things - health, the line, and whether {preview} holds up once the games "
+      "familiar things, health, the line, and whether {preview} holds up once the games "
       "are real.",
       "<b>The stretches that decide it.</b> Any NFL season breaks into three or four "
-      "runs, and the ones to circle here are the opening fortnight - Melbourne then Miami "
-      "on a short turnaround - and whatever the schedule makers did with the December "
+      "runs, and the ones to circle here are the opening fortnight, Melbourne then Miami "
+      "on a short turnaround, and whatever the schedule makers did with the December "
       "dates. Teams built on health, and this one is, get judged in December by how much "
       "of the roster is still standing. A soft September means nothing if the group that "
       "walks into December is the same group that limped through last winter.",
@@ -288,6 +292,8 @@ dict(slug='49ers-2026-schedule-season-hub',
       "coverage is on the {hub}.",
      ],
      links={'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'our Melbourne piece'),
+            'harbaugh': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
+                         'the Harbaugh reunion'),
             'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html', 'Brock Purdy'),
             'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'the preview'),
             'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
@@ -314,7 +320,7 @@ dict(slug='49ers-rams-melbourne-nfl-first-game-australia',
       "the first regular season game the NFL has ever staged in Australia, and somebody "
       "in a conference room decided the right teams to send were two NFC West rivals who "
       "play each other twice a year anyway.",
-      "The MCG is a genuinely great venue - a hundred thousand seats, the most famous "
+      "The MCG is a genuinely great venue, a hundred thousand seats, the most famous "
       "sporting ground in the country, a place built for a sport that involves a lot more "
       "running and a lot fewer helmets. As a spectacle it will be excellent. As a Week 1 "
       "assignment it is something else.",
@@ -339,7 +345,7 @@ dict(slug='49ers-rams-melbourne-nfl-first-game-australia',
       "for atmosphere problems, giving away a home game to a neutral site abroad is a "
       "choice worth noticing.",
       "The league's argument is that these games grow the sport, and on the evidence of "
-      "London that is not nonsense - a market that had no NFL presence twenty years ago "
+      "London that is not nonsense, a market that had no NFL presence twenty years ago "
       "now sustains multiple sold-out games a season. Australia is a genuinely promising "
       "market for the same reasons: an existing football culture, a sports-mad "
       "population, and a stadium that can hold a hundred thousand people. The strategy "
@@ -375,7 +381,7 @@ dict(slug='49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener',
      card=('49ers', 'Camp: The Defense Answers', 'Purdy had a hard Saturday, and Shanahan is coaching Thursday'),
      body=[
       "The defense won Saturday. Not a series, not a red zone period that somebody spins "
-      "into a headline afterward - the day. Brock Purdy did not have it, and the group on "
+      "into a headline afterward, the day. Brock Purdy did not have it, and the group on "
       "the other side of the ball is the reason why, and after the last few Augusts around "
       "here that sentence is worth typing slowly.",
       "Understand why this fan base is allergic to camp takes. Every August somebody on "
@@ -410,8 +416,8 @@ dict(slug='49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener',
       "the thing while he watches the roster fight for the last eight spots. Not this "
       "one.",
       "You can read that two ways and both are probably a little true. The generous read "
-      "is that there is enough new on this roster - and the {depth} has the full picture "
-      "of how much - that he wants his hands on the operation from the first snap rather "
+      "is that there is enough new on this roster, and the {depth} has the full picture "
+      "of how much, that he wants his hands on the operation from the first snap rather "
       "than the first week of September. The less generous read is that August has been "
       "August around here, {injuries} is not the sentence you want attached to the "
       "second week of camp, and a coach who has been through what this coach has been "
@@ -456,7 +462,7 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "held a limited practice without the four running backs that any of us would have "
       "named as the four running backs on this roster. Not one of them. All four.",
       "Christian McCaffrey did not practice. The word out of the building is "
-      "<b>tightness</b>, which the coaching staff delivered with the standard shrug - a "
+      "<b>tightness</b>, which the coaching staff delivered with the standard shrug, a "
       "little sore, he is doing fine, we are managing him as we go. And look, I have been "
       "doing this long enough to know that tightness in the second week of August is "
       "usually nothing. Teams sit players in August for hangnails. If the name on the "
@@ -469,7 +475,7 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "differently I do not believe you.",
       "Now the rest of the room, because this is the part that is genuinely absurd. "
       "<b>Kaelon Black</b>, the rookie, has been off to the side for a while with an "
-      "adductor - groin, in the language people actually use. <b>Jordan James</b> is out "
+      "adductor, groin, in the language people actually use. <b>Jordan James</b> is out "
       "with broken ribs, cracked in late July when Fred Warner went to punch the ball out "
       "in practice, which is the single most 49ers sentence of this entire camp. Our own "
       "All-Pro linebacker broke our own running back. And <b>Isaac Guerendo</b> has been "
@@ -479,13 +485,13 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "Miller-Hines</b> and <b>Zamir White</b>, plus a visit with <b>Blake Watson</b>, an "
       "undrafted kid out of Memphis who ran a 4.39 and jumped 41 and a half inches at his "
       "pro day. That is not a panic move and I am not going to pretend it is. It is wear "
-      "and tear insurance - bodies to take carries so the ones you care about do not have "
+      "and tear insurance, bodies to take carries so the ones you care about do not have "
       "to. Every team does it. It is just that most teams are not doing it because their "
       "entire depth chart is in the training room in the second week of August.",
       "Credit where it is owed: <b>Patrick Taylor Jr</b> and <b>Sincere McCormick</b> have "
       "been eating in this camp, <b>Khalil Herbert</b> has been getting real work, and "
       "{deebo} took snaps at running back on Monday because of course he did. That is the "
-      "one thing this organisation is genuinely good at - finding a functional body and "
+      "one thing this organisation is genuinely good at, finding a functional body and "
       "handing it the ball. It does not make me feel better about September.",
       "<b>Here is the one that actually worries me, and it is not a running back.</b> Nick "
       "Bosa has not been in pads. He has not been going through individual work. Three "
@@ -493,7 +499,7 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "General soreness. That is the entire explanation. Ask for specifics and you get the "
       "same word again.",
       "Soreness in a knee that had its ACL reconstructed after Week 3 of last season. I am "
-      "not going to sit here and manufacture an emergency out of a word - Bosa was never "
+      "not going to sit here and manufacture an emergency out of a word, Bosa was never "
       "playing a preseason snap anyway, Warner is not playing one either, and I would be "
       "stunned if Dre Greenlaw sees the field on Thursday. None of these guys need August. "
       "But <i>hasn't been padded up, hasn't done individual</i> is a different sentence "
@@ -503,7 +509,7 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "your hand near it.",
       "And then, finally, something good. Genuinely good.",
       "<b>George Kittle was out on the practice field before practice and he looked like "
-      "George Kittle.</b> Running. Running hard. Making cuts - real ones, not the "
+      "George Kittle.</b> Running. Running hard. Making cuts, real ones, not the "
       "tentative jogging-in-a-straight-line stuff you see from a guy protecting a leg. "
       "This is a man who tore his Achilles in the playoff win over the Eagles and had it "
       "surgically repaired shortly after, and four months later he is out there moving "
@@ -514,8 +520,8 @@ dict(slug='49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kitt
       "saying that if you had asked me in February whether Kittle would be on the field in "
       "Melbourne against the Rams on 10 September, I would have laughed and started "
       "thinking about October. Now I am not laughing. A lot depends on the next four "
-      "weeks, and {melbourne} is a brutal place to make your season debut - fourteen "
-      "thousand miles, a date line, a divisional opponent - but he is trending toward it, "
+      "weeks, and {melbourne} is a brutal place to make your season debut, fourteen "
+      "thousand miles, a date line, a divisional opponent, but he is trending toward it, "
       "and after the Monday we just had I am taking every scrap of good news I can get.",
       "That is the state of this thing a month out. The best running back in football is "
       "sore, the three behind him are broken, strangers are auditioning at Levi's on a "
@@ -555,8 +561,8 @@ dict(slug='49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman',
      title='The 49ers Waived Junior Bergen Again, and Kept the Punter',
      h1="The 49ers Waived Junior Bergen Again, Cut the Punter Competition, and Kept the "
         "Left-Footed Veteran",
-     dek="Three names off the 90 on the eve of the preseason opener - Bergen, Bouwmeester "
-         "and K.J. Henry - and three one-year deals in their place. Nobody got created "
+     dek="Three names off the 90 on the eve of the preseason opener, Bergen, Bouwmeester "
+         "and K.J. Henry, and three one-year deals in their place. Nobody got created "
          "space. Everybody got swapped.",
      desc="The 49ers waived Junior Bergen and Jack Bouwmeester and put K.J. Henry on "
           "waived/injured, then signed Eli Apple, Xavier Thomas and Zamir White.",
@@ -605,14 +611,14 @@ dict(slug='49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman',
       "<b>Henry is the one nobody will write about and the one that tells you the most.</b> "
       "He signed on 29 July. He lasted two weeks. He got hurt in a joint practice against "
       "the Titans and the team processed him as waived/injured before the ball was even "
-      "kicked off on Thursday. That is not cruelty, that is the business - waived/injured "
+      "kicked off on Thursday. That is not cruelty, that is the business, waived/injured "
       "means he reverts to injured reserve if he clears, and the roster spot opens now "
       "instead of in September. But it is the fourth or fifth time this camp that a body "
       "we brought in to survive August did not survive August.",
       "Because here is the part that made me laugh out loud, and not the good kind. Those "
       "three spots did not stay open for a single afternoon. The same day, the 49ers "
-      "signed cornerback <b>Eli Apple</b> - who they had waived themselves on 2 August, "
-      "so we cut him and re-signed him inside of two weeks - defensive lineman "
+      "signed cornerback <b>Eli Apple</b>, who they had waived themselves on 2 August, "
+      "so we cut him and re-signed him inside of two weeks, defensive lineman "
       "<b>Xavier Thomas</b>, and running back <b>Zamir White</b>, the former Raiders "
       "fourth-rounder who was in here for a tryout on Monday. All three on one-year deals. "
       "Three out, three in, ninety men, nothing gained.",
@@ -682,14 +688,14 @@ dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
       "and Shanahan hiding his guys is the correct call every single time.",
       "Now the part I actually enjoyed, because there was one. Kurtis Rourke was "
       "legitimately good. The kid went 12-of-14 for 101 yards, led the touchdown drive "
-      "that Patrick Taylor Jr. finished from a yard out, and looked calm doing it - and "
+      "that Patrick Taylor Jr. finished from a yard out, and looked calm doing it, and "
       "then left with a rib injury, because this is the 49ers and nobody is allowed to "
       "have a clean night, not even the third quarterback in a game that does not "
       "count. 12-of-14. In his first real audition. If the ribs are fine, that is the "
       "most interesting quarterback development of the summer that does not involve the "
       "starter chasing a passer-rating record.",
       "And {stribling} keeps doing it. Seven catches, 63 yards, and the play of the "
-      "night for our side - a 32-yard catch on third-and-five when the drive was about "
+      "night for our side, a 32-yard catch on third-and-five when the drive was about "
       "to die. Everything we have been yelling about since camp opened showed up under "
       "actual stadium lights: the hands, the routes, the fact that he is simply open "
       "all the time. The camp hype train has left the station and I am driving it. "
@@ -697,7 +703,7 @@ dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
       "youngest receivers on the field were the two best 49ers on the field, and given "
       "what this receiver room has been through this summer, that is not a small thing.",
       "The rest of the night was preseason mush, and honest mush at that. We moved the "
-      "ball - 322 yards, 22 first downs - and finished nothing, going 9-of-19 on third "
+      "ball, 322 yards, 22 first downs, and finished nothing, going 9-of-19 on third "
       "down and settling for Eddy Pineiro field goals from 41 and 52. Adrian Martinez "
       "was fine in relief, 16-of-30 for 159, more mobile than accurate. The defense "
       "spent the second half living in Will Levis's backfield, with Tatum Bethune and "
@@ -705,8 +711,8 @@ dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
       "backups by six while the actual team watches in street clothes is the best "
       "possible version of a preseason loss. Moving on.",
       "Meanwhile, in the desert, the franchise that abandoned Oakland had itself a "
-      "night. The Raiders played their starters - actually played them, Kirk Cousins "
-      "and the No. 1 overall pick and all - in Klint Kubiak's head coaching debut, at "
+      "night. The Raiders played their starters, actually played them, Kirk Cousins "
+      "and the No. 1 overall pick and all, in Klint Kubiak's head coaching debut, at "
       "home, in front of their own fans, and lost 27-14 to the Arizona Cardinals. They "
       "scored 14 points in the first half and then got blanked after halftime in their "
       "own building. I need everyone in the Bay to sit with that for a second. We sat "
@@ -716,7 +722,7 @@ dict(slug='49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling',
       "from rookie Mike Washington Jr., and they still could not hold serve at home "
       "against the Cardinals. That is the most Raiders result imaginable: the "
       "highlights go viral, the scoreboard says you lost by 13.",
-      "And look, Mendoza is going to be fine, which is the depressing part for them - "
+      "And look, Mendoza is going to be fine, which is the depressing part for them, "
       "the kid looked more comfortable than anything they ran out there last season, "
       "and it did not matter, because the team around the quarterback is still the "
       "team around the quarterback. Some franchises sit their stars in August because "
@@ -767,12 +773,12 @@ dict(slug='kyle-shanahan-needs-to-win-the-ring-this-year-2026',
       "house-money football that ends with somebody else's confetti. The ring. This "
       "year. Say it out loud, because pretending the standard is anything lower is how "
       "a decade slips past you.",
-      "Because that is what this is now - a decade. This is year ten of the Shanahan "
+      "Because that is what this is now, a decade. This is year ten of the Shanahan "
       "era. Ten years of the prettiest offense in football, ten years of coaching-tree "
       "worship, ten years of every broadcast telling us we are watching a genius. And "
       "the trophy case from those ten years holds two NFC championships and zero "
       "Lombardis. Two Super Bowls reached, two Super Bowls lost, both to the same "
-      "franchise, and the second one in a city whose name we do not say around here - "
+      "franchise, and the second one in a city whose name we do not say around here, "
       "{vegas} covers what that night did to us, and I am still not over it, and "
       "neither is he. A blown fourth-quarter lead in Miami and an overtime dagger in "
       "the desert. That is the resume. Brilliant, beloved, and empty-handed.",
@@ -781,13 +787,13 @@ dict(slug='kyle-shanahan-needs-to-win-the-ring-this-year-2026',
       "from it. The man can call a game. That is precisely why the standard is what it "
       "is. You do not get graded on a curve for being the smartest coach in the "
       "building for ten years. At some point the genius has to cash. Andy Reid heard "
-      "this exact conversation for two decades - brilliant, innovative, cannot win the "
-      "big one - and then he won it, and now nobody remembers the conversation. That "
+      "this exact conversation for two decades, brilliant, innovative, cannot win the "
+      "big one, and then he won it, and now nobody remembers the conversation. That "
       "door swings both ways, and Shanahan is standing in it.",
       "Now look at what he has been handed in 2026, because this is the part that "
       "removes the last excuse. {purdy} is playing the best football of his life and "
       "is five games from owning the career passer rating record outright. The "
-      "receiver room got rebuilt into something absurd - Mike Evans, Christian Kirk, "
+      "receiver room got rebuilt into something absurd, Mike Evans, Christian Kirk, "
       "Deebo home on a one-year deal, and a rookie in Stribling who has looked like "
       "the best player on the field since camp opened. Kittle is still Kittle. "
       "McCaffrey, when vertical, is still the most dangerous player in the sport. "
@@ -810,14 +816,14 @@ dict(slug='kyle-shanahan-needs-to-win-the-ring-this-year-2026',
       "announce when they close. McCaffrey and Kittle are on the back side of their "
       "primes. Deebo is here for one year. Evans is here for the twilight. The cheap "
       "years of the quarterback are gone, which means this is the last version of "
-      "this roster that can be this deep. In 2027 something gives - it always does. "
+      "this roster that can be this deep. In 2027 something gives, it always does. "
       "Whatever this team is going to be under Kyle Shanahan, it is going to be it "
       "now. There is no version of this era where year twelve is the good part.",
       "And understand what is actually at stake for him, because it is bigger than a "
       "season. This is the franchise of Walsh and Montana and Young and Rice, five "
       "Lombardis in the lobby, and the standard here was set by men who finished the "
       "job. Win it, and Shanahan walks into that room and the decade of near-misses "
-      "becomes the story of persistence - the Reid arc, the redemption everybody "
+      "becomes the story of persistence, the Reid arc, the redemption everybody "
       "writes gladly. Lose again with this roster, and the conversation stops being "
       "\"when does Kyle win one\" and becomes \"does Kyle ever win one,\" and that "
       "second conversation has an expiration date on it in every building in this "
@@ -873,14 +879,14 @@ dict(slug='49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026',
       "people. {recap}: seven catches, 63 yards, and a 32-yard grab on third-and-five with "
       "the drive dying. That is not a padded stat line against fourth-stringers in garbage "
       "time. That is a receiver being the reason a possession stayed alive. Seven targets, "
-      "seven answers. The hands, the routes, the fact that he is somehow always open - all "
+      "seven answers. The hands, the routes, the fact that he is somehow always open, all "
       "the stuff we had been yelling about for three weeks travelled straight from the "
       "practice field to an actual game without losing anything on the way.",
       "So what exactly was the reach? Explain it to me. Because from where I am sitting "
       "the \"reach\" is a 22-year-old who came into a receiver room stacked with veterans, "
       "took reps from people making real money, and is now the most likely candidate on "
       "this roster to be a Week 1 starter. Rooms do not hand out jobs out of politeness. "
-      "He is not getting these looks because the depth chart is empty - it is the opposite. "
+      "He is not getting these looks because the depth chart is empty, it is the opposite. "
       "Mike Evans is in the building. Christian Kirk is here. {pearsall} took the receiver "
       "room's worst news of the summer and the room did not collapse, and a big reason it "
       "did not collapse is standing there in a rookie jersey catching everything thrown "
@@ -962,7 +968,7 @@ dict(slug='49ers-veteran-young-core-mix-recent-drafts-better-2026',
       "terrible at it: get the production without buying the decline years. Nobody in that "
       "group is going to be an albatross on the cap sheet in 2029.",
       "And now the part that actually changed. The young players are not projects anymore, "
-      "they are contributors. {stribling} is the loudest example - a rookie the entire "
+      "they are contributors. {stribling} is the loudest example, a rookie the entire "
       "internet mocked on draft night who has been the best story of camp and then went out "
       "and caught seven balls in the preseason opener. But he is not alone, and that is the "
       "point. Jordan Watkins quietly went 6-for-59 on ten targets in that same game. "
@@ -974,7 +980,7 @@ dict(slug='49ers-veteran-young-core-mix-recent-drafts-better-2026',
       "where a 49ers draft class meant one guy who might start in year three, one special "
       "teamer, and four names you would be Googling in 2027 to remember who they were. "
       "{bergen} was the last pick of the 2025 draft and got waived twice trying to stick. "
-      "That is normal - seventh-rounders are lottery tickets and nobody is owed anything. "
+      "That is normal, seventh-rounders are lottery tickets and nobody is owed anything. "
       "But the middle rounds used to be a wasteland too, and a team paying Purdy, Williams, "
       "Kittle, Bosa and Warner cannot afford a wasteland in the middle rounds. That is the "
       "math that decides whether a contending window is three years or eight.",
@@ -983,7 +989,7 @@ dict(slug='49ers-veteran-young-core-mix-recent-drafts-better-2026',
       "to be the answer at receiver, and he is gone for the year after PCL surgery. Losing "
       "a first-round receiver would have flattened the 2023 or 2024 version of this "
       "offense. This one shrugged and reloaded, because the room behind him was actually "
-      "stocked - veterans who have done it and kids who are doing it. Depth is not a thing "
+      "stocked, veterans who have done it and kids who are doing it. Depth is not a thing "
       "you notice until you need it, and this team needed it in July and had it.",
       "I am not going to pretend the roster is finished, because {depth} makes it very "
       "clear where it is not. There is no plan behind Brock Purdy that anybody wants to "
@@ -1016,6 +1022,95 @@ dict(slug='49ers-veteran-young-core-mix-recent-drafts-better-2026',
                'The 2026 49ers Roster and Depth Chart, Position by Position'),
               ('49ers-2026-season-preview-roster-schedule-questions.html', '49ers Preview',
                'The 2026 49ers, Position by Position')]),
+
+# ------------------------------- 11. Harbaugh returns Thursday + Kittle update, 16 August 2026
+dict(slug='49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery',
+     section='49ers', tag='49ers', hub='49ers',
+     title='Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself',
+     h1="Jim Harbaugh Comes Back on Thursday, and George Kittle Finally Sounds Like Himself Again",
+     dek="The 49ers are at SoFi on Thursday night against the man who dragged this "
+         "franchise back to life and then got run out of the building. And the best news "
+         "of the week has nothing to do with him.",
+     desc="The 49ers play Harbaugh's Chargers at SoFi on Thursday night, and George "
+          "Kittle says his Achilles recovery is hitting every marker with Week 1 in reach.",
+     date='2026-08-16',
+     card=('49ers', 'Harbaugh Comes Back', 'Thursday at SoFi, and the Kittle news we wanted'),
+     body=[
+      "Jim Harbaugh is on the other sideline Thursday night and I have been trying all "
+      "week to decide how I feel about it. I still do not know. The 49ers are at SoFi at "
+      "seven o'clock on Thursday, it is a preseason game, it means nothing, and I am going "
+      "to watch every snap of it like it is January.",
+      "Because it is him. It is the guy who walked into a building that had been "
+      "irrelevant for a decade and made it terrifying inside of one season. Forty four "
+      "wins, nineteen losses and a tie. Three straight NFC Championship Games. A Super "
+      "Bowl that we should have won and that I still refuse to discuss in detail with "
+      "anybody. He did all of that in four years, and then it ended, because of course it "
+      "ended, over egos and pride and a front office that decided it would rather be right "
+      "than be good.",
+      "And I am still mad about it. Twelve years later. I am aware of how that sounds.",
+      "So Thursday is going to be strange. He gets the handshake, he gets the nice video "
+      "package, somebody at the network will use the word <i>reunion</i> about eleven "
+      "times, and none of it changes that we spent a decade after him trying to find that "
+      "exact feeling again.",
+      "<b>Now the part that actually matters.</b> George Kittle stood there this week and "
+      "sounded like George Kittle again, and I did not realise how badly I needed to hear "
+      "it until he opened his mouth.",
+      "You remember how this started. Eleven January, the playoff game against "
+      "Philadelphia, and his right Achilles went. That is the injury that used to end "
+      "careers and still ends seasons, and he is thirty two years old, and every one of us "
+      "did the same grim arithmetic that night about what a tight end looks like on the "
+      "other side of one of those.",
+      "He has been on the physically unable to perform list all camp. He says he expects "
+      "to come off it before the season. He says he is hitting the markers, that he is "
+      "getting close, that he wants to be back in pads sooner rather than later. He would "
+      "not put a date on it, which is the correct answer and also a deeply annoying one. "
+      "And the detail that got me is the speed. He is reportedly running at numbers close "
+      "to where he was before the thing tore. Eight months after an Achilles.",
+      "The one honest caveat, because I have been burned by August optimism more times "
+      "than I can count: the work left is calf strength, getting the repaired side back to "
+      "matching the other one, and that is exactly the part nobody can rush and nobody can "
+      "see from the outside. It is also the part that decides whether he is himself in "
+      "December or whether he spends the year being managed. So no, he is not playing "
+      "Thursday, he should not play Thursday, and if anybody at that facility even "
+      "considers putting him on a field at SoFi in August for a game that does not count I "
+      "will drive down there personally.",
+      "Week 1 is in Australia against the Rams and that is the date he is aiming at. That "
+      "is the one I care about. The full picture of who is available and who is not is on "
+      "the {depth}, and it has not been a kind summer, as {rbroom} covered in painful "
+      "detail.",
+      "<b>What Thursday is actually for.</b> Tuesday is the part that matters more, when "
+      "the two teams practise together down in El Segundo, because joint practices are "
+      "where real football gets played in August and the game afterwards is mostly "
+      "paperwork. Thursday is roster spots. It is the back half of the receiver room and "
+      "the last three defensive line jobs and whichever young corner decides he wants to "
+      "make somebody's life difficult. Watch those guys. Nothing else on that field is "
+      "going to tell you anything about September.",
+      "Harbaugh, meanwhile, will do what Harbaugh does, which is treat a preseason game "
+      "like a street fight and get genuinely furious about a holding call in the third "
+      "quarter with his fourth string offense on the field. That is not an act. That was "
+      "never an act. It is the entire reason it worked here and the entire reason it "
+      "eventually did not.",
+      "There is also the small matter of our own head coach, who is putting himself back "
+      "together after the car accident and is expected to be there for Week 1, which is "
+      "its own kind of August storyline that I would very much like to stop having. The "
+      "structural read on this roster is in the {preview}, the whole year is laid out in "
+      "the {sched}, and everything else lives on the {hub}.",
+      "But strip all of it away and this is the week the news was good. Kittle is running "
+      "and he is happy about it. The old man is coming back to town for one night. Go "
+      "watch it, yell at your television about 2013 for a while, and then let the guy with "
+      "the Achilles take all the time he needs.",
+     ],
+     links={'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
+            'rbroom': ('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html',
+                       'the state of the running back room'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'season schedule hub'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html', '49ers',
+               'Four Running Backs Down, Bosa Sore, and Kittle Running. Again.'),
+              ('49ers-2026-schedule-season-hub.html', '49ers', 'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers',
+               'The 2026 49ers Roster and Depth Chart, Position by Position')]),
 ]
 
 

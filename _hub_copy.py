@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""_hub_copy.py - give the team and league hubs something to actually read.
+"""_hub_copy.py: give the team and league hubs something to actually read.
 
 Each hub was a one-line hero over a wall of cards: 130-160 words of unique prose on
 pages carrying up to 136 story cards. This adds a short editorial block under the hero
 explaining what the hub covers, where that team's season actually is, and which pieces
-are worth starting with - with the internal links written into the sentences rather
+are worth starting with, with the internal links written into the sentences rather
 than bolted on as a list.
 
 Markup reuses what the hubs already have: a <section class="zone">, the existing
@@ -53,7 +53,7 @@ COPY = {
    'pretended otherwise since.',
    'The bullpen is the other constant. If you want the pattern rather than one bad night, '
    'start with <a href="articles/giants-season-over-build-around-eldridge-posey-bullpen.html">the column that called the season '
-   'over</a>. Older Giants coverage - the even-year dynasty, Bonds, the 1993 race - lives '
+   'over</a>. Older Giants coverage, the even-year dynasty, Bonds, the 1993 race, lives '
    'in <a href="history.html">Bay Area History</a>. Everything current sits below.']),
 
  '49ers.html': ('The 49ers, going into 2026', [
@@ -88,9 +88,9 @@ COPY = {
    "came the streaks: <a href=\"articles/athletics-nine-straight-white-sox-9-1-tailspin-i-called-it-july-12.html\">nine "
    "straight in July</a>, <a href=\"articles/athletics-first-half-breakdown-mirage-collapse-all-star-break-2026.html\">41-55 at "
    "the break</a>, and <a href=\"articles/athletics-free-fall-continues-fourth-place-trade-deadline-july-30.html\">a free fall "
-   "that never actually stopped</a>. The one night that broke the pattern - "
+   "that never actually stopped</a>. The one night that broke the pattern, "
    "<a href=\"articles/athletics-15-1-nationals-ginn-gem-streak-snapped-july-18.html\">a 15-1 win that snapped a ten-game "
-   "skid</a> - was worth checking the box score three times.",
+   "skid</a>, was worth checking the box score three times.",
    "There is real talent here, which is what makes it maddening. Jacob Lopez keeps "
    "<a href=\"articles/athletics-twins-2-0-lopez-bullpen-shutout-july-25.html\">pitching well enough to win</a> and keeps "
    "getting nothing behind him. Nick Kurtz and Shea Langeliers both started an All-Star "
@@ -106,7 +106,7 @@ COPY = {
    'Two threads run through the coverage. One is the front office: '
    '<a href="articles/warriors-front-office-failures-curry-exit-not-preposterous.html">it keeps failing Steph Curry, and "he '
    'could leave" no longer sounds crazy</a>. The other is the young core and how it is '
-   'handled - <a href="articles/warriors-kerr-kuminga-role-handling.html">how Steve Kerr actually handled Jonathan '
+   'handled, <a href="articles/warriors-kerr-kuminga-role-handling.html">how Steve Kerr actually handled Jonathan '
    'Kuminga</a> is the case study, and '
    '<a href="articles/warriors-out-of-easy-answers.html">the team is out of easy answers</a> either way.',
    'The championship years are not gone, just filed: '
@@ -132,7 +132,7 @@ COPY = {
    'completely different reasons, which makes reading them side by side more interesting '
    'than it should be.',
    'The <a href="giants.html">Giants</a> had a roster good enough to matter and spent the '
-   'deadline taking it apart - Arraez, Ray, Ramos and Mahle all gone, with '
+   'deadline taking it apart, Arraez, Ray, Ramos and Mahle all gone, with '
    '<a href="articles/bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html">Bryce Eldridge</a> left as the thing '
    'to watch. The <a href="athletics.html">Athletics</a> are a franchise in transit, playing '
    'major-league games in a Triple-A park in West Sacramento while the Las Vegas move '
@@ -140,7 +140,7 @@ COPY = {
    'What you get here: every recap for both clubs in date order, the deadline coverage, '
    'the manager arguments, and the All-Star week when '
    '<a href="articles/giants-athletics-all-star-game-2026-arraez-langeliers-webb.html">the Bay actually had people in the '
-   'game</a>. Older baseball - the even-year dynasty, Bonds, the 1993 race - is in '
+   'game</a>. Older baseball, the even-year dynasty, Bonds, the 1993 race, is in '
    '<a href="history.html">History</a>.']),
 
  'nfl.html': ('Bay Area football, both of them', [
@@ -149,7 +149,7 @@ COPY = {
    'season, plus the occasional look at the Raiders now that they play their home games in '
    'Nevada and still take a piece of this region with them.',
    'The 2026 story so far is a quarterback playing at a historic level behind an injury '
-   'list that will not stop growing - <a href="articles/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html">Purdy '
+   'list that will not stop growing, <a href="articles/49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html">Purdy '
    'is inside 150 attempts of the best career passer rating ever recorded</a>, while camp '
    'keeps costing this team receivers. For the other franchise, there is the '
    '<a href="articles/raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html">Raiders 2026 preview</a>.',
@@ -163,7 +163,7 @@ COPY = {
    'This is the league page for Bay Area basketball, which means the '
    '<a href="warriors.html">Golden State Warriors</a>: the roster, the rotation, the front '
    'office, and the question of how much of this era is left.',
-   'Current coverage is about the end of a dynasty rather than the middle of one - what '
+   'Current coverage is about the end of a dynasty rather than the middle of one, what '
    'happens to the young players, whether the front office is still worthy of Steph Curry, '
    'and what the next good Warriors team even looks like. The banner years are still here '
    'too, from <a href="articles/warriors-73-9-best-record-ever-added-durant.html">73-9</a> to '
@@ -194,7 +194,7 @@ def wr(p, s):
         fh.write(s)
     b = open(full, 'rb').read()
     if b'\x00' in b or b.count(b'\xef\xbf\xbd'):
-        raise SystemExit('corruption writing %s - ABORT' % p)
+        raise SystemExit('corruption writing %s, ABORT' % p)
 
 
 def main():
@@ -207,7 +207,7 @@ def main():
             continue
         i = s.find('<section class="sec-hero"')
         if i < 0:
-            print('  %-16s NO HERO - skipped' % page)
+            print('  %-16s NO HERO, skipped' % page)
             continue
         j = s.index('</section>', i) + len('</section>')
         new = s[:j] + '\n' + block(heading, paras) + s[j:]

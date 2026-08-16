@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""_giants_cluster.py - the Giants authority foundation.
+"""_giants_cluster.py: the Giants authority foundation.
 
 The Giants archive is the largest on the site: 46 articles, 20 of them game recaps, and
 the strongest evergreen pages anywhere on the blog. What it does not have is furniture -
 a roster page, a page that says where the rebuild actually stands after the selloff, a
 records page, or anything about the ballpark itself.
 
-Deliberately NOT duplicated - the archive already owns these:
+Deliberately NOT duplicated, the archive already owns these:
   bryce-eldridge-giants-future-franchise-first-baseman  1,515w, the definitive Eldridge piece
   giants-season-over-build-around-eldridge-posey-bullpen 26 inbound, the July argument
   giants-trade-deadline-monday-posey-sell-ramos-arraez-ray  the deadline column
@@ -14,7 +14,7 @@ Deliberately NOT duplicated - the archive already owns these:
   barry-bonds-giants-home-run-king  the Bonds column
   giants-dynasty-even-year-magic / flashback-bumgarner / bruce-bochy  the dynasty
   giants-1993-pennant-race-*  the 1993 race
-  giants-oracle-park-still-waiting  the October drought column - NOT a park guide
+  giants-oracle-park-still-waiting  the October drought column, NOT a park guide
 
   python _giants_cluster.py [--check]
 """
@@ -126,7 +126,7 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
       "roughly a week, which is not a teardown by modern standards but is the most honest "
       "thing this front office has done since he took the job.",
       "<b>What came back.</b> The headline return is {mayer}, which we called a robbery "
-      "at the time and still looks like one. Beyond that it is arms and lottery tickets - "
+      "at the time and still looks like one. Beyond that it is arms and lottery tickets, "
       "the Mahle deal brought back a twenty-four-year-old who went straight to Sacramento. "
       "None of it is a franchise-altering haul. All of it is better than watching those "
       "contracts expire for nothing, which is what happened the last time.",
@@ -156,7 +156,7 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
       "pitching, defence and contact, and the park has not changed just because the roster "
       "did.",
       "<b>What would make this a failure.</b> Spending the winter on veterans to get back "
-      "to .500. That is the trap this franchise has fallen into repeatedly - buying just "
+      "to .500. That is the trap this franchise has fallen into repeatedly, buying just "
       "enough to be uninteresting, finishing fourth, and arriving at the next deadline "
       "with nothing to sell and nothing to promote. The selloff only means something if "
       "the next move is patience.",
@@ -230,7 +230,7 @@ dict(slug='giants-2026-roster-depth-chart',
       "genuinely looked like a major-league starter and nights that looked like a "
       "prospect, which is exactly what a rebuilding team should be finding out in "
       "August. Roupp has been given the same runway. Neither has settled it. The point of "
-      "a lost season is that those innings are free - the wins were never coming, so the "
+      "a lost season is that those innings are free, the wins were never coming, so the "
       "information is the return.",
       "<b>What the depth chart does not show.</b> The Sacramento pipeline is now carrying "
       "more weight than it has in years, because four veterans left in a week and "
@@ -263,7 +263,7 @@ dict(slug='giants-2026-season-hub-results-coverage',
      desc="The 2026 Giants season in order: the July collapse, the deadline selloff, and "
           "every recap and column we published along the way.",
      date='2026-08-08',
-     card=('giants', 'The 2026 Season', 'Hope, collapse, selloff - in order'),
+     card=('giants', 'The 2026 Season', 'Hope, collapse, selloff, in order'),
      body=[
       "This is the page to start from if you want the season as a story rather than as a "
       "pile of separate columns. It gets updated as games are played.",
@@ -273,15 +273,15 @@ dict(slug='giants-2026-season-hub-results-coverage',
       "below is a variation on it.",
       "<b>July: the month it ended.</b> The bullpen defined it. {kilian} coughed up a "
       "two-out lead to the worst team in baseball, and that game turned out to be the "
-      "template. There was a genuinely good stretch at the end of the month - "
+      "template. There was a genuinely good stretch at the end of the month, "
       "{heating} covers the run where they beat the best team in baseball twice and hung "
-      "sixteen on Milwaukee - but it was a mirage inside a losing season.",
+      "sixteen on Milwaukee, but it was a mirage inside a losing season.",
       "<b>The All-Star break.</b> {firsthalf} is the accounting: 41-55, a lost first "
       "half, and a rookie manager learning on the job in public.",
       "<b>August: the selloff.</b> Three days in San Diego where they got swept, and then "
       "the deadline. {deadline} was the argument beforehand; {rebuild} is where things "
       "actually stand now. And then the eight-nothing loss to Detroit on 8 August, where "
-      "{roupp} in front of a full ballpark - the clearest picture yet of where this "
+      "{roupp} in front of a full ballpark, the clearest picture yet of where this "
       "clubhouse stands on its manager. The day after that, {webb} and lost anyway in ten "
       "innings, which is the other half of the same problem. Then on 11 August, {astros} "
       "for win number fifty, which is the first genuinely encouraging night since the "
@@ -362,7 +362,7 @@ dict(slug='oracle-park-mccovey-cove-splash-hits-guide',
       "real, measurable, and it has shaped how the Giants have been built for a quarter "
       "of a century.",
       "<b>The dimensions.</b> The park opened in 2000. Left field is 339 feet, centre is "
-      "391, and right field is 309 - which sounds like a bandbox until you understand "
+      "391, and right field is 309, which sounds like a bandbox until you understand "
       "what sits behind that right-field wall and how quickly the fence runs away from "
       "the plate into right-centre. The short porch is a target for maybe a dozen swings "
       "a season. Everything else that goes that way dies in the gap.",
@@ -372,11 +372,11 @@ dict(slug='oracle-park-mccovey-cove-splash-hits-guide',
       "learning that the ball they crushed in July would have been out somewhere else.",
       "<b>What the numbers say.</b> Recent park factors put runs at 94 and home runs at "
       "78, against a league average of 100. Runs are suppressed slightly. Home runs are "
-      "suppressed enormously - roughly a fifth fewer than a neutral park. Oracle Park is "
+      "suppressed enormously, roughly a fifth fewer than a neutral park. Oracle Park is "
       "not a mild pitcher's park. It is one of the hardest places in baseball to hit a "
       "ball out.",
       "<b>McCovey Cove.</b> The water beyond right field is named for Willie McCovey, and "
-      "the name came from sportswriters rather than a marketing department - the thought "
+      "the name came from sportswriters rather than a marketing department, the thought "
       "being that McCovey, who spent his career fighting the wind at Candlestick, would "
       "have put dozens of balls in there had he played on the water instead.",
       "<b>Splash hits.</b> A home run that clears the right-field wall and reaches the "
@@ -386,7 +386,7 @@ dict(slug='oracle-park-mccovey-cove-splash-hits-guide',
       "one in the Cove the opposite way. Not one, in a quarter of a century.",
       "<b>Why it matters to how the team is built.</b> A park that eats home runs "
       "rewards contact, speed, defence and pitching, and punishes a roster built on "
-      "slug. That is not a coincidence in the {dynasty} - those teams were pitching and "
+      "slug. That is not a coincidence in the {dynasty}, those teams were pitching and "
       "defence and timely hitting, which is exactly what this park pays for. Every time "
       "the Giants have tried to build a lineup of sluggers, the park has quietly taken a "
       "percentage.",
@@ -457,7 +457,7 @@ dict(slug='giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8',
       "lineups have been indefensible all year. He hit {leadoff}, which is a thing a man "
       "does when he has confused being unpredictable with being smart. He {benched} in a "
       "one-run game against Texas and then had to use him off the bench anyway to tie it, "
-      "which is the single most Vitello sequence of the season - wrong on the decision, "
+      "which is the single most Vitello sequence of the season, wrong on the decision, "
       "bailed out by the kid, still lost the game. Every week it is a new batting order, "
       "new positions, guys hitting in spots that make no sense for the roster or the "
       "ballpark, and no visible idea underneath any of it.",
@@ -471,7 +471,7 @@ dict(slug='giants-landen-roupp-showed-up-tony-vitello-tigers-8-0-august-8',
       "is one more.",
       "So here is where it lands. This season is gone, it has been gone since July, the "
       "veterans are on other teams and the only reason left to watch is to find out which "
-      "young players are real - and we cannot even get a clean answer to that, because "
+      "young players are real, and we cannot even get a clean answer to that, because "
       "they are being used by a man who changes his mind every night. {rebuild} spells out "
       "what 2027 has to look like. Step one is not a free agent. Step one is deciding "
       "whether the person filling out the lineup card is somebody this roster will "
@@ -525,8 +525,8 @@ dict(slug='giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9',
       "on a ground ball double play in the sixth. Unearned. Of course it was unearned. He "
       "was not even allowed to lose it honestly.",
       "Then the seventh, and for about twenty minutes this felt like a baseball game. "
-      "Basabe gets on, Drew Gilbert hits an infield single - an <i>infield single</i>, "
-      "which is the most 2026 Giants way imaginable to score a run - and it is one-all. "
+      "Basabe gets on, Drew Gilbert hits an infield single, an <i>infield single</i>, "
+      "which is the most 2026 Giants way imaginable to score a run, and it is one-all. "
       "That is our offence. Seven hits, one run, seven men left on base, and the run we "
       "did score never left the dirt.",
       "And Webb keeps going. Seventh, fine. Eighth, fine. He finishes the eighth having "

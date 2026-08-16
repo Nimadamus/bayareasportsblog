@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_warriors_cluster.py - the Warriors authority foundation.
+"""_warriors_cluster.py: the Warriors authority foundation.
 
 The archive had seven Warriors pieces and all of them were arguments: the era ending,
 the front office failing Curry, the LeBron hypothetical, Kerr and Kuminga. Good columns,
@@ -11,8 +11,8 @@ Deliberately NOT duplicated:
       office, so the roster-construction piece here is about the cap sheet instead
   warriors-out-of-easy-answers      - the era-ending argument
   lebron-curry-warriors-legacy      - the hypothetical
-  warriors-kerr-kuminga-role-handling - player development
-  warriors-championship-history / 73-9 / flashback-klay - the history is already covered
+  warriors-kerr-kuminga-role-handling, player development
+  warriors-championship-history / 73-9 / flashback-klay, the history is already covered
 
 No schedule hub yet: the 2026-27 NBA schedule is not out. Listed as a gap rather than
 guessed at.
@@ -37,7 +37,7 @@ dict(slug='stephen-curry-career-records-three-pointers',
      date='2026-08-08',
      card=('warriors', 'Curry by the Numbers', 'The records he owns and the gap behind him'),
      body=[
-      "There is a version of the Stephen Curry argument that gets exhausting - the "
+      "There is a version of the Stephen Curry argument that gets exhausting, the "
       "greatest shooter ever, the most important offensive player of his generation, all "
       "of it true and all of it repeated until it stops landing. This page is the other "
       "version. Just the numbers, kept straight, updated as they move.",
@@ -48,7 +48,7 @@ dict(slug='stephen-curry-career-records-three-pointers',
       "The record was not a finish line, it was a checkpoint he went through at speed.",
       "<b>The gap.</b> The two players closest to him are Damian Lillard at 2,785 and his "
       "old running mate {klay} at 2,657. Both are approaching three thousand. Curry is "
-      "past four thousand. That is not a lead, it is a different unit of measurement - "
+      "past four thousand. That is not a lead, it is a different unit of measurement, "
       "somebody would need to make thirteen hundred more threes than Lillard has managed "
       "in a full career just to draw level.",
       "<b>The 4,000 club.</b> It has one member. Curry became the first player in the "
@@ -58,8 +58,8 @@ dict(slug='stephen-curry-career-records-three-pointers',
       "<b>What is still moving.</b> The three-point number obviously, and every game he "
       "plays pushes the eventual record further out of reach for whoever comes next. The "
       "consecutive-games-with-a-three streak is its own running record and he has broken "
-      "his own mark more than once. Beyond the shooting, the career totals - points, "
-      "assists, the franchise records that were Rick Barry's and Wilt's before him - keep "
+      "his own mark more than once. Beyond the shooting, the career totals, points, "
+      "assists, the franchise records that were Rick Barry's and Wilt's before him, keep "
       "climbing as long as he is upright.",
       "<b>What the numbers do not say.</b> They do not say what it did to the sport, "
       "which is the part that will matter in fifty years. Every fourteen-year-old pulling "
@@ -70,7 +70,7 @@ dict(slug='stephen-curry-career-records-three-pointers',
       "<b>The honest caveat.</b> He is thirty-eight, playing a position that punishes "
       "thirty-eight, on a roster that has been rebuilt around him twice. The numbers keep "
       "going up because he keeps playing, and the day that stops, they stop. Which is why "
-      "the argument about {frontoffice} is not sentimental - every season he is asked to "
+      "the argument about {frontoffice} is not sentimental, every season he is asked to "
       "carry a flawed roster is a season of these numbers spent on a team that could not "
       "win with them.",
       "This page gets updated as the totals move. The era-level argument is in "
@@ -114,7 +114,7 @@ dict(slug='warriors-2026-27-roster-depth-chart',
       "Podziemski has grown into a real rotation piece rather than a project. Moody at "
       "$12.5 million is the sort of contract that looks fine when he plays and awkward "
       "when he does not.",
-      "<b>Wing.</b> Santos in the projected starting five is the story here - a player "
+      "<b>Wing.</b> Santos in the projected starting five is the story here, a player "
       "on a $4.6 million deal starting for a team paying two players a combined $119 "
       "million tells you exactly where the cap pressure landed. Butler when healthy "
       "changes this room entirely.",
@@ -129,8 +129,8 @@ dict(slug='warriors-2026-27-roster-depth-chart',
       "trying to win now are earned rather than given, and {kuminga} is the cautionary "
       "tale about how this coaching staff handles young players who are not immediately "
       "ready.",
-      "<b>Where it runs thin.</b> Everywhere behind the top six. The cap sheet - "
-      "{cap} goes through it in detail - means the back half of this roster is minimum "
+      "<b>Where it runs thin.</b> Everywhere behind the top six. The cap sheet, "
+      "{cap} goes through it in detail, means the back half of this roster is minimum "
       "contracts and hope. If Curry, Green or Porzingis misses time, there is no "
       "replacement on the books, only a redistribution of minutes to players who were "
       "not signed to play them.",
@@ -237,7 +237,7 @@ dict(slug='warriors-roster-construction-cap-sheet-2026-27',
       "out better options. Because there were no better options to sign. When three "
       "contracts eat the payroll, the fourth through ninth men come from the draft, the "
       "minimum, or internal development. That is the whole explanation, and it is also "
-      "the reason {kuminga} mattered more than it appeared to at the time - a homegrown "
+      "the reason {kuminga} mattered more than it appeared to at the time, a homegrown "
       "player who develops into a starter is worth more to this specific roster than to "
       "almost any other team in the league.",
       "<b>The bet the front office made.</b> Butler's contract is the tell. Paying that "
@@ -245,7 +245,7 @@ dict(slug='warriors-roster-construction-cap-sheet-2026-27',
       "Curry, while there is still a window. That is a defensible bet. It is also a bet "
       "with no hedge: if the knee does not hold, there is no cap space to fix it, no "
       "expiring contract to trade, and no obvious path back to flexibility for years.",
-      "<b>What good roster construction looks like from here.</b> Not a blockbuster - "
+      "<b>What good roster construction looks like from here.</b> Not a blockbuster, "
       "there is nothing to trade with. It looks like the boring version: hit on the "
       "draft picks, develop the players already on the roster, sign the right veterans "
       "at the minimum, and hope Horford-type signings keep outperforming their money. "
@@ -279,7 +279,7 @@ dict(slug='warriors-clinging-to-past-cannot-develop-young-players',
          "guard and whichever veterans would take the minimum. That is not loyalty. "
          "That is a franchise that cannot grow its own.",
      desc="Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep "
-          "buying old veterans - because this franchise cannot develop young players.",
+          "buying old veterans, because this franchise cannot develop young players.",
      date='2026-08-14',
      card=('warriors', 'Clinging to the Past', 'A franchise that cannot grow its own'),
      body=[
@@ -295,14 +295,14 @@ dict(slug='warriors-clinging-to-past-cannot-develop-young-players',
       "Run the list, because the list is damning. James Wiseman, second overall pick, "
       "the highest pick this franchise had held in a generation, handed to a "
       "win-now locker room with no development plan, no G-League runway, no patience, "
-      "and shipped out as a salary line. The famous \"two timelines\" - remember that? "
+      "and shipped out as a salary line. The famous \"two timelines\", remember that? "
       "The front office stood at a podium and told us they could contend with Curry "
       "and build the next era at the same time, and what we got was neither: the "
       "young timeline never developed and the old timeline paid the luxury tax for "
       "the privilege of watching it not develop. Jordan Poole got his development "
       "year, got paid, got punched, got traded. {kuminga} is the definitive document "
       "of how this coaching staff handles a young player who is not ready-made for "
-      "the system - a season-long negotiation that developed nobody and satisfied "
+      "the system, a season-long negotiation that developed nobody and satisfied "
       "no one. And Moses Moody, the quiet one on the list, spent years earning trust "
       "in eight-minute increments, finally got a real contract, and is now hurt. "
       "That is five first-round investments. The return is one rotation player and "
@@ -311,13 +311,13 @@ dict(slug='warriors-clinging-to-past-cannot-develop-young-players',
       "buy everything, and it has to buy old, because old is the only thing the "
       "market sells to a team with no cap room and no patience. That is not a "
       "strategy. That is a habit wearing a strategy's clothes. The {cap} shows where "
-      "it leads - roughly $147 million tied up in three players on the wrong side of "
+      "it leads, roughly $147 million tied up in three players on the wrong side of "
       "their peaks, minimum contracts and hope behind them. Porzingis and Horford "
       "and Butler are not a future. They are a very expensive way of postponing the "
       "question the front office has failed to answer since 2020: who is the next "
       "Warrior? Not the next veteran in a Warriors jersey. The next Warrior.",
-      "The bitter joke is that the two young players actually starting this year - "
-      "Brandin Podziemski and Gui Santos - are not starting because the development "
+      "The bitter joke is that the two young players actually starting this year, "
+      "Brandin Podziemski and Gui Santos, are not starting because the development "
       "machine worked. They are starting because the cap sheet forced it. Santos at "
       "$4.6 million starts for a team paying two men a combined $119 million, and "
       "the {depth} says the quiet part plainly: that tells you where the pressure "
@@ -332,8 +332,8 @@ dict(slug='warriors-clinging-to-past-cannot-develop-young-players',
       "his story end differently? Nothing about the machine has changed. The people "
       "running it have not changed. The only thing that changes is the name on the "
       "cautionary tale.",
-      "And the reason this all keeps working - the reason the building sells out and "
-      "the questions stay soft - is the past. The banners do the talking. {curry} is "
+      "And the reason this all keeps working, the reason the building sells out and "
+      "the questions stay soft, is the past. The banners do the talking. {curry} is "
       "still out there being the only reason to watch, and every night he cooks for "
       "a quarter, the whole operation gets to point at him instead of at the six "
       "years of failed drafts behind him. The dynasty bought this front office a "

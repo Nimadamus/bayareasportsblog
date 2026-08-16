@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_gen_sport_hubs.py - build the league hubs (nfl / mlb / nba / nhl).
+"""_gen_sport_hubs.py: build the league hubs (nfl / mlb / nba / nhl).
 
 A league hub is the team-hub template with the same masthead, nav, hero, card
 grid and footer; the only difference is that its stories are grouped under a
@@ -191,7 +191,7 @@ def main():
                 '<div class="mag">\n%s\n</div>\n</div></section>'
                 % (team, hub, team, '\n'.join(blocks)))
         if not sections:
-            print('SKIP %s - no cards' % slug)
+            print('SKIP %s, no cards' % slug)
             continue
 
         hero = ('<section class="sec-hero" style="--th:var(--%s)"><div class="wrap">\n'
@@ -212,7 +212,7 @@ def main():
         with open(out, 'w', encoding='utf-8', newline='') as fh:
             fh.write(html)
         if b'\x00' in open(out, 'rb').read():
-            raise SystemExit('NULL-byte corruption writing %s - ABORT' % out)
+            raise SystemExit('NULL-byte corruption writing %s, ABORT' % out)
         wrote.append((slug, total))
 
     for slug, total in wrote:

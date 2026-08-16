@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_sharks_cluster.py - the Sharks cluster, built from zero.
+"""_sharks_cluster.py: the Sharks cluster, built from zero.
 
 One article existed on this franchise before today: sharks-rebuild-has-a-pulse-celebrini,
 a 632-word column. The NHL season opens 1 October and the site had nothing to rank with.
@@ -10,7 +10,7 @@ franchise evergreen. Every number here comes from the 2025-26 season record, the
 draft and the July 2026 transaction log.
 
 Deliberately NOT duplicated:
-  sharks-rebuild-has-a-pulse-celebrini   the rebuild column - stays the argument; the
+  sharks-rebuild-has-a-pulse-celebrini   the rebuild column, stays the argument; the
       Celebrini page here is the reference (records, contract, where he ranks)
   bay-area-championships-complete-list-by-team   the Sharks' zero is a row on that
       ledger; the history page here explains it
@@ -197,8 +197,8 @@ dict(slug='sharks-2026-27-roster-depth-chart',
       "<b>The future on defence is the second pair.</b> Sam Dickinson is twenty and "
       "Michael Kesselring is twenty-six, and if those two settle into a real middle "
       "pairing this season it matters more to 2029 than anything Nurse or Trouba does. "
-      "Behind them, Keaton Verhoeff went ninth overall and Ryan Lin went 21st - the Sharks "
-      "traded up for Lin - so the organisation now has three first-round defencemen in the "
+      "Behind them, Keaton Verhoeff went ninth overall and Ryan Lin went 21st, the Sharks "
+      "traded up for Lin, so the organisation now has three first-round defencemen in the "
       "system at once.",
 
       "<b>And then there is the goaltending, which is the whole season.</b>",
@@ -214,7 +214,7 @@ dict(slug='sharks-2026-27-roster-depth-chart',
       "playoffs with league-average goaltending. That is the entire margin.",
 
       "<b>What the offence looked like last year.</b> Including the man who is no longer "
-      "here - William Eklund was fourth in scoring and was traded to Ottawa as the cost of "
+      "here, William Eklund was fourth in scoring and was traded to Ottawa as the cost of "
       "moving up for Verhoeff, which tells you how this front office is thinking.",
 
       SCORING,
@@ -271,7 +271,7 @@ dict(slug='sharks-2026-27-schedule-season-hub',
       OCTOBER,
 
       "<b>The first month is harder than it looks.</b> Fifteen games, and eight of them "
-      "away - including a six-game eastern trip from 15 to 24 October that runs Nashville, "
+      "away, including a six-game eastern trip from 15 to 24 October that runs Nashville, "
       "Detroit, Toronto, Montreal, Ottawa and Boston, with the Toronto and Montreal games "
       "on consecutive nights. A young team can be buried by that trip before American "
       "Thanksgiving, and a good one can announce itself. The Ottawa game on 22 October is "
@@ -283,7 +283,7 @@ dict(slug='sharks-2026-27-schedule-season-hub',
       "{history} page describes is about to end.",
 
       "<b>Where the season is being run from.</b> Ryan Warsofsky is the head coach, Mike "
-      "Grier is the general manager, and the building is SAP Center in downtown San Jose - "
+      "Grier is the general manager, and the building is SAP Center in downtown San Jose, "
       "which, for the record, is the only major professional arena in the Bay Area that "
       "has not moved cities in the last decade. The {moves} page has the rest of that "
       "regional pattern.",
@@ -315,14 +315,14 @@ dict(slug='sharks-2026-27-schedule-season-hub',
       "since 2019 is genuinely on the table and would be the biggest thing to happen to "
       "this franchise in seven years.",
 
-      "<b>The thing that would make it a bad season.</b> Not losing - this team is allowed "
+      "<b>The thing that would make it a bad season.</b> Not losing, this team is allowed "
       "to lose. It would be Celebrini getting hurt, or the goaltending staying where it "
       "is and wasting a year of an elite centre's prime. Development years are cheap. "
       "Wasted years of a player like that are not.",
 
       "<b>What we will be publishing.</b> Game coverage through the season, roster updates "
       "on the {depth} as moves happen, and updates to the {celebrini} page as the numbers "
-      "move. The archive so far is short - {pulse} is the column that started it - and "
+      "move. The archive so far is short, {pulse} is the column that started it, and "
       "that changes from October.",
 
       "<b>Dates worth marking now.</b> Opening night on 1 October against Florida. The "
@@ -368,7 +368,7 @@ dict(slug='macklin-celebrini-sharks-records-contract',
 
       "<b>The season.</b> Eighty-two games, 45 goals, 70 assists, 115 points. That is the "
       "single-season scoring record for this franchise, and the man it took it from is Joe "
-      "Thornton - a Hart Trophy winner and the defining Shark of the previous era. "
+      "Thornton, a Hart Trophy winner and the defining Shark of the previous era. "
       "Celebrini got the record in the final game of the regular season, which is a "
       "reasonably cinematic way to do it.",
 
@@ -379,13 +379,13 @@ dict(slug='macklin-celebrini-sharks-records-contract',
       "{depth} is the honest accounting of what else there is.",
 
       "<b>The rate, for people who prefer rates.</b> 3.95 points per sixty minutes, fifth "
-      "in the entire league - not fifth among young players, fifth overall - and the "
+      "in the entire league, not fifth among young players, fifth overall, and the "
       "highest figure ever recorded by a player under twenty-one in the analytics era. He "
       "was not compiling on a big minutes load. He was scoring at a rate that belongs to "
       "the best handful of players in the world, at an age where almost nobody is doing "
       "it.",
 
-      "<b>The contract.</b> Five years at $18.8 million per season - the highest annual "
+      "<b>The contract.</b> Five years at $18.8 million per season, the highest annual "
       "salary in the National Hockey League. San Jose paid the number rather than argue "
       "about it, which is the correct decision and also the most encouraging thing this "
       "ownership has done in a decade. A small-market franchise coming off six years of "
@@ -394,7 +394,7 @@ dict(slug='macklin-celebrini-sharks-records-contract',
       "a subject.",
 
       "<b>What it costs them.</b> A lot. That cap number means the roster around him has "
-      "to be built cheap - which is exactly why the summer was spent on a trade for a "
+      "to be built cheap, which is exactly why the summer was spent on a trade for a "
       "defenceman with term, a free agent defenceman on the wrong side of thirty, and "
       "three first-round picks rather than a marquee winger. Every dollar decision this "
       "front office makes for the next five years is downstream of this contract.",
@@ -414,7 +414,7 @@ dict(slug='macklin-celebrini-sharks-records-contract',
       "the Sharks are the only franchise in the Bay Area with a player whose ceiling is "
       "that word.",
 
-      "<b>What has to happen next.</b> Two things. He has to do it again - one season is "
+      "<b>What has to happen next.</b> Two things. He has to do it again, one season is "
       "a season, three is a player. And the club has to put a second scoring line and a "
       "goaltender around him, because 115 points bought 86 standings points and no "
       "playoffs, and there is a version of this where he spends his best years carrying a "
@@ -456,12 +456,12 @@ dict(slug='san-jose-sharks-history-no-stanley-cup',
      date='2026-08-08',
      card=('sharks', 'The Sharks', 'Thirty-five years, one Final, no Cup'),
      body=[
-      "On the {ledger} - every championship this region has won, twenty-one of them across "
-      "six franchises - there is one line with a zero on it, and this is the page that "
+      "On the {ledger}, every championship this region has won, twenty-one of them across "
+      "six franchises, there is one line with a zero on it, and this is the page that "
       "explains it. It is not a story about a bad franchise. That is what makes it hurt.",
 
       "<b>Where they came from.</b> The NHL awarded San Jose an expansion team for 1991 to "
-      "Gordon and George Gund, who had previously owned the California Seals - so Bay Area "
+      "Gordon and George Gund, who had previously owned the California Seals, so Bay Area "
       "hockey came back to a region that had already lost a team once. The first two "
       "seasons were played at the Cow Palace in Daly City, which is not San Jose and was "
       "not new in 1991, while the arena downtown was built.",
@@ -485,7 +485,7 @@ dict(slug='san-jose-sharks-history-no-stanley-cup',
 
       "<b>2016, the one time it was actually there.</b> The Sharks reached the Stanley Cup "
       "Final for the only time in franchise history and lost to Pittsburgh in six games. "
-      "Not swept, not embarrassed - beaten by a better team in a series that was closer "
+      "Not swept, not embarrassed, beaten by a better team in a series that was closer "
       "than the scoreline. It is the high-water mark and it is now a decade old.",
 
       "<b>2019, the greatest thing that ever happened in that building.</b> Game 7 against "
@@ -499,7 +499,7 @@ dict(slug='san-jose-sharks-history-no-stanley-cup',
       "back-to-back finishes at the bottom of the league. Thornton and Marleau left. The "
       "building emptied out. In a region that had the Warriors winning championships and "
       "the Giants and 49ers taking up all the oxygen, a bad hockey team in San Jose became "
-      "genuinely invisible - which is how a market with a real hockey audience ended up "
+      "genuinely invisible, which is how a market with a real hockey audience ended up "
       "with almost nobody paying attention.",
 
       "<b>Why they have never won, honestly.</b> There is no curse and there is no single "
@@ -512,7 +512,7 @@ dict(slug='san-jose-sharks-history-no-stanley-cup',
 
       "<b>Where it stands now.</b> Better than it has in years. Last season produced 86 "
       "points and a 34-point improvement, one of the biggest year-over-year jumps in club "
-      "history, and it still was not enough for a playoff spot - seven straight years out "
+      "history, and it still was not enough for a playoff spot, seven straight years out "
       "now. But there is a twenty-year-old centre who just broke Thornton's franchise "
       "scoring record and signed the largest contract in the sport, and that is a "
       "different kind of starting point than the last rebuild had. {celebrini} is the "

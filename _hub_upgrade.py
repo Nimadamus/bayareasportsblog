@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_hub_upgrade.py - additive upgrades to the team hubs.
+"""_hub_upgrade.py: additive upgrades to the team hubs.
 
 1. footer: the four league hubs are added to the existing Teams column on every
    root page that has one (no new column, no new component, no copy rewritten)
@@ -47,7 +47,7 @@ def wr(p, s):
     with open(p, 'w', encoding='utf-8', newline='') as fh:
         fh.write(s)
     if b'\x00' in open(p, 'rb').read():
-        raise SystemExit('NULL-byte corruption writing %s - ABORT' % p)
+        raise SystemExit('NULL-byte corruption writing %s, ABORT' % p)
 
 
 def add_footer_leagues(s):

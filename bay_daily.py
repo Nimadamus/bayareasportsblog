@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-bay_daily.py - Daily Bay Area Sports Update generator.
+bay_daily.py, Daily Bay Area Sports Update generator.
 
 Pulls REAL data from ESPN public feeds for every Bay Area pro team and builds a
 dated daily digest page (last game result, next game, record, latest news) plus a

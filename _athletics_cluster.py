@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""_athletics_cluster.py - the Athletics cluster, built on the one angle we own.
+"""_athletics_cluster.py: the Athletics cluster, built on the one angle we own.
 
 22 articles in the archive and 16 of them are game recaps. The single strongest page is
-athletics-sacramento-bay-area-villains (23 inbound), which is the grievance column - and
+athletics-sacramento-bay-area-villains (23 inbound), which is the grievance column, and
 that is exactly the right instinct, because the distinctive thing this site can say about
 this franchise has nothing to do with the standings.
 
@@ -11,7 +11,7 @@ a major league team playing in a 14,014-seat minor league park in West Sacrament
 $2 billion dome goes up on the Las Vegas Strip.
 
 Deliberately NOT duplicated:
-  athletics-sacramento-bay-area-villains  the grievance column, 23 inbound - stays the
+  athletics-sacramento-bay-area-villains  the grievance column, 23 inbound, stays the
       emotional piece; the ballpark page here is the factual one
   athletics-first-half-breakdown / free-fall-continues  the season columns
 
@@ -73,7 +73,7 @@ dict(slug='sutter-health-park-mlb-guide-dimensions-capacity',
       "building in another state. This page is the factual version of that. The "
       "{grievance} is where we keep the feelings.",
       "<b>The size of it.</b> Sutter Health Park holds 14,014. The fixed seating is "
-      "10,624 - the rest is lawn and standing room. For scale, that is a capacity smaller "
+      "10,624, the rest is lawn and standing room. For scale, that is a capacity smaller "
       "than most college basketball arenas, hosting a sport that expects forty thousand. "
       "The A's have averaged 9,781 over their time here, which means the building is not "
       "even full most nights.",
@@ -82,26 +82,26 @@ dict(slug='sutter-health-park-mlb-guide-dimensions-capacity',
       "which produces a strange shape: a park with one of the largest outfield footprints "
       "in the sport and two of the more reachable corners.",
       "<b>The wind, which is the real story.</b> Average wind speed at Sutter Health Park "
-      "is 11.1 miles per hour - the third highest in Major League Baseball. Add Sacramento "
+      "is 11.1 miles per hour, the third highest in Major League Baseball. Add Sacramento "
       "summer heat, which thins the air and carries a ball further than coastal "
       "conditions ever will, and you get a park that punishes pitchers in a way nothing "
       "in the Bay Area does.",
       "<b>What the numbers actually come out as.</b> Second in Major League Baseball for "
       "home runs. Second for total runs. Third for doubles and triples. Fourth for total "
       "hits. This is one of the most offense-friendly environments in the sport, and it "
-      "happened by accident - nobody designed a launching pad, they just moved a major "
+      "happened by accident, nobody designed a launching pad, they just moved a major "
       "league team into a minor league park in a hot, windy valley.",
       "<b>Why that matters beyond trivia.</b> Every pitching statistic this franchise "
       "produces right now is distorted, and so is every hitting statistic. A pitcher who "
       "posts a mediocre ERA here might be doing genuinely good work. A hitter whose "
       "numbers look like a breakout might be a product of the air. Anyone evaluating "
-      "these players - including whoever runs this team in 2028 - has to correct for a "
+      "these players, including whoever runs this team in 2028, has to correct for a "
       "ballpark that no other franchise has ever had to correct for.",
       "<b>The comparison nobody makes.</b> Across the bay, {oracle} suppresses home runs "
       "by roughly a fifth. Sutter Health Park is near the top of the league for them. Two "
       "teams ninety minutes apart are playing in about as different a pair of environments "
       "as the sport currently offers, and one of those environments is temporary.",
-      "<b>Is it a good place to watch a game?</b> Honestly, yes - a small park with a "
+      "<b>Is it a good place to watch a game?</b> Honestly, yes, a small park with a "
       "lawn and good sightlines is a pleasant evening, and people who have gone say so. "
       "That is the uncomfortable part of the whole thing. It is a lovely little ballpark. "
       "It is just not a major league home, and it was never supposed to be one, which is "
@@ -141,7 +141,7 @@ dict(slug='athletics-oakland-sacramento-las-vegas-timeline',
       "Series titles in the early seventies, the Bash Brothers, the twenty-game winning "
       "streak, and a Coliseum that went from serviceable to embarrassing while ownership "
       "and the city spent two decades failing to agree on a replacement. However you "
-      "apportion the blame - and this blog has a view - the outcome was a city losing a "
+      "apportion the blame, and this blog has a view, the outcome was a city losing a "
       "franchise it had supported for three generations. {legacy} is the record of what "
       "that actually meant.",
       "<b>West Sacramento, now.</b> The interim arrangement: a major league team playing "
@@ -176,7 +176,7 @@ dict(slug='athletics-oakland-sacramento-las-vegas-timeline',
       "do and why they are not actually a measurement of anything except grief.",
       "<b>What we are watching next.</b> Construction milestones on the Strip, whether "
       "the 2028 date holds, attendance in West Sacramento across a second full season, "
-      "and what happens to the players developed in the interim - because the roster "
+      "and what happens to the players developed in the interim, because the roster "
       "being assembled now is the one that opens that building. The current group is on "
       "the {depth}.",
       "The rest of our coverage is on the {hub}.",
@@ -207,7 +207,7 @@ dict(slug='athletics-2026-roster-depth-chart',
       "The useful way to read this roster is not by the standings. It is by asking which "
       "of these players is still here when the building on the Strip opens, because that "
       "is the only timeline this front office is really working to.",
-      "<b>Rotation.</b> {lopez} has been the most watchable thing about this season - he "
+      "<b>Rotation.</b> {lopez} has been the most watchable thing about this season, he "
       "keeps pitching well enough to win and keeps getting nothing behind him, including "
       "a night he struck out nine on 87 pitches and got pulled anyway. Gage Jump and JT "
       "Ginn have both had games that looked like a future and games that looked like "
@@ -223,8 +223,8 @@ dict(slug='athletics-2026-roster-depth-chart',
       "For a team whose starters have generally competed, the back end has been the "
       "difference between a bad season and an embarrassing one.",
       "<b>Infield.</b> Jacob Wilson at shortstop has been a genuine bright spot, "
-      "including a homer that stole a game back in the ninth, and on 9 August he {wilson} "
-      "- 111 consecutive errorless games at the position, past Mike Bordick's 110 from "
+      "including a homer that stole a game back in the ninth, and on 9 August he {wilson}, "
+      "111 consecutive errorless games at the position, past Mike Bordick's 110 from "
       "2002. By {streak} the streak was at 113. Nick Kurtz started an "
       "All-Star Game. Tyler Soderstrom keeps showing up in the box score for the right "
       "reasons. Brian Serven and Tommy White have both had days worth remembering.",
@@ -242,7 +242,7 @@ dict(slug='athletics-2026-roster-depth-chart',
       "that inflates every number in both directions, and a roster whose best young "
       "pieces are being asked to develop in the least stable environment in the sport. "
       "Judge the individuals; the record belongs to the situation.",
-      "<b>The 2028 question.</b> Kurtz, Langeliers, Wilson, Soderstrom, Lopez, Jump - "
+      "<b>The 2028 question.</b> Kurtz, Langeliers, Wilson, Soderstrom, Lopez, Jump, "
       "that is the group young enough to still be here when the {timeline} reaches its "
       "end and the doors open in Las Vegas. Everything else on this roster is temporary "
       "in a more ordinary sense.",
@@ -284,7 +284,7 @@ dict(slug='oakland-athletics-legacy-what-the-bay-area-lost',
       "generations of families, an entire regional identity, and a franchise that was, "
       "for long stretches, one of the genuinely great operations in the sport.",
       "<b>The seventies.</b> Three consecutive World Series championships. Not a "
-      "contender, not a nice story - a dynasty, in green and gold, with a roster full of "
+      "contender, not a nice story, a dynasty, in green and gold, with a roster full of "
       "personalities that a modern marketing department would not survive. Very few "
       "franchises in the history of the sport have done what those teams did.",
       "<b>The eighties and the Bash Brothers.</b> Canseco and McGwire turned Oakland into "
@@ -295,7 +295,7 @@ dict(slug='oakland-athletics-legacy-what-the-bay-area-lost',
       "<b>Moneyball and the twenty-game streak.</b> A small-market team out-thinking the "
       "sport, and a twenty-game winning streak that remains one of the most extraordinary "
       "runs anyone has produced. That story got a book and a film, and the film made the "
-      "franchise a global brand - which is its own bitter joke, given what happened next.",
+      "franchise a global brand, which is its own bitter joke, given what happened next.",
       "<b>What the fan base actually did.</b> This is the part that gets erased. When "
       "those teams were good, that building was as loud and as committed as anywhere in "
       "the sport. The right-field bleachers were an institution. The drumming, the flags, "
@@ -308,7 +308,7 @@ dict(slug='oakland-athletics-legacy-what-the-bay-area-lost',
       "ran one of the lowest payrolls in the sport for years, and then pointed at empty "
       "seats as evidence that the market had failed. You do not get to starve a thing "
       "and then call it dead.",
-      "<b>The Coliseum itself.</b> It became a punchline - the sewage, the tarps over "
+      "<b>The Coliseum itself.</b> It became a punchline, the sewage, the tarps over "
       "the upper deck, the possums. All of that was real and all of it was also the "
       "predictable end state of a building nobody was allowed to invest in. It is worth "
       "remembering that the same concrete bowl once held the loudest crowds in the sport, "
@@ -360,7 +360,7 @@ dict(slug='athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9',
       "A tailspin that stopped being funny around the middle of July.",
       "And then they did not fold. Jonah Heim doubles home the tying run with two out in "
       "the eighth. Elvis Alvarado gets three outs. And in the ninth, with Chapman on the "
-      "mound - Chapman, who is still throwing gas at thirty-eight and still terrifying - "
+      "mound, Chapman, who is still throwing gas at thirty-eight and still terrifying, "
       "Max Muncy lines one off the Monster and Oakland, Sacramento, whatever we are "
       "calling them, has the lead. Hogan Harris pitches the ninth for his eleventh save. "
       "Four to three. Series won.",
@@ -369,7 +369,7 @@ dict(slug='athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9',
       "is a genuine milestone for a genuinely good hitter who is finishing his career in "
       "the strangest circumstance in the sport. And Jacob Wilson played his hundred and "
       "eleventh consecutive game at shortstop without an error, which is a major league "
-      "record for the position - he passed Mike Bordick's hundred and ten from 2002.",
+      "record for the position, he passed Mike Bordick's hundred and ten from 2002.",
       "A major league record. Set by a young shortstop who plays his home games in a "
       "fourteen-thousand-seat minor league yard in West Sacramento in front of nine "
       "thousand people, for a franchise that ran away from the seventh-largest market in "
@@ -387,7 +387,7 @@ dict(slug='athletics-red-sox-4-3-muncy-chapman-first-series-win-august-9',
       "has never been the problem, and {legacy} is the whole argument.",
       "The problem is that they are two summers away from a dome on the Las Vegas Strip "
       "and every one of these afternoons is happening in a holding pattern. A series win "
-      "in August in a lost season is supposed to mean something small and warm - your team "
+      "in August in a lost season is supposed to mean something small and warm, your team "
       "took two of three in a hard place to play. Instead it is a thing that happened in a "
       "city they left, on the way to a city they were never from, in a season being played "
       "in a third city entirely.",

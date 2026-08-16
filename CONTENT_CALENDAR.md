@@ -4,9 +4,12 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-15** (Giants recap of the 15 Aug win over Colorado published
+**Last updated: 2026-08-16** (49ers column published 16 Aug: Harbaugh returns at SoFi on
+Thursday 20 Aug and Kittle's Achilles recovery is hitting its markers, with the joint
+practice in El Segundo on the 18th. Preseason line added to the schedule hub so the piece
+is not an orphan. Previously: Giants recap of the 15 Aug win over Colorado published
 same day: 7-1, Logan Webb six innings with no walks and seven strikeouts on eighty
-pitches, Drew Gilbert homer and three RBI, six-run fourth, 51-72. Previously: Giants
+pitches, Drew Gilbert homer and three RBI, six-run fourth, 51-72. Earlier: Giants
 recap of the 12 Aug rubber game published same day:
 Astros 2-1, Adrian Houser's six shutout innings wasted on a Bericoto error, Adames out
 with back spasms. Earlier the same day: 49ers roster-churn column published 12 Aug: Bergen,
@@ -22,7 +25,7 @@ obituary, and the Sunday MLB pair.)
 
 | Cluster | Status | Next event / date | Next article opportunity | Publish window | Type | Next refresh |
 |---|---|---|---|---|---|---|
-| **49ers** | Roster churn column published 12 Aug (Bergen waived a second time, Bouwmeester waived, Henry waived/injured after the Tennessee joint practice, Apple/Thomas/White signed to one-year deals, Waitman wins the punter job). RB-room/Bosa/Kittle column published 10 Aug (McCaffrey tightness, Black adductor, James ribs, Guerendo pec, Miller-Hines/White tryouts, Watson visit, Bosa general soreness — no pads in three sessions, Kittle running and cutting) | **Preseason opener, Thu 13 Aug, 6pm PT** — Tennessee at Levi's | reaction the morning after; Shanahan coaching it himself is the angle | 14 Aug | news | — |
+| **49ers** | Harbaugh/Kittle column published 16 Aug (Chargers at SoFi Thu 20 Aug 7pm PT, joint practice El Segundo 18 Aug, Kittle still on PUP after the 11 Jan right Achilles tear, hitting speed numbers near pre injury, expects off PUP before Week 1 in Australia). Roster churn column published 12 Aug (Bergen waived a second time, Bouwmeester waived, Henry waived/injured after the Tennessee joint practice, Apple/Thomas/White signed to one-year deals, Waitman wins the punter job). RB-room/Bosa/Kittle column published 10 Aug (McCaffrey tightness, Black adductor, James ribs, Guerendo pec, Miller-Hines/White tryouts, Watson visit, Bosa general soreness — no pads in three sessions, Kittle running and cutting) | **Preseason finale at the Chargers, Thu 20 Aug, 7pm PT** at SoFi | reaction the morning after; roster cuts to 53 follow, and the Kittle PUP decision is the story that carries into Week 1 | 21 Aug | news | — |
 | 49ers | — | **Week 1, 10 Sep** — at Rams, Melbourne | Week 1 preview | 8–9 Sep | news | weekly, in season |
 | 49ers | — | Week 2, Miami at Levi's | reaction + preview | 14–20 Sep | news | weekly |
 | 49ers | — | **~game five** | Purdy passes 1,500 attempts, qualifies for the career passer-rating record | day of | **update the Purdy page** | biggest single traffic event of the season |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""_meta_fix.py - metadata and schema hardening (no visible copy is rewritten).
+"""_meta_fix.py: metadata and schema hardening (no visible copy is rewritten).
 
 - meta description trimmed to <=165 chars at a sentence or clause boundary, and
   og:description / twitter:description kept in sync with it
@@ -99,9 +99,9 @@ def wr(p, s):
         fh.write(s)
     b = open(p, 'rb').read()
     if b'\x00' in b:
-        raise SystemExit('NULL-byte corruption writing %s - ABORT' % p)
+        raise SystemExit('NULL-byte corruption writing %s, ABORT' % p)
     if b.count(b'\xef\xbf\xbd'):
-        raise SystemExit('encoding damage writing %s - ABORT' % p)
+        raise SystemExit('encoding damage writing %s, ABORT' % p)
 
 
 def pages():
@@ -126,11 +126,11 @@ def shorten_desc(d):
         return out
     # one very long sentence: cut at the last clause break that fits
     head = d[:DESC_MAX]
-    cut = max(head.rfind(', '), head.rfind(' — '), head.rfind('; '),
+    cut = max(head.rfind(', '), head.rfind(''), head.rfind('; '),
               head.rfind(' and '), head.rfind(' but '))
     if cut < 60:
         cut = head.rfind(' ')
-    out = d[:cut].rstrip(' ,;:—-')
+    out = d[:cut].rstrip(' ,;:, ')
     return out + '.' if not out.endswith(('.', '!', '?')) else out
 
 

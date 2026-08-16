@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""_history_cluster.py - the Bay Area history / evergreen cluster.
+"""_history_cluster.py: the Bay Area history / evergreen cluster.
 
 The archive already owns the *columns*: all four dynasty eras, The Catch, Bumgarner
 2014, Klay's 37, Bonds, Kent, Bochy's bullpen, Montana-Young, the 1993 pennant race,
 the Big Game, the Axe, Oracle Park, Sutter Health Park and the A's relocation.
 
-What it does not own is a *reference*. bay-area-sports-history is a column - it argues.
+What it does not own is a *reference*. bay-area-sports-history is a column, it argues.
 These four pages answer questions with tables and dates, which is what gets cited and
 linked. Deliberately NOT duplicated:
 
-  bay-area-sports-history          the regional argument column - stays the argument
-  dynasties.html / timeline.html   the hub framing - these are the supporting articles
-  oakland-athletics-legacy-*       the A's grief piece - the Coliseum page here is the
+  bay-area-sports-history          the regional argument column, stays the argument
+  dynasties.html / timeline.html   the hub framing, these are the supporting articles
+  oakland-athletics-legacy-*       the A's grief piece, the Coliseum page here is the
                                    building, not the franchise
-  flashback-the-catch-1982         the moment - the Candlestick page here is the venue
-  athletics-oakland-sacramento-*   the A's move specifically - the relocations page here
+  flashback-the-catch-1982         the moment, the Candlestick page here is the venue
+  athletics-oakland-sacramento-*   the A's move specifically, the relocations page here
                                    is the regional pattern, and links down to it
 
   python _history_cluster.py [--check]
@@ -141,7 +141,7 @@ dict(slug='bay-area-championships-complete-list-by-team',
      card=('bay', 'The Championship Ledger', 'Twenty-one titles, six franchises, five leagues'),
      body=[
       "Somebody asks this at a bar roughly once a month and nobody in the room ever has "
-      "the whole answer. This page is the whole answer. It is a ledger, not a column - "
+      "the whole answer. This page is the whole answer. It is a ledger, not a column, "
       "{regional} is where we make the case for the region. Here we just count.",
 
       "<b>The rule this page uses.</b> A championship counts if the franchise won it "
@@ -165,7 +165,7 @@ dict(slug='bay-area-championships-complete-list-by-team',
       DECADE_TABLE,
 
       "<b>Two golden ages, one dead zone, one modern boom.</b> The seventies and eighties "
-      "produced eleven of the twenty-one - {ninersdyn} overlapping with {athletics} and a "
+      "produced eleven of the twenty-one, {ninersdyn} overlapping with {athletics} and a "
       "Warriors team nobody expected. Then the nineties produced exactly one and the "
       "2000s produced two, both of them soccer. Then the 2010s produced six in nine "
       "years, split between {giantsdyn} and {warriorsdyn}, which is why anyone who grew "
@@ -269,7 +269,7 @@ dict(slug='oakland-coliseum-history-what-happens-to-it-now',
       "<b>What happened there.</b> Three consecutive World Series championships in the "
       "early seventies. Two Raiders Super Bowl teams. The Bash Brothers. The twenty-game "
       "winning streak in 2002. The 1989 World Series, which the A's won in a series "
-      "interrupted by an earthquake. The right-field bleachers, the drums, the flags - a "
+      "interrupted by an earthquake. The right-field bleachers, the drums, the flags, a "
       "supporter culture that visiting teams genuinely disliked playing in front of.",
 
       "<b>Then 1996, which is the part that actually killed it.</b> To bring the Raiders "
@@ -278,7 +278,7 @@ dict(slug='oakland-coliseum-history-what-happens-to-it-now',
       "walled off the view of the hills that was the single best feature of the original "
       "design, put thousands of baseball seats at a distance and an angle nobody wanted "
       "to sit at, and turned an open bowl into a closed concrete box. Fans named it Mount "
-      "Davis, and for the entire baseball season afterwards it sat under tarps - a "
+      "Davis, and for the entire baseball season afterwards it sat under tarps, a "
       "monument, tarped, to a decision made for a football team that left again anyway.",
 
       "<b>The decay was a policy, not an accident.</b> The sewage backups that made "
@@ -312,14 +312,14 @@ dict(slug='oakland-coliseum-history-what-happens-to-it-now',
       "financing from Loop Capital, after the Athletics assigned their own purchase right "
       "to the group in 2025. The City Council approved amended terms on 13 July 2026, "
       "including a provision that gives Oakland 6 per cent of annual gross ticket sales "
-      "from events at the complex - the city estimates roughly $3 million a year into the "
+      "from events at the complex, the city estimates roughly $3 million a year into the "
       "general fund.",
 
       "<b>What they intend to build.</b> More than $5 billion across the full 112 acres "
       "over something like thirty years: housing in the thousands of units, with about a "
       "quarter of it deed-restricted affordable, plus retail, restaurants and "
-      "entertainment space. Thirty-year masterplans in the Bay Area have a poor record - "
-      "{candlestick} sat empty for a decade after demolition - so the correct posture is "
+      "entertainment space. Thirty-year masterplans in the Bay Area have a poor record, "
+      "{candlestick} sat empty for a decade after demolition, so the correct posture is "
       "interested scepticism rather than either cynicism or excitement.",
 
       "<b>The thing worth holding onto.</b> A stadium is not the reason a city loses a "
@@ -374,7 +374,7 @@ dict(slug='bay-area-franchise-relocations-teams-that-left',
       "<b>The Raiders, twice, which is the defining case.</b> Al Davis moved the club to "
       "Los Angeles for the 1982 season after a legal fight with the NFL that changed how "
       "American sports leagues can restrict relocation. They came back in 1995 to a deal "
-      "that included the $200 million upper deck at the {coliseum} - public money, spent "
+      "that included the $200 million upper deck at the {coliseum}, public money, spent "
       "on a stadium modification, to bring back a team that had already left once. In "
       "2017 the league approved a move to Las Vegas and the franchise left again in 2020. "
       "Oakland paid off debt on that renovation for years after the team it was built for "
@@ -389,7 +389,7 @@ dict(slug='bay-area-franchise-relocations-teams-that-left',
       "the interim ballpark explained.",
 
       "<b>The internal moves, which people forget count.</b> The Warriors have played in "
-      "San Francisco, then Oakland, then San Francisco again - and the 2019 move to Chase "
+      "San Francisco, then Oakland, then San Francisco again, and the 2019 move to Chase "
       "Center took a franchise out of the building where it won three championships in "
       "front of an Oakland crowd, and put it in a more expensive arena across the bay. "
       "The 49ers left San Francisco entirely in 2014 for Santa Clara, roughly forty miles "
@@ -403,8 +403,8 @@ dict(slug='bay-area-franchise-relocations-teams-that-left',
 
       NEARMISS_TABLE,
 
-      "<b>1976.</b> Horace Stoneham - the man who had already moved this franchise once, "
-      "from New York in 1958 - agreed to sell to a Toronto group backed by Labatt. The "
+      "<b>1976.</b> Horace Stoneham, the man who had already moved this franchise once, "
+      "from New York in 1958, agreed to sell to a Toronto group backed by Labatt. The "
       "Giants were going to be a Canadian team a year before the Blue Jays existed. San "
       "Francisco went to court for an injunction, the delay held long enough for Bob "
       "Lurie to put a local purchase together, and the franchise stayed. That is how "
@@ -413,7 +413,7 @@ dict(slug='bay-area-franchise-relocations-teams-that-left',
       "<b>1992.</b> Lurie himself agreed to sell to investors who intended to move the "
       "club to the Suncoast Dome in St. Petersburg. National League owners voted the sale "
       "down and a local group led by Peter Magowan bought instead. Everything that "
-      "followed - {bonds}, {kent}, {bochy}, {evenyear}, three World Series - happens "
+      "followed, {bonds}, {kent}, {bochy}, {evenyear}, three World Series, happens "
       "because of a vote in a room the Giants did not control. That whole era, including "
       "the {pennant93} the very next season, exists on a coin flip.",
 
@@ -425,7 +425,7 @@ dict(slug='bay-area-franchise-relocations-teams-that-left',
       "eleven miles and then moved five hundred.",
 
       "<b>The pattern, stated plainly.</b> Bay Area franchises do not leave because the "
-      "Bay Area will not support them - the arrivals in the sixties, the crowds in the "
+      "Bay Area will not support them, the arrivals in the sixties, the crowds in the "
       "seventies and eighties, and the sellout at the {coliseum} in September 2024 all "
       "say otherwise. They leave because this is an expensive, politically fragmented "
       "region where getting a stadium built requires agreement between a city, a county, "
@@ -492,7 +492,7 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
       "windswept promontory sticking into the bay, which is the single fact that explains "
       "everything else about it.",
 
-      "<b>The wind.</b> Not a quirk - a defining feature. Cold air came off the water and "
+      "<b>The wind.</b> Not a quirk, a defining feature. Cold air came off the water and "
       "swirled inside the bowl in ways nobody modelled before they poured the concrete. "
       "Willie Mays reckoned it cost him more than a hundred home runs. Fans wore parkas "
       "in July and the club handed out badges to people who sat through extra innings in "
@@ -503,7 +503,7 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
       "<b>The Stu Miller story, told correctly.</b> At the 1961 All-Star Game the "
       "reliever Stu Miller was charged with a balk, and the legend became that a gust of "
       "wind physically blew him off the mound. Miller spent the rest of his life saying "
-      "that was not what happened - he swayed, he did not get blown over, and the live "
+      "that was not what happened, he swayed, he did not get blown over, and the live "
       "radio call did not mention it. The story survived anyway, because it was the "
       "perfect Candlestick story and nobody wanted the accurate version.",
 
@@ -515,7 +515,7 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
       "the noise off that concrete.",
 
       "<b>The earthquake.</b> 17 October 1989. Game 3 of the World Series, Giants against "
-      "the Athletics - the only all-Bay Area World Series there has ever been - and at "
+      "the Athletics, the only all-Bay Area World Series there has ever been, and at "
       "5:04 p.m., minutes before first pitch, the Loma Prieta earthquake hit with the "
       "stadium full. Sixty thousand people were inside a fifty-year-old concrete bowl "
       "during a 6.9. It held. The structure flexed rather than failing, the crowd walked "
@@ -523,7 +523,7 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
       "stadium, it did the one thing that mattered on the one day it was asked.",
 
       "<b>The Giants' half.</b> 1960 to 1999. Mays, McCovey, Marichal, then the lean "
-      "years, then Bonds arriving in 1993 for the {pennant93} - a 103-win season that "
+      "years, then Bonds arriving in 1993 for the {pennant93}, a 103-win season that "
       "ended without a playoff spot, in a stadium the franchise had twice nearly left. "
       "The last game there was 30 September 1999, a 9-4 loss to the Dodgers, which is "
       "about as Candlestick an ending as could have been arranged.",
@@ -532,17 +532,17 @@ dict(slug='candlestick-park-history-wind-the-catch-demolition',
       "Bowl titles were won by a team that played its home games here. Montana and Young "
       "and the whole {mvsy} argument happened on this field. The last event was 23 "
       "December 2013, a 34-24 win over Atlanta, and then the franchise moved forty miles "
-      "south to Santa Clara - which is its own entry on the {moves} page.",
+      "south to Santa Clara, which is its own entry on the {moves} page.",
 
       "<b>The Beatles, which is not a footnote.</b> On 29 August 1966 the Beatles played "
       "their final commercial concert here. Not their final performance ever, but the "
-      "last time they played a ticketed show for a paying audience - and it happened in a "
+      "last time they played a ticketed show for a paying audience, and it happened in a "
       "cold, half-empty ballpark on the edge of San Francisco. Forty-eight years later, "
       "on 14 August 2014, Paul McCartney played the last event the building ever hosted "
       "before demolition. The same man closed it that helped make it famous.",
 
       "<b>The end.</b> Demolition ran from 4 February to 24 September 2015. They did not "
-      "implode it - the neighbourhood was too close - so it came down piece by piece over "
+      "implode it, the neighbourhood was too close, so it came down piece by piece over "
       "eight months, which meant everyone in the southeast of the city got to watch it "
       "disappear slowly.",
 
@@ -614,13 +614,13 @@ dict(slug='oracle-arena-roaracle-history-oakland-warriors',
 
       ARENA_NAMES,
 
-      "<b>The Warriors moved in for 1971-72</b> - the season the club stopped being the "
+      "<b>The Warriors moved in for 1971-72</b>, the season the club stopped being the "
       "San Francisco Warriors and became Golden State, which is covered properly on the "
       "{moves} page. They stayed until 2019. The farewell campaign called it 47 seasons "
       "and nobody in Oakland was in the mood to argue about the arithmetic.",
 
       "<b>The 1975 title, and the best piece of trivia this region owns.</b> The Warriors "
-      "swept Washington for the championship in 1975 - and two of their home games in that "
+      "swept Washington for the championship in 1975, and two of their home games in that "
       "Finals were not played here at all. The arena was booked. For the Ice Follies. A "
       "team on its way to a sweep of the NBA Finals had to move across the bay to the Cow "
       "Palace because the ice show had the room. That is a complete summary of how this "
@@ -638,7 +638,7 @@ dict(slug='oracle-arena-roaracle-history-oakland-warriors',
       "<b>The rebuild that saved it.</b> The arena was gutted and rebuilt starting in 1996 "
       "at a cost of more than $121 million, reopening for the autumn of 1997 with the "
       "seating bowl, concourses and suites it kept until the end. Public money again, and "
-      "again for a tenant that would eventually leave - the same pattern as Mount Davis "
+      "again for a tenant that would eventually leave, the same pattern as Mount Davis "
       "next door, on a smaller scale and with a longer payoff.",
 
       "<b>And then it became the loudest building in American basketball.</b> Three "
@@ -655,14 +655,14 @@ dict(slug='oracle-arena-roaracle-history-oakland-warriors',
       "somebody else and its most beloved player being carried out of it. Nobody in "
       "Oakland has ever needed a metaphor explained to them since.",
 
-      "<b>Then they moved.</b> Chase Center opened in San Francisco for 2019-20 - a better "
+      "<b>Then they moved.</b> Chase Center opened in San Francisco for 2019-20, a better "
       "arena, more revenue, more expensive seats, and forty minutes and a bridge toll away "
       "from the people who filled the old one through the losing years. It is on the "
       "{moves} page as an internal move, which is technically correct and misses the "
       "point entirely.",
 
       "<b>What is in it now, which is the part nobody expects.</b> It is called Oakland "
-      "Arena again and it is a working concert venue with a full calendar - major touring "
+      "Arena again and it is a working concert venue with a full calendar, major touring "
       "acts across pop, hip-hop, country and Latin music have played it through 2026. A "
       "building written off as obsolete for professional basketball turns out to be a "
       "perfectly good 19,000-seat room when somebody wants to sell 19,000 tickets.",
@@ -677,7 +677,7 @@ dict(slug='oracle-arena-roaracle-history-oakland-warriors',
       "<b>What it was worth.</b> The Warriors are a better business in San Francisco and "
       "nobody at that club will ever say publicly that the move cost them anything. But "
       "the atmosphere they spent forty years building was not portable, because it was "
-      "not made of architecture - it was made of people who could afford to come. "
+      "not made of architecture, it was made of people who could afford to come. "
       "{warriorsdyn} is the record of what was won here. This page is the room it "
       "happened in.",
 
