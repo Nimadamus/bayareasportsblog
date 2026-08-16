@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 15 Aug 2026 14:09:25 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Aug 2026 02:10:09 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>They Called De&#39;Zhaun Stribling a Reach. Nobody Is Laughing Now</title>
@@ -25,6 +25,15 @@
     <category>49ers Column</category>
     <description>A veteran core in its prime, smart short-term signings, and draft picks who actually play. The 49ers roster balance is the best it has been in years.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-veteran-young-core-mix-recent-drafts-better-2026.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Giants 7, Rockies 1: Logan Webb Is the Consummate Pro</title>
+    <link>https://bayareasportsblog.com/articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html</guid>
+    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Giants 7, Rockies 1 at Oracle Park: Logan Webb went six innings with no walks and seven strikeouts, Drew Gilbert drove in three, and a six-run fourth ended it.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rockies-7-1-logan-webb-consummate-pro-august-15.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</title>
@@ -358,15 +367,6 @@
     <category>Bay Area History</category>
     <description>The San Jose Sharks franchise history: the 1991 expansion, the 2016 Stanley Cup Final, the 2019 Game 7 comeback, and why they have never won a Cup.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/san-jose-sharks-history-no-stanley-cup.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Sharks Roster and Depth Chart for 2026-27</title>
-    <link>https://bayareasportsblog.com/articles/sharks-2026-27-roster-depth-chart.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-2026-27-roster-depth-chart.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Sharks</category>
-    <description>The San Jose Sharks 2026-27 roster and depth chart: projected forward lines, defence pairs, goaltending, and every move made in the 2026 offseason.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-2026-27-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

@@ -55,6 +55,28 @@ GIANTS_ASTROS_BOX = """<div class="reftable">
 </table>
 </div>"""
 
+WEBB_ROCKIES_LINE = ('<div class="reftable">\n<table>\n<caption>Colorado Rockies at San '
+                     'Francisco Giants &mdash; Saturday 15 August 2026, Oracle Park, '
+                     '35,069</caption>\n' + LINEHEAD + '\n<tbody>\n'
+                     + LINE('Colorado', [0, 0, 1, 0, 0, 0, 0, 0, 0], 1, 5, 0) + '\n'
+                     + LINE('<b>San Francisco</b>', [0, 0, 1, 6, 0, 0, 0, 0, 'X'], 7, 10, 0)
+                     + '\n</tbody>\n</table>\n</div>')
+
+WEBB_ROCKIES_BOX = """<div class="reftable">
+<table>
+<caption>Pitching &mdash; Rockies at Giants, 15 August 2026</caption>
+<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th><th class="num">P</th></tr></thead>
+<tbody>
+<tr><td>Michael Lorenzen, COL (L)</td><td class="num">3.2</td><td class="num">4</td><td class="num">6</td><td class="num">6</td><td class="num">3</td><td class="num">1</td><td class="num">82</td></tr>
+<tr><td>Parker Mushinski, COL</td><td class="num">0.1</td><td class="num">3</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">15</td></tr>
+<tr><td>Tanner Gordon, COL</td><td class="num">4.0</td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4</td><td class="num">63</td></tr>
+<tr><td><b>Logan Webb, SF (W)</b></td><td class="num">6.0</td><td class="num">4</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">7</td><td class="num">80</td></tr>
+<tr><td>Carson Seymour, SF</td><td class="num">2.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td class="num">24</td></tr>
+<tr><td>Dylan Smith, SF</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">10</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ASTROS_RUBBER_LINE = ('<div class="reftable">\n<table>\n<caption>Houston Astros at San '
                       'Francisco Giants &mdash; Wednesday 12 August 2026, Oracle Park, '
                       '28,101</caption>\n' + LINEHEAD + '\n<tbody>\n'
@@ -263,7 +285,8 @@ dict(slug='giants-2026-season-hub-results-coverage',
       "clubhouse stands on its manager. The day after that, {webb} and lost anyway in ten "
       "innings, which is the other half of the same problem. Then on 11 August, {astros} "
       "for win number fifty, which is the first genuinely encouraging night since the "
-      "deadline.",
+      "deadline. On 15 August {webbrockies}, which is the clearest single argument on this "
+      "page for why he is the one man on the roster nobody should be arguing about.",
       "<b>What is still worth watching.</b> Devers has been quietly excellent. "
       "{eldridge} is the reason to keep the television on. And there is the ordinary, "
       "stubborn pleasure of watching a bad team occasionally beat a good one, which is "
@@ -310,6 +333,9 @@ dict(slug='giants-2026-season-hub-results-coverage',
                      'Logan Webb threw eight innings without an earned run'),
             'astros': ('giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html',
                        'Carson Whisenhunt outpitched Hunter Brown in a four-one win'),
+            'webbrockies': ('giants-rockies-7-1-logan-webb-consummate-pro-august-15.html',
+                            'Logan Webb went six innings without a walk and beat Colorado '
+                            'seven to one'),
             'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
                         'the state of the rebuild'),
             'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
@@ -833,6 +859,132 @@ dict(slug='giants-astros-2-1-adames-back-spasms-bericoto-error-houser-august-12'
             'hub': ('../giants.html', 'Giants hub')},
      related=[('giants-astros-4-1-whisenhunt-eldridge-homer-hunter-brown-august-11.html', 'Giants',
                'Giants 4, Astros 1: Carson Whisenhunt Was Worth the Wait'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands')]),
+
+# --------------------------------------------------------- recap: 15 August, Webb beats Colorado
+dict(slug='giants-rockies-7-1-logan-webb-consummate-pro-august-15',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Giants 7, Rockies 1: Logan Webb Is the Consummate Pro',
+     h1="Giants 7, Rockies 1: Logan Webb Does Not Care That This Season Is Over, and That "
+        "Is Exactly Why He Is the Best Thing We Have",
+     dek="Six innings, four hits, no walks, seven strikeouts, eighty pitches. A six-run "
+         "fourth behind him. The one man in that clubhouse who has never once mailed in "
+         "an August.",
+     desc="Giants 7, Rockies 1 at Oracle Park: Logan Webb went six innings with no walks "
+          "and seven strikeouts, Drew Gilbert drove in three, and a six-run fourth ended it.",
+     date='2026-08-15',
+     card=('giants', 'Logan Webb', 'Six innings, no walks, seven strikeouts, eighty pitches'),
+     body=[
+      "Friday night Kyle Freeland &mdash; Kyle Freeland, of the forty-nine-win Colorado "
+      "Rockies &mdash; walked into Oracle Park and beat us five to two, and I went to bed "
+      "genuinely wondering whether there was a floor left to hit. Saturday afternoon Logan "
+      "Webb took the ball and the whole thing looked like baseball again for two hours and "
+      "twenty-six minutes. Seven to one. Six innings, four hits, one run, no walks, seven "
+      "strikeouts, eighty pitches. That is the entire column, honestly, and everything "
+      "after this paragraph is me trying to explain why a routine August start by a "
+      "twenty-nine-year-old on a seventy-two-loss team made me angrier and happier at the "
+      "same time than anything else this month.",
+
+      '<figure style="margin:0 0 30px;text-align:center">'
+      '<picture><source type="image/webp" srcset="../assets/img/players/logan-webb-giants-blue-jays-400w.webp 400w, '
+      '../assets/img/players/logan-webb-giants-blue-jays-800w.webp 800w, '
+      '../assets/img/players/logan-webb-giants-blue-jays-1200w.webp 1200w, '
+      '../assets/img/players/logan-webb-giants-blue-jays.webp 1280w" sizes="(max-width: 820px) 92vw, 760px">'
+      '<img src="../assets/img/players/logan-webb-giants-blue-jays.jpg" '
+      'alt="Logan Webb of the San Francisco Giants, who beat the Rockies 7-1 at Oracle Park on 15 August 2026" '
+      'style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:contain;'
+      'background:var(--surface);border-radius:12px;border:1px solid var(--line)" width="1200" height="675" '
+      'decoding="async" fetchpriority="high" '
+      'srcset="../assets/img/players/logan-webb-giants-blue-jays-400w.jpg 400w, '
+      '../assets/img/players/logan-webb-giants-blue-jays-800w.jpg 800w, '
+      '../assets/img/players/logan-webb-giants-blue-jays-1200w.jpg 1200w, '
+      '../assets/img/players/logan-webb-giants-blue-jays.jpg 1280w" sizes="(max-width: 820px) 92vw, 760px"></picture>'
+      '<figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">'
+      'Thirty-five thousand and sixty-nine people on a cloudy Saturday afternoon, and Logan '
+      'Webb gave every one of them a professional baseball game.</figcaption></figure>',
+
+      WEBB_ROCKIES_LINE,
+
+      "<b>Start with the walks, because that is the tell.</b> Zero. Twenty-two men came to "
+      "the plate against him and not one of them got a free base. Fifty-seven of his eighty "
+      "pitches were strikes. He got four ground-ball outs and five in the air and he was "
+      "back in the dugout before the beer line moved. The only run he gave up was in the "
+      "third, when Ezequiel Tovar singled, went to third, and came home on a Cole Carrigg "
+      "ground ball to left. That is it. That is the damage. Against a lineup that has lost "
+      "seventy-four games he did not get cute, did not nibble, did not throw an extra "
+      "twenty pitches proving something to nobody in the middle of August.",
+
+      "And that is the whole point of him. Look at what this team has put in front of Logan "
+      "Webb this year and then look at what he has done anyway: eight and seven with a 3.50 "
+      "earned run average, a hundred and thirty-nine innings, a hundred and ten strikeouts "
+      "against thirty-two walks, a 1.06 WHIP. Eight wins. Eight. On a club that has scored "
+      "him nothing for four months. Go back further: thirty-three starts in 2023, thirty-three "
+      "in 2024, thirty-four in 2025, two hundred and sixteen innings, two hundred and four, "
+      "two hundred and seven. A hundred and ninety-nine starts and twelve hundred innings "
+      "into a career spent entirely in this uniform, and he has never once been the guy who "
+      "found a reason not to take the ball.",
+
+      "<b>Then the fourth inning, which was the funniest thing I have seen at Oracle Park in "
+      "a month.</b> Michael Lorenzen had already given up a Drew Gilbert home run in the "
+      "third &mdash; number six, into the right-field seats, tying it at one &mdash; and in "
+      "the fourth the whole thing came apart on him. Turner Hill sacrifice fly, Jung Hoo Lee "
+      "in. Gilbert singled to centre and both Drew Cavanaugh and Buddy Kennedy scored. "
+      "Rafael Devers hit his twenty-ninth double, a ground-rule job down the left-field "
+      "line, and Christian Koss scored. Bryce Eldridge lined a single to centre and Devers "
+      "scored. Six runs. Lorenzen never got out of the inning &mdash; three and two thirds, "
+      "six earned, eighty-two pitches, and he hit Kennedy for good measure. Parker Mushinski "
+      "came in and let both inherited runners score, because of course he did.",
+
+      "Drew Gilbert finished three for four with a walk, a home run, three runs batted in "
+      "and two runs scored, and if you want one small honest reason to keep watching this "
+      "team in September, he is a decent candidate. Jung Hoo Lee was two for three with a "
+      "walk. Ten hits, no errors, seven runs. Ten hits out of a lineup that has been "
+      "scratching for five all summer. It can be done. It just apparently requires Colorado.",
+
+      WEBB_ROCKIES_BOX,
+
+      "<b>The bullpen, briefly, because they were fine.</b> Carson Seymour went two "
+      "innings, one hit, three strikeouts, twenty-four pitches. Dylan Smith threw a "
+      "one-two-three ninth on ten pitches. Three innings, no runs, nobody warming up twice. "
+      "After the summer these arms have had, a clean handoff in a six-run game still counts "
+      "as news around here.",
+
+      "Now the part that actually eats at me. Logan Webb is twenty-nine years old. He has "
+      "given this franchise every healthy start of his professional life and what he has to "
+      "show for it is one October cameo and a decade of front offices explaining that the "
+      "window is opening soon. He was an All-Star selection this year and {allstar}. He "
+      "threw eight innings against Detroit on 9 August and {webbtigers}. The man is running "
+      "out of prime and this organisation keeps handing him seasons like this one to be "
+      "excellent inside of. That is not his failure. It is entirely {rebuild} of the people "
+      "who built the roster around him.",
+
+      "So: fifty-one and seventy-two, the series with Colorado is level at one apiece, and "
+      "we needed our best pitcher on the mound to split two games with a team that has lost "
+      "seventy-four. Nobody is putting a banner up for that. But I have watched this club "
+      "for long enough to know what it looks like when a professional shows up on a nothing "
+      "Saturday in a nothing season, and Webb did the exact things he does in April of a "
+      "year that matters: pounded the zone, worked fast, no walks, gave the ball to the "
+      "manager with the game already won. There is no version of the next good Giants team "
+      "that does not start with him, and there is no version of this season I will remember "
+      "fondly except the days he pitched.",
+
+      "Every result is in the {season}, where this roster actually stands is in the "
+      "{rebuildpage}, and the rest of it lives on the {hub}.",
+     ],
+     links={'allstar': ('giants-athletics-all-star-game-2026-arraez-langeliers-webb.html',
+                        'never even got into the game'),
+            'webbtigers': ('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html',
+                           'this lineup could not find him two runs'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html', 'the failure'),
+            'rebuildpage': ('giants-2026-where-the-rebuild-actually-stands.html',
+                            'rebuild page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-tigers-3-1-10th-webb-eight-innings-wasted-august-9.html', 'Giants',
+               'Tigers 3, Giants 1: Eight Innings of Webb, Wasted'),
               ('giants-2026-season-hub-results-coverage.html', 'Giants',
                'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
