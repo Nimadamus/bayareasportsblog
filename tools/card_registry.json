@@ -319,7 +319,7 @@
   "sha256": "c4ce5cda12469af249a10c2d8eeee44f3a9f46f5917b679eb1775eb6ddc82467",
   "mode": "photo",
   "team": "giants",
-  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race"
+  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
   "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
@@ -614,5 +614,12 @@
   "mode": "photo",
   "team": "49ers",
   "alt": "Brandon Aiyuk's locker is gone from the San Francisco 49ers locker room"
+ },
+ "articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html": {
+  "card": "assets/img/cards/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.jpg",
+  "sha256": "6a19c91775ab48ecb9f9c3e4218ff9be651cf2263bfad61b75c335fffef42ffd",
+  "mode": "photo",
+  "team": "49ers",
+  "alt": "Christian McCaffrey of the San Francisco 49ers"
  }
 }

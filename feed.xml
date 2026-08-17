@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 17 Aug 2026 13:53:35 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 22:05:29 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>They Took Brandon Aiyuk&#39;s Locker Out. That Is How You Know It Is Over.</title>
@@ -16,6 +16,15 @@
     <category>49ers Column</category>
     <description>Brandon Aiyuk&#39;s locker stall is gone from the 49ers locker room. It survived all of last season after he left the team. Now the standoff is basically over.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-brandon-aiyuk-locker-removed-august-2026.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>McCaffrey Is Not Practicing, and It Might Not Be About a Muscle</title>
+    <link>https://bayareasportsblog.com/articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html</guid>
+    <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers Column</category>
+    <description>Christian McCaffrey has not practiced at 49ers camp, no injury attached, and the running back market just moved. Nick Bosa has not been out there either.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself</title>
@@ -358,15 +367,6 @@
     <category>Bay Area Villains</category>
     <description>The Oakland Athletics legacy: three straight titles in the 1970s, the Bash Brothers, the twenty-game streak, and what the Bay Area lost when they left.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/oakland-athletics-legacy-what-the-bay-area-lost.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Oakland Coliseum: What It Was and What Happens to It Now</title>
-    <link>https://bayareasportsblog.com/articles/oakland-coliseum-history-what-happens-to-it-now.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/oakland-coliseum-history-what-happens-to-it-now.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Bay Area History</category>
-    <description>The Oakland Coliseum explained: the 1966 opening, the Raiders and A&#39;s years, the Mount Davis renovation, the final MLB game, and the redevelopment now.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/oakland-coliseum-history-what-happens-to-it-now.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
