@@ -621,5 +621,12 @@
   "mode": "photo",
   "team": "49ers",
   "alt": "Christian McCaffrey of the San Francisco 49ers"
+ },
+ "articles/giants-tony-vitello-junior-high-performance-posey-confirms-return-2027.html": {
+  "card": "assets/img/cards/giants-tony-vitello-junior-high-performance-posey-confirms-return-2027.jpg",
+  "sha256": "d8d54eefdd6a96f5a161e674e185100ae018a460270bd12255643b81f381b7ec",
+  "mode": "photo",
+  "team": "giants",
+  "alt": "Tony Vitello, manager of the San Francisco Giants"
  }
 }
