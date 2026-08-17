@@ -319,7 +319,7 @@
   "sha256": "c4ce5cda12469af249a10c2d8eeee44f3a9f46f5917b679eb1775eb6ddc82467",
   "mode": "photo",
   "team": "giants",
-  "alt": "Salom\u00f3n Torres, who took the ball on the final day of the 1993 pennant race"
+  "alt": "Salomón Torres, who took the ball on the final day of the 1993 pennant race"
  },
  "articles/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.html": {
   "card": "assets/img/cards/giants-first-half-breakdown-vitello-second-half-all-star-break-2026.jpg",
@@ -607,5 +607,12 @@
   "mode": "graphic",
   "team": "athletics",
   "alt": "Bay Area Sports Blog graphic: Red Sox 13, Athletics 1, August 7, 2026"
+ },
+ "articles/49ers-brandon-aiyuk-locker-removed-august-2026.html": {
+  "card": "assets/img/cards/49ers-brandon-aiyuk-locker-removed-august-2026.jpg",
+  "sha256": "9140cb16cb4dc7fdf389c021457baaa34ccc6e1fd2d3d98fb3b00ac1181e84f0",
+  "mode": "photo",
+  "team": "49ers",
+  "alt": "Brandon Aiyuk's locker is gone from the San Francisco 49ers locker room"
  }
 }
