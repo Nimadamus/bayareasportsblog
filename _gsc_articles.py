@@ -98,12 +98,23 @@ def figrow(a, b):
 
 
 def table(caption, heads, rows, foot=None):
-    h = ''.join('<th scope="col">%s</th>' % x for x in heads)
-    body = ''.join('<tr>%s</tr>' % ''.join('<td>%s</td>' % c for c in r) for r in rows)
-    f = ('<tfoot><tr>%s</tr></tfoot>'
-         % ''.join('<td>%s</td>' % c for c in foot)) if foot else ''
-    return ('<div class="reftable"><table><caption>%s</caption><thead><tr>%s</tr></thead>'
-            '<tbody>%s</tbody>%s</table></div>' % (caption, h, body, f))
+    """A reference table that a screen reader and a keyboard can both actually use.
+
+    The wrapper scrolls horizontally on a phone, so it is focusable and named, which is
+    what WCAG 2.1 asks for. The first cell of each row is a row header, so a screen
+    reader announces the season or the position before reading the rest of the row."""
+    head = ('<thead><tr>%s</tr></thead>'
+            % ''.join('<th scope="col">%s</th>' % x for x in heads)) if heads else ''
+    body = ''.join(
+        '<tr><th scope="row">%s</th>%s</tr>'
+        % (r[0], ''.join('<td>%s</td>' % c for c in r[1:]))
+        for r in rows)
+    f = ('<tfoot><tr><th scope="row">%s</th>%s</tr></tfoot>'
+         % (foot[0], ''.join('<td>%s</td>' % c for c in foot[1:]))) if foot else ''
+    label = re.sub(r'<[^>]+>', '', caption).replace('&rsquo;', "'").replace('&amp;', 'and')
+    return ('<div class="reftable" role="region" tabindex="0" aria-label="%s">'
+            '<table><caption>%s</caption>%s'
+            '<tbody>%s</tbody>%s</table></div>' % (CC.esc(label), caption, head, body, f))
 
 
 def faq(pairs):
@@ -152,6 +163,15 @@ def build(a):
                     for x in a.get('schema', []))
     if extra:
         html = html.replace('</head>', extra + '</head>')
+
+    # Accessibility: give the page a main landmark and name the trailing section, so every
+    # block of content sits inside a landmark a screen reader can jump to.
+    html = html.replace('<article class="article">',
+                        '<article class="article" role="main" aria-labelledby="article-title">', 1)
+    html = html.replace('  <h1>', '  <h1 id="article-title">', 1)
+    html = html.replace('<section class="related">\n  <h3>Related columns</h3>',
+                        '<section class="related" aria-labelledby="related-heading">\n'
+                        '  <h3 id="related-heading">Related columns</h3>', 1)
     return html
 
 
@@ -799,7 +819,7 @@ dict(slug='barry-bonds-giants-home-run-king',
       "city.",
 
       table('Barry Bonds with the San Francisco Giants',
-            ['', ''],
+            None,
             [['Seasons', '1993 to 2007, fifteen years'],
              ['Home runs as a Giant', '586 of his 762 career total'],
              ['MVP awards as a Giant', 'Five, including four straight from 2001 to 2004'],

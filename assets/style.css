@@ -98,6 +98,9 @@ nav.main a:hover,nav.main a.active{color:#fff;background:var(--surface2)}
 .reftable tbody tr:hover td{background:rgba(233,200,130,.05)}
 .reftable td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .reftable tfoot td{font-weight:700;background:var(--surface2);border-top:2px solid var(--line)}
+.reftable tbody th{font-weight:400;color:inherit}
+.reftable tfoot th{font-weight:700;background:var(--surface2);border-top:2px solid var(--line)}
+.reftable:focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
 @media(max-width:640px){.reftable table{font-size:14px}.reftable th,.reftable td{padding:9px 12px}}
 
 /* Page hero (category/about/contact) */
