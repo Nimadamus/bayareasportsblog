@@ -4,7 +4,7 @@ The site now runs several content engines on different calendars. This file is t
 memory: which cluster needs attention, when, and why. Update the status column as things
 publish.
 
-**Last updated: 2026-08-16** (49ers column published 16 Aug: Harbaugh returns at SoFi on
+**Last updated: 2026-08-18** (Josuar Gonzalez prospect column published 18 Aug: the 18 year old switch-hitting shortstop signed for $2,997,500 in January 2025, .342/.452/.553 with a 148 wRC+ across the ACL and Low-A San Jose this year, promoted 24 July with Luis Hernandez, ranked as high as 7th in baseball in May and 18th on the August update. Evergreen, gets refreshed as he climbs levels. Previously: **Last updated: 2026-08-16** (49ers column published 16 Aug: Harbaugh returns at SoFi on
 Thursday 20 Aug and Kittle's Achilles recovery is hitting its markers, with the joint
 practice in El Segundo on the 18th. Preseason line added to the schedule hub so the piece
 is not an orphan. Previously: Giants recap of the 15 Aug win over Colorado published
@@ -17,7 +17,7 @@ Bouwmeester and K.J. Henry waived, Apple/Thomas/White signed, Waitman is the pun
 Tuesday MLB recaps published for the 11 Aug games: Giants
 4-1 over Houston behind Carson Whisenhunt's best start, A's 12-4 to Tampa Bay with six
 home runs allowed. Earlier on 10 Aug: 49ers running-back-room column, Don Nelson
-obituary, and the Sunday MLB pair.)
+obituary, and the Sunday MLB pair.))
 
 ---
 

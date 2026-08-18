@@ -35,28 +35,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15</news:publication_date>
-      <news:title>They Called De'Zhaun Stribling a Reach. Nobody Is Laughing Now</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15</news:publication_date>
-      <news:title>The 49ers Finally Have the Mix Right, and the Drafts Are Why</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</loc>
     <news:news>
       <news:publication>
@@ -68,17 +46,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15</news:publication_date>
-      <news:title>Giants 7, Rockies 1: Logan Webb Is the Consummate Pro</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-junior-high-performance-posey-confirms-return-2027.html</loc>
     <news:news>
       <news:publication>
@@ -87,6 +54,17 @@
       </news:publication>
       <news:publication_date>2026-08-17</news:publication_date>
       <news:title>Vitello Called It Junior High Baseball. Posey Says He Is Back.</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18</news:publication_date>
+      <news:title>Josuar Gonzalez Is the Best Giants Prospect in a Generation</news:title>
     </news:news>
   </url>
 </urlset>

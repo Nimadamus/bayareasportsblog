@@ -159,7 +159,7 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
       "None of it is a franchise-altering haul. All of it is better than watching those "
       "contracts expire for nothing, which is what happened the last time.",
       "<b>What is actually left.</b> {eldridge} is the centre of everything now, and our "
-      "long piece on him remains the best case for optimism on this roster. Rafael Devers "
+      "long piece on him remains the best case for optimism on this roster. Behind him, {josuar} is the genuine star candidate at the bottom of the system. Rafael Devers "
       "has quietly had a season nobody discussed. {schmitt} forced his way into the lineup "
       "and stayed. Logan Webb is still Logan Webb. Beyond that it thins out fast, which is "
       "the whole point of the exercise.",
@@ -192,6 +192,8 @@ dict(slug='giants-2026-where-the-rebuild-actually-stands',
       "the rest is on the {hub}.",
      ],
      links={'arraez': ('giants-arraez-kilian-traded-phillies-august-3.html', 'Luis Arraez'),
+            'josuar': ('josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html',
+                       'Josuar Gonzalez'),
             'ray': ('giants-robbie-ray-padres-trade-report-august-3.html', 'Robbie Ray'),
             'ramos': ('giants-heliot-ramos-yankees-mayer-mahle-august-4.html', 'Heliot Ramos'),
             'mayer': ('giants-marcelo-mayer-trade-red-sox-erik-miller-robbery.html', 'Marcelo Mayer'),
@@ -1120,6 +1122,165 @@ dict(slug='giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16',
                'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
                'Where the Giants Rebuild Actually Stands')]),
+# ------------------------------------------- Josuar Gonzalez, the 18-year-old shortstop
+dict(slug='josuar-gonzalez-giants-top-prospect-18-year-old-shortstop',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Josuar Gonzalez Is the Best Giants Prospect in a Generation',
+     h1="Josuar Gonzalez Is Eighteen Years Old, He Is Hitting .339 in Low-A, and He Is "
+        "the Best Thing This Franchise Has Signed in a Generation",
+     dek="A switch-hitting shortstop out of San Cristobal who walks more than he strikes "
+         "out, runs like a scalded cat, and has already been ranked seventh in all of "
+         "baseball. Finally, something to be excited about.",
+     desc="Josuar Gonzalez is 18, a switch-hitting shortstop ranked as high as seventh in "
+          "baseball, and he is hitting .339 at Low-A San Jose. Why Giants fans should care.",
+     date='2026-08-18',
+     card=('giants', 'Josuar Gonzalez', 'Eighteen years old and already the best thing we have'),
+     body=[
+      "I have watched this organisation sign, draft, promote and ruin position players for "
+      "my entire adult life. I have been told about Angel Villalona. I have been told "
+      "about Gary Brown. I sat through the Joey Bart years and the Marco Luciano years, "
+      "and every March where somebody in Scottsdale said the words high ceiling into a "
+      "microphone about a kid who never hit a big league slider. So understand that I do "
+      "not say this lightly, and that I have earned the right to be a cynic about it: "
+      "Josuar Gonzalez is the best prospect this franchise has had since Buster Posey, he "
+      "is eighteen years old, and he is doing it right now, an hour down the road in San "
+      "Jose, while the big club loses home series to Colorado.",
+
+      "<b>Start with who he is.</b> Gonzalez is a switch-hitting shortstop from San "
+      "Cristobal in the Dominican Republic. He turns nineteen in October. He is listed at "
+      "a shade under six feet and something like a hundred and seventy pounds, which is to "
+      "say he is a teenager who has not finished being built yet. The Giants signed him in "
+      "January of 2025 for two million nine hundred and ninety seven thousand five hundred "
+      "dollars, the second largest international bonus this franchise has ever handed "
+      "anybody, and he was not a flier. He was the consensus best position player "
+      "available on the entire international market that year, the number one prospect out "
+      "of Latin America, and the number two name in the class behind only Roki Sasaki, who "
+      "was already a finished major league pitcher. The comparisons scouts reached for at "
+      "the time were a young Jose Reyes and Francisco Lindor. Nobody has reached for those "
+      "names about anybody else we have signed in twenty years.",
+
+      "<b>Then he went out and hit.</b> At seventeen, in the Dominican Summer League, he "
+      "put up a .288 average with a .404 on base percentage and a .455 slug across fifty "
+      "two games, with four home runs and thirty three stolen bases. He walked in 16.2 "
+      "percent of his plate appearances and struck out in 15.8 percent. Read those last "
+      "two numbers again. A seventeen year old kid, in his first professional summer, "
+      "against men, drew more walks than he took strikeouts. That is not a tools report. "
+      "That is a baseball player.",
+
+      "<b>This year has been a demolition.</b> He opened 2026 in the Arizona Complex "
+      "League and hit .343 with a .451 on base and a .515 slug over thirty games, two home "
+      "runs, eight stolen bases, a 16.4 percent walk rate. On the twenty fourth of July "
+      "the Giants moved him and Luis Hernandez, who is seventeen, up to Low-A San Jose "
+      "together, which is the sort of aggressive assignment an organisation only makes "
+      "when the reports coming back have started to get embarrassing. He responded by "
+      "hitting .339 with a .455 on base and a .613 slugging percentage across his first "
+      "sixteen games in a full season league: two homers, three steals, a .274 isolated "
+      "power, a 16.9 percent walk rate against an 18.2 percent strikeout rate, and a 162 "
+      "wRC+. Put the whole season together across both stops and it is .342 with a .452 on "
+      "base and a .553 slug, four home runs, eleven stolen bases and a 148 wRC+, at an age "
+      "where his American equivalents are picking a college.",
+
+      "<b>The walk rate is the tell, and it is the reason I believe this one.</b> Toolsy "
+      "teenagers hit .340 in complex leagues all the time. Those leagues are full of arms "
+      "who cannot find the strike zone, so a kid with fast hands and no discipline can put "
+      "up a beautiful line and then get eaten alive the first time a twenty three year old "
+      "throws him a slider on 1-2. That is the Luciano story, roughly, and it is the story "
+      "of a dozen other names that have been shoved at this fan base. Gonzalez is the "
+      "opposite profile. He has walked in better than sixteen percent of his plate "
+      "appearances at every single stop, at every level, in every league, against every "
+      "age group he has faced, including the jump to full season ball at eighteen. Plate "
+      "discipline travels. It is the most portable skill in the minor leagues and it is "
+      "the exact thing this organisation has spent fifteen years failing to develop in "
+      "anybody.",
+
+      "<b>The tools underneath it are not small either.</b> The people who put numbers on "
+      "this stuff have him at plus plus speed and plus plus defence at shortstop with an "
+      "above average arm, which means he is a real everyday shortstop and not a second "
+      "baseman in waiting. He has been measured at over 109 miles an hour off the bat, a "
+      "genuine major league number, out of a body that has not filled out yet. He is more "
+      "polished from the left side than the right. The power is projection rather than "
+      "production at the moment, which is exactly what you would expect and exactly what "
+      "the grades say. The bet is that he grows into twenty to twenty five home runs while "
+      "keeping the discipline and the shortstop glove. If he does that he is a perennial "
+      "All-Star. If he only gets halfway there he is still the starting shortstop on a "
+      "good team, which this franchise has not developed for itself since the Obama "
+      "administration.",
+
+      "<b>The national lists have noticed, and fast.</b> In May one of them put him "
+      "seventh in all of baseball, with the note that he could easily be the number one "
+      "prospect in the sport by January. The ranking that moves slowest had him thirtieth "
+      "in the winter and eighteenth in its August update. The other big list has him "
+      "somewhere in the middle teens. That range, seventh to eighteenth, is the whole "
+      "argument in one line: everybody agrees he is a top twenty prospect in baseball, and "
+      "the evaluators who have watched him most closely this summer are the ones with him "
+      "highest. Eighteen year olds who climb these lists in August are not a normal "
+      "occurrence.",
+
+      "<b>Now the cold water, because I am not going to do to you what this club's "
+      "marketing department does to you every February.</b> He is eighteen. He has played "
+      "sixteen games above the complex level. A hamstring has already cost him time this "
+      "season, and the gap between San Jose and a major league batter's box is four "
+      "levels, three winters and roughly a thousand things that go wrong for teenagers. "
+      "The realistic arrival is 2029, and the honest sentence is that most eighteen year "
+      "old shortstops ranked inside the top twenty never become stars. That is simply what "
+      "the base rate says. The reason to be excited is not that he is a certainty. It is "
+      "that for once we are holding the lottery ticket everybody else wants, instead of "
+      "the one we talked ourselves into.",
+
+      "<b>He is also not alone, which is the genuinely new part.</b> This organisation now "
+      "has five players inside the top hundred prospects in the sport, and three of them "
+      "are shortstops who are not yet twenty. Hernandez is seventeen and hitting alongside "
+      "him at San Jose. Jhonny Level is in there too. Jackson Flora is an arm and Bo "
+      "Davidson is a bat. That is a real farm system for the first time since the last "
+      "decade, and it exists because somebody finally decided to spend properly in Latin "
+      "America instead of treating the international market as a rounding error. Whatever "
+      "else you want to say about this front office, and {rebuild} says most of it, they "
+      "got that part right.",
+
+      "<b>So where does he actually play?</b> Willy Adames is the shortstop here and he is "
+      "signed for years yet, so the tidy answer is that this sorts itself out later and "
+      "the honest answer is that you do not block a potential franchise shortstop with a "
+      "contract, you move somebody. Adames can play third. Marcelo Mayer, who came back in "
+      "the deadline robbery, is another middle infielder in the same queue. Having too "
+      "many good young shortstops is a problem this franchise has literally never had and "
+      "I am not going to spend August of 2026 worrying about it.",
+
+      "<b>What it means for right now, which is the part that hurts.</b> The 2026 Giants "
+      "are fifty one and seventy three and just handed a home series to the worst team in "
+      "the National League. The manager question is unresolved, the bullpen is a running "
+      "joke, and {devers} was the only thing worth watching on Sunday afternoon. "
+      "{eldridge} is the bat that arrives first and carries the middle of the order. But "
+      "the difference between a rebuild and a rebrand is whether there is a genuine star "
+      "at the end of it, and for the first time since Posey came up out of Fresno there is "
+      "a real candidate, and he is a teenager who plays the hardest position on the field "
+      "and walks more than he strikes out.",
+
+      "Write the name down. Josuar Gonzalez. In three years, when this team is worth "
+      "watching in September again, you are going to want to be able to say you knew in "
+      "August of 2026, in a nothing week, in a nothing season, while we were losing to "
+      "Colorado.",
+
+      "Where the rest of the rebuild stands is on the {rebuildpage}, the roster as it "
+      "exists today is on the {depth}, every game is in the {season}, and the rest lives "
+      "on the {hub}.",
+     ],
+     links={'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'the rebuild page'),
+            'devers': ('giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html',
+                       'Rafael Devers hitting his twenty fifth'),
+            'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
+                         'Bryce Eldridge'),
+            'rebuildpage': ('giants-2026-where-the-rebuild-actually-stands.html',
+                            'rebuild page'),
+            'depth': ('giants-2026-roster-depth-chart.html', 'depth chart page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html', 'Giants',
+               'Bryce Eldridge Is the Only Future This Team Has'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Giants Rebuild Actually Stands'),
+              ('giants-2026-roster-depth-chart.html', 'Giants',
+               'The Giants Roster and Depth Chart')]),
 ]
 
 

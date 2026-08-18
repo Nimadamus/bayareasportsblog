@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 17 Aug 2026 22:37:36 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 11:35:23 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Josuar Gonzalez Is the Best Giants Prospect in a Generation</title>
+    <link>https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</guid>
+    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Josuar Gonzalez is 18, a switch-hitting shortstop ranked as high as seventh in baseball, and he is hitting .339 at Low-A San Jose. Why Giants fans should care.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>They Took Brandon Aiyuk&#39;s Locker Out. That Is How You Know It Is Over.</title>
     <link>https://bayareasportsblog.com/articles/49ers-brandon-aiyuk-locker-removed-august-2026.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>After the 2026 deadline selloff, what the Giants roster actually is, what came back, and what has to happen in 2027 for any of it to matter.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-2026-where-the-rebuild-actually-stands.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Macklin Celebrini: The Records, the Contract, Where He Ranks</title>
-    <link>https://bayareasportsblog.com/articles/macklin-celebrini-sharks-records-contract.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/macklin-celebrini-sharks-records-contract.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Sharks</category>
-    <description>Macklin Celebrini by the numbers: the 115-point franchise record season, his NHL-high $18.8 million contract, and how his start compares.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/macklin-celebrini-sharks-records-contract.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
