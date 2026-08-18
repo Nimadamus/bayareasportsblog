@@ -31,10 +31,10 @@
 <meta property="og:image:alt" content="Bay Area Sports Blog: Search">
 </head>
 <body>
-<div class="desk-top">
+<div class="desk-top" role="region" aria-label="Today and quick links">
   <div class="wrap">
     <div><b class="dt-live">Saturday, July 18, 2026</b> &middot; San Francisco</div>
-    <div class="dt-r">
+    <div class="dt-r" role="navigation" aria-label="Quick links">
       <a href="blog.html">Latest</a>
       <a href="columns.html">Columns</a>
       <a href="timeline.html">Timeline</a>
@@ -114,7 +114,7 @@
     items.forEach(function(a){
       h+='<a class="sr-item" href="'+esc(a.u)+'">'
         +'<span class="sr-k">'+esc(a.k)+(a.dt?' &middot; '+esc(a.dt):'')+'</span>'
-        +'<h4>'+esc(a.t)+'</h4>'
+        +'<h4 role="heading" aria-level="2">'+esc(a.t)+'</h4>'
         +'<p>'+esc(a.d)+'</p></a>';
     });
     out.innerHTML=h;

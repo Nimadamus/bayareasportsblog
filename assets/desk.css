@@ -217,8 +217,8 @@ body{
 .pill{display:inline-block;font-family:var(--cond);font-size:12px;font-weight:700;letter-spacing:.18em;
   text-transform:uppercase;padding:5px 13px;color:#2a0b04;background:var(--gold);
   clip-path:var(--chamfer);--cut:6px}
-.pill.sf{background:var(--sf);color:#fff} .pill.niners{background:var(--niners);color:#fff}
-.pill.gs{background:var(--gs);color:#1a1a1a} .pill.as{background:var(--as);color:#fff}
+.pill.sf{background:var(--sf);color:#1a0a02} .pill.niners{background:var(--niners);color:#fff}
+.pill.gs{background:var(--gs);color:#1a1a1a} .pill.as{background:var(--as);color:#04241a}
 .pill.sj{background:var(--sj);color:#062a2e} .pill.lv{background:var(--lv);color:#141414}
 .pill.op{background:transparent;border:1px solid var(--rule2);color:var(--muted);clip-path:none}
 
@@ -452,6 +452,8 @@ a.plate:hover .pl-img img{filter:grayscale(0) sepia(0) saturate(1) contrast(1);t
   flex-direction:column;gap:7px;flex:1}
 .plate .pl-yr{font-family:var(--cond);font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
   color:var(--th)}
+/* 11px 49ers red on the dark plate was 3.8:1, this variant is 5.36:1 */
+.plate[data-c=niners] .pl-yr{color:#e8635c}
 .plate h3{font-family:var(--display);font-size:18px;font-weight:700;line-height:1.18;letter-spacing:-.01em;text-transform:none}
 .plate[data-c=sf]{--th:var(--sf)} .plate[data-c=niners]{--th:var(--niners)}
 .plate[data-c=gs]{--th:var(--gs)} .plate[data-c=as]{--th:var(--as)}

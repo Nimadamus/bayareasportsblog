@@ -117,7 +117,11 @@ national competition is.
 5. **Cards from `tools/cardgen.py`** — team palette, no stock photos, no likenesses.
 6. **All gates pass before commit:** `tools/thumb_gate.py --site`,
    `tools/card_derivatives.py --check`, `tools/social_meta_gate.py --check`,
-   `_meta_template.py --gate`, `_sitemap_audit.py`, `_seo_audit.py`.
+   `_meta_template.py --gate`, `_sitemap_audit.py`, `_seo_audit.py`, and the
+   accessibility sweep `node site-qa/_basb_a11y.cjs <pages>` with a local
+   `python -m http.server 8901` running. The whole site was taken to zero axe
+   violations at WCAG 2.1 AA on 18 Aug 2026 and it stays there. `python _a11y.py`
+   re-applies the markup fixes and is idempotent, so run it after adding pages.
 7. **The news sitemap only holds 48 hours.** Cadence is the whole game in season.
 8. **Reference pages, not more columns.** The archive already owns the arguments. New
    evergreen work earns links by answering questions with tables and dates.
