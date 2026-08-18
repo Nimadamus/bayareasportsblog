@@ -87,65 +87,8 @@ dict(slug='stephen-curry-career-records-three-pointers',
               ('warriors-championship-history.html', 'Warriors', 'From Rick Barry to the Splash Brothers'),
               ('warriors-73-9-best-record-ever-added-durant.html', 'Warriors', '73-9 and Then They Added Durant')]),
 
-# ------------------------------------------------------------ 2. Roster / depth chart
-dict(slug='warriors-2026-27-roster-depth-chart',
-     section='Warriors', tag='Warriors', hub='Warriors',
-     title='The 2026-27 Warriors Roster and Depth Chart',
-     h1="The 2026-27 Warriors Roster and Depth Chart, Position by Position",
-     dek="Who starts, who comes off the bench, who is hurt, and what the roster looks "
-         "like once you account for the two knees nobody wants to talk about.",
-     desc="A position-by-position look at the 2026-27 Warriors: projected starters, the "
-          "bench, the injury picture, and where this roster is genuinely thin.",
-     date='2026-08-08',
-     card=('warriors', 'Roster & Depth', 'Starters, bench, and the two knees nobody mentions'),
-     body=[
-      "A depth chart in the offseason is a projection with a short shelf life, so treat "
-      "this as a running record. It gets updated as the roster moves.",
-      "<b>Projected starters.</b> {curry} at point guard, Brandin Podziemski at shooting "
-      "guard, Gui Santos at small forward, Draymond Green at power forward, and Kristaps "
-      "Porzingis at centre. Read that lineup twice, because the two names most people "
-      "would expect to see are not in it.",
-      "<b>The two knees.</b> Jimmy Butler and Moses Moody have both been left out of "
-      "lineup projections because of knee injuries. Butler is the second-highest-paid "
-      "player on the roster. A starting five that does not include him is not a plan, it "
-      "is a contingency, and how quickly that changes is the single biggest variable in "
-      "this team's season.",
-      "<b>Guard.</b> Curry, still the entire offense's centre of gravity at thirty-eight. "
-      "Podziemski has grown into a real rotation piece rather than a project. Moody at "
-      "$12.5 million is the sort of contract that looks fine when he plays and awkward "
-      "when he does not.",
-      "<b>Wing.</b> Santos in the projected starting five is the story here, a player "
-      "on a $4.6 million deal starting for a team paying two players a combined $119 "
-      "million tells you exactly where the cap pressure landed. Butler when healthy "
-      "changes this room entirely.",
-      "<b>Big.</b> Porzingis at centre, with Al Horford re-signed at $5.9 million behind "
-      "him. Horford at this stage of his career is a specific kind of useful: he knows "
-      "where to be, he can still shoot it, and he does not need plays run for him. On a "
-      "roster this top-heavy, that is worth more than the number suggests.",
-      "<b>Draymond.</b> Still the defensive organiser, still on $27.6 million, still the "
-      "player whose availability and temperament decide what the defence is capable of. "
-      "There is no version of a good Warriors defence that does not run through him.",
-      "<b>The rookie.</b> Yaxel Lendeborg arrived in the draft. Rookie minutes on a team "
-      "trying to win now are earned rather than given, and {kuminga} is the cautionary "
-      "tale about how this coaching staff handles young players who are not immediately "
-      "ready.",
-      "<b>Where it runs thin.</b> Everywhere behind the top six. The cap sheet, "
-      "{cap} goes through it in detail, means the back half of this roster is minimum "
-      "contracts and hope. If Curry, Green or Porzingis misses time, there is no "
-      "replacement on the books, only a redistribution of minutes to players who were "
-      "not signed to play them.",
-      "The structural read is in the {outlook}, the numbers behind Curry are on {records}, "
-      "and everything else is on the {hub}.",
-     ],
-     links={'curry': ('stephen-curry-career-records-three-pointers.html', 'Stephen Curry'),
-            'kuminga': ('warriors-kerr-kuminga-role-handling.html', 'the Kuminga situation'),
-            'cap': ('warriors-roster-construction-cap-sheet-2026-27.html', 'our cap piece'),
-            'outlook': ('warriors-2026-27-season-outlook.html', 'season outlook'),
-            'records': ('stephen-curry-career-records-three-pointers.html', 'the Curry page'),
-            'hub': ('../warriors.html', 'Warriors hub')},
-     related=[('warriors-2026-27-season-outlook.html', 'Warriors', 'The 2026-27 Warriors: What This Roster Actually Is'),
-              ('warriors-roster-construction-cap-sheet-2026-27.html', 'Warriors', 'What $147 Million Actually Bought'),
-              ('warriors-kerr-kuminga-role-handling.html', 'Warriors', 'How Steve Kerr Actually Handled Jonathan Kuminga')]),
+# 2. Roster / depth chart MOVED to _gsc_articles.py (rebuilt 2026-08-18 for the
+#    'warriors depth chart 2026 27' search query). One owner per page.
 
 # ------------------------------------------------------------ 3. Season outlook
 dict(slug='warriors-2026-27-season-outlook',

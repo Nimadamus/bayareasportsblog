@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/warriors.html</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-championship-history.jpg</image:loc></image:image>
@@ -93,7 +93,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/sharks.html</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sharks-rebuild-has-a-pulse-celebrini.jpg</image:loc></image:image>
@@ -107,14 +107,14 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/cal.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/about.html</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -183,11 +183,60 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/barry-bonds-giants-home-run-king.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/cal-2026-schedule-game-by-game-acc.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/cal-2026-schedule-game-by-game-acc.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/cal-basketball-schedule-2026-27.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/cal-basketball-schedule-2026-27.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sharks-playoff-history.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sharks-playoff-history.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-projected-rotation.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-projected-rotation.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-roster-depth-chart.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/when-were-the-san-jose-sharks-founded.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/when-were-the-san-jose-sharks-founded.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/49ers-brandon-aiyuk-locker-removed-august-2026.html</loc>
@@ -414,13 +463,6 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/brock-purdy-career-passer-rating-where-he-ranks.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/cal-2026-schedule-game-by-game-acc.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/cal-2026-schedule-game-by-game-acc.jpg</image:loc></image:image>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/cal-2026-season-preview-lupoi-sagapolutele.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
@@ -559,13 +601,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sutter-health-park-mlb-guide-dimensions-capacity.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-roster-depth-chart.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/warriors-2026-27-season-outlook.html</loc>
@@ -1182,13 +1217,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-sacramento-bay-area-villains.jpg</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/barry-bonds-giants-home-run-king.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/bruce-bochy-bullpen-wizardry-core-four.html</loc>

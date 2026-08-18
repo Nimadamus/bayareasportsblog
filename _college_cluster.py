@@ -491,68 +491,9 @@ dict(slug='stanford-axe-trophy-history',
               ('cal-stanford-acc-realignment-what-changed.html', 'College Football', 'Cal and Stanford Play in the ACC Now'),
               ('cal-2026-season-preview-lupoi-sagapolutele.html', 'Cal Preview', 'Tosh Lupoi Comes Home to Berkeley')]),
 
-# ------------------------------------------------------------------ 7. Cal schedule
-dict(slug='cal-2026-schedule-game-by-game-acc',
-     section='Cal', tag='Cal', hub='Cal',
-     title="Cal's 2026 Schedule, Game by Game: Where the Season Turns",
-     h1="Cal's 2026 Schedule, Game by Game, and the Four Weeks That Decide the Season",
-     dek="UCLA to open, Clemson at home in September, a November road stretch that will "
-         "either make this team or expose it, and the Big Game to finish.",
-     desc="Every game on Cal's 2026 schedule, from the UCLA opener to the Big Game, and "
-          "the stretch in October and November where the season is actually decided.",
-     date='2026-08-08',
-     card=('cal', "Cal's Schedule", 'UCLA to open, Clemson in September, Stanford to finish'),
-     body=[
-      "A schedule is not a list of dates, it is a shape. Here is the shape of Cal's 2026, "
-      "and where it either becomes a season worth talking about or the usual.",
-      "<b>September.</b> UCLA on the 5th to open, then a trip to Syracuse on the 12th, "
-      "Wagner at home on the 19th, and Clemson on the 26th. That opener matters more "
-      "than its billing, a home win over a Los Angeles school in {lupoi}'s first game "
-      "sets a tone the rest of the building can feel. Clemson is the measuring stick, "
-      "and nobody expects Cal to win it, which is exactly why a close one would be worth "
-      "something.",
-      "<b>October.</b> At UNLV on the 3rd, Virginia Tech at home on the 10th, Wake "
-      "Forest at home on the 17th, then SMU in Dallas on the 24th and NC State in "
-      "Raleigh on the 31st. This is the month. Two home games against beatable ACC teams "
-      "in the middle, bracketed by travel. Take both home games and this is a team with "
-      "a pulse in November. Split them and it is another year of almost.",
-      "<b>November.</b> An open date on the 7th, Virginia on the road on the 14th, then "
-      "{stanford} at home on the 21st and Pitt on the 28th to close it. The bye before a "
-      "three-game finish is a gift for a first-year staff. Finishing at home in the Big "
-      "Game is a better one.",
-      "The thing worth noticing is who is not on here. Miami, Louisville and Florida "
-      "State, three of the four names that actually decide the ACC, are all missing. "
-      "In a conference this lopsided, that is worth more than any preseason ranking "
-      "anyone hands out. Combine it with {qb} choosing to come back and you have the "
-      "most favourable set-up Cal has been handed in years.",
-      "The trap game is Wagner on 19 September, and not for the reason you think. "
-      "Nobody loses that one. The risk is that it sits between Syracuse on the road and "
-      "Clemson at home, which means a team with a new staff gets a week where the "
-      "intensity naturally drops, immediately before the biggest home game of the "
-      "non-conference schedule. Programmes that are still learning who they are have a "
-      "habit of showing up flat the week after a scheduled breather.",
-      "The road stretch is where the season is genuinely decided. Dallas on 24 October "
-      "and Raleigh on 31 October, back to back, is the sort of two-week trip that used "
-      "to be unimaginable for a Bay Area school and is now routine. Come out of it at "
-      "1-1 and the bye week arrives with everything still in front of this team. Come "
-      "out 0-2 and the Big Game becomes the only thing left to play for, which is not "
-      "nothing around here but is not what this roster was built for.",
-      "One more thing about the finish. Ending with Stanford at home and then Pitt is a "
-      "genuinely strange sequence, the emotional peak of the season arrives with one "
-      "game still to play. Teams have been known to win the Big Game and then no-show "
-      "the following Saturday. If Cal is chasing a bowl bid in late November, that Pitt "
-      "game is going to matter more than anyone wants it to.",
-      "The {realign} explainer covers why a Berkeley team is playing in Raleigh at all. "
-      "Everything else is on the {hub}.",
-     ],
-     links={'lupoi': ('cal-2026-season-preview-lupoi-sagapolutele.html', 'Tosh Lupoi'),
-            'stanford': ('big-game-cal-stanford-rivalry-history.html', 'Stanford'),
-            'qb': ('cal-2026-season-preview-lupoi-sagapolutele.html', 'Jaron-Keawe Sagapolutele'),
-            'realign': ('cal-stanford-acc-realignment-what-changed.html', 'realignment'),
-            'hub': ('../cal.html', 'Cal hub')},
-     related=[('cal-2026-season-preview-lupoi-sagapolutele.html', 'Cal Preview', 'Tosh Lupoi Comes Home to Berkeley'),
-              ('cal-stanford-acc-realignment-what-changed.html', 'College Football', 'Cal and Stanford Play in the ACC Now'),
-              ('big-game-cal-stanford-rivalry-history.html', 'Big Game', 'The Oldest Rivalry on the West Coast')]),
+# 7. Cal schedule MOVED to _gsc_articles.py (rebuilt 2026-08-18 for the
+#    'cal game schedule' search query). One owner per page.
+
 
 # ------------------------------------------------------------------ 8. Stanford opener
 dict(slug='stanford-hawaii-week-zero-opener-preview',
