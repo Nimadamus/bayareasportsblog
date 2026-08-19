@@ -13,17 +13,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-16</news:publication_date>
-      <news:title>Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html</loc>
     <news:news>
       <news:publication>
@@ -32,6 +21,17 @@
       </news:publication>
       <news:publication_date>2026-08-17</news:publication_date>
       <news:title>McCaffrey Is Not Practicing, and It Might Not Be About a Muscle</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18</news:publication_date>
+      <news:title>Royals 4, A's 3: A Two Run Ninth Inning Lead, Gone in Ten Minutes</news:title>
     </news:news>
   </url>
   <url>
@@ -68,14 +68,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</loc>
+    <loc>https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-16</news:publication_date>
-      <news:title>Rockies 13, Giants 7: Devers Hit His 25th and It Did Not Matter</news:title>
+      <news:publication_date>2026-08-18</news:publication_date>
+      <news:title>Guardians 8, Giants 1: Eldridge Homered, Nothing Else Happened</news:title>
     </news:news>
   </url>
   <url>

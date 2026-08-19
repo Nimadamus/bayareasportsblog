@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 18 Aug 2026 16:16:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 09:35:38 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Royals 4, A&#39;s 3: A Two Run Ninth Inning Lead, Gone in Ten Minutes</title>
+    <link>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</guid>
+    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Royals 4, Athletics 3 at Kauffman Stadium: the A&#39;s led 3-1 into the ninth, Hogan Harris gave up three, Bobby Witt Jr. walked it off, and the A&#39;s fall to 49-77.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Barry Bonds and the Giants: The Years, the Numbers, the Argument</title>
     <link>https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</link>
@@ -34,6 +43,15 @@
     <category>Cal</category>
     <description>The Cal basketball schedule for 2026-27: the announced non conference games, every ACC opponent home and away, and the 2025-26 results for reference.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-basketball-schedule-2026-27.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Guardians 8, Giants 1: Eldridge Homered, Nothing Else Happened</title>
+    <link>https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</guid>
+    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Guardians 8, Giants 1 at Progressive Field: Bryce Eldridge homered for his 14th, Jo Adell drove in six, Carson Whisenhunt gave up nine hits in four innings, and the Giants fell to 51-74.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Josuar Gonzalez Is the Best Giants Prospect in a Generation</title>
@@ -349,24 +367,6 @@
     <category>Bay Area History</category>
     <description>A reference list of every Bay Area sports franchise relocation: the Raiders twice, the Athletics, the Warriors, the 49ers, and the moves that were blocked.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-franchise-relocations-teams-that-left.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Big Game: The Oldest Rivalry on the West Coast</title>
-    <link>https://bayareasportsblog.com/articles/big-game-cal-stanford-rivalry-history.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/big-game-cal-stanford-rivalry-history.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Big Game</category>
-    <description>The Cal-Stanford Big Game dates to 1892, produced The Play in 1982, and is decided every November for possession of the Stanford Axe. Here is the story.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/big-game-cal-stanford-rivalry-history.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Where Brock Purdy Actually Ranks, and What He Can Still Reach</title>
-    <link>https://bayareasportsblog.com/articles/brock-purdy-career-passer-rating-where-he-ranks.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/brock-purdy-career-passer-rating-where-he-ranks.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>A running look at where Brock Purdy sits historically: career passer rating, the records in reach, and the milestones that are realistic rather than hype.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/brock-purdy-career-passer-rating-where-he-ranks.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

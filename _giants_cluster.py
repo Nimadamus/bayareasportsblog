@@ -132,6 +132,29 @@ ASTROS_RUBBER_BOX = """<div class="reftable">
 </table>
 </div>"""
 
+GUARDIANS_8_1_LINE = ('<div class="reftable">\n<table>\n<caption>San Francisco Giants at '
+                      'Cleveland Guardians, Tuesday 18 August 2026, Progressive Field, '
+                      '21,309</caption>\n' + LINEHEAD + '\n<tbody>\n'
+                      + LINE('San Francisco', [0, 1, 0, 0, 0, 0, 0, 0, 0], 1, 7, 2) + '\n'
+                      + LINE('<b>Cleveland</b>', [3, 2, 0, 2, 0, 0, 1, 0, 'X'], 8, 12, 0)
+                      + '\n</tbody>\n</table>\n</div>')
+
+GUARDIANS_8_1_BOX = """<div class="reftable">
+<table>
+<caption>Pitching, Giants at Guardians, 18 August 2026</caption>
+<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th></tr></thead>
+<tbody>
+<tr><td><b>Carson Whisenhunt, SF (L)</b></td><td class="num">4.0</td><td class="num">9</td><td class="num">7</td><td class="num">6</td><td class="num">2</td><td class="num">1</td></tr>
+<tr><td>Trent Harris, SF</td><td class="num">2.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5</td></tr>
+<tr><td>Reiver Sanmartin, SF</td><td class="num">2.0</td><td class="num">2</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">2</td></tr>
+<tr><td>Foster Griffin, CLE (W)</td><td class="num">6.0</td><td class="num">5</td><td class="num">1</td><td class="num">1</td><td class="num">2</td><td class="num">6</td></tr>
+<tr><td>Matt Festa, CLE</td><td class="num">1.1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td></tr>
+<tr><td>Tim Herrin, CLE</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>
+<tr><td>Craig Yoho, CLE</td><td class="num">0.2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ARTICLES = [
 # --------------------------------------------------------- 1. Where the rebuild stands
 dict(slug='giants-2026-where-the-rebuild-actually-stands',
@@ -1281,6 +1304,130 @@ dict(slug='josuar-gonzalez-giants-top-prospect-18-year-old-shortstop',
                'Where the Giants Rebuild Actually Stands'),
               ('giants-2026-roster-depth-chart.html', 'Giants',
                'The Giants Roster and Depth Chart')]),
+
+# ------------------------------------------ Guardians 8, Giants 1, Tue 18 August 2026
+dict(slug='giants-guardians-8-1-bryce-eldridge-14th-homer-august-18',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Guardians 8, Giants 1: Eldridge Homered, Nothing Else Happened',
+     h1="Guardians 8, Giants 1: Bryce Eldridge Hit His Fourteenth in Cleveland and That "
+        "Was the Entire San Francisco Giants Offense",
+     dek="One run. One. A twenty one year old put a baseball four hundred and five feet "
+         "into the night in the second inning and the other eight men in that lineup gave "
+         "us nothing for the remaining seven and a half.",
+     desc="Guardians 8, Giants 1 in Cleveland: Bryce Eldridge homered for his 14th, Jo "
+          "Adell drove in six, and one run was the entire Giants offense. They are 51-74.",
+     date='2026-08-18',
+     card=('giants', 'One Run in Cleveland', 'Eldridge hit number fourteen and nobody else did anything'),
+     body=[
+      "One run. That is what we scored on Tuesday night in Cleveland. One. Bryce Eldridge "
+      "hit a baseball four hundred and five feet to dead centre field in the second inning, "
+      "and if you got up during the fourth to make a sandwich you missed every single thing "
+      "the San Francisco Giants offence did in three hours of professional baseball. Eight "
+      "to one. Seven hits. Two errors. And a game that was effectively finished eleven "
+      "pitches into the bottom of the first.",
+
+      "I am so tired of typing sentences like that one.",
+
+      GUARDIANS_8_1_LINE,
+
+      "<b>Start with the kid, because the kid is the only reason any of us watched past the "
+      "fourth.</b> Second inning, nobody on, and Eldridge got a pitch out over the plate and "
+      "hit it a hundred and four miles an hour to the middle of the ballpark. Four hundred "
+      "and five feet. Number fourteen. He is twenty one years old. He has played eighty two "
+      "big league games, he is hitting .250 with a .343 on base and a .445 slug, and he has "
+      "walked forty two times, which is a thing most twenty one year olds in this league "
+      "cannot do because they are too busy swinging at sliders in the other batter&rsquo;s "
+      "box. Two for four on the night. He looks like a hitter. He looks like the only hitter.",
+
+      "That is not a compliment to this roster. That is an indictment of it. A rookie first "
+      "baseman is carrying the only watchable at bats on a team with a hundred and twenty "
+      "five games in the books, and {eldridge} has been the argument on this site since "
+      "July. He is going to be a problem for the rest of the league in about eighteen "
+      "months. Right now he is a problem for us, because every night he does something and "
+      "nobody around him does anything at all.",
+
+      "<b>Now Carson Whisenhunt, and I want to be fair to him for exactly one sentence "
+      "before I am not.</b> He is a young starter on a bad team in a lost August. Fine. Nine "
+      "hits in four innings. Seven runs. Twenty seven outs are available in a baseball game "
+      "and he recorded twelve of them while the Cleveland Guardians, who are not the 1927 "
+      "Yankees, hit line drive after line drive after line drive.",
+
+      "It was over in the first. Kwan and Ram&iacute;rez get on, and Jo Adell hits a three "
+      "run home run, his nineteenth, into the left field seats before anybody in that "
+      "ballpark had finished sitting down. Second inning, Kwan and Ram&iacute;rez get on "
+      "again, and Adell singles them both in. Fourth inning, Adell singles again, Drew "
+      "Gilbert kicks the ball around out in left, and everybody moves up a base for free. "
+      "Then a ground out brings in another one.",
+
+      "<b>Jo Adell drove in six runs by himself. The San Francisco Giants drove in one.</b> "
+      "One man in a Cleveland uniform had six times the offensive night that our entire "
+      "roster managed. Sit with that for a second, because I have been sitting with it since "
+      "the fourth inning and it has not gotten any better.",
+
+      GUARDIANS_8_1_BOX,
+
+      "<b>Foster Griffin.</b> Look him up. A journeyman left hander went six innings against "
+      "us and gave up one run, and the one run was a solo homer from a twenty one year old "
+      "rookie. Five hits, two walks, six strikeouts. Then Cleveland ran three relievers out "
+      "there for the last three innings and we did nothing against them either. One hit. "
+      "Nine innings, seven hits, one run, against a pitching staff nobody outside Ohio could "
+      "name.",
+
+      "<b>The rest of the lineup, in the order I got angry at them.</b> Rafael Devers went "
+      "nought for four with three strikeouts. Victor Bericoto, nought for four. Andrew "
+      "Knizner is hitting .000. Buddy Kennedy is hitting .111. Christian Koss is at .202. "
+      "That is not a slump, that is a roster. And then the two errors, because of course "
+      "there were two errors, because this team has spent all summer finding new ways to "
+      "give the other side extra outs and extra bases and extra innings.",
+
+      "<b>Here is the part that makes me want to put a brick through something.</b> Trent "
+      "Harris and Reiver Sanmartin came in and threw four innings and gave up one run "
+      "between them. Five strikeouts from Harris in two innings. The bullpen was fine. The "
+      "bullpen has been the villain of this entire season and on Tuesday it was fine, and it "
+      "did not matter even slightly, because by the time they got the ball the game had "
+      "already been handed over.",
+
+      "Fifty one and seventy four. Thirty seven games left in a season that stopped meaning "
+      "anything at the deadline. This team is going to lose ninety something games, in a "
+      "year where the manager was a first time hire, the best hitters got traded, and the "
+      "one genuinely thrilling thing on the whole roster is a first baseman who has not been "
+      "old enough to drink for very long.",
+
+      "I am not doing the Vitello rant tonight. {vitello} is still there and I still believe "
+      "every word of it, but you do not manage your way out of nine hits in four innings and "
+      "seven hits in nine. That is the roster. That is {rebuild}, and it is why {josuar} in "
+      "Low A matters more to me right now than anything happening in the actual major league "
+      "standings, which is a miserable thing to admit in August.",
+
+      "Watch the kid. That is the whole instruction for the rest of this season. Watch "
+      "Eldridge, count the home runs, and try not to think about the other eight spots. The "
+      "rest of the year is in {season}, the roster is on the {depth}, and everything else is "
+      "on the {hub}.",
+
+      "And if you want to feel better about it, do not look across the bay, because "
+      "{athletics} handed a two run ninth inning lead back to Kansas City on the same night. "
+      "It was that kind of evening for baseball around here.",
+     ],
+     links={'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
+                         'the Eldridge column'),
+            'vitello': ('giants-tony-vitello-clueless-lineups-eldridge-leadoff.html',
+                        'The Vitello case'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'where the rebuild actually stands'),
+            'josuar': ('josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html',
+                       'an eighteen year old shortstop'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'the season hub'),
+            'depth': ('giants-2026-roster-depth-chart.html', 'depth chart page'),
+            'athletics': ('athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html',
+                          'the Athletics'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html', 'Giants',
+               'Bryce Eldridge Is the Only Future This Team Has'),
+              ('giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html', 'Giants',
+               'Rockies 13, Giants 7: Devers Hit His 25th and It Did Not Matter'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game')]),
+
 ]
 
 

@@ -53,6 +53,32 @@ RAYS_AS_HOMERS = """<div class="reftable">
 </table>
 </div>"""
 
+ROYALS_4_3_LINE = ('<div class="reftable">\n<table>\n<caption>Athletics at Kansas City '
+                   'Royals, Tuesday 18 August 2026, Kauffman Stadium, 12,009</caption>\n'
+                   + LINEHEAD + '\n<tbody>\n'
+                   + LINE('Athletics', [1, 0, 0, 0, 0, 2, 0, 0, 0], 3, 5, 1) + '\n'
+                   + LINE('<b>Kansas City</b>', [0, 0, 0, 0, 0, 0, 1, 0, 3], 4, 9, 0)
+                   + '\n</tbody>\n</table>\n</div>')
+
+ROYALS_4_3_BOX = """<div class="reftable">
+<table>
+<caption>Pitching, Athletics at Royals, 18 August 2026</caption>
+<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th></tr></thead>
+<tbody>
+<tr><td>Brady Basso, ATH</td><td class="num">2.1</td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+<tr><td>Jack Perkins, ATH</td><td class="num">3.2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">4</td></tr>
+<tr><td>Drew Rom, ATH</td><td class="num">0.1</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">0</td><td class="num">1</td></tr>
+<tr><td>Luis Medina, ATH</td><td class="num">1.1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3</td><td class="num">0</td></tr>
+<tr><td><b>Hogan Harris, ATH (L)</b></td><td class="num">0.2</td><td class="num">3</td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td class="num">0</td></tr>
+<tr><td>Elvis Alvarado, ATH</td><td class="num">0.1</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>Daniel Lynch IV, KC</td><td class="num">4.0</td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">2</td><td class="num">1</td></tr>
+<tr><td>Mason Black, KC</td><td class="num">3.0</td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">1</td></tr>
+<tr><td>Alex Lange, KC</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+<tr><td>Carlos Duran, KC (W)</td><td class="num">1.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>
+</tbody>
+</table>
+</div>"""
+
 ARTICLES = [
 # ------------------------------------------------------- 1. Sutter Health Park evergreen
 dict(slug='sutter-health-park-mlb-guide-dimensions-capacity',
@@ -540,6 +566,112 @@ dict(slug='athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11',
                "The A's Roster and Depth Chart"),
               ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
                'Sutter Health Park: MLB in a Triple-A Yard')]),
+
+# ------------------------------------------- Royals 4, Athletics 3, Tue 18 August 2026
+dict(slug='athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18',
+     section='Athletics', tag='Athletics', hub='Athletics',
+     title="Royals 4, A's 3: A Two Run Ninth Inning Lead, Gone in Ten Minutes",
+     h1="Royals 4, Athletics 3: They Carried a Two Run Lead Into the Ninth in Kansas City "
+        "and Gave It Back on a Catcher Interference, Two Singles and a Walk Off",
+     dek="Eight and a third innings of actual competent baseball, and then a ninth inning "
+         "that had everything: a catcher reaching into a swing, a bases loaded walk, and "
+         "Bobby Witt Jr. ending it in front of twelve thousand people.",
+     desc="Royals 4, Athletics 3 at Kauffman Stadium: the A's led 3-1 into the ninth, "
+          "Hogan Harris gave up three, Bobby Witt Jr. walked it off, and the A's fall to "
+          "49-77.",
+     date='2026-08-18',
+     card=('athletics', "Royals 4, A's 3", 'A two run ninth inning lead handed back in Kansas City'),
+     body=[
+      "Three to one going to the bottom of the ninth in Kansas City. Two outs from a win. "
+      "And the Athletics found a way to lose it that I genuinely have not seen a team find "
+      "in years, because it did not start with a home run or a bad pitch or a rocket down "
+      "the line. It started with a catcher sticking his glove into somebody&rsquo;s swing.",
+
+      "Four to three. Twelve thousand and nine people in the building. Forty nine and "
+      "seventy seven.",
+
+      ROYALS_4_3_LINE,
+
+      "<b>The ninth inning, slowly, because it deserves to be typed out slowly.</b> Vinnie "
+      "Pasquantino flies out. One away, two to go, three to one. Then Salvador Perez comes "
+      "up and reaches first base because Jonah Heim committed catcher interference. Not a "
+      "hit. Not a walk. A catcher put his mitt where a bat was going. In the ninth inning. "
+      "Of a game they were winning.",
+
+      "Michael Massey singles. Carter Jensen walks to load them up. And Tyler Tolbert, who "
+      "is on that roster for his legs, hits a ground ball through the left side and two runs "
+      "score and the game is tied. Isaac Collins lines out for the second out, which for "
+      "about ninety seconds felt like it might matter, and then Bobby Witt Jr. does what "
+      "Bobby Witt Jr. does and drops a single into left field to end it.",
+
+      "Hogan Harris: two thirds of an inning, three hits, a walk, three runs. That is the "
+      "whole loss. Somebody hand him the ball with a two run lead and six outs of margin and "
+      "by the time he left the ballpark was screaming.",
+
+      ROYALS_4_3_BOX,
+
+      "<b>And the maddening thing is that they pitched well for eight innings.</b> Brady "
+      "Basso gave them two and a third of nothing. Jack Perkins came in and threw three and "
+      "two thirds with one hit and four strikeouts, which is the best relief outing this "
+      "team has gotten in weeks. Luis Medina walked three men in an inning and a third and "
+      "somehow got out of it. Six innings of shutout relief work, thrown away in ten "
+      "minutes by the seventh arm out of the pen.",
+
+      "<b>The offence, which is the other half of this.</b> Five hits. Five, in nine "
+      "innings, against a Kansas City staff that is not scaring anybody. Jeff McNeil had two "
+      "of them and an RBI. Tommy White singled in a run in the first, and that same first "
+      "inning ended with McNeil thrown out at the plate from left field, which set the tone "
+      "for a night where nothing was ever going to be easy. The sixth inning gave them two "
+      "more, one on a McNeil single and one on a Max Muncy walk with the bases loaded, and "
+      "that was the last thing this lineup did all night.",
+
+      "Lawrence Butler is hitting .211. Max Muncy is hitting .213. Jonah Heim is hitting "
+      ".213 and just cost them a game with his glove. Darell Hernaiz went nought for four. "
+      "The whole roster is on the {depth}, and it does not read any better than it plays.",
+
+      "<b>Now the part I actually cannot get past.</b> Twelve thousand and nine people were "
+      "at that game, and every one of them was in Missouri. Not one person in Oakland was "
+      "watching a home game, because there is no home. This franchise plays its home "
+      "schedule in a fourteen thousand seat minor league park in West Sacramento while a "
+      "dome goes up on the Las Vegas Strip, and it plays its road schedule as a team with no "
+      "city name on the front of anything that means a thing to anybody. {sutter} is the "
+      "factual version of that arrangement. {villains} is how it feels.",
+
+      "I am not going to pretend to be sad about a walk off loss for this organisation. I am "
+      "not. The people who ran it out of Oakland earned every empty seat, every four to "
+      "three, every ninth inning like that one. But there are still ballplayers on that "
+      "roster who did nothing wrong, who threw eight good innings on a Tuesday in Kansas "
+      "City, and they are the ones who have to fly to the next city and do it again for "
+      "nobody. {legacy} is the column about what got taken here, and nights like this are "
+      "the receipt.",
+
+      "Forty nine and seventy seven. The road they are on ends in {timeline}, and until then "
+      "this is what it looks like: good pitching, no offence, a ninth inning that finds a "
+      "brand new way to end, and a crowd that belongs to somebody else. The rest is on the "
+      "{hub}.",
+
+      "For what it is worth, {giants} did not exactly cover themselves in glory either. One "
+      "run in Cleveland. It was a rough night to be a baseball fan in this part of the "
+      "world, or in whatever part of the world this team is supposed to belong to now.",
+     ],
+     links={'depth': ('athletics-2026-roster-depth-chart.html', 'depth chart page'),
+            'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
+                       'Sutter Health Park'),
+            'villains': ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains'),
+            'legacy': ('oakland-athletics-legacy-what-the-bay-area-lost.html',
+                       'What the Bay Area lost'),
+            'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
+                         'a dome on the Las Vegas Strip in 2028'),
+            'giants': ('giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html',
+                       'the Giants'),
+            'hub': ("../athletics.html", "A's hub")},
+     related=[('athletics-rays-12-4-six-homers-taylor-walls-nick-martinez-august-11.html',
+               'Athletics', "Rays 12, A's 4: Six Home Runs, Two of Them From a .216 Hitter"),
+              ('athletics-2026-roster-depth-chart.html', 'Athletics',
+               "The A's Roster and Depth Chart"),
+              ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
+               'Sutter Health Park: MLB in a Triple-A Yard')]),
+
 ]
 
 

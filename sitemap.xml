@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/mlb.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-tigers-5-2-devers-24th-homer-adames-august-7.jpg</image:loc></image:image>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/giants.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dynasty-even-year-magic.jpg</image:loc></image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/athletics.html</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-sacramento-bay-area-villains.jpg</image:loc></image:image>
@@ -183,6 +183,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -202,6 +209,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/cal-basketball-schedule-2026-27.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</loc>
