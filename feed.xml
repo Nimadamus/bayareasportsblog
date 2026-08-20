@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 19 Aug 2026 09:35:38 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 22:45:32 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Royals 9, Athletics 7: A Seven Run Eighth Buried Them</title>
+    <link>https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</guid>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Royals 9, Athletics 7: the A&#39;s led 5-1 in the eighth in Kansas City and the Royals scored seven. Second blown late lead in two nights. 49-78.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-royals-9-7-seven-run-eighth-august-19.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Giants 1, Guardians 0: One Run Was Enough for Once</title>
+    <link>https://bayareasportsblog.com/articles/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.html</guid>
+    <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Giants 1, Guardians 0: Houser and Dylan Smith threw seven scoreless in Cleveland, a Bericoto ground ball scored the only run, and Messick struck out ten in a loss.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Royals 4, A&#39;s 3: A Two Run Ninth Inning Lead, Gone in Ten Minutes</title>
     <link>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</link>
@@ -50,7 +68,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</guid>
     <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     <category>Giants</category>
-    <description>Guardians 8, Giants 1 at Progressive Field: Bryce Eldridge homered for his 14th, Jo Adell drove in six, Carson Whisenhunt gave up nine hits in four innings, and the Giants fell to 51-74.</description>
+    <description>Guardians 8, Giants 1 in Cleveland: Bryce Eldridge homered for his 14th, Jo Adell drove in six, and one run was the entire Giants offense. They are 51-74.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -349,24 +367,6 @@
     <category>Athletics</category>
     <description>The Athletics relocation timeline: leaving Oakland, the West Sacramento years, and the $2 billion Las Vegas ballpark tracking toward a 2028 opening.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-oakland-sacramento-las-vegas-timeline.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Every Bay Area Championship: The Complete List, Team by Team</title>
-    <link>https://bayareasportsblog.com/articles/bay-area-championships-complete-list-by-team.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-area-championships-complete-list-by-team.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Bay Area History</category>
-    <description>A complete reference list of Bay Area championships: 49ers, Warriors, Athletics, Giants, Raiders, Earthquakes and Sharks, with every title year.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-championships-complete-list-by-team.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Every Bay Area Franchise Move: The Teams That Left and Nearly Left</title>
-    <link>https://bayareasportsblog.com/articles/bay-area-franchise-relocations-teams-that-left.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-area-franchise-relocations-teams-that-left.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Bay Area History</category>
-    <description>A reference list of every Bay Area sports franchise relocation: the Raiders twice, the Athletics, the Warriors, the 49ers, and the moves that were blocked.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-franchise-relocations-teams-that-left.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

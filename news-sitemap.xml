@@ -2,28 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-brandon-aiyuk-locker-removed-august-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>They Took Brandon Aiyuk's Locker Out. That Is How You Know It Is Over.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>McCaffrey Is Not Practicing, and It Might Not Be About a Muscle</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</loc>
     <news:news>
       <news:publication>
@@ -32,6 +10,17 @@
       </news:publication>
       <news:publication_date>2026-08-18</news:publication_date>
       <news:title>Royals 4, A's 3: A Two Run Ninth Inning Lead, Gone in Ten Minutes</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Royals 9, Athletics 7: A Seven Run Eighth Buried Them</news:title>
     </news:news>
   </url>
   <url>
@@ -68,6 +57,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-19</news:publication_date>
+      <news:title>Giants 1, Guardians 0: One Run Was Enough for Once</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</loc>
     <news:news>
       <news:publication>
@@ -76,17 +76,6 @@
       </news:publication>
       <news:publication_date>2026-08-18</news:publication_date>
       <news:title>Guardians 8, Giants 1: Eldridge Homered, Nothing Else Happened</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-junior-high-performance-posey-confirms-return-2027.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17</news:publication_date>
-      <news:title>Vitello Called It Junior High Baseball. Posey Says He Is Back.</news:title>
     </news:news>
   </url>
   <url>

@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/mlb.html</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-tigers-5-2-devers-24th-homer-adames-august-7.jpg</image:loc></image:image>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/giants.html</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dynasty-even-year-magic.jpg</image:loc></image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/athletics.html</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-sacramento-bay-area-villains.jpg</image:loc></image:image>
@@ -181,6 +181,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-royals-9-7-seven-run-eighth-august-19.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.html</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-guardians-1-0-houser-dylan-smith-shutout-august-19.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html</loc>
