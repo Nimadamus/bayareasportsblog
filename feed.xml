@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 20 Aug 2026 22:45:32 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 23:11:49 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 41, Chargers 17: The Best Night of the Summer</title>
+    <link>https://bayareasportsblog.com/articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html</guid>
+    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers 41, Chargers 17 at SoFi: Jacob Cowing took a punt 83 yards, the run game piled up 146, and San Francisco led Harbaugh&#39;s Chargers 20 to 3 at the half.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Royals 9, Athletics 7: A Seven Run Eighth Buried Them</title>
     <link>https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</link>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>A position-by-position look at the Athletics roster: the young core, the rotation, and which players are likely to still be here in 2028.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-2026-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Oakland to Sacramento to Las Vegas: The Whole Timeline</title>
-    <link>https://bayareasportsblog.com/articles/athletics-oakland-sacramento-las-vegas-timeline.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-oakland-sacramento-las-vegas-timeline.html</guid>
-    <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>The Athletics relocation timeline: leaving Oakland, the West Sacramento years, and the $2 billion Las Vegas ballpark tracking toward a 2028 opening.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-oakland-sacramento-las-vegas-timeline.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

@@ -255,7 +255,8 @@ dict(slug='49ers-2026-schedule-season-hub',
       "<b>Before any of it: the preseason closes at the Chargers.</b> Thursday 20 August "
       "at SoFi, seven o'clock Pacific, against Jim Harbaugh, with a joint practice down "
       "in El Segundo two days earlier. It counts for nothing and {harbaugh} explains why "
-      "a lot of us will watch every snap of it anyway.",
+      "a lot of us will watch every snap of it anyway. It went about as well as a "
+      "meaningless August night can go: {sofi}.",
       "<b>Week 1, 10 September: at the Rams, in Melbourne.</b> The NFL's first regular "
       "season game in Melbourne, at the Cricket Ground, kicking off at 5:35pm Pacific on "
       "a Thursday. A divisional road game on the other side of the planet to start the "
@@ -294,6 +295,8 @@ dict(slug='49ers-2026-schedule-season-hub',
      links={'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'our Melbourne piece'),
             'harbaugh': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
                          'the Harbaugh reunion'),
+            'sofi': ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html',
+                     '49ers 41, Chargers 17 at SoFi'),
             'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html', 'Brock Purdy'),
             'preview': ('49ers-2026-season-preview-roster-schedule-questions.html', 'the preview'),
             'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
@@ -1111,6 +1114,175 @@ dict(slug='49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery',
               ('49ers-2026-schedule-season-hub.html', '49ers', 'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers',
                'The 2026 49ers Roster and Depth Chart, Position by Position')]),
+
+# ------------------------------------------------- 49ers 41, Chargers 17, preseason wk 2
+dict(slug='49ers-chargers-41-17-cowing-punt-return-preseason-august-20',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers 41, Chargers 17: The Best Night of the Summer',
+     h1="49ers 41, Chargers 17: Jacob Cowing Went Eighty Three Yards Down the SoFi Sideline and the Whole Night Turned Into Something",
+     dek="Forty one points on Jim Harbaugh's defence in his own building. Three hundred "
+         "and twenty one yards. A hundred and forty six on the ground. And a receiver who "
+         "lost an entire year to a hamstring taking a punt to the house. I know it is "
+         "August. I do not care.",
+     desc="49ers 41, Chargers 17 at SoFi: Jacob Cowing took a punt 83 yards, the run game "
+          "piled up 146, and San Francisco led Harbaugh's Chargers 20 to 3 at the half.",
+     date='2026-08-20',
+     card=('49ers', '41 to 17 at SoFi', 'Cowing goes 83 yards and the depth shows up'),
+     body=[
+      "Forty one to seventeen. In his building. On his defence. On a Thursday night in "
+      "August in front of sixty two thousand people who came out to watch Jim Harbaugh be "
+      "Jim Harbaugh again, and who instead watched the San Francisco 49ers hang forty one "
+      "on the Los Angeles Chargers and make it look casual.",
+      "I spent {preview} telling you Thursday was going to be strange and that none of it "
+      "would mean anything. I was half right. It was strange. And then somewhere around "
+      "the middle of the second quarter it stopped being a preseason game to me and "
+      "started being the most encouraging three hours this franchise has produced since "
+      "January, and I have decided I am not going to apologise for that.",
+      '<div class="reftable" role="region" tabindex="0" aria-label="San Francisco 49ers at Los Angeles Chargers, Thursday 20 August 2026, SoFi Stadium, 62,156">\n'
+      '<table>\n'
+      '<caption>San Francisco 49ers at Los Angeles Chargers, Thursday 20 August 2026, SoFi Stadium, 62,156</caption>\n'
+      '<thead><tr><th>Team</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">Final</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>San Francisco</b></td><td class="num">0</td><td class="num">20</td><td class="num">7</td><td class="num">14</td><td class="num"><b>41</b></td></tr>\n'
+      '<tr><td>Los Angeles</td><td class="num">0</td><td class="num">3</td><td class="num">6</td><td class="num">8</td><td class="num"><b>17</b></td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+      "<b>Start with the play, because everybody is going to be talking about the play.</b> "
+      "Second quarter. Chargers punt. Jacob Cowing fields it, and instead of the little "
+      "four yard fair catch shuffle we have watched from this return unit for two years, "
+      "he takes one step, finds a crease that should not have been there, and he is gone. "
+      "Eighty three yards. Nobody laid a hand on him after the first fifteen.",
+      "You have to understand what that is for him. Cowing lost an entire season to a "
+      "hamstring. All of it. He came in with the kind of speed that makes coaches talk in "
+      "italics, and then he spent a year on a table instead of a field, and if you have "
+      "followed this roster at all you know that is usually where the story quietly ends. "
+      "Instead he stood there afterwards and called it a special moment, and Kyle "
+      "Shanahan, who compliments almost nothing in August, called it a big time play.",
+      "Eighty three yards, from a man who did not play a snap last year. That is the whole "
+      "reason preseason exists.",
+      "<b>Now the part I could not stop thinking about, which is the run game.</b> A "
+      "hundred and forty six rushing yards. Against a Harbaugh front. With Christian "
+      "McCaffrey standing on the sideline in a hat after taking warmups and getting shut "
+      "down with tightness, which after {rbroom} is exactly the sentence that ruins my "
+      "week.",
+      "It did not matter. Sincere McCormick took six carries for fifty three yards and "
+      "walked in from seven. Khalil Herbert punched one in from a yard out. Adrian "
+      "Martinez, the quarterback, ran nine yards for another one. Three different men, "
+      "three different rushing touchdowns, on a night when the back who is supposed to do "
+      "all of that was in street clothes.",
+      '<div class="reftable" role="region" tabindex="0" aria-label="Team statistics, 49ers at Chargers, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Team statistics, 49ers at Chargers, 20 August 2026</caption>\n'
+      '<thead><tr><th>&nbsp;</th><th class="num">San Francisco</th><th class="num">Los Angeles</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td>Total yards</td><td class="num"><b>321</b></td><td class="num">229</td></tr>\n'
+      '<tr><td>Rushing yards</td><td class="num"><b>146</b></td><td class="num">68</td></tr>\n'
+      '<tr><td>Passing yards</td><td class="num"><b>175</b></td><td class="num">161</td></tr>\n'
+      '<tr><td>Time of possession</td><td class="num"><b>32:56</b></td><td class="num">27:04</td></tr>\n'
+      '<tr><td>Penalties</td><td class="num">&nbsp;</td><td class="num">7</td></tr>\n'
+      '<tr><td>Punts</td><td class="num">&nbsp;</td><td class="num">8</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+      "Sixty eight rushing yards for them. A hundred and forty six for us. That is not a "
+      "preseason fluke. That is one offensive line getting movement and the other one not "
+      "getting it, for three straight hours, through four different sets of bodies.",
+      "<b>Brock Purdy played one drive and I have nothing to complain about.</b> Four of "
+      "six for twenty nine yards, moved the ball, the drive stalled, they punted, he put "
+      "his coat on. That is the correct amount of Brock Purdy in a game that does not "
+      "count, and if you were hoping for more you have not been paying attention to how "
+      "Shanahan handles his quarterback in August. Mac Jones came in and went six of "
+      "thirteen for eighty nine, which is fine. Nobody signed Mac Jones to be interesting.",
+      "Across the field, Justin Herbert took the opening series, threw one completion for "
+      "nine yards to Charlie Kolar, and went three and out. That was his night. Trey "
+      "Lance, who some of you still have complicated feelings about, went ten of sixteen "
+      "for seventy three, which is a lot of completions for not very many yards and tells "
+      "you roughly everything about how that offence looked.",
+      '<div class="reftable" role="region" tabindex="0" aria-label="Quarterbacks, 49ers at Chargers, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Quarterbacks, 49ers at Chargers, 20 August 2026</caption>\n'
+      '<thead><tr><th>Quarterback</th><th class="num">Comp</th><th class="num">Att</th><th class="num">Yds</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>Brock Purdy, SF</b></td><td class="num">4</td><td class="num">6</td><td class="num">29</td></tr>\n'
+      '<tr><td>Mac Jones, SF</td><td class="num">6</td><td class="num">13</td><td class="num">89</td></tr>\n'
+      '<tr><td>Justin Herbert, LAC</td><td class="num">1</td><td class="num">2</td><td class="num">9</td></tr>\n'
+      '<tr><td>Trey Lance, LAC</td><td class="num">10</td><td class="num">16</td><td class="num">73</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+      "<b>De&rsquo;Zhaun Stribling had four catches for forty six yards and most of them "
+      "moved the chains.</b> I have been loud about this kid since camp opened and I am "
+      "going to keep being loud about him. Everybody spent draft weekend telling us he was "
+      "a reach, and {stribling} has been the most reliable third down target on this "
+      "roster for a month. Four catches, several of them on third down, in August, in a "
+      "stadium that is not his.",
+      "KhaDarel Hodge matched him with four for forty six, which is a nice thing to be "
+      "able to say about {hodge} this soon after he signed. Jordan Watkins caught three "
+      "for forty one and took one in from seventeen. That is a receiver room where the "
+      "front half is hurt and the back half went out and produced anyway.",
+      "<b>The special teams unit had the best night of anybody.</b> Beyond the punt "
+      "return, Nick Martin knocked the ball loose on a kickoff return in the fourth "
+      "quarter and Hodge fell on it. Eddy Pineiro hit from forty eight and forty five and "
+      "did not miss an extra point in five tries. If you have watched this franchise lose "
+      "games in January because of a kicker and a return unit, and you have, then you "
+      "understand why a quiet, clean, occasionally violent night from that phase of the "
+      "team is worth more to me than any throw Purdy could have made.",
+      "<b>Now the honest column, because I am not going to pretend it was perfect.</b> "
+      "Adrian Martinez threw a ball into the flat in the third quarter and Junior Colson "
+      "picked it and walked sixteen yards into the end zone untouched. Untouched. Nobody "
+      "within five yards of him. That is the kind of play that gets a young quarterback "
+      "cut in about ten days, and it was the only genuinely bad thing the offence did all "
+      "night. Martinez then went out and scored twice more, once with his legs and once on "
+      "the throw to Watkins, which is either resilience or a complete absence of memory, "
+      "and at his age those are the same thing.",
+      "Credit where it is due, too, because Colson had lost his own entire season to a "
+      "shoulder and that was his first live football in a year. Two men on that field came "
+      "back from a lost year and both of them scored. Say what you want about August. That "
+      "is a good night for football.",
+      "<b>The Chargers beat themselves in a way that should worry them.</b> Seven "
+      "penalties, four of them on offence, and the flags kept landing on the plays that "
+      "actually worked. An eighteen yard throw from Lance to Oronde Gadsden came back on "
+      "an illegal shift. A Lance run came back. A twenty one yard run from Keaton Mitchell "
+      "came back on an illegal formation. A Kimani Vidal run came back on another shift. "
+      "Eight punts. Their left tackle went out in the second quarter and never came back. "
+      "Harbaugh teams do not usually look like that, and if you enjoyed watching a "
+      "Harbaugh sideline boil over about procedural penalties for three quarters, well, so "
+      "did I, and I should probably examine that at some point.",
+      "<b>So what does any of it mean.</b> Nothing, technically. It is a preseason game. "
+      "The starters played about a dozen snaps between them. McCaffrey did not dress, "
+      "George Kittle is still working his way back from the Achilles, Nick Bosa is being "
+      "handled like porcelain, and most of the first team defence watched this in a "
+      "headset.",
+      "Here is what I think it means anyway. This roster is deep in the exact places it "
+      "has not been deep in years. The third and fourth running backs gained yards against "
+      "real defenders. The fifth and sixth receivers caught the ball on third down. The "
+      "return game, which has been a genuine liability, produced eighty three yards on one "
+      "play. Every one of those is a September problem being solved in August, and for a "
+      "team that has spent two seasons getting dismantled by its own injury report, depth "
+      "is not a luxury item. It is the whole season.",
+      "One and one in the preseason, which means nothing, and the full picture of who is "
+      "healthy and who is not is on the {depth}. Week 1 is at the Rams in Melbourne on the "
+      "tenth of September, which is still the strangest sentence in {melbourne}, and the "
+      "whole year is laid out in the {sched}. Everything else lives on the {hub}.",
+      "But for one Thursday night in Los Angeles, in a building belonging to the coach who "
+      "used to be ours, the 49ers were faster, tougher, better coached and considerably "
+      "more fun than the other team, and a kid who spent a year on a training table ran a "
+      "punt eighty three yards. Enjoy it. We do not get many of these in August.",
+     ],
+     links={'preview': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
+                        'all of last week'),
+            'rbroom': ('49ers-running-back-room-gutted-mccaffrey-tightness-bosa-soreness-kittle.html',
+                       'the state of the running back room'),
+            'stribling': ('49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html',
+                          'the kid everybody called a reach'),
+            'hodge': ('49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html',
+                      'the veteran they brought in'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart page'),
+            'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html',
+                          'the Australia trip'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'season schedule hub'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html', '49ers',
+               'Harbaugh Comes Back Thursday, and Kittle Finally Sounds Like Himself'),
+              ('49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html', '49ers',
+               'De' + "'" + 'Zhaun Stribling Was Not a Reach and the Grades Were Wrong'),
+              ('49ers-2026-schedule-season-hub.html', '49ers',
+               'The 2026 49ers Schedule, Week by Week')]),
 ]
 
 
