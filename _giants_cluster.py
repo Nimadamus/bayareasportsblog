@@ -1428,6 +1428,122 @@ dict(slug='giants-guardians-8-1-bryce-eldridge-14th-homer-august-18',
               ('giants-2026-season-hub-results-coverage.html', 'Giants',
                'The 2026 Giants Season, Game by Game')]),
 
+dict(slug='giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Guardians 5, Giants 2: Eleven Strikeouts, Series Won Anyway',
+     h1="Gavin Williams Struck Out Eleven, the Giants Lost the Finale, and They Still Left Cleveland Having Won the Series",
+     dek="Three run first, a Willy Adames homer that travelled four hundred and eighteen "
+         "feet, five hits total, and a road series won by a team that is twenty four and a "
+         "half games out. Both of those things are true.",
+     desc="Guardians 5, Giants 2: Gavin Williams struck out eleven, Willy Adames hit a 418 "
+          "foot two run homer, and San Francisco still left Cleveland with the series.",
+     date='2026-08-20',
+     card=('giants', 'Series won, finale lost', 'Adames goes 418 feet, Williams fans eleven'),
+     body=[
+      "You take the series. That is the honest headline here, and it is the one nobody "
+      "around here is in the mood to write, because taking a road series in the third week "
+      "of August at fifty two and seventy five is like winning an argument you already "
+      "lost in April. But they did take it. Eight to one on Tuesday, one to nothing on "
+      "Wednesday behind a shutout that had no business happening, and then Thursday the "
+      "bill came due in the first inning and never got any smaller.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="San Francisco Giants at Cleveland Guardians, Thursday 20 August 2026, Progressive Field, 24,448">\n'
+      '<table>\n'
+      '<caption>San Francisco Giants at Cleveland Guardians, Thursday 20 August 2026, Progressive Field, 24,448</caption>\n'
+      '<thead><tr><th>Team</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">5</th><th class="num">6</th><th class="num">7</th><th class="num">8</th><th class="num">9</th><th class="num">R</th><th class="num">H</th><th class="num">E</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td>San Francisco</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num"><b>2</b></td><td class="num">5</td><td class="num">2</td></tr>\n'
+      '<tr><td><b>Cleveland</b></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">0</td><td class="num">1</td><td class="num">X</td><td class="num"><b>5</b></td><td class="num">9</td><td class="num">0</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>The first inning was the game.</b> Landen Roupp got three outs eventually and it "
+      "cost him three runs to do it, on a Jose Ramirez single, a Nolan Lowe sacrifice fly "
+      "and a Patrick Bailey base hit. Three nothing before the Giants had swung at "
+      "anything that mattered. Against a pitcher having the night Gavin Williams was about "
+      "to have, that is not a deficit, that is a verdict.",
+
+      "<b>Eleven strikeouts in five and two thirds.</b> Williams struck out eleven of the "
+      "seventeen outs he recorded. Read that again. San Francisco put five hits on the "
+      "board all night and four of them came off him, and one of those four went four "
+      "hundred and eighteen feet to right center in the fourth with Rafael Devers standing "
+      "on base, which is the only genuinely fun thing that happened.",
+
+      "<b>Willy Adames is doing this again.</b> Two run homer, no doubt about it off the "
+      "bat, and it accounted for the entire offensive output. That is the second straight "
+      "series where he has been the only reliable source of hard contact in the middle of "
+      "this lineup. It is also the second straight series where being the only reliable "
+      "source of hard contact has been worth exactly one loss and one win.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Pitching lines, Giants at Guardians, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Pitching lines, Giants at Guardians, 20 August 2026</caption>\n'
+      '<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">K</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>Landen Roupp, SF (L, 7 and 13)</b></td><td class="num">5.1</td><td class="num">5</td><td class="num">4</td><td class="num">3</td><td class="num">4</td><td class="num">2</td></tr>\n'
+      '<tr><td>Sam Hentges, SF</td><td class="num">0.2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>\n'
+      '<tr><td>Carson Seymour, SF</td><td class="num">1.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>\n'
+      '<tr><td>JT Brubaker, SF</td><td class="num">1.0</td><td class="num">2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr>\n'
+      '<tr><td>Gavin Williams, CLE (W, 12 and 7)</td><td class="num">5.2</td><td class="num">4</td><td class="num">2</td><td class="num">2</td><td class="num">3</td><td class="num">11</td></tr>\n'
+      '<tr><td>Cade Smith, CLE (S, 32)</td><td class="num">1.0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">1</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>Roupp is now seven and thirteen.</b> Four walks in five and a third is the part "
+      "that should bother you more than the four runs, because only three of them were "
+      "earned and the two errors behind him did not help. He has been serviceable for "
+      "long stretches of a season nobody is watching, and he has a record that makes him "
+      "look like a disaster, which is roughly the experience of every Giants starter this "
+      "year.",
+
+      "<b>The bullpen was fine, again.</b> Hentges, Carson Seymour and JT Brubaker covered "
+      "the last two and two thirds and gave up one unearned run between them. The relief "
+      "corps has quietly stopped being the problem, which matters, because for about six "
+      "weeks in the middle of the summer it was the entire problem. We got into that in "
+      "{rockies}, back when they were handing away thirteen run nights.",
+
+      "<b>Where the season actually is.</b> Fifty two and seventy five. Last in the "
+      "National League West. Twenty four and a half games behind the Dodgers, which is not "
+      "a gap, it is a different sport being played in the same division. There are thirty "
+      "five games left and the only real question is which of the young players get to "
+      "spend September finding out whether they can do this.",
+
+      "<b>What is worth watching from here.</b> Bryce Eldridge had a hit and is still the "
+      "reason to turn the thing on, and we made that argument at length in {eldridge}. "
+      "Devers scored the only run he was involved in. Josuar Gonzalez is eighteen and "
+      "playing shortstop somewhere in this system, and {josuar} is the piece on that. The "
+      "list of things to care about in a fifty two and seventy five season is short, but "
+      "it is not empty, and it is all on {season}.",
+
+      "<b>And the honest part.</b> Winning two of three in Cleveland in August is a nice "
+      "night for the people who still travel to see this team and means nothing to the "
+      "standings. What it does tell you is that the pitching, which was supposed to be the "
+      "one thing carrying this roster, is still functional: one run allowed on Wednesday, "
+      "four on Thursday with only three earned. The offense is the thing that has been "
+      "broken since May, and {rebuild} covers exactly how long the repair is going to "
+      "take.",
+
+      "Across the way, it was worse. The A's got swept in four in Kansas City, and "
+      "{athletics} is the receipt on that one. Two teams from this corner of the country, "
+      "both of them out of it in August, one of them not even playing here any more. The "
+      "rest of it lives on the {hub}.",
+     ],
+     links={'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
+                         'the Eldridge column'),
+            'rockies': ('giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html',
+                        'the Colorado wreck'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'where the rebuild actually stands'),
+            'josuar': ('josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html',
+                       'an eighteen year old shortstop'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'the season hub'),
+            'athletics': ('athletics-royals-6-2-four-game-sweep-witt-gage-jump-august-20.html',
+                          'the sweep in Kansas City'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-guardians-1-0-houser-dylan-smith-shutout-august-19.html', 'Giants',
+               'Giants 1, Guardians 0: A Shutout Nobody Saw Coming'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants',
+               'The 2026 Giants Season, Game by Game'),
+              ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
+               'Where the Rebuild Actually Stands')]),
 ]
 
 

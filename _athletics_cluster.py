@@ -672,6 +672,115 @@ dict(slug='athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18',
               ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
                'Sutter Health Park: MLB in a Triple-A Yard')]),
 
+dict(slug='athletics-royals-6-2-four-game-sweep-witt-gage-jump-august-20',
+     section='Athletics', tag='Athletics', hub='Athletics',
+     title="Royals 6, A's 2: Swept in Four, and Seventeen of Twenty One",
+     h1="The A's Got Swept Four Straight in Kansas City, Have Now Lost Seventeen of Twenty One, and Sit at Forty Nine and Seventy Nine",
+     dek="Bobby Witt Jr. homered four hundred and two feet in the first inning and scored "
+         "three times. Gage Jump gave up five in four. Eleven thousand people watched it. "
+         "This is what the last six weeks look like.",
+     desc="Royals 6, Athletics 2: Bobby Witt Jr. homered and scored three, Gage Jump gave "
+          "up five runs in four innings, and Kansas City finished off a four game sweep.",
+     date='2026-08-20',
+     card=('athletics', 'Swept in four', "Witt homers, and the A's lose 17 of 21"),
+     body=[
+      "Four games in Kansas City. Four losses. The first one they gave back in the ninth, "
+      "the second one they gave back in the eighth, and by Thursday afternoon there was "
+      "nothing left to give back, so they just lost it in the first inning like a team "
+      "that has run out of ways to make it interesting. Six to two. Eleven thousand eight "
+      "hundred and sixty seven people in the building. Seventeen losses in twenty one "
+      "games.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Athletics at Kansas City Royals, Thursday 20 August 2026, Kauffman Stadium, 11,867">\n'
+      '<table>\n'
+      '<caption>Athletics at Kansas City Royals, Thursday 20 August 2026, Kauffman Stadium, 11,867</caption>\n'
+      '<thead><tr><th>Team</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">5</th><th class="num">6</th><th class="num">7</th><th class="num">8</th><th class="num">9</th><th class="num">R</th><th class="num">H</th><th class="num">E</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td>Athletics</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num"><b>2</b></td><td class="num">8</td><td class="num">2</td></tr>\n'
+      '<tr><td><b>Kansas City</b></td><td class="num">1</td><td class="num">0</td><td class="num">2</td><td class="num">2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">X</td><td class="num"><b>6</b></td><td class="num">12</td><td class="num">0</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>Bobby Witt Jr. again.</b> Four hundred and two feet to left center in the first "
+      "inning, and by the end of the afternoon he had scored three of the six. He walked "
+      "off the A's on Tuesday. He beat them on Thursday. There is a version of this "
+      "franchise where a player like that comes up through the system and stays, and every "
+      "person reading this can name the last three times that did not happen here.",
+
+      "<b>Gage Jump could not get out of the fifth.</b> Four innings, eight hits, five "
+      "runs, three walks, three strikeouts, and the loss that drops him to five and "
+      "eight. Salvador Perez and Michael Massey had three hits each. Twelve hits for "
+      "Kansas City and exactly one of them left the yard, which is the tell: this was "
+      "not a team getting beaten up, it was a team getting picked apart single by "
+      "single.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Pitching lines, Athletics at Royals, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Pitching lines, Athletics at Royals, 20 August 2026</caption>\n'
+      '<thead><tr><th>Pitcher</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">K</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>Gage Jump, ATH (L, 5 and 8)</b></td><td class="num">4.0</td><td class="num">8</td><td class="num">5</td><td class="num">5</td><td class="num">3</td><td class="num">3</td></tr>\n'
+      '<tr><td>T. Rashi, ATH</td><td class="num">2.0</td><td class="num">3</td><td class="num">1</td><td class="num">1</td><td class="num">2</td><td class="num">1</td></tr>\n'
+      '<tr><td>S. Blewett, ATH</td><td class="num">2.0</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>\n'
+      '<tr><td>R. Dobnak, KC</td><td class="num">4.0</td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">4</td><td class="num">4</td></tr>\n'
+      '<tr><td>C. Thomas, KC (W, 1 and 1)</td><td class="num">1.2</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>Here is the genuinely infuriating part.</b> They had Dobnak on the ropes for "
+      "four innings and could not touch him. Six hits and four walks off a starter who "
+      "gave up zero runs. Ten men left on base. When Kansas City finally went to the "
+      "bullpen and Duran walked three men in a third of an inning, the A's got two, "
+      "and then Thomas came in and put out the fire for his first big league win. "
+      "Ten stranded is not bad luck twice. It is a lineup that cannot land a punch.",
+
+      "<b>Who actually hit.</b> Lawrence Butler was two for three and looked like the "
+      "hitter he was in the first half. Carlos Cortes had two. Serven and Walton drove "
+      "in the two runs. Zack Gelof went hitless in four, Jeff McNeil hitless in five, "
+      "and if you want the shape of this stretch in one line, it is two men in the "
+      "middle of the order walking back to the dugout nine times between them.",
+
+      "<b>The sweep in context.</b> Kansas City had not swept a four game series all "
+      "season. They have now won five straight. This is a fifty five and seventy four "
+      "team, and they treated the A's the way good teams treat a club that has quit, which "
+      "is worth saying plainly because that is what the last three weeks look like from "
+      "outside: {witt} on Tuesday, {seven} on Wednesday, this on Thursday.",
+
+      "<b>Forty nine and seventy nine.</b> Seventeen losses in twenty one games. Thirty "
+      "four to play. There is no mathematical anything left to discuss and there has not "
+      "been since roughly the fourth of July. What there is, still, is a major league team "
+      "playing home games in a fourteen thousand seat minor league park in West "
+      "Sacramento, which we laid out in full at {sutter}, while a dome goes up on the Las "
+      "Vegas Strip on the schedule set out in {timeline}.",
+
+      "<b>And no, this does not get easier to watch.</b> The players did not do this. "
+      "Butler did not do this, Gelof did not do this, and the young lefty "
+      "who gave up five in four innings on Thursday certainly did not. But the thing that "
+      "happens to a roster with no reason to be anywhere in particular is exactly what has "
+      "happened here since the middle of July, and if you want the full argument on whose "
+      "fault that is, {villains} has not aged a day.",
+
+      "For what it is worth, the Giants lost as well, five to two in Cleveland, though "
+      "they at least took the series. {giants} has that one. It was another bad Thursday "
+      "for baseball around here, or wherever it is this team is supposed to belong now. "
+      "The rest is on the {hub}.",
+     ],
+     links={'witt': ('athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.html',
+                     'the ninth inning on Tuesday'),
+            'seven': ('athletics-royals-9-7-seven-run-eighth-august-19.html',
+                      'the seven run eighth on Wednesday'),
+            'sutter': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
+                       'Sutter Health Park'),
+            'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
+                         'the Las Vegas timeline'),
+            'villains': ('athletics-sacramento-bay-area-villains.html', 'Bay Area Villains'),
+            'giants': ('giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.html',
+                       'the Giants'),
+            'hub': ("../athletics.html", "A's hub")},
+     related=[('athletics-royals-9-7-seven-run-eighth-august-19.html', 'Athletics',
+               "Royals 9, A's 7: A Seven Run Eighth"),
+              ('athletics-sacramento-bay-area-villains.html', 'Athletics',
+               'The Bay Area Villains'),
+              ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
+               'Sutter Health Park: MLB in a Triple-A Yard')]),
 ]
 
 

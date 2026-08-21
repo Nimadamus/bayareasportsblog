@@ -13,6 +13,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-royals-6-2-four-game-sweep-witt-gage-jump-august-20.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Royals 6, A's 2: Swept in Four, and Seventeen of Twenty One</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/athletics-royals-9-7-seven-run-eighth-august-19.html</loc>
     <news:news>
       <news:publication>
@@ -32,6 +43,28 @@
       </news:publication>
       <news:publication_date>2026-08-19</news:publication_date>
       <news:title>Giants 1, Guardians 0: One Run Was Enough for Once</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Guardians 5, Giants 2: Eleven Strikeouts, Series Won Anyway</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-20</news:publication_date>
+      <news:title>Raiders 22, Texans 20: The No. 1 Pick Threw a Pick Six</news:title>
     </news:news>
   </url>
 </urlset>

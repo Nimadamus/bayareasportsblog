@@ -1283,6 +1283,144 @@ dict(slug='49ers-chargers-41-17-cowing-punt-return-preseason-august-20',
                'De' + "'" + 'Zhaun Stribling Was Not a Reach and the Grades Were Wrong'),
               ('49ers-2026-schedule-season-hub.html', '49ers',
                'The 2026 49ers Schedule, Week by Week')]),
+dict(slug='raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20',
+     section='NFL', tag='Raiders', hub='NFL',
+     title='Raiders 22, Texans 20: The No. 1 Pick Threw a Pick Six',
+     h1="Fernando Mendoza Threw a Pick Six on His Third Pass, Aidan O'Connell Cleaned Up the Rest of It, and the Raiders Won 22 to 20 in Houston",
+     dek="Twenty two points, three touchdowns, one made extra point out of three, and a "
+         "one yard sneak with fourteen seconds left. The most Raiders win imaginable, and "
+         "the rookie has a lot of film to sit through.",
+     desc="Raiders 22, Texans 20: Fernando Mendoza threw a pick six on his third pass and "
+          "Aidan O'Connell snuck one in from a yard out with fourteen seconds left.",
+     date='2026-08-20',
+     card=('raiders', '22 to 20 in Houston', 'The rookie threw a pick six, the backup won it'),
+     body=[
+      "Here is the thing about watching this team from up here, three states and one very "
+      "bitter divorce away from where they used to play: you never stop reading the box "
+      "score. You tell yourself you are done. You are not done. So on Thursday night, "
+      "while the other game involving a California team was busy being a party, the "
+      "Raiders were in Houston assembling the single most Raiders sequence of events "
+      "available to a football team, and yes, obviously, we read all of it.",
+
+      "They fell behind seventeen to nothing in the first quarter. The first overall pick "
+      "in the draft threw a pick six on his third professional pass. And then they won the "
+      "game, twenty two to twenty, on a one yard quarterback sneak from Aidan O'Connell "
+      "with fourteen seconds on the clock. If you had told a room full of people in 2003 "
+      "that this would be the shape of a Raiders night in 2026, nobody would have blinked. "
+      "The uniform changed cities. The genre did not.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Las Vegas Raiders at Houston Texans, Thursday 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Las Vegas Raiders at Houston Texans, Thursday 20 August 2026</caption>\n'
+      '<thead><tr><th>Team</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">Final</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>Las Vegas</b></td><td class="num">0</td><td class="num">3</td><td class="num">7</td><td class="num">12</td><td class="num"><b>22</b></td></tr>\n'
+      '<tr><td>Houston</td><td class="num">17</td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num"><b>20</b></td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>Start with the pick six, because that is what everybody is going to remember.</b> "
+      "Fernando Mendoza is the Heisman winner who took Indiana to a national championship "
+      "and then went first overall, and this was supposed to be the night he started "
+      "looking like all of that. Third pass of the game. Wade Woodaz reads it, takes it "
+      "eighty yards the other way, and it is fourteen to nothing before the rookie has "
+      "completed anything worth writing down. Woody Marks had already run one in from "
+      "twenty. Ka'imi Fairbairn tacked on from fifty one. Seventeen points in a first "
+      "quarter, against a defense that is supposed to be the finished half of this roster.",
+
+      "Mendoza finished eight of fifteen for eighty six yards with the interception, a "
+      "passer rating of forty two point six, and a first half only workload. Afterwards he "
+      "said there is a lot more learning to do, that this level is a whole step further "
+      "and the margins are so small that one tiny mistake can lead to catastrophe. That is "
+      "a rookie describing his own pick six with more composure than most veterans manage, "
+      "and honestly it is the most encouraging thing he did all night.",
+
+      "<b>What actually won the game.</b> O'Connell came out for the second half and went "
+      "fifteen of twenty four for a hundred and sixty six yards with nothing given away, "
+      "and the run game finally turned over. Mike Washington Jr. nine carries for fifty "
+      "six. Dylan Laube six for thirty seven and a four yard touchdown. Dare Ogunbowale "
+      "four for thirty five and a nineteen yard touchdown. A hundred and fifty nine "
+      "rushing yards is not nothing when the entire premise of a Kubiak offense is that "
+      "you are supposed to be able to hand the ball off and mean it.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Team statistics, Raiders at Texans, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Team statistics, Raiders at Texans, 20 August 2026</caption>\n'
+      '<thead><tr><th>&nbsp;</th><th class="num">Las Vegas</th><th class="num">Houston</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td>Total yards</td><td class="num"><b>412</b></td><td class="num">219</td></tr>\n'
+      '<tr><td>Passing yards</td><td class="num"><b>241</b></td><td class="num">141</td></tr>\n'
+      '<tr><td>Rushing yards</td><td class="num"><b>159</b></td><td class="num">78</td></tr>\n'
+      '<tr><td>Turnovers</td><td class="num"><b>1</b></td><td class="num">2</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>Four hundred and twelve yards.</b> That is the number that survives the night. "
+      "Houston finished with two hundred and nineteen. The Raiders nearly doubled up a "
+      "playoff team on total offense with their starting quarterback standing on the "
+      "sideline in a cap, and they still needed a sneak in the final minute, because the "
+      "kicking went sideways in a way that would be funny if it were not the sort of thing "
+      "that loses actual games in October. Matt Gay hit from fifty two. Kansei Matsuzawa "
+      "went one for three on extra points. Three touchdowns and one extra point is how a "
+      "team scores twenty two.",
+
+      '<div class="reftable" role="region" tabindex="0" aria-label="Quarterbacks, Raiders at Texans, 20 August 2026">\n'
+      '<table>\n'
+      '<caption>Quarterbacks, Raiders at Texans, 20 August 2026</caption>\n'
+      '<thead><tr><th>Quarterback</th><th class="num">Comp</th><th class="num">Att</th><th class="num">Yds</th><th class="num">Int</th></tr></thead>\n'
+      '<tbody>\n'
+      '<tr><td><b>Aidan O&rsquo;Connell, LV</b></td><td class="num">15</td><td class="num">24</td><td class="num">166</td><td class="num">0</td></tr>\n'
+      '<tr><td>Fernando Mendoza, LV</td><td class="num">8</td><td class="num">15</td><td class="num">86</td><td class="num">1</td></tr>\n'
+      '<tr><td>C.J. Stroud, HOU</td><td class="num">4</td><td class="num">6</td><td class="num">27</td><td class="num">0</td></tr>\n'
+      '<tr><td>Davis Mills, HOU</td><td class="num">11</td><td class="num">15</td><td class="num">93</td><td class="num">0</td></tr>\n'
+      '<tr><td>Brett Rypien, HOU</td><td class="num">6</td><td class="num">10</td><td class="num">44</td><td class="num">1</td></tr>\n'
+      '</tbody>\n</table>\n</div>',
+
+      "<b>The Kirk Cousins arrangement.</b> He did not play. Most of the starters did not "
+      "play, which is the whole reason a rookie was out there throwing his third pass into "
+      "traffic in the first place. We got into all of it in {preview} and nothing on "
+      "Thursday changes the read: this is a team that spent real money on a quarterback in "
+      "his late thirties and then drafted the guy who is going to take the job from him, "
+      "and everybody involved has to walk around pretending that is a normal way to build "
+      "a football team.",
+
+      "<b>The injuries.</b> Chigozie Anusiem went off on a cart with a knee. Buddy Johnson "
+      "took a shot to the shoulder and came back. In August one of those is a story and "
+      "one is a footnote, and you do not find out which for about ten days.",
+
+      "<b>Kubiak, afterwards.</b> He said they have another week of playing and that he "
+      "does not want anyone to be comfortable in their job. Standard preseason coach "
+      "speak, except that this is a roster where the bottom twenty five spots are "
+      "genuinely open, and a fifty two yard field goal sharing a night with two missed "
+      "extra points is exactly the kind of thing that ends somebody's summer.",
+
+      "<b>Where it leaves them.</b> One and one, in a preseason nobody should read too "
+      "closely, with the first overall pick sitting on one bad quarter and one good quote. "
+      "Last week they played their actual starters and got run out of their own building "
+      "by Arizona, which we wrote up in {week1}. This week they sat everybody and won. "
+      "Preseason is a coin. What you can say is that the ball came out of the backfield "
+      "well, the second unit did not fold at seventeen to nothing, and O'Connell is still "
+      "the most competent thing on that quarterback depth chart even when he is nominally "
+      "third in line.",
+
+      "And for the record, on the very same night, the team that stayed put hung forty one "
+      "on the Chargers at SoFi. We wrote that one up as well, {niners}, and it is a much "
+      "more enjoyable read. But this is the Bay Area, and a lot of us have a silver and "
+      "black thing buried somewhere that we have never properly dealt with, so here we "
+      "are at eleven at night reading a preseason box score out of Houston. The rest of "
+      "the league coverage sits on the {hub}.",
+     ],
+     links={'preview': ('raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html',
+                        'the season preview'),
+            'week1': ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html',
+                      'the week one recap'),
+            'niners': ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html',
+                       '49ers 41, Chargers 17'),
+            'hub': ('../nfl.html', 'NFL page')},
+     related=[('raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html', 'NFL',
+               'The 2026 Raiders: Kubiak, Cousins, Mendoza and Jeanty'),
+              ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html', '49ers',
+               '49ers 41, Chargers 17: The Best Night of the Summer'),
+              ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html', '49ers',
+               'The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.')]),
 ]
 
 
