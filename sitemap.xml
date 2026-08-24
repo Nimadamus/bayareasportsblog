@@ -1407,4 +1407,18 @@
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-astros-7-6-six-run-comeback-muncy-august-23.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-astros-7-6-six-run-comeback-muncy-august-23.jpg</image:loc></image:image>
+  </url>
 </urlset>
