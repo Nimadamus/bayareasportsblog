@@ -75,8 +75,9 @@ These are the fingerprints. Every one of them is on the gate list.
 
 ## 6. Reference tables belong in reference pieces
 
-A depth chart, a schedule, a records page: put a table in it. A column about how you
-felt watching two guys jaw at each other in August: **no table.** A fan does not stop
+A depth chart, a schedule, a records page, a cap sheet: put a table in it. A game recap
+gets one too, because the line score is the story. A column about how you felt watching
+two guys jaw at each other in August: **no table.** A fan does not stop
 mid rant to build a summary grid. The table is the clearest signal on the page that
 nobody's heart was in it.
 
@@ -102,11 +103,26 @@ enforces it. Hyphens inside ordinary words are fine.
 ## Preflight for every new column
 
 ```
-python _dashscan.py                  # no published .html/.xml may appear
-python tools/voice_gate.py articles/<slug>.html
+python _dashscan.py                              # no published .html/.xml may appear
+python tools/voice_gate.py articles/<slug>.html  # HUMAN score, ship at 70+
+python tools/voice_gate.py --all --min 70        # nothing on the site may fall under 70
 python tools/social_meta_gate.py
 python tools/thumb_gate.py
 ```
 
 `voice_gate.py` prints a HUMAN score out of 100 and lists every hit. **Ship at 70 or
 better.** Below that, it is not a Bay Area Sports Blog column yet.
+
+`tools/humanize.py` does the mechanical half of rule 1 and rule 5 for you:
+
+```
+python tools/humanize.py "articles/*.html"                # contract the longhand
+python tools/humanize.py --descaffold "articles/*.html"   # one bolded lead in per column
+```
+
+It never touches quoted lines, headings, meta, or anything inside a tag, and it leaves a
+copula alone at the end of a clause. Everything it cannot do (rhythm, lived detail,
+killing a filler triad) is writing, and writing is your job.
+
+As of 24 August 2026 the whole archive sits at median 81 with nothing under 70.
+Keep it there.

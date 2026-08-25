@@ -28,9 +28,18 @@ PAIRS = [
     ("we would", "we'd"), ("they would", "they'd"), ("you would", "you'd"),
     ("let us", "let's"),
 ]
-# "X have" must not fire before an infinitive: "I have to go" is not "I've to go".
+COPULA = {'it is', 'that is', 'there is', 'here is', 'he is', 'she is', 'what is', 'who is',
+          'they are', 'we are', 'you are', 'I am'}
+
+
 def _rx(a):
-    tail = r'(?! +to\b)' if a.endswith(' have') else ''
+    # "X have" only contracts before a participle, never before a noun phrase:
+    # "I have watched" becomes "I've watched", but "I have no vote" stays put.
+    tail = (r'(?! +(to|no|a|an|the|some|any|my|his|her|their|our|it|that|this|one|two|three'
+            r'|more|enough|nothing|another|plenty)\b)') if a.endswith(' have') else ''
+    # a copula never contracts at the end of a clause: "what they say it is" stays put
+    if a in COPULA:
+        tail += r'(?![^A-Za-z0-9]*[.,;:!?<])(?! +(and|but|or|so|then|yet|too))'
     return re.compile(r'\b%s\b%s' % (re.escape(a), tail), re.I)
 
 

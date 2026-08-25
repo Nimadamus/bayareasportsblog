@@ -109,10 +109,13 @@ def score(path):
             pts -= cost
             hits.append('PHRASE        "%s"  ->  %s  [-%d]' % (m.group(0)[:60], label, cost))
 
-    # 3. three beat lists
-    for t in tricolons(paras):
-        pts -= 5
-        hits.append('TRICOLON      %s  [-5]' % t)
+    # 3. three beat lists. Repetition is a real tell, but anaphora in a rant is also how
+    # angry people talk, so this is capped: it can dock a column, never sink one.
+    tri = tricolons(paras)
+    for i, t in enumerate(tri):
+        cost = 3 if i < 2 else 0
+        pts -= cost
+        hits.append('TRICOLON      %s  [-%d]' % (t, cost))
 
     # 4. rhythm: paragraph length variance
     plens = [len(p.split()) for p in paras]
@@ -154,7 +157,10 @@ def score(path):
         hits.append('SCAFFOLD      %d bolded thesis lead ins, VOICE.md allows 1  [-%d]' % (bl, cost))
 
     # 8. table in a column
-    if has_table(path) and not re.search(r'(depth-chart|schedule|roster|records|history|guide|hub|preview|stats)', path):
+    # a table is the point in a reference piece, and a line score belongs in a game recap
+    REF = r'(depth-chart|schedule|roster|records|history|guide|hub|preview|stats|complete-list|relocations|championships|cap-sheet|rotation|coliseum|founded|dimensions|capacity|home-run-king|season-by-season)'
+    RECAP = r'-\d+-\d+-'
+    if has_table(path) and not (re.search(REF, path) or re.search(RECAP, path)):
         pts -= 10
         hits.append('TABLE         reference table inside an opinion column  [-10]')
 
