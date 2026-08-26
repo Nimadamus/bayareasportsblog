@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 26 Aug 2026 22:52:28 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 23:07:52 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Fire Tony Vitello. The Bullpen Is the Whole Case.</title>
+    <link>https://bayareasportsblog.com/articles/fire-tony-vitello-giants-bullpen-management-travesty.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/fire-tony-vitello-giants-bullpen-management-travesty.html</guid>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Reds 10, Giants 9 after a six run ninth. Twenty four saves in forty four chances. Same organization that had the fourth best bullpen in baseball last year. Enough.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/fire-tony-vitello-giants-bullpen-management-travesty.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Giants Blew a Six Run Lead in the Ninth and It Isn&#39;t Even Over</title>
     <link>https://bayareasportsblog.com/articles/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Preseason week one recap: Shanahan sat every 49ers starter in a 19-13 loss, Rourke and Stribling impressed, and the Raiders lost 27-14 at home.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Kyle Shanahan Needs to Win the Ring This Year. Say It Out Loud.</title>
-    <link>https://bayareasportsblog.com/articles/kyle-shanahan-needs-to-win-the-ring-this-year-2026.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/kyle-shanahan-needs-to-win-the-ring-this-year-2026.html</guid>
-    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Year ten of Kyle Shanahan, two Super Bowl losses, a peaking Brock Purdy and a loaded roster: why 2026 is the season the ring becomes the whole job.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/kyle-shanahan-needs-to-win-the-ring-this-year-2026.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
