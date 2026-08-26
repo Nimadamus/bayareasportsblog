@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 26 Aug 2026 21:19:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 22:29:25 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Bryce Eldridge on the Bereavement List: Take the Week, Kid</title>
@@ -16,6 +16,15 @@
     <category>Giants</category>
     <description>The Giants put Bryce Eldridge on the bereavement list on Monday. Nobody&#39;s said why and nobody has to. He&#39;ll be away about a week, and every other thing about this season can wait.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-bryce-eldridge-bereavement-list.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Rafael Devers Hit His 29th Homer and Nobody Said a Word</title>
+    <link>https://bayareasportsblog.com/articles/giants-rafael-devers-29-homers-carrying-the-offense.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rafael-devers-29-homers-carrying-the-offense.html</guid>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Devers went deep again Wednesday, three straight games, 29 homers on a 54-78 team. He gets called soft and not a winning player and I do not buy a second of it.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-29-homers-carrying-the-offense.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Vitello Ejected in the First Inning on a Check Swing</title>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep buying old veterans, because this franchise cannot develop young players.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-clinging-to-past-cannot-develop-young-players.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The 49ers Waived Junior Bergen Again, and Kept the Punter</title>
-    <link>https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html</guid>
-    <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers waived Junior Bergen and Jack Bouwmeester and put K.J. Henry on waived/injured, then signed Eli Apple, Xavier Thomas and Zamir White.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
