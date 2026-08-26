@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 26 Aug 2026 22:29:25 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 26 Aug 2026 22:38:17 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Bryce Eldridge on the Bereavement List: Take the Week, Kid</title>
@@ -23,8 +23,17 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rafael-devers-29-homers-carrying-the-offense.html</guid>
     <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     <category>Giants</category>
-    <description>Devers went deep again Wednesday, three straight games, 29 homers on a 54-78 team. He gets called soft and not a winning player and I do not buy a second of it.</description>
+    <description>Devers went deep again Wednesday, three straight games, 29 homers on a 55-78 team. He gets called soft and not a winning player and I do not buy a second of it.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-29-homers-carrying-the-offense.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Giants 9, Reds 4: The Manager Got Ejected and the Offense Woke Up</title>
+    <link>https://bayareasportsblog.com/articles/giants-reds-9-4-sweep-three-homers-gilbert-pinch-double.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-reds-9-4-sweep-three-homers-gilbert-pinch-double.html</guid>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Vitello was gone in the first, Webb went six, Cox and Devers and Whitcomb went deep, and Gilbert emptied the bases in the eighth. A sweep, three in a row.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-reds-9-4-sweep-three-homers-gilbert-pinch-double.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Vitello Ejected in the First Inning on a Check Swing</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Year ten of Kyle Shanahan, two Super Bowl losses, a peaking Brock Purdy and a loaded roster: why 2026 is the season the ring becomes the whole job.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/kyle-shanahan-needs-to-win-the-ring-this-year-2026.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Warriors Cling to the Past Because They Cannot Build a Future</title>
-    <link>https://bayareasportsblog.com/articles/warriors-clinging-to-past-cannot-develop-young-players.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-clinging-to-past-cannot-develop-young-players.html</guid>
-    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>Wiseman, the two timelines, Poole, Kuminga, Moody: why the Warriors keep buying old veterans, because this franchise cannot develop young players.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-clinging-to-past-cannot-develop-young-players.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
