@@ -712,5 +712,13 @@
   "sub": "Junior high, he said, and he is back next year",
   "alt": "Tony Vitello, manager of the San Francisco Giants",
   "src": "assets/img/players/vitello.png"
+ },
+ "articles/giants-tony-vitello-ejected-first-inning-check-swing.html": {
+  "mode": "photo",
+  "team": "giants",
+  "name": "Tony Vitello",
+  "sub": "Ejected in the first inning on a check swing",
+  "alt": "Tony Vitello, manager of the San Francisco Giants, ejected in the first inning",
+  "src": "assets/img/players/vitello.png"
  }
 }
