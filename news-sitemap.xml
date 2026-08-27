@@ -2,50 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-jed-york-arrested-ohio-no-contest-august-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24</news:publication_date>
-      <news:title>Jed York Arrested in Ohio: Two Misdemeanors and Nothing From the 49ers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-mike-evans-brock-purdy-receiver-duo-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24</news:publication_date>
-      <news:title>Mike Evans and Brock Purdy: The Receiver He Has Never Had</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-purdy-warner-trash-talk-competitive-practice-august-2026.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24</news:publication_date>
-      <news:title>Purdy and Warner Were Talking Trash in Practice, and It Was Beautiful</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/athletics-twins-9-6-ninth-inning-rally-springs.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24</news:publication_date>
-      <news:title>Twins 9, Athletics 6: Rally Falls Short</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/fire-tony-vitello-giants-bullpen-management-travesty.html</loc>
     <news:news>
       <news:publication>
@@ -68,6 +24,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-27</news:publication_date>
+      <news:title>Bryce Eldridge Is Back, and Buddy Kennedy Is the One Who Paid for It</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-bryce-eldridge-bereavement-list.html</loc>
     <news:news>
       <news:publication>
@@ -87,17 +54,6 @@
       </news:publication>
       <news:publication_date>2026-08-26</news:publication_date>
       <news:title>Rafael Devers Hit His 29th Homer and Nobody Said a Word</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-reds-5-0-devers-27th-bullpen-shutout.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-24</news:publication_date>
-      <news:title>Giants 5, Reds 0: Shutout at Oracle</news:title>
     </news:news>
   </url>
   <url>

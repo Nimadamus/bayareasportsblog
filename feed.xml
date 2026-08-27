@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 26 Aug 2026 23:07:52 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 27 Aug 2026 22:10:43 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bryce Eldridge Is Back, and Buddy Kennedy Is the One Who Paid for It</title>
+    <link>https://bayareasportsblog.com/articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>The Giants activated Bryce Eldridge off the bereavement list Thursday and designated Buddy Kennedy for assignment to make room. Eldridge is hitting .252 with 14 homers. Kennedy hit .121 in 33 at bats here.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-bryce-eldridge-back-buddy-kennedy-dfa.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Fire Tony Vitello. The Bullpen Is the Whole Case.</title>
     <link>https://bayareasportsblog.com/articles/fire-tony-vitello-giants-bullpen-management-travesty.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Giants 7, Rockies 1 at Oracle Park: Logan Webb went six innings with no walks and seven strikeouts, Drew Gilbert drove in three, and a six-run fourth ended it.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rockies-7-1-logan-webb-consummate-pro-august-15.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.</title>
-    <link>https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html</guid>
-    <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Preseason week one recap: Shanahan sat every 49ers starter in a 19-13 loss, Rourke and Stribling impressed, and the Raiders lost 27-14 at home.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
