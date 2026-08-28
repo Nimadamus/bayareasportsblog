@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 27 Aug 2026 22:10:43 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 28 Aug 2026 04:57:08 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 18, Raiders 12: A Kicker Won a Football Game</title>
+    <link>https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers 18, Raiders 12 in the preseason finale. Eddy Pineiro went 6-for-6 including a 59 yarder and the defense allowed no touchdowns.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Bryce Eldridge Is Back, and Buddy Kennedy Is the One Who Paid for It</title>
     <link>https://bayareasportsblog.com/articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html</link>
@@ -358,15 +367,6 @@
     <category>49ers Column</category>
     <description>A veteran core in its prime, smart short-term signings, and draft picks who actually play. The 49ers roster balance is the best it has been in years.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-veteran-young-core-mix-recent-drafts-better-2026.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants 7, Rockies 1: Logan Webb Is the Consummate Pro</title>
-    <link>https://bayareasportsblog.com/articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Giants 7, Rockies 1 at Oracle Park: Logan Webb went six innings with no walks and seven strikeouts, Drew Gilbert drove in three, and a six-run fourth ended it.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rockies-7-1-logan-webb-consummate-pro-august-15.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

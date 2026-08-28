@@ -1421,6 +1421,76 @@ dict(slug='raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20',
                '49ers 41, Chargers 17: The Best Night of the Summer'),
               ('49ers-titans-raiders-cardinals-preseason-recap-rourke-stribling.html', '49ers',
                'The 49ers Sat Everybody. The Raiders Played Everybody and Lost Worse.')]),
+# --------------------------------------------------------------- Raiders preseason finale
+dict(slug='49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers 18, Raiders 12: A Kicker Won a Football Game',
+     h1="49ers 18, Raiders 12: Eddy Pineiro Kicked Six and Won the Whole Thing",
+     dek="Six field goals, none missed, one from 59, and a defense that did not let the "
+         "Raiders in the end zone once. The summer ends 2-1 and the cuts come Sunday.",
+     desc="49ers 18, Raiders 12 in the preseason finale. Eddy Pineiro went 6-for-6 "
+          "including a 59 yarder and the defense allowed no touchdowns.",
+     date='2026-08-27',
+     card=('49ers', 'Six For Six', 'Pineiro kicks every point in an 18-12 win at Allegiant'),
+     body=[
+      "<b>Eighteen points, zero touchdowns, and I stayed up for all of it.</b> That's the "
+      "honest summary of a Thursday night in Las Vegas that had no business being as fun "
+      "as it was. Eddy Pineiro scored every single point the 49ers put on the board, six "
+      "field goals on six attempts, and the defense would not let the Raiders into the "
+      "end zone once. Final was 18-12. Four field goals for them, six for us, and that "
+      "was the football game.",
+
+      "The distances, because they matter: 24, 25, 48, 51, 54, 59. Three of them from "
+      "fifty plus. The 59 was the one where I actually got off the couch, which is a "
+      "ridiculous thing to do in the last week of August, and I did it anyway. There's a "
+      "specific kind of calm that comes over you when a kicker just is not going to miss, "
+      "and this team has spent a lot of recent Januarys with the opposite feeling, so let "
+      "me have this one.",
+
+      "Adrian Martinez ran the offense for most of the night and moved it well enough to "
+      "keep handing Pineiro the ball inside the forty, which in preseason terms is close "
+      "to a compliment. Jordan Watkins was the best skill player on the field for either "
+      "side, four catches for 64 and another 21 on three carries, and he keeps doing this "
+      "in games that supposedly do not count. Jordan James got his first work of the "
+      "summer after the ribs, eight carries for 35 and a 20 yard catch, and he looked like "
+      "somebody who has been waiting three weeks to hit somebody.",
+
+      "The defense is what I keep thinking about. Fernando Mendoza threw an interception "
+      "to Tatum Bethune. Darrell Luter Jr. tipped a ball into that pick and broke up "
+      "another one. Keion White and Ogbo Okoronkwo both got home for sacks. And Jaden "
+      "Dugger, a rookie linebacker most of this fan base could not have picked out of a "
+      "lineup in July, led everybody with ten tackles and was in the backfield on back to "
+      "back plays in the second half. Ten tackles in August is how a guy makes a roster.",
+
+      "Now the part nobody enjoys. The cuts are Sunday. Fifty three, and this summer "
+      "produced more players who deserve a spot than there are spots, which sounds like a "
+      "good problem until you remember that a real person gets a phone call. Dugger played "
+      "himself onto something. Watkins has been the most consistent guy on the field for "
+      "three straight weeks. Somebody who was good enough is going to be gone by Sunday "
+      "night and we'll all forget his name by October.",
+
+      "So the preseason closes at 2-1. It means nothing and I'll take it anyway. Two weeks "
+      "ago they hung forty one on the Chargers, which we wrote up as {chargers}, and that "
+      "was the loud one. This was the strange one. A silver and black building, a Bay Area "
+      "kicker going perfect, and a defense that made Kirk Cousins and the first overall "
+      "pick settle for field goals all night.",
+
+      "Melbourne is next. Actually next, real football, September 10, and a bunch of us "
+      "are going to be awake at hours that make no sense for a Week 1 game in Australia. "
+      "The full slate is on the {schedule}, the rest of the coverage sits on the {hub}, "
+      "and I'm going to go to bed thinking about a 59 yard field goal in a game that did "
+      "not count.",
+     ],
+     links={'chargers': ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html',
+                         '49ers 41, Chargers 17'),
+            'schedule': ('49ers-2026-schedule-season-hub.html', '2026 schedule hub'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html', '49ers',
+               '49ers 41, Chargers 17: The Best Night of the Summer'),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
 ]
 
 
