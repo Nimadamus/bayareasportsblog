@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 28 Aug 2026 04:57:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 29 Aug 2026 03:12:34 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</title>
+    <link>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</guid>
+    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Two days after the six run ninth, Tony Vitello got thrown out in the third inning against Arizona, and Logan Webb got tossed with him. Five ejections. Fifty five wins.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers 18, Raiders 12: A Kicker Won a Football Game</title>
     <link>https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</link>
@@ -358,15 +367,6 @@
     <category>49ers Column</category>
     <description>Draft night said the 49ers reached for De&#39;Zhaun Stribling. One camp and one preseason game later, that take has aged like milk.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The 49ers Finally Have the Mix Right, and the Drafts Are Why</title>
-    <link>https://bayareasportsblog.com/articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers Column</category>
-    <description>A veteran core in its prime, smart short-term signings, and draft picks who actually play. The 49ers roster balance is the best it has been in years.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-veteran-young-core-mix-recent-drafts-better-2026.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

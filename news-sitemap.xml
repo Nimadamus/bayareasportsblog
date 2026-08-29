@@ -68,6 +68,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28</news:publication_date>
+      <news:title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-first-inning-check-swing.html</loc>
     <news:news>
       <news:publication>
@@ -76,17 +87,6 @@
       </news:publication>
       <news:publication_date>2026-08-26</news:publication_date>
       <news:title>Vitello Ejected in the First Inning on a Check Swing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-georges-niang-signing-last-roster-spot.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-25</news:publication_date>
-      <news:title>The Warriors Spent All Summer Chasing a Star and Signed Georges Niang</news:title>
     </news:news>
   </url>
 </urlset>
