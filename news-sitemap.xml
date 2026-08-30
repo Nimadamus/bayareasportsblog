@@ -2,69 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</loc>
+    <loc>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-27</news:publication_date>
-      <news:title>49ers 18, Raiders 12: A Kicker Won a Football Game</news:title>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Eldridge Goes 4 for 5 With 4 RBI and the Giants Are Fun Again</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/fire-tony-vitello-giants-bullpen-management-travesty.html</loc>
+    <loc>https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Fire Tony Vitello. The Bullpen Is the Whole Case.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Giants Blew a Six Run Lead in the Ninth and It Isn't Even Over</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27</news:publication_date>
-      <news:title>Bryce Eldridge Is Back, and Buddy Kennedy Is the One Who Paid for It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-bryce-eldridge-bereavement-list.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Bryce Eldridge on the Bereavement List: Take the Week, Kid</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-rafael-devers-29-homers-carrying-the-offense.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Rafael Devers Hit His 29th Homer and Nobody Said a Word</news:title>
+      <news:publication_date>2026-08-29</news:publication_date>
+      <news:title>They Ran Ron Wotus at the Lineup Card. The Game Hadn't Started Yet.</news:title>
     </news:news>
   </url>
   <url>
@@ -76,17 +32,6 @@
       </news:publication>
       <news:publication_date>2026-08-28</news:publication_date>
       <news:title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-first-inning-check-swing.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26</news:publication_date>
-      <news:title>Vitello Ejected in the First Inning on a Check Swing</news:title>
     </news:news>
   </url>
 </urlset>

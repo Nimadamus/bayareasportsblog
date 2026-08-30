@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 29 Aug 2026 03:12:34 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 08:35:00 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Eldridge Goes 4 for 5 With 4 RBI and the Giants Are Fun Again</title>
+    <link>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</guid>
+    <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Giants 7, Diamondbacks 2 in the nightcap. Bryce Eldridge matched career highs with four hits and four RBI, the first Giants rookie to do it since Posey in 2010.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>They Ran Ron Wotus at the Lineup Card. The Game Hadn&#39;t Started Yet.</title>
+    <link>https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Ron Wotus got ejected during the lineup card exchange before Game 1 of the doubleheader against Arizona. Not in the third. Not in the ninth. Before the first pitch.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</title>
     <link>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</link>
@@ -349,24 +367,6 @@
     <category>49ers</category>
     <description>The 49ers play Harbaugh&#39;s Chargers at SoFi on Thursday night, and George Kittle says his Achilles recovery is hitting every marker with Week 1 in reach.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Rockies 13, Giants 7: Devers Hit His 25th and It Did Not Matter</title>
-    <link>https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.html</guid>
-    <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Rockies 13, Giants 7 at Oracle Park: Rafael Devers homered for his 25th, the Giants led into the sixth, and the bullpen gave up seven unanswered to Colorado.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rockies-13-7-devers-25th-bullpen-destroyed-august-16.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>They Called De&#39;Zhaun Stribling a Reach. Nobody Is Laughing Now</title>
-    <link>https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.html</guid>
-    <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers Column</category>
-    <description>Draft night said the 49ers reached for De&#39;Zhaun Stribling. One camp and one preseason game later, that take has aged like milk.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dezhaun-stribling-reach-draft-grade-critics-wrong-2026.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
