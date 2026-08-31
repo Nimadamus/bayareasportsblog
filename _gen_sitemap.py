@@ -8,8 +8,7 @@ BASE = "https://bayareasportsblog.com/"
 # relisted 2026-08-08 once the college football cluster gave them real coverage.
 # betting stays out: decided 2026-08-08 that the betting desk lives on TMR and
 # BetLegend, not on this blog.
-EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html',
-           'betting.html'}
+EXCLUDE = {'404.html', 'google6f74b54ecd988601.html', 'search.html'}
 order = ['index.html','nfl.html','mlb.html','nba.html','nhl.html',
          '49ers.html','warriors.html','giants.html','bayarea.html',
          'history.html','flashbacks.html','columns.html','athletics.html','sharks.html',
