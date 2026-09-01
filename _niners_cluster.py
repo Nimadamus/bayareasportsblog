@@ -1491,6 +1491,82 @@ dict(slug='49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers Roster',
                'The 2026 49ers Roster and Depth Chart')]),
+# --------------------------------------------------------------- Kittle/Bosa practice week
+dict(slug='49ers-kittle-practicing-bosa-not-australia-travel-question',
+     section='49ers', tag='49ers', hub='49ers',
+     title="Kittle Practiced. Bosa Didn't. Melbourne Is Nine Days Away.",
+     h1="Kittle Practiced, Bosa Didn't, and Nobody Will Say When Either of Them Plays",
+     dek="Both are supposed to be out there all three days this week. One of them was. "
+         "Mike Evans caught passes on the side out of uniform, Malik Mustapha worked, "
+         "Dominick Puni is out of concussion protocol, and Kittle might not even get on "
+         "the plane.",
+     desc="George Kittle practiced and Nick Bosa did not, with both due out all three "
+          "days. Mike Evans caught passes out of uniform and Puni cleared protocol.",
+     date='2026-09-01',
+     card=('49ers', 'Three Days', "Kittle's out there, Bosa isn't, and Australia is nine days away"),
+     body=[
+      "<b>Here's the plan, as it was given to us: Nick Bosa and George Kittle are both "
+      "going to practice these three days.</b> That's the whole runway before this team "
+      "gets on a plane to the other side of the planet. Three days. So I did what anybody "
+      "who has spent a summer refreshing injury reports does, which is count heads, and "
+      "the count came back one out of two. Kittle was out there. Bosa wasn't.",
+
+      "I want to be careful here, because it's the first of the three and a veteran "
+      "getting a day is the most normal thing in football. Bosa has had a summer of "
+      "general soreness and nothing more sinister than that. But the whole point of "
+      "saying the words \"all three days\" out loud is that the three days are supposed to "
+      "happen, and day one already came in short. Nobody's panicking. It's just "
+      "arithmetic, and arithmetic like that turns into a Wednesday of everybody asking "
+      "each other what it means.",
+
+      "Day one of three. One of two.",
+
+      "The Kittle half is genuinely good news and I'm going to let myself enjoy about "
+      "sixty percent of it. He was practicing. Actually practicing. This is a guy who "
+      "tore an Achilles in January and has spent eight months turning himself back into a "
+      "tight end while the rest of us pretended we weren't doing the math on Achilles "
+      "recovery timelines at two in the morning. We wrote about the markers he was hitting "
+      "back in {kittle}, and he's kept hitting them.",
+
+      "The other forty percent is the part nobody's saying out loud in a straight line. It "
+      "remains to be seen when he actually plays. Not when he practices. When he plays. "
+      "And there's a real possibility he doesn't travel to Australia at all, which is a "
+      "sentence I had to read twice, because Week 1 is in Melbourne and if he stays home "
+      "he isn't missing a game, he's missing a trip that takes the better part of two days "
+      "each way. You can build an argument for it. Fifteen hours in a plane seat is not "
+      "rehab.",
+
+      "I still don't love it.",
+
+      "The rest of the field had things worth watching. Mike Evans was out there catching "
+      "passes, out of uniform, off to the side, which is the specific in between state "
+      "where a guy is fine enough to move and not fine enough to be counted. Malik "
+      "Mustapha practiced, and after the year he's had that's a small win on its own. And "
+      "Dominick Puni is back from concussion protocol, which matters more than it'll get "
+      "credit for, because the interior of that line is the difference between Purdy "
+      "having a clean pocket in September and Purdy running for his life in Australia.",
+
+      "So where does that leave the week? A tight end who's practicing and might not "
+      "travel. An edge rusher who's supposed to practice and hasn't yet. A receiver "
+      "catching balls in street clothes. Two guys back on the grass who weren't. The next "
+      "two days tell you almost everything, and if Bosa is out there Tuesday nobody "
+      "remembers I wrote any of this.",
+
+      "Melbourne is the 10th. The full slate sits on the {schedule}, the roster page has "
+      "the rest of the bodies on the {roster}, and everything else we've written this "
+      "summer is on the {hub}. Ask me Tuesday.",
+     ],
+     links={'kittle': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
+                       "Kittle's Achilles recovery"),
+            'schedule': ('49ers-2026-schedule-season-hub.html', '2026 schedule hub'),
+            'roster': ('49ers-2026-roster-depth-chart.html', 'roster and depth chart'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html', '49ers',
+               "Harbaugh's Return and Kittle's Achilles"),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
 ]
 
 
