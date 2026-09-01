@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-rangers-8-1-degrom-one-hit-injured-core.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>The A's Have Five Hitters on the IL and deGrom One Hit What Was Left</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-braves-7-3-four-run-sixth-molina.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Giants 7, Braves 3, and This Team Has Quietly Been Fun for a Week</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</loc>
     <news:news>
       <news:publication>
@@ -13,6 +35,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-rafael-devers-30th-homer-monster-season.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31</news:publication_date>
+      <news:title>Rafael Devers Hit Number 30 in Atlanta and I Would Like Some Apologies</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</loc>
     <news:news>
       <news:publication>
@@ -21,17 +54,6 @@
       </news:publication>
       <news:publication_date>2026-08-29</news:publication_date>
       <news:title>They Ran Ron Wotus at the Lineup Card. The Game Hadn't Started Yet.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28</news:publication_date>
-      <news:title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</news:title>
     </news:news>
   </url>
 </urlset>

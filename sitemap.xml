@@ -9,28 +9,28 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nfl.html</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-purdy-warner-trash-talk-competitive-practice-august-2026.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/mlb.html</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-braves-7-3-four-run-sixth-molina.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nba.html</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-georges-niang-signing-last-roster-spot.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nhl.html</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-championships-complete-list-by-team.jpg</image:loc></image:image>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/giants.html</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dynasty-even-year-magic.jpg</image:loc></image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/athletics.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-sacramento-bay-area-villains.jpg</image:loc></image:image>
@@ -188,6 +188,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-rangers-8-1-degrom-one-hit-injured-core.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-rangers-8-1-degrom-one-hit-injured-core.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-braves-7-3-four-run-sixth-molina.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-braves-7-3-four-run-sixth-molina.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-rafael-devers-30th-homer-monster-season.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-30th-homer-monster-season.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</loc>
