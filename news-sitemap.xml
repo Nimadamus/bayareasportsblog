@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-02</news:publication_date>
+      <news:title>Bosa Practiced. Everybody Practiced. Now Get on the Plane.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-kittle-practicing-bosa-not-australia-travel-question.html</loc>
     <news:news>
       <news:publication>
@@ -32,17 +43,6 @@
       </news:publication>
       <news:publication_date>2026-08-31</news:publication_date>
       <news:title>Giants 7, Braves 3, and This Team Has Quietly Been Fun for a Week</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30</news:publication_date>
-      <news:title>Eldridge Goes 4 for 5 With 4 RBI and the Giants Are Fun Again</news:title>
     </news:news>
   </url>
   <url>

@@ -1567,6 +1567,85 @@ dict(slug='49ers-kittle-practicing-bosa-not-australia-travel-question',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers Roster',
                'The 2026 49ers Roster and Depth Chart')]),
+# --------------------------------------------------------------- Bosa back, everybody on the grass, wheels up
+dict(slug='49ers-bosa-practices-everybody-on-the-field-wheels-up-australia',
+     section='49ers', tag='49ers', hub='49ers',
+     title="Bosa Practiced. Everybody Practiced. Now Get on the Plane.",
+     h1="Bosa Practiced, Every Name You Know Was Out There, and the Plane Leaves Tonight",
+     dek="Final practice before the flight to Melbourne and the head count finally came back "
+         "whole. Bosa in team periods for the first time in a month, Kittle for a third "
+         "straight day, Mike Evans in uniform, Juszczyk back. The only guys on the side were "
+         "depth and rookies.",
+     desc="Nick Bosa practiced fully for the first time since August 3, Kittle went a third "
+          "straight day, Evans and Juszczyk returned, and the 49ers fly to Australia tonight.",
+     date='2026-09-02',
+     card=('49ers', 'Wheels Up', "Bosa's back, the whole roster practiced, Melbourne next"),
+     body=[
+      "<b>I said ask me Tuesday. It took until Wednesday, but the answer is yes.</b> Nick "
+      "Bosa practiced. Not the side field, not the trainer's tent, not a jog in a bucket "
+      "hat. Individual drills, then team periods, knee sleeve on the right leg, and he made "
+      "it through the whole thing. First time since August 3, which I know because I've had "
+      "that date in my head like a phone number for a month.",
+
+      "And it wasn't just him. That's the part I want to sit with. The last practice before "
+      "this team gets on a sixteen hour flight, and every name you'd recognize was on the "
+      "grass. Purdy, McCaffrey, Trent, Warner, all the guys who were never in question, plus "
+      "the four who were. Kittle went a third straight day on an Achilles that was torn in "
+      "January. Mike Evans was in uniform and actually part of it, not catching passes off "
+      "to the side in a t-shirt like he was Monday. And Juszczyk's back from the broken "
+      "finger he picked up early in camp, which I'd honestly stopped tracking because "
+      "there was too much else to worry about.",
+
+      "One practice. Whole roster. Exhale.",
+
+      "The guys who didn't go are the guys you'd expect. Renardo Green is still working "
+      "through a hamstring on the side, Jack Jones was over there with him, Jacob Cowing "
+      "and Luke Gifford too, and then three rookies on the defensive line, Gracen Halton, "
+      "Romello Height and James Thompson Jr. That's the list. Not one of them is a name my "
+      "group chat asked about. Green's the only one I'd call a real hole and the flight is "
+      "long enough that a hamstring has a week and a half to calm down before it matters.",
+
+      "Now the Bosa part, because I don't want to skip past it just because it went well. "
+      "He said he ramped it up too fast a month ago, and you could tell from how the "
+      "building handled it. They pulled everything back, let the tendinitis in that knee "
+      "settle, and only put him in team drills when it was quiet. He came out of it "
+      "grinning, saying if every practice felt like that one it'd be an easy job. He's "
+      "confident he plays Week 1. Confident, his word, as long as nothing changes on the "
+      "path he's on. I'm not going to argue with him. I've spent a summer arguing with "
+      "injury reports and I'm tired.",
+
+      "What I keep coming back to is how narrow this was. Shanahan laid out three practices "
+      "and said he wanted both guys out there and hoped it went well, and he didn't hide "
+      "the reason: nobody wanted to put a man on a sixteen hour flight who wasn't going to "
+      "play. Monday came in one out of two. Tuesday, Kittle again and no Bosa. And then the "
+      "last possible day, the day the bags go on the bus, he's in team periods. If you'd "
+      "told me in July the whole opener would come down to whether one guy could practice "
+      "on a Wednesday I'd have believed you, and I still would've hated it.",
+
+      "I watched the clips at my desk with the sound off. My boss walked past twice. Worth it.",
+
+      "So they fly tonight. Late Wednesday, land Friday morning their time, a week and a half "
+      "of practices on the other side of the world, and then the Rams on Thursday night the "
+      "10th here, Friday afternoon there. Kittle's the one I'll still be watching, because "
+      "three practices isn't a game and the Achilles doesn't care what the calendar says. "
+      "But the plane leaves with everybody on it. Everybody. Two days ago I wasn't sure I'd "
+      "get to write that sentence.",
+
+      "The full slate is on the {schedule}, the bodies are on the {roster}, Monday's head "
+      "count is in {monday}, and everything else from this summer lives on the {hub}. "
+      "Next time you hear from me it'll be from a very strange time zone.",
+     ],
+     links={'monday': ('49ers-kittle-practicing-bosa-not-australia-travel-question.html',
+                       "the Kittle practiced, Bosa didn't column"),
+            'schedule': ('49ers-2026-schedule-season-hub.html', '2026 schedule hub'),
+            'roster': ('49ers-2026-roster-depth-chart.html', 'roster and depth chart'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-kittle-practicing-bosa-not-australia-travel-question.html', '49ers',
+               "Kittle Practiced, Bosa Didn't"),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
 ]
 
 

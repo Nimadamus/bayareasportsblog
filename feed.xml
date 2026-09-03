@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 01 Sep 2026 20:13:58 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 03 Sep 2026 00:08:41 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bosa Practiced. Everybody Practiced. Now Get on the Plane.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</guid>
+    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Nick Bosa practiced fully for the first time since August 3, Kittle went a third straight day, Evans and Juszczyk returned, and the 49ers fly to Australia tonight.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Kittle Practiced. Bosa Didn&#39;t. Melbourne Is Nine Days Away.</title>
     <link>https://bayareasportsblog.com/articles/49ers-kittle-practicing-bosa-not-australia-travel-question.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>The Warriors depth chart for 2026-27: the projected starters, the bench behind them, where Jimmy Butler and Moses Moody fit, and where this roster runs out.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>When Were the San Jose Sharks Founded? The Full Origin Story</title>
-    <link>https://bayareasportsblog.com/articles/when-were-the-san-jose-sharks-founded.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/when-were-the-san-jose-sharks-founded.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Sharks</category>
-    <description>The San Jose Sharks were founded on 9 May 1990 and began play in 1991-92. The Gund brothers, the North Stars swap, the Cow Palace years and how they got the name.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/when-were-the-san-jose-sharks-founded.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
