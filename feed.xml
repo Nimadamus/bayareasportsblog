@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 03 Sep 2026 00:08:41 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 04 Sep 2026 01:18:42 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Two Hits. The Giants Got Two Hits in Pittsburgh and I Watched Every Pitch</title>
+    <link>https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</guid>
+    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Pirates 5, Giants 2 at PNC Park. Tidwell walked five, six Pittsburgh arms held San Francisco to two hits, and the season is functionally over at 58 and 83.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-pirates-5-2-two-hits-bases-loaded-walks.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Bosa Practiced. Everybody Practiced. Now Get on the Plane.</title>
     <link>https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Our projected Warriors rotation for 2026-27: the ten men who play, the minutes each should get, who closes, and what changes when Jimmy Butler is back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-projected-rotation.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Warriors Depth Chart 2026-27: Every Position, Explained</title>
-    <link>https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-2026-27-roster-depth-chart.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>The Warriors depth chart for 2026-27: the projected starters, the bench behind them, where Jimmy Butler and Moses Moody fit, and where this roster runs out.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-roster-depth-chart.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
