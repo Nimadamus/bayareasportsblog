@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02</news:publication_date>
-      <news:title>Bosa Practiced. Everybody Practiced. Now Get on the Plane.</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</loc>
     <news:news>
       <news:publication>
@@ -21,6 +10,17 @@
       </news:publication>
       <news:publication_date>2026-09-04</news:publication_date>
       <news:title>Niners Landed in Melbourne and I Don't Know What Day It Is</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-05</news:publication_date>
+      <news:title>Rafael Devers Is Carrying a 58 Win Team on His Back</news:title>
     </news:news>
   </url>
   <url>

@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 05 Sep 2026 01:10:51 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 22:48:30 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Rafael Devers Is Carrying a 58 Win Team on His Back</title>
+    <link>https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</guid>
+    <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants October Watch</category>
+    <description>Rafael Devers hit two more home runs and the Giants hit six in a 9-5 beating of the Mets at Citi Field. Since August 24 he is hitting .420 with 9 homers and 21 RBI.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/devers-tear-giants-9-mets-5-six-homers-citi-field.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Niners Landed in Melbourne and I Don&#39;t Know What Day It Is</title>
     <link>https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Josuar Gonzalez is 18, a switch-hitting shortstop ranked as high as seventh in baseball, and he is hitting .339 at Low-A San Jose. Why Giants fans should care.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>San Jose Sharks Playoff History: Every Run, Year by Year</title>
-    <link>https://bayareasportsblog.com/articles/sharks-playoff-history.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-playoff-history.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Sharks</category>
-    <description>The complete San Jose Sharks playoff history: all 21 postseason trips, the 1994 upset, the 2016 Stanley Cup Final, the 2019 comeback and the drought since.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-playoff-history.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
