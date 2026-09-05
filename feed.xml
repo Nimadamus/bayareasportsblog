@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 04 Sep 2026 01:18:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 01:10:51 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Niners Landed in Melbourne and I Don&#39;t Know What Day It Is</title>
+    <link>https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</guid>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers landed in Melbourne after a 15 hour charter flight and a 17 hour time difference, nine days before the Week 1 opener against the Rams at the MCG.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Two Hits. The Giants Got Two Hits in Pittsburgh and I Watched Every Pitch</title>
     <link>https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</link>
@@ -358,15 +367,6 @@
     <category>Sharks</category>
     <description>The complete San Jose Sharks playoff history: all 21 postseason trips, the 1994 upset, the 2016 Stanley Cup Final, the 2019 comeback and the drought since.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-playoff-history.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Warriors Projected Rotation 2026-27: Who Actually Plays</title>
-    <link>https://bayareasportsblog.com/articles/warriors-2026-27-projected-rotation.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-2026-27-projected-rotation.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>Our projected Warriors rotation for 2026-27: the ten men who play, the minutes each should get, who closes, and what changes when Jimmy Butler is back.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-projected-rotation.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

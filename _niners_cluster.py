@@ -1646,6 +1646,96 @@ dict(slug='49ers-bosa-practices-everybody-on-the-field-wheels-up-australia',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers Roster',
                'The 2026 49ers Roster and Depth Chart')]),
+# ------------------------------------------------------- landed in Melbourne
+dict(slug='49ers-landed-melbourne-15-hour-flight-17-hour-time-difference',
+     section='49ers', tag='49ers', hub='49ers',
+     title="Niners Landed in Melbourne and I Don't Know What Day It Is",
+     h1="The Niners Are on the Ground in Melbourne, 15 Hours in the Air and 17 Hours Ahead of Us",
+     dek="A Qantas A380 charter put 200 of them down at 7:50 in the morning Melbourne time, "
+         "which was Thursday afternoon at my desk. Shanahan wanted nine days for a reason. "
+         "The Rams are doing the opposite.",
+     desc="The 49ers landed in Melbourne after a 15 hour charter flight and a 17 hour time "
+          "difference, nine days before the Week 1 opener against the Rams at the MCG.",
+     date='2026-09-04',
+     card=('49ers', 'Wheels Down', "Melbourne, 7:50 a.m., 17 hours ahead of the Bay"),
+     body=[
+      "<b>They're there.</b> Wheels down at Melbourne Airport at 7:50 in the morning, Friday, "
+      "local time, which was Thursday afternoon here while I was pretending to read an email. "
+      "Qantas A380, the whole traveling party, roughly 200 people, 7,855 miles, a little over "
+      "15 hours in the air. The Niners are in Australia. I've typed that sentence four times "
+      "now and it still doesn't sound like a real thing my football team did.",
+
+      "Australia. Actual Australia.",
+
+      "Seventeen hours ahead. I sat there with my phone doing the arithmetic like an idiot, "
+      "because 17 is the number that breaks your brain. It isn't just a different clock, it "
+      "flips the day on you. When they're at practice in the Melbourne morning, I'm asleep. "
+      "When I'm eating lunch, they're already into the next night. My group chat spent twenty "
+      "minutes arguing about whether Friday over there is Thursday here before somebody "
+      "finally posted a screenshot of the world clock and shut everybody up. It was me. I "
+      "posted it. I'd looked it up three times to be sure.",
+
+      "Nine days early, and Shanahan didn't dress it up. \"The people we've talked to, you "
+      "don't feel normal until like the third or fourth day,\" he said when they were still "
+      "planning this. \"So, we'd like to go out seven days early. But since it takes a day and "
+      "a half to travel there, we're going to go nine.\" That's the entire strategy. Get the "
+      "bodies over there, let them be miserable early in an empty week, and be normal humans "
+      "by the time it counts.",
+
+      "The Rams are doing the exact opposite and it's making me nervous. They don't fly until "
+      "the 9th. They land Thursday evening over there, about a day before kickoff, and the "
+      "whole idea is to never leave Pacific time at all. Wake up on the west coast clock, play "
+      "the game on the west coast clock, go home. If it works, every team in this league copies "
+      "it inside a year and our nine day camping trip looks like we overthought it. If it "
+      "doesn't work, they're going to look like men sleepwalking through the second half.",
+
+      "I have no idea which one is right. Neither does anybody else, that's the fun part.",
+
+      "Keion White is handling the flight the way I would have. \"I don't know if you can OD "
+      "on melatonin, but I'm gonna try,\" he said before they left. \"Take like five melatonin, "
+      "go to sleep on the plane. Soon as I wake up, I'm taking five more, and keep it rolling "
+      "like that.\" Five. Then five more. I laughed out loud at that and then remembered I take "
+      "one gummy and feel like I've been hit with a shovel.",
+
+      "The names that matter were on the plane. Kittle got on it, Bosa got on it, after a "
+      "summer where I aged a decade watching both of them do walkthroughs in bucket hats. "
+      "Sam Okuayinonu is the one who's out, a foot, and he had three sacks last year so that's "
+      "a real subtraction off the rotation, but I'm not going to lie to you and pretend that's "
+      "what I've been staring at.",
+
+      "Both of them got on the plane. That's the update and it's enough.",
+
+      "They practice light Saturday morning over there, which is Friday for us, and then the "
+      "normal game week routine doesn't start until Monday. So there's this weird floating "
+      "weekend where the team is on the other side of the planet doing basically nothing on "
+      "purpose. Walking around. Eating at the wrong times. Standing in the sun so their bodies "
+      "figure out it's daytime.",
+
+      "Then it's the MCG. Friday afternoon in Melbourne, Thursday night here, 5:35 Pacific, "
+      "and the whole thing lands on Netflix. Which means I'm watching a 49ers season opener "
+      "on a Thursday, before dinner, on a streaming service, from a cricket ground with a "
+      "hundred thousand seats in it. Nothing about that sentence existed when I started "
+      "caring about this team.",
+
+      "The 155th time they've played the Rams. The third time it's been Week 1. First time "
+      "either franchise has done it in a country where the game starts before anybody here "
+      "gets home from work.",
+
+      "I'm not sleeping right this week either and I never left the house. Full slate on the "
+      "{schedule}, the bodies on the {roster}, the night they left is in {wheels}, and the "
+      "rest of this summer is on the {hub}.",
+     ],
+     links={'wheels': ('49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html',
+                       "the wheels up column"),
+            'schedule': ('49ers-2026-schedule-season-hub.html', '2026 schedule hub'),
+            'roster': ('49ers-2026-roster-depth-chart.html', 'roster and depth chart'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html', '49ers',
+               'Bosa Practiced, Wheels Up for Australia'),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
 ]
 
 

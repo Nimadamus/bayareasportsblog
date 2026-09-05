@@ -190,6 +190,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
