@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 05 Sep 2026 22:48:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 04:11:40 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>One Hit in Seattle, and Gage Jump Deserved a Lot Better Than That</title>
+    <link>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</guid>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Mariners 2, Athletics 0 at T-Mobile Park. Bryan Woo went eight innings on one hit, Gage Jump struck out seven in four and took the loss anyway, and the A&#39;s fall to 57 and 87.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-mariners-2-0-bryan-woo-one-hitter.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Cesar Perdomo Gave Us Six Shutout Innings and the Eighth Took It Away</title>
+    <link>https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</guid>
+    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Mets 4, Giants 2 at Citi Field. Cesar Perdomo threw six scoreless, Jung Hoo Lee&#39;s two run single held up into the eighth, and then Carson Seymour gave up two homers in four batters.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Rafael Devers Is Carrying a 58 Win Team on His Back</title>
     <link>https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</link>
@@ -349,24 +367,6 @@
     <category>Cal</category>
     <description>The Cal basketball schedule for 2026-27: the announced non conference games, every ACC opponent home and away, and the 2025-26 results for reference.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-basketball-schedule-2026-27.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Guardians 8, Giants 1: Eldridge Homered, Nothing Else Happened</title>
-    <link>https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Guardians 8, Giants 1 in Cleveland: Bryce Eldridge homered for his 14th, Jo Adell drove in six, and one run was the entire Giants offense. They are 51-74.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Josuar Gonzalez Is the Best Giants Prospect in a Generation</title>
-    <link>https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Josuar Gonzalez is 18, a switch-hitting shortstop ranked as high as seventh in baseball, and he is hitting .339 at Low-A San Jose. Why Giants fans should care.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/josuar-gonzalez-giants-top-prospect-18-year-old-shortstop.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

@@ -13,6 +13,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-06</news:publication_date>
+      <news:title>One Hit in Seattle, and Gage Jump Deserved a Lot Better Than That</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</loc>
     <news:news>
       <news:publication>
@@ -24,14 +35,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</loc>
+    <loc>https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-03</news:publication_date>
-      <news:title>Two Hits. The Giants Got Two Hits in Pittsburgh and I Watched Every Pitch</news:title>
+      <news:publication_date>2026-09-06</news:publication_date>
+      <news:title>Cesar Perdomo Gave Us Six Shutout Innings and the Eighth Took It Away</news:title>
     </news:news>
   </url>
 </urlset>
