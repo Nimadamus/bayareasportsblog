@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 07 Sep 2026 17:41:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 23:53:32 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Quiet Part About the Yorks Is Getting Loud Around the League</title>
+    <link>https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>League people are talking openly about 49ers ownership, the York family and a front office that lost its most important operator. What it means for 2026.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/york-family-49ers-ownership-turmoil-what-the-league-is-saying.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>One Hit in Seattle, and Gage Jump Deserved a Lot Better Than That</title>
     <link>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</link>
@@ -358,15 +367,6 @@
     <category>Cal</category>
     <description>The full Cal Golden Bears 2026 football schedule: every game, date, kickoff time and TV network, from the UCLA opener to the Big Game on 21 November.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-2026-schedule-game-by-game-acc.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Cal Basketball Schedule 2026-27: Every Game Announced</title>
-    <link>https://bayareasportsblog.com/articles/cal-basketball-schedule-2026-27.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/cal-basketball-schedule-2026-27.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Cal</category>
-    <description>The Cal basketball schedule for 2026-27: the announced non conference games, every ACC opponent home and away, and the 2025-26 results for reference.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-basketball-schedule-2026-27.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

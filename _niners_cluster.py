@@ -1736,6 +1736,99 @@ dict(slug='49ers-landed-melbourne-15-hour-flight-17-hour-time-difference',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers Roster',
                'The 2026 49ers Roster and Depth Chart')]),
+# ------------------------------------------------------- 20. the York family, league chatter
+dict(slug='york-family-49ers-ownership-turmoil-what-the-league-is-saying',
+     section='49ers', tag='49ers', hub='49ers',
+     title='The Quiet Part About the Yorks Is Getting Loud Around the League',
+     h1="Nobody Around the League Is Whispering About the Yorks Anymore",
+     dek="The people who run other teams have started saying it out loud, and what they "
+         "are saying has nothing to do with the depth chart.",
+     desc="League people are talking openly about 49ers ownership, the York family and a "
+          "front office that lost its most important operator. What it means for 2026.",
+     date='2026-09-07',
+     card=('49ers', 'Something Is Off There', 'The Yorks, the front office, and the part nobody says on camera'),
+     body=[
+      "I've spent about fifteen years defending this ownership to people at work and I'm "
+      "starting to run low on material. Not because of the record. The record has been fine, "
+      "better than fine, four straight winters where January meant something. It's the other "
+      "stuff. The stuff that has nothing to do with football and keeps landing anyway.",
+
+      "There's a sentence going around the league right now that I can't get out of my head. "
+      "Something is off there. They are slipping. That's a guy who runs another football team "
+      "saying that about us, not a radio caller, not somebody with a podcast to feed. When "
+      "the people whose whole job is evaluating other organizations start saying that in the "
+      "same week, it isn't noise anymore.",
+
+      "And the scouts have their own version of it, which is simpler and colder. Old at the "
+      "premium spots. That's the phrase. Edge, tackle, corner, the places you pay for, and "
+      "the honest read from outside the building is that we're a year or two past the peak "
+      "there. I don't fully agree. I also can't tell you they're wrong, and that gap is where "
+      "I've been living since August.",
+
+      "Then August happened to Jed.",
+
+      "I'm not going to do the moral column. Plenty of people already did. What I'll say is "
+      "what a fan actually thinks about at two in the morning, which is that the owner of my "
+      "football team got arrested in a sting in a small town in Ohio, pleaded it down, paid "
+      "his fine, and went back to running an organization worth somewhere north of eight "
+      "billion dollars. The football part of me wants to file that under none of my business. "
+      "The other part of me knows exactly how that plays in a building where two hundred "
+      "people are supposed to take direction from him.",
+
+      "Somebody who used to work there put it about as bluntly as you can. It's ugly inside "
+      "the family right now. They're scrambling. And the part that stuck with me: there was "
+      "weird stuff going on before any of it hit the news.",
+
+      "The item that actually scares me is the least dramatic one on the list. Paraag "
+      "Marathe is gone from the football side.",
+
+      "Not fired. Not disgraced. He walked over to the soccer holdings, which is a real job "
+      "and a growing one, and on paper it reads like a promotion in a different direction. "
+      "But that man ran the cap, ran the contracts, ran the negotiations that let us keep a "
+      "roster together that by every rule of the modern salary cap should have come apart "
+      "three years ago. Twenty plus years of institutional memory in one head. When that "
+      "leaves, nothing breaks on Sunday. It breaks in March. It breaks in a June restructure "
+      "nobody notices for two seasons.",
+
+      "So you've got an owner with a personal crisis, a family that's reportedly at each "
+      "other's throats, the most capable operator in the building moved off football, and a "
+      "roster that outside evaluators think is aging at the exact positions you can't be old "
+      "at. Any one of those, fine, every franchise has one. Stack them and you understand why "
+      "other teams are talking.",
+
+      "My dad texted me one line about it. Ask who's actually in charge. I still don't have a "
+      "clean answer for him and I've been paying attention full time.",
+
+      "The thing I keep coming back to is that dysfunction at the top never shows up when you "
+      "expect it to. Nobody drops a pass because ownership is a mess. It shows in who you "
+      "don't sign, in a coach who has to spend Tuesday managing sideways instead of managing "
+      "his defense, in an agent who tells his guy to take the other offer because that "
+      "building feels unsettled right now. That's slow damage. You only see it in the "
+      "standings two years later, when the reasons are impossible to trace.",
+
+      "The word slipping is the one that got me, honestly. Not failing. Not broken. Slipping. "
+      "It's the word you use for a place that still looks the same from the parking lot.",
+
+      "And Thursday we open the season on the other side of the planet at a cricket ground "
+      "against the Rams, before dinner, and I'll be on the couch at 5:35 with a plate on my "
+      "knee pretending none of this is in my head. It will be. Kyle's got the season he "
+      "{ring}, the bodies are in the {roster}, the whole run is on the {schedule}, and the "
+      "rest of it is on the {hub}.",
+
+      "I want to be wrong about this one. I've never wanted to be wrong about something less.",
+     ],
+     links={'ring': ('kyle-shanahan-needs-to-win-the-ring-this-year-2026.html',
+                     "needs and everybody knows it"),
+            'schedule': ('49ers-2026-schedule-season-hub.html', '2026 schedule hub'),
+            'roster': ('49ers-2026-roster-depth-chart.html', 'roster and depth chart'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('kyle-shanahan-needs-to-win-the-ring-this-year-2026.html', '49ers',
+               'Shanahan Needs the Ring This Year'),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
+
 ]
 
 
