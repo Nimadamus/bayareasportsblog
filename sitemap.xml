@@ -183,11 +183,16 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/daily/index.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <loc>https://bayareasportsblog.com/daily/2026-09-07.html</loc>
+    <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/daily/index.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</loc>

@@ -13,7 +13,9 @@ import json, os, sys, urllib.request, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DAILY = os.path.join(ROOT, "daily")
-UA = {"User-Agent": "Mozilla/5.0 (BayAreaSportsBlog daily digest)"}
+# ESPN started returning 403 to browser style user agents on 2026-09-07. A plain
+# library user agent still answers, so do not put "Mozilla" back in here.
+UA = {"User-Agent": "python-requests/2.31"}
 
 # sport/league, ESPN team abbrev (schedule/team endpoints), ESPN news team id, display, accent
 TEAMS = [
