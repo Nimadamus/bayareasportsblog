@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 07 Sep 2026 23:53:32 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 08:15:32 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Jeff McNeil Hit a Ground Ball Sixty Feet and We Beat the Blue Jays</title>
+    <link>https://bayareasportsblog.com/articles/athletics-bluejays-6-5-walkoff-mcneil-bolte.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-bluejays-6-5-walkoff-mcneil-bolte.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>A&#39;s 6, Blue Jays 5 in Sacramento. Henry Bolte reached four times, Zack Gelof drove in two, Dylan Cease got beat up, Andres Gimenez tied it in the ninth and Jeff McNeil ended it with the bases loaded.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-bluejays-6-5-walkoff-mcneil-bolte.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The Bullpen Gave It Back Twice and Devers and Eldridge Won It Anyway</title>
+    <link>https://bayareasportsblog.com/articles/giants-cardinals-5-4-eleven-innings-devers-eldridge.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-cardinals-5-4-eleven-innings-devers-eldridge.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Giants 5, Cardinals 4 in eleven innings at Oracle Park. Logan Webb went six, the ninth got away again, Rafael Devers and Bryce Eldridge kept dragging us back, and Shay Whitcomb walked it off.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-cardinals-5-4-eleven-innings-devers-eldridge.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The Quiet Part About the Yorks Is Getting Loud Around the League</title>
     <link>https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</link>
@@ -349,24 +367,6 @@
     <category>Athletics</category>
     <description>Royals 4, Athletics 3 at Kauffman Stadium: the A&#39;s led 3-1 into the ninth, Hogan Harris gave up three, Bobby Witt Jr. walked it off, and the A&#39;s fall to 49-77.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-royals-4-3-ninth-inning-collapse-witt-walkoff-august-18.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Barry Bonds and the Giants: The Years, the Numbers, the Argument</title>
-    <link>https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/barry-bonds-giants-home-run-king.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Barry Bonds played fifteen seasons for the Giants and hit 586 of his 762 home runs here. The 73 home run year, the 2002 World Series, and the argument.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/barry-bonds-giants-home-run-king.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Cal Football Schedule 2026: Every Game, Date, Time and TV</title>
-    <link>https://bayareasportsblog.com/articles/cal-2026-schedule-game-by-game-acc.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/cal-2026-schedule-game-by-game-acc.html</guid>
-    <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Cal</category>
-    <description>The full Cal Golden Bears 2026 football schedule: every game, date, kickoff time and TV network, from the UCLA opener to the Big Game on 21 November.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-2026-schedule-game-by-game-acc.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
