@@ -13,6 +13,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-rams-week-1-preview-melbourne-what-to-watch.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-10</news:publication_date>
+      <news:title>49ers at Rams, Week 1 in Melbourne: What Actually Decides It</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/athletics-bluejays-4-2-okamoto-cortes-walton.html</loc>
     <news:news>
       <news:publication>
@@ -35,17 +46,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-06</news:publication_date>
-      <news:title>One Hit in Seattle, and Gage Jump Deserved a Lot Better Than That</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/giants-cardinals-2-1-roupp-eldridge-koss.html</loc>
     <news:news>
       <news:publication>
@@ -65,28 +65,6 @@
       </news:publication>
       <news:publication_date>2026-09-08</news:publication_date>
       <news:title>The Bullpen Gave It Back Twice and Devers and Eldridge Won It Anyway</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-06</news:publication_date>
-      <news:title>Cesar Perdomo Gave Us Six Shutout Innings and the Eighth Took It Away</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07</news:publication_date>
-      <news:title>The Quiet Part About the Yorks Is Getting Loud Around the League</news:title>
     </news:news>
   </url>
 </urlset>

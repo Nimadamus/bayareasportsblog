@@ -261,7 +261,7 @@ dict(slug='49ers-2026-schedule-season-hub',
       "season game in Melbourne, at the Cricket Ground, kicking off at 5:35pm Pacific on "
       "a Thursday. A divisional road game on the other side of the planet to start the "
       "year is a genuinely strange piece of scheduling and {melbourne} gets into what it "
-      "costs.",
+      "costs. The game itself is broken down in {wk1}.",
       "<b>Week 2: Miami at Levi's.</b> The home opener, and the first chance to see "
       "whatever this offense becomes in front of its own crowd after a trip halfway "
       "around the world.",
@@ -293,6 +293,8 @@ dict(slug='49ers-2026-schedule-season-hub',
       "coverage is on the {hub}.",
      ],
      links={'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'our Melbourne piece'),
+            'wk1': ('49ers-rams-week-1-preview-melbourne-what-to-watch.html',
+                    'our Week 1 preview'),
             'harbaugh': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
                          'the Harbaugh reunion'),
             'sofi': ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html',
@@ -1827,6 +1829,106 @@ dict(slug='york-family-49ers-ownership-turmoil-what-the-league-is-saying',
               ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers Roster',
+               'The 2026 49ers Roster and Depth Chart')]),
+
+# --------------------------------------------- Week 1 preview, Thursday 10 September 2026
+dict(slug='49ers-rams-week-1-preview-melbourne-what-to-watch',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers at Rams, Week 1 in Melbourne: What Actually Decides It',
+     h1="49ers at Rams in Melbourne: The Defensive Line Is Half Gone and I Cannot Stop Thinking About It",
+     dek="Week 1 at the Melbourne Cricket Ground, 5:35pm Pacific on a Thursday, on "
+         "Netflix. The Rams are 3.5 point favourites on a neutral field. Here is the "
+         "matchup, the injury list nobody wants to look at, and the number that decides "
+         "the night.",
+     desc="A 49ers at Rams Week 1 preview from Melbourne: the defensive line injuries, "
+          "the 3.5 point line on a neutral field, and what to watch at 5:35pm Pacific.",
+     date='2026-09-10',
+     card=('49ers', 'Week 1: Melbourne', 'The line is 3.5 and the defensive line is half gone'),
+     body=[
+      "It's Thursday afternoon and the 49ers season starts at 5:35, which means I'm going "
+      "to be watching football before I've finished being annoyed about the commute. "
+      "Netflix has it. The game is at the Melbourne Cricket Ground, it's already Friday "
+      "morning where they are, and if you think about that for too long you'll give "
+      "yourself a headache, so don't. {melbourne} did the travel math back in August and "
+      "it hasn't gotten any friendlier since.",
+      "And it isn't the flight I can't get past.",
+      "It's the defensive line. Alfred Collins is on injured reserve with a knee. Mykel "
+      "Williams is out with a torn ACL. Sam Okuayinonu is on IR with a foot. James "
+      "Thompson Jr is questionable with a hamstring. That's four bodies off the interior "
+      "and the edge before a single snap of the season, and Nate Hobbs is on IR with a "
+      "groin on top of it, so the corner room got thinner too.",
+      "Now look at who's on the other side. The Rams scored 518 points last season. Five "
+      "hundred and eighteen. The 49ers scored 437 and I remember that offense being fine. "
+      "Los Angeles put up eighty one more points than we did across seventeen games, and "
+      "the way you slow that down is by making the quarterback uncomfortable, and the "
+      "guys whose job that is are mostly in a training room in Santa Clara.",
+      "Before anybody writes in: yes, Bosa is fine. He practiced fully before the plane "
+      "left and {bosa} covered it, and every name you actually know made the trip. That's "
+      "the point. Bosa being healthy was supposed to be the good news, and instead he's "
+      "going to spend Thursday being the only guy on that line the Rams have to account "
+      "for. One man can be doubled. Ask anyone who watched 2023.",
+      "I've been saying since camp that this roster is one hamstring away from being a "
+      "different team. It turned out to be four.",
+      "So about that number. The Rams are laying 3.5 with the total at 48.5, and ESPN's model "
+      "has them at 60.3 percent to win it. Fine. But read the 3.5 properly, because this "
+      "is the part everybody's getting wrong today: <b>nobody is at home.</b> The Rams are "
+      "the designated home team on the schedule and they're playing on a cricket ground "
+      "eight thousand miles from Inglewood. There's no crowd advantage to hand out. That "
+      "3.5 isn't a home number with a road team getting points, it's the market saying "
+      "flat out that Los Angeles is the better football team right now.",
+      "Maybe it is. I don't have to like it.",
+      "Last year says two things and they don't agree. Both clubs finished 12-5. They split "
+      "the series and the two games looked nothing alike. San Francisco won 26 to 23 in "
+      "Los Angeles in week 5, which is the closest thing either team has to a road result "
+      "against the other and it went our way by a field goal. Then in week 10 the Rams "
+      "came to Santa Clara and hung 42 on us. Forty two. I turned that one off in the "
+      "third quarter and then lied about it to a guy at work on Monday.",
+      "So the honest read of the head to head is that we can beat them somewhere that "
+      "isn't home, and they can bury us somewhere that is. Melbourne is neither.",
+      "<b>What to watch, in order.</b>",
+      "One. The first two Rams drives. If they walk down the field without a third down "
+      "worth mentioning, the defensive line story is the whole season and not just the "
+      "whole night, and you'll know inside ten minutes.",
+      "Two. Whether Shanahan leans on the run early. A short field and a clock that runs "
+      "is how you protect a defense that can't get off the field, and it's also how you "
+      "keep a team that just crossed the international date line from having to play a "
+      "track meet.",
+      "Three. Third and long. That's where a thin front either shows up or doesn't. If "
+      "we're getting pressure with four on obvious passing downs, somebody in that room "
+      "has taken a step and the year looks different.",
+      "Four. Purdy's first quarter. He needs a handful of attempts to qualify for the "
+      "career passer rating record and it lands around game five, which {purdy} has been "
+      "tracking. Tonight isn't about the record. It's about whether he looks like a guy "
+      "who slept.",
+      "One more thing, and hardly anybody is saying it out loud. This is a divisional road game. In September. "
+      "Against the team most likely to take the West. Those are worth more than one "
+      "sixteenth of a season and everybody in that building knows it, which is a strange "
+      "amount of weight to hang on a game that half the country will watch at lunchtime "
+      "on a Friday in Australia.",
+      "I think we cover and lose. That's my honest read and I've been wrong about this "
+      "team in both directions for three years running. What I'd actually take is the "
+      "under, because two teams on nine hours of sleep in a stadium built for a different "
+      "sport is not usually where 49 points comes from.",
+      "Reaction goes up after the whistle either way. The week by week is on the {sched}, "
+      "who's actually available is on the {depth}, the structural version of all this is "
+      "in the {preview}, and everything else lives on the {hub}.",
+      "5:35. Netflix. Try to be somewhere you can yell.",
+     ],
+     links={'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html',
+                          'our Melbourne piece'),
+            'bosa': ('49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html',
+                     'the last practice before the flight'),
+            'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html', 'the Purdy page'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'preview': ('49ers-2026-season-preview-roster-schedule-questions.html',
+                        'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-rams-melbourne-nfl-first-game-australia.html', '49ers',
+               'The NFL Is Opening the 49ers Season in Melbourne'),
+              ('49ers-2026-schedule-season-hub.html', '49ers Schedule',
+               'The 2026 49ers Schedule, Week by Week'),
+              ('49ers-2026-roster-depth-chart.html', '49ers',
                'The 2026 49ers Roster and Depth Chart')]),
 
 ]

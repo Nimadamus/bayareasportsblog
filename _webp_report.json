@@ -1,9 +1,9 @@
 {
- "mode": "check",
+ "mode": "applied",
  "quality": 82,
- "webp_files": 14,
- "wrappers": 609,
- "pages": 145,
- "jpeg_bytes": 43604962,
- "webp_bytes": 18304818
+ "webp_files": 1,
+ "wrappers": 752,
+ "pages": 190,
+ "jpeg_bytes": 52887359,
+ "webp_bytes": 22436728
 }

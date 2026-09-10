@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 09 Sep 2026 05:29:27 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 10 Sep 2026 23:16:52 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers at Rams, Week 1 in Melbourne: What Actually Decides It</title>
+    <link>https://bayareasportsblog.com/articles/49ers-rams-week-1-preview-melbourne-what-to-watch.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-rams-week-1-preview-melbourne-what-to-watch.html</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>A 49ers at Rams Week 1 preview from Melbourne: the defensive line injuries, the 3.5 point line on a neutral field, and what to watch at 5:35pm Pacific.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-rams-week-1-preview-melbourne-what-to-watch.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Alfred Collins Tore His Patellar Tendon and His Season Is Over</title>
     <link>https://bayareasportsblog.com/articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Guardians 5, Giants 2: Gavin Williams struck out eleven, Willy Adames hit a 418 foot two run homer, and San Francisco still left Cleveland with the series.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Raiders 22, Texans 20: The No. 1 Pick Threw a Pick Six</title>
-    <link>https://bayareasportsblog.com/articles/raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20.html</guid>
-    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Raiders</category>
-    <description>Raiders 22, Texans 20: Fernando Mendoza threw a pick six on his third pass and Aidan O&#39;Connell snuck one in from a yard out with fourteen seconds left.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-texans-22-20-oconnell-mendoza-pick-six-preseason-august-20.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
