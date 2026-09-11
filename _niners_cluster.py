@@ -261,7 +261,7 @@ dict(slug='49ers-2026-schedule-season-hub',
       "season game in Melbourne, at the Cricket Ground, kicking off at 5:35pm Pacific on "
       "a Thursday. A divisional road game on the other side of the planet to start the "
       "year is a genuinely strange piece of scheduling and {melbourne} gets into what it "
-      "costs. The game itself is broken down in {wk1}.",
+      "costs. The game itself is broken down in {wk1}, and the reaction is in {wk1r}. <b>Final: 49ers 27, Rams 7.</b>",
       "<b>Week 2: Miami at Levi's.</b> The home opener, and the first chance to see "
       "whatever this offense becomes in front of its own crowd after a trip halfway "
       "around the world.",
@@ -295,6 +295,8 @@ dict(slug='49ers-2026-schedule-season-hub',
      links={'melbourne': ('49ers-rams-melbourne-nfl-first-game-australia.html', 'our Melbourne piece'),
             'wk1': ('49ers-rams-week-1-preview-melbourne-what-to-watch.html',
                     'our Week 1 preview'),
+            'wk1r': ('49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html',
+                     '49ers 27, Rams 7'),
             'harbaugh': ('49ers-chargers-thursday-harbaugh-return-kittle-achilles-recovery.html',
                          'the Harbaugh reunion'),
             'sofi': ('49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html',
@@ -1930,6 +1932,223 @@ dict(slug='49ers-rams-week-1-preview-melbourne-what-to-watch',
                'The 2026 49ers Schedule, Week by Week'),
               ('49ers-2026-roster-depth-chart.html', '49ers',
                'The 2026 49ers Roster and Depth Chart')]),
+
+# --------------------------------------------- Week 1 reaction, Melbourne, 10 September 2026
+dict(slug='49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers 27, Rams 7: The Best Night This Team Has Had In Years',
+     h1="49ers 27, Rams 7 In Melbourne, And I Think We Just Watched The Best Team In Football",
+     dek="Brock Purdy threw a bad interception in the second quarter and then threw three "
+         "touchdowns. The defense held the reigning MVP to 155 yards, stuffed a sneak on "
+         "fourth and goal from the one, and never let the Rams take a breath. One hundred "
+         "thousand people at the Melbourne Cricket Ground watched us take apart the team "
+         "everybody picked to win the West.",
+     desc="49ers 27, Rams 7 at the Melbourne Cricket Ground: Purdy's three touchdowns, "
+          "the goal-line stand, the 99-yard answer and a defense that smothered Stafford.",
+     date='2026-09-10',
+     card=('49ers', 'Niners 27 Rams 7', 'Three Purdy touchdowns and a defense that never blinked'),
+     body=[
+      "I set an alarm for a football game and I'd do it again tomorrow.",
+      "5:35 on a Thursday, a cricket ground in Melbourne, a team I've spent three years "
+      "arguing about with people who don't care, and the 49ers went down there and took "
+      "the Los Angeles Rams apart 27 to 7. Not a squeaker. Not one of those wins where "
+      "you spend Friday explaining why it counts. They beat the club that everybody, "
+      "including me, spent all summer saying was going to win this division, and for "
+      "about three quarters of it the Rams looked like they were playing in sand.",
+      "I wrote {preview} before kickoff. I said I thought we'd cover and lose. I want "
+      "that on the record, because I have never been happier to be this wrong.",
+      """<figure style="margin:0 0 30px;text-align:center">
+    <picture><source type="image/webp" srcset="../assets/img/players/melbourne-cricket-ground.webp"><img src="../assets/img/players/melbourne-cricket-ground.jpg" alt="The Melbourne Cricket Ground, site of the first NFL regular season game played in Australia" width="1520" height="806" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;border-radius:12px;border:1px solid var(--line)"></picture>
+    <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">The Melbourne Cricket Ground, pictured on an AFL Grand Final day. 100,021 turned up for the NFL's first game there, the seventh biggest crowd in the history of the regular season.</figcaption>
+  </figure>""",
+      "One hundred thousand and twenty one people. In Australia. In September. That's the "
+      "seventh largest regular season crowd this league has ever drawn and it got pulled "
+      "out of a country that mostly watches a completely different game on that exact "
+      "field. You could hear the place every single time Deebo touched the ball, which is "
+      "a sentence I didn't expect to be typing this week.",
+      "<b>The interception first, because that's where the night actually turned.</b>",
+      "Second quarter, we're down 7 to 3, Purdy drops back on a short right and tries to "
+      "put it on George Kittle, and Quentin Lake reads the whole thing the entire way. "
+      "Picked off at the Los Angeles 31. It wasn't tipped, it wasn't a miscommunication, "
+      "it wasn't bad luck. He threw it to the wrong guy, and I said something out loud "
+      "that I'm not going to repeat here, because I've watched this exact quarterback get "
+      "eaten alive for a week over a throw like that.",
+      "Three minutes and six seconds later, Matthew Stafford went deep right for Puka "
+      "Nacua and Renardo Green took it off him at our own 14.",
+      "That's the game. The whole thing, right there. The reigning MVP had the football in "
+      "a two score spot and our defense just refused to let him have it, and from the "
+      "second Green came down with that ball the Rams never led again and never scored "
+      "again. Nine plays, 86 yards, four and a half minutes, and Purdy put a 39 yard "
+      "touchdown on Demarcus Robinson right down the middle of the field. 10 to 7. The guy "
+      "who'd thrown the pick answered it with a bomb.",
+      """<figure style="margin:0 0 30px;text-align:center">
+    <picture><source type="image/webp" srcset="../assets/img/players/brock-purdy-49ers.webp"><img src="../assets/img/players/brock-purdy-49ers.jpg" alt="Brock Purdy of the San Francisco 49ers" width="903" height="1205" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+    <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">25 of 34, 205 yards, three touchdowns, one bad one, a 105.6 rating. He also ran it five times for 29 yards and kept the 99-yard drive breathing with his legs.</figcaption>
+  </figure>""",
+      "Purdy finished 25 of 34 for 205 yards and three scores. The yardage total is going "
+      "to bother somebody on the internet today and that person hasn't thought about it "
+      "for more than four seconds. We ran 64 plays, held the ball for 33 minutes and 50 "
+      "seconds and won by twenty. You don't need 320 through the air when you're playing "
+      "keep away from a team that scored 518 points last season.",
+      "<b>Now the play I'll still be chewing on in December.</b>",
+      "Third quarter, we're up 17 to 7, and the Rams finally strung something together. "
+      "Twelve plays. Seventy two yards. Seven minutes and twenty two seconds off the "
+      "clock, which is exactly the kind of possession that drags a team back into a game "
+      "it has no business being in. Nacua for 23 over the middle. Davante Adams for 13 "
+      "down to the 11. Kyren Williams grinding it inside. They got to first and goal from "
+      "the nine, then second and goal from the three, then third and goal from the two, "
+      "and on third down Stafford dropped a little one to Nacua that got them to the one.",
+      "Fourth and goal. From the one. Sean McVay left his offense out there.",
+      "Stafford went under center and tried to sneak it behind Kevin Dotson, and Osa "
+      "Odighizuwa and Gracen Halton got underneath the entire play and stopped it dead. "
+      "No push. No pile moving. They put the reigning MVP on the ground half a yard short "
+      "in front of a hundred thousand people and handed us the football at our own one "
+      "inch line.",
+      "I was standing up. I don't remember standing up.",
+      "And then, because apparently this is who we are now, the 49ers took that ball at "
+      "their own 1 and drove 99 yards with it. Eleven plays. Five minutes and forty four "
+      "seconds. Purdy scrambled left for 18 on the final snap of the third quarter to keep "
+      "it alive, and then found Deebo Samuel for 15 in the corner. 24 to 7.",
+      "A goal-line stand and a 99 yard answer, back to back, in the first NFL game ever "
+      "played in Australia. Fourteen point swing across about eleven minutes of clock, and "
+      "it snapped the Rams in half. They were finished after that. You could see it on "
+      "them.",
+      """<figure style="margin:0 0 30px;text-align:center">
+    <picture><source type="image/webp" srcset="../assets/img/players/deebo-samuel.webp"><img src="../assets/img/players/deebo-samuel.jpg" alt="Deebo Samuel Sr. of the San Francisco 49ers" width="564" height="809" loading="lazy" decoding="async" style="display:block;width:100%;max-width:460px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+    <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Deebo: six catches for 48, the touchdown that capped the 99-yard drive, a 12-yard carry, and 74 yards on two kick returns including the 45-yarder that opened the second half.</figcaption>
+  </figure>""",
+      "The Deebo reunion is already worth every dollar. {deebo} cost seven million for one "
+      "year, and he opened the second half by taking a kickoff out to our own 49, which is "
+      "how a possession that ends in a Mike Evans touchdown fade gets started in the first "
+      "place. Six catches, a carry, two returns, a score. He looked like 2021 Deebo and "
+      "I'm not going to pretend to be measured about that.",
+      "<h2>The defense, and why Raheem Morris might change everything</h2>",
+      "We didn't record a single sack. Zero. And Matthew Stafford, the reigning Most "
+      "Valuable Player in this sport, finished 15 of 25 for 155 yards with no touchdowns, "
+      "one interception and a 61.2 rating.",
+      "Read that again, because it's the most important thing that happened Thursday. For "
+      "two years this defense had to disguise everything on the back end because it "
+      "couldn't get anywhere near a quarterback, and last season we finished dead last in "
+      "the league in sacks. Robert Saleh took the Tennessee job. Kyle Shanahan went and "
+      "got Raheem Morris, who he's coached alongside twice before, and Morris took the "
+      "thing down to the studs.",
+      "Five man fronts. A linebacker spot they're calling the fever backer that lines up on "
+      "the ball, off the ball, in coverage, wherever, so an offense can't tell you what "
+      "it's looking at before the snap. A hybrid nickel they call the star, the job Jalen "
+      "Ramsey used to play for Morris in Los Angeles, and Upton Stout has it now. Ji'Ayir "
+      "Brown said during camp that the whole thing was a lot less thinking, and you could "
+      "see precisely what he meant, because nobody out there Thursday looked like they "
+      "were processing anything. They were just arriving.",
+      """<figure style="margin:0 0 30px;text-align:center">
+    <picture><source type="image/webp" srcset="../assets/img/players/fred-warner.webp"><img src="../assets/img/players/fred-warner.jpg" alt="Fred Warner of the San Francisco 49ers" width="1040" height="1387" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+    <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Eleven tackles, a pass defensed, and the fourth quarter strip of Tyler Higbee that Keion White fell on. Fred Warner's first real game back, and he was the best player on the grass.</figcaption>
+  </figure>""",
+      "Fred Warner had eleven tackles in his first meaningful game since the ankle. Eleven, "
+      "plus a ball knocked away, plus the punchout on Tyler Higbee in the fourth quarter "
+      "that Keion White recovered at the Los Angeles 43 and that turned into a 56 yard "
+      "Eddy Pineiro field goal. He missed most of a year, came back, and immediately went "
+      "back to being the best linebacker alive. I'd been quietly terrified about that "
+      "ankle since last November and I can stop now.",
+      "Marques Sigle had nine tackles. Dre Greenlaw had six in his own return. Deommodore "
+      "Lenoir had six and was draped on Nacua all night. Nick Bosa had two tackles for "
+      "loss and a quarterback hit and spent four quarters getting chipped by everybody the "
+      "Rams could spare. And Jaden Dugger, a rookie, played real snaps at that fever "
+      "backer spot and finished with five tackles, one of them inside the five on the "
+      "stand.",
+      """<figure style="margin:0 0 30px;text-align:center">
+    <picture><source type="image/webp" srcset="../assets/img/players/nick-bosa.webp"><img src="../assets/img/players/nick-bosa.jpg" alt="Nick Bosa of the San Francisco 49ers" width="1040" height="1434" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+    <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Bosa didn't get a sack and it didn't matter even slightly. Two tackles for loss, a quarterback hit, and an entire Rams protection plan built around keeping him off Stafford.</figcaption>
+  </figure>""",
+      "The Rams went 2 for 9 on third down. They went 1 for 3 on fourth down. They were 1 "
+      "for 3 in the red zone. Their last three real possessions ended in a turnover on "
+      "downs, a lost fumble and another turnover on downs. Two hundred and ninety total "
+      "yards, and a big chunk of that arrived after the result was already settled.",
+      "Now the part I've been waiting all summer to write. Myles Garrett, who Los Angeles "
+      "traded for in June and handed 208 million dollars, the reigning Defensive Player of "
+      "the Year, did not register a single tackle. Not one. Davante Adams caught three "
+      "balls for 26 yards on six targets. That team spent an entire offseason assembling "
+      "the most expensive roster in the division and got 7 points out of it.",
+      "<h2>Shanahan called a beautiful game and hardly anybody is going to say so</h2>",
+      "Everybody's going to talk about the defense today, and they should. But go look at "
+      "what the play caller did with a football team that had just crossed the "
+      "international date line.",
+      "Thirty carries. A hundred and seventy four yards on the ground at 5.8 a pop. "
+      "Christian McCaffrey went for 68 on ten carries and rookie Kaelon Black went for 65 "
+      "on fourteen and never once looked like a rookie doing it. Twenty three first downs, "
+      "ten of them rushing. Seven of twelve on third down. Two penalties all night for 21 "
+      "yards, which for a team playing at four in the morning body clock time is genuinely "
+      "absurd.",
+      "That's a coach who understood the assignment down to the letter. Shorten it. Run "
+      "it. Keep your defense off the grass and keep your own guys out of a track meet on "
+      "no sleep. Thirty three minutes and fifty seconds of possession against a team built "
+      "to score in bunches, and the bunches never showed up.",
+      "We got our first real look at the Purdy and Evans thing too. Six catches for 49 and "
+      "the two yard fade for the score, which is exactly what you sign a receiver that "
+      "size to go do, and {evans} looked like he's been in this offense for years instead "
+      "of months. Demarcus Robinson caught two balls and one of them went 39 for a "
+      "touchdown. Kittle was quiet at two for 12 and I couldn't possibly care less, "
+      "because he was out there at all.",
+      "<h3>The line score</h3>",
+      '''<table>
+<thead><tr><th>Team</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>Final</th></tr></thead>
+<tbody>
+<tr><td><b>San Francisco 49ers</b></td><td>3</td><td>7</td><td>7</td><td>10</td><td><b>27</b></td></tr>
+<tr><td>Los Angeles Rams</td><td>0</td><td>7</td><td>0</td><td>0</td><td><b>7</b></td></tr>
+</tbody>
+</table>''',
+      "Total yards 379 to 290. First downs 23 to 15. Turnovers two to one our way. Eddy "
+      "Pineiro went 2 for 3 with the 56 yarder and clanged a 52 off the right upright in "
+      "garbage time, and that's the only thing all night I'm willing to complain about.",
+      "One genuinely bad moment, and it deserves more than a footnote. De'Zhaun Stribling "
+      "went down early with a non-contact ankle and got carted off, in his first NFL game, "
+      "eight thousand miles from home. That kid had a real camp and I've been pulling for "
+      "him since the draft took heat for taking him. Hoping hard that it's short.",
+      "<h2>So are they the best team in football?</h2>",
+      "I'm a homer and I know it, so pull the bias out and just look at the shape of the "
+      "thing. The Rams were 3.5 point favorites on a neutral field, the model had them "
+      "better than 60 percent to win it, and the 49ers beat them by twenty with their "
+      "quarterback throwing for 205 yards. We won on a run game, a goal-line stand, a 99 "
+      "yard drive, two takeaways and a third down defense that surrendered two conversions "
+      "in nine tries.",
+      "None of that is a hot night. A hot night is a quarterback going 400 and 4 while "
+      "everybody rushes to declare something. This was the opposite. We won by controlling "
+      "every single thing a good football team controls, against the club most people had "
+      "already penciled into the NFC title game, in the strangest environment the sport "
+      "has, off a flight that should have wrecked us.",
+      "Both these teams went 12 and 5 last year. The Rams hung 42 on us in Santa Clara in "
+      "week 10 and I turned that one off in the third quarter. I've thought about it "
+      "roughly once a week ever since. Thursday was the answer to it and then some, and it "
+      "arrived in the one game on the schedule where neither side had a crowd to lean on.",
+      "Sixteen to go, and I know how this works. Somebody pulls a hamstring in week 3, the "
+      "schedule turns ugly in November, and we're all back to arguing about whether "
+      "Shanahan should've run it on second down. Miami comes to Levi's next on a short "
+      "week against a team that didn't just fly to the other side of the planet, so the "
+      "very next thing this group has to prove is that it can handle being the team "
+      "everybody's coming for.",
+      "But for one night we were the best team in football, it honestly wasn't close, and "
+      "I'm holding onto that for at least a week.",
+      "The week by week is on the {sched}, who's actually available is on the {depth}, the "
+      "season long argument lives in the {season}, and the rest of it is on the {hub}.",
+      "Somebody in Melbourne is walking around in a brand new Deebo jersey right now with "
+      "no idea what they've signed up for. Good luck to them.",
+     ],
+     links={'preview': ('49ers-rams-week-1-preview-melbourne-what-to-watch.html',
+                        'the preview'),
+            'deebo': ('49ers-deebo-samuel-returns-one-year-7-million-2026.html',
+                      'Bringing Deebo back'),
+            'evans': ('49ers-mike-evans-brock-purdy-receiver-duo-2026.html',
+                      'the Evans signing'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'season': ('49ers-2026-season-preview-roster-schedule-questions.html',
+                       'season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-rams-week-1-preview-melbourne-what-to-watch.html', '49ers',
+               '49ers at Rams in Melbourne: What Actually Decides It'),
+              ('49ers-rams-melbourne-nfl-first-game-australia.html', '49ers',
+               'The NFL Is Opening the 49ers Season in Melbourne'),
+              ('brock-purdy-career-passer-rating-where-he-ranks.html', '49ers',
+               'Where Brock Purdy Actually Ranks Among Quarterbacks')]),
 
 ]
 

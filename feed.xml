@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 10 Sep 2026 23:16:52 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 04:06:25 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 27, Rams 7: The Best Night This Team Has Had In Years</title>
+    <link>https://bayareasportsblog.com/articles/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html</guid>
+    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers 27, Rams 7 at the Melbourne Cricket Ground: Purdy&#39;s three touchdowns, the goal-line stand, the 99-yard answer and a defense that smothered Stafford.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers at Rams, Week 1 in Melbourne: What Actually Decides It</title>
     <link>https://bayareasportsblog.com/articles/49ers-rams-week-1-preview-melbourne-what-to-watch.html</link>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>Royals 6, Athletics 2: Bobby Witt Jr. homered and scored three, Gage Jump gave up five runs in four innings, and Kansas City finished off a four game sweep.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-royals-6-2-four-game-sweep-witt-gage-jump-august-20.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Guardians 5, Giants 2: Eleven Strikeouts, Series Won Anyway</title>
-    <link>https://bayareasportsblog.com/articles/giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.html</guid>
-    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Guardians 5, Giants 2: Gavin Williams struck out eleven, Willy Adames hit a 418 foot two run homer, and San Francisco still left Cleveland with the series.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-august-20.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
