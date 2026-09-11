@@ -2150,6 +2150,102 @@ dict(slug='49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand',
               ('brock-purdy-career-passer-rating-where-he-ranks.html', '49ers',
                'Where Brock Purdy Actually Ranks Among Quarterbacks')]),
 
+dict(slug='49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers Injuries From Melbourne: Stribling Ankle, Tonges MCL',
+     h1="The 49ers Won by Twenty and I Spent the Flight Home Worrying About an Ankle",
+     dek="27 to 7 over the Rams at the Melbourne Cricket Ground and two guys came out of "
+         "it hurt. De'Zhaun Stribling's Achilles is intact and it's the ankle. Jake "
+         "Tonges did his MCL. Here's who got hurt, how bad it looks, and who just "
+         "cramped up.",
+     desc="Every 49ers injury from the 27-7 Week 1 win over the Rams in Melbourne: "
+          "De'Zhaun Stribling's ankle, Jake Tonges' MCL, and the two cramp scares.",
+     date='2026-09-11',
+     card=('49ers', 'Melbourne injuries', 'Stribling ankle, Tonges MCL, two cramp scares'),
+     body=[
+      "We won by twenty. I want to say that first because I've read this thing back twice "
+      "and it reads like we lost. 27 to 7 on the other side of the planet against the team "
+      "everybody's handing the division to, and Purdy looked like a guy who slept on the "
+      "plane, which is more than I can say for myself on a normal Tuesday.",
+      "And I still went to bed annoyed.",
+      "Because two of them came off that field hurt, and one of those two is the guy I've "
+      "been telling everybody about since July.",
+      "<b>De'Zhaun Stribling, left ankle.</b> He tweaked it early, and then he did the "
+      "thing you always want to see, jogging on the sideline, testing it, going back out "
+      "there. Seven minutes and change left in the half he ran a route, pulled up, and "
+      "couldn't put any weight on the leg. They walked him to the tent and then he went "
+      "off for X rays and that was his night. No catches. A rookie's first regular season "
+      "game in the NFL and he finishes it in a cart in Australia.",
+      "The Achilles is intact. They checked, Shanahan said so after, and if you were "
+      "watching the way he went down you already know why that was the first thing out of "
+      "everyone's mouth. Non contact, grabbing at the back of the leg, an ankle that "
+      "wouldn't hold him. My stomach went through the floor. It's the ankle, and nobody "
+      "knew the magnitude of it on Thursday night because the imaging that answers it was "
+      "sixteen hours and one ocean away.",
+      "So it's just his ankle. Thank God. I don't think I'd have handled the other one.",
+      "<b>Jake Tonges, MCL.</b> This one is worse and it's getting a fraction of the "
+      "attention because he's the second tight end and the first one is George Kittle. "
+      "Second quarter, knee, carted straight to the locker room, never came back. "
+      "Shanahan's exact words were \"it wasn't good,\" and then, \"it's not an ACL, it's "
+      "MCL, I believe, but there's some issues with it that we've got to see how it is.\"",
+      "You can feel a coach picking around something there. He's telling you the ligament "
+      "that ends a season is fine and in the same breath telling you not to relax about "
+      "it. They can't know the real answer until they're home and he's in a tube in Santa "
+      "Clara, and the tone on Thursday was not the tone of a man expecting a two week "
+      "absence.",
+      "Tonges matters more than the depth chart makes him look. He caught 34 balls for 293 "
+      "yards and five touchdowns last year when Kittle was hurt, they paid him two years "
+      "and eight million to stay, and this offense runs so much twelve personnel that TE2 "
+      "isn't a backup so much as a part time starter. Lose him and you're asking Kittle, "
+      "at his age, coming off an Achilles, to take snaps that were supposed to belong to "
+      "somebody else. In a season that already lost Alfred Collins to a {collins} on a "
+      "practice field in Melbourne.",
+      "Two more, and these are the good kind.",
+      "<b>Trent Williams and Christian McCaffrey both cramped up and both came back.</b> "
+      "Williams went during the 99 yard drive, which, sure, go ahead and cramp on the "
+      "longest drive of the night. McCaffrey had his own moment. Every time that man "
+      "touches his hamstring my whole house goes quiet. It was cramps. They played. "
+      "Nineteen hours on a plane and a stadium built for cricket will do that to a "
+      "thirty seven year old tackle and a running back with that many miles on him.",
+      "Everybody else got through it. Kittle played on the Achilles. Bosa played on the "
+      "knee. Juszczyk played with the finger. James Thompson Jr was questionable with the "
+      "hamstring all week and suited up. Prysock, Jordan James, Jordan Watkins, Bethune, "
+      "Cruz and Rourke were the inactives and none of that was news.",
+      "What actually bugs me about it is the shape of it. We came into this year with a "
+      "defensive line that was already half gone, I wrote about it Thursday afternoon in "
+      "the {wk1} and felt like a crank for going on about it, and then we go win the game "
+      "27 to 7 and the injuries land on the other side of the ball anyway. Receiver and "
+      "tight end. The two rooms that looked fine.",
+      "Is anybody else at the point where a win feels like a toll booth?",
+      "The honest version: one ankle we don't have a number on yet, one knee that a head "
+      "coach didn't want to talk about, and a short week with Miami at Levi's waiting on "
+      "the other end of a flight nobody's body is going to forgive. If Stribling is a few "
+      "weeks and Tonges is a month, we got off easy and I'll say so. If it's the other "
+      "way, week one in Australia cost more than it looked like it did at 8:30 on a "
+      "Thursday night.",
+      "The football part of the night is in {reaction}, and it was a good night. This "
+      "one is the invoice.",
+      "I'll update the {depth} when the MRIs come back. Week to week stuff is on the "
+      "{sched}, and the rest of it lives on the {hub}.",
+      "Twenty point win. Two guys hurt. Somebody explain to me how you're supposed to feel "
+      "about that.",
+     ],
+     links={'collins': ('49ers-alfred-collins-torn-patellar-tendon-out-for-season.html',
+                        'torn patellar tendon'),
+            'reaction': ('49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html',
+                         'the reaction column'),
+            'wk1': ('49ers-rams-week-1-preview-melbourne-what-to-watch.html',
+                    'Week 1 preview'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html',
+               '49ers', '49ers 27, Rams 7 in Melbourne'),
+              ('49ers-rams-week-1-preview-melbourne-what-to-watch.html', '49ers',
+               '49ers at Rams, Week 1 in Melbourne: What Actually Decides It'),
+              ('49ers-alfred-collins-torn-patellar-tendon-out-for-season.html', '49ers',
+               'Alfred Collins Tore His Patellar Tendon and the Season Just Changed')]),
+
 ]
 
 
