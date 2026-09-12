@@ -781,6 +781,104 @@ dict(slug='athletics-royals-6-2-four-game-sweep-witt-gage-jump-august-20',
                'The Bay Area Villains'),
               ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics',
                'Sutter Health Park: MLB in a Triple-A Yard')]),
+
+# ------------------------------------------- September 2026 state of the Athletics
+dict(slug='athletics-september-2026-update-kurtz-injuries-bolte-jump',
+     section='Athletics', tag='Athletics', hub='Athletics',
+     title="A's September Update: 60-88, Four Bats Hurt, and 7 of 10",
+     h1="The A's Lost Their Whole Middle of the Order and Are Playing Their Best Baseball of the Year",
+     dek="Kurtz and Rooker on the 60 day, Langeliers and Soderstrom on the 10 day, a 5.33 "
+         "team ERA, and somehow seven wins in ten games. I can't explain it either.",
+     desc="Where the 2026 Athletics sit in mid September: 60-88, Nick Kurtz and Brent "
+          "Rooker shut down, Henry Bolte and Gage Jump auditioning, and a ballpark that "
+          "bends every number on the roster.",
+     date='2026-09-12',
+     card=('athletics', 'September Update', '60-88, four bats hurt, and seven wins in ten'),
+     body=[
+      "The A's are 60 and 88 and they've won seven of their last ten, and somebody"
+      "needs to explain to me how the team missing this much of its lineup is the"
+      "one playing the best baseball in the division right now.",
+      "Four of them are hurt.",
+      "Nick Kurtz is on the 60 day and Brent Rooker is with him. Shea Langeliers"
+      "and Tyler Soderstrom are both on the 10 day. That's the middle of the order"
+      "in street clothes in a Triple-A ballpark in West Sacramento in September,"
+      "and this group still took two of three from Toronto, beat Seattle 6 to 5 on"
+      "Friday, and went into Seattle earlier in the month and won three in a row.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/sutter-health-park-real.webp"><img src="../assets/img/players/sutter-health-park-real.jpg" alt="Sutter Health Park in West Sacramento, temporary home of the Athletics" width="1800" height="1268" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Fourteen thousand seats, a 325 foot right field, and a big league team playing out the string in it.</figcaption>
+</figure>""",
+      "I go back and forth on how to feel about this team and I've given up"
+      "pretending otherwise. They took my ballpark. They took the name off the"
+      "front and left it on a scoreboard ninety minutes up I-80. And then Henry"
+      "Bolte hits .276 as a rookie and I catch myself checking the box score at"
+      "eleven at night like nothing happened. {villains} is the honest version of"
+      "that argument and I stand by every word of it, right up until somebody in"
+      "green goes first to third.",
+      "Ninety minutes up I-80.",
+      "Kurtz is the one that hurts. He was at .256 with 21 homers, 69 RBI and an"
+      ".879 OPS in 99 games, the best bat on the roster by a distance, and he's"
+      "been shut down since. Rooker got into 48 games and hit .200. Langeliers had"
+      "23 homers in 93 games before his own trip to the list, Soderstrom 19 in 109."
+      "Add it up and this club still hit 180 home runs, tenth in baseball, which"
+      "for a lost year with four bats missing is a genuinely strange number.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/langeliers-athletics.webp"><img src="../assets/img/players/langeliers-athletics.jpg" alt="Shea Langeliers of the Athletics" width="826" height="1800" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Twenty three homers in 93 games before the 10 day list, and the lineup kept thinning behind him.</figcaption>
+</figure>""",
+      "Zack Gelof has 17 homers in 97 games and a .770 OPS. Bolte is the one I'd"
+      "buy a ticket for, .276 with ten homers and legs. Carlos Cortes has quietly"
+      "hit .260. Lawrence Butler at .229 with 14 is the disappointment of the year"
+      "and I'm not going to sugarcoat it, because two summers ago he looked like a"
+      "franchise outfielder and he hasn't hit since.",
+      "The pitching is why the record reads like that. A 5.33 team ERA. Jeffrey"
+      "Springs is 4 and 13 with a 5.93, Jack Perkins is at 6.53, Gage Jump is 6 and"
+      "10 with a 5.12 and 106 strikeouts as a rookie, and Jacob Lopez at 4.78 over"
+      "111 innings has been the only steady thing in that rotation all year.",
+      "Twenty ninth out of thirty.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/athletics-jeffrey-springs-tigers.webp"><img src="../assets/img/players/athletics-jeffrey-springs-tigers.jpg" alt="Jeffrey Springs pitching for the Athletics" width="498" height="533" loading="lazy" decoding="async" style="display:block;width:100%;max-width:460px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Four and thirteen with a 5.93, in a park that gives up home runs near the top of the league.</figcaption>
+</figure>""",
+      "About the ballpark, because every number up there is bent by it. Sutter"
+      "Health Park plays small and hot and gives up homers near the top of the"
+      "league, while Oracle takes about a fifth of them away. Ninety minutes apart."
+      "Nobody reading these pitchers off a stat line is correcting for that"
+      "properly, and I'd include whoever ends up deciding which of them is on the"
+      "roster when the Vegas building opens. {park} has the dimensions and the"
+      "wind.",
+      "Which is the part nobody wants to say out loud in September. 2027 is another"
+      "year in Sacramento, the dome on the Strip is tracking toward 2028, and every"
+      "young player having a nice month right now is auditioning for a team that'll"
+      "play in a different state. {timeline} keeps the dates straight.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/rooker.webp"><img src="../assets/img/players/rooker.jpg" alt="Brent Rooker of the Athletics" width="1440" height="1800" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Rooker got into 48 games and hit .200 before the 60 day list ended his season.</figcaption>
+</figure>""",
+      "So what are the last two weeks for? Bolte and Jump, mostly. Whether Butler"
+      "shows one sign. Whether Gelof can stay upright long enough to be counted on"
+      "for a full year, which he hasn't managed yet. Sixty wins with that rotation"
+      "and that injured list isn't the disaster the standings say it is, and I hate"
+      "that I just typed a sentence defending them.",
+      "My dad hasn't watched an inning since 2024 and he asks me about them every"
+      "Sunday anyway. That's the whole condition right there, and {legacy} says it"
+      "better than I can.",
+      "The roster is on the {depth}, and the rest of the coverage sits on the"
+      "{hub}.",
+     ],
+     links={'villains': ('athletics-sacramento-bay-area-villains.html',
+                         'the grievance column'),
+            'park': ('sutter-health-park-mlb-guide-dimensions-capacity.html',
+                     'The Sutter Health Park page'),
+            'timeline': ('athletics-oakland-sacramento-las-vegas-timeline.html',
+                         'The relocation timeline'),
+            'legacy': ('oakland-athletics-legacy-what-the-bay-area-lost.html',
+                       'what the Bay Area lost'),
+            'depth': ('athletics-2026-roster-depth-chart.html', 'depth chart page'),
+            'hub': ('../athletics.html', "A's hub")},
+     related=[('athletics-2026-roster-depth-chart.html', 'Athletics', "The Athletics Roster and Depth Chart"),
+              ('sutter-health-park-mlb-guide-dimensions-capacity.html', 'Athletics', 'Sutter Health Park: MLB in a Triple-A Yard'),
+              ('athletics-oakland-sacramento-las-vegas-timeline.html', 'Athletics', 'Oakland to Sacramento to Las Vegas: The Timeline')]),
 ]
 
 

@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 11 Sep 2026 16:42:03 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 17:19:31 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>A&#39;s September Update: 60-88, Four Bats Hurt, and 7 of 10</title>
+    <link>https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>Where the 2026 Athletics sit in mid September: 60-88, Nick Kurtz and Brent Rooker shut down, Henry Bolte and Gage Jump auditioning, and a ballpark that bends every number on the roster.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-september-2026-update-kurtz-injuries-bolte-jump.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Giants September Update: 62-86, Devers at 36, Two Weeks Left</title>
+    <link>https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Where the 2026 Giants sit in mid September: 62-86, 28 and a half back, Rafael Devers at 36 homers, Bryce Eldridge hitting .270, and what the last two weeks are actually for.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-september-2026-update-devers-eldridge-two-weeks-left.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Injuries From Melbourne: Stribling Ankle, Tonges MCL</title>
     <link>https://bayareasportsblog.com/articles/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.html</link>
@@ -349,24 +367,6 @@
     <category>Athletics</category>
     <description>Athletics 4, Astros 3 in Houston: Jacob Lopez struck out nine in six innings, Luis Medina handed the lead back, and a wild pitch and a ground out won it in the eighth. They are 50-80.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-astros-4-3-eighth-inning-rally-jacob-lopez-august-22.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Red Sox 3, Giants 2: Vitello Blew Another Ninth Inning</title>
-    <link>https://bayareasportsblog.com/articles/giants-red-sox-3-2-walkoff-vitello-bullpen-ninth-inning-august-22.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-red-sox-3-2-walkoff-vitello-bullpen-ninth-inning-august-22.html</guid>
-    <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Red Sox 3, Giants 2 at Fenway Park: San Francisco carried a two nothing lead into the ninth, Tony Vitello burned through Dylan Smith and Sam Hentges, and Wilyer Abreu walked it off. They are 52-77.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-red-sox-3-2-walkoff-vitello-bullpen-ninth-inning-august-22.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers 41, Chargers 17: The Best Night of the Summer</title>
-    <link>https://bayareasportsblog.com/articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html</guid>
-    <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers 41, Chargers 17 at SoFi: Jacob Cowing took a punt 83 yards, the run game piled up 146, and San Francisco led Harbaugh&#39;s Chargers 20 to 3 at the half.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

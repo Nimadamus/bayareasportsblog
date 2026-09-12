@@ -34,4 +34,26 @@
       <news:title>49ers at Rams, Week 1 in Melbourne: What Actually Decides It</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>A's September Update: 60-88, Four Bats Hurt, and 7 of 10</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12</news:publication_date>
+      <news:title>Giants September Update: 62-86, Devers at 36, Two Weeks Left</news:title>
+    </news:news>
+  </url>
 </urlset>

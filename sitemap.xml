@@ -16,7 +16,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/mlb.html</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-cardinals-2-1-roupp-eldridge-koss.jpg</image:loc></image:image>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/giants.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dynasty-even-year-magic.jpg</image:loc></image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/athletics.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-sacramento-bay-area-villains.jpg</image:loc></image:image>
@@ -193,6 +193,20 @@
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/athletics-september-2026-update-kurtz-injuries-bolte-jump.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-september-2026-update-devers-eldridge-two-weeks-left.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.html</loc>

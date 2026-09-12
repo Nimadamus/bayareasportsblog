@@ -1544,6 +1544,123 @@ dict(slug='giants-guardians-5-2-adames-homer-gavin-williams-eleven-strikeouts-au
                'The 2026 Giants Season, Game by Game'),
               ('giants-2026-where-the-rebuild-actually-stands.html', 'Giants',
                'Where the Rebuild Actually Stands')]),
+
+# ------------------------------------------------- September 2026 state of the Giants
+dict(slug='giants-september-2026-update-devers-eldridge-two-weeks-left',
+     section='Giants', tag='Giants', hub='Giants',
+     title='Giants September Update: 62-86, Devers at 36, Two Weeks Left',
+     h1="The Giants Are 62 and 86 With Two Weeks Left, and I Still Watched Every Pitch of the Cardinals Series",
+     dek="Rafael Devers has 36 homers and nobody outside this fan base has said a word "
+         "about it, Bryce Eldridge looks like a hitter, and the rest of September is "
+         "auditions. I'm fine with that.",
+     desc="Where the 2026 Giants sit in mid September: 62-86, 28 and a half back, Rafael "
+          "Devers at 36 homers, Bryce Eldridge hitting .270, and what the last two weeks "
+          "are actually for.",
+     date='2026-09-12',
+     card=('giants', 'September Update', '62-86, Devers at 36, and what the last two weeks are for'),
+     body=[
+      "My wife asked me Thursday night why I was still watching. Giants down two to"
+      "the Padres, bottom of the seventh, a team that got eliminated in everything"
+      "but the arithmetic sometime in July. I didn't have a good answer for her. I"
+      "muted it and kept watching anyway.",
+      "62 and 86.",
+      "Twenty four under. 28 and a half back in the West, 17 and a half out of the"
+      "last wild card, which is the kind of number you stop checking around Labor"
+      "Day. San Diego came into Oracle and beat us 7 to 5, because of course they"
+      "did, and there are two weeks of this left.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/rafael-devers-giants.webp"><img src="../assets/img/players/rafael-devers-giants.jpg" alt="Rafael Devers of the San Francisco Giants" width="1800" height="1442" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Thirty six home runs in a season nobody watched, in a ballpark that takes them away.</figcaption>
+</figure>""",
+      "<b>Rafael Devers has 36 home runs.</b> He's eighth in all of baseball, he's"
+      "at .258 with 96 RBI and an .862 OPS for a club that's 24 games under, and"
+      "I'll bet you the price of a ticket that if you asked ten people at work to"
+      "name the biggest power seasons in the National League this year not one of"
+      "them says his name. That's what happens when you do it in a terrible summer"
+      "in a park that eats fly balls. Nobody's watching. We wrote {devers29} when"
+      "he got to 29 and the silence has only gotten louder since.",
+      "Thirty six.",
+      "He'll finish around 38 or 39 in this ballpark. Go look up what that means"
+      "historically and then come back and tell me the trade was a disaster.",
+      "Then there was St. Louis, which was the fun part of the month. We won all"
+      "three, 5 to 4, then 2 to 1, then 7 to 6, and the last two were the kind"
+      "where you're standing in the kitchen with the fridge door open because you"
+      "can't sit down. A team that's 24 under doesn't get many of those.",
+      "I took all three personally.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/casey-schmitt-giants.webp"><img src="../assets/img/players/casey-schmitt-giants.jpg" alt="Casey Schmitt of the San Francisco Giants" width="944" height="1200" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Schmitt was at .271 with 21 homers when the 60 day list ended his year, and that one stings more than people admit.</figcaption>
+</figure>""",
+      "Bryce Eldridge is the thing I actually care about now. He's at .270 with 16"
+      "homers, 53 RBI and an .822 OPS across 102 games, which for a kid in his"
+      "first real run isn't a tease. That's a hitter. The swing stopped looking"
+      "like a prospect swing sometime in August. He takes his walks, he doesn't"
+      "panic with two strikes, and we made the long case in {eldridge} back in"
+      "July. Everything since has held up, which almost never happens with the guy"
+      "this fan base picks to love in the middle of a bad year.",
+      "Jung Hoo Lee is hitting .279 and he plays center field like it's easy. Nine"
+      "homers and 55 RBI isn't what anybody dreamed about when he signed, and I"
+      "don't care, because a .279 hitter who catches everything is a useful"
+      "baseball player and this roster has about four of those.",
+      "Willy Adames is back on the injured list after a .230 year with 21 homers."
+      "Casey Schmitt is done, 60 day, and he's the one that stings. He was at .271"
+      "with 21 of his own and he forced his way into this lineup out of nothing,"
+      "and then it just stopped.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/willy-adames-giants.webp"><img src="../assets/img/players/willy-adames-giants.jpg" alt="Willy Adames of the San Francisco Giants" width="1235" height="1535" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Adames hit .230 with 21 homers and lost another stretch to the injured list.</figcaption>
+</figure>""",
+      "The pitching is the pitching. A 4.36 team ERA, 23rd in baseball. Landen"
+      "Roupp got through a full season at 4.00 with 139 strikeouts in 150 and two"
+      "thirds, which is a real major league starter, and he's 9 and 13 because this"
+      "lineup handed him four runs a night. Logan Webb is 8 and 8 with a 4.10 and I"
+      "will not hear a word against him.",
+      "Eight and eight. On this team.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/logan-webb-giants-blue-jays.webp"><img src="../assets/img/players/logan-webb-giants-blue-jays.jpg" alt="Logan Webb pitching for the San Francisco Giants" width="1280" height="1706" loading="lazy" decoding="async" style="display:block;width:100%;max-width:520px;height:auto;margin:0 auto;object-fit:contain;background:var(--surface);border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Eight and eight with a 4.10 on a club that lost 86 games.</figcaption>
+</figure>""",
+      "Now the part that gets me in trouble in the group chat. I don't want them to"
+      "win these last two weeks. Not really. I want Eldridge to get 60 more at"
+      "bats, I want to see whether the arms that came back in the selloff can"
+      "breathe up here, and I want the draft slot that goes with finishing where"
+      "this team has earned to finish. Ask me again if we're up one in the ninth on"
+      "the final Sunday. I'll be screaming for the win like a hypocrite.",
+      "The manager thing hasn't resolved and it won't before October. Posey already"
+      "said Vitello is back in 2027, which we covered in {vitello}, and my position"
+      "hasn't moved. A rookie manager handed a selling roster got an impossible"
+      "year to be judged on. He also made the specific in game decisions I watched"
+      "with my own eyes. Both of those stay true at once and I'm tired of being"
+      "asked to pick one.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/oracle-park-real.webp"><img src="../assets/img/players/oracle-park-real.jpg" alt="Oracle Park in San Francisco, home of the Giants" width="1800" height="1297" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;object-fit:cover;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Whatever gets built next has to work here. The park hasn't changed just because the roster did.</figcaption>
+</figure>""",
+      "What I want out of the winter isn't a name. Two starters out of the"
+      "organisation. That's the whole list. This franchise has spent a decade"
+      "renting arms on one year deals to arrive at 79 wins, and I'd rather finish"
+      "70 and know who the third starter is in 2028. {rebuild} is where we keep the"
+      "running state of it, and it gets updated when it moves.",
+      "Two weeks. Then the stretch where I pretend the 49ers schedule is enough and"
+      "open the MLB app out of habit anyway, every night, until about the first"
+      "week of November. You already know you're going to do it too.",
+      "The roster is on the {depth}, the whole year in order is in the {season},"
+      "and the rest lives on the {hub}.",
+     ],
+     links={'devers29': ('giants-rafael-devers-29-homers-carrying-the-offense.html',
+                         'the column about his 29th'),
+            'eldridge': ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html',
+                         'the long Eldridge piece'),
+            'vitello': ('giants-tony-vitello-junior-high-performance-posey-confirms-return-2027.html',
+                        'the day Posey confirmed it'),
+            'rebuild': ('giants-2026-where-the-rebuild-actually-stands.html',
+                        'Where the rebuild actually stands'),
+            'depth': ('giants-2026-roster-depth-chart.html', 'depth chart page'),
+            'season': ('giants-2026-season-hub-results-coverage.html', 'season hub'),
+            'hub': ('../giants.html', 'Giants hub')},
+     related=[('giants-2026-where-the-rebuild-actually-stands.html', 'Giants', 'Where the Giants Rebuild Actually Stands After the Selloff'),
+              ('bryce-eldridge-giants-future-franchise-first-baseman-july-2026.html', 'Giants', 'Bryce Eldridge Is the Only Future This Giants Team Has'),
+              ('giants-2026-season-hub-results-coverage.html', 'Giants', 'The 2026 Giants Season, Game by Game')]),
 ]
 
 
