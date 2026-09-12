@@ -1564,6 +1564,10 @@ dict(slug='giants-september-2026-update-devers-eldridge-two-weeks-left',
       "but the arithmetic sometime in July. I didn't have a good answer for her. I"
       "muted it and kept watching anyway.",
       "62 and 86.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/giants-62-86-september-panel.webp"><img src="../assets/img/players/giants-62-86-september-panel.jpg" alt="Bay Area Sports Blog graphic: the Giants at 62-86 on 12 September 2026" width="1200" height="675" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Where it actually sits with two weeks to play.</figcaption>
+</figure>""",
       "Twenty four under. 28 and a half back in the West, 17 and a half out of the"
       "last wild card, which is the kind of number you stop checking around Labor"
       "Day. San Diego came into Oracle and beat us 7 to 5, because of course they"
@@ -1579,6 +1583,10 @@ dict(slug='giants-september-2026-update-devers-eldridge-two-weeks-left',
       "them says his name. That's what happens when you do it in a terrible summer"
       "in a park that eats fly balls. Nobody's watching. We wrote {devers29} when"
       "he got to 29 and the silence has only gotten louder since.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/giants-devers-36-homers-panel.webp"><img src="../assets/img/players/giants-devers-36-homers-panel.jpg" alt="Bay Area Sports Blog graphic: Rafael Devers at 36 home runs in 2026" width="1200" height="675" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Eighth in baseball, in the park that takes a fifth of them away.</figcaption>
+</figure>""",
       "Thirty six.",
       "He'll finish around 38 or 39 in this ballpark. Go look up what that means"
       "historically and then come back and tell me the trade was a disaster.",

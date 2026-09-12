@@ -798,6 +798,10 @@ dict(slug='athletics-september-2026-update-kurtz-injuries-bolte-jump',
       "The A's are 60 and 88 and they've won seven of their last ten, and somebody"
       "needs to explain to me how the team missing this much of its lineup is the"
       "one playing the best baseball in the division right now.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/athletics-four-bats-out-panel.webp"><img src="../assets/img/players/athletics-four-bats-out-panel.jpg" alt="Bay Area Sports Blog graphic: four Athletics bats on the injured list" width="1200" height="675" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Kurtz and Rooker on the 60 day, Langeliers and Soderstrom on the 10.</figcaption>
+</figure>""",
       "Four of them are hurt.",
       "Nick Kurtz is on the 60 day and Brent Rooker is with him. Shea Langeliers"
       "and Tyler Soderstrom are both on the 10 day. That's the middle of the order"
@@ -831,6 +835,10 @@ dict(slug='athletics-september-2026-update-kurtz-injuries-bolte-jump',
       "hit .260. Lawrence Butler at .229 with 14 is the disappointment of the year"
       "and I'm not going to sugarcoat it, because two summers ago he looked like a"
       "franchise outfielder and he hasn't hit since.",
+      """<figure style="margin:0 0 30px;text-align:center">
+  <picture><source type="image/webp" srcset="../assets/img/players/athletics-7-3-last-ten-panel.webp"><img src="../assets/img/players/athletics-7-3-last-ten-panel.jpg" alt="Bay Area Sports Blog graphic: the Athletics at 7-3 over their last ten games" width="1200" height="675" loading="lazy" decoding="async" style="display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border-radius:12px;border:1px solid var(--line)"></picture>
+  <figcaption style="color:var(--muted);font-size:14px;margin-top:10px;font-style:italic">Seven of ten, with the middle of the order watching in street clothes.</figcaption>
+</figure>""",
       "The pitching is why the record reads like that. A 5.33 team ERA. Jeffrey"
       "Springs is 4 and 13 with a 5.93, Jack Perkins is at 6.53, Gage Jump is 6 and"
       "10 with a 5.12 and 106 strikeouts as a rookie, and Jacob Lopez at 4.78 over"
