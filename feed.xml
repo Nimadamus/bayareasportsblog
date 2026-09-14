@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 14 Sep 2026 21:00:43 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 22:28:58 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Thirteen and a Half Over Miami and I Hate Every Half Point of It</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The 49ers got ten days after Melbourne to get ready for Miami at Levi&#39;s. Stribling is out a month, Tonges&#39; knee is a worry, and a 13.5 point line scares me.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-week-2-home-opener-preparation-levis.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>They Sent Stribling Back Out on a Sprained Ankle. Fire the Training Staff.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers medical staff looked at De&#39;Zhaun Stribling&#39;s ankle for a few minutes and sent him back in. Now he&#39;s out a month, and this has been going on for years.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-training-staff-stribling-ankle-cleared-too-soon.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Two Walk Offs, One 19 to 1 Beating, and I Watched Every Inning</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Warner won a rep and talked. Purdy threw right over his head to Deebo and screamed it back at him. Then they laughed about it. Practice 16 in Santa Clara wasn&#39;t a walkthrough.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-purdy-warner-trash-talk-competitive-practice-august-2026.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Twins 9, Athletics 6: Rally Falls Short</title>
-    <link>https://bayareasportsblog.com/articles/athletics-twins-9-6-ninth-inning-rally-springs.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-twins-9-6-ninth-inning-rally-springs.html</guid>
-    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s</category>
-    <description>Twins 9, Athletics 6 at Sutter Health Park: Jeffrey Springs took his twelfth loss, Minnesota piled up sixteen hits and led 9-1, and a four run ninth got the A&#39;s within three. 51 and 81.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-twins-9-6-ninth-inning-rally-springs.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
