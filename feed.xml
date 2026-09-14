@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 14 Sep 2026 01:36:37 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 20:46:04 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Two Walk Offs, One 19 to 1 Beating, and I Watched Every Inning</title>
+    <link>https://bayareasportsblog.com/articles/athletics-mariners-butler-walkoff-walton-walkoff-19-1.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-mariners-butler-walkoff-walton-walkoff-19-1.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Athletics</category>
+    <description>A&#39;s 8, Mariners 7: Lawrence Butler&#39;s two run homer walked it off Sunday, Walton won Friday in ten, and a 19 to 1 Saturday sat in the middle of a series win.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-mariners-butler-walkoff-walton-walkoff-19-1.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The Padres Came Into Our Ballpark and Took All Three</title>
+    <link>https://bayareasportsblog.com/articles/giants-padres-sweep-oracle-park-devers-37-webb.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-padres-sweep-oracle-park-devers-37-webb.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Padres 6, Giants 4 finished a sweep at Oracle Park. Devers hit 36 and 37, Webb gave up six, and Wednesday&#39;s comeback over St. Louis feels like a month ago.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-padres-sweep-oracle-park-devers-37-webb.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Raiders 27, Dolphins 13: Jeanty Twice, Paye Everywhere</title>
     <link>https://bayareasportsblog.com/articles/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.html</link>
@@ -349,24 +367,6 @@
     <category>Giants</category>
     <description>Giants 5, Reds 0 at Oracle Park: San Francisco scored twice in the first, Rafael Devers hit his 27th for three more in the second, and six pitchers combined on a five hit shutout. 53 and 78.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-reds-5-0-devers-27th-bullpen-shutout.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>A&#39;s 7, Astros 6: Down Six, Somehow Alive</title>
-    <link>https://bayareasportsblog.com/articles/athletics-astros-7-6-six-run-comeback-muncy-august-23.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-astros-7-6-six-run-comeback-muncy-august-23.html</guid>
-    <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Athletics 7, Astros 6 in Houston: down 6-0 after four, Brian Serven&#39;s three run homer started a six run fifth, and Max Muncy&#39;s solo shot in the seventh won it. They are 51-80.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-astros-7-6-six-run-comeback-muncy-august-23.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Red Sox 5, Giants 4: Swept at Fenway</title>
-    <link>https://bayareasportsblog.com/articles/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.html</guid>
-    <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Red Sox 5, Giants 4 at Fenway Park: San Francisco led three to nothing before Matt Wilkinson allowed four runs in the fourth, Boston finished a sweep, and the Giants fall to 52 and 78.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

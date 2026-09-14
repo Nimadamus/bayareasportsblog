@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.html</loc>
+    <loc>https://bayareasportsblog.com/articles/athletics-mariners-butler-walkoff-walton-walkoff-19-1.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-11</news:publication_date>
-      <news:title>49ers Injuries From Melbourne: Stribling Ankle, Tonges MCL</news:title>
+      <news:publication_date>2026-09-13</news:publication_date>
+      <news:title>Two Walk Offs, One 19 to 1 Beating, and I Watched Every Inning</news:title>
     </news:news>
   </url>
   <url>
@@ -21,6 +21,17 @@
       </news:publication>
       <news:publication_date>2026-09-12</news:publication_date>
       <news:title>A's September Update: 60-88, Four Bats Hurt, and 7 of 10</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-padres-sweep-oracle-park-devers-37-webb.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-13</news:publication_date>
+      <news:title>The Padres Came Into Our Ballpark and Took All Three</news:title>
     </news:news>
   </url>
   <url>
