@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 12 Sep 2026 17:19:31 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 01:36:37 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Raiders 27, Dolphins 13: Jeanty Twice, Paye Everywhere</title>
+    <link>https://bayareasportsblog.com/articles/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Raiders</category>
+    <description>Raiders 27, Dolphins 13: Ashton Jeanty scored twice, Kwity Paye had two sacks, and Kirk Cousins nearly gave it away with two picks in Week 1.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>A&#39;s September Update: 60-88, Four Bats Hurt, and 7 of 10</title>
     <link>https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Red Sox 5, Giants 4 at Fenway Park: San Francisco led three to nothing before Matt Wilkinson allowed four runs in the fourth, Boston finished a sweep, and the Giants fall to 52 and 78.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-red-sox-5-4-wilkinson-fourth-inning-swept-august-23.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>A&#39;s 4, Astros 3: Win Number Fifty, on a Wild Pitch</title>
-    <link>https://bayareasportsblog.com/articles/athletics-astros-4-3-eighth-inning-rally-jacob-lopez-august-22.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-astros-4-3-eighth-inning-rally-jacob-lopez-august-22.html</guid>
-    <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Athletics 4, Astros 3 in Houston: Jacob Lopez struck out nine in six innings, Luis Medina handed the lead back, and a wild pitch and a ground out won it in the eighth. They are 50-80.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-astros-4-3-eighth-inning-rally-jacob-lopez-august-22.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
