@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 14 Sep 2026 20:46:04 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 21:00:43 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Thirteen and a Half Over Miami and I Hate Every Half Point of It</title>
+    <link>https://bayareasportsblog.com/articles/49ers-dolphins-week-2-home-opener-preparation-levis.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-dolphins-week-2-home-opener-preparation-levis.html</guid>
+    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers got ten days after Melbourne to get ready for Miami at Levi&#39;s. Stribling is out a month, Tonges&#39; knee is a worry, and a 13.5 point line scares me.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-week-2-home-opener-preparation-levis.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Two Walk Offs, One 19 to 1 Beating, and I Watched Every Inning</title>
     <link>https://bayareasportsblog.com/articles/athletics-mariners-butler-walkoff-walton-walkoff-19-1.html</link>
@@ -358,15 +367,6 @@
     <category>A&#39;s</category>
     <description>Twins 9, Athletics 6 at Sutter Health Park: Jeffrey Springs took his twelfth loss, Minnesota piled up sixteen hits and led 9-1, and a four run ninth got the A&#39;s within three. 51 and 81.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-twins-9-6-ninth-inning-rally-springs.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants 5, Reds 0: Shutout at Oracle</title>
-    <link>https://bayareasportsblog.com/articles/giants-reds-5-0-devers-27th-bullpen-shutout.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-reds-5-0-devers-27th-bullpen-shutout.html</guid>
-    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Giants 5, Reds 0 at Oracle Park: San Francisco scored twice in the first, Rafael Devers hit his 27th for three more in the second, and six pitchers combined on a five hit shutout. 53 and 78.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-reds-5-0-devers-27th-bullpen-shutout.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
