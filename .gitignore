@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 _homepage_live_cache.json
 _inventory.json
+data/bay_bridge_series.json

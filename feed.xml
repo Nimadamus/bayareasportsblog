@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 16 Sep 2026 06:08:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 06:27:19 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Jack Perkins Threw Six and Two Thirds Scoreless and They Lost Anyway</title>
@@ -16,6 +16,15 @@
     <category>A&#39;s</category>
     <description>Rays 2, A&#39;s 1 on a walk off Tuesday night. Perkins gave up four hits and struck out eight, the lineup managed four hits of its own, and Kurtz, Rooker and Jacob Wilson are all on the 60 day.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-perkins-wasted-rays-2-1-injured-core.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The Bay Bridge Series: What Is Left of It, and What the Record Actually Says</title>
+    <link>https://bayareasportsblog.com/articles/bay-bridge-series-giants-athletics-history.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-bridge-series-giants-athletics-history.html</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Bay Area</category>
+    <description>The complete Giants against Athletics record, season by season since interleague play began in 1997, plus the 1989 World Series, the four ballparks, and what happens to the series now that the A&#39;s play in Sacramento.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-bridge-series-giants-athletics-history.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Bryce Eldridge Is Him, and I&#39;m Done Being Careful About Saying It</title>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Golden State&#39;s big summer ended with a 33-year-old corner shooter coming off a lost year. One year, $3.9 million, the fifteenth roster spot, and the second apron.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-georges-niang-signing-last-roster-spot.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Jed York Arrested in Ohio: Two Misdemeanors and Nothing From the 49ers</title>
-    <link>https://bayareasportsblog.com/articles/49ers-jed-york-arrested-ohio-no-contest-august-2026.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-jed-york-arrested-ohio-no-contest-august-2026.html</guid>
-    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers owner Jed York was arrested Sunday morning in East Palestine, Ohio, pleaded no contest Monday to disorderly conduct and possessing criminal tools, and the team has said nothing.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-jed-york-arrested-ohio-no-contest-august-2026.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
