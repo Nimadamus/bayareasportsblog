@@ -208,6 +208,10 @@ python tools/social_meta_gate.py --check
 python _meta_template.py --gate
 python _sitemap_audit.py
 python _seo_audit.py               # check near-orphans and 0-in-body-inbound
+python tools/schema_validate.py    # JSON-LD against schema_types.json, 0 errors required
+python _schema_normalize.py --check
+python _gen_bay_bridge_series.py --check
+python _gen_warriors_hub.py --check
 ```
 
 ### `_gen_discovery.py` owns internal discovery, 2026-09-15

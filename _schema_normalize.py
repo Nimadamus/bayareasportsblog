@@ -10,6 +10,12 @@ Three gaps the audit found, all invisible to readers:
    newer template.
 3. The type was split 85 NewsArticle / 18 Article for no reason anyone can point at.
 
+Point 3 is now a DECLARED choice rather than a blanket rule. schema_types.json holds the
+pages whose type is deliberate: an evergreen reference page is an Article, a recap or a
+reported piece is a NewsArticle. Anything not listed gets the default. This script
+enforces the declaration in both directions, so a page cannot drift back by accident and
+a stray Article cannot creep in unlisted.
+
 The VISIBLE tags are deliberately left alone. "Giants October Watch", "Bay Area
 Villains" and "49ers Panic Meter" are editorial section names, not sloppiness, and
 flattening them would rewrite the site's voice to tidy a schema field. Instead the tag
@@ -21,6 +27,20 @@ import os, re, sys, glob, json, collections
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE = "https://bayareasportsblog.com/"
+
+# page level schema type, see schema_types.json
+_types_path = os.path.join(ROOT, 'schema_types.json')
+if os.path.exists(_types_path):
+    _decl = json.load(open(_types_path, encoding='utf-8'))
+    DEFAULT_TYPE = _decl.get('_default', 'NewsArticle')
+    DECLARED_TYPES = _decl.get('types', {})
+else:
+    DEFAULT_TYPE, DECLARED_TYPES = 'NewsArticle', {}
+
+
+def schema_type_for(slug):
+    """The type this page is supposed to carry."""
+    return DECLARED_TYPES.get(slug, DEFAULT_TYPE)
 
 # visible tag (entities stripped, punctuation normalised) -> canonical schema section
 SECTION_RULES = [
@@ -95,9 +115,10 @@ def main():
             if node.get('@type') not in ('Article', 'NewsArticle'):
                 continue
             before = json.dumps(node, sort_keys=True)
-            if node['@type'] == 'Article':
-                node['@type'] = 'NewsArticle'
-                stats['type_unified'] += 1
+            want = schema_type_for(slug)
+            if node['@type'] != want:
+                node['@type'] = want
+                stats['type_set_' + want] += 1
             url = BASE + rel
             if 'mainEntityOfPage' not in node:
                 node['mainEntityOfPage'] = {'@type': 'WebPage', '@id': url}

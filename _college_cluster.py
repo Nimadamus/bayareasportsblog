@@ -737,7 +737,8 @@ def build(a):
     crumb_hub = ('cal.html', 'Cal') if a['hub'] == 'Cal' else \
                 ('stanford.html', 'Stanford') if a['hub'] == 'Stanford' else \
                 ('bayarea.html', 'Bay Area Sports')
-    art = {"@context": "https://schema.org", "@type": "NewsArticle",
+    # a['schema_type'] lets a page declare its own type, see schema_types.json
+    art = {"@context": "https://schema.org", "@type": a.get('schema_type', 'NewsArticle'),
            "headline": a['h1'], "image": img,
            "author": {"@type": "Organization", "name": "Bay Area Sports Blog"},
            "publisher": {"@type": "Organization", "name": "Bay Area Sports Blog"},

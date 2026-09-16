@@ -1,0 +1,16 @@
+{
+  "_comment": [
+    "Page level schema type. Anything not listed here is a NewsArticle, which is correct",
+    "for a recap, a reaction or a reported piece. Evergreen reference pages are listed",
+    "explicitly so _schema_normalize.py stops unifying them back to NewsArticle.",
+    "Schema.org types only, and only ones that are a supertype or subtype of Article, so",
+    "the rest of the markup on the page stays valid. Add a page here when its job is to",
+    "answer a question that will still be asked next year, not to report something."
+  ],
+  "_default": "NewsArticle",
+  "types": {
+    "bay-bridge-series-giants-athletics-history": "Article",
+    "warriors-2026-27-schedule-season-hub": "Article",
+    "chase-center-guide-warriors-arena": "Article"
+  }
+}

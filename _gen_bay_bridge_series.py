@@ -19,6 +19,7 @@ import re
 import sys
 import json
 import time
+import datetime
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -149,6 +150,12 @@ def render(rows):
     return table, sf_total, oak_total, len(rows)
 
 
+def touch_modified(text):
+    """A data refresh is a modification. datePublished never moves."""
+    today = datetime.date.today().isoformat()
+    return re.sub(r'"dateModified":"[^"]*"', '"dateModified":"%s"' % today, text, count=1)
+
+
 def main():
     check = '--check' in sys.argv
     rows, source = load()
@@ -160,7 +167,7 @@ def main():
         return
     if check:
         sys.exit('OUT OF DATE: run _gen_bay_bridge_series.py')
-    open(ARTICLE, 'w', encoding='utf-8', newline='').write(text[:a] + table + text[b:])
+    open(ARTICLE, 'w', encoding='utf-8', newline='').write(touch_modified(text[:a] + table + text[b:]))
     print('rewrote the table: %d games, Giants %d, A\'s %d (%s)' % (games, sf, oak, source))
 
 

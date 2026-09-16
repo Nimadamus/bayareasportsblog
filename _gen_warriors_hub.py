@@ -217,6 +217,12 @@ def splice(text, key, block, check):
     return text[:a] + block + text[b:], True
 
 
+def touch_modified(text):
+    """A data refresh is a modification. datePublished never moves."""
+    today = datetime.date.today().isoformat()
+    return re.sub(r'"dateModified":"[^"]*"', '"dateModified":"%s"' % today, text, count=1)
+
+
 def main():
     check = '--check' in sys.argv
     rows, rec, source = load()
@@ -230,7 +236,7 @@ def main():
         text, did = splice(text, key, block, check)
         changed |= did
     if changed:
-        open(ARTICLE, 'w', encoding='utf-8', newline='').write(text)
+        open(ARTICLE, 'w', encoding='utf-8', newline='').write(touch_modified(text))
     played = sum(1 for r in rows if r['final'])
     print('%s: %d games listed, %d final (%s)'
           % ('rewrote' if changed else 'up to date', len(rows), played, source))
