@@ -274,3 +274,93 @@ is just a file.
 3. **Refresh section G**, especially the three dead previews and the two college schedule pages, before their seasons end and the traffic is gone for the year.
 4. **Then build H1 through H4**, the four pages with dated demand: two season hubs before their seasons start, two records pages before the Purdy record lands in October.
 5. Everything below that once there is Search Console data to aim with.
+
+---
+
+## What the three pilot pages taught us, 15 September 2026
+
+Added after building `bay-bridge-series-giants-athletics-history`,
+`warriors-2026-27-schedule-season-hub` and `chase-center-guide-warriors-arena`. The next
+batch should be planned against this section, not against the assumptions above it.
+
+### 1. Test the data before ranking the idea
+
+The single biggest lesson. This audit ranked Giants and 49ers franchise records first and
+second on topical credibility alone. Both died on sourcing: MLB's statsapi team leaders
+endpoint returns **season** leaders, not career, so asking for Giants home run leaders
+returns the current season's leader rather than the franchise's. No public feed carries
+franchise career leaders.
+
+**Rule for the next batch: every proposal must name the endpoint or the source before it
+gets a rank, and the endpoint must be called once to prove it returns what the page needs.**
+
+### 2. Two corrections to section C
+
+- **Warriors franchise records is not a gap.** `stephen-curry-career-records-three-pointers` already covers the records this site can credibly speak to. The gap probe missed it because it searched for slugs containing `warriors-record`. Slug pattern matching is not a content inventory.
+- **The Warriors do not open on 4 October.** That is the preseason opener. ESPN's team schedule endpoint returns preseason by default and needs `?seasontype=2` for the regular season, which opens **21 October at the Lakers**. Any future schedule work must pass that parameter.
+
+### 3. What the feeds actually give, and what they do not
+
+| Need | Source | Verdict |
+|---|---|---|
+| Head to head series history | `statsapi.mlb.com/schedule?teamId=&opponentId=` per season | Works perfectly. 160 meetings, venues included. This is the pattern for any rivalry page. |
+| Team schedule and results | `site.api.espn.com/.../teams/<abbr>/schedule?seasontype=2` | Works. Send urllib's default User-Agent, ESPN 403s anything it does not recognise, including any string containing a URL. |
+| Franchise career leaders | none found | Blocked. |
+| Venue facts | no feed | Human verified per fact, and anything unconfirmed gets left out. The Chase Center page carries no opening date and no construction cost for exactly that reason. |
+| Team venue metadata from ESPN | `teams/gs` franchise record | **Stale, do not use.** It still returns Oracle Arena. The per game `competitions[].venue` payload is correct. |
+
+### 4. Feeds are incomplete in ways a reader will notice
+
+The league listing for the Warriors carries 80 games. The NBA plays 82. The page says so in
+its own section rather than padding the table with dates nobody has committed to. Any future
+schedule page needs the same honesty valve, because the alternative is a table that quietly
+disagrees with reality.
+
+### 5. The generated region pattern works, use it again
+
+All three new pages, plus the homepage, now follow the same shape: prose a human wrote,
+data between HTML comment markers, a generator that rewrites only what is inside the
+markers, and a `--check` flag that fails if the page has drifted. Four generators run in the
+publish chain now. Next season's Bay Bridge results are a command, not a rewrite.
+
+Failure order is the same in all of them: live feed, then the cached pull, then stop without
+touching the page. A stale table is worse than an unchanged one.
+
+### 6. Inbound links for a brand new page are capped by existing wording
+
+The plan called for six in body inbound links on the Bay Bridge page. It got two, because
+only two existing sentences had wording a link could wrap without rewriting. The Warriors
+hub got one, the Chase Center guide got two.
+
+**The realistic yield is one to two in body links per new page.** Hub cards carry the rest,
+and they are what actually produced reachability in the crawl. Plan for that rather than
+promising six.
+
+### 7. Voice gate interactions worth knowing
+
+Bolded functional labels, the kind a practical guide wants for "From BART" and "From
+Caltrain", trip the scaffold rule at four and cost six points. Converting them to `h3`
+subheads fixed it and improved the document outline at the same time. A reference page with
+a long table also needs a deliberate short paragraph somewhere or the rhythm check fires.
+
+### 8. Schema type is worth a decision before the next batch
+
+All three pages inherited `NewsArticle` from the article template, same as the other 220.
+For an evergreen reference page `Article` is the more accurate type, and the Bay Bridge and
+Chase Center pages are not news in any sense. **Not changed**, because it affects the shared
+template and was out of scope. Worth deciding before more evergreen pages are built.
+
+### 9. Result at the end of the pilot
+
+| | Before pilot | After |
+|---|---|---|
+| Articles | 220 | 223 |
+| Pages crawled | 254 | 257 |
+| Non 200 responses | 0 | 0 |
+| Orphans / near orphans | 0 / 0 | 0 / 0 |
+| Duplicate titles or descriptions | 0 | 0 |
+| Voice gate under 70 | 0 | 0 |
+| Generators in the publish chain | 1 | 4 |
+
+The three pages cost three new URLs and added no defects. Depth from the homepage held at a
+maximum of four clicks.
