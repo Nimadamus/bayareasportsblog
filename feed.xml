@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 16 Sep 2026 06:27:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 06:35:20 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Jack Perkins Threw Six and Two Thirds Scoreless and They Lost Anyway</title>
@@ -34,6 +34,15 @@
     <category>Giants</category>
     <description>Eldridge homered in the first inning Tuesday in his best month of the year. He&#39;s 21, he&#39;s hitting .327 over his last 30 games, and he has the best OPS of any 21 year old in baseball.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-bryce-eldridge-is-him.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The 2026-27 Warriors Schedule, Game by Game</title>
+    <link>https://bayareasportsblog.com/articles/warriors-2026-27-schedule-season-hub.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-2026-27-schedule-season-hub.html</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Every Golden State Warriors game in 2026-27 with the date, the opponent, home or away and the result once it is final. Preseason and regular season, all times Pacific.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-schedule-season-hub.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Thirteen and a Half Over Miami and I Hate Every Half Point of It</title>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Tony Vitello got tossed in the top of the first on Wednesday for yelling get it right at a check swing call on Eugenio Suarez. Fourth ejection of his rookie year as a manager, and honestly, good.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tony-vitello-ejected-first-inning-check-swing.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Warriors Spent All Summer Chasing a Star and Signed Georges Niang</title>
-    <link>https://bayareasportsblog.com/articles/warriors-georges-niang-signing-last-roster-spot.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-georges-niang-signing-last-roster-spot.html</guid>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>Golden State&#39;s big summer ended with a 33-year-old corner shooter coming off a lost year. One year, $3.9 million, the fifteenth roster spot, and the second apron.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-georges-niang-signing-last-roster-spot.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
