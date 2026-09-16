@@ -118,11 +118,12 @@ def next_block(rows, rec):
     if upcoming:
         n = upcoming[0]
         when = local(n['iso'])
-        bits.append('<b>Next up:</b> %s %s, %s at %s, %s.'
+        bits.append('<b>Next up:</b> %s %s, %s at %s, %s.%s'
                     % ('vs' if n['home'] else 'at', esc(n['them']),
                        when.strftime('%A %B %d').replace(' 0', ' '),
                        when.strftime('%I:%M %p').lstrip('0').lower().replace(' 0', ' '),
-                       esc(n['venue'] or 'venue to be confirmed')))
+                       esc(n['venue'] or 'venue to be confirmed'),
+                       ' That one is preseason.' if n['kind'] == 'Preseason' else ''))
     else:
         bits.append('<b>Next up:</b> nothing scheduled in the feed right now.')
     if played:
@@ -202,8 +203,8 @@ def shape_block(rows):
     lines.append('<li><b>Longest homestand %d games, longest road trip %d.</b></li>'
                  % (longest(True), longest(False)))
     lines.append('<li><b>%d back to backs</b> on the calendar as published.</li>' % b2b)
-    return ('\r\n  <ul class="hub-shape">\r\n    %s\r\n  </ul>\r\n  '
-            % '\r\n    '.join(lines))
+    return ('\r\n  <ul class="hub-shape" style="margin:0 0 22px;padding-left:22px">'
+            '\r\n    %s\r\n  </ul>\r\n  ' % '\r\n    '.join(lines))
 
 
 def splice(text, key, block, check):
