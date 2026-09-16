@@ -68,6 +68,21 @@ the 1989 World Series reported separately and kept out of the totals.
 
 ---
 
+## 49ers: season hub as a calendar
+
+`49ers-2026-schedule-season-hub` was 688 words of editorial carrying 23 in body inbound
+links, which is the most on the site. It now opens with the same three generated regions as
+the Warriors hub, next game, season shape and the week by week table, and the editorial that
+was already there sits underneath them under its own heading.
+
+**The rule is the same as the Warriors pair.** The table and the shape list are facts from
+the league feed. The prose below is allowed to argue, because it always did and it is what
+gives the page a voice, but it must never contradict the table above it and the table must
+never carry a prediction. If that page ever needs a real forecast section, it goes on a
+different URL.
+
+---
+
 ## Rules for anything added later
 
 1. Two pages may share a subject. They may not share an intent.

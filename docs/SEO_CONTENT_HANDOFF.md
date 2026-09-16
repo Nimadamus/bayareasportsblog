@@ -194,6 +194,9 @@ cd C:/Users/Nima/bayareasportsblog
 # discovery wiring - ALWAYS FIRST, before the feeds
 python _gen_discovery.py
 python _gen_homepage_live.py       # The Wire + Last Night in the Bay, from live feeds
+python _gen_warriors_hub.py        # Warriors schedule table
+python _gen_niners_hub.py          # 49ers schedule table
+python _gen_bay_bridge_series.py   # Giants vs A's head to head
 
 # feeds - after any content change
 python _gen_sitemap.py
@@ -212,6 +215,7 @@ python tools/schema_validate.py    # JSON-LD against schema_types.json, 0 errors
 python _schema_normalize.py --check
 python _gen_bay_bridge_series.py --check
 python _gen_warriors_hub.py --check
+python _gen_niners_hub.py --check
 ```
 
 ### `_gen_discovery.py` owns internal discovery, 2026-09-15
