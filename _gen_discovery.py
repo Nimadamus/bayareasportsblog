@@ -229,10 +229,16 @@ def build_grid(arts, cards, default_width, indent, heading_attr='', widths=None)
         else:
             raw = synth(art, default_width, indent, heading_attr)
         out.append(reindent(raw, indent))
-    if out:
-        # the card at the top of a grid is the LCP candidate: eager, high priority
-        out[0] = out[0].replace(' loading="lazy"', '')
-        out[0] = out[0].replace(' decoding="async"', ' decoding="async" fetchpriority="high"', 1)
+    # the card at the top of a grid is the LCP candidate: eager and high priority.
+    # every other card is lazy, including one that used to lead a page and has since
+    # been pushed down by newer stories.
+    for i, raw in enumerate(out):
+        raw = raw.replace(' loading="lazy"', '')
+        if i:
+            raw = raw.replace(' decoding="async"', ' decoding="async" loading="lazy"', 1)
+        else:
+            raw = raw.replace(' decoding="async"', ' decoding="async" fetchpriority="high"', 1)
+        out[i] = raw
     return ('\r\n' + ' ' * indent).join(out)
 
 
