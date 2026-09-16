@@ -141,9 +141,14 @@ athletics-white-sox-preview-jacob-lopez-july-10                    section=Bay A
 giants-athletics-all-star-game-2026-arraez-langeliers-webb         section=Bay Area
 ```
 
-They are still reachable, they are still linked from `athletics.html` elsewhere on the
-page, and their schema says they are Bay Area general interest. It is a five line metadata
-correction. It is not done, because metadata changes were explicitly out of scope.
+**Correction, 15 September 2026: this was my error and the six are not defects.** Five of
+them carry the visible tag `Bay Area Villains`, which is one of the site's named recurring
+column series, and the sixth is tagged `Bay Area, All-Star Game` and covers Giants and A's
+players on the same night. Their `articleSection` agrees with the tag a reader actually
+sees. Changing them would break a deliberate editorial series to satisfy a script that
+assumed a slug prefix should equal a section. **Nothing was changed.** The only real
+consequence is that the five sit outside the generated A's hub grid while still being
+linked from `athletics.html`, which is the correct outcome for a Bay Area series.
 
 ---
 
