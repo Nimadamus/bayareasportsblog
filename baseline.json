@@ -1,0 +1,23 @@
+{
+ "_frozen": "2026-09-16",
+ "articles": 223,
+ "articles_reached": 223,
+ "broken_links": 0,
+ "crawled_urls": 257,
+ "duplicate_descriptions": 0,
+ "duplicate_titles": 0,
+ "hubs": 33,
+ "invalid_jsonld": 0,
+ "near_orphans": 0,
+ "noindexed": 0,
+ "non_200": 0,
+ "orphans": 0,
+ "pages": 256,
+ "schema_errors": 0,
+ "schema_types": "{'NewsArticle': 220, 'Article': 3}",
+ "schema_warnings": 69,
+ "sitemap_urls": 256,
+ "voice_articles": 223,
+ "voice_median": 84,
+ "voice_under_70": 0
+}
