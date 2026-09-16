@@ -193,6 +193,7 @@ cd C:/Users/Nima/bayareasportsblog
 
 # discovery wiring - ALWAYS FIRST, before the feeds
 python _gen_discovery.py
+python _gen_homepage_live.py       # The Wire + Last Night in the Bay, from live feeds
 
 # feeds - after any content change
 python _gen_sitemap.py
@@ -236,6 +237,32 @@ Three things to know before editing it:
   instead of normalising the page under the cover of an SEO fix.
 - **It is idempotent.** Running it twice is a no op, byte for byte. If a change to it makes
   the second run differ from the first, that is a bug in the change.
+
+### `_gen_homepage_live.py` owns The Wire and the scoreboard, 2026-09-15
+
+Both were hand written into `index.html` and forgotten. On 15 September the ticker still
+read "Deadline / Monday, August 3" and the scoreboard still said the 49ers had camp
+opening this month.
+
+Every line now comes from a live feed field, never composed: `statsapi.mlb.com` for the
+Giants and Athletics, `site.api.espn.com` for the 49ers, Warriors and Sharks. Three rules
+stop it ever lying:
+
+- a final is shown for `RESULT_DAYS` (3) and then treated as no data
+- a fixture is shown for `SCHEDULE_DAYS` (14) and no further
+- each team is fetched independently, so one dead feed costs one tile
+
+With nothing usable from anywhere, the tiles degrade to team hub links with no scores and
+the ticker falls back to our own newest headlines, which are always on disk. A tile links
+to one of our columns only when a piece in the right section, published within two days of
+the game, actually names the opponent or carries the score. Otherwise it links to the hub.
+
+**ESPN rejects a User-Agent it does not recognise**, including anything with a URL in it,
+so `fetch()` deliberately sends urllib's default. Do not "fix" that by adding a polite UA
+string, it returns 403.
+
+Drills in `test_homepage_live.py`: live feeds, every feed down with no cache, malformed
+payloads, a feed serving only six week old games, and idempotency. All five have to pass.
 
 `tools/thumb_gate.py --site` reports 30 PHASH duplicate cards. 17 of those predate this work
 and the rest are older look-alike cards that only became visible once every article had a
