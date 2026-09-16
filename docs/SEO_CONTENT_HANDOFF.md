@@ -191,6 +191,9 @@ mentions their subject; a link would be invented): `athletics-tigers-melton-shel
 ```bash
 cd C:/Users/Nima/bayareasportsblog
 
+# discovery wiring - ALWAYS FIRST, before the feeds
+python _gen_discovery.py
+
 # feeds - after any content change
 python _gen_sitemap.py
 python _gen_news_sitemap.py        # rolling 48h window
@@ -205,6 +208,39 @@ python _meta_template.py --gate
 python _sitemap_audit.py
 python _seo_audit.py               # check near-orphans and 0-in-body-inbound
 ```
+
+### `_gen_discovery.py` owns internal discovery, 2026-09-15
+
+Before this existed, publishing meant hand editing every surface an article belonged on.
+index.html and blog.html were not on anybody's list, so they froze on 7 and 18 August while
+the archive kept growing: 118 of 220 articles were reachable only from a team hub, and the
+homepage advertised a five week old Rundown.
+
+`_gen_discovery.py` rebuilds those surfaces from the articles themselves:
+
+| Surface | What it regenerates |
+|---|---|
+| `index.html` | The Rundown (5 newest) and the Latest Stories grid (40 newest) |
+| `blog.html` + `blog-2..N.html` | The whole archive, 40 per page, newest first, with crawlable prev/next and page numbers |
+| `giants` `athletics` `49ers` `warriors` `sharks` | The "Latest in X" grid, every article in that section |
+
+Three things to know before editing it:
+
+- **The homepage lead is editorial and stays that way.** It is the `lead` slug in
+  `_discovery.json`. The script only overwrites the hero if that article has disappeared,
+  so a minor recap can never promote itself to the top of the homepage. Change the lead by
+  editing that one file.
+- **Existing card markup is reused verbatim.** The script harvests the cards already on the
+  site into a registry keyed by slug and only synthesises markup for articles that have
+  never had a card. That is what keeps the irregular w2/w3 mosaic on the archive intact
+  instead of normalising the page under the cover of an SEO fix.
+- **It is idempotent.** Running it twice is a no op, byte for byte. If a change to it makes
+  the second run differ from the first, that is a bug in the change.
+
+`tools/thumb_gate.py --site` reports 30 PHASH duplicate cards. 17 of those predate this work
+and the rest are older look-alike cards that only became visible once every article had a
+card on an archive page. The index-scoped gate, which is the one in the publish preflight,
+passes clean.
 
 ---
 
