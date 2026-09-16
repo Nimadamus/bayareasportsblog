@@ -1,5 +1,10 @@
 # Search Console access checklist
 
+**SUPERSEDED 16 September 2026.** The current instructions are in
+`SEARCH_PERFORMANCE_OPPORTUNITY_REPORT.md` under "What I need from you", and they
+use a dedicated read only identity rather than any of the options below. This file is
+kept for the background on what already exists on the site.
+
 **Written 15 September 2026.** What is needed to unblock the four analyses that no amount
 of on site measurement can replace.
 

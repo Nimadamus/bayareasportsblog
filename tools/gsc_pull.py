@@ -2,7 +2,8 @@
 """gsc_pull.py: pull everything we need out of Search Console in one go.
 
 Nothing about this script asks anybody to paste a secret. It reads a service account key
-that already sits on disk at ~/.secrets/tmr-play-sa.json, or whatever --key points at.
+from disk at ~/.secrets/basb-gsc.json, or whatever --key points at. That identity is
+dedicated to this site: no other project shares it, and it is read only.
 
     python tools/gsc_pull.py --probe        say exactly what is still missing
     python tools/gsc_pull.py                pull everything into data/gsc/
@@ -31,7 +32,7 @@ import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'data', 'gsc')
-KEY = os.path.expanduser(os.environ.get('GSC_KEY', r'~/.secrets/tmr-play-sa.json'))
+KEY = os.path.expanduser(os.environ.get('GSC_KEY', r'~/.secrets/basb-gsc.json'))
 PROPERTY = 'sc-domain:bayareasportsblog.com'
 FALLBACK_PROPERTY = 'https://bayareasportsblog.com/'
 SCOPE = ['https://www.googleapis.com/auth/webmasters.readonly']

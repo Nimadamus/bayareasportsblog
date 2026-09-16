@@ -47,7 +47,7 @@ would be a guess wearing a suit.
 in our own markup or link graph. What I cannot see is whether the page gets any traffic,
 which is exactly what decides priority.*
 
-## M1. Two of the three brand new pages have titles that will be truncated
+## M1. RESOLVED 16 September. Two of the three brand new pages had titles that would truncate
 
 | | |
 |---|---|
@@ -72,7 +72,7 @@ which is exactly what decides priority.*
 | **Risk** | Low individually, wasted effort in bulk. |
 | **Approval needed** | Not yet, there is nothing to approve until the data says which ones matter. |
 
-## M3. The most linked page on the site is one of its thinnest
+## M3. RESOLVED 16 September. The most linked page on the site was one of its thinnest
 
 | | |
 |---|---|
@@ -85,7 +85,7 @@ which is exactly what decides priority.*
 | **Risk** | Medium. It is an established URL and the only one on this list with something to lose, so it should be measured before and after. The ESPN NFL endpoint is the same one already in use. |
 | **Approval needed** | Yes. |
 
-## M4. Three dead previews still sit in the archive
+## M4. RESOLVED 16 September. Three dead previews sat in the archive
 
 | | |
 |---|---|
@@ -98,7 +98,7 @@ which is exactly what decides priority.*
 | **Risk** | Low. No URL change, no date fakery. |
 | **Approval needed** | Yes, these are content edits to existing articles. |
 
-## M5. The A's depth chart is materially wrong
+## M5. RESOLVED 16 September. The A's depth chart was materially wrong
 
 | | |
 |---|---|
@@ -179,39 +179,58 @@ Cloudflare rollout plan has been sitting approved in principle and unexecuted si
 
 ---
 
-# What I need from you, and it is two clicks
+# What I need from you
 
-The credential already exists on this machine. Nothing needs to be created, downloaded,
-pasted or typed into a terminal.
+You asked for a dedicated identity rather than reusing the service account that belongs to
+another of your projects, which is the right call: permissions stay isolated, and revoking
+this one later cannot affect anything else.
 
-**Step 1. Enable the API.** Open this and press Enable:
+Nothing below asks you to paste a password, a private key, an OAuth secret or the contents
+of a JSON file into this terminal. The only thing that leaves Google is a file you save to
+disk yourself.
+
+**Step 1. Create the identity.** In Google Cloud Console, either in a new project called
+something like `basb-search` or in an existing one, go to IAM and Admin, Service Accounts,
+Create service account. Name it `basb-gsc-readonly`. **Grant it no project roles**, the
+next screen offers them and this account needs none of them. Finish.
+
+**Step 2. Give it a key, and save the file.** Open the new account, Keys, Add key, Create
+new key, JSON. Your browser downloads it. Move that file to:
 
 ```
-https://console.developers.google.com/apis/api/searchconsole.googleapis.com/overview?project=429392135630
+C:\Users\BL\.secrets\basb-gsc.json
 ```
 
-**Step 2. Grant read only access.** In Search Console, open the bayareasportsblog.com
-property, then Settings, Users and permissions, Add user. Paste this address and set the
-permission to **Restricted**, which is read only and the minimum that works:
+Do not open it, do not paste it anywhere, do not send it to me. I read it from that path.
+
+**Step 3. Enable the API.** In the same project, APIs and Services, Enable APIs, search for
+**Google Search Console API**, Enable. If you would rather use a direct link, the console
+gives you one on that page.
+
+**Step 4. Grant read only access to the property.** Copy the service account's email
+address from the Service Accounts list, it looks like
+`basb-gsc-readonly@<project>.iam.gserviceaccount.com`. Then in Search Console, open the
+bayareasportsblog.com property, Settings, Users and permissions, Add user, paste that
+address, permission **Restricted**.
+
+Restricted is read only in the sense you asked for: it cannot submit a sitemap, cannot
+request indexing, cannot change a setting, cannot add another user. It can read
+performance, coverage and inspection data, which is all of what this report needs.
+
+Then tell me, and I run:
 
 ```
-tmr-play-publisher@serene-voltage-507909-a8.iam.gserviceaccount.com
+python tools/gsc_pull.py --probe     # confirms what is and is not in place
+python tools/gsc_pull.py             # the full pull
 ```
 
-Then tell me, and I run `python tools/gsc_pull.py`.
+The probe names the exact missing step if something is not right yet, so there is no
+guessing.
 
-**Two things worth knowing before you do it.** That service account already belongs to
-another project of yours, so this reuses an identity rather than creating one. If you would
-rather Bay Area Sports Blog had its own, say so and I will write the instructions for a
-dedicated one instead. And Restricted is genuinely read only: it cannot submit sitemaps,
-request indexing or change settings. If you later want me to submit URLs for indexing, that
-needs Full, and it is worth deciding that separately rather than granting it now.
-
-**Optional third step, for field Core Web Vitals.** PageSpeed Insights and the Chrome UX
-Report both refuse anonymous requests from here. A free API key in the same project, saved
-to a file rather than pasted, unlocks real user LCP and CLS. Worth doing, not urgent.
-
----
+**Optional, for field Core Web Vitals.** In the same project, Credentials, Create
+credentials, API key, then restrict it to the PageSpeed Insights API. Save it to
+`C:\Users\BL\.secrets\basb-psi-key.txt` as a single line. That unlocks real user LCP and
+CLS. It is worth having and it is not urgent.
 
 # What happens on the first pull
 
