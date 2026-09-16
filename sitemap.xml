@@ -1790,4 +1790,11 @@
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.jpg</image:loc></image:image>
+  </url>
 </urlset>
