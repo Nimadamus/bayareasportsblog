@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 16 Sep 2026 06:35:20 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 06:42:50 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Jack Perkins Threw Six and Two Thirds Scoreless and They Lost Anyway</title>
@@ -25,6 +25,15 @@
     <category>Bay Area</category>
     <description>The complete Giants against Athletics record, season by season since interleague play began in 1997, plus the 1989 World Series, the four ballparks, and what happens to the series now that the A&#39;s play in Sacramento.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-bridge-series-giants-athletics-history.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Chase Center: How to Get There, What to Know, and What We Gave Up for It</title>
+    <link>https://bayareasportsblog.com/articles/chase-center-guide-warriors-arena.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/chase-center-guide-warriors-arena.html</guid>
+    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>A practical guide to Chase Center: the Muni, BART, Caltrain and ferry routes that actually work, the parking situation, the bag rules, and an honest comparison with Oracle Arena.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/chase-center-guide-warriors-arena.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Bryce Eldridge Is Him, and I&#39;m Done Being Careful About Saying It</title>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Devers went deep again Wednesday, three straight games, 29 homers on a 54-78 team. He gets called soft and not a winning player and I do not buy a second of it.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-29-homers-carrying-the-offense.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Vitello Ejected in the First Inning on a Check Swing</title>
-    <link>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-first-inning-check-swing.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-first-inning-check-swing.html</guid>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Tony Vitello got tossed in the top of the first on Wednesday for yelling get it right at a check swing call on Eugenio Suarez. Fourth ejection of his rookie year as a manager, and honestly, good.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tony-vitello-ejected-first-inning-check-swing.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
