@@ -1,3 +1,4 @@
 __pycache__/
 *.pyc
 _homepage_live_cache.json
+_inventory.json
