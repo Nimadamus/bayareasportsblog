@@ -93,9 +93,9 @@ def short_venue(name):
     if 'Candlestick' in name or '3Com' in name:
         return 'Candlestick'
     if name in ('PacBell Park', 'SBC Park', 'AT&T Park', 'Oracle Park'):
-        return 'Giants park, China Basin'
+        return 'Giants park'
     if 'Sutter' in name:
-        return 'Sutter Health Park, Sacramento'
+        return 'Sutter Health Park'
     return name
 
 
