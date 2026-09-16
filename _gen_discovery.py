@@ -319,10 +319,14 @@ def do_index(arts, fallback=None):
 
 def pager(page, pages, indent):
     pad = ' ' * indent
-    link = ('background:var(--surface2);border:1px solid var(--line);border-radius:999px;'
-            'padding:9px 15px;font-size:12.5px;font-weight:800;color:var(--text);'
-            'text-decoration:none;display:inline-block')
-    here = link + ';border-color:var(--accent);color:#fff'
+    # desk.css has no pager component, and it does not define --surface2/--line/--accent
+    # either, so these carry their own values from the desk.css palette
+    link = ('background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;'
+            'padding:10px 17px;font-size:13px;font-weight:800;color:var(--text);'
+            'text-decoration:none;display:inline-block;line-height:1')
+    here = ('background:var(--gold);border:1px solid var(--gold);border-radius:999px;'
+            'padding:10px 17px;font-size:13px;font-weight:800;color:var(--ink);'
+            'text-decoration:none;display:inline-block;line-height:1')
 
     def href(p):
         return 'blog.html' if p == 1 else 'blog-%d.html' % p
