@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 16 Sep 2026 22:23:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 19 Sep 2026 04:30:00 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Guardians 5, Athletics 3: Gelof Put Us Up Three Before Mason Barnett Threw a Pitch, and Then We Got Two Hits the Rest of the Night</title>
+    <link>https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</guid>
+    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    <category>A's</category>
+    <description>Three runs before our starter threw a pitch, then two hits the rest of the night. Barnett walked four, Bazzana and Ramirez homered, and Gelof ended it staring at a replay.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-guardians-5-3-gelof-homer-cantillo-barnett.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>A Month Became Ten Weeks and Surgery. Still Trust the 49ers Training Staff?</title>
     <link>https://bayareasportsblog.com/articles/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Nine to three going to the ninth. Then Eugenio Suarez hit a grand slam, the same Suarez Vitello got ejected screaming about in the first. I&#39;m done with this season.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Bryce Eldridge on the Bereavement List: Take the Week, Kid</title>
-    <link>https://bayareasportsblog.com/articles/giants-bryce-eldridge-bereavement-list.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-bryce-eldridge-bereavement-list.html</guid>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>The Giants put Bryce Eldridge on the bereavement list on Monday. Nobody&#39;s said why and nobody has to. He&#39;ll be away about a week, and every other thing about this season can wait.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-bryce-eldridge-bereavement-list.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

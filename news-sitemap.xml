@@ -2,83 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-dolphins-week-2-home-opener-preparation-levis.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14</news:publication_date>
-      <news:title>Thirteen and a Half Over Miami and I Hate Every Half Point of It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14</news:publication_date>
-      <news:title>They Sent Stribling Back Out on a Sprained Ankle. Fire the Training Staff.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/athletics-perkins-wasted-rays-2-1-injured-core.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
-      <news:title>Jack Perkins Threw Six and Two Thirds Scoreless and They Lost Anyway</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/bay-bridge-series-giants-athletics-history.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
-      <news:title>The Bay Bridge Series: The Complete Giants and A's Record</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/chase-center-guide-warriors-arena.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
-      <news:title>Chase Center Guide: Getting There, Parking and Bag Rules</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/giants-bryce-eldridge-is-him.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
-      <news:title>Bryce Eldridge Is Him, and I'm Done Being Careful About Saying It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-2026-27-schedule-season-hub.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15</news:publication_date>
-      <news:title>The 2026-27 Warriors Schedule, Game by Game</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.html</loc>
     <news:news>
       <news:publication>
@@ -87,6 +10,17 @@
       </news:publication>
       <news:publication_date>2026-09-16</news:publication_date>
       <news:title>A Month Became Ten Weeks and Surgery. Still Trust the 49ers Training Staff?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-18</news:publication_date>
+      <news:title>Guardians 5, Athletics 3: Gelof, Then Nothing</news:title>
     </news:news>
   </url>
 </urlset>
