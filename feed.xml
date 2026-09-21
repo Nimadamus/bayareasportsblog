@@ -6,15 +6,24 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 19 Sep 2026 04:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 06:15:10 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Guardians 5, Athletics 3: Gelof Put Us Up Three Before Mason Barnett Threw a Pitch, and Then We Got Two Hits the Rest of the Night</title>
+    <title>49ers 35, Dolphins 13: Five Straight Scores and I Did Not Sit Down</title>
+    <link>https://bayareasportsblog.com/articles/49ers-dolphins-35-13-purdy-five-straight-touchdowns.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-dolphins-35-13-purdy-five-straight-touchdowns.html</guid>
+    <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers 35, Dolphins 13 at Levi&#39;s. Purdy 20 of 22 for 287, touchdowns on the first five drives, Kittle back, McCaffrey&#39;s 100th. We&#39;re 2-0.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-35-13-purdy-five-straight-touchdowns.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Guardians 5, Athletics 3: Gelof, Then Nothing</title>
     <link>https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</link>
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</guid>
     <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <category>A's</category>
-    <description>Three runs before our starter threw a pitch, then two hits the rest of the night. Barnett walked four, Bazzana and Ramirez homered, and Gelof ended it staring at a replay.</description>
+    <category>A&#39;s</category>
+    <description>Guardians 5, Athletics 3 at Progressive Field: Zack Gelof hit a three run homer in the first, then Joey Cantillo held the A&#39;s to two hits over six. Fourth straight loss, 61 and 93.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-guardians-5-3-gelof-homer-cantillo-barnett.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Reds 10, Giants 9 after a six run ninth. Twenty four saves in forty four chances. Same organization that had the fourth best bullpen in baseball last year. Enough.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/fire-tony-vitello-giants-bullpen-management-travesty.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants Blew a Six Run Lead in the Ninth and It Isn&#39;t Even Over</title>
-    <link>https://bayareasportsblog.com/articles/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.html</guid>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Nine to three going to the ninth. Then Eugenio Suarez hit a grand slam, the same Suarez Vitello got ejected screaming about in the first. I&#39;m done with this season.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
