@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-defensive-line-injuries-deja-vu.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-25</news:publication_date>
+      <news:title>49ers Defensive Line Injuries: Déjà Vu All Over Again, Every Year</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</loc>
     <news:news>
       <news:publication>

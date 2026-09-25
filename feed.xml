@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 25 Sep 2026 18:52:43 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 19:05:57 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Defensive Line Injuries: Déjà Vu All Over Again, Every Year</title>
+    <link>https://bayareasportsblog.com/articles/49ers-defensive-line-injuries-deja-vu.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-defensive-line-injuries-deja-vu.html</guid>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Bosa, Collins, Okuayinonu, West, Thompson, Height, Mykel Williams. Seven 49ers defensive linemen hurt by week 3. When does this stop being bad luck?</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-defensive-line-injuries-deja-vu.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Nick Bosa Injury: A Pulled Calf in Practice, and I&#39;m Out of Patience</title>
     <link>https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Ron Wotus got ejected during the lineup card exchange before Game 1 of the doubleheader against Arizona. Not in the third. Not in the ninth. Before the first pitch.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Vitello Got Run Again, and This Time He Took Logan Webb With Him</title>
-    <link>https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.html</guid>
-    <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Two days after the six run ninth, Tony Vitello got thrown out in the third inning against Arizona, and Logan Webb got tossed with him. Five ejections. Fifty five wins.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
