@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 23 Sep 2026 02:48:12 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 18:52:43 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Nick Bosa Injury: A Pulled Calf in Practice, and I&#39;m Out of Patience</title>
+    <link>https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</guid>
+    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Nick Bosa pulled his calf in Thursday&#39;s practice and will miss a few weeks, starting with Arizona. Two ACLs, now this. His 49ers future is a real question.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/nick-bosa-injury-calf-49ers-future.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>They Signed the Kid from Stockton, and He&#39;s Turning 33 on the Practice Squad</title>
     <link>https://bayareasportsblog.com/articles/49ers-brandin-cooks-practice-squad-stockton.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Two days after the six run ninth, Tony Vitello got thrown out in the third inning against Arizona, and Logan Webb got tossed with him. Five ejections. Fifty five wins.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-tony-vitello-ejected-again-webb-tossed-diamondbacks.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers 18, Raiders 12: A Kicker Won a Football Game</title>
-    <link>https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.html</guid>
-    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers 18, Raiders 12 in the preseason finale. Eddy Pineiro went 6-for-6 including a 59 yarder and the defense allowed no touchdowns.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-raiders-18-12-pineiro-six-field-goals-preseason-finale.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
