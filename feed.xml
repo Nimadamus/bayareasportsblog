@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 26 Sep 2026 08:42:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 08:57:30 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Clemson 24, Cal 10, and Our Offense Never Found the End Zone</title>
@@ -16,6 +16,15 @@
     <category>Cal</category>
     <description>Our only touchdown came from the defense. Sagapolutele threw for 119, Clemson ran for 255, and a punt return broke a 10 to 10 tie at Memorial Stadium.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-clemson-24-10-no-offensive-touchdown.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Mike Krukow Is Retiring, and I Don&#39;t Know How to Say Goodbye</title>
+    <link>https://bayareasportsblog.com/articles/mike-krukow-retiring-giants-37-years-goodbye.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/mike-krukow-retiring-giants-37-years-goodbye.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>Thirty seven seasons in the Giants booth, three parades, a disease he never let beat him. Sunday is Kruk&#39;s last game, and we&#39;re losing a good one.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/mike-krukow-retiring-giants-37-years-goodbye.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>49ers Defensive Line Injuries: Déjà Vu All Over Again, Every Year</title>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Devers got to 30 homers in the first inning against Atlanta. Only the second Giant to do it since Bonds in 2004, on a 57 win team, after a summer of being called soft.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-30th-homer-monster-season.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Eldridge Goes 4 for 5 With 4 RBI and the Giants Are Fun Again</title>
-    <link>https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html</guid>
-    <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Giants 7, Diamondbacks 2 in the nightcap. Bryce Eldridge matched career highs with four hits and four RBI, the first Giants rookie to do it since Posey in 2010.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
