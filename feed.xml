@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 26 Sep 2026 08:57:30 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 09:37:55 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The A&#39;s Finished 64 and 96, the Kids Are Hurt, and I&#39;m Still Checking the Box Score</title>
+    <link>https://bayareasportsblog.com/articles/athletics-2027-outlook-kurtz-de-vries-injuries.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-2027-outlook-kurtz-de-vries-injuries.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <category>A&#39;s Column</category>
+    <description>Kurtz, Wilson, Rooker and Soderstrom ended 2026 on the injured list, De Vries had shoulder surgery, and the best young A&#39;s core in years is headed to Vegas.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-2027-outlook-kurtz-de-vries-injuries.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Clemson 24, Cal 10, and Our Offense Never Found the End Zone</title>
     <link>https://bayareasportsblog.com/articles/cal-clemson-24-10-no-offensive-touchdown.html</link>
@@ -16,6 +25,15 @@
     <category>Cal</category>
     <description>Our only touchdown came from the defense. Sagapolutele threw for 119, Clemson ran for 255, and a punt return broke a 10 to 10 tie at Memorial Stadium.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-clemson-24-10-no-offensive-touchdown.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The Giants Were 65 and 95, and I&#39;ve Never Been More Excited About Next Year</title>
+    <link>https://bayareasportsblog.com/articles/giants-2027-farm-system-bright-future.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-2027-farm-system-bright-future.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>An A plus farm system, five top 100 prospects, Josuar Gonzalez hitting .351 at 18 and Bryce Eldridge already here. Why 2027 finally feels different.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-2027-farm-system-bright-future.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Mike Krukow Is Retiring, and I Don&#39;t Know How to Say Goodbye</title>
@@ -349,24 +367,6 @@
     <category>Athletics</category>
     <description>Rangers 8, Athletics 1. deGrom allowed one hit over seven, Gage Jump gave up seven earned, and the five best bats in the organization are all hurt at once.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-rangers-8-1-degrom-one-hit-injured-core.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants 7, Braves 3, and This Team Has Quietly Been Fun for a Week</title>
-    <link>https://bayareasportsblog.com/articles/giants-braves-7-3-four-run-sixth-molina.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-braves-7-3-four-run-sixth-molina.html</guid>
-    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Devers opened it with his 30th, Molina went five with six strikeouts and no walks, and a four run sixth buried Atlanta. Five wins in the last eight.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-braves-7-3-four-run-sixth-molina.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Rafael Devers Hit Number 30 in Atlanta and I Would Like Some Apologies</title>
-    <link>https://bayareasportsblog.com/articles/giants-rafael-devers-30th-homer-monster-season.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-rafael-devers-30th-homer-monster-season.html</guid>
-    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Devers got to 30 homers in the first inning against Atlanta. Only the second Giant to do it since Bonds in 2004, on a 57 win team, after a summer of being called soft.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-rafael-devers-30th-homer-monster-season.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
