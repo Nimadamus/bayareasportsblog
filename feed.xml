@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 25 Sep 2026 19:05:57 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 26 Sep 2026 08:42:08 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Clemson 24, Cal 10, and Our Offense Never Found the End Zone</title>
+    <link>https://bayareasportsblog.com/articles/cal-clemson-24-10-no-offensive-touchdown.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/cal-clemson-24-10-no-offensive-touchdown.html</guid>
+    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Cal</category>
+    <description>Our only touchdown came from the defense. Sagapolutele threw for 119, Clemson ran for 255, and a punt return broke a 10 to 10 tie at Memorial Stadium.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-clemson-24-10-no-offensive-touchdown.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Defensive Line Injuries: Déjà Vu All Over Again, Every Year</title>
     <link>https://bayareasportsblog.com/articles/49ers-defensive-line-injuries-deja-vu.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Giants 7, Diamondbacks 2 in the nightcap. Bryce Eldridge matched career highs with four hits and four RBI, the first Giants rookie to do it since Posey in 2010.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>They Ran Ron Wotus at the Lineup Card. The Game Hadn&#39;t Started Yet.</title>
-    <link>https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.html</guid>
-    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Ron Wotus got ejected during the lineup card exchange before Game 1 of the doubleheader against Arizona. Not in the third. Not in the ninth. Before the first pitch.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-ron-wotus-ejected-lineup-card-exchange-doubleheader.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
