@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 26 Sep 2026 09:37:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 27 Sep 2026 19:40:17 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Steph Signed Through 2029, and Now I Want One More Parade</title>
+    <link>https://bayareasportsblog.com/articles/stephen-curry-two-year-116-million-extension-warriors.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/stephen-curry-two-year-116-million-extension-warriors.html</guid>
+    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Two years, $116 million, and about $20 million left on the table so the Warriors can build around him. Stephen Curry is staying home, and he just gave this team one more real shot.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/stephen-curry-two-year-116-million-extension-warriors.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The A&#39;s Finished 64 and 96, the Kids Are Hurt, and I&#39;m Still Checking the Box Score</title>
     <link>https://bayareasportsblog.com/articles/athletics-2027-outlook-kurtz-de-vries-injuries.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>George Kittle practiced and Nick Bosa did not, with both due out all three days. Mike Evans caught passes out of uniform and Puni cleared protocol.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-kittle-practicing-bosa-not-australia-travel-question.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The A&#39;s Have Five Hitters on the IL and deGrom One Hit What Was Left</title>
-    <link>https://bayareasportsblog.com/articles/athletics-rangers-8-1-degrom-one-hit-injured-core.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-rangers-8-1-degrom-one-hit-injured-core.html</guid>
-    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Rangers 8, Athletics 1. deGrom allowed one hit over seven, Gage Jump gave up seven earned, and the five best bats in the organization are all hurt at once.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-rangers-8-1-degrom-one-hit-injured-core.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
