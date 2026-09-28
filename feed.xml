@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 28 Sep 2026 00:03:16 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 00:25:51 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers 36, Cardinals 30: Purdy Threw Four and We&amp;#x27;re 3 and 0</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>49ers 36, Cardinals 30 at Levi&amp;#x27;s. Purdy threw four touchdowns, a Kittle hold wiped out his long TD run, then Kittle caught the dagger a few plays later. 3-0.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>49ers Signing Matthew Judon: Four Pro Bowls, Zero Sacks Last Year</title>
+    <link>https://bayareasportsblog.com/articles/49ers-signing-matthew-judon-bosa-calf-defensive-line-injuries.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-signing-matthew-judon-bosa-calf-defensive-line-injuries.html</guid>
+    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers are signing Matthew Judon with Nick Bosa&#39;s calf and half the defensive line hurt. Four time Pro Bowler, 72 career sacks, zero in 2025. Help or washed?</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-signing-matthew-judon-bosa-calf-defensive-line-injuries.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Raiders 35, Saints 27: Three and Oh, and I Forgot What This Felt Like</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The 49ers landed in Melbourne after a 15 hour charter flight and a 17 hour time difference, nine days before the Week 1 opener against the Rams at the MCG.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Two Hits. The Giants Got Two Hits in Pittsburgh and I Watched Every Pitch</title>
-    <link>https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-pirates-5-2-two-hits-bases-loaded-walks.html</guid>
-    <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Pirates 5, Giants 2 at PNC Park. Tidwell walked five, six Pittsburgh arms held San Francisco to two hits, and the season is functionally over at 58 and 83.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-pirates-5-2-two-hits-bases-loaded-walks.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
