@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-27</news:publication_date>
+      <news:title>49ers 36, Cardinals 30: Purdy Threw Four and We&amp;#x27;re 3 and 0</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-defensive-line-injuries-deja-vu.html</loc>
     <news:news>
       <news:publication>
@@ -65,6 +76,17 @@
       </news:publication>
       <news:publication_date>2026-09-25</news:publication_date>
       <news:title>Nick Bosa Injury: A Pulled Calf in Practice, and I'm Out of Patience</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/raiders-saints-35-27-three-and-oh-cousins-bowers.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-27</news:publication_date>
+      <news:title>Raiders 35, Saints 27: Three and Oh, and I Forgot What This Felt Like</news:title>
     </news:news>
   </url>
   <url>

@@ -6,8 +6,26 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 27 Sep 2026 19:40:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 00:03:16 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 36, Cardinals 30: Purdy Threw Four and We&amp;#x27;re 3 and 0</title>
+    <link>https://bayareasportsblog.com/articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html</guid>
+    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers 36, Cardinals 30 at Levi&amp;#x27;s. Purdy threw four touchdowns, a Kittle hold wiped out his long TD run, then Kittle caught the dagger a few plays later. 3-0.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Raiders 35, Saints 27: Three and Oh, and I Forgot What This Felt Like</title>
+    <link>https://bayareasportsblog.com/articles/raiders-saints-35-27-three-and-oh-cousins-bowers.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-saints-35-27-three-and-oh-cousins-bowers.html</guid>
+    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    <category>Raiders</category>
+    <description>Down 27 to 16 in New Orleans, the Raiders forced four fourth quarter turnovers and won 35 to 27. Cousins threw three, Bowers came back with 116 yards. 3-0.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-saints-35-27-three-and-oh-cousins-bowers.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Steph Signed Through 2029, and Now I Want One More Parade</title>
     <link>https://bayareasportsblog.com/articles/stephen-curry-two-year-116-million-extension-warriors.html</link>
@@ -349,24 +367,6 @@
     <category>Giants</category>
     <description>Pirates 5, Giants 2 at PNC Park. Tidwell walked five, six Pittsburgh arms held San Francisco to two hits, and the season is functionally over at 58 and 83.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-pirates-5-2-two-hits-bases-loaded-walks.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Bosa Practiced. Everybody Practiced. Now Get on the Plane.</title>
-    <link>https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html</guid>
-    <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Nick Bosa practiced fully for the first time since August 3, Kittle went a third straight day, Evans and Juszczyk returned, and the 49ers fly to Australia tonight.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Kittle Practiced. Bosa Didn&#39;t. Melbourne Is Nine Days Away.</title>
-    <link>https://bayareasportsblog.com/articles/49ers-kittle-practicing-bosa-not-australia-travel-question.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-kittle-practicing-bosa-not-australia-travel-question.html</guid>
-    <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>George Kittle practiced and Nick Bosa did not, with both due out all three days. Mike Evans caught passes out of uniform and Puni cleared protocol.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-kittle-practicing-bosa-not-australia-travel-question.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
