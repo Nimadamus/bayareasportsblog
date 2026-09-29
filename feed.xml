@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 28 Sep 2026 00:25:51 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 09:24:28 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Brock Purdy Might Be the Best QB Ever, and the Stats Don&#39;t Lie</title>
+    <link>https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-stats-dont-lie-kyle-kittle-excuses.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-stats-dont-lie-kyle-kittle-excuses.html</guid>
+    <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Brock Purdy&#39;s 133.1 rating and 9 TDs have fans changing their minds after three games. His 105.7 career rating says it&#39;s nothing new. Kyle and Kittle? Please.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/brock-purdy-best-quarterback-stats-dont-lie-kyle-kittle-excuses.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers 36, Cardinals 30: Purdy Threw Four and We&amp;#x27;re 3 and 0</title>
     <link>https://bayareasportsblog.com/articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html</link>
@@ -358,15 +367,6 @@
     <category>Giants October Watch</category>
     <description>Rafael Devers hit two more home runs and the Giants hit six in a 9-5 beating of the Mets at Citi Field. Since August 24 he is hitting .420 with 9 homers and 21 RBI.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/devers-tear-giants-9-mets-5-six-homers-citi-field.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Niners Landed in Melbourne and I Don&#39;t Know What Day It Is</title>
-    <link>https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.html</guid>
-    <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers landed in Melbourne after a 15 hour charter flight and a 17 hour time difference, nine days before the Week 1 opener against the Rams at the MCG.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-landed-melbourne-15-hour-flight-17-hour-time-difference.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
