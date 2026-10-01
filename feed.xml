@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 01 Oct 2026 09:25:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 09:44:19 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers Injury Report: Who Is Out, Questionable and on IR</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The current San Francisco 49ers injury report: every player listed out, doubtful, questionable, on injured reserve or PUP, with the injury and the latest update.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-injury-report.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Warriors Injury Report: Who Is Out and Who Is Day to Day</title>
+    <link>https://bayareasportsblog.com/articles/warriors-injury-report.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-injury-report.html</guid>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>The current Golden State Warriors injury report: every player ruled out or listed day to day, with the injury, the status and the latest update.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Brock Purdy Might Be the Best QB Ever, and the Stats Don&#39;t Lie</title>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>Mariners 2, Athletics 0 at T-Mobile Park. Bryan Woo went eight innings on one hit, Gage Jump struck out seven in four and took the loss anyway, and the A&#39;s fall to 57 and 87.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-mariners-2-0-bryan-woo-one-hitter.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Cesar Perdomo Gave Us Six Shutout Innings and the Eighth Took It Away</title>
-    <link>https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Mets 4, Giants 2 at Citi Field. Cesar Perdomo threw six scoreless, Jung Hoo Lee&#39;s two run single held up into the eighth, and then Carson Seymour gave up two homers in four batters.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

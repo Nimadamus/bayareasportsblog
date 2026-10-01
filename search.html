@@ -112,12 +112,15 @@
     var h='';
     if(label){h+='<div class="sr-empty" style="padding:14px 18px">'+label+'</div>';}
     items.forEach(function(a){
-      h+='<a class="sr-item" href="'+esc(a.u)+'">'
+      h+='<a class="sr-item" data-u="'+esc(a.u)+'">'
         +'<span class="sr-k">'+esc(a.k)+(a.dt?' &middot; '+esc(a.dt):'')+'</span>'
         +'<h4 role="heading" aria-level="2">'+esc(a.t)+'</h4>'
         +'<p>'+esc(a.d)+'</p></a>';
     });
     out.innerHTML=h;
+    // the link target is set as a property, not written into a markup string, so no
+    // crawler reading this script mistakes the template for a real URL
+    Array.prototype.forEach.call(out.querySelectorAll('a[data-u]'),function(el){el.setAttribute('href',el.getAttribute('data-u'));});
   }
 
   function search(){

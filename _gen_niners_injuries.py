@@ -54,6 +54,11 @@ LIST_LABELS = {'IR-R': 'designated to return', 'PUP-R': 'PUP list', 'PUP-P': 'PU
                'NFI-R': 'non football injury list', 'NFI-P': 'non football injury list',
                'RESERVE-DNR': 'reserve, did not report', 'SUSP': 'suspended'}
 PUBLISHED = '2026-10-01'
+# Team identity. _gen_warriors_injuries.py reuses this module and overrides these.
+TEAM_ABBR = 'SF'
+TEAM_NAME, SPORT, SECTION = 'San Francisco 49ers', 'American football', '49ers'
+HUB_NAME, HUB_FILE, PAGE_NAME = '49ers', '49ers.html', '49ers Injury Report'
+COVER_PREFIXES = ('49ers', 'nick-bosa', 'brock-purdy')
 LINK = 'style="color:var(--gold);text-decoration:underline;text-underline-offset:3px"'
 
 TITLE = '49ers Injury Report: Who Is Out, Questionable and on IR'
@@ -124,8 +129,8 @@ def next_game():
             st = ev['competitions'][0]['status']['type']
             if st.get('name') == 'STATUS_SCHEDULED':
                 comp = ev['competitions'][0]['competitors']
-                us = [c for c in comp if c['team']['abbreviation'] == 'SF'][0]
-                them = [c for c in comp if c['team']['abbreviation'] != 'SF'][0]
+                us = [c for c in comp if c['team']['abbreviation'] == TEAM_ABBR][0]
+                them = [c for c in comp if c['team']['abbreviation'] != TEAM_ABBR][0]
                 when = datetime.datetime.strptime(ev['date'][:16], '%Y-%m-%dT%H:%M').replace(
                     tzinfo=datetime.timezone.utc).astimezone(PACIFIC)
                 return '%s %s, %s' % ('vs' if us.get('homeAway') == 'home' else 'at',
@@ -148,7 +153,7 @@ def coverage():
     pat = re.compile(r'injur|surgery|out-for|calf|ankle|acl|pcl|patellar|hamstring|tendon|achilles|mcl|soreness|tightness')
     for path in glob.glob(os.path.join(ROOT, 'articles', '*.html')):
         slug = os.path.basename(path)[:-5]
-        if slug == SLUG or not (slug.startswith('49ers') or 'bosa' in slug or 'purdy' in slug):
+        if slug == SLUG or not slug.startswith(COVER_PREFIXES):
             continue
         if not pat.search(slug):
             continue
@@ -237,7 +242,7 @@ def build_head(template, now):
         t = re.sub(r'<meta name="%s" content="[^"]*">' % prop, '<meta name="%s" content="%s">' % (prop, val), t)
     t = re.sub(r'<link rel="canonical" href="[^"]*">', '<link rel="canonical" href="%s">' % url, t)
     repl = {'og:title': TITLE, 'og:description': DESC, 'og:url': url, 'og:image': img,
-            'og:image:alt': 'Bay Area Sports Blog: 49ers Injury Report'}
+            'og:image:alt': 'Bay Area Sports Blog: ' + PAGE_NAME}
     for k, v in repl.items():
         t = re.sub(r'<meta property="%s" content="[^"]*">' % re.escape(k), '<meta property="%s" content="%s">' % (k, html.escape(v, quote=True)), t)
     for k, v in {'twitter:title': TITLE, 'twitter:description': DESC, 'twitter:image': img}.items():
@@ -246,12 +251,12 @@ def build_head(template, now):
            'author': {'@type': 'Organization', 'name': 'Bay Area Sports Blog', 'url': BASE + 'about.html'},
            'publisher': {'@type': 'Organization', 'name': 'Bay Area Sports Blog', 'url': BASE},
            'description': DESC, 'datePublished': PUBLISHED, 'dateModified': now.date().isoformat(),
-           'mainEntityOfPage': {'@type': 'WebPage', '@id': url}, 'url': url, 'articleSection': '49ers',
-           'about': {'@type': 'SportsTeam', 'name': 'San Francisco 49ers', 'sport': 'American football'}}
+           'mainEntityOfPage': {'@type': 'WebPage', '@id': url}, 'url': url, 'articleSection': SECTION,
+           'about': {'@type': 'SportsTeam', 'name': TEAM_NAME, 'sport': SPORT}}
     crumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
         {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': BASE},
-        {'@type': 'ListItem', 'position': 2, 'name': '49ers', 'item': BASE + '49ers.html'},
-        {'@type': 'ListItem', 'position': 3, 'name': '49ers Injury Report', 'item': url}]}
+        {'@type': 'ListItem', 'position': 2, 'name': HUB_NAME, 'item': BASE + HUB_FILE},
+        {'@type': 'ListItem', 'position': 3, 'name': PAGE_NAME, 'item': url}]}
     blocks = re.findall(r'<script type="application/ld\+json">.*?</script>', t, re.S)
     t = t.replace(blocks[0], '<script type="application/ld+json">%s</script>' % json.dumps(art, ensure_ascii=False, separators=(',', ':')), 1)
     t = t.replace(blocks[1], '<script type="application/ld+json">%s</script>' % json.dumps(crumbs, ensure_ascii=False, separators=(',', ':')), 1)

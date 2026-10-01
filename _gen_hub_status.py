@@ -171,6 +171,7 @@ KEYPAGES = {
     'warriors.html': [
         ('This season', [('warriors-2026-27-schedule-season-hub', '2026-27 schedule and results'),
                          ('warriors-2026-27-roster-depth-chart', 'Roster and depth chart'),
+                         ('warriors-injury-report', 'Injury report'),
                          ('warriors-2026-27-projected-rotation', 'Projected rotation'),
                          ('warriors-roster-construction-cap-sheet-2026-27', 'Cap sheet'),
                          ('warriors-2026-27-season-outlook', 'Season outlook')]),
