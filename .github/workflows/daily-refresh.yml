@@ -49,6 +49,7 @@ jobs:
           rm -f refresh.log
           git config user.name "bay-area-refresh"
           git config user.email "actions@users.noreply.github.com"
+          git config core.autocrlf input   # generators write CRLF; store LF like every other commit
           git add -A
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "Daily live refresh: dates, scores, hub status"
