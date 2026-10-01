@@ -26,6 +26,7 @@ jobs:
           python _gen_hub_status.py || true
           python _gen_niners_hub.py || true
           python _gen_warriors_hub.py || true
+          python _trust_schema.py
       - name: Commit if anything changed
         run: |
           git config user.name "bay-area-refresh"

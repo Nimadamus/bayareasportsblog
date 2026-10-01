@@ -35,6 +35,14 @@ TEAMS = [
 ]
 
 
+DIVISIONS = {200: 'AL West', 201: 'AL East', 202: 'AL Central',
+             203: 'NL West', 204: 'NL East', 205: 'NL Central'}
+
+
+def ordinal(n):
+    return '%d%s' % (n, 'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th'))
+
+
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=20) as r:
@@ -72,13 +80,17 @@ def mlb(team, now):
                 last = row
             elif state == 'Preview' and nxt is None:
                 nxt = row
-    record = None
+    record = standing = None
     for block in fetch('https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=%d' % now.year)['records']:
         for t in block['teamRecords']:
             if t['team']['id'] == team['id']:
                 record = '%d-%d' % (t['wins'], t['losses'])
+                div = DIVISIONS.get(block.get('division', {}).get('id'))
+                if div and t.get('divisionRank'):
+                    standing = '%s in %s' % (ordinal(int(t['divisionRank'])), div)
     over = nxt is None and now.date().isoformat() > season['regularSeasonEndDate']
-    return {'record': record, 'season': str(now.year), 'last': last, 'next': nxt, 'over': over}
+    return {'record': record, 'season': str(now.year), 'last': last, 'next': nxt, 'over': over,
+            'standing': standing}
 
 
 def espn(team, now):
@@ -106,8 +118,10 @@ def espn(team, now):
         elif nxt is None and status.get('name') == 'STATUS_SCHEDULED':
             nxt = row
     season = (sched.get('requestedSeason') or {}).get('displayName', str(now.year))
+    info = fetch('https://site.api.espn.com/apis/site/v2/sports/%s/teams/%s'
+                 % (team['path'], team['abbr']))['team']
     return {'record': sched['team'].get('recordSummary'), 'season': season,
-            'last': last, 'next': nxt, 'over': False}
+            'last': last, 'next': nxt, 'over': False, 'standing': info.get('standingSummary')}
 
 
 def strip(s, now):
@@ -116,6 +130,8 @@ def strip(s, now):
     if s['record'] and set(s['record']) - set('0-'):   # skip 0-0 before opening night
         label = '%s final record' % s['season'] if s['over'] else '%s record' % s['season']
         cells.append(cell % (label, s['record']))
+        if s.get('standing'):   # only once games count, a 0-0 rank is alphabetical noise
+            cells.append(cell % ('Standing', s['standing']))
     if s['last']:
         g = s['last']
         res = 'W' if g['ours'] > g['theirs'] else ('L' if g['ours'] < g['theirs'] else 'T')
@@ -133,6 +149,83 @@ def strip(s, now):
             '<div style="display:flex;flex-wrap:wrap;gap:8px 28px;font-size:15px;line-height:1.5;'
             'padding:12px 16px;border:1px solid var(--line,rgba(127,127,127,.25));border-radius:10px">'
             + ''.join(cells) + '</div></div></section>\r\n' + END)
+
+# The reference pages each hub should always point at, grouped the way a reader looks for
+# them. Anchors describe the page in plain words, they are not keyword strings. A slug that
+# no longer exists on disk is dropped rather than linked.
+KSTART, KEND = '<!-- hub-keys:start -->', '<!-- hub-keys:end -->'
+KEYPAGES = {
+    '49ers.html': [
+        ('This season', [('49ers-2026-schedule-season-hub', '2026 schedule and results'),
+                         ('49ers-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('49ers-2026-season-preview-roster-schedule-questions', 'Season preview')]),
+        ('Players', [('brock-purdy-career-passer-rating-where-he-ranks', 'Where Brock Purdy ranks all time'),
+                     ('49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts', 'Purdy and the passer rating record')]),
+        ('History', [('49ers-dynasty-team-of-the-decade', 'The 1980s dynasty'),
+                     ('montana-young-49ers-quarterback-controversy', 'Montana and Young'),
+                     ('flashback-the-catch-1982', 'The Catch'),
+                     ('candlestick-park-history-wind-the-catch-demolition', 'Candlestick Park'),
+                     ('bay-area-championships-complete-list-by-team', 'Every Bay Area title')]),
+    ],
+    'warriors.html': [
+        ('This season', [('warriors-2026-27-schedule-season-hub', '2026-27 schedule and results'),
+                         ('warriors-2026-27-roster-depth-chart', 'Roster and depth chart'),
+                         ('warriors-2026-27-projected-rotation', 'Projected rotation'),
+                         ('warriors-roster-construction-cap-sheet-2026-27', 'Cap sheet'),
+                         ('warriors-2026-27-season-outlook', 'Season outlook')]),
+        ('Players', [('stephen-curry-career-records-three-pointers', 'Stephen Curry career records'),
+                     ('stephen-curry-two-year-116-million-extension-warriors', "Curry's extension through 2029")]),
+        ('History and venues', [('warriors-championship-history', 'Championship history'),
+                                ('warriors-73-9-best-record-ever-added-durant', 'The 73-9 season'),
+                                ('oracle-arena-roaracle-history-oakland-warriors', 'Oracle Arena'),
+                                ('chase-center-guide-warriors-arena', 'Chase Center guide')]),
+    ],
+    'giants.html': [
+        ('This season', [('giants-2026-season-hub-results-coverage', '2026 season results'),
+                         ('giants-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('giants-2027-farm-system-bright-future', 'The farm system and 2027')]),
+        ('Players', [('bryce-eldridge-giants-future-franchise-first-baseman-july-2026', 'Bryce Eldridge'),
+                     ('josuar-gonzalez-giants-top-prospect-18-year-old-shortstop', 'Josuar Gonzalez'),
+                     ('barry-bonds-giants-home-run-king', 'Barry Bonds'),
+                     ('jeff-kent-giants-mvp-second-baseman', 'Jeff Kent')]),
+        ('History and venues', [('giants-dynasty-even-year-magic', 'The even year titles'),
+                                ('flashback-bumgarner-2014-world-series', 'Bumgarner in 2014'),
+                                ('giants-1993-pennant-race-salomon-torres-final-day', 'The 1993 race'),
+                                ('bay-bridge-series-giants-athletics-history', 'Bay Bridge Series'),
+                                ('oracle-park-mccovey-cove-splash-hits-guide', 'Oracle Park and McCovey Cove'),
+                                ('candlestick-park-history-wind-the-catch-demolition', 'Candlestick Park')]),
+    ],
+    'athletics.html': [
+        ('This season', [('athletics-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('athletics-2027-outlook-kurtz-de-vries-injuries', 'Looking ahead to 2027')]),
+        ('The move', [('athletics-oakland-sacramento-las-vegas-timeline', 'Oakland to Las Vegas timeline'),
+                      ('sutter-health-park-mlb-guide-dimensions-capacity', 'Sutter Health Park guide')]),
+        ('History', [('oakland-athletics-legacy-what-the-bay-area-lost', 'What Oakland lost'),
+                     ('oakland-coliseum-history-what-happens-to-it-now', 'The Oakland Coliseum'),
+                     ('bay-bridge-series-giants-athletics-history', 'Bay Bridge Series')]),
+    ],
+    'sharks.html': [
+        ('This season', [('sharks-2026-27-schedule-season-hub', '2026-27 schedule'),
+                         ('sharks-2026-27-roster-depth-chart', 'Roster and depth chart')]),
+        ('Players', [('macklin-celebrini-sharks-records-contract', 'Macklin Celebrini by the numbers')]),
+        ('History', [('when-were-the-san-jose-sharks-founded', 'How the Sharks were founded'),
+                     ('sharks-playoff-history', 'Playoff history'),
+                     ('san-jose-sharks-history-no-stanley-cup', 'Franchise history')]),
+    ],
+}
+
+
+def keys_block(hub):
+    rows = []
+    for group, links in KEYPAGES[hub]:
+        found = [(s, a) for s, a in links if os.path.exists(os.path.join(ROOT, 'articles', s + '.html'))]
+        if found:
+            rows.append('<div><b>%s:</b> %s</div>' % (group, ' &middot; '.join(
+                '<a href="articles/%s.html" style="color:var(--gold);text-decoration:underline;'
+                'text-underline-offset:3px">%s</a>' % (s, a) for s, a in found)))
+    return (KSTART + '\r\n<section class="zone tight"><div class="wrap">'
+            '<div style="display:grid;gap:6px;font-size:15px;line-height:1.55">'
+            + ''.join(rows) + '</div></div></section>\r\n' + KEND)
 
 
 def main():
@@ -152,6 +245,11 @@ def main():
             # first run: directly above the hub's intro section
             m = re.search(r'<section class="zone"><div class="wrap">\s*<div class="sec-head"><div><h2>', text)
             text = text[:m.start()] + block + '\r\n' + text[m.start():]
+        kb = keys_block(team['hub'])
+        if KSTART in text:
+            text = re.sub(re.escape(KSTART) + '.*?' + re.escape(KEND), lambda m: kb, text, flags=re.S)
+        else:
+            text = text.replace(END, END + '\r\n' + kb, 1)
         open(path, 'w', encoding='utf-8', newline='').write(text)
         print('%-15s %s' % (team['hub'], re.sub(r'\s*<[^>]+>\s*', ' ', block.split('border-radius:10px">', 1)[1])[:180]))
 

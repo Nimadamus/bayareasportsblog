@@ -88,7 +88,8 @@ def gate():
     pages = ([os.path.basename(f) for f in sorted(glob.glob(os.path.join(ROOT, '*.html')))]
              + ['articles/' + os.path.basename(f)
                 for f in sorted(glob.glob(os.path.join(ROOT, 'articles', '*.html')))])
-    skip = {'google6f74b54ecd988601.html'}
+    skip = {'google6f74b54ecd988601.html', 'google415ee1e6530e2d0f.html',  # search engine verification files
+            '404.html'}  # a not found page declares no canonical and no breadcrumb
     fails = []
     titles, descs = collections.defaultdict(list), collections.defaultdict(list)
 
