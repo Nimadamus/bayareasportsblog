@@ -158,6 +158,7 @@ KEYPAGES = {
     '49ers.html': [
         ('This season', [('49ers-2026-schedule-season-hub', '2026 schedule and results'),
                          ('49ers-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('49ers-injury-report', 'Injury report'),
                          ('49ers-2026-season-preview-roster-schedule-questions', 'Season preview')]),
         ('Players', [('brock-purdy-career-passer-rating-where-he-ranks', 'Where Brock Purdy ranks all time'),
                      ('49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts', 'Purdy and the passer rating record')]),

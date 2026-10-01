@@ -119,3 +119,37 @@ A small hub page that lists every venue guide (Chase Center, Oracle Park, Levi's
 - "Chase Center parking", "Chase Center bag policy" as separate pages: the existing guide covers both.
 - Per team "retired numbers" pages: item 12.
 - Off site reference databases (championship database, injury database, relocation timeline): worth doing after items 1 to 5, because items 1 and 2 are the seed data for them.
+
+---
+
+## Reranked against Search Console, 1 October 2026
+
+Evidence is in `docs/GSC_REPORT_OCT2026.md`. Search Console cannot show demand for a page
+that does not exist, so "no evidence" below means the site has no signal yet, not that
+nobody searches it. The strongest general signal: reference pages earn 84% of impressions
+from a third of the pages, and 49ers news earns almost nothing.
+
+| # | Page | Decision | Evidence |
+|---|------|----------|----------|
+| 1 | 49ers injury report | **BUILT 1 Oct** | No direct query data (no page existed). Built because reference pages are what this site ranks with, 49ers news is not working, and the season is live. |
+| 2 | 49ers playoff and Super Bowl history | BUILD LATER | dynasties (123 impr, pos 11), montana-young (67, 10) and the championships list (56, 7.7) already take this intent. Building now would split it. Revisit when 49ers history queries reach the top 10. |
+| 3 | Levi's Stadium guide | BUILD LATER | The Chase Center guide sits at position 47 with 28 impressions. Venue guides have not proven themselves here yet. |
+| 4 | 49ers all time leaders and records | BUILD LATER | No signal. |
+| 5 | Brock Purdy career stats | **UPDATE EXISTING** (next) | Main Purdy page 72 impr at 9.7; the second Purdy record page is crawled but not indexed. Strengthen the main page and point the second one at it. |
+| 6 | Warriors injury report | **BUILD NOW** (before the regular season opener) | "golden state warriors roster updates 2026" at 5.7 and depth chart queries at 5.8 to 10 show Google trusts us on current Warriors roster status. |
+| 7 | Warriors all time leaders and records | BUILD LATER | "stephen curry records" at 40, "golden state warriors best players" at 6 (1 impr). Thin. |
+| 8 | Stephen Curry career records | UPDATE EXISTING (low) | 7 impr at 29. |
+| 9 | Warriors playoff history | **UPDATE EXISTING** | championship history 19 impr at 21.6; "did the 73 9 warriors win the finals" (22.3) and "did the 73 9 warriors win the championship" (37.5) need this answered on our pages. |
+| 10 | Giants and Dodgers rivalry | BUILD LATER | No signal. |
+| 11 | Giants all time leaders and records | BUILD LATER; **UPDATE the Bonds page first** | Barry Bonds page: 190 impr at 41, the biggest Giants asset, with "when did barry bonds play / retire" at 65. A career facts section on that page comes first. |
+| 12 | Bay Area retired numbers | BUILD LATER | No signal. |
+| 13 | SAP Center guide | BUILD LATER | No signal; venue guides unproven. |
+| 14 | Sharks all time leaders and records | **BUILD NOW** (after the Warriors report) | Sharks reference pages earn the most per page on the site (8 pages, 440 impr): playoff history 141 at 8.0, depth chart 127 at 10, founding 46, "has san jose won a stanley cup". |
+| 15 | Oracle Park guide | UPDATE EXISTING (medium) | 44 impr at 18.4. |
+| 16 | Bay Area venues index | DO NOT BUILD | No signal, thin hub, would compete with the team hubs. |
+
+New items the data surfaced that were not on the list:
+- **Sutter Health Park guide (UPDATE):** 118 impr at 21.3, the best A's page.
+- **Sharks no Stanley Cup history (UPDATE):** 111 impr at 38.1.
+- **KD and 73-9 question (DONE 1 Oct):** title and description now answer it.
+- **Sharks playoff history (DONE 1 Oct):** title and description name the last trip.

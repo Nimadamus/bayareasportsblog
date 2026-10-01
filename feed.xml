@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 29 Sep 2026 09:24:28 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 09:25:55 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Injury Report: Who Is Out, Questionable and on IR</title>
+    <link>https://bayareasportsblog.com/articles/49ers-injury-report.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-injury-report.html</guid>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The current San Francisco 49ers injury report: every player listed out, doubtful, questionable, on injured reserve or PUP, with the injury and the latest update.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-injury-report.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Brock Purdy Might Be the Best QB Ever, and the Stats Don&#39;t Lie</title>
     <link>https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-stats-dont-lie-kyle-kittle-excuses.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Mets 4, Giants 2 at Citi Field. Cesar Perdomo threw six scoreless, Jung Hoo Lee&#39;s two run single held up into the eighth, and then Carson Seymour gave up two homers in four batters.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Rafael Devers Is Carrying a 58 Win Team on His Back</title>
-    <link>https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/devers-tear-giants-9-mets-5-six-homers-citi-field.html</guid>
-    <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants October Watch</category>
-    <description>Rafael Devers hit two more home runs and the Giants hit six in a 9-5 beating of the Mets at Citi Field. Since August 24 he is hitting .420 with 9 homers and 21 RBI.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/devers-tear-giants-9-mets-5-six-homers-citi-field.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

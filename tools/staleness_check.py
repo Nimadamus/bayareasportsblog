@@ -60,6 +60,11 @@ def main():
                     problems.append('index.html live module uses a relative day word')
                     break
 
+    inj = read('articles/49ers-injury-report.html', live)
+    m = re.search(r'<b>Updated ([A-Z][a-z]{2}, [A-Z][a-z]{2} \d+),', inj)
+    if not m or m.group(1) != short_day:
+        problems.append('49ers injury report last updated %s' % (m.group(1) if m else 'never'))
+
     for p in problems:
         print('STALE', p)
     print('%s: %d problems (%s)' % ('live' if live else 'disk', len(problems), long_day))

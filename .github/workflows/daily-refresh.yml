@@ -42,6 +42,7 @@ jobs:
           python _gen_hub_status.py           2>&1 | tee -a refresh.log || echo "::warning::hub status refresh failed" | tee -a refresh.log
           python _gen_niners_hub.py           2>&1 | tee -a refresh.log || echo "::warning::49ers schedule refresh failed" | tee -a refresh.log
           python _gen_warriors_hub.py         2>&1 | tee -a refresh.log || echo "::warning::Warriors schedule refresh failed" | tee -a refresh.log
+          python _gen_niners_injuries.py      2>&1 | tee -a refresh.log || echo "::warning::49ers injury report refresh failed" | tee -a refresh.log
           python _trust_schema.py             2>&1 | tee -a refresh.log
           grep -h 'FEED FAILED' refresh.log | sed 's/^/::warning::/' || true
       - name: Commit if anything changed
