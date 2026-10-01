@@ -22,6 +22,7 @@ import sys
 import json
 import time
 import datetime
+from zoneinfo import ZoneInfo
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +30,7 @@ ARTICLE = os.path.join(ROOT, 'articles', 'warriors-2026-27-schedule-season-hub.h
 CACHE = os.path.join(ROOT, 'data', 'warriors_schedule.json')
 BASE = 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/gs'
 ABBR = 'gs'
-PACIFIC = datetime.timezone(datetime.timedelta(hours=-7))
+PACIFIC = ZoneInfo("America/Los_Angeles")  # follows PDT and PST
 MARKS = {
     'next': ('<!-- NEXT GAME START -->', '<!-- NEXT GAME END -->'),
     'table': ('<!-- SCHEDULE TABLE START -->', '<!-- SCHEDULE TABLE END -->'),

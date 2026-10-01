@@ -20,6 +20,7 @@ import re
 import sys
 import json
 import datetime
+from zoneinfo import ZoneInfo
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -27,7 +28,7 @@ ARTICLE = os.path.join(ROOT, 'articles', '49ers-2026-schedule-season-hub.html')
 CACHE = os.path.join(ROOT, 'data', 'niners_schedule.json')
 BASE = 'https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/sf'
 ABBR = 'sf'
-PACIFIC = datetime.timezone(datetime.timedelta(hours=-7))
+PACIFIC = ZoneInfo("America/Los_Angeles")  # follows PDT and PST
 HOME_VENUE = "Levi's Stadium"
 INTERNATIONAL = {'Melbourne Cricket Ground', 'Estadio Banorte', 'Estadio Azteca',
                  'Tottenham Hotspur Stadium', 'Wembley Stadium', 'Allianz Arena',

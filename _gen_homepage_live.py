@@ -32,11 +32,12 @@ import sys
 import json
 import glob
 import datetime
+from zoneinfo import ZoneInfo
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(ROOT, '_homepage_live_cache.json')
-PACIFIC = datetime.timezone(datetime.timedelta(hours=-7))  # PDT
+PACIFIC = ZoneInfo("America/Los_Angeles")  # follows PDT and PST
 
 RESULT_DAYS = 3        # a final older than this is stale, not news
 SCHEDULE_DAYS = 14     # a fixture further out than this is not "next"
@@ -135,7 +136,10 @@ def espn_team(team):
             sides['us' if c['team']['abbreviation'].lower() == team['abbr'] else 'them'] = c
         if 'us' not in sides or 'them' not in sides:
             continue
-        date = ev['date'][:10]
+        # ESPN dates are UTC. A 7 PM Pacific puck drop is already tomorrow in UTC, so
+        # convert before taking the calendar day.
+        stamp = datetime.datetime.strptime(ev['date'][:16], '%Y-%m-%dT%H:%M').replace(tzinfo=datetime.timezone.utc)
+        date = stamp.astimezone(PACIFIC).date().isoformat()
         row = {'date': date, 'us': sides['us']['team']['displayName'],
                'them': sides['them']['team'].get('name') or sides['them']['team']['displayName'],
                'home': sides['us'].get('homeAway') == 'home'}
@@ -196,14 +200,12 @@ def upcoming(row):
 
 
 def when(date_str):
+    """Always an absolute date. "Today" and "Tomorrow" were true on the day the page was
+    built and false every day after, and the page is static."""
     d = as_date(date_str)
     if not d:
         return ''
-    if d == today():
-        return 'Today'
-    if d == today() + datetime.timedelta(days=1):
-        return 'Tomorrow'
-    return d.strftime('%A, %B %d').replace(' 0', ' ')
+    return d.strftime('%a, %b ') + str(d.day)
 
 
 # ---------------------------------------------------------- our own articles

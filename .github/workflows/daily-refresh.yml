@@ -1,0 +1,36 @@
+name: Daily live refresh
+
+# Keeps every date and score on the static pages true without anyone touching them:
+# masthead dates, the homepage wire and scoreboard, the team hub status strips, and the
+# 49ers and Warriors schedule tables. All values come from the MLB and ESPN feeds.
+on:
+  schedule:
+    - cron: '20 7,13,19 * * *'   # about 12:20 AM, 6:20 AM and 12:20 PM Pacific
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh live modules
+        run: |
+          python _masthead_date.py
+          python _gen_homepage_live.py || true
+          python _gen_hub_status.py || true
+          python _gen_niners_hub.py || true
+          python _gen_warriors_hub.py || true
+      - name: Commit if anything changed
+        run: |
+          git config user.name "bay-area-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A '*.html' 'articles/*.html' '_homepage_live_cache.json' 'data/*.json'
+          git diff --cached --quiet && echo "nothing changed" && exit 0
+          git commit -m "Daily live refresh: dates, scores, hub status"
+          git push
