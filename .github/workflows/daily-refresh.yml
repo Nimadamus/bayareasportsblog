@@ -1,19 +1,34 @@
 name: Daily live refresh
 
 # Keeps every date and score on the static pages true without anyone touching them:
-# masthead dates, the homepage wire and scoreboard, the team hub status strips, and the
-# 49ers and Warriors schedule tables. All values come from the MLB and ESPN feeds.
+# masthead dates, the homepage wire and scoreboard, the team hub status strips, the 49ers
+# and Warriors schedule tables, and the article schema shape. All values come from the
+# MLB and ESPN feeds. No secrets are needed: the feeds are public and the push uses the
+# built in GITHUB_TOKEN with the contents: write permission granted below.
+#
+# Failure visibility: a feed or script failure leaves the page on its last good state, and
+# the staleness check at the end then fails the run, so the run goes red in the Actions tab
+# and the summary names the stale page. GitHub's own notification setting decides whether
+# that red run also sends an email; nothing here adds one.
 on:
   schedule:
-    - cron: '20 7,13,19 * * *'   # about 12:20 AM, 6:20 AM and 12:20 PM Pacific
+    # GitHub cron is UTC. 07:20, 13:20 and 19:20 UTC are 12:20 AM, 6:20 AM and 12:20 PM
+    # Pacific in daylight time (an hour earlier in standard time). Scheduled runs can start
+    # late under load, which is why there are three a day.
+    - cron: '20 7,13,19 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,17 +36,28 @@ jobs:
           python-version: '3.12'
       - name: Refresh live modules
         run: |
-          python _masthead_date.py
-          python _gen_homepage_live.py || true
-          python _gen_hub_status.py || true
-          python _gen_niners_hub.py || true
-          python _gen_warriors_hub.py || true
-          python _trust_schema.py
+          set -o pipefail
+          python _masthead_date.py            2>&1 | tee -a refresh.log
+          python _gen_homepage_live.py        2>&1 | tee -a refresh.log || echo "::warning::homepage live refresh failed" | tee -a refresh.log
+          python _gen_hub_status.py           2>&1 | tee -a refresh.log || echo "::warning::hub status refresh failed" | tee -a refresh.log
+          python _gen_niners_hub.py           2>&1 | tee -a refresh.log || echo "::warning::49ers schedule refresh failed" | tee -a refresh.log
+          python _gen_warriors_hub.py         2>&1 | tee -a refresh.log || echo "::warning::Warriors schedule refresh failed" | tee -a refresh.log
+          python _trust_schema.py             2>&1 | tee -a refresh.log
+          grep -h 'FEED FAILED' refresh.log | sed 's/^/::warning::/' || true
       - name: Commit if anything changed
         run: |
+          rm -f refresh.log
           git config user.name "bay-area-refresh"
           git config user.email "actions@users.noreply.github.com"
-          git add -A '*.html' 'articles/*.html' '_homepage_live_cache.json' 'data/*.json'
-          git diff --cached --quiet && echo "nothing changed" && exit 0
+          git add -A
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "Daily live refresh: dates, scores, hub status"
-          git push
+          git pull --rebase origin master
+          git push origin HEAD:master
+      - name: Staleness check
+        run: |
+          rc=0
+          python tools/staleness_check.py > check.txt || rc=$?
+          cat check.txt
+          { echo "### Refresh $(TZ=America/Los_Angeles date '+%a %b %-d %-I:%M %p') Pacific"; echo '```'; cat check.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit $rc
