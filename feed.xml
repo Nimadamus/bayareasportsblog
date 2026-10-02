@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 02 Oct 2026 04:52:23 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 17:43:33 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Brock Purdy Is the Best Quarterback in the NFL. Check the Numbers.</title>
+    <link>https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-in-the-nfl.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-in-the-nfl.html</guid>
+    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Brock Purdy has the best career passer rating of any active QB and leads the league at 133.1. The Shanahan and weapons excuses are nonsense. A Niners fan&#39;s case.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/brock-purdy-best-quarterback-in-the-nfl.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Injury Report: Who Is Out, Questionable and on IR</title>
     <link>https://bayareasportsblog.com/articles/49ers-injury-report.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Giants 5, Cardinals 4 in eleven innings at Oracle Park. Logan Webb went six, the ninth got away again, Rafael Devers and Bryce Eldridge kept dragging us back, and Shay Whitcomb walked it off.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-cardinals-5-4-eleven-innings-devers-eldridge.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Quiet Part About the Yorks Is Getting Loud Around the League</title>
-    <link>https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/york-family-49ers-ownership-turmoil-what-the-league-is-saying.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>League people are talking openly about 49ers ownership, the York family and a front office that lost its most important operator. What it means for 2026.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/york-family-49ers-ownership-turmoil-what-the-league-is-saying.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
