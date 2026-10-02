@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 02 Oct 2026 19:45:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 21:24:20 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers Offense: McCaffrey, Juszczyk and Watkins Keep the Points Coming</title>
@@ -34,6 +34,15 @@
     <category>49ers</category>
     <description>The NFL suspended 49ers owner Jed York six games and fined him $500,000 after his Ohio arrest. A Niners fan on why the punishment feels like a shrug.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/jed-york-suspended-six-games-fined-500000-nfl.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Mykel Williams Returns to Practice and the 49ers Defense Needs Him</title>
+    <link>https://bayareasportsblog.com/articles/mykel-williams-returns-to-practice-49ers-defense-without-bosa.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/mykel-williams-returns-to-practice-49ers-defense-without-bosa.html</guid>
+    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Mykel Williams is back at 49ers practice off his torn ACL with Nick Bosa out. Why the 2025 first rounder matters against the run and the pass, starting Week 5.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/mykel-williams-returns-to-practice-49ers-defense-without-bosa.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>49ers Injury Report: Who Is Out, Questionable and on IR</title>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>Blue Jays 4, Athletics 2 in 92 degree heat at Sutter Health Park. Kazuma Okamoto hit his thirtieth and three solo homers were all the offense the A&#39;s had.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-bluejays-4-2-okamoto-cortes-walton.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Jeff McNeil Hit a Ground Ball Sixty Feet and We Beat the Blue Jays</title>
-    <link>https://bayareasportsblog.com/articles/athletics-bluejays-6-5-walkoff-mcneil-bolte.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-bluejays-6-5-walkoff-mcneil-bolte.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>A&#39;s 6, Blue Jays 5 in Sacramento. Henry Bolte reached four times, Zack Gelof drove in two, Dylan Cease got beat up, Andres Gimenez tied it in the ninth and Jeff McNeil ended it with the bases loaded.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-bluejays-6-5-walkoff-mcneil-bolte.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
