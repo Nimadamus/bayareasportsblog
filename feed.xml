@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 02 Oct 2026 17:43:33 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 17:52:39 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Offense: McCaffrey, Juszczyk and Watkins Keep the Points Coming</title>
+    <link>https://bayareasportsblog.com/articles/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.html</guid>
+    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Half the 49ers receiver room is hurt and they still scored 98 points in three games. McCaffrey, Kyle Juszczyk and Jordan Watkins, from a Niners fan.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Brock Purdy Is the Best Quarterback in the NFL. Check the Numbers.</title>
     <link>https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-in-the-nfl.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Giants 2, Cardinals 1 at Oracle Park. Eldridge and Koss homered in back to back innings, Landen Roupp threw six shutout innings, and the ninth got scary anyway.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-cardinals-2-1-roupp-eldridge-koss.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Bullpen Gave It Back Twice and Devers and Eldridge Won It Anyway</title>
-    <link>https://bayareasportsblog.com/articles/giants-cardinals-5-4-eleven-innings-devers-eldridge.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-cardinals-5-4-eleven-innings-devers-eldridge.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Giants 5, Cardinals 4 in eleven innings at Oracle Park. Logan Webb went six, the ninth got away again, Rafael Devers and Bryce Eldridge kept dragging us back, and Shay Whitcomb walked it off.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-cardinals-5-4-eleven-innings-devers-eldridge.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
