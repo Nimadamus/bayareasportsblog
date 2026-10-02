@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Thu, 01 Oct 2026 09:44:19 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 04:52:23 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers Injury Report: Who Is Out, Questionable and on IR</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The current San Francisco 49ers injury report: every player listed out, doubtful, questionable, on injured reserve or PUP, with the injury and the latest update.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-injury-report.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>49ers vs Broncos Preview: Denver Is the Biggest Test Yet for Purdy</title>
+    <link>https://bayareasportsblog.com/articles/49ers-vs-broncos-preview-week-4-purdy-biggest-test.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-vs-broncos-preview-week-4-purdy-biggest-test.html</guid>
+    <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers vs Broncos Week 4 preview from a Niners fan: Bosa is out, Denver loves to blitz, and Purdy has not been sacked yet. Key matchups, injuries and a prediction.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-vs-broncos-preview-week-4-purdy-biggest-test.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Warriors Injury Report: Who Is Out and Who Is Day to Day</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>League people are talking openly about 49ers ownership, the York family and a front office that lost its most important operator. What it means for 2026.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/york-family-49ers-ownership-turmoil-what-the-league-is-saying.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>One Hit in Seattle, and Gage Jump Deserved a Lot Better Than That</title>
-    <link>https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-mariners-2-0-bryan-woo-one-hitter.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Mariners 2, Athletics 0 at T-Mobile Park. Bryan Woo went eight innings on one hit, Gage Jump struck out seven in four and took the loss anyway, and the A&#39;s fall to 57 and 87.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-mariners-2-0-bryan-woo-one-hitter.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

@@ -169,6 +169,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/blog-7.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/blog.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>daily</changefreq>
@@ -235,6 +242,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-injury-report.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-vs-broncos-preview-week-4-purdy-biggest-test.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-vs-broncos-preview-week-4-purdy-biggest-test.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/warriors-injury-report.html</loc>
