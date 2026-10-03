@@ -61,6 +61,15 @@
  ],
  "clutch_moments": [
   {
+   "date": "1998-05-28",
+   "headline": "So feared they walked him with the bases loaded",
+   "text": [
+    "Bottom of the ninth at 3Com Park, Diamondbacks up 8 to 6, bases loaded. Instead of pitching to Bonds, Buck Showalter had Gregg Olson put him on intentionally. Jeff Kent walked in to make it 8 to 7, and the move worked: Brent Mayne lined out to right to end it.",
+    "It's one of only a handful of bases loaded intentional walks in big league history, and it tells you everything about how pitchers felt with Bonds standing in the box."
+   ],
+   "video_id": "Vr7vPDNG3q0"
+  },
+  {
    "date": "2001-10-05",
    "headline": "71 and 72 off Chan Ho Park at Pac Bell",
    "text": "The Dodgers jumped out 5 to 0 in the first. With two outs in the bottom half, Bonds took Chan Ho Park deep for number 71, breaking Mark McGwire's single season record in front of the home crowd. Then he led off the third with number 72, also off Park. The Giants lost a wild one 11 to 10, but nobody remembers the final. Two days later he hit 73.",
@@ -87,7 +96,7 @@
   {
    "date": "2002-10-20",
    "headline": "The Percival homer",
-   "text": "Game 2 was a slugfest the Giants lost 11 to 10, and the Angels walked Bonds three times, once intentionally. With two outs in the ninth and the Giants down two, he got hold of a Troy Percival pitch and sent it a mile to right to cut it to 11 to 10. It didn't win the game. Anybody who saw how far it went still brings it up.",
+   "text": "Game 2 was a slugfest the Giants lost 11 to 10, and the Angels walked Bonds three times, once intentionally. With two outs in the ninth and the Giants down two, he got hold of a Troy Percival pitch and sent it a mile to right to cut it to 11 to 10. It didn't win the game. It was estimated at 485 feet, and on the replay you can see Angels right fielder Tim Salmon saying it was the farthest ball he'd ever seen hit. Anybody who saw it still brings it up.",
    "video_id": "Ol2_UkJS6kw"
   },
   {
@@ -195,6 +204,12 @@
    "id": "GskVRaUv39w",
    "title": "Barry Bonds Breaks Home Run Record with 756th Homer | Full At-Bat",
    "channel": "San Francisco Giants",
+   "oembed_ok": true
+  },
+  {
+   "id": "Vr7vPDNG3q0",
+   "title": "Barry Bonds intentionally walked with the BASES LOADED!!",
+   "channel": "MLB Vault",
    "oembed_ok": true
   }
  ],
@@ -685,7 +700,18 @@
   "https://www.nbcsportsbayarea.com/mlb/san-francisco-giants/showalter-explains-infamously-walking-bonds-with-bases-loaded/1125357/",
   "https://www.npr.org/transcripts/12586273",
   "https://the.honoluluadvertiser.com/article/2007/Aug/08/sp/hawaii708080416.html",
-  "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg"
+  "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg",
+  "https://www.mlb.com/news/tim-salmon-talks-about-barry-bonds-long-homer",
+  "https://statsapi.mlb.com/api/v1/game/216223/playByPlay",
+  "https://statsapi.mlb.com/api/v1/people/111188/stats?stats=gameLog&group=hitting&season=2002&gameType=D,L,W"
  ],
- "verified_on": "2026-10-03"
+ "verified_on": "2026-10-03",
+ "our_take": [
+  "I'll just say it. Barry Bonds is the greatest baseball player who ever lived. The only two I'd even put in the conversation are Ken Griffey Jr. and Willie Mays. That's my top three. I never saw Ted Williams play, so I won't pretend. Some people will bring up Babe Ruth, and look, nobody will ever know how he'd do against today's pitching, but I've got my doubts he'd hit .250. Bonds I watched with my own eyes, and I've never seen anything like him.",
+  "I know what the other side says. He cheated, he juiced, he doesn't belong in Cooperstown. Here's my problem with that. He hit 46 homers in 1993, his first year back home with the Giants, and he wasn't on anything back then. I'd bet my house on it. He won seven MVPs. And you can't inject the kind of hitter he was. Nobody can teach that eye, that hand speed, that patience. Steroids don't let you lay off a slider two inches off the plate.",
+  "People forget how complete he was. He was a true five tool player. He could fly, he stole 514 bases, and he's still the only guy ever with 500 homers and 500 steals. He won eight Gold Gloves in left field. His arm wasn't a cannon, average strength if I'm being honest, but it was accurate, and he always threw to the right base. He was a great base stealer and a great outfielder before he ever became the home run guy.",
+  "And the eye. Best eye I've ever seen at the plate. In 2004 he walked 232 times, which is just a silly number, and yeah, a lot of those were intentional, but that's the point. He was always on base, always disrupting things, scoring runs, driving them in, stealing a bag, hitting one into the Cove. I've never seen a hitter so feared. Buck Showalter actually walked him with the bases loaded in 1998 to give up a run on purpose, and the craziest part is it worked.",
+  "Early in his career there were grumblings that he wasn't clutch, and honestly, with Pittsburgh in the 1991 and 1992 NLCS he didn't do much. Then came 2002. He hit three homers against the Braves in the Division Series. The Cardinals were so scared of him in the NLCS they walked him ten times. And in the World Series against the Angels he was on fire, .471 with four homers, including that bomb off Troy Percival in Game 2 that went about 485 feet and had Tim Salmon saying it was the farthest ball he'd ever seen hit.",
+  "The Giants should have won that Series. I'll go to my grave saying Dusty Baker blew Game 6 with the way he handled the bullpen, pulling Russ Ortiz in the seventh up 5 to 0, but that's another story. Bonds never won a ring, and that's really sad. To make a long story short, everybody knows what Barry Bonds was. I'm just telling you how it looked from the stands. Best player that ever lived, and an absolutely incredible talent."
+ ]
 }
