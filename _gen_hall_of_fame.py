@@ -387,7 +387,7 @@ def player_page(d, prev, nxt):
     slug, name, key = d["slug"], d["name"], d["team_key"]
     team = TEAM.get(key, d.get("team", ""))
     url = f"{SITE}/{slug}.html"
-    title = f"{name}: Bay Area Hall of Fame | Bay Area Sports Blog"
+    title = f"{d.get('display_name') or name}: Bay Area Hall of Fame | Bay Area Sports Blog"
     desc = d["meta_description"]
     image = f"{SITE}/{card_path(d)}"
     p = d["photo"]
@@ -420,7 +420,7 @@ def player_page(d, prev, nxt):
     </figure>
     <div>
       <div class="hof-k"><a href="bay-area-hall-of-fame.html">Bay Area Hall of Fame</a> &middot; {e(team)}</div>
-      <h1>{e(name)}</h1>{nick}
+      <h1>{e(d.get("display_name") or name)}</h1>{"" if d.get("display_name") else nick}
       <p class="hof-dek">{e(d["dek"])}</p>
       <div class="hof-meta">{meta}</div>
       <div class="hof-tiles">{tiles}</div>

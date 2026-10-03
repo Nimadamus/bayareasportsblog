@@ -73,6 +73,15 @@
    "video_id": ""
   },
   {
+   "date": "1988-07-24",
+   "headline": "Taking on the whole Cardinals infield",
+   "text": [
+    "Busch Stadium, eighth inning. Clark was on first when Candy Maldonado bounced one to Ozzie Smith, and Clark came in hard on Jose Oquendo at second to break up the double play. Oquendo got into him, Clark came up swinging, and a pile of Cardinals closed in. Ozzie popped him from behind, and Maldonado sprinted over from first and landed a diving punch that split Ozzie's lip. Clark and Oquendo were ejected. The Giants won 5 to 0.",
+    "Clark didn't apologize for the slide. “If I have the opportunity to do it again, I'm going to go in there the same way,” he said afterward, and Roger Craig cracked that it was the fastest he'd ever seen Maldonado run from first to second."
+   ],
+   "video_id": "BAGULtzuhvY"
+  },
+  {
    "date": "1989-10-04",
    "headline": "Grand slam off Greg Maddux at Wrigley",
    "text": "Game 1 of the 1989 NLCS might be the best night any Giant has ever had in October. Clark doubled home Brett Butler in the first, homered off Greg Maddux in the third, and then in the fourth, after Maddux intentionally walked Butler to load the bases with two outs, Clark hit the first pitch for a grand slam that made it 8 to 3. He finished 4 for 4 with a walk, four runs scored and six RBIs in an 11 to 3 win.",
@@ -184,6 +193,12 @@
    "id": "YwJH_9U2GQM",
    "title": "\"ThrillMania\" | SF Giants In-Park Tribute to Will Clark | Narrated by Mike Krukow",
    "channel": "San Francisco Giants",
+   "oembed_ok": true
+  },
+  {
+   "id": "BAGULtzuhvY",
+   "title": "SF@STL: Benches clear after Clark's slide into second",
+   "channel": "MLB",
    "oembed_ok": true
   }
  ],
@@ -563,7 +578,10 @@
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=xPR_7jS2YyU&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=iGXnWDwcAoI&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=yzfRLnb0qtc&format=json",
-  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YwJH_9U2GQM&format=json"
+  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YwJH_9U2GQM&format=json",
+  "https://retrosimba.com/2013/07/24/intimidation-ozzie-smith-will-clark-and-the-battle-at-busch/",
+  "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=1988-07-24&teamId=137",
+  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BAGULtzuhvY&format=json"
  ],
  "verified_on": "2026-10-03",
  "photo_alt_commons": {
@@ -575,5 +593,14 @@
   "license": "CC BY 2.0",
   "in_uniform": true,
   "smiling": false
- }
+ },
+ "display_name": "Will “The Thrill” Clark",
+ "our_take": [
+  "If you grew up a Giants fan in the late 80s, Will Clark wasn't just a good player on your team. He was the team. He was the heart and soul of those clubs from the day he showed up in 1986 until the Giants let him walk to Texas after the 1993 season, and I still haven't totally made peace with that one.",
+  "The swing is what everybody talks about first, and they should. It's one of the sweetest left handed swings I've ever seen, so smooth it almost looked lazy until the ball came off the bat. When he was locked in he'd sit up near the top of the league in batting average, spray line drives everywhere, and make good pitchers look like they were throwing batting practice. He was one of the best pure hitters you'll ever see. And people forget he could pick it at first base too. He won a Gold Glove in 1991 and he earned it.",
+  "Then there was the intensity. Clark played every inning like somebody had insulted his mother. The eye black, the glare, the jaw going the whole time. Some guys you respect. Clark you loved. If you were a Giants fan, you loved Will Clark, period.",
+  "His masterpiece was the 1989 NLCS against the Cubs. Game 1 at Wrigley he homered off Greg Maddux in the third and then hit the grand slam off him in the fourth, so it was actually two homers that night, not one, and the slam is the one everybody remembers. He hit .650 for the series and won the MVP. And then Game 5 at Candlestick, eighth inning, tie game, two outs, bases loaded, and the Cubs bring in Mitch Williams. Clark lines the two run single right up the middle. That's the hit that sent the Giants to the World Series. If I had to pick one swing that defines him, that's the one.",
+  "What came next still stings. The A's were a juggernaut. Canseco, McGwire, Rickey, Stewart, Eckersley at the back end, just absolutely stacked, and the earthquake hit before Game 3 at Candlestick. The Giants got swept, and that was the closest Will ever got to a ring. He never won a World Series, and that's one of the real injustices of my sports life.",
+  "One more story, because no Will Clark page is complete without it. July 24, 1988, Giants at Busch Stadium. Clark's on first in the eighth, Candy Maldonado hits a grounder to Ozzie Smith, and Clark comes into second hard to break up the double play. It wasn't the nicest slide in the world, I'll admit that. Jose Oquendo didn't like it, got into him, and Clark came up swinging at whoever was closest. He basically tried to take on the whole Cardinals infield by himself. Ozzie got a shot in on him from behind, and then here comes Maldonado flying in from first with a diving right hand that caught Ozzie in the mouth. Clark and Oquendo got tossed, the Giants won 5 to 0, and it's still one of the best brawls in Giants history. That was Will Clark in one afternoon. He wasn't backing down from anybody."
+ ]
 }
