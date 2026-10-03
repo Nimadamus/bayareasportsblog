@@ -4,7 +4,7 @@
 Data lives in _hof/<slug>.json (shape in _hof/SCHEMA.md). Every fact in those files
 was verified against a fetched source, listed in that file's "sources".
 
-  python _gen_hall_of_fame.py          # writes /<slug>.html for every inductee + hall-of-fame.html
+  python _gen_hall_of_fame.py          # writes /<slug>.html for every inductee + bay-area-hall-of-fame.html
 
 Player pages sit at the site root so the URL is the player's name
 (bayareasportsblog.com/barry-bonds.html). Photos are Wikimedia Commons, credited on the page.
@@ -118,7 +118,7 @@ CHROME_TOP = """
     <a data-t="lv" href="bayarea.html">Bay Area</a>
     <span class="nv-sp"></span>
     <a data-t="house" href="history.html">History</a>
-    <a class="on" data-t="house" href="hall-of-fame.html">Hall of Fame</a>
+    <a class="on" data-t="house" href="bay-area-hall-of-fame.html">Hall of Fame</a>
     <a data-t="house" href="dynasties.html">Dynasties</a>
     <a data-t="house" href="timeline.html">Timeline</a>
     <a data-t="house" href="blog.html">Blog</a>
@@ -152,7 +152,7 @@ CHROME_BOTTOM = """
       </div>
       <div class="df-col">
         <h5>The Vault</h5>
-        <a href="hall-of-fame.html">Bay Area Hall of Fame</a>
+        <a href="bay-area-hall-of-fame.html">Bay Area Hall of Fame</a>
         <a href="history.html">Bay Area History</a>
         <a href="flashbacks.html">Flashbacks</a>
         <a href="bayarea.html">Bay Area Hub</a>
@@ -397,7 +397,7 @@ def player_page(d, prev, nxt):
         person["alternateName"] = d["nickname"]
     ld = jsonld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
-        {"@type": "ListItem", "position": 2, "name": "Bay Area Hall of Fame", "item": f"{SITE}/hall-of-fame.html"},
+        {"@type": "ListItem", "position": 2, "name": "Bay Area Hall of Fame", "item": f"{SITE}/bay-area-hall-of-fame.html"},
         {"@type": "ListItem", "position": 3, "name": name, "item": url}]}) + "\n" + jsonld(
         {"@context": "https://schema.org", "@type": "ProfilePage", "name": title.split(" | ")[0], "url": url,
          "dateCreated": d.get("inducted"), "dateModified": d.get("verified_on"), "mainEntity": person})
@@ -419,7 +419,7 @@ def player_page(d, prev, nxt):
       <figcaption>{credit}</figcaption>
     </figure>
     <div>
-      <div class="hof-k"><a href="hall-of-fame.html">Bay Area Hall of Fame</a> &middot; {e(team)}</div>
+      <div class="hof-k"><a href="bay-area-hall-of-fame.html">Bay Area Hall of Fame</a> &middot; {e(team)}</div>
       <h1>{e(name)}</h1>{nick}
       <p class="hof-dek">{e(d["dek"])}</p>
       <div class="hof-meta">{meta}</div>
@@ -501,7 +501,7 @@ def player_page(d, prev, nxt):
 <section class="hof-sec" data-c="{key}">
   <div class="wrap">
     {nav}
-    <p style="margin-top:22px"><a class="sh-all" href="hall-of-fame.html">Every Bay Area Hall of Famer</a></p>
+    <p style="margin-top:22px"><a class="sh-all" href="bay-area-hall-of-fame.html">Every Bay Area Hall of Famer</a></p>
     {rel}
   </div>
 </section>"""
@@ -510,7 +510,7 @@ def player_page(d, prev, nxt):
 
 
 def hub(players):
-    url = f"{SITE}/hall-of-fame.html"
+    url = f"{SITE}/bay-area-hall-of-fame.html"
     title = "Bay Area Hall of Fame | Bay Area Sports Blog"
     desc = ("The Bay Area Hall of Fame: Giants, 49ers, Warriors, A's and Sharks legends with full career stats, "
             "clutch moments, video and what the people who watched them said.")[:155].rsplit(" ", 1)[0]
@@ -568,8 +568,8 @@ def main():
         prev, nxt = players[i - 1], players[(i + 1) % len(players)]
         open(os.path.join(ROOT, d["slug"] + ".html"), "w", encoding="utf-8", newline="\n").write(player_page(d, prev, nxt))
         print("wrote", d["slug"] + ".html")
-    open(os.path.join(ROOT, "hall-of-fame.html"), "w", encoding="utf-8", newline="\n").write(hub(players))
-    print("wrote hall-of-fame.html with", len(players), "inductees")
+    open(os.path.join(ROOT, "bay-area-hall-of-fame.html"), "w", encoding="utf-8", newline="\n").write(hub(players))
+    print("wrote bay-area-hall-of-fame.html with", len(players), "inductees")
 
 
 if __name__ == "__main__":
