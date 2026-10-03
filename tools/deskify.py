@@ -45,7 +45,7 @@ def masthead(page):
              ('gs', 'warriors.html', 'Warriors'), ('sf', 'giants.html', 'Giants'),
              ('as', 'athletics.html', "A's"), ('sj', 'sharks.html', 'Sharks'),
              ('lv', 'bayarea.html', 'Bay Area')]
-    tail = [('house', 'history.html', 'History'), ('house', 'dynasties.html', 'Dynasties'),
+    tail = [('house', 'history.html', 'History'), ('house', 'hall-of-fame.html', 'Hall of Fame'), ('house', 'dynasties.html', 'Dynasties'),
             ('house', 'timeline.html', 'Timeline'), ('house', 'blog.html', 'Blog')]
 
     def link(t, h, l):
@@ -107,6 +107,7 @@ FOOTER = '''<footer class="desk-foot">
       </div>
       <div class="df-col">
         <h5>The Vault</h5>
+        <a href="hall-of-fame.html">Bay Area Hall of Fame</a>
         <a href="history.html">Bay Area History</a>
         <a href="timeline.html">Timeline</a>
         <a href="bayarea.html">Bay Area Hub</a>
