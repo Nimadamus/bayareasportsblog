@@ -134,6 +134,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/andre-iguodala.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-andre-iguodala.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/barry-bonds.html</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -197,6 +204,20 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/brian-wilson.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-brian-wilson.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/bruce-bochy.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-bruce-bochy.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/corrections.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -218,11 +239,46 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/klay-thompson.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-klay-thompson.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/matt-cain.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-matt-cain.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/privacy.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/stephen-curry.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-stephen-curry.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/steve-young.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-steve-young.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/tim-lincecum.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-tim-lincecum.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/timeline.html</loc>

@@ -1,0 +1,919 @@
+{
+ "slug": "stephen-curry",
+ "name": "Stephen Curry",
+ "nickname": "",
+ "team": "Golden State Warriors",
+ "team_key": "gs",
+ "position": "Point Guard",
+ "bay_years": "2009 to present",
+ "numbers": "30",
+ "inducted": "2026-10-03",
+ "sort": 5,
+ "dek": "Seventeen seasons, four rings, more threes than anybody who ever lived, and every single one of them in a Warriors jersey.",
+ "meta_description": "Stephen Curry, Warriors point guard since 2009: four titles, two MVPs, the NBA record 4,248 threes. Stats, clutch moments, videos and quotes.",
+ "tiles": [
+  {
+   "value": "4",
+   "label": "NBA championships"
+  },
+  {
+   "value": "4,248",
+   "label": "Career threes, the NBA record"
+  },
+  {
+   "value": "2",
+   "label": "MVP awards, one unanimous"
+  },
+  {
+   "value": "402",
+   "label": "Threes in one season, the NBA record"
+  }
+ ],
+ "photo": {
+  "file": "assets/img/players/hof/stephen-curry.jpg",
+  "alt": "Stephen Curry in his white Golden State Warriors home jersey, number 30, looking up and smiling at Oracle Arena",
+  "caption": "Stephen Curry at Oracle Arena in Oakland during a Warriors game against the Jazz, April 6, 2014.",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_close_up.jpg",
+  "author": "Noah Salzman",
+  "license": "CC BY-SA 3.0",
+  "in_uniform": true,
+  "smiling": true
+ },
+ "bio": [
+  "I still remember what the building felt like before him. Oracle was loud back then because Warriors fans were stubborn, not because the team was any good. Then on June 25, 2009, Don Nelson took a skinny kid from Davidson with the seventh pick, and nothing around here has been the same since.",
+  "Wardell Stephen Curry was born March 14, 1988, in Akron, Ohio, the son of longtime NBA shooter Dell Curry, and he grew up in Charlotte shooting on a backyard court with his little brother Seth. At Davidson he set the NCAA single season record with 162 threes as a sophomore and led Division I in scoring as a junior, and the whole country watched a kid who looked about fifteen take apart bigger schools in March.",
+  "Draft night had a little drama we didn't even know about. His dad wanted him to slide to the Knicks at eight and called teams ahead of New York asking them to pass. Nellie didn't care. He took him anyway, one pick before the Knicks could, and I'd like to send that man flowers every June.",
+  "The early years weren't pretty. He averaged 17.5 points as a rookie, finished second in Rookie of the Year voting to Tyreke Evans and made the All Rookie First Team, but then his right ankle kept betraying him. He had surgery on it in 2011 and played only 26 games the next season, and I'll admit I was one of the people quietly wondering if we'd drafted a guy made of glass. Then he stayed healthy, hit 272 threes, put up 22.9 a night and dragged the Warriors back into the playoffs in 2013. Nobody wondered after that.",
+  "The run started for real in 2015. He won his first MVP, and the Warriors beat Cleveland for the franchise's first title since 1975. I don't think I talked at a normal volume for a week.",
+  "The next year was the most ridiculous season a shooter has ever had. He averaged 30.1 points, led the league in scoring, steals and free throw percentage, made 402 threes, shot better than 50 percent from the floor, 40 from deep and 90 from the line, and became the first unanimous MVP in league history while the Warriors went 73 and 9. And then they blew a 3 to 1 lead in the Finals. Game 7 at Oracle, he went 6 for 19. I've never fully gotten over it, and I'm not sure I want to.",
+  "Kevin Durant showed up that summer and the Warriors won it all in 2017 and 2018, then lost to Toronto in six games in the 2019 Finals with Klay and KD both hurt. Durant left, Klay was out, and four games into the next season Aron Baynes fell on Curry's left hand and broke it. He played five games that year. The Warriors had the worst record in the league. I remember people saying the window was closed for good.",
+  "He answered with a scoring title. In 2021 he averaged 32.0, dropped a career high 62 on Portland at Chase Center on January 3, and passed Wilt Chamberlain as the franchise's all time leading scorer that April. On December 14, 2021, at Madison Square Garden, he passed Ray Allen for the most threes in NBA history, and that June he finally got the one thing missing from the shelf: a Finals MVP, unanimous, in a six game win over Boston for title number four.",
+  "The older version of Steph might be my favorite one. He hung 50 on Sacramento in Game 7 of the 2023 first round, the most points anybody's ever scored in a Game 7. He was the league's Clutch Player of the Year in 2024, won Olympic gold in Paris that summer, won his second All Star MVP in San Francisco in February 2025, and on March 13, 2025, became the first player ever to make 4,000 threes. Then a hamstring strain in Game 1 against Minnesota ended his 2025 playoffs early, and the Warriors went out in five without him.",
+  "Last season was rough, and I'm not going to pretend otherwise. He went for 46 and then 49 against the Spurs in back to back games in November, passed 26,000 career points on Christmas, and still averaged 26.6 a night at 37. But the right knee cost him more than two months, he played just 43 games, and the Warriors finished 37 and 45. He scored 35 to knock the Clippers out of the play in, then went 4 for 16 in Phoenix two nights later and the season was over.",
+  "Now it's October 2026 and he's still ours. On September 25 he agreed to a two year, $116 million extension that runs through the 2028 to 2029 season, with a player option on the last year. He could have asked for about $136.7 million. He didn't. He says the knee feels great, and he's in Hawaii with the team for training camp. If he plays out the deal it'll be his 20th season, all of them here, and only Dirk Nowitzki, Kobe Bryant and Udonis Haslem have ever done 20 with one franchise.",
+  "He's also an assistant general manager for the basketball programs back at Davidson, which retired his number 30. Ours will get retired too someday. I just don't want to think about the night they do it yet."
+ ],
+ "why_clutch": [
+  "People forget how much of Curry's legend got built with everybody in the building knowing exactly who was getting the ball. February 27, 2016, overtime in Oklahoma City, tied at 118, and he pulls up from 37 feet with 0.6 seconds left. Three months later, in his first game back from a sprained MCL, he comes off the bench in Portland and scores 17 points in one overtime, still the playoff record. A guy who just runs hot doesn't do that. A guy who wants the last shot does.",
+  "The 2022 Finals are the case I'd make to anybody who still calls him a system player. Boston spent the whole series hitting him. Down 2 to 1, with his foot banged up from Game 3, he put up 43 and 10 in Game 4 in Boston and scored two of the baskets in the 10 to 0 run that flipped the fourth quarter. Then he closed it out with 34 in Game 6 on the same floor.",
+  "I'm a homer, but I'm not blind. Game 7 of the 2016 Finals was there for him and he went 6 for 19, 4 for 14 from three, and missed the looks that could've tied it late. And last April in Phoenix he went 4 for 16 with the season on the line. Those count too.",
+  "What gets me is that the big ones keep coming. Fifty in a Game 7 on the road in Sacramento with the cowbells going. A 29 foot step back with 50 seconds left in a play in game, at 38, to finish a comeback from 13 down. He's been doing this for 17 years, and I still don't change the channel when he's got the ball late."
+ ],
+ "clutch_moments": [
+  {
+   "date": "2016-02-27",
+   "headline": "Bang, bang, from 37 feet in OKC",
+   "text": "Tied at 118 in overtime at Oklahoma City, Curry brought it up and let it go from 37 feet with 0.6 seconds left. Warriors 121, Thunder 118. It was his 12th three of the night, tying the NBA record for a single game, and he finished with 46 points on 14 of 24 shooting. Earlier in the overtime he'd broken his own record for threes in a season.",
+   "video_id": "uC0VY3EeBnA"
+  },
+  {
+   "date": "2016-05-09",
+   "headline": "I'm back: 17 points in one overtime",
+   "text": "Curry missed the first three games of the second round with a sprained right MCL, then came off the bench for Game 4 in Portland. He was rusty for three quarters and finished 5 for 16 from three, but in overtime he scored 17 points, the playoff record for an overtime period, and yelled \"I'm back! I'm back!\" at the crowd. Final: Warriors 132, Blazers 125, with 40 points, 9 rebounds and 8 assists from Curry and a 3 to 1 series lead.",
+   "video_id": ""
+  },
+  {
+   "date": "2016-05-30",
+   "headline": "Game 7 against the Thunder, from down 3 to 1",
+   "text": "The Warriors trailed Oklahoma City three games to one in the Western Conference finals and won the next three. In Game 7 at Oracle, Curry scored 36 points with 7 threes and 8 assists, and the Warriors won 96 to 88 to get back to the Finals.",
+   "video_id": ""
+  },
+  {
+   "date": "2016-06-19",
+   "headline": "The Game 7 that still hurts",
+   "text": "Up 3 to 1 on Cleveland, the 73 win Warriors lost three straight, and Game 7 at Oracle ended 93 to 89. Curry scored 17 on 6 of 19 shooting and 4 of 14 from three, and he missed threes in the final minute with the game still within reach. No team had ever blown a 3 to 1 lead in the Finals before.",
+   "video_id": ""
+  },
+  {
+   "date": "2022-06-10",
+   "headline": "Forty three in Boston to save the Finals",
+   "text": "Down two games to one, with his foot sore after Al Horford landed on it in Game 3, Curry put up 43 points and 10 rebounds in Game 4 at TD Garden on 14 of 26 shooting and 7 of 14 from three. Boston led 94 to 90 with about five minutes left and didn't score again until the final 1:18, and a Curry floater and three in a 10 to 0 run made it 100 to 94. Warriors 107, Celtics 97, series tied.",
+   "video_id": "xlGCQ1uq5XE"
+  },
+  {
+   "date": "2022-06-16",
+   "headline": "Title number four and the Finals MVP",
+   "text": "Game 6 in Boston. Curry scored 34 with six threes, and the sixth made it 96 to 81 and sent Celtics fans to the exits. Warriors 103, Celtics 90. Two years after the worst record in the league they were champions again, and he was the unanimous Finals MVP.",
+   "video_id": "1hoa5G2Dy6U"
+  },
+  {
+   "date": "2023-04-30",
+   "headline": "Fifty in Game 7 at Sacramento",
+   "text": "The defending champs had dropped the first two games of the series. In Game 7 on the road, Curry scored 50 points on 20 of 38 shooting with 8 rebounds and 6 assists, the most points anyone has ever scored in a Game 7. Warriors 120, Kings 100.",
+   "video_id": "dbf-xGWJ4wA"
+  },
+  {
+   "date": "2026-04-15",
+   "headline": "Thirty five and a step back to end the Clippers",
+   "text": "Play in game at the Clippers, Warriors 10th in the West after a 37 and 45 season, down 13 in the fourth quarter. Curry, back from a knee injury that cost him more than two months, finished with 35 points and 7 of 12 from three. With 50.4 seconds left he hit a 29 foot step back three for a 120 to 117 lead, and the Warriors won 126 to 121. Two nights later they lost in Phoenix 111 to 96.",
+   "video_id": "42h5H3_1wCM"
+  }
+ ],
+ "quotes": [
+  {
+   "text": "He's probably the best player in the world, the best shooter of all-time.",
+   "speaker": "Klay Thompson",
+   "role": "Warriors guard",
+   "context": "after Curry's 40 point return in Game 4 at Portland, May 9, 2016",
+   "source_url": "https://www.fox35orlando.com/sports/curry-returns-with-40-points-in-132-125-ot-win-over-blazers"
+  },
+  {
+   "text": "I mean, he looked fresh. He had his rhythm. He made tough shots, he made nice passes, he fought through screens. Obviously 17 points in overtime. It was a hell of a performance.",
+   "speaker": "Terry Stotts",
+   "role": "Portland Trail Blazers coach",
+   "context": "after Game 4 of the 2016 Western Conference semifinals",
+   "source_url": "https://www.fox35orlando.com/sports/curry-returns-with-40-points-in-132-125-ot-win-over-blazers"
+  },
+  {
+   "text": "It's just a privilege to coach him, it really is.",
+   "speaker": "Steve Kerr",
+   "role": "Warriors coach",
+   "context": "after Curry's career high 62 against Portland, January 3, 2021",
+   "source_url": "https://www.news4jax.com/sports/2021/01/04/stephen-curry-has-career-high-62-warriors-beat-blazers/"
+  },
+  {
+   "text": "He wasn't letting us lose. That's all it boils down to.",
+   "speaker": "Draymond Green",
+   "role": "Warriors forward",
+   "context": "after Curry's 43 points in Game 4 of the 2022 NBA Finals",
+   "source_url": "https://www.cbssports.com/nba/gametracker/recap/NBA_20220610_GS@BOS/"
+  },
+  {
+   "text": "We've had so many great players, but Steph, ultimately is why this run happens.",
+   "speaker": "Steve Kerr",
+   "role": "Warriors coach",
+   "context": "after the Warriors clinched the 2022 title in Boston",
+   "source_url": "https://www.cbssports.com/nba/gametracker/recap/NBA_20220616_GS@BOS/"
+  },
+  {
+   "text": "For Steph to be the first player ever to get 50 in a Game 7, he's sublime.",
+   "speaker": "Steve Kerr",
+   "role": "Warriors coach",
+   "context": "after Game 7 at Sacramento, April 30, 2023",
+   "source_url": "https://www.clickondetroit.com/sports/2023/04/30/curry-scores-playoff-career-high-50-as-warriors-down-kings/"
+  },
+  {
+   "text": "This is a Game 7 I'll forever remember as the Steph Curry game.",
+   "speaker": "Klay Thompson",
+   "role": "Warriors guard",
+   "context": "after Game 7 at Sacramento, April 30, 2023",
+   "source_url": "https://www.clickondetroit.com/sports/2023/04/30/curry-scores-playoff-career-high-50-as-warriors-down-kings/"
+  },
+  {
+   "text": "There has never been a better face to a franchise in professional sports history, both on and off the court, than Stephen Curry with the Warriors.",
+   "speaker": "Mike Dunleavy",
+   "role": "Warriors general manager",
+   "context": "announcing Curry's two year extension, September 2026",
+   "source_url": "https://www.news4jax.com/sports/2026/09/26/stephen-curry-and-warriors-agree-to-2-year-contract-extension-worth-116-million-ap-source-says/"
+  }
+ ],
+ "videos": [
+  {
+   "id": "uC0VY3EeBnA",
+   "title": "The Stephen Curry game-winner vs. Oklahoma City Thunder",
+   "channel": "Golden State Warriors",
+   "oembed_ok": true
+  },
+  {
+   "id": "xSs4yUZhb-I",
+   "title": "CAREER-HIGH 62 PTS For Stephen Curry‼",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "xlGCQ1uq5XE",
+   "title": "Stephen Curry's MASTERFUL Game 4 Performance | #NBAFinals",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "1hoa5G2Dy6U",
+   "title": "Stephen Curry Drops 34 PTS To Secure 4th NBA Championship 🏆 | #NBAFinals",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "dbf-xGWJ4wA",
+   "title": "Steph Curry Drops PLAYOFF CAREER-HIGH 50 PTS In Warriors Game 7 W! #PLAYOFFMODE | April 30, 2023",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "42h5H3_1wCM",
+   "title": "Steph Curry LEADS INSANE COMEBACK vs Clippers With 35 PTS | April 15, 2026",
+   "channel": "NBA",
+   "oembed_ok": true
+  }
+ ],
+ "stats": {
+  "group": "regular season",
+  "label": "regular season, per game",
+  "columns": [
+   "Year",
+   "Team",
+   "G",
+   "MPG",
+   "PPG",
+   "RPG",
+   "APG",
+   "SPG",
+   "3PM",
+   "FG%",
+   "3P%",
+   "FT%"
+  ],
+  "rows": [
+   [
+    "2009-10",
+    "GSW",
+    "80",
+    "36.2",
+    "17.5",
+    "4.5",
+    "5.9",
+    "1.9",
+    "166",
+    ".462",
+    ".437",
+    ".885"
+   ],
+   [
+    "2010-11",
+    "GSW",
+    "74",
+    "33.6",
+    "18.6",
+    "3.9",
+    "5.8",
+    "1.5",
+    "151",
+    ".480",
+    ".442",
+    ".934"
+   ],
+   [
+    "2011-12",
+    "GSW",
+    "26",
+    "28.2",
+    "14.7",
+    "3.4",
+    "5.3",
+    "1.5",
+    "55",
+    ".490",
+    ".455",
+    ".809"
+   ],
+   [
+    "2012-13",
+    "GSW",
+    "78",
+    "38.2",
+    "22.9",
+    "4.0",
+    "6.9",
+    "1.6",
+    "272",
+    ".451",
+    ".453",
+    ".900"
+   ],
+   [
+    "2013-14",
+    "GSW",
+    "78",
+    "36.5",
+    "24.0",
+    "4.3",
+    "8.5",
+    "1.6",
+    "261",
+    ".471",
+    ".424",
+    ".885"
+   ],
+   [
+    "2014-15",
+    "GSW",
+    "80",
+    "32.7",
+    "23.8",
+    "4.3",
+    "7.7",
+    "2.0",
+    "286",
+    ".487",
+    ".443",
+    ".914"
+   ],
+   [
+    "2015-16",
+    "GSW",
+    "79",
+    "34.2",
+    "30.1",
+    "5.4",
+    "6.7",
+    "2.1",
+    "402",
+    ".504",
+    ".454",
+    ".908"
+   ],
+   [
+    "2016-17",
+    "GSW",
+    "79",
+    "33.4",
+    "25.3",
+    "4.5",
+    "6.6",
+    "1.8",
+    "324",
+    ".468",
+    ".411",
+    ".898"
+   ],
+   [
+    "2017-18",
+    "GSW",
+    "51",
+    "32.0",
+    "26.4",
+    "5.1",
+    "6.1",
+    "1.6",
+    "212",
+    ".495",
+    ".423",
+    ".921"
+   ],
+   [
+    "2018-19",
+    "GSW",
+    "69",
+    "33.8",
+    "27.3",
+    "5.3",
+    "5.2",
+    "1.3",
+    "354",
+    ".472",
+    ".437",
+    ".916"
+   ],
+   [
+    "2019-20",
+    "GSW",
+    "5",
+    "27.8",
+    "20.8",
+    "5.2",
+    "6.6",
+    "1.0",
+    "12",
+    ".402",
+    ".245",
+    "1.000"
+   ],
+   [
+    "2020-21",
+    "GSW",
+    "63",
+    "34.2",
+    "32.0",
+    "5.5",
+    "5.8",
+    "1.2",
+    "337",
+    ".482",
+    ".421",
+    ".916"
+   ],
+   [
+    "2021-22",
+    "GSW",
+    "64",
+    "34.5",
+    "25.5",
+    "5.2",
+    "6.3",
+    "1.3",
+    "285",
+    ".437",
+    ".380",
+    ".923"
+   ],
+   [
+    "2022-23",
+    "GSW",
+    "56",
+    "34.7",
+    "29.4",
+    "6.1",
+    "6.3",
+    "0.9",
+    "273",
+    ".493",
+    ".427",
+    ".915"
+   ],
+   [
+    "2023-24",
+    "GSW",
+    "74",
+    "32.7",
+    "26.4",
+    "4.5",
+    "5.1",
+    "0.7",
+    "357",
+    ".450",
+    ".408",
+    ".923"
+   ],
+   [
+    "2024-25",
+    "GSW",
+    "70",
+    "32.2",
+    "24.5",
+    "4.4",
+    "6.0",
+    "1.1",
+    "311",
+    ".448",
+    ".397",
+    ".933"
+   ],
+   [
+    "2025-26",
+    "GSW",
+    "43",
+    "30.9",
+    "26.6",
+    "3.6",
+    "4.7",
+    "1.1",
+    "190",
+    ".468",
+    ".393",
+    ".923"
+   ]
+  ],
+  "bay_teams": [
+   "GSW"
+  ],
+  "career": [
+   "Career",
+   "",
+   "1,069",
+   "34.0",
+   "24.8",
+   "4.7",
+   "6.3",
+   "1.5",
+   "4,248",
+   ".471",
+   ".422",
+   ".912"
+  ],
+  "note": "Per game averages, except 3PM, which is the season total. Every season of his career, all with Golden State, through 2025-26. Career totals cross checked against a second source.",
+  "source_url": "https://www.basketball-reference.com/players/c/curryst01.html",
+  "extra_tables": [
+   {
+    "title": "Regular season totals",
+    "columns": [
+     "Year",
+     "Team",
+     "G",
+     "MP",
+     "PTS",
+     "REB",
+     "AST",
+     "3PM",
+     "3PA"
+    ],
+    "rows": [
+     [
+      "2009-10",
+      "GSW",
+      "80",
+      "2896",
+      "1399",
+      "356",
+      "472",
+      "166",
+      "380"
+     ],
+     [
+      "2010-11",
+      "GSW",
+      "74",
+      "2489",
+      "1373",
+      "286",
+      "432",
+      "151",
+      "342"
+     ],
+     [
+      "2011-12",
+      "GSW",
+      "26",
+      "732",
+      "383",
+      "88",
+      "138",
+      "55",
+      "121"
+     ],
+     [
+      "2012-13",
+      "GSW",
+      "78",
+      "2983",
+      "1786",
+      "314",
+      "539",
+      "272",
+      "600"
+     ],
+     [
+      "2013-14",
+      "GSW",
+      "78",
+      "2846",
+      "1873",
+      "334",
+      "666",
+      "261",
+      "615"
+     ],
+     [
+      "2014-15",
+      "GSW",
+      "80",
+      "2613",
+      "1900",
+      "341",
+      "619",
+      "286",
+      "646"
+     ],
+     [
+      "2015-16",
+      "GSW",
+      "79",
+      "2700",
+      "2375",
+      "430",
+      "527",
+      "402",
+      "886"
+     ],
+     [
+      "2016-17",
+      "GSW",
+      "79",
+      "2638",
+      "1999",
+      "353",
+      "524",
+      "324",
+      "789"
+     ],
+     [
+      "2017-18",
+      "GSW",
+      "51",
+      "1631",
+      "1346",
+      "261",
+      "310",
+      "212",
+      "501"
+     ],
+     [
+      "2018-19",
+      "GSW",
+      "69",
+      "2331",
+      "1881",
+      "369",
+      "361",
+      "354",
+      "810"
+     ],
+     [
+      "2019-20",
+      "GSW",
+      "5",
+      "139",
+      "104",
+      "26",
+      "33",
+      "12",
+      "49"
+     ],
+     [
+      "2020-21",
+      "GSW",
+      "63",
+      "2152",
+      "2015",
+      "345",
+      "363",
+      "337",
+      "801"
+     ],
+     [
+      "2021-22",
+      "GSW",
+      "64",
+      "2211",
+      "1630",
+      "335",
+      "404",
+      "285",
+      "750"
+     ],
+     [
+      "2022-23",
+      "GSW",
+      "56",
+      "1941",
+      "1648",
+      "341",
+      "352",
+      "273",
+      "639"
+     ],
+     [
+      "2023-24",
+      "GSW",
+      "74",
+      "2421",
+      "1956",
+      "330",
+      "379",
+      "357",
+      "876"
+     ],
+     [
+      "2024-25",
+      "GSW",
+      "70",
+      "2252",
+      "1718",
+      "310",
+      "421",
+      "311",
+      "784"
+     ],
+     [
+      "2025-26",
+      "GSW",
+      "43",
+      "1329",
+      "1142",
+      "154",
+      "203",
+      "190",
+      "484"
+     ]
+    ],
+    "career": [
+     "Career",
+     "",
+     "1,069",
+     "36,304",
+     "26,528",
+     "4,973",
+     "6,743",
+     "4,248",
+     "10,073"
+    ]
+   },
+   {
+    "title": "Postseason",
+    "columns": [
+     "Year",
+     "Team",
+     "G",
+     "PTS",
+     "PPG",
+     "REB",
+     "AST",
+     "3PM",
+     "FG%",
+     "3P%",
+     "FT%"
+    ],
+    "rows": [
+     [
+      "2012-13",
+      "GSW",
+      "12",
+      "281",
+      "23.4",
+      "46",
+      "97",
+      "42",
+      ".434",
+      ".396",
+      ".921"
+     ],
+     [
+      "2013-14",
+      "GSW",
+      "7",
+      "161",
+      "23.0",
+      "25",
+      "59",
+      "22",
+      ".440",
+      ".386",
+      ".881"
+     ],
+     [
+      "2014-15",
+      "GSW",
+      "21",
+      "594",
+      "28.3",
+      "105",
+      "134",
+      "98",
+      ".456",
+      ".422",
+      ".835"
+     ],
+     [
+      "2015-16",
+      "GSW",
+      "18",
+      "452",
+      "25.1",
+      "99",
+      "93",
+      "80",
+      ".438",
+      ".404",
+      ".916"
+     ],
+     [
+      "2016-17",
+      "GSW",
+      "17",
+      "477",
+      "28.1",
+      "106",
+      "114",
+      "72",
+      ".484",
+      ".419",
+      ".904"
+     ],
+     [
+      "2017-18",
+      "GSW",
+      "15",
+      "383",
+      "25.5",
+      "91",
+      "81",
+      "64",
+      ".451",
+      ".395",
+      ".957"
+     ],
+     [
+      "2018-19",
+      "GSW",
+      "22",
+      "620",
+      "28.2",
+      "132",
+      "126",
+      "92",
+      ".441",
+      ".377",
+      ".943"
+     ],
+     [
+      "2021-22",
+      "GSW",
+      "22",
+      "602",
+      "27.4",
+      "115",
+      "129",
+      "91",
+      ".459",
+      ".397",
+      ".829"
+     ],
+     [
+      "2022-23",
+      "GSW",
+      "13",
+      "396",
+      "30.5",
+      "67",
+      "79",
+      "57",
+      ".466",
+      ".363",
+      ".845"
+     ],
+     [
+      "2024-25",
+      "GSW",
+      "8",
+      "181",
+      "22.6",
+      "42",
+      "41",
+      "32",
+      ".477",
+      ".400",
+      ".893"
+     ]
+    ],
+    "career": [
+     "Career",
+     "",
+     "155",
+     "4,147",
+     "26.8",
+     "828",
+     "953",
+     "650",
+     ".454",
+     ".397",
+     ".889"
+    ]
+   }
+  ]
+ },
+ "honors": [
+  "4x NBA champion (2015, 2017, 2018, 2022)",
+  "NBA Finals MVP (2022), unanimous",
+  "2x NBA MVP (2015, 2016), the 2016 award the first unanimous MVP in league history",
+  "12x All Star (2014 to 2019, 2021 to 2026)",
+  "2x All Star Game MVP (2022, 2025)",
+  "11x All NBA: First Team (2015, 2016, 2019, 2021), Second Team (2014, 2017, 2022, 2023, 2025), Third Team (2018, 2024)",
+  "Western Conference finals MVP (2022)",
+  "NBA Clutch Player of the Year (2024)",
+  "2x NBA scoring champion (2016, 2021)",
+  "NBA steals leader (2016)",
+  "2x Three Point Contest champion (2015, 2021)",
+  "NBA All Rookie First Team (2010)",
+  "NBA Sportsmanship Award (2011)",
+  "Twyman Stokes Teammate of the Year (2025)",
+  "NBA 75th Anniversary Team",
+  "Olympic gold medal (Paris 2024) and 2x FIBA World Cup gold (2010, 2014)",
+  "AP Athlete of the Year (2015)",
+  "NBA records: most career threes (4,248), most threes in a season (402 in 2015 to 2016), highest career free throw percentage (.912), most career playoff threes (650), most points in an overtime period of a playoff game (17), most points in a Game 7 (50)",
+  "Warriors franchise leader in career points, passing Wilt Chamberlain in April 2021",
+  "Number 30 retired by Davidson"
+ ],
+ "related_articles": [
+  "articles/stephen-curry-two-year-116-million-extension-warriors.html",
+  "articles/stephen-curry-career-records-three-pointers.html",
+  "articles/warriors-front-office-failures-curry-exit-not-preposterous.html",
+  "articles/lebron-curry-warriors-legacy-what-it-means.html"
+ ],
+ "sources": [
+  "https://www.basketball-reference.com/players/c/curryst01.html",
+  "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/3975/stats",
+  "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/3975/stats?seasontype=3",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/gs/schedule?season=2026&seasontype=5",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=400828761",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=400875809",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=400876756",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=400878160",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401267252",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401442533",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401442535",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401541236",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401866756",
+  "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401866759",
+  "https://en.wikipedia.org/wiki/Stephen_Curry",
+  "https://www.news4jax.com/sports/2026/09/26/stephen-curry-and-warriors-agree-to-2-year-contract-extension-worth-116-million-ap-source-says/",
+  "https://fieldlevelmedia.com/nba/at-warriors-camp-steph-curry-raring-to-go-kristaps-porzingis-out-again/",
+  "https://abc7news.com/post/green-scores-36-points-suns-lock-down-warriors-curry-111-96-win-nbas-play-tourney/18923740/",
+  "https://www.nst.com.my/amp/sports/others/2026/04/1419079/warriors-rally-eliminate-clippers",
+  "https://www.fox35orlando.com/sports/curry-returns-with-40-points-in-132-125-ot-win-over-blazers",
+  "https://www.news4jax.com/sports/2021/01/04/stephen-curry-has-career-high-62-warriors-beat-blazers/",
+  "https://www.cbssports.com/nba/gametracker/recap/NBA_20220610_GS@BOS/",
+  "https://www.cbssports.com/nba/gametracker/recap/NBA_20220616_GS@BOS/",
+  "https://www.clickondetroit.com/sports/2023/04/30/curry-scores-playoff-career-high-50-as-warriors-down-kings/",
+  "https://abc7news.com/post/curry-hits-winning-3-sets-record-as-warriors-beat-thunder/1222187/",
+  "https://commons.wikimedia.org/wiki/File:Stephen_Curry_close_up.jpg"
+ ],
+ "verified_on": "2026-10-03"
+}

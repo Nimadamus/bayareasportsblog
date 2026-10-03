@@ -379,7 +379,10 @@ def make_card(d):
         dr.text((tx, yy), l, font=f, fill=(242, 239, 230))
         yy += int(size * 1.08)
     sub = f'{TEAM.get(d["team_key"], "")} · {d.get("bay_years", "")}'
-    dr.text((tx, yy + 14), sub, font=font(["arial.ttf"], 30), fill=(200, 205, 196))
+    ss = 30
+    while ss > 16 and dr.textlength(sub, font=font(["arial.ttf"], ss)) > maxw:
+        ss -= 1
+    dr.text((tx, yy + 14), sub, font=font(["arial.ttf"], ss), fill=(200, 205, 196))
     bg.save(dst, "JPEG", quality=88, optimize=True)
 
 
@@ -479,10 +482,18 @@ def player_page(d, prev, nxt):
     rows = "".join(f'<tr{" class=bay" if r[ti] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in st["rows"])
     if st.get("career"):
         rows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in st["career"]) + "</tr>"
-    grp = "batting" if st.get("group") == "hitting" else "pitching"
+    grp = st.get("label") or ("batting" if st.get("group") == "hitting" else "pitching")
     stats = (f'<div class="stats-wrap"><table class="stats"><caption class="sr-only" style="position:absolute;left:-9999px">{e(name)} career {grp} stats by season</caption>'
              f'<thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>'
-             f'<p class="stats-note">Regular season. Highlighted rows are his Bay Area seasons. Scroll the table sideways on a phone.</p>')
+             f'<p class="stats-note">{e(st.get("note") or "Regular season. Highlighted rows are his Bay Area seasons.")} Scroll the table sideways on a phone.</p>')
+    for extra in st.get("extra_tables", []):
+        xth = "".join(f'<th scope="col">{e(c)}</th>' for c in extra["columns"])
+        xi = extra["columns"].index("Team") if "Team" in extra["columns"] else 1
+        xrows = "".join(f'<tr{" class=bay" if len(r) > xi and r[xi] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in extra["rows"])
+        if extra.get("career"):
+            xrows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in extra["career"]) + "</tr>"
+        stats += (f'<h3 class="ch-k" style="margin:30px 0 12px">{e(extra["title"])}</h3><div class="stats-wrap"><table class="stats">'
+                  f'<thead><tr>{xth}</tr></thead><tbody>{xrows}</tbody></table></div>')
     secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
     rel = ""
     if d.get("related_articles"):

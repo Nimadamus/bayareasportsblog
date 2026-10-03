@@ -15,6 +15,10 @@ Rendered by _gen_hall_of_fame.py into /<slug>.html (URL = player name) and hall-
  "quotes": [{"text":"exact words","speaker":"Dusty Baker","role":"Giants manager","context":"after Game 5 of the 2002 NLCS","source_url":"page where the exact words appear"}], // 4 to 8
  "videos": [{"id":"11charYTid","title":"","channel":"MLB","oembed_ok":true}],  // 3 to 6
  "stats": {"group":"hitting|pitching","columns":["Year","Team","G",...],"rows":[["1993","SF",...]],"bay_teams":["SF"],"career":["Career","",...],"source_url":"statsapi url used"},
+ // stats may also carry "label" (e.g. "passing", "receiving", "regular season", "managerial"), "note" (shown under table),
+ // and "extra_tables": [{"title":"Postseason","columns":[...],"rows":[[...]],"career":[...]}] for a second/third table
+ // (e.g. a QB's rushing, a WR's postseason, Bochy's playing career). First column Year, second column Team (abbrev used in bay_teams).
+ "display_name": "optional H1 with nickname, e.g. Will “The Thrill” Clark (leave out unless the nickname is iconic)",
  "honors": ["7x NL MVP (1990, 1992, 1993, 2001, 2002, 2003, 2004)"],
  "related_articles": ["articles/barry-bonds-giants-home-run-king.html"],
  "sources": ["every URL used to verify facts"],
