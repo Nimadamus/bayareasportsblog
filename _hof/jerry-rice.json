@@ -31,13 +31,13 @@
  ],
  "photo": {
   "file": "assets/img/players/hof/jerry-rice.jpg",
-  "alt": "A young Jerry Rice in his white 49ers number 80 jersey at training camp, holding a towel to his face with his helmet under his arm",
-  "caption": "Jerry Rice as a rookie at 49ers training camp in the summer of 1985.",
-  "commons_page": "https://commons.wikimedia.org/wiki/File:Jerry_Rice_1985.jpg",
-  "author": "Uncredited (AP), published in The Fresno Bee, August 15, 1985",
-  "license": "Public domain (PD-US-1989, published without a copyright notice)",
-  "in_uniform": true,
-  "smiling": false
+  "alt": "Jerry Rice smiling at Super Bowl XLIV week in Miami",
+  "caption": "Jerry Rice on the NFL Network set during Super Bowl XLIV week in Miami, 2010.",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_(4331549867)_(cropped)_-_Jerry_Rice.jpg",
+  "author": "Anthony Quintano",
+  "license": "CC BY 2.0",
+  "in_uniform": false,
+  "smiling": true
  },
  "bio": [
   "Every Niners fan of a certain age has the same picture burned in: number 80 running a slant, the ball arriving right as he turns upfield, and then nobody catching him. You'd see it on a Sunday at Candlestick and you'd see it again on the highlights that night and it never got old. Jerry Rice did that for 16 seasons in red and gold, and when he was done he owned basically every receiving record the league keeps.",
@@ -820,6 +820,5 @@
   "https://www.49ers.com/news/team-nfc-wins-2026-pro-bowl-games-in-san-francisco-mccaffrey-juszczyk",
   "https://commons.wikimedia.org/wiki/File:Jerry_Rice_1985.jpg"
  ],
- "verified_on": "2026-10-03",
- "hold": "needs a better 49ers uniform photo (only free one is a 1985 newspaper scan, towel over face)"
+ "verified_on": "2026-10-03"
 }

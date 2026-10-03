@@ -31,16 +31,15 @@
   }
  ],
  "photo": {
-  "file": "",
-  "alt": "",
-  "caption": "",
-  "commons_page": "",
-  "author": "",
-  "license": "",
+  "file": "assets/img/players/hof/joe-montana.jpg",
+  "alt": "Joe Montana at Super Bowl 50 in 2016",
+  "caption": "Joe Montana at Super Bowl 50 in 2016.",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Montana_Super_Bowl_50_(cropped).jpg",
+  "author": "Arnie Papp",
+  "license": "CC BY 2.0",
   "in_uniform": false,
   "smiling": false
  },
- "hold": "needs Bay Area uniform photo",
  "photo_alt": "https://commons.wikimedia.org/wiki/File:Joe_Montana_Super_Bowl_50_(cropped).jpg",
  "bio": [
   "Every 49ers fan has a Joe Montana story, and most of them start the same way. Somebody's dad, somebody's uncle, a living room somewhere between Daly City and Danville, the clock under two minutes, and nobody in the house worried. That was the strange gift of Joe. You'd watch a game you had no business winning and feel calm, because he looked calm, and he was usually right to.",

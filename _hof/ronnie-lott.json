@@ -30,16 +30,15 @@
   }
  ],
  "photo": {
-  "file": "",
-  "alt": "",
-  "caption": "",
-  "commons_page": "",
-  "author": "",
-  "license": "",
+  "file": "assets/img/players/hof/ronnie-lott.jpg",
+  "alt": "Ronnie Lott smiling with 49ers fans in San Francisco",
+  "caption": "Ronnie Lott with Niners fans in San Francisco.",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Ronnie_Lott_along_with_a_HUGE_fan!.jpg",
+  "author": "Mullethair",
+  "license": "CC BY-SA 3.0",
   "in_uniform": false,
-  "smiling": false
+  "smiling": true
  },
- "hold": "needs Bay Area uniform photo",
  "photo_alt": "https://commons.wikimedia.org/wiki/File:Ronnie_Lott_along_with_a_HUGE_fan!.jpg",
  "bio": [
   "If you grew up watching the Niners in the 80s you knew exactly when Ronnie Lott got to the ball, because you heard it. Montana and Rice got the highlight packages. Lott got the gasps. Number 42 was the guy who set the temperature for the whole defense, and for ten years at Candlestick that temperature was mean.",

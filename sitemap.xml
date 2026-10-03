@@ -239,6 +239,20 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/jerry-rice.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-jerry-rice.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/joe-montana.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-joe-montana.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/klay-thompson.html</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -253,11 +267,32 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-matt-cain.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/matt-williams.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-matt-williams.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/privacy.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/robb-nen.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-robb-nen.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/ronnie-lott.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-ronnie-lott.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/stephen-curry.html</loc>
