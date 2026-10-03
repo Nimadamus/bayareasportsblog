@@ -101,6 +101,18 @@ for slug in targets:
         if items and items[-1].get('name') and items[-1]['name'].strip() not in allowed:
             warnings.append((slug, 'last breadcrumb matches neither the H1, the title nor the headline'))
 
+    # Event nodes (SportsEvent etc): Google flags performer and endDate when missing.
+    # offers stays optional, but a partial one is worse than none, so never fake it.
+    for ev in [n for n in nodes if str(n.get('@type', '')).endswith('Event')]:
+        for field in ('startDate', 'endDate', 'location', 'performer'):
+            if not ev.get(field):
+                problems.append((slug, '%s node missing %s' % (ev['@type'], field)))
+        offers = ev.get('offers')
+        for o in (offers if isinstance(offers, list) else [offers] if offers else []):
+            for field in ('url', 'price', 'priceCurrency'):
+                if field not in o:
+                    problems.append((slug, '%s offers missing %s' % (ev['@type'], field)))
+
 print('SCHEMA VALIDATE  pages=%d  types=%s  errors=%d  warnings=%d'
       % (len(targets), counts, len(problems), len(warnings)))
 for slug, msg in problems[:40]:
