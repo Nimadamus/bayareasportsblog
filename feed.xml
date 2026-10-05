@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 02 Oct 2026 21:24:20 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 07:15:22 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 24, Broncos 14: Greenlaw Gets His Revenge and We&#39;re 4 and 0</title>
+    <link>https://bayareasportsblog.com/articles/49ers-broncos-24-14-greenlaw-revenge-kittle-juszczyk-injury.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-broncos-24-14-greenlaw-revenge-kittle-juszczyk-injury.html</guid>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers beat the Broncos 24 to 14 at Levi&#39;s to go 4 and 0. Greenlaw&#39;s 12 tackles against his old team, Kittle&#39;s dagger, zero sacks again, and Juszczyk&#39;s knee.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-broncos-24-14-greenlaw-revenge-kittle-juszczyk-injury.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Offense: McCaffrey, Juszczyk and Watkins Keep the Points Coming</title>
     <link>https://bayareasportsblog.com/articles/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>49ers defensive tackle Alfred Collins tore his patellar tendon at Tuesday&#39;s practice in Melbourne and is out for 2026, two days before the Rams opener.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-alfred-collins-torn-patellar-tendon-out-for-season.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Three Solo Homers Was the Whole Night and Toronto Took the Series</title>
-    <link>https://bayareasportsblog.com/articles/athletics-bluejays-4-2-okamoto-cortes-walton.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-bluejays-4-2-okamoto-cortes-walton.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Blue Jays 4, Athletics 2 in 92 degree heat at Sutter Health Park. Kazuma Okamoto hit his thirtieth and three solo homers were all the offense the A&#39;s had.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-bluejays-4-2-okamoto-cortes-walton.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
