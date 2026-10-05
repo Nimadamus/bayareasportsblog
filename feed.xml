@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 05 Oct 2026 17:54:48 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 23:26:34 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers 24, Broncos 14: Greenlaw Gets His Revenge and We&#39;re 4 and 0</title>
@@ -25,6 +25,15 @@
     <category>49ers</category>
     <description>One penalty for 5 yards, zero sacks allowed in four games, one Purdy pick all year. Why Shanahan&#39;s 4 and 0 Niners are the team to beat in the NFC.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-flawless-execution-shanahan-purdy-team-to-beat-nfc.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Juszczyk Out 2 to 3 Weeks and It Hits Us Hard in Seattle</title>
+    <link>https://bayareasportsblog.com/articles/49ers-kyle-juszczyk-knee-out-two-to-three-weeks-seahawks.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-kyle-juszczyk-knee-out-two-to-three-weeks-seahawks.html</guid>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Kyle Juszczyk&#39;s knee sprain has him out two to three weeks, so the 49ers go to Seattle without the guy who makes all that backfield motion work. He&#39;ll be missed.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-kyle-juszczyk-knee-out-two-to-three-weeks-seahawks.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>John Lynch Deserves Credit for This 49ers Pass Rush</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Every 49ers injury from the 27-7 Week 1 win over the Rams in Melbourne: De&#39;Zhaun Stribling&#39;s ankle, Jake Tonges&#39; MCL, and the two cramp scares.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers 27, Rams 7: The Best Night This Team Has Had In Years</title>
-    <link>https://bayareasportsblog.com/articles/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.html</guid>
-    <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers 27, Rams 7 at the Melbourne Cricket Ground: Purdy&#39;s three touchdowns, the goal-line stand, the 99-yard answer and a defense that smothered Stafford.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-rams-27-7-melbourne-purdy-three-touchdowns-goal-line-stand.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
