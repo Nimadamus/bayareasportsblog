@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 05 Oct 2026 07:15:22 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 17:07:40 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers 24, Broncos 14: Greenlaw Gets His Revenge and We&#39;re 4 and 0</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>49ers beat the Broncos 24 to 14 at Levi&#39;s to go 4 and 0. Greenlaw&#39;s 12 tackles against his old team, Kittle&#39;s dagger, zero sacks again, and Juszczyk&#39;s knee.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-broncos-24-14-greenlaw-revenge-kittle-juszczyk-injury.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>The 49ers Are the Team to Beat in the NFC, and It&#39;s Not Close</title>
+    <link>https://bayareasportsblog.com/articles/49ers-flawless-execution-shanahan-purdy-team-to-beat-nfc.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-flawless-execution-shanahan-purdy-team-to-beat-nfc.html</guid>
+    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>One penalty for 5 yards, zero sacks allowed in four games, one Purdy pick all year. Why Shanahan&#39;s 4 and 0 Niners are the team to beat in the NFC.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-flawless-execution-shanahan-purdy-team-to-beat-nfc.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>49ers Offense: McCaffrey, Juszczyk and Watkins Keep the Points Coming</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>A 49ers at Rams Week 1 preview from Melbourne: the defensive line injuries, the 3.5 point line on a neutral field, and what to watch at 5:35pm Pacific.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-rams-week-1-preview-melbourne-what-to-watch.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Alfred Collins Tore His Patellar Tendon and His Season Is Over</title>
-    <link>https://bayareasportsblog.com/articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers defensive tackle Alfred Collins tore his patellar tendon at Tuesday&#39;s practice in Melbourne and is out for 2026, two days before the Rams opener.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-alfred-collins-torn-patellar-tendon-out-for-season.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
