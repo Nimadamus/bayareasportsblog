@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 05 Oct 2026 23:26:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 16:36:53 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Cowherd Calls Brock Purdy the Best QB Ever. Don&#39;t Jinx Seattle.</title>
+    <link>https://bayareasportsblog.com/articles/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.html</guid>
+    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Colin Cowherd once picked the 49ers third in the West. Now he calls Brock Purdy the best quarterback ever, right before the passer rating record falls in Seattle.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers 24, Broncos 14: Greenlaw Gets His Revenge and We&#39;re 4 and 0</title>
     <link>https://bayareasportsblog.com/articles/49ers-broncos-24-14-greenlaw-revenge-kittle-juszczyk-injury.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Where the 2026 Giants sit in mid September: 62-86, 28 and a half back, Rafael Devers at 36 homers, Bryce Eldridge hitting .270, and what the last two weeks are actually for.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-september-2026-update-devers-eldridge-two-weeks-left.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers Injuries From Melbourne: Stribling Ankle, Tonges MCL</title>
-    <link>https://bayareasportsblog.com/articles/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.html</guid>
-    <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Every 49ers injury from the 27-7 Week 1 win over the Rams in Melbourne: De&#39;Zhaun Stribling&#39;s ankle, Jake Tonges&#39; MCL, and the two cramp scares.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
