@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 10 Oct 2026 14:40:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 23:23:20 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Cut Matt Judon and Activate Mykel Williams for Seattle</title>
+    <link>https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</guid>
+    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers released Matt Judon and activated Mykel Williams off PUP. Number 98 plays Sunday at Seattle, his first game since the ACL. A Niners fan on why it matters.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-cut-matt-judon-activate-mykel-williams-seahawks.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers vs Seahawks Preview: Win in Seattle and the NFC West Is Ours</title>
     <link>https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</link>
@@ -358,15 +367,6 @@
     <category>Raiders</category>
     <description>Raiders 27, Dolphins 13: Ashton Jeanty scored twice, Kwity Paye had two sacks, and Kirk Cousins nearly gave it away with two picks in Week 1.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>A&#39;s September Update: 60-88, Four Bats Hurt, and 7 of 10</title>
-    <link>https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-september-2026-update-kurtz-injuries-bolte-jump.html</guid>
-    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Athletics</category>
-    <description>Where the 2026 Athletics sit in mid September: 60-88, Nick Kurtz and Brent Rooker shut down, Henry Bolte and Gage Jump auditioning, and a ballpark that bends every number on the roster.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-september-2026-update-kurtz-injuries-bolte-jump.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

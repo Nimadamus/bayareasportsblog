@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-10</news:publication_date>
+      <news:title>49ers Cut Matt Judon and Activate Mykel Williams for Seattle</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</loc>
     <news:news>
       <news:publication>
