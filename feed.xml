@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 07 Oct 2026 16:36:53 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 14:40:28 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers vs Seahawks Preview: Win in Seattle and the NFC West Is Ours</title>
+    <link>https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</guid>
+    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>49ers vs Seahawks Week 5 preview from a Niners fan: 4 and 0, Purdy still unsacked, Bosa out, Seattle favored by 3, and why a win at Lumen Field puts us in control.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-vs-seahawks-preview-week-5-nfc-west-control.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Cowherd Calls Brock Purdy the Best QB Ever. Don&#39;t Jinx Seattle.</title>
     <link>https://bayareasportsblog.com/articles/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.html</link>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>Where the 2026 Athletics sit in mid September: 60-88, Nick Kurtz and Brent Rooker shut down, Henry Bolte and Gage Jump auditioning, and a ballpark that bends every number on the roster.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-september-2026-update-kurtz-injuries-bolte-jump.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Giants September Update: 62-86, Devers at 36, Two Weeks Left</title>
-    <link>https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-september-2026-update-devers-eldridge-two-weeks-left.html</guid>
-    <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Where the 2026 Giants sit in mid September: 62-86, 28 and a half back, Rafael Devers at 36 homers, Bryce Eldridge hitting .270, and what the last two weeks are actually for.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-september-2026-update-devers-eldridge-two-weeks-left.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
