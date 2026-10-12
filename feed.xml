@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 10 Oct 2026 23:23:20 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 02:41:50 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Beat Seahawks 32 to 29 in Seattle and Go 5 and 0</title>
+    <link>https://bayareasportsblog.com/articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html</guid>
+    <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Seven turnovers, a Greenlaw ejection, Deebo hurt and the 12th man screaming, and the 49ers still beat the champs 32 to 29 at Lumen Field. A Niners fan exhales.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-beat-seahawks-32-29-seattle-five-and-oh.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Cut Matt Judon and Activate Mykel Williams for Seattle</title>
     <link>https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</link>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>Padres 6, Giants 4 finished a sweep at Oracle Park. Devers hit 36 and 37, Webb gave up six, and Wednesday&#39;s comeback over St. Louis feels like a month ago.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-padres-sweep-oracle-park-devers-37-webb.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Raiders 27, Dolphins 13: Jeanty Twice, Paye Everywhere</title>
-    <link>https://bayareasportsblog.com/articles/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.html</guid>
-    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Raiders</category>
-    <description>Raiders 27, Dolphins 13: Ashton Jeanty scored twice, Kwity Paye had two sacks, and Kirk Cousins nearly gave it away with two picks in Week 1.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-dolphins-27-13-jeanty-two-touchdowns-paye-week-1.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
