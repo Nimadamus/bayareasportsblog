@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 12 Oct 2026 02:41:50 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 02:41:41 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 5 and 0 Through All the Injuries: Shanahan&#39;s Best Job Yet</title>
+    <link>https://bayareasportsblog.com/articles/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.html</guid>
+    <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Bosa out, the line gutted, the coach in a July car wreck, and the 49ers are 5 and 0. Only the 1999 Rams also beat three 12 win teams in a 5 and 0 start.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Beat Seahawks 32 to 29 in Seattle and Go 5 and 0</title>
     <link>https://bayareasportsblog.com/articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html</link>
@@ -358,15 +367,6 @@
     <category>Athletics</category>
     <description>A&#39;s 8, Mariners 7: Lawrence Butler&#39;s two run homer walked it off Sunday, Walton won Friday in ten, and a 19 to 1 Saturday sat in the middle of a series win.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-mariners-butler-walkoff-walton-walkoff-19-1.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Padres Came Into Our Ballpark and Took All Three</title>
-    <link>https://bayareasportsblog.com/articles/giants-padres-sweep-oracle-park-devers-37-webb.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-padres-sweep-oracle-park-devers-37-webb.html</guid>
-    <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Padres 6, Giants 4 finished a sweep at Oracle Park. Devers hit 36 and 37, Webb gave up six, and Wednesday&#39;s comeback over St. Louis feels like a month ago.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-padres-sweep-oracle-park-devers-37-webb.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
