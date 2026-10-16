@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 14 Oct 2026 01:20:46 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 10:16:34 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Christian Kirk Finally Practiced, and Mike Evans Didn&#39;t</title>
+    <link>https://bayareasportsblog.com/articles/49ers-christian-kirk-practice-window-mike-evans.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-christian-kirk-practice-window-mike-evans.html</guid>
+    <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Christian Kirk practiced for the first time since July. Mike Evans sat with two broken ribs and a sore Achilles. Monday night at Levi&#39;s is next.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-christian-kirk-practice-window-mike-evans.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Jauan Jennings Trade Rumors: Bring Him Home, 49ers</title>
     <link>https://bayareasportsblog.com/articles/49ers-jauan-jennings-trade-rumors-vikings-reunion.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Every Golden State Warriors game in 2026-27 with the date, the opponent, home or away and the result once it is final. Preseason and regular season, all times Pacific.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-2026-27-schedule-season-hub.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Thirteen and a Half Over Miami and I Hate Every Half Point of It</title>
-    <link>https://bayareasportsblog.com/articles/49ers-dolphins-week-2-home-opener-preparation-levis.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-dolphins-week-2-home-opener-preparation-levis.html</guid>
-    <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers got ten days after Melbourne to get ready for Miami at Levi&#39;s. Stribling is out a month, Tonges&#39; knee is a worry, and a 13.5 point line scares me.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-week-2-home-opener-preparation-levis.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
