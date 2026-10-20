@@ -41,14 +41,14 @@ GAMELOG = 'https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athl
 FIRST_SEASON = 2022
 RELIEF = {'2022-10-09', '2022-10-23', '2022-11-22', '2022-12-04'}
 QUALIFY = 1500
-LEADER_NOTE = ('Through Week 3 of the 2026 season the qualified leader was Lamar Jackson at 102.4, '
-               'with Aaron Rodgers second at 101.9.')
+LEADER_NOTE = ('He crossed 1,500 attempts on October 19, 2026, against Washington, on a six yard completion '
+               'to Christian McCaffrey, and took the record from Lamar Jackson, who was at 102.7.')
 LINK = 'style="color:var(--gold);text-decoration:underline;text-underline-offset:3px"'
 
-H1 = 'Brock Purdy Stats, Record and Where He Actually Ranks'
-TITLE = 'Brock Purdy Stats, Record and Where He Ranks All Time'
+H1 = 'Brock Purdy Stats, Record and the Highest Passer Rating in NFL History'
+TITLE = 'Brock Purdy Career Stats: The Highest Passer Rating in NFL History'
 DESC = ('Brock Purdy career stats with the 49ers, season by season and in the playoffs, his record '
-        'as a starter, and how close he is to the career passer rating record.')
+        'as a starter, and how he became the NFL career passer rating leader.')
 
 
 def fetch(url):
@@ -125,7 +125,7 @@ def region(reg_stats, post_stats, reg, post, now):
 %(posttable)s
 <p><b>Rushing.</b> Regular season: %(ra)s carries, %(ry)s yards, %(rtd)s touchdowns. Playoffs: %(pra)s carries, %(pry)s yards, %(prtd)s touchdown%(prs)s.</p>
 <h2>The career passer rating record</h2>
-<p>Purdy's career regular season passer rating is <b>%(rate)s</b>. The NFL only ranks quarterbacks with at least 1,500 career attempts. %(qual)s %(leader)s So the number is already above anyone on the qualified list; what he is waiting on is volume. Our <a href="49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html" %(link)s>record chase piece</a> covers what the week he qualifies will look like.</p>
+<p>Purdy's career regular season passer rating is <b>%(rate)s</b>. The NFL only ranks quarterbacks with at least 1,500 career attempts. %(qual)s %(leader)s That makes him the highest rated passer in NFL history, and the number moves every week he plays. How the chase looked on the way is in our <a href="49ers-brock-purdy-highest-passer-rating-nfl-history-1500-attempts.html" %(link)s>record chase piece</a>, and the night he got there is in <a href="49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html" %(link)s>our Washington column</a>.</p>
 <!-- purdy:end -->''' % {
         'upd': now.strftime('%a, %b ') + str(now.day), 'rg': n(t['gamesPlayed']), 'yds': n(t['passingYards']),
         'td': n(t['passingTouchdowns']), 'int': n(t['interceptions']), 'rate': n(t['QBRating']),
@@ -160,7 +160,7 @@ def article(picture, reg_region):
   <p>Anyone arguing in good faith has to hold this at the same time as the numbers. Passer rating rewards efficiency, and Purdy has played his entire career in an offense designed by one of the best offensive minds in football, throwing to a tight end who will end up in Canton and a running back who was, for a stretch, the most dangerous weapon in the sport. Nobody produces numbers like these alone. That's true, and it doesn't make them disappear.</p>
 
   <h2>What he can reach, and what he can't</h2>
-  <p>The career passer rating record is the closest thing and the most likely. Beyond that, the things worth watching need volume: career completion percentage among qualified passers, yards per attempt, and the win totals quarterbacks get credited with whether they deserve it or not. All of it needs him healthy and behind a functioning line.</p>
+  <p>The career passer rating record is already his, and the job now is holding it as the attempts pile up. Beyond that, the things worth watching need volume: career completion percentage among qualified passers, yards per attempt, and the win totals quarterbacks get credited with whether they deserve it or not. All of it needs him healthy and behind a functioning line.</p>
   <p>What isn't reachable is worth saying plainly. He isn't catching the career yardage and touchdown leaderboards. Those belong to quarterbacks who played twenty years and threw six hundred times a season, and Purdy started late enough that the arithmetic doesn't work. Anyone framing his career as a chase for those numbers is selling something.</p>
 
   <h2>Measured against Montana and Young</h2>

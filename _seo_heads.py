@@ -29,7 +29,7 @@ SKIP = {'google6f74b54ecd988601.html'}
 HUBS = {
     'index.html':      ('Home',              None),
     '49ers.html':      ('49ers',             'assets/img/cards/49ers-dynasty-team-of-the-decade.jpg'),
-    'warriors.html':   ('Warriors',          'assets/img/cards/warriors-championship-history.jpg'),
+    'warriors.html':   ('Warriors Blog: Golden State Warriors News, Takes and Analysis',          'assets/img/cards/warriors-championship-history.jpg'),
     'giants.html':     ('Giants',            'assets/img/cards/giants-dynasty-even-year-magic.jpg'),
     'athletics.html':  ("A's",               'assets/img/cards/athletics-sacramento-bay-area-villains.jpg'),
     'sharks.html':     ('Sharks',            'assets/img/cards/sharks-rebuild-has-a-pulse-celebrini.jpg'),

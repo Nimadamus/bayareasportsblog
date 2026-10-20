@@ -390,7 +390,7 @@ def player_page(d, prev, nxt):
     slug, name, key = d["slug"], d["name"], d["team_key"]
     team = TEAM.get(key, d.get("team", ""))
     url = f"{SITE}/{slug}.html"
-    title = f"{d.get('display_name') or name}: Bay Area Hall of Fame | Bay Area Sports Blog"
+    title = d.get("seo_title") or f"{d.get('display_name') or name}: Bay Area Hall of Fame | Bay Area Sports Blog"
     desc = d["meta_description"]
     image = f"{SITE}/{card_path(d)}"
     p = d["photo"]
