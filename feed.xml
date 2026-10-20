@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 19 Oct 2026 21:08:59 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 07:46:00 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Six and Oh, Barely. The &#39;72 Dolphins Should Be Sweating.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html</guid>
+    <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers held off Washington 23 to 17 on Monday night to go 6 and 0. Purdy took the career passer rating crown, and the &#39;72 Dolphins have company to worry about.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Bring DeForest Buckner Home. The 49ers Will Never Get a Better Shot.</title>
     <link>https://bayareasportsblog.com/articles/49ers-deforest-buckner-trade-reunion-colts.html</link>
@@ -358,15 +367,6 @@
     <category>Bay Area</category>
     <description>The complete Giants against Athletics record, season by season since interleague play began in 1997, plus the 1989 World Series, the four ballparks, and what happens to the series now that the A&#39;s play in Sacramento.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-bridge-series-giants-athletics-history.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Chase Center Guide: Getting There, Parking and Bag Rules</title>
-    <link>https://bayareasportsblog.com/articles/chase-center-guide-warriors-arena.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/chase-center-guide-warriors-arena.html</guid>
-    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>A practical guide to Chase Center: the Muni, BART, Caltrain and ferry routes that actually work, the parking situation, the bag rules, and an honest comparison with Oracle Arena.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/chase-center-guide-warriors-arena.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

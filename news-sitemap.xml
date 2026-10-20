@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20</news:publication_date>
+      <news:title>Six and Oh, Barely. The '72 Dolphins Should Be Sweating.</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-deforest-buckner-trade-reunion-colts.html</loc>
     <news:news>
       <news:publication>
@@ -10,17 +21,6 @@
       </news:publication>
       <news:publication_date>2026-10-19</news:publication_date>
       <news:title>Bring DeForest Buckner Home. The 49ers Will Never Get a Better Shot.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-nick-bosa-ruled-out-monday-night-commanders-juszczyk-evans.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-17</news:publication_date>
-      <news:title>Nick Bosa Is Out Monday Night. Juice and Evans Might Not Be.</news:title>
     </news:news>
   </url>
 </urlset>
