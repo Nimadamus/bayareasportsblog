@@ -581,9 +581,12 @@
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YwJH_9U2GQM&format=json",
   "https://retrosimba.com/2013/07/24/intimidation-ozzie-smith-will-clark-and-the-battle-at-busch/",
   "https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=1988-07-24&teamId=137",
-  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BAGULtzuhvY&format=json"
+  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BAGULtzuhvY&format=json",
+  "https://commons.wikimedia.org/wiki/File:Will_Clark_preparing_to_bat_during_seventh_inning_of_12_August_1992_game_between_San_Francisco_Giants_and_Houston_Astros.jpg",
+  "https://commons.wikimedia.org/wiki/File:Will_Clark_and_Jeff_Brantley_of_the_Fresno_Giants,_Aug._1985.jpg",
+  "https://commons.wikimedia.org/wiki/File:Will_Clark_(8146873440).jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "photo_alt_commons": {
   "file": "assets/img/players/hof/will-clark.jpg",
   "alt": "Will Clark in his Giants home whites, number 22, waiting to bat at Candlestick Park in August 1992",
@@ -602,5 +605,40 @@
   "His masterpiece was the 1989 NLCS against the Cubs. Game 1 at Wrigley he homered off Greg Maddux in the third and then hit the grand slam off him in the fourth, so it was actually two homers that night, not one, and the slam is the one everybody remembers. He hit .650 for the series and won the MVP. And then Game 5 at Candlestick, eighth inning, tie game, two outs, bases loaded, and the Cubs bring in Mitch Williams. Clark lines the two run single right up the middle. That's the hit that sent the Giants to the World Series. If I had to pick one swing that defines him, that's the one.",
   "What came next still stings. The A's were a juggernaut. Canseco, McGwire, Rickey, Stewart, Eckersley at the back end, just absolutely stacked, and the earthquake hit before Game 3 at Candlestick. The Giants got swept, and that was the closest Will ever got to a ring. He never won a World Series, and that's one of the real injustices of my sports life.",
   "One more story, because no Will Clark page is complete without it. July 24, 1988, Giants at Busch Stadium. Clark's on first in the eighth, Candy Maldonado hits a grounder to Ozzie Smith, and Clark comes into second hard to break up the double play. It wasn't the nicest slide in the world, I'll admit that. Jose Oquendo didn't like it, got into him, and Clark came up swinging at whoever was closest. He basically tried to take on the whole Cardinals infield by himself. Ozzie got a shot in on him from behind, and then here comes Maldonado flying in from first with a diving right hand that caught Ozzie in the mouth. And watch Bob Brenly in that video. He wanted a piece of Ozzie, guys were standing in between them, and he had plenty to say to him. Clark and Oquendo got tossed, the Giants won 5 to 0, and it's still one of the best brawls in Giants history. That was Will Clark in one afternoon. He wasn't backing down from anybody."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/will-clark-1.jpg",
+   "w": 1000,
+   "h": 631,
+   "alt": "Will Clark in number 22 waiting to bat at Candlestick Park in 1992",
+   "caption": "Number 22 waiting his turn at Candlestick, August 12, 1992.",
+   "pos": "center 50%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Will_Clark_preparing_to_bat_during_seventh_inning_of_12_August_1992_game_between_San_Francisco_Giants_and_Houston_Astros.jpg",
+   "author": "kelp",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/will-clark-2.jpg",
+   "w": 827,
+   "h": 735,
+   "alt": "Will Clark and Jeff Brantley in Fresno Giants uniforms in 1985",
+   "caption": "With Jeff Brantley on the Fresno Giants in 1985, months after the Giants drafted them both out of Mississippi State.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Will_Clark_and_Jeff_Brantley_of_the_Fresno_Giants,_Aug._1985.jpg",
+   "author": "Cgoldgrabe",
+   "license": "CC BY-SA 3.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/will-clark-3.jpg",
+   "w": 1000,
+   "h": 649,
+   "alt": "Will Clark celebrating at the 2012 Giants World Series parade",
+   "caption": "Back in orange and black for the 2012 World Series parade.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Will_Clark_(8146873440).jpg",
+   "author": "Michael Marconi",
+   "license": "CC BY 2.0"
+  }
  ]
 }

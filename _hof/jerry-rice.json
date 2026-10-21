@@ -1,7 +1,7 @@
 {
  "slug": "jerry-rice",
  "name": "Jerry Rice",
- "nickname": "",
+ "nickname": "World",
  "team": "San Francisco 49ers",
  "team_key": "niners",
  "position": "Wide Receiver",
@@ -93,7 +93,7 @@
    "date": "1994-09-05",
    "headline": "Career touchdown 127 on Monday night",
    "text": "On opening night of the 1994 season against the Los Angeles Raiders at Candlestick, Rice caught 7 passes for 169 yards and two touchdowns and ran for another. Those three scores gave him 127 career touchdowns, moving him past Jim Brown for the most in NFL history. San Francisco won 44 to 14, and the run to the franchise's fifth Super Bowl title started that night.",
-   "video_id": ""
+   "video_id": "FRBOldUTJbs"
   },
   {
    "date": "1995-01-29",
@@ -111,7 +111,7 @@
    "date": "2003-01-26",
    "headline": "A touchdown at 40, in the only Super Bowl he lost",
    "text": "With the Raiders in Super Bowl XXXVII in San Diego, the Bucs led 34 to 3 before Oakland made a run. Rich Gannon found Rice for a 48 yard touchdown with 6:06 left to make it 34 to 21, but Tampa Bay pulled away and won 48 to 21. Rice led the Raiders with 5 catches for 77 yards and became the first player to score a Super Bowl touchdown for two different teams. It's the only Super Bowl loss of his career.",
-   "video_id": ""
+   "video_id": "oyxZRsNeF5g"
   }
  ],
  "quotes": [
@@ -207,6 +207,18 @@
    "id": "LkyJfOvl9uY",
    "title": "Jerry Rice Top 50 Greatest Plays!",
    "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "FRBOldUTJbs",
+   "title": "Jerry Rice's iconic Monday night: Raiders vs. 49ers 1994",
+   "channel": "NFL Throwback",
+   "oembed_ok": true
+  },
+  {
+   "id": "oyxZRsNeF5g",
+   "title": "Super Bowl XXXVII: Raiders vs. Buccaneers",
+   "channel": "NFL Throwback",
    "oembed_ok": true
   }
  ],
@@ -824,14 +836,52 @@
   "https://www.ninersnation.com/2017/8/4/16094326/flashback-friday-video-jerry-rice-hall-of-fame-induction-speech-transcript",
   "https://www.profootballhof.com/news/2025/12/hall-of-famers-jerry-rice,-steve-young-named-2026-pro-bowl-games-head-coaches",
   "https://www.49ers.com/news/team-nfc-wins-2026-pro-bowl-games-in-san-francisco-mccaffrey-juszczyk",
-  "https://commons.wikimedia.org/wiki/File:Jerry_Rice_1985.jpg"
+  "https://commons.wikimedia.org/wiki/File:Jerry_Rice_1985.jpg",
+  "https://commons.wikimedia.org/wiki/File:Jerry_Rice_-_Mississippi_Valley_-_November_1983.jpg",
+  "https://commons.wikimedia.org/wiki/File:Jerry_Rice_jersey.jpg",
+  "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Jerry_Rice_Super_Bowl_50.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Let me tell you how good Jerry Rice was. He holds the career records for catches, yards and touchdowns, and the arguments aren't even close. I grew up thinking that was normal. I thought every team had a receiver who scored every week. Then he left, and I found out the hard way that nobody else is built like that.",
   "His rookie year is the part people forget. He dropped a lot of balls in 1985, and I remember grown men in the Bay saying Walsh blew the pick on a kid from Mississippi Valley State. Then that Monday night against the Rams, 10 catches for 241 yards, and the whispering just stopped. Forever.",
   "Super Bowl XXIII is my favorite Rice game. Eleven catches, 215 yards, the MVP, and the big catches on that last drive in Miami that set up John Taylor. A year later he caught three touchdowns in the 55 to 10 blowout of Denver, and in Super Bowl XXIX he caught three more on a hurt shoulder. Who plays a Super Bowl on a bad shoulder and scores three times?",
   "The work ethic stuff isn't a legend, by the way. The hill workouts, the routes run at full speed in practice when nobody was watching. He made himself the greatest ever, and he never stopped acting like he was still that kid trying to prove a scout wrong.",
   "I'll admit it was strange seeing him in silver and black, catching a touchdown in a Super Bowl at 40 for the Raiders. But he was still ours. He was still in the Bay. And when people argue about the greatest football player of all time, I don't even join in. I just say 80."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/jerry-rice-1.jpg",
+   "w": 561,
+   "h": 494,
+   "alt": "Jerry Rice wearing number 88 for Mississippi Valley State in 1983",
+   "caption": "Number 88 at Mississippi Valley State, November 1983, before anybody out here knew the name.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Jerry_Rice_-_Mississippi_Valley_-_November_1983.jpg",
+   "author": "The Vicksburg Post",
+   "license": "Public domain"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/jerry-rice-2.jpg",
+   "w": 750,
+   "h": 1000,
+   "alt": "Jerry Rice's red 49ers number 80 jersey on display",
+   "caption": "The number 80 jersey, on display.",
+   "pos": "center 75%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Jerry_Rice_jersey.jpg",
+   "author": "Ryan Schreiber",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/jerry-rice-3.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Joe Montana and Jerry Rice together at Super Bowl 50",
+   "caption": "With Joe Montana at Super Bowl 50, February 2016.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Jerry_Rice_Super_Bowl_50.jpg",
+   "author": "Arnie Papp",
+   "license": "CC BY 2.0"
+  }
  ]
 }

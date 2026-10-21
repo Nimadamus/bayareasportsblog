@@ -85,13 +85,13 @@
    "date": "2002-10-07",
    "headline": "The homer that finished Atlanta",
    "text": "Game 5 of the NLDS at Turner Field, winner take all. Bonds led off the fourth against Kevin Millwood with the Giants up 1 to 0 and hit it out to make it 2 to 0. The Giants held on 3 to 1 and moved on to the NLCS.",
-   "video_id": ""
+   "video_id": "mL6hgCHg_9Y"
   },
   {
    "date": "2002-10-14",
    "headline": "Tying sacrifice fly, then the pennant",
    "text": "NLCS Game 5 at Pac Bell, Giants down 1 to 0 to St. Louis in the eighth. Matt Morris had walked Bonds intentionally his previous time up. This time, with one out and runners on second and third, Bonds lifted a sacrifice fly to left to score Kenny Lofton and tie it. In the ninth, Lofton singled home David Bell with two outs and the Giants were going to the World Series.",
-   "video_id": ""
+   "video_id": "serJBc47H20"
   },
   {
    "date": "2002-10-19",
@@ -216,6 +216,18 @@
    "id": "Vr7vPDNG3q0",
    "title": "Barry Bonds intentionally walked with the BASES LOADED!!",
    "channel": "MLB Vault",
+   "oembed_ok": true
+  },
+  {
+   "id": "mL6hgCHg_9Y",
+   "title": "2002 NLDS Game 5: Bonds homers to deep left center",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "serJBc47H20",
+   "title": "NLCS Game 5: Lofton's walk off single sends the Giants to the World Series",
+   "channel": "MLB",
    "oembed_ok": true
   }
  ],
@@ -709,9 +721,12 @@
   "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg",
   "https://www.mlb.com/news/tim-salmon-talks-about-barry-bonds-long-homer",
   "https://statsapi.mlb.com/api/v1/game/216223/playByPlay",
-  "https://statsapi.mlb.com/api/v1/people/111188/stats?stats=gameLog&group=hitting&season=2002&gameType=D,L,W"
+  "https://statsapi.mlb.com/api/v1/people/111188/stats?stats=gameLog&group=hitting&season=2002&gameType=D,L,W",
+  "https://commons.wikimedia.org/wiki/File:20060825_Barry_Bonds_follow_through.jpg",
+  "https://commons.wikimedia.org/wiki/File:Bonds_735.jpg",
+  "https://commons.wikimedia.org/wiki/File:Barry_b.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "I'll just say it. Barry Bonds is the greatest baseball player who ever lived. The only two I'd even put in the conversation are Ken Griffey Jr. and Willie Mays. That's my top three. I never saw Ted Williams play, so I won't pretend. Some people will bring up Babe Ruth, and look, nobody will ever know how he'd do against today's pitching, but I've got my doubts he'd hit .250. Bonds I watched with my own eyes, and I've never seen anything like him.",
   "I know what the other side says. He cheated, he juiced, he doesn't belong in Cooperstown. Here's my problem with that. He hit 46 homers in 1993, his first year back home with the Giants, and he wasn't on anything back then. I'd bet my house on it. He won seven MVPs. And you can't inject the kind of hitter he was. Nobody can teach that eye, that hand speed, that patience. Steroids don't let you lay off a slider two inches off the plate.",
@@ -719,5 +734,40 @@
   "And the eye. Best eye I've ever seen at the plate. In 2004 he walked 232 times, which is just a silly number, and yeah, a lot of those were intentional, but that's the point. He was always on base, always disrupting things, scoring runs, driving them in, stealing a bag, hitting one into the Cove. I've never seen a hitter so feared. Buck Showalter actually walked him with the bases loaded in 1998 to give up a run on purpose, and the craziest part is it worked.",
   "Early in his career there were grumblings that he wasn't clutch, and honestly, with Pittsburgh in the 1991 and 1992 NLCS he didn't do much. Then came 2002. He hit three homers against the Braves in the Division Series. The Cardinals were so scared of him in the NLCS they walked him ten times. And in the World Series against the Angels he was on fire, .471 with four homers, including that bomb off Troy Percival in Game 2 that went about 485 feet and had Tim Salmon saying it was the farthest ball he'd ever seen hit.",
   "The Giants should have won that Series. I'll go to my grave saying Dusty Baker blew Game 6 with the way he handled the bullpen, pulling Russ Ortiz in the seventh up 5 to 0, but that's another story. Bonds never won a ring, and that's really sad. To make a long story short, everybody knows what Barry Bonds was. I'm just telling you how it looked from the stands. Best player that ever lived, and an absolutely incredible talent."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/barry-bonds-1.jpg",
+   "w": 1000,
+   "h": 809,
+   "alt": "Barry Bonds swinging at AT&T Park in August 2006",
+   "caption": "Taking a cut at home in August 2006.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:20060825_Barry_Bonds_follow_through.jpg",
+   "author": "Kevin Rushforth",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/barry-bonds-2.jpg",
+   "w": 1000,
+   "h": 676,
+   "alt": "AT&T Park scoreboard showing 735 after Barry Bonds hit his 735th home run",
+   "caption": "The scoreboard says it all: number 735, off Chris Young at AT&T Park, April 4, 2007.",
+   "pos": "center 60%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bonds_735.jpg",
+   "author": "Bspangenberg",
+   "license": "CC BY 3.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/barry-bonds-3.jpg",
+   "w": 1000,
+   "h": 591,
+   "alt": "Barry Bonds in the Giants road gray uniform in 2007",
+   "caption": "Heading out to left field after a two run single, July 2007.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Barry_b.jpg",
+   "author": "guano",
+   "license": "CC BY-SA 2.0"
+  }
  ]
 }

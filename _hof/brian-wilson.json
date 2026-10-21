@@ -495,14 +495,52 @@
   "https://sports.yahoo.com/brian-wilson-beardless-reunites-giants-surprise-first-pitch-falling-ceo-232849039.html",
   "https://www.espn.com/mlb/story/_/page/QTP_170209BrianWilsonNoBeard/former-san-francisco-giants-los-angeles-dodgers-reliever-brian-wilson-loses-beard-en-route-potential-comeback",
   "https://www.si.com/more-sports/2011/07/19/brian-wilson",
-  "https://commons.wikimedia.org/wiki/File:Brian_Wilson_Fear_the_Beard.jpg"
+  "https://commons.wikimedia.org/wiki/File:Brian_Wilson_Fear_the_Beard.jpg",
+  "https://commons.wikimedia.org/wiki/File:Man_Love_(5148590120).jpg",
+  "https://commons.wikimedia.org/wiki/File:Brian_Wilson_on_May_3,_2009.jpg",
+  "https://commons.wikimedia.org/wiki/File:Sergio_Romo_and_Brian_Wilson_(5143504385).jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Brian Wilson was a lunatic, and I mean that with all the love in my heart. The beard, the tuxedo, the guy in the spandex suit, the crossed arms pointing to the sky after every save. And underneath all of it, the nastiest ninth inning stuff the Giants have had in my lifetime.",
   "Fear the Beard was the whole 2010 season in three words. Forty eight saves, tied for the San Francisco record, and he locked up the division on the last day against the Padres with three straight outs. Then a 0.00 ERA in the postseason. Zero.",
   "Every save was torture, and that was the point. He'd walk a couple guys, load it up, run the count full, and make you suffer. Then he'd freeze Ryan Howard with a full count slider to win the pennant in Philadelphia. I remember jumping off my couch so hard I scared the dog.",
   "And then Nelson Cruz swinging through strike three in Arlington. First World Series title in San Francisco. Wilson on the mound, arms crossed, pointing up. That's the picture I'll have in my head when I'm 90.",
   "The elbow went in 2012 and he was never really ours again after that. But for three years he was the most fun, most stressful, most beloved closer in the city, and the Giants Wall of Fame got it exactly right."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/brian-wilson-1.jpg",
+   "w": 1000,
+   "h": 664,
+   "alt": "Giants players celebrating on the mound after the final out of the 2010 World Series",
+   "caption": "The dogpile in Arlington, November 1, 2010. Wilson got the last out.",
+   "pos": "center 50%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Man_Love_(5148590120).jpg",
+   "author": "Billy Bob Bain",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/brian-wilson-2.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Brian Wilson delivering a pitch in 2009",
+   "caption": "Mid delivery, May 2009.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Brian_Wilson_on_May_3,_2009.jpg",
+   "author": "Bryce Edwards",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/brian-wilson-3.jpg",
+   "w": 1000,
+   "h": 750,
+   "alt": "Brian Wilson and Sergio Romo on a cable car at the 2010 World Series parade",
+   "caption": "With Sergio Romo on a cable car at the 2010 World Series parade.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Sergio_Romo_and_Brian_Wilson_(5143504385).jpg",
+   "author": "btwashburn",
+   "license": "CC BY 2.0"
+  }
  ]
 }

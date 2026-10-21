@@ -70,13 +70,13 @@
    "date": "1993-01-17",
    "headline": "First NFC title shot, and a loss to Dallas",
    "text": "In his MVP season, Young got the 49ers to the NFC Championship Game at Candlestick against the Cowboys. He ran for a touchdown in the first quarter and threw a 5 yard touchdown to Jerry Rice that cut it to 24 to 20 with 4:22 left, but Ken Norton Jr. had picked him off earlier in the fourth and James Washington intercepted him again at the two minute warning. Dallas won 30 to 20. Young went 25 for 35 for 313 yards with one touchdown and two interceptions.",
-   "video_id": ""
+   "video_id": "VN-qsZQSr9Q"
   },
   {
    "date": "1994-10-02",
    "headline": "Benched, livid, and the season turns",
    "text": "The Eagles came into Candlestick and buried the 49ers 40 to 8, the low point of the year. George Seifert pulled Young in the middle of a series in the third quarter, and Young went off on him on the sideline in full view of everybody. He admitted later he was looking for a fistfight. Brent Jones said it galvanized the guys behind him. From there the 49ers won ten straight.",
-   "video_id": ""
+   "video_id": "ToIxV_FZedc"
   },
   {
    "date": "1995-01-15",
@@ -189,6 +189,18 @@
   {
    "id": "q-vpFFmj-Og",
    "title": "Steve Young: The Lefty QB GOAT Highlights! | NFL Legends",
+   "channel": "NFL Throwback",
+   "oembed_ok": true
+  },
+  {
+   "id": "VN-qsZQSr9Q",
+   "title": "1992 NFC Championship Game: Cowboys vs. 49ers highlights",
+   "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "ToIxV_FZedc",
+   "title": "Eagles vs. 49ers 1994, Week 5",
    "channel": "NFL Throwback",
    "oembed_ok": true
   }
@@ -836,14 +848,52 @@
   "https://www.youtube.com/watch?v=BvLJzfIvcCs",
   "https://www.youtube.com/watch?v=xhDZgj3tOLQ",
   "https://www.youtube.com/watch?v=tcyaKOr4O88",
-  "https://www.youtube.com/watch?v=q-vpFFmj-Og"
+  "https://www.youtube.com/watch?v=q-vpFFmj-Og",
+  "https://commons.wikimedia.org/wiki/File:Steve_Young_HOF_jersey.jpg",
+  "https://commons.wikimedia.org/wiki/File:Steve_Young_(6837509849).jpg",
+  "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Steve_Young_Super_Bowl_50.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Steve Young had the hardest job in Bay Area sports history. He had to replace Joe Montana. Not follow him, replace him, while Joe was still healthy enough to want the job back. For a few years half the Bay treated him like a guy who'd stolen something. I was guilty of it too, and I'm a little embarrassed about that now.",
   "The run against the Vikings in 1988 is where I started coming around. Booed most of the afternoon, down 21 to 17 with about two minutes left, and he takes off and runs 49 yards through what felt like the entire Minnesota defense, stumbling, falling, refusing to go down, and falls into the end zone. It was the strangest, most beautiful touchdown I'd ever seen.",
   "Then he had to get past Dallas, and it took him three tries. Lost two NFC title games to the Cowboys, and in 1994 he got benched in a 40 to 8 beatdown by the Eagles and went off on George Seifert on the sideline. I loved that. Finally, some fire. That team never looked back. They beat Dallas in January, and two weeks later he threw six touchdown passes in Super Bowl XXIX, breaking Joe's record. The monkey was finally off his back, and I'll never forget the look on his face.",
   "And The Catch II. Green Bay had knocked us out three years running, Favre had just put them ahead, and Steve stumbled on his drop back, caught his balance and threw a strike to Terrell Owens in a crowd of Packers with three seconds left. My whole living room was on the floor.",
   "Two MVPs, six passer rating titles, and he ran like a running back. He wasn't Joe. He didn't have to be. He was Steve, and that turned out to be plenty."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/steve-young-1.jpg",
+   "w": 1000,
+   "h": 939,
+   "alt": "Steve Young's signed number 8 49ers jersey at the Pro Football Hall of Fame",
+   "caption": "His number 8 at the Pro Football Hall of Fame in Canton.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Steve_Young_HOF_jersey.jpg",
+   "author": "Erik Drost",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/steve-young-2.jpg",
+   "w": 1000,
+   "h": 725,
+   "alt": "Steve Young smiling in a suit in 2012",
+   "caption": "Steve Young in 2012.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Steve_Young_(6837509849).jpg",
+   "author": "SAB0TEUR",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/steve-young-3.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Steve Young and Joe Montana together at Super Bowl 50",
+   "caption": "With Joe Montana at Super Bowl 50, February 2016.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Steve_Young_Super_Bowl_50.jpg",
+   "author": "Arnie Papp",
+   "license": "CC BY 2.0"
+  }
  ]
 }

@@ -88,19 +88,19 @@
    "date": "2012-10-11",
    "headline": "Game 5 in Cincinnati, season on the line",
    "text": "The Giants had lost the first two games of the Division Series at home and were facing elimination for the third straight day. Cain threw four scoreless innings to start, Buster Posey hit a grand slam off Mat Latos in the fifth to make it 6 to 0, and Cain got through five and two thirds, allowing three runs. Sergio Romo finished off a 6 to 4 win, and the Giants moved on.",
-   "video_id": ""
+   "video_id": "xIjYlNdfiec"
   },
   {
    "date": "2012-10-22",
    "headline": "Game 7 of the NLCS",
    "text": "Down three games to one to the Cardinals, the Giants had clawed back to a Game 7 at AT&T Park. Cain threw five and two thirds shutout innings on five hits, and in the second inning he drove in a run himself with a single to center. The Giants won 9 to 0, Marco Scutaro squeezed Matt Holliday's pop up in the rain for the last out, and San Francisco was going back to the World Series.",
-   "video_id": ""
+   "video_id": "aGIiJx71le4"
   },
   {
    "date": "2012-10-28",
    "headline": "Closing out Detroit",
    "text": "World Series Game 4 at Comerica Park, Giants up three games to none. Cain went seven innings, allowing three runs on a Miguel Cabrera two run homer in the third and a Delmon Young solo shot in the sixth after Posey's two run homer had given him the lead. He got no decision, but Marco Scutaro singled home Ryan Theriot in the tenth, Romo struck out the side, and the Giants won 4 to 3 for their second title in three years.",
-   "video_id": ""
+   "video_id": "JUjjbZlKo8M"
   },
   {
    "date": "2017-09-30",
@@ -195,6 +195,24 @@
    "id": "YvgY0iyg3bM",
    "title": "Forever Giants: Matt Cain",
    "channel": "San Francisco Giants",
+   "oembed_ok": true
+  },
+  {
+   "id": "xIjYlNdfiec",
+   "title": "2012 NLDS Game 5: Posey's grand slam in Cincinnati",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "aGIiJx71le4",
+   "title": "2012 NLCS Game 7: the final out sends the Giants to the World Series",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "JUjjbZlKo8M",
+   "title": "2012 World Series Game 4: Giants get the winning run in the 10th",
+   "channel": "MLB",
    "oembed_ok": true
   }
  ],
@@ -651,14 +669,52 @@
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=kH597LuDwug&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=KTNyk1oklQA&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=24YHWMowCcQ&format=json",
-  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YvgY0iyg3bM&format=json"
+  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YvgY0iyg3bM&format=json",
+  "https://commons.wikimedia.org/wiki/File:Matt_Cain_Winds_Up_(5171309594).jpg",
+  "https://commons.wikimedia.org/wiki/File:Rook.jpg",
+  "https://commons.wikimedia.org/wiki/File:Matt_Cain_(8146872072).jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Matt Cain is the most underrated great pitcher in Giants history, and I'll fight anybody on it. For years he was the guy who threw seven great innings and lost 2 to 1 because nobody scored for him. He never complained. He just went out every fifth day and did it again.",
   "Then came the 2010 postseason, and he didn't give up an earned run. Not one. Twenty one and a third innings, against the Braves, the Phillies and the Rangers. Seven shutout innings against the two time defending champs in the NLCS. Seven and two thirds in the World Series. That's the most quietly dominant month I've ever seen from a Giant.",
   "And June 13, 2012. Perfect. Fourteen strikeouts, tied with Koufax, and Gregor Blanco diving in right center to save it. I was screaming at my TV in the seventh like I could help. It was the first perfect game in franchise history, and it went to the guy who'd been waiting the longest for something good to happen to him.",
   "That October he started Game 5 in Cincinnati with the season on the line and Game 7 against the Cardinals and won both. He drove in a run himself in Game 7. Two rings.",
   "His last start, he threw five shutout innings and left with a lead, and the bullpen blew it. Honestly that felt about right. Every Giants fan knew exactly what we were looking at. A horse. Our horse."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/matt-cain-1.jpg",
+   "w": 1000,
+   "h": 750,
+   "alt": "Matt Cain winding up at AT&T Park during the 2010 NLCS",
+   "caption": "Winding up at AT&T Park on October 19, 2010, the day he shut out the Phillies for seven innings in Game 3 of the NLCS.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Matt_Cain_Winds_Up_(5171309594).jpg",
+   "author": "Rajiv Patel",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/matt-cain-2.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Matt Cain on the mound in his first big league start in 2005",
+   "caption": "His first big league start, 2005.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Rook.jpg",
+   "author": "eürodäna",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/matt-cain-3.jpg",
+   "w": 1000,
+   "h": 685,
+   "alt": "Matt Cain at the 2012 World Series parade",
+   "caption": "The 2012 World Series parade, a perfect game and a ring in the same year.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Matt_Cain_(8146872072).jpg",
+   "author": "Michael Marconi",
+   "license": "CC BY 2.0"
+  }
  ]
 }

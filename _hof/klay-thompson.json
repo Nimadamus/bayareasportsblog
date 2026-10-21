@@ -653,14 +653,52 @@
   "https://abc7.com/post/klay-thompson-expected-sign-heat-mavs-buy-deal-espn-sources/19714761/",
   "https://www.nba.com/mavs/news/dallas-mavericks-and-klay-thompson-reach-buyout-agreement",
   "https://www.nba.com/heat/news/heat-sign-klay-thompson",
-  "https://commons.wikimedia.org/wiki/File:Klay_Thompson_(cropped).jpg"
+  "https://commons.wikimedia.org/wiki/File:Klay_Thompson_(cropped).jpg",
+  "https://commons.wikimedia.org/wiki/File:Kyrie_Irving_(27140775883).jpg",
+  "https://commons.wikimedia.org/wiki/File:Klay_Thompson_in_2015.jpg",
+  "https://commons.wikimedia.org/wiki/File:Raptors_at_Warriors,_2013-03-04_P1000182_(8531340385).jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Klay Thompson is the most Bay Area superstar there's ever been, and I can't even tell you exactly why. Maybe it's the dog, maybe it's the boat, maybe it's that he never seemed to care about being famous. He just showed up, guarded the other team's best player, and every once in a while caught fire like nobody in the history of the sport.",
   "Thirty seven points in a quarter. Thirteen for thirteen. I was watching it live and by the middle of it I was laughing out loud, alone, because it didn't make sense. Then sixty in 29 minutes against Indiana. Then fourteen threes in Chicago. He'd go quiet for three games and then do something that broke the record book.",
   "Game 6 Klay is real, and it was born in Oklahoma City. Down 3 to 1, down 8 going into the fourth, season over, and he hit eleven threes and saved the whole thing. He did it again against Houston in 2018. When the season was on the line, he got more dangerous, not less.",
   "The free throws in the 2019 Finals still get me. Torn ACL, and he limps back out and makes both. Then two and a half years gone, the knee and then the Achilles, and the night he came back against Cleveland at Chase Center, 941 days later, I had to step out of the room for a second. Six months after that he had a ring again.",
   "I didn't love how it ended, him going to Dallas. Nobody did. But number 11 belongs here. He's a Warrior, he'll always be a Warrior, and someday they'll hang that jersey up and the whole building will cry."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/klay-thompson-1.jpg",
+   "w": 1000,
+   "h": 665,
+   "alt": "Klay Thompson guarding Kyrie Irving in Game 6 of the 2016 NBA Finals",
+   "caption": "Guarding Kyrie Irving in Game 6 of the 2016 Finals.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kyrie_Irving_(27140775883).jpg",
+   "author": "Erik Drost",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/klay-thompson-2.jpg",
+   "w": 890,
+   "h": 1000,
+   "alt": "Klay Thompson holding the ball in a Warriors Chinese New Year jersey in 2015",
+   "caption": "February 2015, the season of the 37 point quarter and the first ring.",
+   "pos": "center 20%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Klay_Thompson_in_2015.jpg",
+   "author": "Keith Allison",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/klay-thompson-3.jpg",
+   "w": 1000,
+   "h": 750,
+   "alt": "Klay Thompson warming up at Oracle Arena in 2013",
+   "caption": "Getting shots up at Oracle, March 2013.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Raptors_at_Warriors,_2013-03-04_P1000182_(8531340385).jpg",
+   "author": "Matthew Addie",
+   "license": "CC BY 2.0"
+  }
  ]
 }

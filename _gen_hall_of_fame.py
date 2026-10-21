@@ -228,6 +228,13 @@ iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
 .vids{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .vids figure{margin:0}
 .vids figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.gal figure{margin:0}
+.gal img{display:block;width:100%;height:360px;object-fit:cover;border-radius:4px;background:var(--paper)}
+.gal figcaption{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.45}
+.gal figcaption a{color:inherit;text-decoration:underline}
+.gal.one{grid-template-columns:minmax(0,680px)}
+.gal.one img{height:auto}
 .quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .hq{margin:0;background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:24px 24px 20px}
 .hq p{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.45;color:var(--text);margin:0}
@@ -263,6 +270,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
  .hof-grid{grid-template-columns:1fr;gap:26px}
  .hof-photo{max-width:440px}
  .quotes,.vids{grid-template-columns:1fr}
+ .gal img{height:auto;max-height:520px}
  .honors{columns:1}
  .hof-two{grid-template-columns:1fr;gap:30px}
  .hof-aside{position:static}
@@ -448,6 +456,16 @@ def player_page(d, prev, nxt):
     if d.get("our_take"):
         secs.append(chapter(nxtnum(), "From the Stands", "What He Meant to Us",
                             '<div class="hof-body">' + "".join(f"<p>{e(x)}</p>" for x in d["our_take"]) + "</div>"))
+    if d.get("gallery"):
+        figs = []
+        for g in d["gallery"]:
+            cr = e(g.get("caption"))
+            if g.get("commons_page"):
+                cr += (f' Photo: {e(g.get("author"))}, <a href="{e(g["commons_page"])}" rel="nofollow noopener" '
+                       f'target="_blank">{e(g.get("license"))}</a>, via Wikimedia Commons.')
+            figs.append(f'<figure><img src="{e(g["file"])}" alt="{e(g.get("alt"))}" width="{g.get("w", 1000)}" height="{g.get("h", 750)}" '
+                        f'loading="lazy" decoding="async" style="object-position:{e(g.get("pos", "center 30%"))}"><figcaption>{cr}</figcaption></figure>')
+        secs.append(chapter(nxtnum(), "The Photo Album", "In Pictures", f'<div class="gal{" one" if len(figs) == 1 else ""}">{"".join(figs)}</div>'))
     def hq(q):
         return (f'<blockquote class="hq"><p>&ldquo;{e(q["text"])}&rdquo;</p><footer><b>{e(q["speaker"])}</b>'
                 f'{", " + e(q["role"]) if q.get("role") else ""}{"<br>" + e(q["context"]) if q.get("context") else ""}</footer></blockquote>')

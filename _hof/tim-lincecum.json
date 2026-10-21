@@ -77,13 +77,13 @@
    "date": "2010-10-16",
    "headline": "Outdueling Halladay in Philadelphia",
    "text": "NLCS Game 1 at Citizens Bank Park, Lincecum against Roy Halladay. Cody Ross homered off Halladay in the third and fifth, and Pat Burrell and Juan Uribe drove in runs in the sixth for a 4 to 1 lead. Jayson Werth's two run homer in the bottom of the sixth cut it to 4 to 3, but Lincecum finished seven innings with eight strikeouts, Javier Lopez got two outs and Brian Wilson struck out four in a 1.1 inning save. Giants 4, Phillies 3.",
-   "video_id": ""
+   "video_id": "kKeyB9hrLfs"
   },
   {
    "date": "2010-10-23",
    "headline": "One day's rest, eighth inning, pennant on the line",
    "text": "Two days after losing Game 5 at home, Lincecum came out of the bullpen in Game 6 in Philadelphia. Juan Uribe had just homered in the top of the eighth for a 3 to 2 lead. Lincecum struck out Jayson Werth swinging, then gave up line drive singles to Shane Victorino and Raul Ibanez. Bochy went to Brian Wilson, Carlos Ruiz lined into a double play at first, and Wilson closed it out in the ninth. Not a clean outing, but the Giants were going to the World Series.",
-   "video_id": ""
+   "video_id": "8j-geYRxz-o"
   },
   {
    "date": "2010-11-01",
@@ -188,6 +188,18 @@
   {
    "id": "Wbkkon5WwOs",
    "title": "Looking back on Tim Lincecum's career",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "kKeyB9hrLfs",
+   "title": "2010 NLCS Game 1: Cody Ross homers twice off Halladay",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "8j-geYRxz-o",
+   "title": "2010 NLCS Game 6: Wilson's five out save clinches the pennant",
    "channel": "MLB",
    "oembed_ok": true
   }
@@ -559,14 +571,41 @@
   "https://nbcsports.com/bayarea/giants/giants-legend-tim-lincecum-one-and-done-baseball-hall-fame-ballot",
   "https://sports.yahoo.com/article/sf-giants-legend-tim-lincecum-222948240.html",
   "https://www.flickr.com/photos/bryce_edwards/2660109562",
-  "https://commons.wikimedia.org/wiki/File:Tim_Lincecum_2008.jpg"
+  "https://commons.wikimedia.org/wiki/File:Tim_Lincecum_2008.jpg",
+  "https://commons.wikimedia.org/wiki/File:DSC_1134_(5147009623).jpg",
+  "https://commons.wikimedia.org/wiki/File:Tim_Lincecum_at_Padres_at_Giants_2010-08-15_4.JPG",
+  "https://commons.wikimedia.org/wiki/File:Tim_Lincecum_(8146836247).jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Tim Lincecum was the most fun I've ever had watching a pitcher. The Freak. A hundred and seventy pounds soaking wet, long hair flying, and a delivery that looked like somebody falling down a flight of stairs, and then the ball would just disappear. Back to back Cy Youngs in his first two full seasons. Nobody had ever done that.",
   "The 2010 run is where he became a legend to me. Fourteen strikeouts in his first playoff game ever, a two hit shutout against Atlanta. Beating Halladay in Philadelphia. And Game 5 in Texas, eight innings, one run, to win the first World Series in San Francisco history. I remember where I was. Everybody does.",
   "Then it went sideways, and he handled it like a pro. In 2012 he lost his spot in the rotation and went to the bullpen in October, and in a season on the line game in Cincinnati he came in and threw 4.1 innings to save us. Most aces would've pouted. Timmy just pitched.",
   "And then out of nowhere, two no hitters against the Padres. One in San Diego on 148 pitches, one at home less than a year later. Even when he wasn't the Freak anymore, he could still find it for one night.",
   "Three rings, two Cy Youngs, and a whole generation of kids in the Bay growing their hair out and trying that delivery in the backyard. He was ours. He was weird, and he was perfect, and I miss watching him."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/tim-lincecum-1.jpg",
+   "w": 1000,
+   "h": 664,
+   "alt": "Tim Lincecum delivering a pitch in Game 5 of the 2010 World Series",
+   "caption": "On the mound in Arlington for Game 5 of the 2010 World Series, the night it ended.",
+   "pos": "center 50%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:DSC_1134_(5147009623).jpg",
+   "author": "Billy Bob Bain",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/tim-lincecum-3.jpg",
+   "w": 705,
+   "h": 1000,
+   "alt": "Tim Lincecum celebrating at the 2012 World Series parade",
+   "caption": "Riding in the 2012 World Series parade.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Tim_Lincecum_(8146836247).jpg",
+   "author": "Michael Marconi",
+   "license": "CC BY 2.0"
+  }
  ]
 }

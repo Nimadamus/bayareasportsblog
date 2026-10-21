@@ -63,7 +63,7 @@
    "date": "2010-10-23",
    "headline": "Lincecum in relief, Wilson gets Howard looking",
    "text": "Game 6 of the NLCS at Citizens Bank Park, Giants up three games to two. The Phillies scored twice in the first, the Giants tied it 2 to 2 in the third, and Bochy pulled starter Jonathan Sanchez in the bottom of that inning. Jeremy Affeldt, Madison Bumgarner and Javier Lopez kept the Phillies scoreless from there. Juan Uribe homered off Ryan Madson with two outs in the eighth for a 3 to 2 lead. Bochy brought in Tim Lincecum, his Game 5 starter, and when two singles put the tying run aboard he went to Brian Wilson with one out. Carlos Ruiz lined into a double play. In the ninth Wilson walked two and then caught Ryan Howard looking at strike three. Pennant.",
-   "video_id": ""
+   "video_id": "8j-geYRxz-o"
   },
   {
    "date": "2010-11-01",
@@ -75,7 +75,7 @@
    "date": "2012-10-11",
    "headline": "Three straight in Cincinnati",
    "text": "The Giants dropped the first two games of the NLDS at home, then won Games 3 and 4 in Cincinnati to force Game 5. In the fifth inning Brandon Crawford tripled, a Zack Cozart error scored another, and Buster Posey hit a grand slam off Mat Latos for a 6 to 0 lead. The Reds clawed back to 6 to 4 and had the tying runs aboard in the ninth before Sergio Romo struck out Scott Rolen to finish it. Five relievers followed Matt Cain to the mound that day.",
-   "video_id": ""
+   "video_id": "xIjYlNdfiec"
   },
   {
    "date": "2012-10-22",
@@ -99,7 +99,7 @@
    "date": "2016-10-11",
    "headline": "The ninth inning that ended the streak",
    "text": "Honest about this one. Game 4 of the NLDS at AT&T Park, Giants down two games to one but leading the Cubs 5 to 2 going to the ninth after Matt Moore struck out ten in eight innings. Derek Law, Javier Lopez, Sergio Romo, Will Smith and Hunter Strickland combined to allow four runs, Willson Contreras tied it with a two run single and Javier Baez singled home the go ahead run. Aroldis Chapman struck out the side and the Cubs won 6 to 5. It was the Giants' first postseason series loss under Bochy after 11 straight wins.",
-   "video_id": ""
+   "video_id": "i2OMvTZEHLY"
   },
   {
    "date": "2023-11-01",
@@ -187,6 +187,24 @@
    "id": "qPO7BCb020U",
    "title": "Texas Rangers, Bruce Bochy celebrate in locker room after World Series win | MLB on FOX",
    "channel": "FOX Sports",
+   "oembed_ok": true
+  },
+  {
+   "id": "8j-geYRxz-o",
+   "title": "2010 NLCS Game 6: Wilson's five out save clinches the pennant",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "xIjYlNdfiec",
+   "title": "2012 NLDS Game 5: Posey's grand slam in Cincinnati",
+   "channel": "MLB",
+   "oembed_ok": true
+  },
+  {
+   "id": "i2OMvTZEHLY",
+   "title": "2016 NLDS Game 4: Cubs rally in the ninth",
+   "channel": "MLB",
    "oembed_ok": true
   }
  ],
@@ -702,14 +720,52 @@
   "https://www.mlb.com/news/giants-bruce-bochy-is-a-hall-of-fame-manager-c185194558",
   "https://www.nbcsportsbayarea.com/mlb/buster-posey-enjoys-bruce-bochys-final-game-seeing-ex-giants-teammates/1288439/",
   "https://www.nbcsportsbayarea.com/mlb/brian-sabean-remembers-how-giants-brought-bruce-bochy-to-san-francisco/1288005/",
-  "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_2007.jpg"
+  "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_2007.jpg",
+  "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_and_the_World_Series_Trophy_(5143578431).jpg",
+  "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_(8146837963).jpg",
+  "https://commons.wikimedia.org/wiki/File:Barack_Obama_with_Willie_Mays_%26_Bruce_Bochy_2011-07-25.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Bruce Bochy is the best manager this town has ever had, and it isn't really close. Three World Series in five years. Eleven straight postseason series won. And he did it with teams nobody picked, rosters full of castoffs and misfits, by pulling exactly the right lever at exactly the right moment.",
   "Game 7 in Kansas City in 2014 is the masterpiece. He yanked Tim Hudson in the second inning, went to Affeldt, and then gave the ball to Madison Bumgarner on two days' rest for five innings. Who has the guts to do that in a Game 7? Bochy did, and he was right, like he was right about everything that month.",
   "What I loved most was how calm he was. The big head, the slow walk to the mound, the gravel voice. Nothing rattled him. Down 3 to 1 to the Cardinals in 2012, down 0 and 2 to the Reds the same year, and he just kept making the right calls until the other team blinked.",
   "The 2016 ninth inning against the Cubs ended the streak, and it was brutal. I'll be honest about that one. It happens.",
   "And then he went to Texas and won a fourth ring in his first year with the Rangers, and part of me was proud and part of me was jealous. But he's ours. His number 15 belongs to San Francisco, and every October I still wish he was in that dugout."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/bruce-bochy-1.jpg",
+   "w": 1000,
+   "h": 750,
+   "alt": "Bruce Bochy riding in a convertible at the 2010 World Series parade",
+   "caption": "The 2010 parade down Market Street, the first title since the move west.",
+   "pos": "center 60%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_and_the_World_Series_Trophy_(5143578431).jpg",
+   "author": "btwashburn",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/bruce-bochy-2.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Bruce Bochy holding the World Series trophy at the 2012 parade",
+   "caption": "Holding the trophy up at the 2012 parade.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bruce_Bochy_(8146837963).jpg",
+   "author": "Michael Marconi",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/bruce-bochy-3.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "President Barack Obama with Willie Mays and Bruce Bochy at the White House in 2011",
+   "caption": "With Willie Mays and President Barack Obama at the White House, July 2011.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Barack_Obama_with_Willie_Mays_%26_Bruce_Bochy_2011-07-25.jpg",
+   "author": "Pete Souza",
+   "license": "Public domain"
+  }
  ]
 }

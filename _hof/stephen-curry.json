@@ -1,7 +1,7 @@
 {
  "slug": "stephen-curry",
  "name": "Stephen Curry",
- "nickname": "",
+ "nickname": "Chef Curry",
  "team": "Golden State Warriors",
  "team_key": "gs",
  "position": "Point Guard",
@@ -76,19 +76,19 @@
    "date": "2016-05-09",
    "headline": "I'm back: 17 points in one overtime",
    "text": "Curry missed the first three games of the second round with a sprained right MCL, then came off the bench for Game 4 in Portland. He was rusty for three quarters and finished 5 for 16 from three, but in overtime he scored 17 points, the playoff record for an overtime period, and yelled \"I'm back! I'm back!\" at the crowd. Final: Warriors 132, Blazers 125, with 40 points, 9 rebounds and 8 assists from Curry and a 3 to 1 series lead.",
-   "video_id": ""
+   "video_id": "t42fok4xAnw"
   },
   {
    "date": "2016-05-30",
    "headline": "Game 7 against the Thunder, from down 3 to 1",
    "text": "The Warriors trailed Oklahoma City three games to one in the Western Conference finals and won the next three. In Game 7 at Oracle, Curry scored 36 points with 7 threes and 8 assists, and the Warriors won 96 to 88 to get back to the Finals.",
-   "video_id": ""
+   "video_id": "-USrOy-aCmQ"
   },
   {
    "date": "2016-06-19",
    "headline": "The Game 7 that still hurts",
    "text": "Up 3 to 1 on Cleveland, the 73 win Warriors lost three straight, and Game 7 at Oracle ended 93 to 89. Curry scored 17 on 6 of 19 shooting and 4 of 14 from three, and he missed threes in the final minute with the game still within reach. No team had ever blown a 3 to 1 lead in the Finals before.",
-   "video_id": ""
+   "video_id": "Mxv5h-RZWVs"
   },
   {
    "date": "2021-12-14",
@@ -219,6 +219,24 @@
   {
    "id": "42h5H3_1wCM",
    "title": "Steph Curry LEADS INSANE COMEBACK vs Clippers With 35 PTS | April 15, 2026",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "t42fok4xAnw",
+   "title": "Stephen Curry's I'm Back moment",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "-USrOy-aCmQ",
+   "title": "Thunder vs. Warriors Game 7, 2016 full highlights",
+   "channel": "NBA",
+   "oembed_ok": true
+  },
+  {
+   "id": "Mxv5h-RZWVs",
+   "title": "Warriors vs. Cavaliers Game 7, 2016 NBA Finals full highlights",
    "channel": "NBA",
    "oembed_ok": true
   }
@@ -931,14 +949,52 @@
   "https://www.cbssports.com/nba/gametracker/recap/NBA_20220616_GS@BOS/",
   "https://www.clickondetroit.com/sports/2023/04/30/curry-scores-playoff-career-high-50-as-warriors-down-kings/",
   "https://abc7news.com/post/curry-hits-winning-3-sets-record-as-warriors-beat-thunder/1222187/",
-  "https://commons.wikimedia.org/wiki/File:Stephen_Curry_close_up.jpg"
+  "https://commons.wikimedia.org/wiki/File:Stephen_Curry_close_up.jpg",
+  "https://commons.wikimedia.org/wiki/File:Stephen_Curry_dribbling_2016.jpg",
+  "https://commons.wikimedia.org/wiki/File:Stephen_Curry,_Olympic_Games_2024.jpg",
+  "https://commons.wikimedia.org/wiki/File:Joe_Biden_Steph_Curry_Steve_Kerr_P20230117AS-1347.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "I don't know how to explain Stephen Curry to somebody who didn't live through it here. Before him the Warriors were the team you loved anyway. The team that broke your heart in March. Then this skinny kid with the bad ankles showed up and changed the way the whole sport is played, and he did it in our building.",
   "The shot in Oklahoma City is the one I'll show my grandkids. Tied in overtime, and he pulls up from 37 feet like it's a layup. Bang. Twelve threes that night. I was standing up in my living room before it even went in, because by then you just knew. That's the thing about him. You stopped hoping and started expecting.",
   "And he gave us the pain too, and I love him more for it. The 3 to 1 collapse against Cleveland in 2016 still makes me a little sick. But then you get 2022, two years after the worst record in the league, 43 points on a bad foot in Boston to save the Finals, and the unanimous Finals MVP. Fifty in a Game 7 in Sacramento a year later. Who does that?",
   "Even this past April, at 38, coming back from a knee injury, he hit a 29 foot step back with 50 seconds left to beat the Clippers in the play in. Thirty five points. The guy just refuses to get old.",
   "Four rings, two MVPs, the career threes record and a single season record nobody's going to touch. But what I'll remember is how he made it fun. He smiled. He shimmied. He turned his back on threes before they went in. He made being a Warriors fan the best thing in the world for ten years."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/stephen-curry-1.jpg",
+   "w": 554,
+   "h": 1000,
+   "alt": "Stephen Curry dribbling up the floor for the Warriors in 2016",
+   "caption": "Bringing it up in the unanimous MVP season, February 2016.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_dribbling_2016.jpg",
+   "author": "Keith Allison",
+   "license": "CC BY-SA 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/stephen-curry-2.jpg",
+   "w": 807,
+   "h": 1000,
+   "alt": "Stephen Curry in his Team USA uniform at the 2024 Paris Olympics",
+   "caption": "Team USA, Paris 2024.",
+   "pos": "center 20%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Stephen_Curry,_Olympic_Games_2024.jpg",
+   "author": "Clément Bardot",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/stephen-curry-3.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Stephen Curry and Steve Kerr with President Joe Biden in the Oval Office",
+   "caption": "With Steve Kerr and President Joe Biden at the White House, January 2023, celebrating the 2022 title.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Biden_Steph_Curry_Steve_Kerr_P20230117AS-1347.jpg",
+   "author": "The White House",
+   "license": "Public domain"
+  }
  ]
 }

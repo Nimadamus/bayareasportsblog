@@ -75,7 +75,7 @@
    "date": "1982-01-24",
    "headline": "The goal line stand in Super Bowl XVI",
    "text": "Third quarter in Pontiac, Niners up 20 to 7, and the Bengals had a first down at the 3. Pete Johnson got to the 1. The next run lost a yard. Dan Bunz stopped Charles Alexander short on a swing pass. On fourth down Cincinnati went to Johnson one more time, and Lott, Bunz and Jack Reynolds stopped him for no gain. The Niners held on, 26 to 21, for the first title in franchise history.",
-   "video_id": ""
+   "video_id": "fnmyM5WZGJE"
   },
   {
    "date": "1985-12-22",
@@ -87,7 +87,7 @@
    "date": "1989-01-22",
    "headline": "Putting out Ickey Woods",
    "text": "Super Bowl XXIII in Miami. Ickey Woods was running hard on the Niners early, and Lott told the sideline he was going to put his fire out. Then he hit him. Secondary coach Ray Rhodes said that hit knocked the spark right out of Woods, who finished with 79 yards on 20 carries. Montana found John Taylor with 34 seconds left and the Niners won 20 to 16.",
-   "video_id": ""
+   "video_id": "iNf_q2nNnNs"
   },
   {
    "date": "1990-01-06",
@@ -105,7 +105,7 @@
    "date": "1991-01-20",
    "headline": "The last one, and it hurt",
    "text": "NFC Championship Game at Candlestick, with a third straight Super Bowl on the table. Lott started at free safety. The Niners led 13 to 9 going into the fourth quarter, then Matt Bahr kicked two more field goals, the last a 42 yarder, and the Giants won 15 to 13. It was Lott's last game as a Niner. That spring the team left him unprotected and he signed with the Raiders.",
-   "video_id": ""
+   "video_id": "WZtlCtDsrdU"
   }
  ],
  "quotes": [
@@ -194,6 +194,24 @@
    "id": "ElE--amAcg4",
    "title": "Heart of a Hall of Famer powered by Extreme Networks ft. Ronnie Lott | Pro Football Hall of Fame",
    "channel": "Pro Football Hall of Fame",
+   "oembed_ok": true
+  },
+  {
+   "id": "WZtlCtDsrdU",
+   "title": "1990 NFC Championship: Giants vs. 49ers highlights",
+   "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "fnmyM5WZGJE",
+   "title": "49ers vs. Bengals, Super Bowl XVI",
+   "channel": "NFL Throwback",
+   "oembed_ok": true
+  },
+  {
+   "id": "iNf_q2nNnNs",
+   "title": "Bengals vs. 49ers, Super Bowl XXIII",
+   "channel": "NFL Throwback",
    "oembed_ok": true
   }
  ],
@@ -566,14 +584,28 @@
   "https://cfbhall.com/inductees/ronnie-lott-2002",
   "https://lottimpacttrophy.org/",
   "https://commons.wikimedia.org/wiki/File:Ronnie_lott_big_portrait.jpg",
-  "https://commons.wikimedia.org/wiki/File:Ronnie_Lott_along_with_a_HUGE_fan!.jpg"
+  "https://commons.wikimedia.org/wiki/File:Ronnie_Lott_along_with_a_HUGE_fan!.jpg",
+  "https://commons.wikimedia.org/wiki/File:Gridiron_Glory_2013_-_Ronnie_Lott_Pro_Bowl_Uniform.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Ronnie Lott is the reason I still judge every defensive back by how they hit. Not how they cover, not how many picks they get. How they hit. Because when I was a kid watching 42, every collision sounded like a car accident, and the other team's receivers started catching the ball like it was on fire.",
   "The pinkie story is the one everybody knows, and it's true. His finger got crushed tackling Timmy Newsome against Dallas, he played the wild card game anyway, and that offseason he chose to have the tip cut off instead of missing time for surgery. I've told that story to people from other cities and watched their faces change. That's just who he was.",
   "But my favorite Lott moment is Super Bowl XXIII. Ickey Woods was doing his shuffle and running all over us early, and Lott told the sideline he was going to put his fire out. Then he went and did it. One hit and Woods was never the same that night. You can win a Super Bowl with a lot of things. Sometimes it's just one guy deciding enough is enough.",
   "He was on all four of the 80s title teams. He picked off two passes in his very first playoff game, took one 58 yards to the house against Minnesota in January 1990, and stood up on the goal line in Pontiac in the Super Bowl XVI stand. He was everywhere for a decade.",
   "And then the team let him walk to the Raiders after the 1990 season, and I've never quite gotten over that either. Some guys are great players. Ronnie Lott was a feeling. You knew it the second he took the field."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/ronnie-lott-1.jpg",
+   "w": 763,
+   "h": 1000,
+   "alt": "Ronnie Lott's game worn Pro Bowl uniform with number 42",
+   "caption": "His game worn Pro Bowl uniform, from a Pro Football Hall of Fame traveling exhibit.",
+   "pos": "center 20%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Gridiron_Glory_2013_-_Ronnie_Lott_Pro_Bowl_Uniform.jpg",
+   "author": "Amin Eshaiker",
+   "license": "CC BY-SA 4.0"
+  }
  ]
 }

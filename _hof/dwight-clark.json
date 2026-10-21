@@ -75,7 +75,7 @@
    "date": "1982-01-24",
    "headline": "Falling on the onside kick in Super Bowl XVI",
    "text": "The 49ers beat Cincinnati 26 to 21 at the Pontiac Silverdome for their first championship. Clark caught 4 passes for 45 yards, including a 17 yarder on a second quarter scoring drive, and when the Bengals tried an onside kick late, Clark recovered it so the 49ers could run out the clock.",
-   "video_id": ""
+   "video_id": "fnmyM5WZGJE"
   },
   {
    "date": "1982 season",
@@ -87,7 +87,7 @@
    "date": "1985-01-20",
    "headline": "Ring number two at Stanford Stadium",
    "text": "The 15 and 1 49ers routed Dan Marino and Miami 38 to 16 in Super Bowl XIX, a home game on the Peninsula. Clark caught 6 passes for 77 yards and had his second championship.",
-   "video_id": ""
+   "video_id": "rgrjHFSzsL0"
   },
   {
    "date": "1988-12-11",
@@ -105,7 +105,7 @@
    "date": "2018-10-21",
    "headline": "The Catch, in bronze",
    "text": "Four months after Clark died, the 49ers unveiled a statue of The Catch outside Levi's Stadium, Montana throwing and Clark reaching for the ball, so the play is the first thing fans see on the way in.",
-   "video_id": ""
+   "video_id": "cQFjFkxG_So"
   }
  ],
  "quotes": [
@@ -187,6 +187,24 @@
    "id": "zsrdhEsb74s",
    "title": "Joe Montana remembers Dwight Clark at his memorial service",
    "channel": "KPIX CBS News Bay Area",
+   "oembed_ok": true
+  },
+  {
+   "id": "fnmyM5WZGJE",
+   "title": "49ers vs. Bengals, Super Bowl XVI",
+   "channel": "NFL Throwback",
+   "oembed_ok": true
+  },
+  {
+   "id": "rgrjHFSzsL0",
+   "title": "49ers vs. Dolphins, Super Bowl XIX",
+   "channel": "San Francisco 49ers",
+   "oembed_ok": true
+  },
+  {
+   "id": "cQFjFkxG_So",
+   "title": "49ers unveil statue honoring Dwight Clark and The Catch",
+   "channel": "NBC Sports Bay Area",
    "oembed_ok": true
   }
  ],
@@ -345,7 +363,8 @@
   "https://www.espn.com/blog/san-francisco-49ers/post/_/id/28199/while-fighting-als-dwight-clark-just-wanted-to-see-his-teammates-once-more",
   "https://abc7news.com/dwight-clark-dies-dead-49ers-als/3561108/",
   "https://www.foxsports.com/stories/nfl/dwight-clark-says-he-has-als-suspects-football-a-cause",
-  "https://commons.wikimedia.org/wiki/File:Dwight_Clark_last_game_with_the_49ers.jpeg"
+  "https://commons.wikimedia.org/wiki/File:Dwight_Clark_last_game_with_the_49ers.jpeg",
+  "https://commons.wikimedia.org/wiki/File:Dwight_clark_number_retirement_ceremony.jpg"
  ],
- "verified_on": "2026-10-20"
+ "verified_on": "2026-10-21"
 }

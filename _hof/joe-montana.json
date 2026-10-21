@@ -66,7 +66,7 @@
    "date": "1980-12-07",
    "headline": "Down 35 to 7, and nobody quit",
    "text": "The winless Saints came into Candlestick and led 35 to 7 at halftime. New Orleans still led 35 to 21 at the start of the fourth quarter. Montana brought the 49ers all the way back to tie it in regulation, and Ray Wersching won it with a field goal in overtime, 38 to 35. It was the first fourth quarter comeback of his NFL career, in his first year as the starter.",
-   "video_id": ""
+   "video_id": "VVjWn8W94GQ"
   },
   {
    "date": "1982-01-10",
@@ -102,7 +102,7 @@
    "date": "1991-01-20",
    "headline": "The hit that ended an era",
    "text": "NFC Championship Game at Candlestick, 49ers chasing a third straight title. Montana's 61 yard touchdown to John Taylor in the third quarter put them up 13 to 6, and it was 13 to 9 in the fourth when he rolled right on third down, stepped away from Lawrence Taylor and got hit from the blind side by Leonard Marshall. Broken hand, cracked ribs, bruised sternum. He was done for the day. Roger Craig fumbled with 2:36 left, Matt Bahr kicked his fifth field goal on the final play, and the Giants won 15 to 13. Montana never started another playoff game for the 49ers.",
-   "video_id": ""
+   "video_id": "WZtlCtDsrdU"
   }
  ],
  "quotes": [
@@ -183,6 +183,18 @@
   {
    "id": "xcGnHJDrHe8",
    "title": "Joe \"Cool\" Montana Career Highlights | NFL Legends",
+   "channel": "NFL Throwback",
+   "oembed_ok": true
+  },
+  {
+   "id": "WZtlCtDsrdU",
+   "title": "1990 NFC Championship: Giants vs. 49ers highlights",
+   "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "VVjWn8W94GQ",
+   "title": "Saints vs. 49ers 1980, the game that started the Montana legend",
    "channel": "NFL Throwback",
    "oembed_ok": true
   }
@@ -885,14 +897,52 @@
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=7DZWH7LhaBA&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=iNf_q2nNnNs&format=json",
   "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=WlKvy4sxjdo&format=json",
-  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=xcGnHJDrHe8&format=json"
+  "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=xcGnHJDrHe8&format=json",
+  "https://commons.wikimedia.org/wiki/File:49ers_at_the_White_House_1989.jpg",
+  "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Steve_Young_Super_Bowl_50.jpg",
+  "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Jerry_Rice_Super_Bowl_50.jpg"
  ],
- "verified_on": "2026-10-03",
+ "verified_on": "2026-10-21",
  "our_take": [
   "Every family in the Bay has a Joe Montana story, and mine's the same as everybody's. Two minutes left, the Niners down, and the whole room calm. Not because we were brave. Because he was calm, and it was contagious. I've never felt that way about any other athlete, before or since. You just knew.",
   "The Catch gets the statue, and it should, but the one I think about is Super Bowl XXIII in Miami. Down 16 to 13, 3:10 left, backed up at our own 8 after a penalty, and the guy walks into the huddle and points out John Candy in the stands. Ninety two yards later he hits John Taylor with 34 seconds left. Who does that? Who looks at the crowd in that moment?",
   "And the numbers in the big games are almost silly. Four Super Bowls, four wins, three MVPs, 122 passes and not one interception. Five touchdowns against Denver in a 55 to 10 game. He made the biggest stage in sports look like a Tuesday practice.",
   "The part that still hurts is how it ended. The NFC title game in January 1991, chasing a third straight ring, and Leonard Marshall hits him from the blind side. Broken hand, the season gone, and before long he was in a Chiefs uniform. I know Steve Young was great. I loved Steve Young. But seeing 16 in red and yellow made me feel like somebody had moved my house without asking.",
   "He's the standard. Every quarterback this franchise has had since gets measured against him, fair or not, and every one of them comes up a little short. No knock on them. Joe was Joe."
+ ],
+ "gallery": [
+  {
+   "file": "assets/img/players/hof/gallery/joe-montana-1.jpg",
+   "w": 775,
+   "h": 456,
+   "alt": "President George H. W. Bush taking a handoff from Joe Montana at the White House in 1989",
+   "caption": "Handing off to President George H. W. Bush at the White House after Super Bowl XXIII, February 1989.",
+   "pos": "center 30%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:49ers_at_the_White_House_1989.jpg",
+   "author": "AP",
+   "license": "Public domain"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/joe-montana-2.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Joe Montana and Steve Young together at Super Bowl 50",
+   "caption": "With Steve Young at Super Bowl 50 in Santa Clara, February 2016.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Steve_Young_Super_Bowl_50.jpg",
+   "author": "Arnie Papp",
+   "license": "CC BY 2.0"
+  },
+  {
+   "file": "assets/img/players/hof/gallery/joe-montana-3.jpg",
+   "w": 1000,
+   "h": 666,
+   "alt": "Joe Montana and Jerry Rice together at Super Bowl 50",
+   "caption": "With Jerry Rice at Super Bowl 50, February 2016.",
+   "pos": "center 25%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Joe_Montana,_Jerry_Rice_Super_Bowl_50.jpg",
+   "author": "Arnie Papp",
+   "license": "CC BY 2.0"
+  }
  ]
 }

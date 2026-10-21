@@ -77,6 +77,13 @@ iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
 .vids{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .vids figure{margin:0}
 .vids figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.gal figure{margin:0}
+.gal img{display:block;width:100%;height:360px;object-fit:cover;border-radius:4px;background:var(--paper)}
+.gal figcaption{font-size:13px;color:var(--muted);margin-top:8px;line-height:1.45}
+.gal figcaption a{color:inherit;text-decoration:underline}
+.gal.one{grid-template-columns:minmax(0,680px)}
+.gal.one img{height:auto}
 .quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .hq{margin:0;background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:24px 24px 20px}
 .hq p{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.45;color:var(--text);margin:0}
@@ -112,6 +119,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
  .hof-grid{grid-template-columns:1fr;gap:26px}
  .hof-photo{max-width:440px}
  .quotes,.vids{grid-template-columns:1fr}
+ .gal img{height:auto;max-height:520px}
  .honors{columns:1}
  .hof-two{grid-template-columns:1fr;gap:30px}
  .hof-aside{position:static}
@@ -136,7 +144,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
 
 <div class="desk-top" role="region" aria-label="Today and quick links">
   <div class="wrap">
-    <div><b class="dt-live" data-dt="live">Tuesday, October 20, 2026</b> &middot; San Francisco</div><script>(function(){var e=document.querySelectorAll('[data-dt="live"]'),t=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"});for(var i=0;i<e.length;i++)e[i].textContent=t})()</script>
+    <div><b class="dt-live" data-dt="live">Wednesday, October 21, 2026</b> &middot; San Francisco</div><script>(function(){var e=document.querySelectorAll('[data-dt="live"]'),t=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"});for(var i=0;i<e.length;i++)e[i].textContent=t})()</script>
     <div class="dt-r" role="navigation" aria-label="Quick links">
       <a href="blog.html">Latest</a>
       <a href="columns.html">Columns</a>
