@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 21 Oct 2026 01:49:23 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 06:32:22 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Oh and Two, and This Is What the Warriors Front Office Bought</title>
+    <link>https://bayareasportsblog.com/articles/warriors-oh-and-two-front-office-wasting-curry-final-years.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-oh-and-two-front-office-wasting-curry-final-years.html</guid>
+    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Three star chases, zero trades, and a roster pinned under the second apron. The oh and two start is the bill for a summer that wasted another Curry year.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-oh-and-two-front-office-wasting-curry-final-years.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Six and Oh, Barely. The &#39;72 Dolphins Should Be Sweating.</title>
     <link>https://bayareasportsblog.com/articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>De&#39;Zhaun Stribling had ankle surgery and is out close to 10 weeks after the tent sent him back in. Piñeiro is sick, Green&#39;s shoulder is limited, and I&#39;m fed up.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Jack Perkins Threw Six and Two Thirds Scoreless and They Lost Anyway</title>
-    <link>https://bayareasportsblog.com/articles/athletics-perkins-wasted-rays-2-1-injured-core.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-perkins-wasted-rays-2-1-injured-core.html</guid>
-    <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s</category>
-    <description>Rays 2, A&#39;s 1 on a walk off Tuesday night. Perkins gave up four hits and struck out eight, the lineup managed four hits of its own, and Kurtz, Rooker and Jacob Wilson are all on the 60 day.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-perkins-wasted-rays-2-1-injured-core.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
