@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 24 Oct 2026 06:32:22 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 13:34:17 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>0-3, and Yaxel Lendeborg Is Why I&#39;m Still Smiling</title>
+    <link>https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rough-start-reason-to-smile.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rough-start-reason-to-smile.html</guid>
+    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>The Warriors are 0-3 after the Lakers, Grizzlies and Suns. Yaxel Lendeborg is at 18.7 points, 8.3 rebounds and 4.3 assists, and the young guys are why I&#39;m still smiling.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-yaxel-lendeborg-rough-start-reason-to-smile.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Oh and Two, and This Is What the Warriors Front Office Bought</title>
     <link>https://bayareasportsblog.com/articles/warriors-oh-and-two-front-office-wasting-curry-final-years.html</link>
@@ -358,15 +367,6 @@
     <category>A&#39;s</category>
     <description>Guardians 5, Athletics 3 at Progressive Field: Zack Gelof hit a three run homer in the first, then Joey Cantillo held the A&#39;s to two hits over six. Fourth straight loss, 61 and 93.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-guardians-5-3-gelof-homer-cantillo-barnett.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>A Month Became Ten Weeks and Surgery. Still Trust the 49ers Training Staff?</title>
-    <link>https://bayareasportsblog.com/articles/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.html</guid>
-    <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>De&#39;Zhaun Stribling had ankle surgery and is out close to 10 weeks after the tent sent him back in. Piñeiro is sick, Green&#39;s shoulder is limited, and I&#39;m fed up.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-stribling-ankle-surgery-ten-weeks-pineiro-sick-green-shoulder.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
