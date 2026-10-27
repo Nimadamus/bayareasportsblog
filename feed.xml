@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 25 Oct 2026 13:34:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 23:37:02 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>He&#39;s Home. DeForest Buckner Is a 49er Again, and the Front Just Changed.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-buckner-is-home-what-the-reunion-changes.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-buckner-is-home-what-the-reunion-changes.html</guid>
+    <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers got DeForest Buckner back for a 2027 fourth. Four sacks, a bye week to install him, and the middle of this defensive line finally has a grown man.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-buckner-is-home-what-the-reunion-changes.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>0-3, and Yaxel Lendeborg Is Why I&#39;m Still Smiling</title>
     <link>https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rough-start-reason-to-smile.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>49ers 35, Dolphins 13 at Levi&#39;s. Purdy 20 of 22 for 287, touchdowns on the first five drives, Kittle back, McCaffrey&#39;s 100th. We&#39;re 2-0.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-35-13-purdy-five-straight-touchdowns.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Guardians 5, Athletics 3: Gelof, Then Nothing</title>
-    <link>https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-guardians-5-3-gelof-homer-cantillo-barnett.html</guid>
-    <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s</category>
-    <description>Guardians 5, Athletics 3 at Progressive Field: Zack Gelof hit a three run homer in the first, then Joey Cantillo held the A&#39;s to two hits over six. Fourth straight loss, 61 and 93.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-guardians-5-3-gelof-homer-cantillo-barnett.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
