@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 27 Oct 2026 23:37:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 00:32:58 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>They Cut Jack Jones. DeForest Buckner Needed the Spot.</title>
+    <link>https://bayareasportsblog.com/articles/49ers-jack-jones-released-room-for-buckner.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-jack-jones-released-room-for-buckner.html</guid>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers released Jack Jones on Wednesday so DeForest Buckner has a roster spot. Seven games, a benching in Atlanta, and a corner room that just got thinner.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-jack-jones-released-room-for-buckner.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>He&#39;s Home. DeForest Buckner Is a 49er Again, and the Front Just Changed.</title>
     <link>https://bayareasportsblog.com/articles/49ers-buckner-is-home-what-the-reunion-changes.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The 49ers are plus 42 through two games, the best point differential in the NFL. Pearsall, Tonges, Collins, Stribling and Robinson are out. Arizona is Sunday.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-plus-42-best-point-differential-injury-list.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers 35, Dolphins 13: Five Straight Scores and I Did Not Sit Down</title>
-    <link>https://bayareasportsblog.com/articles/49ers-dolphins-35-13-purdy-five-straight-touchdowns.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-dolphins-35-13-purdy-five-straight-touchdowns.html</guid>
-    <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers 35, Dolphins 13 at Levi&#39;s. Purdy 20 of 22 for 287, touchdowns on the first five drives, Kittle back, McCaffrey&#39;s 100th. We&#39;re 2-0.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-dolphins-35-13-purdy-five-straight-touchdowns.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
