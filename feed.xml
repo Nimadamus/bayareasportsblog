@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 30 Oct 2026 05:26:57 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 05:55:29 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Steph Curry Is 38 and He Just Put Luka on the Floor</title>
+    <link>https://bayareasportsblog.com/articles/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.html</guid>
+    <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Down 25 to the Lakers, Steph Curry dropped Luka Doncic with a crossover, hit the three, and scored 31 in a 112 to 95 comeback. At 38 he&#39;s averaging 29.2 a night.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Garrett Wilson to the 49ers? It&#39;s Just the Internet Talking.</title>
     <link>https://bayareasportsblog.com/articles/49ers-garrett-wilson-trade-rumors-seahawks-quenton-nelson.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Bosa, Collins, Okuayinonu, West, Thompson, Height, Mykel Williams. Seven 49ers defensive linemen hurt by week 3. When does this stop being bad luck?</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-defensive-line-injuries-deja-vu.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Nick Bosa Injury: A Pulled Calf in Practice, and I&#39;m Out of Patience</title>
-    <link>https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/nick-bosa-injury-calf-49ers-future.html</guid>
-    <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Nick Bosa pulled his calf in Thursday&#39;s practice and will miss a few weeks, starting with Arizona. Two ACLs, now this. His 49ers future is a real question.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/nick-bosa-injury-calf-49ers-future.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

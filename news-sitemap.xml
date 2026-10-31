@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-buckner-is-home-what-the-reunion-changes.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-27</news:publication_date>
-      <news:title>He's Home. DeForest Buckner Is a 49er Again, and the Front Just Changed.</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-garrett-wilson-trade-rumors-seahawks-quenton-nelson.html</loc>
     <news:news>
       <news:publication>
@@ -32,6 +21,17 @@
       </news:publication>
       <news:publication_date>2026-10-28</news:publication_date>
       <news:title>They Cut Jack Jones. DeForest Buckner Needed the Spot.</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-30</news:publication_date>
+      <news:title>Steph Curry Is 38 and He Just Put Luka on the Floor</news:title>
     </news:news>
   </url>
   <url>
