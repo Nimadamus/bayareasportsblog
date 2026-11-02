@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 02 Nov 2026 05:00:46 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 05:09:30 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Jauan Jennings Said No to Coming Home. That One Stings.</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>The 49ers and Vikings had a Jauan Jennings trade lined up. All he had to do was tell Shanahan and Lynch he wanted back. He said he&#39;d rather stay in Minnesota.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-jauan-jennings-rejects-trade-stays-vikings.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Yaxel Lendeborg Is the Truth, and Steph Knows It</title>
+    <link>https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-is-the-truth-37-clippers-steph-knows.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-is-the-truth-37-clippers-steph-knows.html</guid>
+    <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Yaxel Lendeborg dropped 37 on the Clippers with Steph and Draymond sitting. Four straight wins, and Curry at 38 finally has a kid who can carry a night.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-yaxel-lendeborg-is-the-truth-37-clippers-steph-knows.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Steph Curry Is 38 and He Just Put Luka on the Floor</title>
@@ -358,15 +367,6 @@
     <category>Giants</category>
     <description>An A plus farm system, five top 100 prospects, Josuar Gonzalez hitting .351 at 18 and Bryce Eldridge already here. Why 2027 finally feels different.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-2027-farm-system-bright-future.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Mike Krukow Is Retiring, and I Don&#39;t Know How to Say Goodbye</title>
-    <link>https://bayareasportsblog.com/articles/mike-krukow-retiring-giants-37-years-goodbye.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/mike-krukow-retiring-giants-37-years-goodbye.html</guid>
-    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>Thirty seven seasons in the Giants booth, three parades, a disease he never let beat him. Sunday is Kruk&#39;s last game, and we&#39;re losing a good one.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/mike-krukow-retiring-giants-37-years-goodbye.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
