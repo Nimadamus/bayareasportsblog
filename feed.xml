@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 02 Nov 2026 05:09:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 22:39:10 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Mac Jones Trade Rumors: Hang Up the Phone, John</title>
+    <link>https://bayareasportsblog.com/articles/49ers-mac-jones-trade-rumors-keep-him.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-mac-jones-trade-rumors-keep-him.html</guid>
+    <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Mac Jones trade rumors are back with the deadline on November 10. The 49ers are 6 and 1, Purdy is healthy, and the best backup in football should stay put.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-mac-jones-trade-rumors-keep-him.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Jauan Jennings Said No to Coming Home. That One Stings.</title>
     <link>https://bayareasportsblog.com/articles/49ers-jauan-jennings-rejects-trade-stays-vikings.html</link>
@@ -358,15 +367,6 @@
     <category>Cal</category>
     <description>Our only touchdown came from the defense. Sagapolutele threw for 119, Clemson ran for 255, and a punt return broke a 10 to 10 tie at Memorial Stadium.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-clemson-24-10-no-offensive-touchdown.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The Giants Were 65 and 95, and I&#39;ve Never Been More Excited About Next Year</title>
-    <link>https://bayareasportsblog.com/articles/giants-2027-farm-system-bright-future.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-2027-farm-system-bright-future.html</guid>
-    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Giants</category>
-    <description>An A plus farm system, five top 100 prospects, Josuar Gonzalez hitting .351 at 18 and Bryce Eldridge already here. Why 2027 finally feels different.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-2027-farm-system-bright-future.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
