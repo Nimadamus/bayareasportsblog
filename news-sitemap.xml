@@ -2,25 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-garrett-wilson-trade-rumors-seahawks-quenton-nelson.html</loc>
+    <loc>https://bayareasportsblog.com/articles/49ers-jauan-jennings-rejects-trade-stays-vikings.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-29</news:publication_date>
-      <news:title>Garrett Wilson to the 49ers? It's Just the Internet Talking.</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-jack-jones-released-room-for-buckner.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-28</news:publication_date>
-      <news:title>They Cut Jack Jones. DeForest Buckner Needed the Spot.</news:title>
+      <news:publication_date>2026-11-01</news:publication_date>
+      <news:title>Jauan Jennings Said No to Coming Home. That One Stings.</news:title>
     </news:news>
   </url>
   <url>
@@ -32,17 +21,6 @@
       </news:publication>
       <news:publication_date>2026-10-30</news:publication_date>
       <news:title>Steph Curry Is 38 and He Just Put Luka on the Floor</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rookie-of-the-year-curry-partner.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-29</news:publication_date>
-      <news:title>Yaxel Lendeborg Is My Rookie of the Year, and Ten Teams Should Be Sick</news:title>
     </news:news>
   </url>
 </urlset>
