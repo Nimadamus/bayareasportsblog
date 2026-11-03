@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 02 Nov 2026 22:39:10 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 10:59:37 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Five Straight, and I Owe the Warriors an Apology</title>
+    <link>https://bayareasportsblog.com/articles/warriors-five-straight-wins-suns-comeback-draymond-ejected.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-five-straight-wins-suns-comeback-draymond-ejected.html</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Down 17 to Phoenix with Draymond ejected, the Warriors won 116 to 113 for five straight. Ten days ago they were 0 and 3 and I was done with them.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-five-straight-wins-suns-comeback-draymond-ejected.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Mac Jones Trade Rumors: Hang Up the Phone, John</title>
     <link>https://bayareasportsblog.com/articles/49ers-mac-jones-trade-rumors-keep-him.html</link>
@@ -358,15 +367,6 @@
     <category>A&#39;s Column</category>
     <description>Kurtz, Wilson, Rooker and Soderstrom ended 2026 on the injured list, De Vries had shoulder surgery, and the best young A&#39;s core in years is headed to Vegas.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-2027-outlook-kurtz-de-vries-injuries.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Clemson 24, Cal 10, and Our Offense Never Found the End Zone</title>
-    <link>https://bayareasportsblog.com/articles/cal-clemson-24-10-no-offensive-touchdown.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/cal-clemson-24-10-no-offensive-touchdown.html</guid>
-    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Cal</category>
-    <description>Our only touchdown came from the defense. Sagapolutele threw for 119, Clemson ran for 255, and a punt return broke a 10 to 10 tie at Memorial Stadium.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/cal-clemson-24-10-no-offensive-touchdown.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
