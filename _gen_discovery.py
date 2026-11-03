@@ -263,15 +263,43 @@ def replace_grid(path, arts, nth=0, heading_attr='', fallback=None):
 # ---------------------------------------------------------------- index.html
 
 def lead_article(arts):
-    configured = None
-    if os.path.exists(CONFIG):
-        configured = json.load(open(CONFIG, encoding='utf-8')).get('lead')
-    if configured:
+    """The lead is the NEWEST article. An editorial pin in _discovery.json only holds
+    while it has a future "lead_until" date (YYYY-MM-DD) and is no older than the
+    newest article by more than 2 days, so a stale or out-of-season story can never
+    sit on top of the homepage (Nov 2026: a July Giants column led in November)."""
+    import datetime
+    cfg = json.load(open(CONFIG, encoding='utf-8')) if os.path.exists(CONFIG) else {}
+    pin, until = cfg.get('lead'), cfg.get('lead_until')
+    today = datetime.date.today().isoformat()
+    if pin and until and until >= today:
         for a in arts:
-            if a['slug'] == configured:
+            if a['slug'] == pin and a['date'] >= (datetime.date.fromisoformat(arts[0]['date'][:10])
+                                                 - datetime.timedelta(days=2)).isoformat():
                 return a, True
-        print('  lead %s is gone, falling back to the newest article' % configured)
+        print('  lead pin %s ignored (gone or stale), using the newest article' % pin)
     return arts[0], False
+
+
+def lead_block(art):
+    """Fresh lead markup for an article, so nothing from the previous lead survives."""
+    s = art['card']
+    pill_cls, label = SECTIONS.get(art['section'], (None, '', art['section']))[1:]
+    base = 'assets/img/cards/%s' % s
+    sizes = '(max-width: 640px) 92vw, (max-width: 1024px) 96vw, 56vw'
+    webp = ', '.join('%s-%dw.webp %dw' % (base, w, w) for w in (400, 600, 800)) + ', %s.webp 1200w' % base
+    jpg = ', '.join('%s-%dw.jpg %dw' % (base, w, w) for w in (400, 600, 800)) + ', %s.jpg 1200w' % base
+    alt = art['alt'] or html.unescape(art['title'])
+    return ('<a class="lead-main" href="{f}">\r\n'
+            '        <div class="lm-img">\r\n'
+            '          <picture><source type="image/webp" srcset="{webp}" sizes="{sz}"><img src="{b}.jpg" alt="{alt}" width="1200" height="675" decoding="async" fetchpriority="high" srcset="{jpg}" sizes="{sz}"></picture>\r\n'
+            '        </div>\r\n'
+            '        <div class="lm-body">\r\n'
+            '          <div class="lm-meta"><span class="pill {pc}">{lb}</span></div>\r\n'
+            '          <h2>{t}</h2>\r\n'
+            '          <p>{d}</p>\r\n'
+            '        </div>\r\n'
+            '      </a>').format(f=art['file'], webp=webp, sz=sizes, b=base, alt=alt, jpg=jpg,
+                                 pc=pill_cls, lb=label, t=art['title'], d=art['desc'])
 
 
 def do_index(arts, fallback=None):
@@ -281,14 +309,8 @@ def do_index(arts, fallback=None):
     m = re.search(r'<a class="lead-main"[^>]*>.*?</a>', text, re.S)
     if not m:
         sys.exit('no .lead-main on index.html')
-    raw = m.group(0)
-    if not kept:
-        s = lead['card']
-        raw = re.sub(r'href="articles/[^"]+"', 'href="%s"' % lead['file'], raw, count=1)
-        raw = re.sub(r'assets/img/cards/[a-z0-9\-]+((?:-\d+w)?\.(?:jpg|webp))',
-                     lambda mm: 'assets/img/cards/%s%s' % (s, mm.group(1)), raw)
-        raw = re.sub(r'<h2>.*?</h2>', '<h2>%s</h2>' % lead['title'], raw, count=1, flags=re.S)
-        raw = re.sub(r'<p>.*?</p>', '<p>%s</p>' % lead['desc'], raw, count=1, flags=re.S)
+    raw = lead_block(lead)
+    if raw != m.group(0):
         text = text[:m.start()] + raw + text[m.end():]
         write('index.html', text)
 

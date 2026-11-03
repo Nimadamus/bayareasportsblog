@@ -7,6 +7,9 @@ Default checks index.html. --site checks all root pages. Prints a pass/fail tabl
 import os, re, sys, glob, hashlib
 from PIL import Image
 import imagehash
+sys.path.insert(0, os.path.expanduser('~/tools/image_gate'))
+import image_gate as UG   # 2026-11-03: real photo, subject centred at every listing crop
+_ug={}
 
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MINW,MINH=600,338          # min rendered source; cards are 1200x675
@@ -55,6 +58,8 @@ for pg,href,src,alt in cards:
         r=w/float(h)
         if abs(r-RATIO)>RTOL: row['ok']=False; row['why'].append('ratio %.2f'%r)
         hashes[src]=imagehash.phash(im)
+        if p not in _ug: _ug[p]=UG.check(p,'card')
+        if not _ug[p]['ok']: row['ok']=False; row['why']+=_ug[p]['why']
     except Exception as e:
         row['ok']=False; row['why'].append('imgerr')
     info.append(row)
