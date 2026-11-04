@@ -1,0 +1,555 @@
+{
+ "slug": "ken-stabler",
+ "name": "Ken Stabler",
+ "nickname": "Snake",
+ "display_name": "Ken “Snake” Stabler",
+ "team": "Oakland Raiders",
+ "team_key": "lv",
+ "position": "Quarterback",
+ "bay_years": "1970 to 1979",
+ "numbers": "12",
+ "inducted": "2026-11-03",
+ "sort": 39,
+ "dek": "The left handed Alabama kid who called his own plays, lived like a rock star, and won the Raiders their first Super Bowl.",
+ "meta_description": "Ken Stabler, Raiders quarterback 1970 to 1979: 1974 NFL MVP, Super Bowl XI champion, Sea of Hands, Ghost to the Post. Stats, moments, videos.",
+ "tiles": [
+  {
+   "value": "19,078",
+   "label": "Passing yards as a Raider, a team record when he left"
+  },
+  {
+   "value": "150",
+   "label": "Touchdown passes as a Raider"
+  },
+  {
+   "value": "1974",
+   "label": "NFL MVP season, a league best 26 touchdown passes"
+  },
+  {
+   "value": "XI",
+   "label": "Super Bowl champion, the Raiders' first title"
+  }
+ ],
+ "photo": {
+  "file": "assets/img/players/hof/ken-stabler.jpg",
+  "alt": "Ken Stabler in a black polo shirt at the 2007 Alabama Broadcasters Association convention",
+  "caption": "Stabler in 2007, back home in Alabama and calling Crimson Tide games on the radio.",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Ken_Stabler_2007_Alabama_Broadcasters_Convention.jpg",
+  "author": "NOAA",
+  "license": "Public domain",
+  "in_uniform": false,
+  "smiling": true
+ },
+ "bio": [
+  "Ask anybody who sat in the Coliseum in the 1970s who the coolest man in the building was and you'll get the same answer every time. Not Madden, not Al Davis. Kenny Stabler, number 12, the left hander with the slow walk to the huddle, the guy who'd be down 4 with a minute left and look like he was waiting for a bus.",
+  "He was born on Christmas Day 1945 in Foley, Alabama, and he was the best athlete in town at basically everything. He averaged 29 points a game in basketball, and as a left handed pitcher he got minor league offers from the Houston Astros and the New York Yankees. He also got his nickname at Foley High, when his coach watched him run a long, winding touchdown and started calling him Snake. Foley went 29 and 1 with him at quarterback.",
+  "Bear Bryant brought him to Tuscaloosa. He sat behind Steve Sloan in 1965 while Alabama won a second straight national title, then took over in 1966 and went 11 and 0, finishing with a 34 to 7 win over Nebraska in the Sugar Bowl. Alabama still finished third in the polls. His senior year was rockier. Bryant actually kicked him off the team for cutting class and partying before giving him another chance, and Stabler paid him back in the rain at Legion Field, running 47 yards through the mud to beat Auburn 7 to 3. In Alabama they still call it the Run in the Mud.",
+  "Oakland took him in the second round of the 1968 draft, 52nd overall, and the start was a mess. He had knee surgery, spent 1968 on the reserve list, got sent to the Spokane Shockers of the Continental Football League for two games, and in July 1969 he walked away from the Raiders altogether. By January 1970 he and John Madden had patched it up, and he finally threw his first regular season passes for Oakland that fall.",
+  "For three years he mostly watched Daryle Lamonica. The first time the league really noticed him was a playoff game in Pittsburgh in December 1972, when he came off the bench and ran 30 yards for a touchdown that put Oakland ahead with 1:17 left. That lead lasted until Franco Harris and the Immaculate Reception. In 1973, after Lamonica couldn't get the offense going in the first three games, Stabler took the job, and he didn't give it back for seven years.",
+  "The knee injuries had turned him from a scrambler into a pure pocket passer, and he became a master at it. He had Cliff Branch running past people, Fred Biletnikoff catching everything on the sideline and Dave Casper over the middle, all three of them Hall of Famers, and he called his own plays. In 1974 he threw a league best 26 touchdown passes and was named the NFL's Most Valuable Player and Offensive Player of the Year.",
+  "1976 was the masterpiece. He completed 66.7 percent of his passes, threw 27 touchdowns, led the league with a 103.4 passer rating, and Oakland went 13 and 1. Then on January 9, 1977, at the Rose Bowl in Pasadena, he went 12 for 19 for 180 yards and a touchdown as the Raiders beat Minnesota 32 to 14 in Super Bowl XI. It was the first championship in franchise history. He won the Hickok Belt as the top pro athlete of the year.",
+  "From 1973 through 1977 he took the Raiders to five straight AFC Championship Games, a record for a quarterback that held for almost 40 years until Tom Brady passed it. Along the way he authored a pile of plays so famous they have names: the Sea of Hands against Miami, the Ghost to the Post at Baltimore, and the Holy Roller at San Diego, which was so ridiculous the league changed the fumble rules because of it.",
+  "The off the field stuff was just as famous. He wrote in his autobiography, Snake, that the monotony of training camp would have driven some of them crazy without whiskey and women, and he once said the Raiders were the only pro team that traveled with its own bail bondsman. Madden remembered him walking off after a bad throw muttering low ball thrower, highball drinker. That was the Raiders, and he was the Raiders.",
+  "It ended the way Raider stories usually ended in those years. After two non playoff seasons and the departure of Madden and a lot of the old guard, Davis traded him to Houston in March 1980 for Dan Pastorini. He left as the franchise's career leader in completions (1,486), passing yards (19,078) and touchdown passes (150), with a 69 and 26 record as Oakland's starter. He played two years for the Oilers and parts of three for the Saints before retiring in October 1984.",
+  "He went on to broadcast games for CBS and then for Alabama on the radio. He died of colon cancer on July 8, 2015, at 69, and researchers at Boston University later found Stage 3 CTE in his brain. The Hall of Fame call he waited decades for came the next winter, and he was inducted into the Pro Football Hall of Fame posthumously on August 6, 2016."
+ ],
+ "why_clutch": [
+  "Stabler's whole legend is the last two minutes. He finished his career with 23 comebacks in the fourth quarter or overtime, and he was the fastest quarterback ever to 100 wins as a starter at the time, getting there in 150 games and beating Johnny Unitas' mark of 153.",
+  "The playoffs were where he lived. He threw a touchdown pass in 10 straight postseason games, an NFL record when he retired, and in Oakland he went 7 and 4 as a playoff starter with 19 touchdown passes. He was also the first quarterback to retire averaging at least 200 passing yards a game in the playoffs with 10 or more appearances.",
+  "John Madden, who coached him through 1978, put it simply: if he had one drive to win a game, he'd pick Kenny. And then he'd add that the hotter the game got, the cooler Stabler got. Everybody who watched those Raiders knows exactly what he meant."
+ ],
+ "clutch_moments": [
+  {
+   "date": "1972-12-23",
+   "headline": "Thirty yards to the lead in Pittsburgh",
+   "text": "With Lamonica struggling in a divisional playoff at Three Rivers Stadium, Madden sent Stabler in during the third quarter. Late in the fourth, facing a Steelers blitz, he found daylight on the left side and scrambled 30 yards for a touchdown with 1:17 left to put Oakland ahead 7 to 6. Pittsburgh needed a miracle after that, and got one in the Immaculate Reception. As Madden said years later, if Kenny doesn't make that play, there's no famous play to answer it.",
+   "video_id": ""
+  },
+  {
+   "date": "1974-12-21",
+   "headline": "The Sea of Hands",
+   "text": "Oakland and two time defending champion Miami traded blows all afternoon in the divisional round at the Coliseum. On the final drive Stabler threw on the run with a defender closing in, and he put the ball into the end zone to running back Clarence Davis, who was surrounded by Dolphins. Davis ripped it away from three defenders for an 8 yard touchdown, and the Raiders won 28 to 26, ending Miami's run of titles.",
+   "video_id": "yrGPnucblls"
+  },
+  {
+   "date": "1977-01-09",
+   "headline": "Super Bowl XI, finally",
+   "text": "After all the AFC Championship heartbreak, the Raiders got to the big game and dominated it. Stabler went 12 for 19 for 180 yards, hit Dave Casper for a 1 yard touchdown to cap a 64 yard drive, and Clarence Davis ran for 137 yards behind Gene Upshaw and Art Shell. Oakland beat the Vikings 32 to 14 at the Rose Bowl for the franchise's first title.",
+   "video_id": ""
+  },
+  {
+   "date": "1977-12-24",
+   "headline": "The Ghost to the Post",
+   "text": "On Christmas Eve in Baltimore, down late in a divisional playoff, Stabler lofted a high, arcing throw that looked overthrown. Dave Casper turned, chased it down over his head and went down at the 14 after a 42 yard gain, setting up Errol Mann's tying field goal with 29 seconds left. Forty three seconds into the second overtime Stabler hit Casper again for a 10 yard touchdown, and Oakland won 37 to 31.",
+   "video_id": "nPIGg6iu80E"
+  },
+  {
+   "date": "1978-09-10",
+   "headline": "The Holy Roller",
+   "text": "Down 20 to 14 in San Diego with 10 seconds left, Stabler was about to be sacked and the ball came loose going forward. Pete Banaszak pushed it ahead, Dave Casper kicked it along and fell on it in the end zone, and the Raiders won 21 to 20. The league rewrote the rule after the season so that only the player who fumbles on fourth down or in the final two minutes can advance it. People still call it the Ken Stabler Rule.",
+   "video_id": "aGffYc5eXnA"
+  }
+ ],
+ "quotes": [
+  {
+   "text": "I've often said, If I had one drive to win a game to this day, and I had a quarterback to pick, I would pick Kenny. Snake was a lot cooler than I was. He was a perfect quarterback and a perfect Raider.",
+   "speaker": "John Madden",
+   "role": "Raiders head coach",
+   "context": "statement after Stabler's death, July 2015",
+   "source_url": "https://www.nfl.com/news/former-raiders-quarterback-ken-stabler-dies-0ap3000000500866"
+  },
+  {
+   "text": "The hotter the game, the cooler he got.",
+   "speaker": "John Madden",
+   "role": "Raiders head coach",
+   "context": "on a conference call with reporters after Stabler's death",
+   "source_url": "https://abc7news.com/post/ken-stabler-created-some-of-nfls-most-memorable-moments/841595/"
+  },
+  {
+   "text": "When you think of Kenny Stabler, he was involved in more games that had names than anyone,",
+   "speaker": "John Madden",
+   "role": "Raiders head coach",
+   "context": "on the Sea of Hands, the Ghost to the Post and the Holy Roller",
+   "source_url": "https://abc7news.com/post/ken-stabler-created-some-of-nfls-most-memorable-moments/841595/"
+  },
+  {
+   "text": "He was a cherished member of the Raider family and personified what it means to be a Raider. He wore the Silver and Black with Pride and Poise and will continue to live in the hearts of Raider fans everywhere.",
+   "speaker": "Mark Davis",
+   "role": "Raiders owner",
+   "context": "team statement, July 9, 2015",
+   "source_url": "https://ktvu.com/news/legendary-raiders-quarterback-ken-stabler-dies-at-age-69"
+  },
+  {
+   "text": "was a quarterback who could be one of the boys every night of the week, then on Sunday he'd just say, 'Keep it close,' and get the job done.",
+   "speaker": "Phil Villapiano",
+   "role": "Raiders linebacker and teammate",
+   "context": "to author Tom Danyluk",
+   "source_url": "https://www.nfl.com/news/former-raiders-quarterback-ken-stabler-dies-0ap3000000500866"
+  },
+  {
+   "text": "We were the only pro team who traveled with its own bail bondsman,",
+   "speaker": "Ken Stabler",
+   "role": "Raiders quarterback",
+   "context": "on the 1970s Raiders",
+   "source_url": "https://en.wikipedia.org/wiki/Ken_Stabler"
+  }
+ ],
+ "videos": [
+  {
+   "id": "Gh2bNMK58UA",
+   "title": "Top 10 Clutch QBs: Ken Stabler | NFL",
+   "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "yrGPnucblls",
+   "title": "‘One of the Greatest Football Games Ever Played’: “Sea of Hands” Revisited, 50 Years Later",
+   "channel": "Raiders",
+   "oembed_ok": true
+  },
+  {
+   "id": "nPIGg6iu80E",
+   "title": "'Ghost to the Post' Colts vs. Raiders | 1977 AFC Divisional Round Playoffs | NFL Classic Highlights",
+   "channel": "NFL",
+   "oembed_ok": true
+  },
+  {
+   "id": "aGffYc5eXnA",
+   "title": "Top Controversial Plays: The 'Holy Roller'",
+   "channel": "NFL",
+   "oembed_ok": true
+  }
+ ],
+ "stats": {
+  "group": "passing",
+  "label": "regular season passing",
+  "columns": [
+   "Year",
+   "Team",
+   "G",
+   "GS",
+   "Cmp",
+   "Att",
+   "Pct",
+   "Yds",
+   "TD",
+   "Int",
+   "Rate"
+  ],
+  "rows": [
+   [
+    "1970",
+    "OAK",
+    "3",
+    "0",
+    "2",
+    "7",
+    "28.6",
+    "52",
+    "0",
+    "1",
+    "18.5"
+   ],
+   [
+    "1971",
+    "OAK",
+    "14",
+    "1",
+    "24",
+    "48",
+    "50.0",
+    "268",
+    "1",
+    "4",
+    "39.2"
+   ],
+   [
+    "1972",
+    "OAK",
+    "14",
+    "1",
+    "44",
+    "74",
+    "59.5",
+    "524",
+    "4",
+    "3",
+    "82.3"
+   ],
+   [
+    "1973",
+    "OAK",
+    "14",
+    "11",
+    "163",
+    "260",
+    "62.7",
+    "1,997",
+    "14",
+    "10",
+    "88.3"
+   ],
+   [
+    "1974",
+    "OAK",
+    "14",
+    "13",
+    "178",
+    "310",
+    "57.4",
+    "2,469",
+    "26",
+    "12",
+    "94.9"
+   ],
+   [
+    "1975",
+    "OAK",
+    "14",
+    "13",
+    "171",
+    "293",
+    "58.4",
+    "2,296",
+    "16",
+    "24",
+    "67.4"
+   ],
+   [
+    "1976",
+    "OAK",
+    "12",
+    "12",
+    "194",
+    "291",
+    "66.7",
+    "2,737",
+    "27",
+    "17",
+    "103.4"
+   ],
+   [
+    "1977",
+    "OAK",
+    "13",
+    "13",
+    "169",
+    "294",
+    "57.5",
+    "2,176",
+    "20",
+    "20",
+    "75.2"
+   ],
+   [
+    "1978",
+    "OAK",
+    "16",
+    "16",
+    "237",
+    "406",
+    "58.4",
+    "2,944",
+    "16",
+    "30",
+    "63.3"
+   ],
+   [
+    "1979",
+    "OAK",
+    "16",
+    "16",
+    "304",
+    "498",
+    "61.0",
+    "3,615",
+    "26",
+    "22",
+    "82.2"
+   ],
+   [
+    "1980",
+    "HOU",
+    "16",
+    "16",
+    "293",
+    "457",
+    "64.1",
+    "3,202",
+    "13",
+    "28",
+    "68.7"
+   ],
+   [
+    "1981",
+    "HOU",
+    "13",
+    "12",
+    "165",
+    "285",
+    "57.9",
+    "1,988",
+    "14",
+    "18",
+    "69.5"
+   ],
+   [
+    "1982",
+    "NOR",
+    "8",
+    "8",
+    "117",
+    "189",
+    "61.9",
+    "1,343",
+    "6",
+    "10",
+    "71.8"
+   ],
+   [
+    "1983",
+    "NOR",
+    "14",
+    "14",
+    "176",
+    "311",
+    "56.6",
+    "1,988",
+    "9",
+    "18",
+    "61.4"
+   ],
+   [
+    "1984",
+    "NOR",
+    "3",
+    "0",
+    "33",
+    "70",
+    "47.1",
+    "339",
+    "2",
+    "5",
+    "41.3"
+   ]
+  ],
+  "bay_teams": [
+   "OAK"
+  ],
+  "career": [
+   "Career",
+   "",
+   "184",
+   "146",
+   "2,270",
+   "3,793",
+   "59.8",
+   "27,938",
+   "194",
+   "222",
+   "75.3"
+  ],
+  "source_url": "https://www.pro-football-reference.com/players/S/StabKe00.htm",
+  "note": "Regular season. He spent 1968 on the reserve list and 1969 away from the team. With the Raiders alone: 130 games, 1,486 completions, 19,078 yards, 150 touchdown passes, and a 69 and 26 record with one tie as a starter. Four Pro Bowls (1973, 1974, 1976, 1977).",
+  "extra_tables": [
+   {
+    "title": "Postseason passing",
+    "columns": [
+     "Year",
+     "Team",
+     "G",
+     "GS",
+     "Cmp",
+     "Att",
+     "Pct",
+     "Yds",
+     "TD",
+     "Int",
+     "Rate"
+    ],
+    "rows": [
+     [
+      "1972",
+      "OAK",
+      "1",
+      "0",
+      "6",
+      "12",
+      "50.0",
+      "57",
+      "0",
+      "0",
+      "63.5"
+     ],
+     [
+      "1973",
+      "OAK",
+      "2",
+      "2",
+      "29",
+      "40",
+      "72.5",
+      "271",
+      "1",
+      "1",
+      "88.6"
+     ],
+     [
+      "1974",
+      "OAK",
+      "2",
+      "2",
+      "39",
+      "66",
+      "59.1",
+      "564",
+      "5",
+      "4",
+      "86.9"
+     ],
+     [
+      "1975",
+      "OAK",
+      "2",
+      "2",
+      "35",
+      "65",
+      "53.8",
+      "445",
+      "4",
+      "3",
+      "76.8"
+     ],
+     [
+      "1976",
+      "OAK",
+      "3",
+      "3",
+      "41",
+      "67",
+      "61.2",
+      "501",
+      "4",
+      "0",
+      "104.1"
+     ],
+     [
+      "1977",
+      "OAK",
+      "2",
+      "2",
+      "38",
+      "75",
+      "50.7",
+      "560",
+      "5",
+      "3",
+      "81.0"
+     ],
+     [
+      "1980",
+      "HOU",
+      "1",
+      "1",
+      "15",
+      "26",
+      "57.7",
+      "243",
+      "0",
+      "2",
+      "57.1"
+     ]
+    ],
+    "career": [
+     "Career",
+     "",
+     "13",
+     "12",
+     "203",
+     "351",
+     "57.8",
+     "2,641",
+     "19",
+     "13",
+     "84.2"
+    ]
+   }
+  ]
+ },
+ "honors": [
+  "Super Bowl XI champion",
+  "NFL Most Valuable Player (1974)",
+  "NFL Offensive Player of the Year (1974)",
+  "First team All Pro (1974), second team All Pro (1976)",
+  "4x Pro Bowl (1973, 1974, 1976, 1977)",
+  "NFL passer rating leader (1976), 2x passing touchdowns leader (1974, 1976)",
+  "Hickok Belt (1976)",
+  "NFL 1970s All Decade Team",
+  "Pro Football Hall of Fame (2016)"
+ ],
+ "related_articles": [],
+ "sources": [
+  "https://www.pro-football-reference.com/players/S/StabKe00.htm",
+  "https://web.archive.org/web/20260107142416/https://www.pro-football-reference.com/players/S/StabKe00.htm",
+  "https://www.profootballhof.com/players/ken-stabler/",
+  "https://en.wikipedia.org/wiki/Ken_Stabler",
+  "https://en.wikipedia.org/wiki/Super_Bowl_XI",
+  "https://en.wikipedia.org/wiki/Immaculate_Reception",
+  "https://en.wikipedia.org/wiki/Ghost_to_the_Post",
+  "https://en.wikipedia.org/wiki/1974%E2%80%9375_NFL_playoffs",
+  "https://www.raiders.com/news/nfl-top-100-plays-five-moments-in-raiders-history-crack-the-list",
+  "https://www.nfl.com/news/former-raiders-quarterback-ken-stabler-dies-0ap3000000500866",
+  "https://abc7news.com/post/ken-stabler-created-some-of-nfls-most-memorable-moments/841595/",
+  "https://ktvu.com/news/legendary-raiders-quarterback-ken-stabler-dies-at-age-69",
+  "https://www.si.com/nfl/2015/07/09/ken-stabler-oakland-raiders-alabama-death",
+  "https://commons.wikimedia.org/wiki/File:Ken_Stabler_2007_Alabama_Broadcasters_Convention.jpg"
+ ],
+ "verified_on": "2026-11-03",
+ "our_take": [
+  "If you grew up a Raiders fan in the East Bay, Stabler is the one your dad talks about. Not the stats. The look. Down late, ball at his own 20, and he'd stroll into the huddle like he had dinner reservations he wasn't worried about missing.",
+  "What I love is that the famous plays all have names, and he's in the middle of almost every one of them. The Sea of Hands. The Ghost to the Post. The Holy Roller. Even the Immaculate Reception only happened because he ran 30 yards for the lead first. How many quarterbacks got the rule book rewritten because of something they did with 10 seconds left?",
+  "And he gave Oakland its first Super Bowl. Five straight AFC title games, finally broke through in 1976, and beat Minnesota by 18 in Pasadena. For a franchise that kept losing to Miami and Pittsburgh in January, that one meant everything.",
+  "It still bugs me that the Hall waited until after he was gone. He died in July 2015 and went into Canton the next summer. He should've heard his name called. He earned that, and every old Raiders fan around here knows it."
+ ],
+ "card_photo": "assets/img/players/commons-oakland-coliseum-history-what-happens-to-it-now.jpg"
+}

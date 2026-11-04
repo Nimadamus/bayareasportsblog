@@ -9,7 +9,7 @@ was verified against a fetched source, listed in that file's "sources".
 Player pages sit at the site root so the URL is the player's name
 (bayareasportsblog.com/barry-bonds.html). Photos are Wikimedia Commons, credited on the page.
 """
-import glob, html, json, os, re
+import glob, html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://bayareasportsblog.com"
@@ -263,6 +263,33 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
 .plate.hof .pl-img img{filter:none;height:100%;object-position:50% 20%}
 .plate.hof .pl-nick{font-family:var(--display);font-style:italic;color:var(--muted);font-size:15px}
 .hof-team{--th:var(--gold)}
+.plate[data-c=lv]{--th:var(--lv)}
+.hof-jump{position:sticky;top:var(--navh,52px);z-index:55;background:rgba(9,14,13,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule)}
+.hof-jump .wrap{display:flex;gap:10px;align-items:center;padding-top:12px;padding-bottom:12px;overflow-x:auto;scrollbar-width:none}
+.hof-jump .wrap::-webkit-scrollbar{display:none}
+.hof-jump a{flex:0 0 auto;display:inline-flex;gap:8px;align-items:center;border:1px solid var(--rule2);padding:8px 13px;
+  font-family:var(--cond);font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#e9e6da}
+.hof-jump a:hover{border-color:var(--th);color:#fff}
+.hof-jump a i{font-style:normal;color:var(--th);font-weight:800}
+.hof-find{flex:1 0 200px;max-width:320px;margin-left:auto;background:var(--paper);border:1px solid var(--rule2);color:#fff;
+  font:inherit;font-size:14px;padding:9px 12px}
+.hof-find:focus{outline:2px solid var(--gold);outline-offset:1px}
+.hof-none{display:none;padding:40px 0;color:var(--muted);font-size:16px}
+.chapter[id]{scroll-margin-top:130px}
+.ch-count{font-family:var(--cond);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);align-self:end}
+.hof-new{padding:40px 0 10px}
+.hof-more{margin-top:40px}
+.hof-more .plates{margin-top:18px}
+.faq{max-width:820px;border-top:1px solid var(--rule)}
+.faq details{border-bottom:1px solid var(--rule);padding:16px 0}
+.faq summary{cursor:pointer;font-family:var(--display);font-weight:700;font-size:19px;list-style:none;padding-right:30px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";position:absolute;right:4px;top:0;color:var(--th);font-weight:900}
+.faq details[open] summary:after{transform:rotate(45deg)}
+.faq p{margin-top:10px;color:#d6d3c6;font-size:16px;line-height:1.65}
+@media(max-width:460px){.plates.hofp{grid-template-columns:1fr 1fr;gap:10px}.plates.hofp .plate.hof .pl-b{padding:10px 10px 12px;gap:4px}.plates.hofp .plate.hof h3{font-size:15px}.plates.hofp .plate .pl-yr{font-size:9.5px;letter-spacing:.14em}.plates.hofp .plate .stamp{font-size:9.5px;padding:4px 7px}.plates.hofp .plate.hof .pl-nick{font-size:13px}}
+.hof-more .ch-k{font-family:var(--cond);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--th)}
+.hof-more-h{font-family:var(--display);font-weight:900;font-size:clamp(26px,3vw,36px);text-transform:none;margin-top:6px}
 [data-c=sf]{--th:var(--sf)} [data-c=niners]{--th:var(--niners)} [data-c=gs]{--th:var(--gs)}
 [data-c=as]{--th:var(--as)} [data-c=sj]{--th:var(--sj)} [data-c=lv]{--th:var(--lv)}
 [data-c=cal],[data-c=stanford],[data-c=house]{--th:var(--gold)}
@@ -288,6 +315,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
  .hof-next{grid-template-columns:1fr}
  .hof-next a:last-child{text-align:left}
  .hof-sec{padding:38px 0}
+ .hof-find{flex-basis:170px;order:-1;margin-left:0}
 }
 """
 
@@ -335,70 +363,135 @@ def card_path(d):
 
 
 def make_card(d):
-    """1200x675 social card: the portrait photo on a blurred, darkened copy of itself, name set beside it."""
-    from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
-    src = os.path.join(ROOT, photo_src(d))
+    """1200x675 social card: the whole real portrait, no baked text, centred on the player's face,
+    set on a soft blurred continuation of the same photo so every listing crop keeps the face."""
+    from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    import photo_cards
+    src = os.path.join(ROOT, d.get("card_photo") or photo_src(d))
     dst = os.path.join(ROOT, card_path(d))
-    if os.path.exists(dst) and os.path.getmtime(dst) >= max(os.path.getmtime(src), os.path.getmtime(__file__)):
+    if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src) and not os.environ.get("HOF_RECARD"):
+        return
+    if d.get("card_mode") == "tight":      # tight face crop, for photos with lettering in the background
+        photo_cards.render(os.path.relpath(src, ROOT).replace(os.sep, "/"), dst)
+        print("card", d["slug"], "tight")
         return
     W, H = 1200, 675
-    im = Image.open(src).convert("RGB")
-    s = max(W / im.width, H / im.height)
-    bg = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
-    y = int((bg.height - H) * 0.25)
-    bg = bg.crop(((bg.width - W) // 2, y, (bg.width - W) // 2 + W, y + H)).filter(ImageFilter.GaussianBlur(28))
-    bg = ImageEnhance.Brightness(bg).enhance(0.32)
-    ph = im.resize((round(im.width * H / im.height), H), Image.LANCZOS)
-    if ph.width > 560:
-        x0 = (ph.width - 560) // 2
-        ph = ph.crop((x0, 0, x0 + 560, H))
-    bg.paste(ph, (60, 0))
-    dr = ImageDraw.Draw(bg)
-    col = {"sf": (253, 90, 30), "niners": (212, 61, 56), "gs": (255, 199, 44), "as": (47, 174, 118), "sj": (46, 196, 209)}.get(d["team_key"], (233, 200, 130))
-    dr.rectangle((0, H - 10, W, H), fill=col)
-    fdir = "C:/Windows/Fonts/"
-    def font(names, size):
-        for n in names:
-            try:
-                return ImageFont.truetype(fdir + n, size)
-            except OSError:
-                pass
-        return ImageFont.load_default()
-    tx = 60 + ph.width + 50
-    maxw = W - tx - 50
-    k = font(["arialbd.ttf"], 24)
-    dr.text((tx, 200), "BAY AREA HALL OF FAME", font=k, fill=col)
-    size = 92
-    while size > 40:
-        f = font(["georgiab.ttf", "timesbd.ttf"], size)
-        words, lines, cur = d["name"].split(), [], ""
-        for w in words:
-            t = (cur + " " + w).strip()
-            if dr.textlength(t, font=f) <= maxw:
-                cur = t
-            else:
-                lines.append(cur); cur = w
-        lines.append(cur)
-        if all(dr.textlength(l, font=f) <= maxw for l in lines) and len(lines) <= 2:
-            break
-        size -= 4
-    yy = 244
-    for l in lines:
-        dr.text((tx, yy), l, font=f, fill=(242, 239, 230))
-        yy += int(size * 1.08)
-    sub = f'{TEAM.get(d["team_key"], "")} · {d.get("bay_years", "")}'
-    ss = 30
-    while ss > 16 and dr.textlength(sub, font=font(["arial.ttf"], ss)) > maxw:
-        ss -= 1
-    dr.text((tx, yy + 14), sub, font=font(["arial.ttf"], ss), fill=(200, 205, 196))
-    bg.save(dst, "JPEG", quality=88, optimize=True)
+    im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
+    ph = im.resize((max(1, round(im.width * H / im.height)), H), Image.LANCZOS)
+    if ph.width > W:                      # landscape source: crop to the card, face centred
+        ph = ph.crop(((ph.width - W) // 2, 0, (ph.width - W) // 2 + W, H))
+    cx = ph.width / 2.0
+    fs = [f for f in photo_cards.faces(ph) if f[2] >= ph.width * 0.10 and f[1] + f[3] / 2 < H * 0.7]
+    if fs:
+        cx = fs[0][0] + fs[0][2] / 2.0
+    x0 = int(round(W / 2.0 - cx))
+    bg = im.resize((W, max(H, round(im.height * W / im.width))), Image.BILINEAR)
+    bg = bg.crop((0, (bg.height - H) // 4, W, (bg.height - H) // 4 + H)).filter(ImageFilter.GaussianBlur(38))
+    bg = ImageEnhance.Brightness(bg).enhance(0.5)
+    mask = Image.new("L", ph.size, 255)
+    md = ImageDraw.Draw(mask)
+    fe = max(10, ph.width // 30)
+    for i in range(fe):
+        v = int(255 * i / fe)
+        md.line([(i, 0), (i, H)], fill=v)
+        md.line([(ph.width - 1 - i, 0), (ph.width - 1 - i, H)], fill=v)
+    bg.paste(ph, (x0, 0), mask if ph.width < W else None)
+    ImageEnhance.Sharpness(bg).enhance(1.05).save(dst, "JPEG", quality=90, optimize=True, progressive=True)
+    print("card", d["slug"], "face" if fs else "centre", f"x0 {x0}")
 
 
-def player_page(d, prev, nxt):
+SPORT = {"sf": "Baseball", "as": "Baseball", "niners": "American football", "lv": "American football",
+         "gs": "Basketball", "sj": "Ice hockey", "cal": "", "stanford": ""}
+PROFILE_RE = re.compile(r"^https://(www\.)?(baseball-reference\.com/(players|managers)/|pro-football-reference\.com/(players|coaches)/|"
+                        r"basketball-reference\.com/(players|coaches)/|hockey-reference\.com/players/|baseballhall\.org/hall-of-famers/|"
+                        r"profootballhof\.com/players/|hoophall\.com/hall-of-famers/|hhof\.com/)", re.I)
+
+
+def same_as(d):
+    """Authoritative profile URLs for this person, taken only from the verified sources list."""
+    from urllib.parse import unquote
+    out = []
+    for u in d.get("sources", []):
+        if "web.archive.org" in u or "#" in u:
+            continue
+        if "wikipedia.org/wiki/" in u:
+            t = unquote(u.rsplit("/wiki/", 1)[1]).replace("_", " ")
+            if re.sub(r"\s*\(.*\)$", "", t).strip().lower() != d["name"].lower():
+                continue
+        elif not PROFILE_RE.match(u):
+            continue
+        if u not in out:
+            out.append(u)
+    return out[:8]
+
+
+def license_url(lic):
+    m = re.match(r"\s*CC\s*BY(-SA)?\s*(\d\.\d)", lic or "", re.I)
+    if m:
+        return f"https://creativecommons.org/licenses/by{'-sa' if m.group(1) else ''}/{m.group(2)}/"
+    if re.match(r"\s*CC0", lic or "", re.I):
+        return "https://creativecommons.org/publicdomain/zero/1.0/"
+    if re.match(r"\s*(public domain|pd)", lic or "", re.I):
+        return "https://creativecommons.org/publicdomain/mark/1.0/"
+    return ""
+
+
+def faq_items(d, team):
+    """Plain answers built only from the page's own verified data."""
+    name, last = d["name"], d["name"].split()[-1]
+    long_team = d.get("team") or TEAM_LONG.get(d["team_key"], team)
+    pos = (d.get("position") or "").lower()
+    items = []
+    active = (d.get("bay_years") or "").endswith("present")
+    if d.get("bay_years"):
+        noun = {"left field": "left fielder", "center field": "center fielder", "right field": "right fielder",
+                "first base": "first baseman", "second base": "second baseman", "third base": "third baseman"}.get(pos, pos)
+        if noun in ("manager", "head coach"):
+            role = f" as {noun}"
+        elif noun:
+            role = f", playing {noun}" if " and " in noun else f" as {'an' if noun[0] in 'aeiou' else 'a'} {noun}"
+        else:
+            role = ""
+        yrs = d.get("team_years") or d["bay_years"]
+        if ", " in yrs:
+            n = yrs.count(", ") + 1
+            when = f"over {n} stints ({yrs.rsplit(', ', 1)[0]} and {yrs.rsplit(', ', 1)[1]})"
+        elif yrs.endswith(" to present"):
+            when = f"since {yrs[:-11]}"
+        else:
+            when = f"from {yrs}"
+        items.append((f"What years was {name} with the {long_team}?",
+                      f"{name} {'has been' if when.startswith('since') else 'was'} with the {long_team} {when}{role}."))
+    if d.get("numbers"):
+        nums = d["numbers"]
+        items.append((f"What number did {name} wear?",
+                      f"{name} {'wears' if active else 'wore'} number{'s' if ',' in nums else ''} {nums}."))
+    if d.get("tiles"):
+        lc = lambda x: x[0].lower() + x[1:] if len(x) > 1 and x[1].islower() else x
+        parts = [f"{t['value']} {lc(t['label'])}" for t in d["tiles"][:4]]
+        items.append((f"What are {name}'s signature numbers?", "; ".join(parts) + "."))
+    if d.get("honors"):
+        items.append((f"What were {name}'s biggest honors?", "; ".join(d["honors"][:5]) + "."))
+    if d.get("clutch_moments"):
+        ms = d["clutch_moments"][:3]
+        items.append((f"What are some of {last}'s biggest moments?",
+                      "; ".join(f"{m['headline']} ({fmt_date(m['date'])})" for m in ms) + ". Every one is in the Clutch Moments section above."))
+    return items
+
+
+def faq_html(items):
+    return '<div class="faq">' + "".join(
+        f'<details{" open" if i == 0 else ""}><summary>{e(q)}</summary><p>{e(a)}</p></details>' for i, (q, a) in enumerate(items)) + "</div>"
+
+
+def player_page(d, prev, nxt, players=()):
     slug, name, key = d["slug"], d["name"], d["team_key"]
     team = TEAM.get(key, d.get("team", ""))
     url = f"{SITE}/{slug}.html"
-    title = d.get("seo_title") or f"{d.get('display_name') or name}: Bay Area Hall of Fame | Bay Area Sports Blog"
+    title = d.get("seo_title") or f"{name}: {team} Legend, Stats and Clutch Moments"
+    if len(title) > 62:
+        title = f"{name}: {team} Stats and Clutch Moments"
     desc = d["meta_description"]
     image = f"{SITE}/{card_path(d)}"
     p = d["photo"]
@@ -406,12 +499,37 @@ def player_page(d, prev, nxt):
               "description": desc, "affiliation": {"@type": "SportsTeam", "name": d.get("team") or TEAM_LONG.get(key, team)}}
     if d.get("nickname"):
         person["alternateName"] = d["nickname"]
+    person["url"] = url
+    if d.get("position"):
+        person["jobTitle"] = d["position"]
+    person["memberOf"] = {"@type": "SportsTeam", "name": d.get("team") or TEAM_LONG.get(key, team),
+                          "sport": SPORT.get(key, "")}
+    if d.get("honors"):
+        person["award"] = d["honors"][:12]
+    same = same_as(d)
+    if same:
+        person["sameAs"] = same
+    img = {"@type": "ImageObject", "url": f"{SITE}/{photo_src(d)}", "caption": d["photo"].get("caption") or name}
+    if d["photo"].get("author"):
+        img["creditText"] = d["photo"]["author"]
+        img["creator"] = {"@type": "Person", "name": d["photo"]["author"]}
+    lic = license_url(d["photo"].get("license"))
+    if lic:
+        img["license"] = lic
+    if d["photo"].get("commons_page"):
+        img["acquireLicensePage"] = d["photo"]["commons_page"]
+    person["image"] = img
+    faq = faq_items(d, team)
     ld = jsonld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
         {"@type": "ListItem", "position": 2, "name": "Bay Area Hall of Fame", "item": f"{SITE}/bay-area-hall-of-fame.html"},
         {"@type": "ListItem", "position": 3, "name": name, "item": url}]}) + "\n" + jsonld(
         {"@context": "https://schema.org", "@type": "ProfilePage", "name": title.split(" | ")[0], "url": url,
-         "dateCreated": d.get("inducted"), "dateModified": d.get("verified_on"), "mainEntity": person})
+         "dateCreated": d.get("inducted"), "dateModified": d.get("verified_on"), "mainEntity": person,
+         "isPartOf": {"@type": "CollectionPage", "name": "Bay Area Hall of Fame", "url": f"{SITE}/bay-area-hall-of-fame.html"}})
+    if faq:
+        ld += "\n" + jsonld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
 
     tiles = "".join(f'<div><b>{e(t["value"])}</b><span>{e(t["label"])}</span></div>' for t in d["tiles"][:4])
     meta = "".join(f"<span>{e(x)}</span>" for x in [d.get("position"), d.get("bay_years"),
@@ -513,6 +631,8 @@ def player_page(d, prev, nxt):
         stats += (f'<h3 class="ch-k" style="margin:30px 0 12px">{e(extra["title"])}</h3><div class="stats-wrap"><table class="stats">'
                   f'<thead><tr>{xth}</tr></thead><tbody>{xrows}</tbody></table></div>')
     secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
+    if faq:
+        secs.append(chapter(nxtnum(), "Quick Answers", f"{name}: Fast Facts", faq_html(faq)))
     rel = ""
     if d.get("related_articles"):
         links = []
@@ -526,10 +646,17 @@ def player_page(d, prev, nxt):
             rel = '<h3 class="ch-k" style="margin-top:34px">Keep reading</h3><div class="hof-rel">' + "".join(links) + "</div>"
     nav = (f'<div class="hof-next"><a href="{prev["slug"]}.html"><small>Previous inductee</small><b>{e(prev["name"])}</b></a>'
            f'<a href="{nxt["slug"]}.html"><small>Next inductee</small><b>{e(nxt["name"])}</b></a></div>') if prev is not d else ""
+    mates = [p for p in players if p["team_key"] == key and p["slug"] != slug]
+    if len(mates) > 4:
+        i0 = next((i for i, p in enumerate(players) if p["slug"] == slug), 0)
+        mates = sorted(mates, key=lambda p: (players.index(p) - i0) % len(players))[:4]
+    more = (f'<div class="hof-more"><div class="ch-k">{e(TEAM_LONG.get(key, team))}</div><h2 class="hof-more-h">More {e(team)} Hall of Famers</h2>'
+            f'<div class="plates four hofp">{"".join(plate(p) for p in mates)}</div></div>') if mates else ""
     tail = f"""
 <section class="hof-sec" data-c="{key}">
   <div class="wrap">
     {nav}
+    {more}
     <p style="margin-top:22px"><a class="sh-all" href="bay-area-hall-of-fame.html">Every Bay Area Hall of Famer</a></p>
     {rel}
   </div>
@@ -540,8 +667,8 @@ def player_page(d, prev, nxt):
 
 def hub(players):
     url = f"{SITE}/bay-area-hall-of-fame.html"
-    title = "Bay Area Hall of Fame | Bay Area Sports Blog"
-    desc = ("The Bay Area Hall of Fame: Giants, 49ers, Warriors, A's and Sharks legends with full career stats, "
+    title = "Bay Area Hall of Fame: The Greatest Legends in Bay Area Sports"
+    desc = ("The Bay Area Hall of Fame: Giants, 49ers, Warriors, A's, Sharks and Raiders legends with full stats, "
             "clutch moments, video and what the people who watched them said.")[:155].rsplit(" ", 1)[0]
     image = f"{SITE}/{card_path(players[0])}" if players else ""
     ld = jsonld({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -551,40 +678,75 @@ def hub(players):
          "mainEntity": {"@type": "ItemList", "itemListElement": [
              {"@type": "ListItem", "position": i + 1, "url": f"{SITE}/{p['slug']}.html", "name": p["name"]} for i, p in enumerate(players)]}})
     teams = [k for k in TEAM_ORDER if any(p["team_key"] == k for p in players)]
+    names = [TEAM[k] for k in teams]
+    franchises = ", ".join(names[:-1]) + " and " + names[-1] if len(names) > 1 else "".join(names)
     hero = f"""
 <section class="vault-hero">
   <div class="wrap">
     <div class="vh-k">From the Vault</div>
     <h1>The Bay Area Hall of Fame</h1>
-    <p class="vh-lede">Our guys. The ones who wanted the bat, the ball or the puck when the whole building was standing up. Every inductee gets a full page: the life story, every season of stats, the moments that made us lose our minds, the video, and what the people who played with and against them said. More plaques go up all the time. For the eras they built, open <a href="history.html">Bay Area History</a> and the <a href="dynasties.html">Dynasties</a> hub.</p>
+    <p class="vh-lede">Our guys. The ones who wanted the bat, the ball or the puck when the whole building was standing up. {e(franchises)} legends, every one with a full page: the life story, every season of stats, the moments that made us lose our minds, the video, and what the people who played with and against them said. More plaques go up all the time. For the eras they built, open <a href="history.html">Bay Area History</a> and the <a href="dynasties.html">Dynasties</a> hub.</p>
     <div class="vh-stats">
       <div class="vh-stat"><b>{len(players)}</b><span>Inductees</span></div>
       <div class="vh-stat"><b>{len(teams)}</b><span>{"Franchise" if len(teams) == 1 else "Franchises"}</span></div>
+      <div class="vh-stat"><b>{sum(len(p.get("clutch_moments") or []) for p in players)}</b><span>Clutch moments</span></div>
+    </div>
+  </div>
+</section>"""
+    chips = "".join(f'<a href="#hof-{k}" data-c="{k}">{e(TEAM[k])} <i>{sum(1 for p in players if p["team_key"] == k)}</i></a>' for k in teams)
+    jump = f"""
+<nav class="hof-jump" aria-label="Jump to a franchise">
+  <div class="wrap">{chips}<input class="hof-find" type="search" placeholder="Find a legend" aria-label="Find a Hall of Famer by name"></div>
+</nav>"""
+    newest = max(p.get("inducted", "") for p in players)
+    fresh = [p for p in players if p.get("inducted", "") == newest]
+    new_sec = ""
+    if newest and len(fresh) < len(players):
+        new_sec = f"""
+<section class="chapter hof-new">
+  <div class="wrap">
+    <div class="ch-head">
+      <div class="ch-num">NEW</div>
+      <div><div class="ch-k">Inducted {e(fmt_date(newest))}</div><h2>The Newest Plaques</h2></div>
+      <div class="ch-count">{len(fresh)} added</div>
+    </div>
+    <div class="plates four hofp">{"".join(plate(p) for p in fresh)}
     </div>
   </div>
 </section>"""
     secs = []
     for i, k in enumerate(teams):
-        plates = []
-        for p in [p for p in players if p["team_key"] == k]:
-            nick = f'<span class="pl-nick">{e(p["nickname"])}</span>' if p.get("nickname") else ""
-            plates.append(f'''
-        <a class="plate hof" data-c="{k}" href="{p["slug"]}.html">
-          <div class="pl-img"><img src="{photo_src(p)}" alt="{e(p["photo"].get("alt") or p["name"])}" width="900" height="1125" loading="lazy" decoding="async"><span class="stamp">{e(TEAM[k])}</span></div>
-          <div class="pl-b"><span class="pl-yr">{e(p.get("position"))} &middot; {e(p.get("bay_years"))}</span><h3>{e(p["name"])}</h3>{nick}</div>
-        </a>''')
+        mine = [p for p in players if p["team_key"] == k]
         secs.append(f"""
-<section class="chapter">
+<section class="chapter hof-team-sec" id="hof-{k}">
   <div class="wrap">
     <div class="ch-head">
       <div class="ch-num">{i + 1:02d}</div>
       <div><div class="ch-k">{e(TEAM_LONG[k])}</div><h2>{e(TEAM[k])} Hall of Famers</h2></div>
+      <div class="ch-count">{len(mine)} {"inductee" if len(mine) == 1 else "inductees"}</div>
     </div>
-    <div class="plates four">{"".join(plates)}
+    <div class="plates four hofp">{"".join(plate(p) for p in mine)}
     </div>
   </div>
 </section>""")
-    return head(title, desc, url, image, ld) + CHROME_TOP + "<main>" + hero + "".join(secs) + "\n</main>\n" + CHROME_BOTTOM
+    find_js = """
+<p class="wrap hof-none" id="hof-none">No Hall of Famer by that name yet. More plaques go up all the time.</p>
+<script>(function(){var q=document.querySelector('.hof-find');if(!q)return;q.addEventListener('input',function(){
+var v=q.value.trim().toLowerCase(),any=false;document.querySelectorAll('.hof-team-sec').forEach(function(s){var n=0;
+s.querySelectorAll('.plate').forEach(function(a){var ok=!v||a.textContent.toLowerCase().indexOf(v)>-1;a.style.display=ok?'':'none';if(ok)n++;});
+s.style.display=n?'':'none';if(n)any=true;});var nw=document.querySelector('.hof-new');if(nw)nw.style.display=v?'none':'';
+document.getElementById('hof-none').style.display=any?'none':'block';});})();</script>"""
+    return head(title, desc, url, image, ld) + CHROME_TOP + "<main>" + hero + jump + new_sec + "".join(secs) + find_js + "\n</main>\n" + CHROME_BOTTOM
+
+
+def plate(p, img_prefix=""):
+    k = p["team_key"]
+    nick = f'<span class="pl-nick">{e(p["nickname"])}</span>' if p.get("nickname") else ""
+    return f'''
+        <a class="plate hof" data-c="{k}" href="{img_prefix}{p["slug"]}.html">
+          <div class="pl-img"><img src="{img_prefix}{photo_src(p)}" alt="{e(p["photo"].get("alt") or p["name"])}" width="900" height="1125" loading="lazy" decoding="async"><span class="stamp">{e(TEAM[k])}</span></div>
+          <div class="pl-b"><span class="pl-yr">{e(p.get("position"))} &middot; {e(p.get("bay_years"))}</span><h3>{e(p["name"])}</h3>{nick}</div>
+        </a>'''
 
 
 def main():
@@ -595,10 +757,83 @@ def main():
     for i, d in enumerate(players):
         make_card(d)
         prev, nxt = players[i - 1], players[(i + 1) % len(players)]
-        open(os.path.join(ROOT, d["slug"] + ".html"), "w", encoding="utf-8", newline="\n").write(player_page(d, prev, nxt))
+        open(os.path.join(ROOT, d["slug"] + ".html"), "w", encoding="utf-8", newline="\n").write(player_page(d, prev, nxt, players))
         print("wrote", d["slug"] + ".html")
     open(os.path.join(ROOT, "bay-area-hall-of-fame.html"), "w", encoding="utf-8", newline="\n").write(hub(players))
     print("wrote bay-area-hall-of-fame.html with", len(players), "inductees")
+    team_strips(players)
+    search_index(players)
+    sitemap_sync(players)
+
+
+def sitemap_sync(players):
+    """Every inductee page is in sitemap.xml with its card and hero photo as image entries."""
+    fp = os.path.join(ROOT, "sitemap.xml")
+    s = open(fp, encoding="utf-8", newline="").read()
+    nl = "\r\n" if "\r\n" in s else "\n"
+    orig = s
+    for p in players:
+        loc = f"{SITE}/{p['slug']}.html"
+        m = re.search(r"  <url>\s*<loc>" + re.escape(loc) + r"</loc>.*?</url>", s, re.S)
+        lastmod = p.get("verified_on") or p.get("inducted") or ""
+        if m:
+            lm = re.search(r"<lastmod>([^<]+)</lastmod>", m.group(0))
+            lastmod = lm.group(1) if lm else lastmod
+        imgs = [f"{SITE}/{card_path(p)}", f"{SITE}/{photo_src(p)}"]
+        block = nl.join(["  <url>", f"    <loc>{loc}</loc>", f"    <lastmod>{lastmod}</lastmod>",
+                         "    <changefreq>weekly</changefreq>", "    <priority>0.6</priority>"] +
+                        [f"    <image:image><image:loc>{html.escape(u)}</image:loc></image:image>" for u in imgs] + ["  </url>"])
+        if m:
+            s = s[:m.start()] + block + s[m.end():]
+        else:
+            i = s.rindex("</urlset>")
+            s = s[:i] + block + nl + s[i:]
+    if s != orig:
+        open(fp, "w", encoding="utf-8", newline="").write(s)
+        print("sitemap synced")
+
+
+def search_index(players):
+    """Hall of Famers are findable from search.html (k = Hall of Fame)."""
+    fp = os.path.join(ROOT, "assets", "search-index.json")
+    raw = open(fp, encoding="utf-8").read()
+    data = json.loads(raw)
+    hof = {p["slug"] + ".html" for p in players}
+    data = [x for x in data if x.get("u") not in hof]
+    for p in players:
+        data.append({"u": p["slug"] + ".html", "t": f"{p['name']}: Bay Area Hall of Fame",
+                     "d": p.get("meta_description") or p.get("dek", ""), "k": "Hall of Fame", "dt": p.get("inducted", "")})
+    ascii_only = all(ord(c) < 128 for c in raw)
+    open(fp, "w", encoding="utf-8", newline="\n").write(json.dumps(data, ensure_ascii=ascii_only))
+
+
+TEAM_HUBS = {"sf": "giants.html", "niners": "49ers.html", "gs": "warriors.html", "as": "athletics.html", "sj": "sharks.html"}
+
+
+def team_strips(players):
+    """Keep a marked Hall of Fame strip on each team hub, just above the footer."""
+    for k, f in TEAM_HUBS.items():
+        fp = os.path.join(ROOT, f)
+        mine = [p for p in players if p["team_key"] == k]
+        if not mine or not os.path.exists(fp):
+            continue
+        s = open(fp, encoding="utf-8", newline="").read()
+        nl = "\r\n" if "\r\n" in s else "\n"
+        block = (f'<!-- HOF-STRIP:start --><section class="zone"><div class="wrap">\n'
+                 f'<div class="sec-head"><div><h2>{e(TEAM[k])} in the Bay Area Hall of Fame</h2></div>'
+                 f'<a class="sh-all" href="bay-area-hall-of-fame.html#hof-{k}">All {len(mine)} {e(TEAM[k])} Hall of Famers</a></div>\n'
+                 f'<div class="plates four hofp">{"".join(plate(p) for p in mine[:8])}\n</div>\n</div></section><!-- HOF-STRIP:end -->').replace("\n", nl)
+        if "<!-- HOF-STRIP:start -->" in s:
+            new = re.sub(r"<!-- HOF-STRIP:start -->.*?<!-- HOF-STRIP:end -->", lambda m: block, s, flags=re.S)
+        else:
+            anchor = "</div>" + nl + '<footer class="desk-foot">'
+            if s.count(anchor) != 1:
+                print("SKIP strip (no anchor):", f)
+                continue
+            new = s.replace(anchor, block + nl + anchor)
+        if new != s:
+            open(fp, "w", encoding="utf-8", newline="").write(new)
+            print("strip", f, len(mine))
 
 
 if __name__ == "__main__":

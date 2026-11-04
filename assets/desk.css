@@ -458,6 +458,11 @@ a.plate:hover .pl-img img{filter:grayscale(0) sepia(0) saturate(1) contrast(1);t
 .plate[data-c=sf]{--th:var(--sf)} .plate[data-c=niners]{--th:var(--niners)}
 .plate[data-c=gs]{--th:var(--gs)} .plate[data-c=as]{--th:var(--as)}
 .plate[data-c=sj]{--th:var(--sj)} .plate[data-c=house]{--th:var(--gold)}
+.plate[data-c=lv]{--th:var(--lv)}
+/* Hall of Fame plates on team hubs: portrait crop keeps faces in frame */
+.plate.hof .pl-img{aspect-ratio:4/5}
+.plate.hof .pl-img img{filter:none;object-position:50% 20%}
+.plate.hof .pl-nick{font-family:var(--display);font-style:italic;color:var(--muted);font-size:15px}
 
 /* ============================================================
    DYNASTIES
@@ -685,3 +690,4 @@ img[src*="celebrini"]{object-position:50% 30%}
 .sr-item h4{font-family:var(--display);font-size:19px;font-weight:700;line-height:1.22;margin-top:3px}
 .sr-item p{margin-top:4px;font-size:13px;color:var(--muted);line-height:1.5}
 .sr-empty{padding:26px 18px;color:var(--dim);font-size:14px}
+@media(max-width:460px){.plates.hofp{grid-template-columns:1fr 1fr;gap:10px}.plates.hofp .plate.hof .pl-b{padding:10px 10px 12px;gap:4px}.plates.hofp .plate.hof h3{font-size:15px}.plates.hofp .plate .pl-yr{font-size:9.5px;letter-spacing:.14em}.plates.hofp .plate .stamp{font-size:9.5px;padding:4px 7px}.plates.hofp .plate.hof .pl-nick{font-size:13px}}
