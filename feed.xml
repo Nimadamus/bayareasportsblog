@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 04 Nov 2026 06:23:32 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 22:47:25 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Warriors Stopped Paying Kristaps Porzingis, and I Think He&#39;s Done</title>
+    <link>https://bayareasportsblog.com/articles/warriors-kristaps-porzingis-retire-salary-withheld.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-kristaps-porzingis-retire-salary-withheld.html</guid>
+    <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Zero games this season, leaning toward retirement, and now the Warriors have stopped paying his $20 million salary. Fifteen games is all we ever got.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-kristaps-porzingis-retire-salary-withheld.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Work Out Eight Defenders, and Five of Them Play Inside</title>
     <link>https://bayareasportsblog.com/articles/49ers-work-out-eight-defenders-defensive-line-depth.html</link>
@@ -358,15 +367,6 @@
     <category>Raiders</category>
     <description>Down 27 to 16 in New Orleans, the Raiders forced four fourth quarter turnovers and won 35 to 27. Cousins threw three, Bowers came back with 116 yards. 3-0.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-saints-35-27-three-and-oh-cousins-bowers.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Steph Signed Through 2029, and Now I Want One More Parade</title>
-    <link>https://bayareasportsblog.com/articles/stephen-curry-two-year-116-million-extension-warriors.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/stephen-curry-two-year-116-million-extension-warriors.html</guid>
-    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>Two years, $116 million, and about $20 million left on the table so the Warriors can build around him. Stephen Curry is staying home, and he just gave this team one more real shot.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/stephen-curry-two-year-116-million-extension-warriors.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
