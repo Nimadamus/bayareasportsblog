@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 03 Nov 2026 10:59:37 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 06:23:32 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Work Out Eight Defenders, and Five of Them Play Inside</title>
+    <link>https://bayareasportsblog.com/articles/49ers-work-out-eight-defenders-defensive-line-depth.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-work-out-eight-defenders-defensive-line-depth.html</guid>
+    <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers worked out eight free agent defenders on Tuesday, five of them defensive linemen. What the list says about the depth behind Buckner and Osa.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-work-out-eight-defenders-defensive-line-depth.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Five Straight, and I Owe the Warriors an Apology</title>
     <link>https://bayareasportsblog.com/articles/warriors-five-straight-wins-suns-comeback-draymond-ejected.html</link>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>Two years, $116 million, and about $20 million left on the table so the Warriors can build around him. Stephen Curry is staying home, and he just gave this team one more real shot.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/stephen-curry-two-year-116-million-extension-warriors.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>The A&#39;s Finished 64 and 98, the Kids Are Hurt, and I&#39;m Still Checking the Box Score</title>
-    <link>https://bayareasportsblog.com/articles/athletics-2027-outlook-kurtz-de-vries-injuries.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-2027-outlook-kurtz-de-vries-injuries.html</guid>
-    <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    <category>A&#39;s Column</category>
-    <description>Kurtz, Wilson, Rooker and Soderstrom ended 2026 on the injured list, De Vries had shoulder surgery, and the best young A&#39;s core in years is headed to Vegas.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-2027-outlook-kurtz-de-vries-injuries.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
