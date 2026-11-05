@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-mac-jones-trade-rumors-keep-him.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02</news:publication_date>
-      <news:title>Mac Jones Trade Rumors: Hang Up the Phone, John</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-work-out-eight-defenders-defensive-line-depth.html</loc>
     <news:news>
       <news:publication>
@@ -21,6 +10,17 @@
       </news:publication>
       <news:publication_date>2026-11-03</news:publication_date>
       <news:title>49ers Work Out Eight Defenders, and Five of Them Play Inside</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-05</news:publication_date>
+      <news:title>Bay Area Sports Are Getting Good Again, and I Can't Stop Smiling</news:title>
     </news:news>
   </url>
   <url>

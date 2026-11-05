@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 04 Nov 2026 22:47:25 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 12:58:35 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bay Area Sports Are Getting Good Again, and I Can&#39;t Stop Smiling</title>
+    <link>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</guid>
+    <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Bay Area Sports</category>
+    <description>Bryce Eldridge, Yaxel Lendeborg, Brock Purdy, a pass rush that finally gets home and a hurt rookie I can&#39;t quit. Bay Area sports feel young and fun again.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>The Warriors Stopped Paying Kristaps Porzingis, and I Think He&#39;s Done</title>
     <link>https://bayareasportsblog.com/articles/warriors-kristaps-porzingis-retire-salary-withheld.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The 49ers are signing Matthew Judon with Nick Bosa&#39;s calf and half the defensive line hurt. Four time Pro Bowler, 72 career sacks, zero in 2025. Help or washed?</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-signing-matthew-judon-bosa-calf-defensive-line-injuries.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Raiders 35, Saints 27: Three and Oh, and I Forgot What This Felt Like</title>
-    <link>https://bayareasportsblog.com/articles/raiders-saints-35-27-three-and-oh-cousins-bowers.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-saints-35-27-three-and-oh-cousins-bowers.html</guid>
-    <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-    <category>Raiders</category>
-    <description>Down 27 to 16 in New Orleans, the Raiders forced four fourth quarter turnovers and won 35 to 27. Cousins threw three, Bowers came back with 116 yards. 3-0.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-saints-35-27-three-and-oh-cousins-bowers.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
