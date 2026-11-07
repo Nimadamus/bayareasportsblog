@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 07 Nov 2026 04:31:53 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 04:54:12 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers All Time Leaders: Passing, Rushing, Receiving and More</title>
@@ -45,6 +45,15 @@
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-retired-numbers-every-team.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
+    <title>Giants All Time Leaders: The Franchise Record Book</title>
+    <link>https://bayareasportsblog.com/articles/giants-all-time-leaders-records.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-all-time-leaders-records.html</guid>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Giants</category>
+    <description>The Giants franchise records for home runs, hits, RBI, steals, wins, strikeouts and saves, from Mays and Mathewson to Robb Nen, with a fan walking the hall.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-all-time-leaders-records.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
     <title>Giants Dodgers Rivalry: Head to Head Record and Biggest Moments</title>
     <link>https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</link>
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</guid>
@@ -70,6 +79,24 @@
     <category>Sharks</category>
     <description>Your Sharks game night at SAP Center, hour by hour: Diridon and transit, parking, door times, the bag policy and what you can bring into the Shark Tank.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sap-center-guide-sharks-arena.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Sharks All Time Leaders: Marleau, Thornton and the Kid Coming for Them</title>
+    <link>https://bayareasportsblog.com/articles/sharks-all-time-leaders-records.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-all-time-leaders-records.html</guid>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Sharks</category>
+    <description>The San Jose Sharks franchise records in goals, assists, points, games and wins, and why Macklin Celebrini has one fan doing math he should not be doing.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-all-time-leaders-records.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Warriors All Time Leaders: Points, Threes, Assists and More</title>
+    <link>https://bayareasportsblog.com/articles/warriors-all-time-leaders-records.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-all-time-leaders-records.html</guid>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Who leads the Warriors all time in points, threes, assists, rebounds, steals, blocks and games? Fan answers to every franchise record question, through 2026.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-all-time-leaders-records.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Bay Area Sports Are Getting Good Again, and I Can&#39;t Stop Smiling</title>
@@ -340,33 +367,6 @@
     <category>49ers</category>
     <description>The guys who pressured Bo Nix came from a sixth round swap, a third round trade, a trade down and the practice squad. A Niners fan gives John Lynch his due.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/john-lynch-49ers-deserves-credit-pass-rush-trades.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers Offense: McCaffrey, Juszczyk and Watkins Keep the Points Coming</title>
-    <link>https://bayareasportsblog.com/articles/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.html</guid>
-    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Half the 49ers receiver room is hurt and they still scored 98 points in three games. McCaffrey, Kyle Juszczyk and Jordan Watkins, from a Niners fan.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-mccaffrey-juszczyk-watkins-shanahan-offense-injured-receivers.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Brock Purdy Is the Best Quarterback in the NFL. Check the Numbers.</title>
-    <link>https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-in-the-nfl.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/brock-purdy-best-quarterback-in-the-nfl.html</guid>
-    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Brock Purdy has the best career passer rating of any active QB and leads the league at 133.1. The Shanahan and weapons excuses are nonsense. A Niners fan&#39;s case.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/brock-purdy-best-quarterback-in-the-nfl.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Jed York Suspended Six Games and Fined $500,000 by the NFL</title>
-    <link>https://bayareasportsblog.com/articles/jed-york-suspended-six-games-fined-500000-nfl.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/jed-york-suspended-six-games-fined-500000-nfl.html</guid>
-    <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The NFL suspended 49ers owner Jed York six games and fined him $500,000 after his Ohio arrest. A Niners fan on why the punishment feels like a shrug.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/jed-york-suspended-six-games-fined-500000-nfl.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

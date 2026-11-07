@@ -26,14 +26,14 @@
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-kristaps-porzingis-retire-salary-withheld.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-all-time-leaders-records.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nhl.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sap-center-guide-sharks-arena.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sharks-all-time-leaders-records.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/49ers.html</loc>
@@ -601,6 +601,13 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-retired-numbers-every-team.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-all-time-leaders-records.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-all-time-leaders-records.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -620,6 +627,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sap-center-guide-sharks-arena.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sharks-all-time-leaders-records.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sharks-all-time-leaders-records.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-all-time-leaders-records.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-all-time-leaders-records.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</loc>

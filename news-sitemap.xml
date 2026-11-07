@@ -57,6 +57,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-all-time-leaders-records.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Giants All Time Leaders: The Franchise Record Book</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</loc>
     <news:news>
       <news:publication>
@@ -87,6 +98,28 @@
       </news:publication>
       <news:publication_date>2026-11-06</news:publication_date>
       <news:title>SAP Center Guide: Parking, Bag Policy, Doors and Getting There</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sharks-all-time-leaders-records.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Sharks All Time Leaders: Marleau, Thornton and the Kid Coming for Them</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/warriors-all-time-leaders-records.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Warriors All Time Leaders: Points, Threes, Assists and More</news:title>
     </news:news>
   </url>
   <url>
