@@ -25,7 +25,7 @@ core.TEAM_NAME, core.SPORT, core.SECTION = 'Golden State Warriors', 'Basketball'
 core.HUB_NAME, core.HUB_FILE, core.PAGE_NAME = 'Warriors', 'warriors.html', 'Warriors Injury Report'
 core.COVER_PREFIXES = ('warriors', 'stephen-curry', 'steph-curry', 'jimmy-butler', 'draymond')
 core.LIST_LABELS = {}
-core.TITLE = 'Warriors Injury Report: Who Is Out and Who Is Day to Day'
+core.TITLE = 'Warriors Injury Report Today: Who Is Out and Who Is Day to Day'
 core.DESC = ('The current Golden State Warriors injury report: every player ruled out or listed '
              'day to day, with the injury, the status and the latest update.')
 LINK = core.LINK

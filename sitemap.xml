@@ -12,7 +12,7 @@
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-brandon-aiyuk-reinstatement-meeting-13-million.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/levis-stadium-guide-parking-transit-bag-policy.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/mlb.html</loc>
@@ -114,21 +114,21 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/betting.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/about.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/contact.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -261,7 +261,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/corrections.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -296,7 +296,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/editorial-standards.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -436,7 +436,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/privacy.html</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -548,7 +548,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/daily/2026-07-07.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
@@ -561,7 +561,7 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/daily/index.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -571,6 +571,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-brandon-aiyuk-reinstatement-meeting-13-million.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-playoff-super-bowl-history.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-playoff-super-bowl-history.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/levis-stadium-guide-parking-transit-bag-policy.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/levis-stadium-guide-parking-transit-bag-policy.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</loc>

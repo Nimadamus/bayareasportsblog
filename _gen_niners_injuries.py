@@ -61,7 +61,7 @@ HUB_NAME, HUB_FILE, PAGE_NAME = '49ers', '49ers.html', '49ers Injury Report'
 COVER_PREFIXES = ('49ers', 'nick-bosa', 'brock-purdy')
 LINK = 'style="color:var(--gold);text-decoration:underline;text-underline-offset:3px"'
 
-TITLE = '49ers Injury Report: Who Is Out, Questionable and on IR'
+TITLE = '49ers Injury Report Today: Who Is Out, Questionable and on IR'
 DESC = ('The current San Francisco 49ers injury report: every player listed out, doubtful, '
         'questionable, on injured reserve or PUP, with the injury and the latest update.')
 

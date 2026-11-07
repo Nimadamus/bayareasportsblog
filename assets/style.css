@@ -614,3 +614,8 @@ a.dyn-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:
 .hub-hero h1{font-size:40px;letter-spacing:-1px;font-weight:900;line-height:1.03}
 .hub-hero p{color:var(--muted);margin-top:10px;max-width:74ch;font-size:16px}
 @media(max-width:600px){.hub-hero h1{font-size:30px}}
+.foot-pop{border-top:1px solid var(--line);padding:14px 16px;color:var(--muted);font-size:13px;line-height:1.9;text-align:center}
+.foot-pop a{color:var(--muted);text-decoration:underline}
+.foot-pop a:hover{color:#fff}
+.article table{width:100%;border-collapse:collapse;margin:0 0 22px;font-size:15px}
+.article th,.article td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left}
