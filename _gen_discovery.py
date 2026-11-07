@@ -260,6 +260,26 @@ def replace_grid(path, arts, nth=0, heading_attr='', fallback=None):
     return len(arts)
 
 
+def sync_itemlist(path, arts):
+    """A hub's ItemList has to list what the hub's grid shows, or the schema goes stale
+    (Nov 2026: 49ers.html listed 49 stories while its grid showed 91)."""
+    text = read(path)
+    for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, re.S):
+        try:
+            data = json.loads(block)
+        except ValueError:
+            continue
+        if data.get('@type') != 'ItemList':
+            continue
+        data['itemListElement'] = [
+            {'@type': 'ListItem', 'position': i,
+             'url': 'https://bayareasportsblog.com/%s' % a['file'], 'name': a['title']}
+            for i, a in enumerate(arts, 1)]
+        data['numberOfItems'] = len(arts)
+        write(path, text.replace(block, json.dumps(data, separators=(',', ':'), ensure_ascii=False), 1))
+        return
+
+
 # ---------------------------------------------------------------- index.html
 
 def lead_article(arts):
@@ -474,6 +494,7 @@ def main():
         rows = [a for a in arts if a['section'] == section]
         count = replace_grid(hub, rows, fallback=shared)
         if count:
+            sync_itemlist(hub, rows)
             print('  %-14s %d cards (section %s)' % (hub, count, section))
 
     covered = set()

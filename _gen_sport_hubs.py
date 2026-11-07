@@ -21,7 +21,7 @@ SPORTS = {
     'nfl': {
         'name': 'NFL',
         'h1': 'Bay Area NFL',
-        'title': 'Bay Area NFL | 49ers Coverage | Bay Area Sports Blog',
+        'title': '49ers Blog and Bay Area NFL News | Bay Area Sports Blog',
         'desc': "San Francisco 49ers coverage from Bay Area Sports Blog: camp, "
                 "injuries, roster moves, Purdy, and every Sunday storyline.",
         'mono': 'NFL', 'theme': 'niners',
@@ -30,7 +30,7 @@ SPORTS = {
     'mlb': {
         'name': 'MLB',
         'h1': 'Bay Area MLB',
-        'title': "Bay Area MLB | Giants and A's Coverage | Bay Area Sports Blog",
+        'title': "Giants and A's Blog: Bay Area MLB News | Bay Area Sports Blog",
         'desc': "San Francisco Giants and Athletics coverage from Bay Area Sports "
                 "Blog: every game, the trade deadline, and where both teams are going.",
         'mono': 'MLB', 'theme': 'sf',
@@ -39,7 +39,7 @@ SPORTS = {
     'nba': {
         'name': 'NBA',
         'h1': 'Bay Area NBA',
-        'title': 'Bay Area NBA | Warriors Coverage | Bay Area Sports Blog',
+        'title': 'Warriors Blog and Bay Area NBA News | Bay Area Sports Blog',
         'desc': "Golden State Warriors coverage from Bay Area Sports Blog: the "
                 "roster, the rotation, and what this era has left.",
         'mono': 'NBA', 'theme': 'gs',
@@ -48,7 +48,7 @@ SPORTS = {
     'nhl': {
         'name': 'NHL',
         'h1': 'Bay Area NHL',
-        'title': 'Bay Area NHL | Sharks Coverage | Bay Area Sports Blog',
+        'title': 'Sharks Blog and Bay Area NHL News | Bay Area Sports Blog',
         'desc': "San Jose Sharks coverage from Bay Area Sports Blog: the rebuild, "
                 "the young core, and the road back to relevance.",
         'mono': 'NHL', 'theme': 'sj',
@@ -138,12 +138,12 @@ def build_head(slug, cfg, og_image):
 <meta property="og:site_name" content="Bay Area Sports Blog">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
-<meta property="og:title" content="%(h1)s">
+<meta property="og:title" content="%(title)s">
 <meta property="og:description" content="%(desc)s">
 <meta property="og:url" content="%(url)s">
 <meta property="og:image" content="%(img)s">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="%(h1)s">
+<meta name="twitter:title" content="%(title)s">
 <meta name="twitter:description" content="%(desc)s">
 <meta name="twitter:image" content="%(img)s">
 <script type="application/ld+json">%(crumbs)s</script>

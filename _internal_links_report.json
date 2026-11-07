@@ -1,14 +1,14 @@
 {
- "links_added": 27,
- "source_articles_touched": 18,
- "targets_gaining_links": 10,
- "starved_targets_fixed": 0,
- "unique_phrase_vocabulary": 437,
+ "links_added": 68,
+ "source_articles_touched": 44,
+ "targets_gaining_links": 26,
+ "starved_targets_fixed": 4,
+ "unique_phrase_vocabulary": 707,
  "caps": {
   "max_out": 3,
   "max_in": 4
  },
- "applied": false,
+ "applied": true,
  "links": [
   {
    "from": "articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html",
@@ -27,6 +27,62 @@
    "starved_target": false
   },
   {
+   "from": "articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html",
+   "to": "articles/49ers-malik-mustapha-heat-seeking-missile-safety.html",
+   "anchor": "Malik Mustapha",
+   "phrase": "malik mustapha",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/athletics-redsox-4-2-10th-monasterio-homer-heim-butler-july-29.html",
+   "to": "articles/athletics-astros-4-3-eighth-inning-rally-jacob-lopez-august-22.html",
+   "anchor": "Jacob Lopez deserved",
+   "phrase": "jacob lopez deserved",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-guardians-8-1-bryce-eldridge-14th-homer-august-18.html",
+   "to": "articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html",
+   "anchor": "Buddy Kennedy",
+   "phrase": "buddy kennedy",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/warriors-2026-27-roster-depth-chart.html",
+   "to": "articles/warriors-kristaps-porzingis-retire-salary-withheld.html",
+   "anchor": "Kristaps Porzingis",
+   "phrase": "kristaps porzingis",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html",
+   "to": "articles/49ers-malik-mustapha-heat-seeking-missile-safety.html",
+   "anchor": "Malik Mustapha",
+   "phrase": "malik mustapha",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html",
+   "to": "articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html",
+   "anchor": "Buddy Kennedy",
+   "phrase": "buddy kennedy",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
+   "from": "articles/warriors-2026-27-season-outlook.html",
+   "to": "articles/warriors-kristaps-porzingis-retire-salary-withheld.html",
+   "anchor": "Kristaps Porzingis",
+   "phrase": "kristaps porzingis",
+   "kind": "phrase",
+   "starved_target": true
+  },
+  {
    "from": "articles/49ers-2026-roster-depth-chart.html",
    "to": "articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html",
    "anchor": "Christian McCaffrey",
@@ -39,6 +95,30 @@
    "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
    "anchor": "Demarcus Robinson",
    "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-2026-roster-depth-chart.html",
+   "to": "articles/49ers-christian-kirk-practice-window-mike-evans.html",
+   "anchor": "Mike Evans didn't",
+   "phrase": "mike evans didn't",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-2026-schedule-season-hub.html",
+   "to": "articles/49ers-christian-kirk-practice-window-mike-evans.html",
+   "anchor": "Mike Evans didn't",
+   "phrase": "mike evans didn't",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-2026-schedule-season-hub.html",
+   "to": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "anchor": "defensive line",
+   "phrase": "defensive line",
    "kind": "phrase",
    "starved_target": false
   },
@@ -60,17 +140,161 @@
   },
   {
    "from": "articles/49ers-2026-season-preview-roster-schedule-questions.html",
-   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
-   "anchor": "Raheem Morris",
-   "phrase": "raheem morris",
+   "to": "articles/49ers-christian-kirk-practice-window-mike-evans.html",
+   "anchor": "Christian Kirk",
+   "phrase": "christian kirk",
    "kind": "phrase",
    "starved_target": false
   },
   {
-   "from": "articles/49ers-deebo-samuel-returns-one-year-7-million-2026.html",
+   "from": "articles/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.html",
+   "to": "articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html",
+   "anchor": "Alfred Collins tore his patellar tendon",
+   "phrase": "alfred collins tore his patellar tendon",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.html",
+   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "anchor": "Demarcus Robinson",
+   "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-5-and-0-injuries-second-team-nfl-history-shanahan-best-job.html",
+   "to": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "anchor": "defensive line",
+   "phrase": "defensive line",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-beat-commanders-23-17-six-and-oh-1972-dolphins-watch.html",
    "to": "articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html",
    "anchor": "Christian McCaffrey",
    "phrase": "christian mccaffrey",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html",
+   "to": "articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html",
+   "anchor": "Christian McCaffrey",
+   "phrase": "christian mccaffrey",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-beat-seahawks-32-29-seattle-five-and-oh.html",
+   "to": "articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html",
+   "anchor": "Alfred Collins",
+   "phrase": "alfred collins",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-bosa-practices-everybody-on-the-field-wheels-up-australia.html",
+   "to": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "anchor": "defensive line",
+   "phrase": "defensive line",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-brandin-cooks-practice-squad-stockton.html",
+   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "anchor": "Demarcus Robinson",
+   "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-brandin-cooks-practice-squad-stockton.html",
+   "to": "articles/49ers-christian-kirk-practice-window-mike-evans.html",
+   "anchor": "Christian Kirk",
+   "phrase": "christian kirk",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-brandon-aiyuk-reinstatement-meeting-13-million.html",
+   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
+   "anchor": "Ricky Pearsall",
+   "phrase": "ricky pearsall",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-buckner-is-home-what-the-reunion-changes.html",
+   "to": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "anchor": "DeForest Buckner",
+   "phrase": "deforest buckner",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-buckner-is-home-what-the-reunion-changes.html",
+   "to": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "anchor": "defensive line",
+   "phrase": "defensive line",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-buckner-is-home-what-the-reunion-changes.html",
+   "to": "articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html",
+   "anchor": "training staff",
+   "phrase": "training staff",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html",
+   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
+   "anchor": "Demarcus Robinson",
+   "phrase": "demarcus robinson",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-cardinals-36-30-purdy-four-touchdowns-kittle-holding.html",
+   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
+   "anchor": "Ricky Pearsall",
+   "phrase": "ricky pearsall",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html",
+   "to": "articles/49ers-rams-week-1-preview-melbourne-what-to-watch.html",
+   "anchor": "Rams in Melbourne",
+   "phrase": "rams in melbourne",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-chargers-41-17-cowing-punt-return-preseason-august-20.html",
+   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "anchor": "KhaDarel Hodge",
+   "phrase": "khadarel hodge",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html",
+   "to": "articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html",
+   "anchor": "patellar tendon",
+   "phrase": "patellar tendon",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
    "kind": "phrase",
    "starved_target": false
   },
@@ -83,10 +307,106 @@
    "starved_target": false
   },
   {
-   "from": "articles/49ers-greenlaw-mccaffrey-pads-day-one-favorite-player-2026.html",
-   "to": "articles/49ers-christian-mccaffrey-contract-extension-not-practicing-bosa-august-2026.html",
-   "anchor": "Christian McCaffrey",
-   "phrase": "christian mccaffrey",
+   "from": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "to": "articles/49ers-alfred-collins-torn-patellar-tendon-out-for-season.html",
+   "anchor": "Alfred Collins tore his patellar tendon",
+   "phrase": "alfred collins tore his patellar tendon",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-defensive-line-injuries-deja-vu.html",
+   "to": "articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html",
+   "anchor": "training staff",
+   "phrase": "training staff",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "to": "articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html",
+   "anchor": "training staff",
+   "phrase": "training staff",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-dolphins-35-13-purdy-five-straight-touchdowns.html",
+   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "anchor": "KhaDarel Hodge",
+   "phrase": "khadarel hodge",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-flawless-execution-shanahan-purdy-team-to-beat-nfc.html",
+   "to": "articles/49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html",
+   "anchor": "Shanahan is coaching",
+   "phrase": "shanahan is coaching",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-garrett-wilson-trade-rumors-seahawks-quenton-nelson.html",
+   "to": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "anchor": "DeForest Buckner",
+   "phrase": "deforest buckner",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-jack-jones-released-room-for-buckner.html",
+   "to": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "anchor": "DeForest Buckner",
+   "phrase": "deforest buckner",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-jack-jones-released-room-for-buckner.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-jauan-jennings-rejects-trade-stays-vikings.html",
+   "to": "articles/49ers-deforest-buckner-trade-reunion-colts.html",
+   "anchor": "DeForest Buckner",
+   "phrase": "deforest buckner",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-jauan-jennings-rejects-trade-stays-vikings.html",
+   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
+   "anchor": "Ricky Pearsall",
+   "phrase": "ricky pearsall",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-malik-mustapha-heat-seeking-missile-safety.html",
+   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
+   "anchor": "Raheem Morris",
+   "phrase": "raheem morris",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/49ers-plus-42-best-point-differential-injury-list.html",
+   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
+   "anchor": "KhaDarel Hodge",
+   "phrase": "khadarel hodge",
    "kind": "phrase",
    "starved_target": false
   },
@@ -100,17 +420,9 @@
   },
   {
    "from": "articles/49ers-purdy-70-yard-touchdowns-unknown-receivers-camp-august-7.html",
-   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
-   "anchor": "Ricky Pearsall",
-   "phrase": "ricky pearsall",
-   "kind": "phrase",
-   "starved_target": false
-  },
-  {
-   "from": "articles/49ers-purdy-layer-king-most-competitive-practice-camp-august-6.html",
-   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
-   "anchor": "Raheem Morris",
-   "phrase": "raheem morris",
+   "to": "articles/49ers-waive-junior-bergen-jack-bouwmeester-kj-henry-corliss-waitman.html",
+   "anchor": "Junior Bergen",
+   "phrase": "junior bergen",
    "kind": "phrase",
    "starved_target": false
   },
@@ -123,18 +435,10 @@
    "starved_target": false
   },
   {
-   "from": "articles/49ers-shanahan-best-team-if-healthy-super-bowl-2026.html",
-   "to": "articles/49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html",
-   "anchor": "Ricky Pearsall",
-   "phrase": "ricky pearsall",
-   "kind": "phrase",
-   "starved_target": false
-  },
-  {
    "from": "articles/49ers-signing-spree-okoronkwo-irwin-deguara-hodge-august-2026.html",
-   "to": "articles/49ers-raheem-morris-players-love-him-just-play-football-2026.html",
-   "anchor": "Raheem Morris",
-   "phrase": "raheem morris",
+   "to": "articles/49ers-training-staff-stribling-ankle-cleared-too-soon.html",
+   "anchor": "training staff",
+   "phrase": "training staff",
    "kind": "phrase",
    "starved_target": false
   },
@@ -147,26 +451,10 @@
    "starved_target": false
   },
   {
-   "from": "articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html",
-   "to": "articles/49ers-brock-purdy-sharp-camp-demarcus-robinson-dime-end-zone-2026.html",
-   "anchor": "Demarcus Robinson",
-   "phrase": "demarcus robinson",
-   "kind": "phrase",
-   "starved_target": false
-  },
-  {
-   "from": "articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html",
-   "to": "articles/49ers-defense-purdy-saturday-shanahan-coaching-preseason-opener.html",
-   "anchor": "preseason opener",
-   "phrase": "preseason opener",
-   "kind": "phrase",
-   "starved_target": false
-  },
-  {
-   "from": "articles/49ers-veteran-young-core-mix-recent-drafts-better-2026.html",
-   "to": "articles/49ers-khadarel-hodge-veteran-receiver-signing-august-2026.html",
-   "anchor": "KhaDarel Hodge",
-   "phrase": "khadarel hodge",
+   "from": "articles/49ers-work-out-eight-defenders-defensive-line-depth.html",
+   "to": "articles/49ers-jack-jones-released-room-for-buckner.html",
+   "anchor": "cut Jack Jones",
+   "phrase": "cut jack jones",
    "kind": "phrase",
    "starved_target": false
   },
@@ -179,7 +467,7 @@
    "starved_target": false
   },
   {
-   "from": "articles/athletics-nationals-23-4-blowout-gage-jump-second-half-july-17.html",
+   "from": "articles/athletics-2027-outlook-kurtz-de-vries-injuries.html",
    "to": "articles/sutter-health-park-mlb-guide-dimensions-capacity.html",
    "anchor": "Sutter Health Park",
    "phrase": "sutter health park",
@@ -211,6 +499,38 @@
    "starved_target": false
   },
   {
+   "from": "articles/giants-blew-six-run-lead-ninth-inning-suarez-grand-slam.html",
+   "to": "articles/giants-rafael-devers-29-homers-carrying-the-offense.html",
+   "anchor": "Rafael Devers hit his 29th",
+   "phrase": "rafael devers hit his 29th",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/giants-bryce-eldridge-back-buddy-kennedy-dfa.html",
+   "to": "articles/giants-bryce-eldridge-bereavement-list.html",
+   "anchor": "bereavement list",
+   "phrase": "bereavement list",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/giants-diamondbacks-7-2-eldridge-four-hits-four-rbi-nightcap.html",
+   "to": "articles/giants-bryce-eldridge-bereavement-list.html",
+   "anchor": "bereavement list",
+   "phrase": "bereavement list",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/giants-padres-sweep-oracle-park-devers-37-webb.html",
+   "to": "articles/giants-mets-4-2-cesar-perdomo-eighth-inning-collapse.html",
+   "anchor": "Cesar Perdomo gave",
+   "phrase": "cesar perdomo gave",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
    "from": "articles/giants-rockies-7-1-logan-webb-consummate-pro-august-15.html",
    "to": "articles/giants-2026-where-the-rebuild-actually-stands.html",
    "anchor": "actually stands",
@@ -223,6 +543,14 @@
    "to": "articles/giants-2026-where-the-rebuild-actually-stands.html",
    "anchor": "actually stands",
    "phrase": "actually stands",
+   "kind": "phrase",
+   "starved_target": false
+  },
+  {
+   "from": "articles/warriors-oh-and-two-front-office-wasting-curry-final-years.html",
+   "to": "articles/warriors-georges-niang-signing-last-roster-spot.html",
+   "anchor": "Georges Niang",
+   "phrase": "georges niang",
    "kind": "phrase",
    "starved_target": false
   }
