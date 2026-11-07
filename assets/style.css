@@ -619,3 +619,4 @@ a.dyn-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:
 .foot-pop a:hover{color:#fff}
 .article table{width:100%;border-collapse:collapse;margin:0 0 22px;font-size:15px}
 .article th,.article td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left}
+@media (max-width:640px){.article table{display:block;overflow-x:auto;font-size:14px}}
