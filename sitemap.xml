@@ -19,21 +19,21 @@
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-2027-farm-system-bright-future.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dodgers-rivalry-history.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nba.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/warriors-kristaps-porzingis-retire-salary-withheld.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-playoff-super-bowl-history.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nhl.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/when-were-the-san-jose-sharks-founded.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sap-center-guide-sharks-arena.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/49ers.html</loc>
@@ -198,6 +198,13 @@
   </url>
   <url>
     <loc>https://bayareasportsblog.com/blog-7.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/blog-8.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -566,6 +573,13 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-all-time-leaders-records.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-all-time-leaders-records.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-brandon-aiyuk-reinstatement-meeting-13-million.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -580,11 +594,32 @@
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/49ers-playoff-super-bowl-history.jpg</image:loc></image:image>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/bay-area-retired-numbers-every-team.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/bay-area-retired-numbers-every-team.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/giants-dodgers-rivalry-history.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/levis-stadium-guide-parking-transit-bag-policy.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/levis-stadium-guide-parking-transit-bag-policy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sap-center-guide-sharks-arena.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/sap-center-guide-sharks-arena.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</loc>

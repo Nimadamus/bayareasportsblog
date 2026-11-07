@@ -126,3 +126,7 @@ killing a filler triad) is writing, and writing is your job.
 
 As of 24 August 2026 the whole archive sits at median 81 with nothing under 70.
 Keep it there.
+
+## 10. Every page gets its own shape, and an excited fan wrote it
+
+Permanent rule. Different templates so nothing looks redundant or recycled: pick a layout for the subject (boards, timeline, jersey grid, countdown, Q and A, rant), and never reuse the last page's section order. Everything has to read like an excited, invested fan wrote it.

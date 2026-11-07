@@ -620,3 +620,34 @@ a.dyn-card:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:
 .article table{width:100%;border-collapse:collapse;margin:0 0 22px;font-size:15px}
 .article th,.article td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left}
 @media (max-width:640px){.article table{display:block;overflow-x:auto;font-size:14px}}
+.lb-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0}
+.lb{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.lb h2{font-size:19px;margin:0 0 8px}
+.lb ol{margin:0 0 10px;padding-left:22px}
+.lb li{display:flex;justify-content:space-between;gap:10px;padding:3px 0;font-size:15px;list-style-position:outside;display:list-item}
+.lb li b{float:right;color:var(--accent2)}
+.lb-take{font-size:14px;line-height:1.5;margin:0;color:var(--muted);font-style:italic}
+.score-strip{display:flex;align-items:center;justify-content:center;gap:18px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 8px;text-align:center}
+.score-strip span{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+.score-strip b{font-family:Fraunces,serif;font-size:34px}
+.score-strip .vs{font-size:13px;color:var(--muted)}
+.strip-note{font-size:14px;color:var(--muted);text-align:center;font-style:italic}
+.tl{border-left:3px solid var(--accent2);margin:22px 0 26px 8px}
+.tl-item{display:block;padding:0 0 18px 18px;position:relative}
+.tl-year{font-family:Fraunces,serif;font-size:26px;font-weight:900;color:var(--accent2);line-height:1}
+.tl-body h2{font-size:20px;margin:4px 0 6px}
+.tl-sad .tl-year{color:var(--muted)}
+.jt{margin-top:28px}.jt small{font-size:14px;color:var(--muted);font-weight:500;margin-left:8px}
+.jersey-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px;margin:12px 0 14px}
+.jersey{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:10px 6px;text-align:center}
+.jersey b{display:block;font-family:Fraunces,serif;font-size:32px;line-height:1.05}
+.jersey span{display:block;font-size:12.5px;color:var(--muted);line-height:1.25;margin-top:3px}
+.jt.niners{color:#e0b873}.jt.giants{color:#fd8a3b}.jt.warriors{color:#ffc72c}.jt.sharks{color:#35b8c4}.jt.as{color:#7fc79a}
+.gn{margin:20px 0}
+.gn-step{display:grid;grid-template-columns:118px 1fr;gap:14px;border-top:1px solid var(--line);padding:14px 0}
+.gn-t{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.4px;color:var(--accent2);line-height:1.3}
+.gn-step h2{font-size:20px;margin:0 0 6px}
+.two-box{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
+.two-box>div{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.two-box h3{margin:0 0 8px}.two-box ul{margin:0;padding-left:18px;font-size:15px}
+@media (max-width:640px){.lb-grid,.two-box{grid-template-columns:1fr}.gn-step{grid-template-columns:1fr;gap:4px}}

@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://bayareasportsblog.com/articles/49ers-all-time-leaders-records.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>49ers All Time Leaders: Passing, Rushing, Receiving and More</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-brandon-aiyuk-reinstatement-meeting-13-million.html</loc>
     <news:news>
       <news:publication>
@@ -24,6 +35,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/bay-area-retired-numbers-every-team.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Bay Area Retired Numbers: Every Team, Every Jersey</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/bay-area-sports-young-talent-eldridge-lendeborg-purdy-stribling.html</loc>
     <news:news>
       <news:publication>
@@ -35,6 +57,17 @@
     </news:news>
   </url>
   <url>
+    <loc>https://bayareasportsblog.com/articles/giants-dodgers-rivalry-history.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>Giants Dodgers Rivalry: Head to Head Record and Biggest Moments</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://bayareasportsblog.com/articles/levis-stadium-guide-parking-transit-bag-policy.html</loc>
     <news:news>
       <news:publication>
@@ -43,6 +76,17 @@
       </news:publication>
       <news:publication_date>2026-11-06</news:publication_date>
       <news:title>Levi's Stadium Guide: Parking, Transit, Bag Policy and Tips</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/sap-center-guide-sharks-arena.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-06</news:publication_date>
+      <news:title>SAP Center Guide: Parking, Bag Policy, Doors and Getting There</news:title>
     </news:news>
   </url>
   <url>
