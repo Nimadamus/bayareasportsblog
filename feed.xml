@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sat, 07 Nov 2026 04:54:12 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 05:36:59 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>49ers All Time Leaders: Passing, Rushing, Receiving and More</title>
@@ -43,6 +43,15 @@
     <category>Bay Area</category>
     <description>Every retired number in the Bay Area: the 49ers, Giants, Warriors, Sharks and A&#39;s, who wore them, who should be next, and why the Raiders have none.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-retired-numbers-every-team.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Bay Area Stadiums and Arenas, Ranked: Every Venue Guide</title>
+    <link>https://bayareasportsblog.com/articles/bay-area-sports-venues-guide.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-area-sports-venues-guide.html</guid>
+    <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Bay Area</category>
+    <description>Every Bay Area stadium and arena ranked by a fan: Oracle Park, SAP Center, Chase Center, Levi&#39;s Stadium, Cal, Stanford and Sutter Health Park, plus the ghosts.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-sports-venues-guide.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>Giants All Time Leaders: The Franchise Record Book</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Kyle Juszczyk&#39;s knee sprain has him out two to three weeks, so the 49ers go to Seattle without the guy who makes all that backfield motion work. He&#39;ll be missed.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-kyle-juszczyk-knee-out-two-to-three-weeks-seahawks.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>John Lynch Deserves Credit for This 49ers Pass Rush</title>
-    <link>https://bayareasportsblog.com/articles/john-lynch-49ers-deserves-credit-pass-rush-trades.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/john-lynch-49ers-deserves-credit-pass-rush-trades.html</guid>
-    <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The guys who pressured Bo Nix came from a sixth round swap, a third round trade, a trade down and the practice squad. A Niners fan gives John Lynch his due.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/john-lynch-49ers-deserves-credit-pass-rush-trades.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
