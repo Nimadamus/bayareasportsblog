@@ -86,6 +86,7 @@ def card_index():
 def hub_members(hub):
     """Articles the team hub itself links, i.e. the editor's own membership."""
     s = rd(hub)
+    s = re.sub(r'<!-- foot-pop -->.*?<!-- /foot-pop -->', '', s, flags=re.S)  # footer links are not hub members
     seen, order = set(), []
     for m in CARD_RE.finditer(s):
         h = m.group(1)
