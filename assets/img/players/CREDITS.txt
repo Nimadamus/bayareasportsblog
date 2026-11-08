@@ -349,3 +349,5 @@ sap-center-guide-sharks-arena: SAP Center in San Jose (52194580276).jpg, photo b
 bay-area-sports-venues-guide: AT&T Park, San Francisco, United States (Unsplash HJpISHFSkJo).jpg, photo by Peter Feghali peterf, CC0, https://commons.wikimedia.org/wiki/File:AT%26T_Park,_San_Francisco,_United_States_(Unsplash_HJpISHFSkJo).jpg
 
 warriors-seven-straight-curry-41-magic-overtime: Stephen Curry shooting.jpg, photo by Keith Allison from Hanover, MD, USA, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Stephen_Curry_shooting.jpg
+
+49ers-raiders-battle-of-the-bay-first-time-since-vegas: Raiders vs. Niners.jpg, photo by John Martinez Pavliga, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Raiders_vs._Niners.jpg
