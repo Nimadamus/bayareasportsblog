@@ -2246,6 +2246,138 @@ dict(slug='49ers-injuries-rams-melbourne-stribling-ankle-tonges-mcl',
               ('49ers-alfred-collins-torn-patellar-tendon-out-for-season.html', '49ers',
                'Alfred Collins Tore His Patellar Tendon and the Season Just Changed')]),
 
+dict(slug='49ers-raiders-38-17-levis-five-takeaways-six-receivers-out',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers 38, Raiders 17: Five Takeaways, Six Receivers Missing',
+     h1="Six Receivers Down, the Raiders Back in the Bay, and We Still Hung 38 on Them",
+     dek="No Mike Evans. No Deebo. No Christian Kirk. No Pearsall, no Stribling, no Aiyuk. "
+         "Didn't matter. The 49ers ran the Raiders off the Levi's Stadium grass 38 to 17, "
+         "the defense took the ball away five times in one half, and we are 7 and 1.",
+     desc="49ers 38, Raiders 17 at Levi's Stadium: five second half takeaways, a Jaden "
+          "Dugger pick six, Purdy's 100th TD pass, and a win without six receivers.",
+     date='2026-11-08',
+     card=('49ers', '49ers 38, Raiders 17', 'Five takeaways, six receivers out'),
+     body=[
+      "I need a second. I've been yelling at my TV all afternoon and my voice is doing "
+      "that thing where it cracks like I'm fourteen again.",
+      "The Raiders came back to the Bay. First time since they packed up and moved to Las "
+      "Vegas, plenty of silver and black in our building, and they "
+      "left with a 38 to 17 beating and five turnovers to think about on the flight home. "
+      "That's the rivalry, folks. They can move the team. They can't move the result.",
+      "And here's the part I can't get over. Go look at who was NOT out there.",
+      "<div class=\"two-box\"><div><h3>Not in uniform</h3><ul>"
+      "<li><b>Mike Evans</b>, inactive with the Achilles and ribs</li>"
+      "<li><b>Deebo Samuel</b>, inactive with the hamstring</li>"
+      "<li><b>Christian Kirk</b>, on IR Saturday with a meniscus</li>"
+      "<li><b>Ricky Pearsall</b>, done for the year after PCL surgery</li>"
+      "<li><b>De'Zhaun Stribling</b>, still on IR after ankle surgery</li>"
+      "<li><b>Brandon Aiyuk</b>, his locker's been gone since August</li>"
+      "</ul></div><div><h3>Who actually caught the ball</h3><ul>"
+      "<li><b>Jordan Watkins</b>, 4 catches, 86 yards, first NFL touchdown</li>"
+      "<li><b>Demarcus Robinson</b>, 3 for 22 in his first game back from IR</li>"
+      "<li><b>George Kittle</b>, a 37 yard catch to set up a score</li>"
+      "<li><b>Christian McCaffrey</b>, 2 for 19 and a touchdown</li>"
+      "<li><b>KhaDarel Hodge</b>, called up from the practice squad, 17 yard grab</li>"
+      "</ul></div></div>",
+      "Six receivers you'd have penciled in back in July, gone. The 49ers announced three "
+      "of them out before the weekend and everybody I know spent Saturday saying some "
+      "version of \"well, this is the one we lose.\" We did not lose. We won by 21 and it "
+      "could've been more.",
+      "<h2>How the afternoon went</h2>",
+      "<div class=\"gn\">"
+      "<div class=\"gn-step\"><div class=\"gn-t\">1st quarter</div><div><h2>Two drives, two "
+      "touchdowns</h2><p>The opening drive goes 69 yards and McCaffrey punches it in from "
+      "the 1. Next possession goes 89 yards, Purdy hits Kittle for 37, then Purdy keeps it "
+      "himself from the 1. It's 14 to 0 before the Raiders know what "
+      "hit them.</p></div></div>"
+      "<div class=\"gn-step\"><div class=\"gn-t\">2nd quarter</div><div><h2>Purdy's 100th</h2>"
+      "<p>A 12 yard touchdown pass to McCaffrey for a 21 to 7 lead, and it was the 100th "
+      "touchdown pass of Brock Purdy's career. More on that in a minute. Halftime, 21 to "
+      "10.</p></div></div>"
+      "<div class=\"gn-step\"><div class=\"gn-t\">17 seconds in</div><div><h2>Jaden Dugger "
+      "takes it to the house</h2><p>First Raiders snap of the second half. Kirk Cousins "
+      "looks for Tre Tucker, the rookie linebacker jumps it, and he's gone. His first "
+      "career interception is a pick six. You can't write it better.</p></div></div>"
+      "<div class=\"gn-step\"><div class=\"gn-t\">Late 3rd</div><div><h2>Watkins, finally"
+      "</h2><p>Third down, Purdy throws it over the middle, and Jordan Watkins goes up in "
+      "traffic and takes it from 37 yards out. After the one they took away from him "
+      "against Atlanta, this kid earned that one twice. 35 to 17.</p></div></div>"
+      "<div class=\"gn-step\"><div class=\"gn-t\">4th quarter</div><div><h2>The defense "
+      "keeps taking</h2><p>Renardo Green picks Cousins in the end zone. Upton Stout punches "
+      "the ball out of Michael Mayer's hands at the goal line and Fred Warner falls on it. "
+      "Malik Mustapha picks off the last Raiders drive. Final, 38 to 17.</p></div></div>"
+      "</div>",
+      "<h2>Five takeaways. In one half.</h2>",
+      "We came into this game with seven takeaways in seven games. Seven. I've complained "
+      "about it on this site more than once. Then this defense goes out and grabs five "
+      "in the second half alone: three interceptions off Cousins and two fumbles. "
+      "According to the team, it's the first time the 49ers forced five turnovers in a "
+      "game since 2014, and the first time they got five in a single half since 2009.",
+      "Fred Warner punched one out of Brock Bowers' arms and Dre Greenlaw jumped on it. "
+      "Greenlaw led the team with eight tackles. Warner has five forced fumbles already "
+      "this year. And the Raiders' run game? Twenty four yards. Total. 1.6 a carry. The "
+      "fewest rushing yards this defense has allowed since 2015.",
+      "And Nick Bosa was back after missing five games. And DeForest Buckner played his "
+      "first game in a 49ers uniform since 2019, which still feels fake to type. Buckner "
+      "said afterward, \"It's like we never skipped a beat.\" Big man, we noticed.",
+      "<h2>This offense is a problem for the rest of the league</h2>",
+      "Let's talk about the scary part, because if you're a fan of any other team in the "
+      "NFC you should be scared.",
+      "This offense put up 38 without its two biggest names at receiver and four more guys "
+      "who were supposed to be in the rotation. You know what Shanahan did? He just ran the "
+      "football down their throats. 43 carries for 190 yards, a season high, and the most "
+      "rushing attempts this team has had since 2022. McCaffrey went 18 for 68 with a "
+      "touchdown on the ground and another through the air.",
+      "That receiving touchdown moved McCaffrey past Marshall Faulk for the most TD "
+      "catches by a running back in the Super Bowl era. He's also run for a touchdown in "
+      "seven straight games, which the team says is the longest single season streak by "
+      "any 49er ever. The man is 30 years old and playing like a cheat code.",
+      "And Purdy. 17 of 25 for 232 yards, two touchdown passes, 40 yards on the ground and "
+      "a rushing touchdown. That 100th touchdown pass came in his 57th career game, the "
+      "fastest anyone in franchise history has gotten there. Joe Montana needed 86. Steve "
+      "Young needed 81. I'll let that sit with the people who still call him a system "
+      "quarterback. If you want the full argument, it's on the {purdy} page.",
+      "Here's what I keep coming back to. When Evans and Deebo come back, and both are "
+      "expected back, this is what the offense gets added to it. A run game that can carry "
+      "a game by itself, a quarterback who doesn't care who's open, Kittle, McCaffrey, and "
+      "now a Watkins who looks like he belongs. Trent Williams said it best about him: "
+      "\"Jordan, his maturation is showing right in front our eyes.\"",
+      "<h2>The one that hurt</h2>",
+      "Gracen Halton got carted off in the fourth quarter, and it's a season ending left "
+      "ankle injury. The rookie scored a fumble return touchdown at Seattle back in "
+      "October, and now he's done. That one stings, and it took a little of the fun out of "
+      "the last few minutes. Renardo Green also left with a back injury and didn't come "
+      "back. Keep an eye on the {depth} this week.",
+      "<h2>So where are we</h2>",
+      "7 and 1. A fifth straight win coming off a bye. A 5 and 0 start at Levi's for the "
+      "first time since 1998. Three straight wins over the Raiders and six of the last "
+      "seven. Shanahan, of course, is not getting carried away. \"We've got a lot more "
+      "work to do before we can say that,\" he said when somebody asked if this defense "
+      "is Super Bowl good. Nick Bosa was a little less careful: \"Yeah, we have the guys "
+      "to do it.\"",
+      "I'm with Bosa.",
+      "Next up is Dallas on the road next Sunday at 1:25, then the Vikings in Mexico "
+      "City. The trade deadline is Tuesday and Shanahan said they're always looking to "
+      "upgrade. Honestly? After today I'm not sure what they'd even need. Everything week "
+      "to week is on the {sched}, the Raiders side of this is in our {raiders}, and the "
+      "rest lives on the {hub}.",
+      "The Raiders came to our house with their fans and their history. They got Jaden "
+      "Dugger, Jordan Watkins and five turnovers. Come back anytime.",
+     ],
+     links={'purdy': ('brock-purdy-career-passer-rating-where-he-ranks.html',
+                      'where Purdy actually ranks'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'raiders': ('raiders-2026-season-preview-kubiak-cousins-mendoza-jeanty.html',
+                        'Raiders season preview'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-2026-schedule-season-hub.html', '49ers',
+               '49ers 2026 Schedule and Season Hub'),
+              ('49ers-ricky-pearsall-out-for-season-pcl-surgery-2026.html', '49ers',
+               'Ricky Pearsall Is Out for the Season'),
+              ('brock-purdy-career-passer-rating-where-he-ranks.html', '49ers',
+               'Where Brock Purdy Actually Ranks Among Quarterbacks')]),
+
 ]
 
 
