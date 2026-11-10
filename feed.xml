@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Mon, 09 Nov 2026 06:59:26 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 20:05:00 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers Trade for Keenan Allen: A Sixth Round Pick to the Colts</title>
+    <link>https://bayareasportsblog.com/articles/49ers-trade-keenan-allen-colts-sixth-round-pick.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-trade-keenan-allen-colts-sixth-round-pick.html</guid>
+    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>The 49ers traded a 2027 sixth round pick to the Colts for six time Pro Bowl receiver Keenan Allen. A fan&#39;s take on the price, the fit and the injuries.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-trade-keenan-allen-colts-sixth-round-pick.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers 38, Raiders 17: Five Takeaways, Six Receivers Missing</title>
     <link>https://bayareasportsblog.com/articles/49ers-raiders-38-17-levis-five-takeaways-six-receivers-out.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>49ers vs Seahawks Week 5 preview from a Niners fan: 4 and 0, Purdy still unsacked, Bosa out, Seattle favored by 3, and why a win at Lumen Field puts us in control.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-vs-seahawks-preview-week-5-nfc-west-control.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Cowherd Calls Brock Purdy the Best QB Ever. Don&#39;t Jinx Seattle.</title>
-    <link>https://bayareasportsblog.com/articles/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.html</guid>
-    <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>Colin Cowherd once picked the 49ers third in the West. Now he calls Brock Purdy the best quarterback ever, right before the passer rating record falls in Seattle.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/colin-cowherd-brock-purdy-best-quarterback-ever-seattle.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

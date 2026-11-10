@@ -2378,6 +2378,121 @@ dict(slug='49ers-raiders-38-17-levis-five-takeaways-six-receivers-out',
               ('brock-purdy-career-passer-rating-where-he-ranks.html', '49ers',
                'Where Brock Purdy Actually Ranks Among Quarterbacks')]),
 
+dict(slug='49ers-trade-keenan-allen-colts-sixth-round-pick',
+     section='49ers', tag='49ers', hub='49ers',
+     title='49ers Trade for Keenan Allen: A Sixth Round Pick to the Colts',
+     h1="Keenan Allen Is a 49er, and All It Cost Us Was a Sixth Round Pick",
+     dek="Six Pro Bowls. 1,095 career catches. 34 years old and not what he used to be. "
+         "I don't care. Half our receiver room is hurt and John Lynch just got a pro's "
+         "pro for a 2027 sixth. Sign me up.",
+     desc="The 49ers traded a 2027 sixth round pick to the Colts for six time Pro Bowl "
+          "receiver Keenan Allen. A fan's take on the price, the fit and the injuries.",
+     date='2026-11-10',
+     card=('49ers', 'Keenan Allen Is a 49er', 'Six Pro Bowls for a sixth round pick'),
+     body=[
+      "Okay. Deep breath.",
+      "On Sunday night I sat here and typed that I wasn't sure what this team even "
+      "needed at the trade deadline. I'd like that one back, please, because John Lynch "
+      "just went out and got Keenan Allen.",
+      "Keenan. Allen. The guy who spent a decade in a Chargers uniform making cornerbacks "
+      "look silly on third down. The guy from Cal. He's ours now, and according to "
+      "multiple reports all it took was a 2027 sixth round pick going to the Colts. A "
+      "sixth! In 2027! That pick is a guy who gets cut in August. We just turned it "
+      "into one of the best route runners of his generation.",
+      "<div class=\"big-stat\">"
+      "<div><b style=\"color:var(--accent2)\">6</b><span>Pro Bowls</span></div>"
+      "<div><b style=\"color:var(--accent2)\">1,095</b><span>career catches</span></div>"
+      "<div><b style=\"color:var(--accent2)\">Rd 6</b><span>what it cost us</span></div>"
+      "</div>",
+      "<h2>Yes, I know how old he is</h2>",
+      "Let me get ahead of the comments. He's 34. He is not the 2017 version, and nobody "
+      "in Santa Clara thinks he is.",
+      "His numbers in Indianapolis this year: 40 catches, 351 yards and one touchdown in "
+      "eight games, four of them starts. That's 8.8 yards a catch, the lowest of his "
+      "career. A year ago with the Chargers he still caught 81 balls. This year, on a "
+      "Colts team going nowhere and selling off everything that isn't bolted down, it's "
+      "been a whole lot of five yard outs.",
+      "So is he a little washed? Kind of, yeah. I'm a fan, not a liar. He isn't running "
+      "by anybody anymore.",
+      "But here's the thing. He never really ran by anybody. Keenan Allen's whole career "
+      "is being open by two steps on third and 6 because he sold the corner something "
+      "that wasn't there. That doesn't age the way speed does. And 40 catches in eight "
+      "games is five a game, from a 34 year old, on a bad offense. I'll take five catches "
+      "a game right now. Honestly I'd take three.",
+      "<h2>Have you seen our receiver room?</h2>",
+      "Because that's what this is really about. Ricky Pearsall is done for the year "
+      "after PCL surgery. Christian Kirk just went on IR with a meniscus. De'Zhaun "
+      "Stribling has been on IR with the ankle since Week 1 and they're targeting "
+      "December. Mike Evans has missed two straight with the Achilles and the ribs and "
+      "sounds questionable at best for this week. Deebo has missed three with the "
+      "hamstring, though he might be back Sunday. And Brandon Aiyuk is not walking "
+      "through that door.",
+      "We just beat the Raiders 38 to 17 with Jordan Watkins, Demarcus Robinson in his "
+      "first game back, and a guy called up from the practice squad. I loved every "
+      "second of it. I also know you can't live like that until January.",
+      "And don't forget, Lynch already tried this once. Nine days ago he went after "
+      "Jauan Jennings, and {jennings}. So he got back on the phone, called the same "
+      "Colts front office that sent us {buckner} for a fourth round pick, and came away "
+      "with a six time Pro Bowler for even less. Indianapolis is having a garage sale "
+      "and we keep showing up early.",
+      "<h2>Stuff you're probably wondering</h2>",
+      "<div class=\"qa-card\"><h2>What did it actually cost?</h2>"
+      "<div class=\"qa-a\"><b>Rd 6</b><span>one 2027 draft pick</span></div>"
+      "<p>That's the whole price, per the reports. Allen is on a one year deal worth "
+      "$3.32 million that he signed with the Colts in August, and he's a free agent "
+      "after the season. No long term anything. If it doesn't work, we lost a pick we "
+      "would've forgotten we owned.</p></div>"
+      "<div class=\"qa-card\"><h2>When does he play?</h2>"
+      "<div class=\"qa-a\"><b>Sunday</b><span>at Dallas, 1:25 Pacific</span></div>"
+      "<p>This is the funny part. Allen played the Cowboys LAST Sunday. He caught six "
+      "passes for 32 yards for the Colts in a loss to Dallas, and now he gets them again "
+      "seven days later in a different uniform at AT&amp;T Stadium. Two weeks, two "
+      "teams, same opponent. Whether he's got enough of Shanahan's playbook down by "
+      "then to play more than a handful of snaps, I have no idea. That offense is not "
+      "something you pick up on a flight. But the man has 1,095 catches. He'll figure "
+      "out where to stand.</p></div>"
+      "<div class=\"qa-card\"><h2>Where does he fit when everybody's healthy?</h2>"
+      "<div class=\"qa-a\"><b>3rd down</b><span>that's the job</span></div>"
+      "<p>If Evans and Deebo come back, Allen isn't the first option and he doesn't "
+      "need to be. He's the guy Brock Purdy looks at on third and 5 when Kittle is "
+      "doubled. Purdy throws on time to a spot. Allen has made a career out of being at "
+      "the spot. I think those two are going to like each other a lot.</p></div>"
+      "<div class=\"qa-card\"><h2>Wait, isn't he a Bay Area guy?</h2>"
+      "<div class=\"qa-a\"><b>Cal</b><span>2010 to 2012</span></div>"
+      "<p>He is. Allen played his college ball in Berkeley and left with the school "
+      "record for catches, 205 of them. The Chargers took him in the third round in "
+      "2013, pick 76, and he's still that franchise's all time leader in receptions. So "
+      "call it a homecoming. And to be straight with you, he was arrested in "
+      "Indianapolis in August on misdemeanor DWI charges, and that case hasn't gone "
+      "away. It's part of the story and I'm not going to pretend it isn't.</p></div>",
+      "<h2>This is what a contender does</h2>",
+      "We're 7 and 1. Purdy is playing like an MVP. The defense just took the ball away "
+      "five times in one half. This is not the year to sit on your hands and hope the "
+      "hamstrings heal. This is the year you go grab every useful veteran who wants a "
+      "ring, and the word is Allen wanted out of Indy so he could chase one.",
+      "Is he going to put up 1,200 yards? No. Is he going to catch a third and 7 in "
+      "January that keeps a drive alive while somebody younger and faster is standing "
+      "on the sideline in street clothes? I'd bet a sixth round pick on it.",
+      "Oh wait. We already did.",
+      "Welcome home, Keenan. The receiver room is on the {depth}, who's hurt this week "
+      "is on the {injury}, Dallas week is on the {sched}, and everything else lives on "
+      "the {hub}.",
+     ],
+     links={'jennings': ('49ers-jauan-jennings-rejects-trade-stays-vikings.html',
+                         'he said no and stayed in Minnesota'),
+            'buckner': ('49ers-buckner-is-home-what-the-reunion-changes.html',
+                        'DeForest Buckner'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'injury': ('49ers-injury-report.html', 'injury report'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-jauan-jennings-rejects-trade-stays-vikings.html', '49ers',
+               'Jauan Jennings Said No to Coming Home. That One Stings.'),
+              ('49ers-buckner-is-home-what-the-reunion-changes.html', '49ers',
+               "He's Home. DeForest Buckner Is a 49er Again, and the Front Just Changed."),
+              ('49ers-raiders-38-17-levis-five-takeaways-six-receivers-out.html', '49ers',
+               '49ers 38, Raiders 17: Five Takeaways, Six Receivers Missing')]),
+
 ]
 
 
