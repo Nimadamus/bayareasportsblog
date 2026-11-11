@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Tue, 10 Nov 2026 20:05:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 21:09:49 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Brandon Aiyuk Next Team: Rams, Chiefs or Seahawks?</title>
+    <link>https://bayareasportsblog.com/articles/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.html</guid>
+    <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Brandon Aiyuk is reinstated and the 49ers are expected to release him. A fan looks at the Rams, Chiefs and Seahawks, and the practice squad road back.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>49ers Trade for Keenan Allen: A Sixth Round Pick to the Colts</title>
     <link>https://bayareasportsblog.com/articles/49ers-trade-keenan-allen-colts-sixth-round-pick.html</link>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The 49ers released Matt Judon and activated Mykel Williams off PUP. Number 98 plays Sunday at Seattle, his first game since the ACL. A Niners fan on why it matters.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-cut-matt-judon-activate-mykel-williams-seahawks.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers vs Seahawks Preview: Win in Seattle and the NFC West Is Ours</title>
-    <link>https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-vs-seahawks-preview-week-5-nfc-west-control.html</guid>
-    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>49ers vs Seahawks Week 5 preview from a Niners fan: 4 and 0, Purdy still unsacked, Bosa out, Seattle favored by 3, and why a win at Lumen Field puts us in control.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-vs-seahawks-preview-week-5-nfc-west-control.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

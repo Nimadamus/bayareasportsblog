@@ -2,28 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-raiders-38-17-levis-five-takeaways-six-receivers-out.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-08</news:publication_date>
-      <news:title>49ers 38, Raiders 17: Five Takeaways, Six Receivers Missing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-raiders-battle-of-the-bay-first-time-since-vegas.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-08</news:publication_date>
-      <news:title>Niners vs. Raiders Is Back in the Bay, and It Still Means Something</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/49ers-trade-keenan-allen-colts-sixth-round-pick.html</loc>
     <news:news>
       <news:publication>
@@ -35,14 +13,14 @@
     </news:news>
   </url>
   <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-seven-straight-curry-41-magic-overtime.html</loc>
+    <loc>https://bayareasportsblog.com/articles/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-11-08</news:publication_date>
-      <news:title>Steph Curry Drops 41 in Overtime, and the Warriors Have Won Seven Straight</news:title>
+      <news:publication_date>2026-11-11</news:publication_date>
+      <news:title>Brandon Aiyuk Next Team: Rams, Chiefs or Seahawks?</news:title>
     </news:news>
   </url>
 </urlset>

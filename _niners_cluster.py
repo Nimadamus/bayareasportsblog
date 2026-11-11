@@ -2493,6 +2493,134 @@ dict(slug='49ers-trade-keenan-allen-colts-sixth-round-pick',
               ('49ers-raiders-38-17-levis-five-takeaways-six-receivers-out.html', '49ers',
                '49ers 38, Raiders 17: Five Takeaways, Six Receivers Missing')]),
 
+dict(slug='brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad',
+     section='49ers', tag='49ers', hub='49ers',
+     title='Brandon Aiyuk Next Team: Rams, Chiefs or Seahawks?',
+     h1="Brandon Aiyuk in a Rams Helmet? A Chiefs One? Seattle? Oh, This Could Get Spicy.",
+     dek="He's reinstated, the Niners have until November 23 to cut him loose, and the "
+         "three landing spots that scare me most are all still sitting on our schedule. "
+         "I can't stop looking at the dates.",
+     desc="Brandon Aiyuk is reinstated and the 49ers are expected to release him. A fan "
+          "looks at the Rams, Chiefs and Seahawks, and the practice squad road back.",
+     date='2026-11-11',
+     card=('49ers', 'Aiyuk Next Stop', 'Rams, Chiefs or Seattle'),
+     body=[
+      "My buddy Dave texted me one word Monday night. Seattle. Then a skull.",
+      "I knew exactly what he meant, and I've been a little bit sick and a little bit "
+      "giddy ever since, which is a combination I didn't know I had in me.",
+      "Quick catch up. The league reinstated Brandon Aiyuk on Monday and handed "
+      "the Niners a two week roster exemption, which is a polite way of saying there's a "
+      "clock on this now. It runs out November 23. The trade deadline came and went on "
+      "Tuesday, so nobody's sending us a pick for him. He either goes on our 53 or he "
+      "gets cut.",
+      "He's not going on our 53. Kyle said the reinstatement \"means absolutely nothing "
+      "to our team,\" and after the year those two have had, that might be the warmest "
+      "thing he's said about it.",
+      "Which means that sometime in the next 12 days, a 28 year old receiver who went for "
+      "1,342 yards and made second team All-Pro in 2023 is going to be free to sign with "
+      "anybody he wants. Anybody! And I made the mistake of pulling up our schedule.",
+      "<h2>Three dates I can't stop staring at</h2>",
+      "Let me be straight about what's real here. The Rams talk has actual legs. The "
+      "Chiefs get mentioned right alongside them as a place a receiver could go rebuild "
+      "his name fast. Seattle is mostly me and Dave scaring each other. But all three "
+      "make football sense, and all three still have to play us.",
+      "<div class=\"plaques\">"
+      "<div class=\"plaque\"><div class=\"pl-n\">Nov 29</div>"
+      "<div class=\"pl-w\">Seahawks at Levi's</div>"
+      "<div class=\"pl-p\">The one that keeps me up</div>"
+      "<p>Seattle's 5 and 4 and chasing us. We beat them 32 to 29 up there in October "
+      "and I aged a year doing it. They come to Santa Clara six days after that "
+      "exemption runs out. Six days! Nobody's tied him to Seattle yet, I want that on "
+      "the record. But picture number 11 jogging out of the visitors tunnel in that "
+      "highlighter green, knowing every check and every signal Kyle's got.</p></div>"
+      "<div class=\"plaque\"><div class=\"pl-n\">Dec 13</div>"
+      "<div class=\"pl-w\">Rams at Levi's</div>"
+      "<div class=\"pl-p\">The one that makes the most sense</div>"
+      "<p>Puka Nacua is headed to injured reserve with a sprained MCL and PCL plus turf "
+      "toe. Davante Adams was already on IR with the hamstring. Their top three right "
+      "now are Konata Mumpfield, Tutu Atwell and Jordan Whittington, and they didn't "
+      "make a move at the deadline. They're 5 and 4 and McVay needs a body who can win "
+      "outside. I hate how clean this fit is.</p></div>"
+      "<div class=\"plaque\"><div class=\"pl-n\">Dec 27</div>"
+      "<div class=\"pl-w\">49ers at Chiefs, Arrowhead</div>"
+      "<div class=\"pl-p\">The one that would be the cruelest</div>"
+      "<p>His knee went against Kansas City. October 20, 2024, and he hasn't played a "
+      "football game since. Now imagine his first big one back is for them, against us, "
+      "two days after Christmas. The Chiefs are 6 and 2 and they clearly aren't happy "
+      "with their receivers, because they just traded for Josh Downs with Xavier Worthy "
+      "nursing a hamstring and Tyquan Thornton on IR. Andy Reid with a motivated Aiyuk "
+      "and a month to draw stuff up. No thank you.</p></div>"
+      "</div>",
+      "<h2>He's not walking in as anybody's number one</h2>",
+      "This is the part people are skipping. Whoever gets him isn't handing him a "
+      "starting job on a Wednesday. The road back almost certainly starts on a practice "
+      "squad, and it probably goes like this.",
+      "<ul class=\"timeline\">"
+      "<li><span class=\"yr\">First</span><span class=\"tl-body\"><strong>The Niners let "
+      "him go.</strong> Because the deadline's passed, he goes through waivers before he's "
+      "a free agent. Nobody's claiming what's left of a four year, $120 million contract, "
+      "so he clears.</span></li>"
+      "<li><span class=\"yr\">Then</span><span class=\"tl-body\"><strong>Somebody stashes "
+      "him.</strong> Practice squad. No draft pick, hardly any money, no risk. The word "
+      "going around is at least one NFC team has already talked about doing exactly "
+      "this.</span></li>"
+      "<li><span class=\"yr\">Next</span><span class=\"tl-body\"><strong>Game day call "
+      "ups.</strong> A team can bump a practice squad guy up three times before it has to "
+      "clear a real roster spot for him. That's three Sundays to find out what he's "
+      "got.</span></li>"
+      "<li><span class=\"yr\">Last</span><span class=\"tl-body\"><strong>The 53.</strong> "
+      "If the legs are there, he's on an active roster by December. Look at those three "
+      "dates again.</span></li>"
+      "</ul>",
+      "And I get why it has to be that way. It's been more than two years since he "
+      "played in a game. He says he's back to 100 percent, he passed his physical, and "
+      "Drew Rosenhaus is out there saying \"I definitely expect him to play this season "
+      "and there is interest in him.\" Fine. Passing a physical and getting off press "
+      "coverage in December are different sports.",
+      "<h2>Okay, the boring answer</h2>",
+      "I'm a fan, not a liar, so I'll say it. The favorite is probably none of my three. "
+      "Rosenhaus guessed his guy lands with a team that already knows him, from college "
+      "or from his time here, and that points pretty hard at Washington. Jayden Daniels "
+      "was his quarterback at Arizona State. Their GM, Adam Peters, was in our building "
+      "when we drafted him. And this summer he was out there saying Go Commanders "
+      "for the whole world to see.",
+      "We already played Washington. Beat them 23 to 17 on a Monday night. If that's "
+      "where he ends up, we probably don't see him again unless it's January, and "
+      "honestly? I could live with that. It's the tidy ending.",
+      "I just don't trust tidy with this guy. Nothing about the last two years has been "
+      "tidy. The $13 million the league says he owes us still isn't settled, and "
+      "Rosenhaus keeps saying that fight is separate from where he plays. So the money "
+      "drags on in one room while he's running routes for somebody else in another.",
+      "<h2>Do I actually want this?</h2>",
+      "Kind of. Is that awful?",
+      "I spent a whole summer in 2024 defending him to people at work. I've still got "
+      "the jersey, it's in the hall closet behind the vacuum, and I haven't been able to "
+      "throw it out or put it on. Some part of me wants him to be great again, because "
+      "the guy who toasted half the league in 2023 was one of my favorite players "
+      "we've had since Kyle got here. I just want him great in the other conference, "
+      "on a Thursday, when I'm not watching.",
+      "And we're fine, by the way. We're 7 and 1. We just went and got {allen}. Nobody "
+      "in that locker room is losing sleep over this.",
+      "I am, though. I'm supposed to be thinking about Dallas on Sunday and instead I'm "
+      "refreshing the transaction wire like it owes me money. If it says Seattle, Dave "
+      "is never going to let me hear the end of it.",
+      "How we got here is in {meeting}. The rest of the season is on the {sched}, the "
+      "receiver room is on the {depth}, and everything else lives on the {hub}.",
+     ],
+     links={'allen': ('49ers-trade-keenan-allen-colts-sixth-round-pick.html',
+                      'Keenan Allen for a sixth round pick'),
+            'meeting': ('49ers-brandon-aiyuk-reinstatement-meeting-13-million.html',
+                        'the day he showed up in Santa Clara with his agent'),
+            'depth': ('49ers-2026-roster-depth-chart.html', 'depth chart'),
+            'sched': ('49ers-2026-schedule-season-hub.html', 'schedule hub'),
+            'hub': ('../49ers.html', '49ers hub')},
+     related=[('49ers-brandon-aiyuk-reinstatement-meeting-13-million.html', '49ers',
+               "Brandon Aiyuk Showed Up. He Still Won't Say He Wants to Be a 49er."),
+              ('49ers-trade-keenan-allen-colts-sixth-round-pick.html', '49ers',
+               'Keenan Allen Is a 49er, and All It Cost Us Was a Sixth Round Pick'),
+              ('brandon-aiyuk-antonio-brown-49ers.html', '49ers',
+               "Brandon Aiyuk Has Gone Full Antonio Brown, and It's Hard to Watch")]),
+
 ]
 
 
