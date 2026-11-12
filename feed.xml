@@ -6,7 +6,7 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 11 Nov 2026 21:09:49 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 07:16:42 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Brandon Aiyuk Next Team: Rams, Chiefs or Seahawks?</title>
@@ -16,6 +16,15 @@
     <category>49ers</category>
     <description>Brandon Aiyuk is reinstated and the 49ers are expected to release him. A fan looks at the Rams, Chiefs and Seahawks, and the practice squad road back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.jpg" type="image/jpeg" length="0"/>
+  </item>
+  <item>
+    <title>Steph Grabs His Side, the Streak Dies in Houston, and Now We Wait on an MRI</title>
+    <link>https://bayareasportsblog.com/articles/warriors-streak-ends-rockets-steph-curry-abdominal-mri.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-streak-ends-rockets-steph-curry-abdominal-mri.html</guid>
+    <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Steph Curry left five minutes in with right abdominal soreness, Houston snapped the Warriors&#39; eight game win streak 115 to 108, and Kerr says concern is high.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-streak-ends-rockets-steph-curry-abdominal-mri.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
     <title>49ers Trade for Keenan Allen: A Sixth Round Pick to the Colts</title>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>Seven turnovers, a Greenlaw ejection, Deebo hurt and the 12th man screaming, and the 49ers still beat the champs 32 to 29 at Lumen Field. A Niners fan exhales.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-beat-seahawks-32-29-seattle-five-and-oh.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>49ers Cut Matt Judon and Activate Mykel Williams for Seattle</title>
-    <link>https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-cut-matt-judon-activate-mykel-williams-seahawks.html</guid>
-    <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers released Matt Judon and activated Mykel Williams off PUP. Number 98 plays Sunday at Seattle, his first game since the ACL. A Niners fan on why it matters.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-cut-matt-judon-activate-mykel-williams-seahawks.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
