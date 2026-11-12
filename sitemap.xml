@@ -139,6 +139,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-andre-iguodala.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/andre-iguodala.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/barry-bonds.html</loc>
@@ -146,6 +147,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-barry-bonds.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/barry-bonds.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/bay-area-hall-of-fame.html</loc>
@@ -160,6 +162,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-bill-walsh.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/bill-walsh.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/blog-2.html</loc>
@@ -223,6 +226,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-brian-wilson.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/brian-wilson.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/bruce-bochy.html</loc>
@@ -230,6 +234,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-bruce-bochy.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/bruce-bochy.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/bryant-young.html</loc>
@@ -237,6 +242,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-bryant-young.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/bryant-young.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/buster-posey.html</loc>
@@ -244,6 +250,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-buster-posey.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/buster-posey.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/catfish-hunter.html</loc>
@@ -251,6 +258,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-catfish-hunter.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/catfish-hunter.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/charles-haley.html</loc>
@@ -258,6 +266,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-charles-haley.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/charles-haley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/chris-mullin.html</loc>
@@ -265,6 +274,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-chris-mullin.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/chris-mullin.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/corrections.html</loc>
@@ -279,6 +289,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-dennis-eckersley.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/dennis-eckersley.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/draymond-green.html</loc>
@@ -286,6 +297,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-draymond-green.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/draymond-green.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/dwight-clark.html</loc>
@@ -293,6 +305,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-dwight-clark.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/dwight-clark.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/dynasties.html</loc>
@@ -314,6 +327,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-frank-gore.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/frank-gore.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/howie-long.html</loc>
@@ -321,6 +335,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-howie-long.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/howie-long.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/hunter-pence.html</loc>
@@ -328,6 +343,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-hunter-pence.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/hunter-pence.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/jerry-rice.html</loc>
@@ -335,6 +351,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-jerry-rice.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/jerry-rice.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/jim-otto.html</loc>
@@ -342,6 +359,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-jim-otto.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/jim-otto.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/joe-montana.html</loc>
@@ -349,6 +367,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-joe-montana.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/joe-montana.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/joe-pavelski.html</loc>
@@ -356,6 +375,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-joe-pavelski.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/joe-pavelski.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/joe-thornton.html</loc>
@@ -363,6 +383,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-joe-thornton.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/joe-thornton.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/juan-marichal.html</loc>
@@ -370,6 +391,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-juan-marichal.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/juan-marichal.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/ken-stabler.html</loc>
@@ -377,6 +399,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-ken-stabler.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/ken-stabler.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/klay-thompson.html</loc>
@@ -384,6 +407,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-klay-thompson.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/klay-thompson.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/madison-bumgarner.html</loc>
@@ -391,6 +415,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-madison-bumgarner.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/madison-bumgarner.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/matt-cain.html</loc>
@@ -398,6 +423,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-matt-cain.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/matt-cain.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/matt-williams.html</loc>
@@ -405,6 +431,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-matt-williams.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/matt-williams.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/nate-thurmond.html</loc>
@@ -412,6 +439,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-nate-thurmond.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/nate-thurmond.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/orlando-cepeda.html</loc>
@@ -419,6 +447,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-orlando-cepeda.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/orlando-cepeda.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/pablo-sandoval.html</loc>
@@ -426,6 +455,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-pablo-sandoval.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/pablo-sandoval.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/patrick-marleau.html</loc>
@@ -433,6 +463,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-patrick-marleau.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/patrick-marleau.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/patrick-willis.html</loc>
@@ -440,6 +471,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-patrick-willis.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/patrick-willis.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/privacy.html</loc>
@@ -454,6 +486,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-reggie-jackson.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/reggie-jackson.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/rick-barry.html</loc>
@@ -461,6 +494,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-rick-barry.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/rick-barry.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/rickey-henderson.html</loc>
@@ -468,6 +502,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-rickey-henderson.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/rickey-henderson.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/robb-nen.html</loc>
@@ -475,6 +510,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-robb-nen.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/robb-nen.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/roger-craig.html</loc>
@@ -482,6 +518,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-roger-craig.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/roger-craig.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/ronnie-lott.html</loc>
@@ -489,6 +526,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-ronnie-lott.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/ronnie-lott.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/stephen-curry.html</loc>
@@ -496,6 +534,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-stephen-curry.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/stephen-curry.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/steve-young.html</loc>
@@ -503,6 +542,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-steve-young.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/steve-young.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/tim-brown.html</loc>
@@ -510,6 +550,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-tim-brown.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/tim-brown.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/tim-hardaway.html</loc>
@@ -517,6 +558,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-tim-hardaway.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/tim-hardaway.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/tim-lincecum.html</loc>
@@ -524,6 +566,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-tim-lincecum.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/tim-lincecum.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/timeline.html</loc>
@@ -538,6 +581,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-will-clark.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/will-clark.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/willie-mays.html</loc>
@@ -545,6 +589,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-willie-mays.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/willie-mays.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/willie-mccovey.html</loc>
@@ -552,6 +597,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-willie-mccovey.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/willie-mccovey.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://bayareasportsblog.com/daily/2026-07-07.html</loc>
@@ -2622,5 +2668,29 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/welcome-to-bay-area-sports-blog.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/duane-kuiper.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-duane-kuiper.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/duane-kuiper.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/mike-krukow.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-mike-krukow.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/mike-krukow.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/jon-miller.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/cards/hof-jon-miller.jpg</image:loc></image:image>
+    <image:image><image:loc>https://bayareasportsblog.com/assets/img/players/hof/jon-miller.jpg</image:loc></image:image>
   </url>
 </urlset>

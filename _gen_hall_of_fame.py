@@ -235,6 +235,11 @@ iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
 .gal figcaption a{color:inherit;text-decoration:underline}
 .gal.one{grid-template-columns:minmax(0,680px)}
 .gal.one img{height:auto}
+.calls{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.call{background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:22px 22px 18px}
+.call q{display:block;font-family:var(--display);font-style:italic;font-weight:900;font-size:clamp(22px,2.4vw,30px);line-height:1.15;color:var(--text)}
+.call p{font-size:15.5px;line-height:1.6;color:#d9d5c8;margin:12px 0 0}
+@media(max-width:700px){.calls{grid-template-columns:1fr}}
 .quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .hq{margin:0;background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:24px 24px 20px}
 .hq p{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.45;color:var(--text);margin:0}
@@ -447,7 +452,9 @@ def faq_items(d, team):
     if d.get("bay_years"):
         noun = {"left field": "left fielder", "center field": "center fielder", "right field": "right fielder",
                 "first base": "first baseman", "second base": "second baseman", "third base": "third baseman"}.get(pos, pos)
-        if noun in ("manager", "head coach"):
+        if "broadcast" in noun:
+            role = " in the broadcast booth"
+        elif noun in ("manager", "head coach"):
             role = f" as {noun}"
         elif noun:
             role = f", playing {noun}" if " and " in noun else f" as {'an' if noun[0] in 'aeiou' else 'a'} {noun}"
@@ -466,6 +473,7 @@ def faq_items(d, team):
     if d.get("numbers"):
         nums = d["numbers"]
         items.append((f"What number did {name} wear?",
+                      f"{name} wore number {nums} as a Giants player." if "broadcast" in pos else
                       f"{name} {'wears' if active else 'wore'} number{'s' if ',' in nums else ''} {nums}."))
     if d.get("tiles"):
         lc = lambda x: x[0].lower() + x[1:] if len(x) > 1 and x[1].islower() else x
@@ -476,7 +484,7 @@ def faq_items(d, team):
     if d.get("clutch_moments"):
         ms = d["clutch_moments"][:3]
         items.append((f"What are some of {last}'s biggest moments?",
-                      "; ".join(f"{m['headline']} ({fmt_date(m['date'])})" for m in ms) + ". Every one is in the Clutch Moments section above."))
+                      "; ".join(f"{m['headline']} ({fmt_date(m['date'])})" for m in ms) + ". Every one is in the " + ("Calls We'll Never Forget" if "broadcast" in pos else "Clutch Moments") + " section above."))
     return items
 
 
@@ -590,7 +598,11 @@ def player_page(d, prev, nxt, players=()):
     quotes = list(d["quotes"])
     pull = quotes.pop(0) if len(quotes) > 2 else None
     side = f'<aside class="hof-aside pull">{hq(pull)}</aside>' if pull else ""
-    secs.append(chapter(nxtnum(), "Under Pressure", "Why He Was Clutch",
+    bc = "broadcast" in (d.get("position") or "").lower()
+    if d.get("calls"):
+        cl = "".join(f'<li class="call"><q>{e(c["call"])}</q><p>{e(c.get("context"))}</p></li>' for c in d["calls"])
+        secs.append(chapter(nxtnum(), "On the Air", "The Signature Calls", f'<ol class="calls">{cl}</ol>'))
+    secs.append(chapter(nxtnum(), "Why the Bay Loves Him" if bc else "Under Pressure", "Why We Love Him" if bc else "Why He Was Clutch",
                         '<div class="hof-two"><div class="hof-body">' + "".join(f"<p>{e(x)}</p>" for x in d["why_clutch"]) + "</div>" + side + "</div>"))
     used = set()
     items = []
@@ -603,7 +615,7 @@ def player_page(d, prev, nxt, players=()):
         paras = m["text"] if isinstance(m["text"], list) else [m["text"]]
         items.append(f'<li class="moment"><div class="m-date">{e(fmt_date(m["date"]))}</div><div>'
                      f'<h3>{e(m["headline"])}</h3>' + "".join(f"<p>{e(x)}</p>" for x in paras) + vid + "</div></li>")
-    secs.append(chapter(nxtnum(), "The Big Moments", "Clutch Moments", f'<ol class="moments">{"".join(items)}</ol>'))
+    secs.append(chapter(nxtnum(), "The Big Moments", "The Calls We'll Never Forget" if bc else "Clutch Moments", f'<ol class="moments">{"".join(items)}</ol>'))
     rest = [v for v in d.get("videos", []) if v["id"] not in used]
     if rest:
         vids = "".join(f'<figure>{yt(v, v.get("title", ""))}<figcaption>{e(v.get("title"))} &middot; {e(v.get("channel"))}</figcaption></figure>' for v in rest)
@@ -611,26 +623,27 @@ def player_page(d, prev, nxt, players=()):
     qs = "".join(hq(q) for q in quotes)
     secs.append(chapter(nxtnum(), "In Their Words", f"What They Said About {name.split()[-1]}", f'<div class="quotes">{qs}</div>'))
 
-    st = d["stats"]
-    bay = set(st.get("bay_teams", []))
-    ti = st["columns"].index("Team") if "Team" in st["columns"] else 1
-    th = "".join(f'<th scope="col">{e(c)}</th>' for c in st["columns"])
-    rows = "".join(f'<tr{" class=bay" if r[ti] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in st["rows"])
-    if st.get("career"):
-        rows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in st["career"]) + "</tr>"
-    grp = st.get("label") or ("batting" if st.get("group") == "hitting" else "pitching")
-    stats = (f'<div class="stats-wrap"><table class="stats"><caption class="sr-only" style="position:absolute;left:-9999px">{e(name)} career {grp} stats by season</caption>'
-             f'<thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>'
-             f'<p class="stats-note">{e(st.get("note") or "Regular season. Highlighted rows are his Bay Area seasons.")} Scroll the table sideways on a phone.</p>')
-    for extra in st.get("extra_tables", []):
-        xth = "".join(f'<th scope="col">{e(c)}</th>' for c in extra["columns"])
-        xi = extra["columns"].index("Team") if "Team" in extra["columns"] else 1
-        xrows = "".join(f'<tr{" class=bay" if len(r) > xi and r[xi] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in extra["rows"])
-        if extra.get("career"):
-            xrows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in extra["career"]) + "</tr>"
-        stats += (f'<h3 class="ch-k" style="margin:30px 0 12px">{e(extra["title"])}</h3><div class="stats-wrap"><table class="stats">'
-                  f'<thead><tr>{xth}</tr></thead><tbody>{xrows}</tbody></table></div>')
-    secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
+    st = d.get("stats")
+    if st:
+        bay = set(st.get("bay_teams", []))
+        ti = st["columns"].index("Team") if "Team" in st["columns"] else 1
+        th = "".join(f'<th scope="col">{e(c)}</th>' for c in st["columns"])
+        rows = "".join(f'<tr{" class=bay" if r[ti] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in st["rows"])
+        if st.get("career"):
+            rows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in st["career"]) + "</tr>"
+        grp = st.get("label") or ("batting" if st.get("group") == "hitting" else "pitching")
+        stats = (f'<div class="stats-wrap"><table class="stats"><caption class="sr-only" style="position:absolute;left:-9999px">{e(name)} career {grp} stats by season</caption>'
+                 f'<thead><tr>{th}</tr></thead><tbody>{rows}</tbody></table></div>'
+                 f'<p class="stats-note">{e(st.get("note") or "Regular season. Highlighted rows are his Bay Area seasons.")} Scroll the table sideways on a phone.</p>')
+        for extra in st.get("extra_tables", []):
+            xth = "".join(f'<th scope="col">{e(c)}</th>' for c in extra["columns"])
+            xi = extra["columns"].index("Team") if "Team" in extra["columns"] else 1
+            xrows = "".join(f'<tr{" class=bay" if len(r) > xi and r[xi] in bay else ""}>' + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in extra["rows"])
+            if extra.get("career"):
+                xrows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in extra["career"]) + "</tr>"
+            stats += (f'<h3 class="ch-k" style="margin:30px 0 12px">{e(extra["title"])}</h3><div class="stats-wrap"><table class="stats">'
+                      f'<thead><tr>{xth}</tr></thead><tbody>{xrows}</tbody></table></div>')
+        secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
     if faq:
         secs.append(chapter(nxtnum(), "Quick Answers", f"{name}: Fast Facts", faq_html(faq)))
     rel = ""

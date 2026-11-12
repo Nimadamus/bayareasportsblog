@@ -85,6 +85,11 @@ iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
 .gal figcaption a{color:inherit;text-decoration:underline}
 .gal.one{grid-template-columns:minmax(0,680px)}
 .gal.one img{height:auto}
+.calls{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.call{background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:22px 22px 18px}
+.call q{display:block;font-family:var(--display);font-style:italic;font-weight:900;font-size:clamp(22px,2.4vw,30px);line-height:1.15;color:var(--text)}
+.call p{font-size:15.5px;line-height:1.6;color:#d9d5c8;margin:12px 0 0}
+@media(max-width:700px){.calls{grid-template-columns:1fr}}
 .quotes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .hq{margin:0;background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:24px 24px 20px}
 .hq p{font-family:var(--display);font-style:italic;font-size:21px;line-height:1.45;color:var(--text);margin:0}
@@ -173,7 +178,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
 
 <div class="desk-top" role="region" aria-label="Today and quick links">
   <div class="wrap">
-    <div><b class="dt-live" data-dt="live">Wednesday, November 11, 2026</b> &middot; San Francisco</div><script>(function(){var e=document.querySelectorAll('[data-dt="live"]'),t=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"});for(var i=0;i<e.length;i++)e[i].textContent=t})()</script>
+    <div><b class="dt-live" data-dt="live">Thursday, November 12, 2026</b> &middot; San Francisco</div><script>(function(){var e=document.querySelectorAll('[data-dt="live"]'),t=new Date().toLocaleDateString("en-US",{timeZone:"America/Los_Angeles",weekday:"long",month:"long",day:"numeric",year:"numeric"});for(var i=0;i<e.length;i++)e[i].textContent=t})()</script>
     <div class="dt-r" role="navigation" aria-label="Quick links">
       <a href="blog.html">Latest</a>
       <a href="columns.html">Columns</a>
@@ -345,7 +350,7 @@ table.stats tr.car td{font-weight:800;color:var(--text);border-top:2px solid var
           <div class="pl-b"><span class="pl-yr">Power Forward &middot; 2012 to present</span><h3>Draymond Green</h3></div>
         </a></div></div>
     <p style="margin-top:22px"><a class="sh-all" href="bay-area-hall-of-fame.html">Every Bay Area Hall of Famer</a></p>
-    <h3 class="ch-k" style="margin-top:34px">Keep reading</h3><div class="hof-rel"><a href="articles/flashback-klay-37-point-quarter.html">Flashback: The Night Klay Thompson Scored 37 in a Single Quarter</a><a href="articles/warriors-championship-history.html">From Rick Barry to the Splash Brothers: Warriors Championship History</a><a href="articles/warriors-73-9-best-record-ever-added-durant.html">73-9: The Best Regular Season Ever, and Then the Warriors Added Kevin Durant</a><a href="articles/oracle-arena-roaracle-history-oakland-warriors.html">Oracle Arena: How a 1966 Concrete Drum Became Roaracle, and What Is In It Now</a></div>
+    <h3 class="ch-k" style="margin-top:34px">Keep reading</h3><div class="hof-rel"><a href="articles/flashback-klay-37-point-quarter.html">Flashback: The Night Klay Thompson Scored 37 in a Single Quarter</a><a href="articles/warriors-championship-history.html">Warriors Championship History: All Seven Titles, From Philadelphia to the Splash Brothers</a><a href="articles/warriors-73-9-best-record-ever-added-durant.html">73-9: The Best Regular Season Ever, and Then the Warriors Added Kevin Durant</a><a href="articles/oracle-arena-roaracle-history-oakland-warriors.html">Oracle Arena: How a 1966 Concrete Drum Became Roaracle, and What Is In It Now</a></div>
   </div>
 </section>
 </main>
