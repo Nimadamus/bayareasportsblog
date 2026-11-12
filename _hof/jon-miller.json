@@ -305,5 +305,48 @@
   "https://commons.wikimedia.org/wiki/File:Dave_Flemming,_Duane_Kuiper,_Jon_Miller,_and_Mike_Krukow_at_the_2012_GIants_victory_parade.jpg",
   "https://commons.wikimedia.org/wiki/File:Jon_Miller_and_Mike_Krukow_at_2012_Giants_victory_parade.jpg"
  ],
- "verified_on": "2026-11-12"
+ "verified_on": "2026-11-12",
+ "broadcast_years": "1974 to present (Giants since 1997)",
+ "broadcast_career": [
+  {
+   "years": "1974",
+   "where": "Oakland A's",
+   "what": "His first big league job, calling A's games at 22. Gone after one season."
+  },
+  {
+   "years": "1974 to 1980",
+   "where": "Soccer and college hoops",
+   "what": "Washington Diplomats soccer, the 1976 NASL title game on CBS, then USF and Pacific basketball."
+  },
+  {
+   "years": "1978 to 1979",
+   "where": "Texas Rangers",
+   "what": "Back in baseball for good."
+  },
+  {
+   "years": "1980 to 1982",
+   "where": "Boston Red Sox",
+   "what": "Three seasons in Fenway."
+  },
+  {
+   "years": "1983 to 1996",
+   "where": "Baltimore Orioles",
+   "what": "Radio play by play. Called the last out of the 1983 World Series in his first year and Cal Ripken's 2,131st straight game in 1995."
+  },
+  {
+   "years": "1986 to 1989",
+   "where": "NBC",
+   "what": "Backup play by play on the Saturday Game of the Week."
+  },
+  {
+   "years": "1990 to 2010",
+   "where": "ESPN",
+   "what": "The first voice of Sunday Night Baseball, 21 seasons with Joe Morgan, plus World Series calls on ESPN Radio."
+  },
+  {
+   "years": "1997 to present",
+   "where": "San Francisco Giants",
+   "what": "Came home to replace Hank Greenwald. KNBR radio, with TV on KTVU from 1997 to 2007 and NBC Bay Area from 2008 to 2021. 2026 was season number 30."
+  }
+ ]
 }

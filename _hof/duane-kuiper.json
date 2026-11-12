@@ -44,6 +44,17 @@
  },
  "gallery": [
   {
+   "file": "assets/img/players/hof/gallery/duane-kuiper-booth.jpg",
+   "w": 1400,
+   "h": 605,
+   "alt": "The Giants TV and KNBR radio broadcast booths at AT&T Park during a game",
+   "caption": "Kruk and Kuip's home office: the booths above the field at AT&T Park, KNBR 680 sign and all.",
+   "pos": "center 40%",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Mike_Krukow_%5E_Duane_Kuiper_AT%5ET_Park_-_panoramio.jpg",
+   "author": "Panoramio user 6952727",
+   "license": "CC BY-SA 3.0"
+  },
+  {
    "file": "assets/img/players/hof/gallery/duane-kuiper-1.jpg",
    "w": 1000,
    "h": 750,
@@ -603,5 +614,50 @@
   "https://commons.wikimedia.org/wiki/File:Kruk_and_Kuip_(5143435397).jpg",
   "https://commons.wikimedia.org/wiki/File:Duane_Kuiper_1983.jpg"
  ],
- "verified_on": "2026-11-12"
+ "verified_on": "2026-11-12",
+ "playing_photos": [
+  {
+   "file": "assets/img/players/hof/playing/duane-kuiper-1983.jpg",
+   "w": 624,
+   "h": 986,
+   "alt": "Duane Kuiper in the Giants home uniform at Candlestick Park in 1983, glove on his left hand",
+   "caption": "Kuip in the Candlestick whites, 1983, wearing number 18.",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Duane_Kuiper_1983.jpg",
+   "author": "Barry Colla",
+   "license": "Public domain"
+  }
+ ],
+ "broadcast_years": "1986 to 1992 and 1994 to present (Giants), 1993 (Rockies)",
+ "broadcast_career": [
+  {
+   "years": "1982 to 1985",
+   "where": "KNBR 680",
+   "what": "Hosted his own Giants radio show while he was still playing second base for the club."
+  },
+  {
+   "years": "1986 to 1992",
+   "where": "San Francisco Giants",
+   "what": "Went straight from the bench to the booth after his release, calling Giants games."
+  },
+  {
+   "years": "1993",
+   "where": "Colorado Rockies",
+   "what": "One season as a voice of the expansion Rockies, when it looked like the Giants might leave town."
+  },
+  {
+   "years": "1994 to present",
+   "where": "San Francisco Giants",
+   "what": "Back home for good, mostly on TV play by play (now NBC Sports Bay Area) plus KNBR radio. Kruk went full time beside him the same year."
+  },
+  {
+   "years": "2021",
+   "where": "San Francisco Giants",
+   "what": "Missed a chunk of the season for chemotherapy and walked back into the booth in July without telling Kruk."
+  },
+  {
+   "years": "2026",
+   "where": "San Francisco Giants",
+   "what": "Announced a throat cancer diagnosis on September 20, made it back for Kruk's farewell on September 27, and says he's coming back in 2027."
+  }
+ ]
 }

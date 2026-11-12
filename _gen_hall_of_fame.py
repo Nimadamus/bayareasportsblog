@@ -235,6 +235,21 @@ iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
 .gal figcaption a{color:inherit;text-decoration:underline}
 .gal.one{grid-template-columns:minmax(0,680px)}
 .gal.one img{height:auto}
+.bc{list-style:none;margin:0;padding:0;border-left:3px solid var(--th)}
+.bc-row{display:grid;grid-template-columns:170px minmax(0,1fr);gap:22px;padding:14px 0 14px 22px;border-bottom:1px solid var(--rule)}
+.bc-yr{font-family:var(--display);font-style:italic;font-weight:900;font-size:22px;line-height:1.1;color:var(--th)}
+.bc-row h3{font-family:var(--display);font-size:20px;font-weight:700;margin:0 0 4px;text-transform:none}
+.bc-row p{font-size:16px;line-height:1.6;color:#d9d5c8;margin:0}
+.pd{display:grid;grid-template-columns:280px minmax(0,1fr);gap:30px;align-items:start}
+.pd-pics{display:grid;gap:18px}
+.pd-pics figure{margin:0;border:1px solid var(--rule2);background:#000}
+.pd-pics img{display:block;width:100%;height:auto}
+.pd-pics figcaption{font-size:12.5px;line-height:1.45;color:var(--dim);padding:8px 10px}
+.pd-strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;background:var(--rule2);border:1px solid var(--rule2);margin:10px 0 22px}
+.pd-strip div{background:var(--paper);padding:14px 10px;text-align:center}
+.pd-strip b{display:block;font-family:var(--display);font-style:italic;font-weight:900;font-size:30px;line-height:1;color:var(--th)}
+.pd-strip span{display:block;font-family:var(--cond);font-size:11px;letter-spacing:.14em;color:var(--muted);margin-top:6px}
+@media(max-width:800px){.pd{grid-template-columns:1fr}.pd-pics{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}.pd-strip{grid-template-columns:repeat(3,minmax(0,1fr))}.bc-row{grid-template-columns:1fr;gap:4px}}
 .calls{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .call{background:var(--paper);border:1px solid var(--rule2);border-top:3px solid var(--th);padding:22px 22px 18px}
 .call q{display:block;font-family:var(--display);font-style:italic;font-weight:900;font-size:clamp(22px,2.4vw,30px);line-height:1.15;color:var(--text)}
@@ -574,7 +589,7 @@ def player_page(d, prev, nxt, players=()):
 
     glance = "".join(f"<dt>{k}</dt><dd>{e(v)}</dd>" for k, v in [
         ("Team", d.get("team")), ("Position", d.get("position")), ("Years", d.get("bay_years")),
-        ("Number", d.get("numbers"))] if v)
+        ("Broadcast years", d.get("broadcast_years")), ("Number", d.get("numbers"))] if v)
     aside = (f'<aside class="hof-aside"><h3>At a Glance</h3><dl>{glance}</dl><h3>Honors and Records</h3><ul>'
              + "".join(f"<li>{e(h)}</li>" for h in d["honors"]) + "</ul></aside>")
     secs.append(chapter(nxtnum(), "The Story", f"The {name} Story",
@@ -582,6 +597,10 @@ def player_page(d, prev, nxt, players=()):
     if d.get("our_take"):
         secs.append(chapter(nxtnum(), "From the Stands", "What He Meant to Us",
                             '<div class="hof-body">' + "".join(f"<p>{e(x)}</p>" for x in d["our_take"]) + "</div>"))
+    play_at = len(secs)
+    if d.get("broadcast_career"):
+        bci = "".join(f'<li class="bc-row"><div class="bc-yr">{e(b["years"])}</div><div><h3>{e(b["where"])}</h3><p>{e(b["what"])}</p></div></li>' for b in d["broadcast_career"])
+        secs.append(chapter(nxtnum(), "On the Air", "The Broadcast Career", f'<ol class="bc">{bci}</ol>', d.get("broadcast_years") or ""))
     if d.get("gallery"):
         figs = []
         for g in d["gallery"]:
@@ -643,9 +662,23 @@ def player_page(d, prev, nxt, players=()):
                 xrows += '<tr class="car">' + "".join(f"<td>{e(c)}</td>" for c in extra["career"]) + "</tr>"
             stats += (f'<h3 class="ch-k" style="margin:30px 0 12px">{e(extra["title"])}</h3><div class="stats-wrap"><table class="stats">'
                       f'<thead><tr>{xth}</tr></thead><tbody>{xrows}</tbody></table></div>')
-        secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
+        if d.get("playing_photos"):
+            car = dict(zip(st["columns"], st.get("career") or []))
+            keys = ["W", "L", "ERA", "IP", "SO", "CG"] if st.get("group") == "pitching" else ["G", "H", "AVG", "HR", "RBI", "SB"]
+            strip = "".join(f'<div><b>{e(car[k])}</b><span>{e(k)}</span></div>' for k in keys if car.get(k))
+            pics = "".join(f'<figure><img src="{e(g["file"])}" alt="{e(g.get("alt"))}" width="{g.get("w")}" height="{g.get("h")}" loading="lazy" decoding="async">'
+                           f'<figcaption>{e(g.get("caption"))} Photo: {e(g.get("author"))}, <a href="{e(g["commons_page"])}" rel="nofollow noopener" target="_blank">{e(g.get("license"))}</a>, via Wikimedia Commons.</figcaption></figure>'
+                           for g in d["playing_photos"])
+            yrs = f'{st["rows"][0][0]} to {st["rows"][-1][0]}' if st.get("rows") else ""
+            body = (f'<div class="pd"><div class="pd-pics">{pics}</div><div class="pd-main"><div class="ch-k">Big league career{", " + e(yrs) if yrs else ""}</div>'
+                    f'<div class="pd-strip">{strip}</div>{stats}</div></div>')
+            secs.insert(play_at, chapter("00", "The Playing Days", "Career Player Stats", body))
+        else:
+            secs.append(chapter(nxtnum(), "By the Numbers", "Career Stats", stats))
     if faq:
         secs.append(chapter(nxtnum(), "Quick Answers", f"{name}: Fast Facts", faq_html(faq)))
+    for i in range(len(secs)):
+        secs[i] = re.sub(r'<div class="ch-num">\d+</div>', f'<div class="ch-num">{i + 1:02d}</div>', secs[i], count=1)
     rel = ""
     if d.get("related_articles"):
         links = []
