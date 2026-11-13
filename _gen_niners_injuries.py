@@ -66,7 +66,7 @@ TEAM_ABBR = 'SF'
 LEAGUE = 'nfl'
 CARD_ALT = ''
 CARD_ALTS = {'raiders': 'Raiders fans in costume in the stands at a home game',
-             'giants': 'Oracle Park at dusk with the bay behind the outfield',
+             'giants': 'Giants fans watching a night game at Oracle Park',
              'athletics': "Brent Rooker of the A's in the outfield at the Oakland Coliseum",
              'sharks': 'The Sharks warming up on the ice at SAP Center before a playoff game',
              'hub': 'San Francisco and the Golden Gate Bridge from the Marin Headlands'}
