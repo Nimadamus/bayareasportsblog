@@ -51,6 +51,7 @@ jobs:
           python _trust_schema.py             2>&1 | tee -a refresh.log
           python _footer_links.py             2>&1 | tee -a refresh.log
           python _nav_injuries.py             2>&1 | tee -a refresh.log
+          python tools/injury_autolink.py     2>&1 | tee -a refresh.log
           grep -h 'FEED FAILED' refresh.log | sed 's/^/::warning::/' || true
       - name: Commit if anything changed
         run: |
