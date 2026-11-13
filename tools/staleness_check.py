@@ -60,7 +60,7 @@ def main():
                     problems.append('index.html live module uses a relative day word')
                     break
 
-    for page in ('articles/49ers-injury-report.html', 'articles/warriors-injury-report.html'):
+    for page in ['articles/%s-injury-report.html' % k for k in ('49ers', 'warriors', 'raiders', 'giants', 'athletics', 'sharks', 'bay-area')]:
         inj = read(page, live)
         m = re.search(r'<b>Updated ([A-Z][a-z]{2}, [A-Z][a-z]{2} \d+),', inj)
         if not m or m.group(1) != short_day:

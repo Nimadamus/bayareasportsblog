@@ -70,16 +70,18 @@ def article(now, nxt, rows, cover):
 
   <h2>How to read it</h2>
   <p><b>Out</b> means he will not play in the next game. <b>Day to day</b> means the injury is minor enough that the call gets made close to tip off, and on game day the league report turns that into <b>questionable</b>, <b>doubtful</b> or <b>probable</b>. The NBA has no injured reserve, so a long injury simply stays on the report as out.</p>
-  <p>You will not find return dates here unless the team has announced one. Estimated timelines are guesses, and we do not print guesses as news. The same goes for practice participation: if the feed does not report it, we do not make it up.</p>
+%(backnote)s
 
   <h2>Where the numbers come from</h2>
   <p>Status and injury come from the league injury report as published through ESPN, read automatically. Nothing in the tables is typed in by hand. See our <a href="../editorial-standards.html" %(link)s>editorial standards</a> and <a href="../corrections.html" %(link)s>corrections policy</a>.</p>
 
 %(recent)s  <p>For who plays when somebody sits, see the <a href="warriors-2026-27-roster-depth-chart.html" %(link)s>Warriors depth chart</a> and our <a href="warriors-2026-27-projected-rotation.html" %(link)s>projected rotation</a>. Every game and result is on the <a href="warriors-2026-27-schedule-season-hub.html" %(link)s>Warriors schedule page</a>, and the long view of the roster is in the <a href="warriors-2026-27-season-outlook.html" %(link)s>season outlook</a>.</p>
 
+%(siblings)s
   <p style="margin-top:30px;color:var(--muted);font-size:15px">More coverage: <a href="../warriors.html" style="color:var(--accent2);font-weight:700">Warriors</a> &middot; <a href="../nba.html" style="color:var(--accent2);font-weight:700">NBA</a></p>
 </article>''' % {'upd': day(now), 'slug': core.SLUG, 'region': region(rows, now, nxt, cover),
-                 'recent': recent_block, 'link': LINK})
+                 'recent': recent_block, 'link': LINK,
+                 'backnote': core.BACKNOTE, 'siblings': core.siblings()})
 
 
 core.region = region

@@ -185,6 +185,7 @@ KEYPAGES = {
     'giants.html': [
         ('This season', [('giants-2026-season-hub-results-coverage', '2026 season results'),
                          ('giants-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('giants-injury-report', 'Injury report'),
                          ('giants-2027-farm-system-bright-future', 'The farm system and 2027')]),
         ('Players', [('bryce-eldridge-giants-future-franchise-first-baseman-july-2026', 'Bryce Eldridge'),
                      ('josuar-gonzalez-giants-top-prospect-18-year-old-shortstop', 'Josuar Gonzalez'),
@@ -199,6 +200,7 @@ KEYPAGES = {
     ],
     'athletics.html': [
         ('This season', [('athletics-2026-roster-depth-chart', 'Roster and depth chart'),
+                         ('athletics-injury-report', 'Injury report'),
                          ('athletics-2027-outlook-kurtz-de-vries-injuries', 'Looking ahead to 2027')]),
         ('The move', [('athletics-oakland-sacramento-las-vegas-timeline', 'Oakland to Las Vegas timeline'),
                       ('sutter-health-park-mlb-guide-dimensions-capacity', 'Sutter Health Park guide')]),
@@ -208,7 +210,8 @@ KEYPAGES = {
     ],
     'sharks.html': [
         ('This season', [('sharks-2026-27-schedule-season-hub', '2026-27 schedule'),
-                         ('sharks-2026-27-roster-depth-chart', 'Roster and depth chart')]),
+                         ('sharks-2026-27-roster-depth-chart', 'Roster and depth chart'),
+                         ('sharks-injury-report', 'Injury report')]),
         ('Players', [('macklin-celebrini-sharks-records-contract', 'Macklin Celebrini by the numbers')]),
         ('History', [('when-were-the-san-jose-sharks-founded', 'How the Sharks were founded'),
                      ('sharks-playoff-history', 'Playoff history'),

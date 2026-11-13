@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-trade-keenan-allen-colts-sixth-round-pick.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-10</news:publication_date>
-      <news:title>49ers Trade for Keenan Allen: A Sixth Round Pick to the Colts</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.html</loc>
     <news:news>
       <news:publication>

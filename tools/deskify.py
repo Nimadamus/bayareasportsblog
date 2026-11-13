@@ -45,7 +45,7 @@ def masthead(page):
              ('gs', 'warriors.html', 'Warriors'), ('sf', 'giants.html', 'Giants'),
              ('as', 'athletics.html', "A's"), ('sj', 'sharks.html', 'Sharks'),
              ('lv', 'bayarea.html', 'Bay Area')]
-    tail = [('house', 'history.html', 'History'), ('house', 'bay-area-hall-of-fame.html', 'Hall of Fame'), ('house', 'dynasties.html', 'Dynasties'),
+    tail = [('house', 'history.html', 'History'), ('house', 'bay-area-hall-of-fame.html', 'Hall of Fame'), ('house', 'articles/bay-area-injury-report.html', 'Injuries'), ('house', 'dynasties.html', 'Dynasties'),
             ('house', 'timeline.html', 'Timeline'), ('house', 'blog.html', 'Blog')]
 
     def link(t, h, l):

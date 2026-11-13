@@ -323,6 +323,10 @@ def lead_block(art):
 
 
 def do_index(arts, fallback=None):
+    # The injury reports are living reference pages, refreshed several times a day. They
+    # are reached from the nav, the footer and the team hubs, and they never take the lead,
+    # the Rundown or the Latest grid away from the columns.
+    arts = [a for a in arts if not a['slug'].endswith('injury-report')]
     text = read('index.html')
     lead, kept = lead_article(arts)
 

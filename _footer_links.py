@@ -12,6 +12,7 @@ import glob, os, re
 ROOT = os.path.dirname(os.path.abspath(__file__))
 MARK = re.compile(r'<!-- foot-pop -->.*?<!-- /foot-pop -->\r?\n?', re.S)
 LINKS = [
+    ('bay-area-injury-report.html', 'Bay Area Injury Report'),
     ('49ers-injury-report.html', '49ers Injury Report'),
     ('warriors-injury-report.html', 'Warriors Injury Report'),
     ('49ers-2026-schedule-season-hub.html', '49ers Schedule'),

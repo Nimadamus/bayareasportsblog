@@ -2,7 +2,8 @@ name: Daily live refresh
 
 # Keeps every date and score on the static pages true without anyone touching them:
 # masthead dates, the homepage wire and scoreboard, the team hub status strips, the 49ers
-# and Warriors schedule tables, and the article schema shape. All values come from the
+# and Warriors schedule tables, the injury reports for every Bay Area team (plus the
+# all teams page), and the article schema shape. All values come from the
 # MLB and ESPN feeds. No secrets are needed: the feeds are public and the push uses the
 # built in GITHUB_TOKEN with the contents: write permission granted below.
 #
@@ -44,9 +45,12 @@ jobs:
           python _gen_warriors_hub.py         2>&1 | tee -a refresh.log || echo "::warning::Warriors schedule refresh failed" | tee -a refresh.log
           python _gen_niners_injuries.py      2>&1 | tee -a refresh.log || echo "::warning::49ers injury report refresh failed" | tee -a refresh.log
           python _gen_warriors_injuries.py    2>&1 | tee -a refresh.log || echo "::warning::Warriors injury report refresh failed" | tee -a refresh.log
+          python _gen_team_injuries.py raiders giants athletics sharks 2>&1 | tee -a refresh.log || echo "::warning::Raiders/Giants/A's/Sharks injury report refresh failed" | tee -a refresh.log
+          python _gen_injury_hub.py           2>&1 | tee -a refresh.log || echo "::warning::Bay Area injury hub refresh failed" | tee -a refresh.log
           python _gen_purdy_stats.py          2>&1 | tee -a refresh.log || echo "::warning::Purdy stats refresh failed" | tee -a refresh.log
           python _trust_schema.py             2>&1 | tee -a refresh.log
           python _footer_links.py             2>&1 | tee -a refresh.log
+          python _nav_injuries.py             2>&1 | tee -a refresh.log
           grep -h 'FEED FAILED' refresh.log | sed 's/^/::warning::/' || true
       - name: Commit if anything changed
         run: |

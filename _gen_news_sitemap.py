@@ -30,6 +30,8 @@ def main():
     cutoff = today - datetime.timedelta(days=2)
     rows = []
     for f in sorted(glob.glob('articles/*.html')):
+        if f.endswith('injury-report.html'):   # living reference pages, not news
+            continue
         s = rd(f)
         m = re.search(r'"datePublished":"(\d{4}-\d{2}-\d{2})"', s)
         if not m:
