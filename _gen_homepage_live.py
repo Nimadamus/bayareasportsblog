@@ -213,6 +213,8 @@ def when(date_str):
 def articles():
     out = []
     for path in glob.glob(os.path.join(ROOT, 'articles', '*.html')):
+        if path.endswith('injury-report.html'):   # living reference pages, not wire items
+            continue
         t = open(path, encoding='utf-8').read()
 
         def grab(pattern):

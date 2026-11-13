@@ -1,0 +1,57 @@
+name: Injury report refresh
+
+# Keeps the injury reports (49ers, Raiders, Warriors, Giants, A's, Sharks and the all teams
+# page) current between the three daily refreshes. Every 30 minutes it rebuilds the reports
+# from the league feeds and commits ONLY when a table row changed (a new injury, a status
+# change, a new timeline). A run that finds nothing new commits nothing, so the site does
+# not rebuild for a timestamp. When something changed it also refreshes the sitemap
+# lastmod for those pages and pings IndexNow (Bing and friends; Google reads the sitemap).
+#
+# A feed failure leaves that page exactly as it was (see _gen_niners_injuries.py), and an
+# empty pull on a page that had players is treated as a failure, never as a healed roster.
+on:
+  schedule:
+    - cron: '5,35 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh          # same group as the daily refresh, so two runs never race a push
+  cancel-in-progress: false
+
+jobs:
+  injuries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild injury reports
+        run: |
+          python _gen_niners_injuries.py   || echo "::warning::49ers injury feed failed"
+          python _gen_warriors_injuries.py || echo "::warning::Warriors injury feed failed"
+          python _gen_team_injuries.py raiders giants athletics sharks || echo "::warning::Raiders/Giants/A's/Sharks injury feed failed"
+          python _gen_injury_hub.py
+      - name: Commit only real changes
+        run: |
+          changed=$(python tools/injury_changed.py)
+          if [ -z "$changed" ]; then
+            echo "no injury changes"
+            git checkout -- .
+            exit 0
+          fi
+          echo "$changed"
+          python _gen_sitemap.py
+          git config user.name "bay-area-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git config core.autocrlf input
+          git add -A
+          git commit -m "Injury report update"
+          git pull --rebase origin master
+          git push origin HEAD:master
+          sleep 90   # let Pages publish before telling the engines
+          python tools/indexnow_ping.py $changed || echo "::warning::IndexNow ping failed"

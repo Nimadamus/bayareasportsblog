@@ -399,7 +399,68 @@ def siblings():
     return '  <h2>Every Bay Area injury report</h2>\n  <p>%s</p>\n' % links
 
 
-def build_head(template, now):
+def team_short():
+    return PAGE_NAME.replace(' Injury Report', '')
+
+
+def ordered(rows):
+    """Game status first (out, doubtful, questionable, day to day), then the longer lists."""
+    rank = {'Out': 0, 'Doubtful': 1, 'Questionable': 2, 'Day-To-Day': 3, 'Day to day': 3, 'Probable': 4}
+    live = [r for r in rows if r['status'] != 'Active']
+    return sorted(live, key=lambda r: (rank.get(r.get('game') or r['status'], 5), -r['when'].timestamp()))
+
+
+def names(rs, n):
+    shown = ['%s (%s)' % (r['name'], (r.get('game') or r['status']).replace('Day-To-Day', 'day to day').lower()) for r in rs[:n]]
+    more = len(rs) - len(shown)
+    if more > 0:
+        shown.append('%d more' % more)
+    return ', '.join(shown[:-1]) + (' and ' if len(shown) > 1 else '') + shown[-1] if shown else ''
+
+
+def desc_for(rows, now):
+    """Search snippet that changes with the report: the date plus the first names on it."""
+    rs = ordered(rows)
+    if not rs:
+        return '%s injury report for %s: nobody is on the report right now. Refreshed through the day.' % (team_short(), day(now))
+    return ('%s injury report for %s: %s, with each injury, the status and when he is expected back.'
+            % (team_short(), day(now), names(rs, 2)))
+
+
+def faq(rows, now):
+    """Plain questions people search, answered from the current report (visible + FAQPage)."""
+    team = team_short()
+    live = [r for r in rows if r['status'] != 'Active']
+    out = [r for r in ordered(live) if (r.get('game') or r['status']) in ('Out', 'Injured Reserve', 'Doubtful')]
+    maybe = [r for r in ordered(live) if (r.get('game') or r['status']) in ('Questionable', 'Probable', 'Day-To-Day', 'Day to day')]
+    qa = []
+    if out:
+        qa.append(('Who is out for the %s right now?' % team,
+                   'As of %s: %s.' % (day(now), names(out, 8))))
+    else:
+        qa.append(('Who is out for the %s right now?' % team,
+                   'As of %s, nobody on the %s is ruled out or on a reserve list.' % (day(now), team)))
+    if maybe:
+        qa.append(('Who is questionable or day to day for the %s?' % team,
+                   'As of %s: %s.' % (day(now), names(maybe, 8))))
+    no_date = ('No timeline yet', 'Questionable', 'Doubtful', 'Probable', 'Day to day', 'Out next game', 'Available', 'Cleared')
+    keyed = [r for r in sorted(live, key=lambda r: -r['when'].timestamp()) if r.get('back') and r['back'] not in no_date][:4]
+    for r in keyed:
+        qa.append(('When is %s expected back?' % r['name'],
+                   '%s. He is listed as %s (%s), last updated %s.' % (
+                       r['back'], (r.get('game') or r['status']).replace('Day-To-Day', 'day to day').lower(),
+                       (r['injury'] or 'injury not disclosed').lower(), day(r['when']))))
+    body = ''.join('  <h3>%s</h3>\n  <p>%s</p>\n' % (html.escape(q), html.escape(a)) for q, a in qa)
+    block = '<!-- faq:start -->\n  <h2>Quick answers</h2>\n%s<!-- faq:end -->\n' % body
+    schema = {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
+        {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in qa]}
+    return block, schema
+
+
+def build_head(template, now, rows=None, faq_schema=None):
+    global DESC
+    if rows is not None:
+        DESC = desc_for(rows, now)
     url = BASE + 'articles/' + SLUG + '.html'
     img = BASE + 'assets/img/cards/' + SLUG + '.jpg'
     t = template
@@ -416,7 +477,7 @@ def build_head(template, now):
     art = {'@context': 'https://schema.org', '@type': 'Article', 'headline': TITLE, 'image': img,
            'author': {'@type': 'Organization', 'name': 'Bay Area Sports Blog', 'url': BASE + 'about.html'},
            'publisher': {'@type': 'Organization', 'name': 'Bay Area Sports Blog', 'url': BASE},
-           'description': DESC, 'datePublished': PUBLISHED, 'dateModified': now.date().isoformat(),
+           'description': DESC, 'datePublished': PUBLISHED, 'dateModified': now.isoformat(timespec='minutes'),
            'mainEntityOfPage': {'@type': 'WebPage', '@id': url}, 'url': url, 'articleSection': SECTION,
            'about': {'@type': 'SportsTeam', 'name': TEAM_NAME, 'sport': SPORT}}
     crumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
@@ -426,6 +487,15 @@ def build_head(template, now):
     blocks = re.findall(r'<script type="application/ld\+json">.*?</script>', t, re.S)
     t = t.replace(blocks[0], '<script type="application/ld+json">%s</script>' % json.dumps(art, ensure_ascii=False, separators=(',', ':')), 1)
     t = t.replace(blocks[1], '<script type="application/ld+json">%s</script>' % json.dumps(crumbs, ensure_ascii=False, separators=(',', ':')), 1)
+    t = re.sub(r'<script type="application/ld\+json">\{"@context":"https://schema.org","@type":"FAQPage".*?</script>\r?\n?', '', t, flags=re.S)
+    if faq_schema:
+        crumb_tag = '<script type="application/ld+json">%s</script>' % json.dumps(crumbs, ensure_ascii=False, separators=(',', ':'))
+        t = t.replace(crumb_tag, crumb_tag + '\n<script type="application/ld+json">%s</script>' % json.dumps(faq_schema, ensure_ascii=False, separators=(',', ':')), 1)
+    mod = '<meta property="article:modified_time" content="%s">' % now.isoformat(timespec='minutes')
+    if 'property="article:modified_time"' in t:
+        t = re.sub(r'<meta property="article:modified_time" content="[^"]*">', mod, t)
+    else:
+        t = re.sub(r'(<meta property="og:url" content="[^"]*">)', lambda m: m.group(1) + '\n' + mod, t, count=1)
     return t
 
 
@@ -440,11 +510,18 @@ def main():
     except Exception as exc:
         print('FEED FAILED (%s), page left as is' % exc.__class__.__name__)
         sys.exit(1)
+    base = open(PAGE if os.path.exists(PAGE) else TEMPLATE, encoding='utf-8', newline='').read()
+    had = len(re.findall(r'<tr><td>', base)) if START in base else 0
+    if not [r for r in rows if r['status'] != 'Active'] and had >= 3:
+        # A report that empties out in one pull is almost always a feed hiccup, not a healed roster.
+        print('FEED FAILED (empty report, page had %d rows), page left as is' % had)
+        sys.exit(1)
     nxt = next_game()
     cover = coverage()
-    base = open(PAGE if os.path.exists(PAGE) else TEMPLATE, encoding='utf-8', newline='').read()
-    page = build_head(base, now)
+    block, schema = faq(rows, now)
+    page = build_head(base, now, rows, schema)
     page = re.sub(r'<article class="article".*?</article>', lambda m: article(now, nxt, rows, cover), page, flags=re.S)
+    page = page.replace('  <h2>How to read it</h2>', block + '\n  <h2>How to read it</h2>', 1)
     open(PAGE, 'w', encoding='utf-8', newline='').write(page)
     print('injury report: %d players listed, next game %s' % (len(rows), nxt))
 

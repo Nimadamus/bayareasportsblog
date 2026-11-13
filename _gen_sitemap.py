@@ -17,6 +17,10 @@ DAILY = {'index.html','blog.html','giants.html','49ers.html','warriors.html',
          'athletics.html','sharks.html'}
 
 def published(path, html):
+    if path.replace(os.sep, '/').endswith('injury-report.html'):   # living pages: lastmod = last real change
+        m = re.search(r'"dateModified"\s*:\s*"([^"]+)"', html)
+        if m:
+            return m.group(1)
     m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})"', html)
     if m:
         return m.group(1)
@@ -47,7 +51,8 @@ for f in daily:
 art_rows = []
 for f in arts:
     html = open(f, encoding='utf-8', errors='ignore').read()
-    art_rows.append((BASE + f.replace(os.sep, '/'), published(f, html), 'monthly', '0.7', card_for(html)))
+    live = f.endswith('injury-report.html')
+    art_rows.append((BASE + f.replace(os.sep, '/'), published(f, html), 'hourly' if live else 'monthly', '0.9' if live else '0.7', card_for(html)))
 # newest articles first so crawlers meet the fresh URLs early
 art_rows.sort(key=lambda r: r[1], reverse=True)
 entries += art_rows
