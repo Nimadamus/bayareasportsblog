@@ -6,15 +6,24 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Fri, 13 Nov 2026 14:57:01 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 10:25:54 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Steph Curry Has a Torn Oblique, He&#39;s Out at Least Two Weeks, and I Counted Every Game</title>
+    <link>https://bayareasportsblog.com/articles/steph-curry-torn-oblique-out-two-weeks-warriors-schedule.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/steph-curry-torn-oblique-out-two-weeks-warriors-schedule.html</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <category>Warriors</category>
+    <description>Steph Curry has a torn right oblique and gets checked again in two weeks. That&#39;s at least seven games, the Spurs won the first by 38, so I got out the calendar.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/steph-curry-torn-oblique-out-two-weeks-warriors-schedule.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>A&#39;s Injury Report Today: Who Is on the IL and When They Return</title>
     <link>https://bayareasportsblog.com/articles/athletics-injury-report.html</link>
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>A&amp;#x27;s</category>
-    <description>The current Athletics injury report: every player listed, the injury, the status and when he is expected back, refreshed several times a day.</description>
+    <description>A&#39;s injury report for Sat, Nov 14: Leo De Vries (out), Wei-En Lin (out) and 10 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -32,7 +41,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Giants</category>
-    <description>The current San Francisco Giants injury report: every player listed, the injury, the status and when he is expected back, refreshed several times a day.</description>
+    <description>Giants injury report for Sat, Nov 14: Harrison Bader (out), Randy Rodriguez (out) and 11 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -41,7 +50,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Raiders</category>
-    <description>The current Las Vegas Raiders injury report: every player listed, the injury, the status and when he is expected back, refreshed several times a day.</description>
+    <description>Raiders injury report for Sat, Nov 14: Thomas Booker IV (questionable), Dont&#39;e Thornton Jr. (questionable) and 5 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -50,7 +59,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Sharks</category>
-    <description>The current San Jose Sharks injury report: every player listed, the injury, the status and when he is expected back, refreshed several times a day.</description>
+    <description>Sharks injury report for Sat, Nov 14: Alexander Wennberg (day to day), Igor Chernyshov (injured reserve) and 2 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The Colts fired their GM, Buckner is fed up at 2 and 4, and the 49ers have $41 million in cap space and a banged up defensive line. Go get Big Buck back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-deforest-buckner-trade-reunion-colts.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>Nick Bosa Is Out Monday Night. Juice and Evans Might Not Be.</title>
-    <link>https://bayareasportsblog.com/articles/49ers-nick-bosa-ruled-out-monday-night-commanders-juszczyk-evans.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-nick-bosa-ruled-out-monday-night-commanders-juszczyk-evans.html</guid>
-    <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers ruled Nick Bosa out for Monday night against Washington. Kyle Juszczyk has no tag, and Mike Evans is questionable with ribs and an Achilles.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-nick-bosa-ruled-out-monday-night-commanders-juszczyk-evans.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

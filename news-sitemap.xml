@@ -2,25 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/brandon-aiyuk-next-team-rams-chiefs-seahawks-practice-squad.html</loc>
+    <loc>https://bayareasportsblog.com/articles/steph-curry-torn-oblique-out-two-weeks-warriors-schedule.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>Brandon Aiyuk Next Team: Rams, Chiefs or Seahawks?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/warriors-streak-ends-rockets-steph-curry-abdominal-mri.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11</news:publication_date>
-      <news:title>Steph Grabs His Side, the Streak Dies in Houston, and Now We Wait on an MRI</news:title>
+      <news:publication_date>2026-11-14</news:publication_date>
+      <news:title>Steph Curry Has a Torn Oblique, He's Out at Least Two Weeks, and I Counted Every Game</news:title>
     </news:news>
   </url>
 </urlset>
