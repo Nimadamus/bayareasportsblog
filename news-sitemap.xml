@@ -2,36 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-cowboys-46-40-purdy-mccaffrey-deebo-shootout-mvp.html</loc>
+    <loc>https://bayareasportsblog.com/articles/49ers-vikings-mexico-city-mike-evans-back-flores-blitz.html</loc>
     <news:news>
       <news:publication>
         <news:name>Bay Area Sports Blog</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-11-16</news:publication_date>
-      <news:title>49ers 46, Cowboys 40: Purdy, McCaffrey, Deebo Win a Shootout</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/fernando-mendoza-first-nfl-start-raiders-seahawks-21-13.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-16</news:publication_date>
-      <news:title>Fernando Mendoza&amp;#x27;s First NFL Start: 7 for 7, Then Six Sacks</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://bayareasportsblog.com/articles/steph-curry-last-contract-knee-tribute-enjoy-him-now.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-18</news:publication_date>
-      <news:title>Steph Says This Is Probably His Last Contract, and I'm Not Ready for That</news:title>
+      <news:publication_date>2026-11-22</news:publication_date>
+      <news:title>Mike Evans Is Back, and Brian Flores Is Waiting in Mexico City</news:title>
     </news:news>
   </url>
 </urlset>
