@@ -6,8 +6,17 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Sun, 22 Nov 2026 13:51:01 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 12:48:25 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>49ers 35, Vikings 10: Purdy Near Perfect in Mexico City</title>
+    <link>https://bayareasportsblog.com/articles/49ers-vikings-35-10-mexico-city-purdy-near-perfect-world-champs.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-vikings-35-10-mexico-city-purdy-near-perfect-world-champs.html</guid>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Brock Purdy went 21 of 26 with three touchdowns as the 49ers crushed the Vikings 35 to 10 in Mexico City. Win it all now and they really are world champs.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-vikings-35-10-mexico-city-purdy-near-perfect-world-champs.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Mike Evans Is Back, and Brian Flores Is Waiting in Mexico City</title>
     <link>https://bayareasportsblog.com/articles/49ers-vikings-mexico-city-mike-evans-back-flores-blitz.html</link>
@@ -59,7 +68,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>A&amp;#x27;s</category>
-    <description>A&#39;s injury report for Sun, Nov 22: Ryan Lasko (out), Leo De Vries (out) and 9 more, with each injury, the status and when he is expected back.</description>
+    <description>A&#39;s injury report for Mon, Nov 23: Ryan Lasko (out), Leo De Vries (out) and 9 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -77,7 +86,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Giants</category>
-    <description>Giants injury report for Sun, Nov 22: Harrison Bader (out), Randy Rodriguez (out) and 10 more, with each injury, the status and when he is expected back.</description>
+    <description>Giants injury report for Mon, Nov 23: Harrison Bader (out), Randy Rodriguez (out) and 10 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -86,7 +95,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Raiders</category>
-    <description>Raiders injury report for Sun, Nov 22: Tonka Hemingway (out), Folorunso Fatukasi (questionable) and 7 more, with each injury, the status and when he is expected back.</description>
+    <description>Raiders injury report for Mon, Nov 23: Brock Bowers (out), Dont&#39;e Thornton Jr. (out) and 14 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -95,7 +104,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Sharks</category>
-    <description>Sharks injury report for Sun, Nov 22: Kiefer Sherwood (out), Igor Chernyshov (injured reserve) and 2 more, with each injury, the status and when he is expected back.</description>
+    <description>Sharks injury report for Mon, Nov 23: Kiefer Sherwood (out), Igor Chernyshov (injured reserve) and 2 more, with each injury, the status and when he is expected back.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -358,15 +367,6 @@
     <category>49ers</category>
     <description>The 49ers got DeForest Buckner back for a 2027 fourth. Four sacks, a bye week to install him, and the middle of this defensive line finally has a grown man.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-buckner-is-home-what-the-reunion-changes.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>0-3, and Yaxel Lendeborg Is Why I&#39;m Still Smiling</title>
-    <link>https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rough-start-reason-to-smile.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/warriors-yaxel-lendeborg-rough-start-reason-to-smile.html</guid>
-    <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    <category>Warriors</category>
-    <description>The Warriors are 0-3 after the Lakers, Grizzlies and Suns. Yaxel Lendeborg is at 18.7 points, 8.3 rebounds and 4.3 assists, and that&#39;s why I&#39;m smiling.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-yaxel-lendeborg-rough-start-reason-to-smile.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>
