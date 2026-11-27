@@ -31,8 +31,8 @@ core.TEAM_NAME, core.SPORT, core.SECTION = 'Bay Area sports teams', 'Multiple', 
 core.HUB_NAME, core.HUB_FILE, core.PAGE_NAME = 'Bay Area', 'bayarea.html', 'Bay Area Injury Report'
 core.PUBLISHED = '2026-11-13'
 core.TITLE = 'Bay Area Injury Report: 49ers, Raiders, Warriors, Giants'
-core.DESC = ("Every Bay Area team's injury report on one page: the 49ers, Raiders, Warriors, Giants, A's "
-             "and Sharks, with each injury, the status and when the player is expected back.")
+core.DESC = ("Injury reports for the 49ers, Raiders, Warriors, Giants, A's and Sharks, "
+             "with status and expected return for each player.")
 LINK = core.LINK
 
 

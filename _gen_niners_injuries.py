@@ -419,12 +419,18 @@ def names(rs, n):
 
 
 def desc_for(rows, now):
-    """Search snippet that changes with the report: the date plus the first names on it."""
+    """Search snippet that changes with the report. Stay at or under 155 characters."""
     rs = ordered(rows)
+    team, when = team_short(), day(now)
     if not rs:
-        return '%s injury report for %s: nobody is on the report right now. Refreshed through the day.' % (team_short(), day(now))
-    return ('%s injury report for %s: %s, with each injury, the status and when he is expected back.'
-            % (team_short(), day(now), names(rs, 2)))
+        return '%s injury report for %s: nobody is on the report right now.' % (team, when)
+    lead = '%s injury report for %s: ' % (team, when)
+    tail = '. Status and expected return for each.'
+    for n in (2, 1):
+        text = lead + names(rs, n) + tail
+        if len(text) <= 155:
+            return text
+    return '%s injury report for %s: who is out, questionable, or on reserve%s' % (team, when, tail)
 
 
 def faq(rows, now):

@@ -107,6 +107,7 @@ python _dashscan.py                              # no published .html/.xml may a
 python tools/voice_gate.py articles/<slug>.html  # HUMAN score, ship at 70+
 python tools/voice_gate.py --all --min 70        # nothing on the site may fall under 70
 python tools/social_meta_gate.py
+python tools/desc_len_check.py
 python tools/thumb_gate.py
 ```
 
