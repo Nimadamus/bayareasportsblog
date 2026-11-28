@@ -6,15 +6,24 @@
   <description>Every Bay Area team, argued about properly. The 49ers, Warriors, Giants, A's and Sharks, written by a fan, not a network.</description>
   <language>en-us</language>
   <copyright>Copyright 2026 Bay Area Sports Blog</copyright>
-  <lastBuildDate>Wed, 25 Nov 2026 20:39:55 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 01:57:49 +0000</lastBuildDate>
   <atom:link href="https://bayareasportsblog.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Mac Jones vs Seahawks: Purdy Out, Mac Starts for the 49ers</title>
+    <link>https://bayareasportsblog.com/articles/mac-jones-start-49ers-seahawks-purdy-out-week-12.html</link>
+    <guid isPermaLink="true">https://bayareasportsblog.com/articles/mac-jones-start-49ers-seahawks-purdy-out-week-12.html</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <category>49ers</category>
+    <description>Brock Purdy is out with a mid ankle sprain, so Mac Jones starts against the champion Seahawks at Levi&#39;s. Why one Niners fan is weirdly fired up.</description>
+    <enclosure url="https://bayareasportsblog.com/assets/img/cards/mac-jones-start-49ers-seahawks-purdy-out-week-12.jpg" type="image/jpeg" length="0"/>
+  </item>
   <item>
     <title>Brock Purdy Ankle Injury: Will He Play Against the Seahawks?</title>
     <link>https://bayareasportsblog.com/articles/brock-purdy-ankle-injury-seahawks-status-mac-jones.html</link>
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/brock-purdy-ankle-injury-seahawks-status-mac-jones.html</guid>
     <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     <category>49ers</category>
-    <description>Brock Purdy missed Wednesday practice with a low ankle sprain and is day to day for Seattle. Not a high ankle sprain, Mac Jones ready, and a Niners fan sweating it out.</description>
+    <description>Brock Purdy missed Wednesday practice with a low ankle sprain and is day to day for Seattle. Mac Jones is ready, and a Niners fan is sweating it.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/brock-purdy-ankle-injury-seahawks-status-mac-jones.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -41,7 +50,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/steph-curry-last-contract-knee-tribute-enjoy-him-now.html</guid>
     <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     <category>Warriors</category>
-    <description>Steph Curry says his new deal is probably his last, with his right knee wearing down at 38. A Warriors fan&#39;s tribute to the greatest shooter who ever lived, while we&#39;ve still got him.</description>
+    <description>Steph Curry says his new deal is probably his last, with his right knee wearing down at 38. A Warriors fan&#39;s tribute while we still have him.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/steph-curry-last-contract-knee-tribute-enjoy-him-now.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -77,7 +86,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/athletics-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>A&amp;#x27;s</category>
-    <description>A&#39;s injury report for Wed, Nov 25: Ryan Lasko (out), Leo De Vries (out) and 9 more, with each injury, the status and when he is expected back.</description>
+    <description>A&#39;s injury report for Fri, Nov 27: Ryan Lasko (out), Leo De Vries (out) and 9 more. Status and expected return for each.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/athletics-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -86,7 +95,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/bay-area-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Bay Area</category>
-    <description>Every Bay Area team&#39;s injury report on one page: the 49ers, Raiders, Warriors, Giants, A&#39;s and Sharks, with each injury, the status and when the player is expected back.</description>
+    <description>Injury reports for the 49ers, Raiders, Warriors, Giants, A&#39;s and Sharks, with status and expected return for each player.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/bay-area-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -95,7 +104,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/giants-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Giants</category>
-    <description>Giants injury report for Wed, Nov 25: Harrison Bader (out), Randy Rodriguez (out) and 10 more, with each injury, the status and when he is expected back.</description>
+    <description>Giants injury report for Fri, Nov 27: Harrison Bader (out), Randy Rodriguez (out) and 10 more. Status and expected return for each.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/giants-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -104,7 +113,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/raiders-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Raiders</category>
-    <description>Raiders injury report for Wed, Nov 25: Brock Bowers (questionable), Tonka Hemingway (questionable) and 9 more, with each injury, the status and when he is expected back.</description>
+    <description>Raiders injury report for Fri, Nov 27: Tonka Hemingway (out), Tim Keenan III (out) and 10 more. Status and expected return for each.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/raiders-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -113,7 +122,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/sharks-injury-report.html</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <category>Sharks</category>
-    <description>Sharks injury report for Wed, Nov 25: Jacob Trouba (out), Kiefer Sherwood (injured reserve) and 3 more, with each injury, the status and when he is expected back.</description>
+    <description>Sharks injury report for Fri, Nov 27: Jacob Trouba (out), Kiefer Sherwood (injured reserve) and 3 more. Status and expected return for each.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/sharks-injury-report.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -338,7 +347,7 @@
     <guid isPermaLink="true">https://bayareasportsblog.com/articles/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.html</guid>
     <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     <category>Warriors</category>
-    <description>Down 25 to the Lakers, Steph Curry dropped Luka Doncic with a crossover, hit the three, and scored 31 in a 112 to 95 comeback. At 38 he&#39;s averaging 29.2 a night.</description>
+    <description>Down 25 to the Lakers, Steph Curry dropped Luka Doncic, hit the three, and scored 31 in a 112 to 95 comeback. At 38 he is averaging 29.2 a night.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/steph-curry-age-38-drops-luka-doncic-warriors-comeback-lakers.jpg" type="image/jpeg" length="0"/>
   </item>
   <item>
@@ -358,15 +367,6 @@
     <category>Warriors</category>
     <description>The Warriors took Yaxel Lendeborg 11th and ten teams passed. Five games in he&#39;s at 22.6 points and 9.2 rebounds, and he looks built to play next to Steph Curry.</description>
     <enclosure url="https://bayareasportsblog.com/assets/img/cards/warriors-yaxel-lendeborg-rookie-of-the-year-curry-partner.jpg" type="image/jpeg" length="0"/>
-  </item>
-  <item>
-    <title>They Cut Jack Jones. DeForest Buckner Needed the Spot.</title>
-    <link>https://bayareasportsblog.com/articles/49ers-jack-jones-released-room-for-buckner.html</link>
-    <guid isPermaLink="true">https://bayareasportsblog.com/articles/49ers-jack-jones-released-room-for-buckner.html</guid>
-    <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    <category>49ers</category>
-    <description>The 49ers released Jack Jones on Wednesday so DeForest Buckner has a roster spot. Seven games, a benching in Atlanta, and a corner room that just got thinner.</description>
-    <enclosure url="https://bayareasportsblog.com/assets/img/cards/49ers-jack-jones-released-room-for-buckner.jpg" type="image/jpeg" length="0"/>
   </item>
 </channel>
 </rss>

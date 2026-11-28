@@ -2,17 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://bayareasportsblog.com/articles/49ers-vikings-35-10-mexico-city-purdy-near-perfect-world-champs.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Bay Area Sports Blog</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-23</news:publication_date>
-      <news:title>49ers 35, Vikings 10: Purdy Near Perfect in Mexico City</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://bayareasportsblog.com/articles/brock-purdy-ankle-injury-seahawks-status-mac-jones.html</loc>
     <news:news>
       <news:publication>
@@ -21,6 +10,17 @@
       </news:publication>
       <news:publication_date>2026-11-25</news:publication_date>
       <news:title>Brock Purdy Ankle Injury: Will He Play Against the Seahawks?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://bayareasportsblog.com/articles/mac-jones-start-49ers-seahawks-purdy-out-week-12.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Bay Area Sports Blog</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27</news:publication_date>
+      <news:title>Mac Jones vs Seahawks: Purdy Out, Mac Starts for the 49ers</news:title>
     </news:news>
   </url>
 </urlset>
